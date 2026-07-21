@@ -1,0 +1,15 @@
+{"question": "Which occupancy code applies to a hospital?", "expected_facts": ["316"]}
+{"question": "What is the occupancy code for general commercial property?", "expected_facts": ["311"]}
+{"question": "What is the occupancy code for general residential property?", "expected_facts": ["301"]}
+{"question": "What is the default construction code for a steel building when details are unknown?", "expected_facts": ["151"]}
+{"question": "What is Australia's UNICEDE country code?", "expected_facts": ["23"]}
+{"question": "What are the sub-perils of earthquake in Touchstone?", "expected_facts": ["fire following", "sprinkler leakage", "tsunami", "liquefaction"]}
+{"question": "Which import peril code covers all earthquake sub-perils combined?", "expected_facts": ["PEA"]}
+{"question": "Which RMS field stores the blanket limit in the account file?", "expected_facts": ["BLANLIMAMT"]}
+{"question": "Which RMS field is used for the attachment point (excess)?", "expected_facts": ["UNDCOVAMT"]}
+{"question": "Can annual aggregate limits be modelled in RMS RiskLink?", "expected_facts": ["cannot", "Risk Modeler"]}
+{"question": "In which RMS location file column do you enter a site deductible for earthquake?", "expected_facts": ["EQSITEDED"]}
+{"question": "What is California's FIPS state code?", "expected_facts": ["06"]}
+{"question": "Does California fall in the Pacific Northwest zone?", "expected_facts": ["no"]}
+{"question": "Policy is 100M xs 25M. What does the insurer pay for a 40M loss?", "expected_facts": ["15"]}
+{"question": "What does the occupancy code 306 represent?", "expected_facts": ["Apartments", "Condominium"]}

@@ -1,0 +1,11 @@
+.venv/
+.env
+data/
+__pycache__/
+*.pyc
+
+# Local Claude Code settings
+.claude/
+
+# Stray / unrelated files (not part of the project)
+Slip Coding.pdf

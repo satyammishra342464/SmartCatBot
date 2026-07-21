@@ -1,0 +1,14 @@
+# EXL Services theme (matches SmartCAT.Ai)
+[theme]
+base = "light"
+primaryColor = "#E84E0E"
+backgroundColor = "#F2F2F2"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#222222"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
