@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_denmark_lob_2-10.html",
+ "title": "Denmark Lines Of Business (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Denmark Lines Of Business (v2.10)\n \n\nLOB codes for Denmark supported by \nUNICEDE\n/2.\n\n| Code | Line of Business |\n| --- | --- |\n| RB | Residential Building |\n| RC | Residential Contents |\n| RBC | Residential Building & Contents |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |\n| AG | Agriculture |\n| GRH | Greenhouses |\n| ANG | Agriculture w/o Greenhouses |\n| AUTO | Automotive |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RB",
+     "Residential Building"
+    ],
+    [
+     "RC",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Building & Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AG",
+     "Agriculture"
+    ],
+    [
+     "GRH",
+     "Greenhouses"
+    ],
+    [
+     "ANG",
+     "Agriculture w/o Greenhouses"
+    ],
+    [
+     "AUTO",
+     "Automotive"
+    ]
+   ]
+  }
+ ]
+}

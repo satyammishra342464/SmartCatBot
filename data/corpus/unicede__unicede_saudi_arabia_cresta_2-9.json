@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_saudi_arabia_cresta_2-9.html",
+ "title": "Saudi Arabia CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Saudi Arabia \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Saudi Arabia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Saudi Arabia (187).\n\n| Area Tag | Zone |\n| --- | --- |\n| | Saudia Arabia |\n| 187-SAU_001 | Al-Riyadh |\n| 187-SAU_002 | Makkah Al-Mokarramah |\n| 187-SAU_003 | Al-Madinah Al-Monawarah |\n| 187-SAU_004 | Ash Sharqiyah |\n| 187-SAU_005 | Al-Qaseem |\n| 187-SAU_006 | Hail |\n| 187-SAU_007 | Tabouk |\n| 187-SAU_008 | Al-Hudud As-Samaliyya |\n| 187-SAU_009 | Jazan |\n| 187-SAU_010 | Najran |\n| 187-SAU_011 | Al-Baha |\n| 187-SAU_012 | Al-Jouf |\n| 187-SAU_014 | Aseer |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "",
+     "Saudia Arabia"
+    ],
+    [
+     "187-SAU_001",
+     "Al-Riyadh"
+    ],
+    [
+     "187-SAU_002",
+     "Makkah Al-Mokarramah"
+    ],
+    [
+     "187-SAU_003",
+     "Al-Madinah Al-Monawarah"
+    ],
+    [
+     "187-SAU_004",
+     "Ash Sharqiyah"
+    ],
+    [
+     "187-SAU_005",
+     "Al-Qaseem"
+    ],
+    [
+     "187-SAU_006",
+     "Hail"
+    ],
+    [
+     "187-SAU_007",
+     "Tabouk"
+    ],
+    [
+     "187-SAU_008",
+     "Al-Hudud As-Samaliyya"
+    ],
+    [
+     "187-SAU_009",
+     "Jazan"
+    ],
+    [
+     "187-SAU_010",
+     "Najran"
+    ],
+    [
+     "187-SAU_011",
+     "Al-Baha"
+    ],
+    [
+     "187-SAU_012",
+     "Al-Jouf"
+    ],
+    [
+     "187-SAU_014",
+     "Aseer"
+    ]
+   ]
+  }
+ ]
+}

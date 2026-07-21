@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_qatar_cresta_2-7.html",
+ "title": "Qatar CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Qatar \nCRESTA\n Codes (v2.7)\n\nCRESTA\n codes for Qatar supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Qatar (174).\n\n| Area Tag | Zone |\n| --- | --- |\n| 174-0 | Qatar |\n| 174-ZA | Z01: Al Daayen |\n| 174-KH | Z02: Al Khor |\n| 174-RA | Z03: Al Rayyan Al Jadeed |\n| 174-WA | Z04: Al Wakra |\n| 174-DA | Z05: Doha |\n| 174-MS | Z06: Madinat Al Shamal |\n| 174-US | Z07: Umm Slal |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "174-0",
+     "Qatar"
+    ],
+    [
+     "174-ZA",
+     "Z01: Al Daayen"
+    ],
+    [
+     "174-KH",
+     "Z02: Al Khor"
+    ],
+    [
+     "174-RA",
+     "Z03: Al Rayyan Al Jadeed"
+    ],
+    [
+     "174-WA",
+     "Z04: Al Wakra"
+    ],
+    [
+     "174-DA",
+     "Z05: Doha"
+    ],
+    [
+     "174-MS",
+     "Z06: Madinat Al Shamal"
+    ],
+    [
+     "174-US",
+     "Z07: Umm Slal"
+    ]
+   ]
+  }
+ ]
+}

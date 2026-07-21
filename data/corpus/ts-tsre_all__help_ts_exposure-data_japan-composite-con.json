@@ -1,0 +1,93 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_japan-composite-con.html",
+ "title": "Japan composite construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Japan composite construction codes\n\nThe composite construction codes supported by \nTouchstone\n.\n\nNote:\n \nTouchstone\n applies\n non-engineered building damage distributions to the following construction classes: 101,\n 102, 103, 104, 111, 112, 113, 114, 115, 173, 174, 178, 179, 261. This action occurs\n regardless of occupancy class, including the industrial facility (400-series) occupancy\n classes. This note applies to the \nVerisk Earthquake Model for Japan\n and to the\n \nVerisk Earthquake Model for Canada\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 161 | M: Fire-resistant reinforced concrete apartments and masonry\n dwellings | New residential fire code; concrete, concrete block, masonry, stone,\n fire-resistant dwellings. Currently supported only for locations in\n Japan. |\n| 162 | T: Fire-resistant non-apartment dwellings including reinforced concrete,\n masonry, and steel | New residential fire code; steel, semi-fire-resistant. Currently supported\n only for locations in Japan. |\n| 163 | H: Other Residential Dwellings (buildings other than M, T) | New residential fire code; other dwellings. Currently supported only for\n locations in Japan. |\n| 164 | 1: Fire-resistant reinforced concrete and masonry buildings | New commercial fire code; concrete, concrete block, masonry, stone,\n fire-resistant dwellings. Currently supported only for locations in\n Japan. |\n| 165 | 2: Semi-fire-resistant and steel buildings | New commercial fire code; steel, semi-fire-resistant. Currently supported\n only for locations in Japan. |\n| 166 | 3: Other Commercial Dwellings (buildings other than 1, 2) | New commercial fire code; other dwellings. Currently supported only for\n locations in Japan. |\n| 171 | A: Reinforced Concrete, Steel with Fire Insulation Dwellings | Main structure (column, beam, and floor) is constructed of concrete or\n steel covered with noncombustible material. Roof and external walls are\n built using nonflammable material. |\n| 172 | B: General Steel Dwellings | (1) External walls consist of any one of the following: concrete, concrete\n material, brick or stone masonry. (2) Steel structure with external walls of\n nonflammable material or covered with noncombustible material. |\n| 173 | C: Wood Frame with Fire Insulation Dwellings | (1) Wood frame with external walls of any of the following: cement or\n mortar plating, stone pitching or tile hinging. (2) Steel structure that\n does not come under Class B. Excluding building with external walls of\n boarding and/or synthetic resin hanging and/or cloth hanging. |\n| 174 | D: Other than A, B, C; or General Wood Dwellings | Building other than Class A, B, and C. |\n| 175 | SP: Reinforced Concrete Buildings | Main structure (column, beam, and floor) is constructed of concrete and all\n external walls are of any one of the following: concrete, concrete material,\n brick, or stone masonry. |\n| 176 | 1: Steel with Fire Insulation Buildings | (1) Main structure (column, beam, and floor) is constructed of concrete or\n steel covered with noncombustible material. Roof and external walls are\n built using nonflammable material. (2) Main structure (column, beam, and\n floor) is constructed of wood and/or steel covered with noncombustible\n material. Roof and external walls are built of or covered by nonflammable\n and/or semi-nonflammable material. Column, beam, floor, and external walls\n are to be resistant against the heat under normal fire conditions for at\n least 1 hour. |\n| 177 | 2: General Steel Buildings | (1) External walls consist of any one of the following: concrete / concrete\n block / brick / stone masonry. (2) Steel structure with external walls of\n nonflammable and/or semi-nonflammable material or covered with\n noncombustible material. (3) Main structure (column, beam, and floor) is\n constructed of wood and/or steel covered with noncombustible material. Roof\n and external walls consist of or are covered by nonflammable and/or\n semi-nonflammable materials. Column, beam, floor, and external walls to be\n resistant against the heat under normal fire conditions for at least 45\n minutes. |\n| 178 | 3: Wood Frame with Fire Insulation Buildings | (1) Wood frame (and not applicable to Class 1 or 2) with external walls of\n nonflammable and/or semi-nonflammable material or covered with\n noncombustible material. (2) Steel structure that does not come under Class\n 1 or 2. Excluding building with external walls of boarding and/or synthetic\n resin hanging and/or cloth hanging. |\n| 179 | 4: Other than SP, 1, 2, 3; or General Wood Frame | Buildings other than Class SP, 1, 2, and 3. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "161",
+     "M: Fire-resistant reinforced concrete apartments and masonry\n                        dwellings",
+     "New residential fire code; concrete, concrete block, masonry, stone,\n                        fire-resistant dwellings. Currently supported only for locations in\n                        Japan."
+    ],
+    [
+     "162",
+     "T: Fire-resistant non-apartment dwellings including reinforced concrete,\n                        masonry, and steel",
+     "New residential fire code; steel, semi-fire-resistant. Currently supported\n                        only for locations in Japan."
+    ],
+    [
+     "163",
+     "H: Other Residential Dwellings (buildings other than M, T)",
+     "New residential fire code; other dwellings. Currently supported only for\n                        locations in Japan."
+    ],
+    [
+     "164",
+     "1: Fire-resistant reinforced concrete and masonry buildings",
+     "New commercial fire code; concrete, concrete block, masonry, stone,\n                        fire-resistant dwellings. Currently supported only for locations in\n                        Japan."
+    ],
+    [
+     "165",
+     "2: Semi-fire-resistant and steel buildings",
+     "New commercial fire code; steel, semi-fire-resistant. Currently supported\n                        only for locations in Japan."
+    ],
+    [
+     "166",
+     "3: Other Commercial Dwellings (buildings other than 1, 2)",
+     "New commercial fire code; other dwellings. Currently supported only for\n                        locations in Japan."
+    ],
+    [
+     "171",
+     "A: Reinforced Concrete, Steel with Fire Insulation Dwellings",
+     "Main structure (column, beam, and floor) is constructed of concrete or\n                        steel covered with noncombustible material. Roof and external walls are\n                        built using nonflammable material."
+    ],
+    [
+     "172",
+     "B: General Steel Dwellings",
+     "(1) External walls consist of any one of the following: concrete, concrete\n                        material, brick or stone masonry. (2) Steel structure with external walls of\n                        nonflammable material or covered with noncombustible material."
+    ],
+    [
+     "173",
+     "C: Wood Frame with Fire Insulation Dwellings",
+     "(1) Wood frame with external walls of any of the following: cement or\n                        mortar plating, stone pitching or tile hinging. (2) Steel structure that\n                        does not come under Class B. Excluding building with external walls of\n                        boarding and/or synthetic resin hanging and/or cloth hanging."
+    ],
+    [
+     "174",
+     "D: Other than A, B, C; or General Wood Dwellings",
+     "Building other than Class A, B, and C."
+    ],
+    [
+     "175",
+     "SP: Reinforced Concrete Buildings",
+     "Main structure (column, beam, and floor) is constructed of concrete and all\n                        external walls are of any one of the following: concrete, concrete material,\n                        brick, or stone masonry."
+    ],
+    [
+     "176",
+     "1: Steel with Fire Insulation Buildings",
+     "(1) Main structure (column, beam, and floor) is constructed of concrete or\n                        steel covered with noncombustible material. Roof and external walls are\n                        built using nonflammable material. (2) Main structure (column, beam, and\n                        floor) is constructed of wood and/or steel covered with noncombustible\n                        material. Roof and external walls are built of or covered by nonflammable\n                        and/or semi-nonflammable material. Column, beam, floor, and external walls\n                        are to be resistant against the heat under normal fire conditions for at\n                        least 1 hour."
+    ],
+    [
+     "177",
+     "2: General Steel Buildings",
+     "(1) External walls consist of any one of the following: concrete / concrete\n                        block / brick / stone masonry. (2) Steel structure with external walls of\n                        nonflammable and/or semi-nonflammable material or covered with\n                        noncombustible material. (3) Main structure (column, beam, and floor) is\n                        constructed of wood and/or steel covered with noncombustible material. Roof\n                        and external walls consist of or are covered by nonflammable and/or\n                        semi-nonflammable materials. Column, beam, floor, and external walls to be\n                        resistant against the heat under normal fire conditions for at least 45\n                        minutes."
+    ],
+    [
+     "178",
+     "3: Wood Frame with Fire Insulation Buildings",
+     "(1) Wood frame (and not applicable to Class 1 or 2) with external walls of\n                        nonflammable and/or semi-nonflammable material or covered with\n                        noncombustible material. (2) Steel structure that does not come under Class\n                        1 or 2. Excluding building with external walls of boarding and/or synthetic\n                        resin hanging and/or cloth hanging."
+    ],
+    [
+     "179",
+     "4: Other than SP, 1, 2, 3; or General Wood Frame",
+     "Buildings other than Class SP, 1, 2, and 3."
+    ]
+   ]
+  }
+ ]
+}

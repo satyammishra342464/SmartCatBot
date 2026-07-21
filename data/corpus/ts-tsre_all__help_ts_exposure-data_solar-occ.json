@@ -1,0 +1,48 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_solar-occ.html",
+ "title": "Solar occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Solar occupancy codes \n\nSolar occupancy codes supported in \nTouchstone 2025\n for\n the \nVerisk Severe Thunderstorm Model for the United States\n.\n\nNote:\n For information about supported codes and limitations for this model,\n refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupation code | Category | Description |\n| --- | --- | --- |\n| 3001 | Residential Solar Energy Risk | Residential assets |\n| 3011 | Commercial Solar Energy Risk | Commercial assets |\n| 3020 | Utility Solar Unknown | Utility-scale assets with capacity unknown |\n| 3021 | Utility Solar Small Energy Risk | Utility-scale assets with capacity under 5 megawatts (MW) |\n| 3022 | Utility Solar Medium Energy Risk | Utility-scale assets with capacity between 5 MW and 25 MW |\n| 3023 | Utility Solar Large Energy Risk | Utility-scale assets with capacity above 25 MW |",
+ "tables": [
+  {
+   "headers": [
+    "Occupation code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "3001",
+     "Residential Solar Energy Risk",
+     "Residential assets"
+    ],
+    [
+     "3011",
+     "Commercial Solar Energy Risk",
+     "Commercial assets"
+    ],
+    [
+     "3020",
+     "Utility Solar Unknown",
+     "Utility-scale assets with capacity unknown"
+    ],
+    [
+     "3021",
+     "Utility Solar Small Energy Risk",
+     "Utility-scale assets with capacity under 5 megawatts (MW)"
+    ],
+    [
+     "3022",
+     "Utility Solar Medium Energy Risk",
+     "Utility-scale assets with capacity between 5 MW and 25 MW"
+    ],
+    [
+     "3023",
+     "Utility Solar Large Energy Risk",
+     "Utility-scale assets with capacity above 25 MW"
+    ]
+   ]
+  }
+ ]
+}

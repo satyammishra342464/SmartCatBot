@@ -1,0 +1,125 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_alaska_fips_2-6_4.html",
+ "title": "Alaska (AK) Counties (2.6)",
+ "section": "unicede",
+ "version": null,
+ "text": "Alaska (AK) Counties (2.6)\n\nFIPS codes for Alaska.\n\nNote:\n \nFor versions more recent than \nUNICEDE\n/2 2.6 see \nAlbania CRESTA Codes (v2.8)\n.\n\nFIPS State Code: 02\n \nEnter the U.S. country code (01) followed by the state and county code.\nFor example, for Denali County, enter \n01-02068\n.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 013 | Aleutian Islands East Borough |\n| 016 | Aleutian Islands West Borough |\n| 020 | Anchorage Borough |\n| 050 | Bethel Census Area |\n| 060 | Bristol Bay Borough |\n| 068 | Denali Borough |\n| 070 | Dillingham Census Area |\n| 090 | Fairbanks-North Star Borough |\n| 100 | Haines Borough |\n| 110 | Juneau City and Borough |\n| 122 | Kenai Peninsula Borough |\n| 130 | Ketchikan-Gateway Borough |\n| 150 | Kodiak Island Borough |\n| 164 | Lake and Peninsula Borough |\n| 170 | Matanuska-Susitna Borough |\n| 180 | Nome Census Area |\n| 185 | North Slope Borough |\n| 188 | Northwest Arctic Borough |\n| 201 | Prince of Wales-Outer Ketch |\n| 220 | Sitka City and Borough |\n| 232 | Skagway-Hoonah-Angoon |\n| 240 | Southeast Fairbanks Census Area |\n| 261 | Valdez-Cordova Census Area |\n| 270 | Wade Hampton Census Area |\n| 280 | Wrangell-Petersburg Area |\n| 282 | Yakutat City and Borough |\n| 290 | Yukon-Koyukuk Census Area |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "013",
+     "Aleutian Islands East Borough"
+    ],
+    [
+     "016",
+     "Aleutian Islands West Borough"
+    ],
+    [
+     "020",
+     "Anchorage Borough"
+    ],
+    [
+     "050",
+     "Bethel Census Area"
+    ],
+    [
+     "060",
+     "Bristol Bay Borough"
+    ],
+    [
+     "068",
+     "Denali Borough"
+    ],
+    [
+     "070",
+     "Dillingham Census Area"
+    ],
+    [
+     "090",
+     "Fairbanks-North Star Borough"
+    ],
+    [
+     "100",
+     "Haines Borough"
+    ],
+    [
+     "110",
+     "Juneau City and Borough"
+    ],
+    [
+     "122",
+     "Kenai Peninsula Borough"
+    ],
+    [
+     "130",
+     "Ketchikan-Gateway Borough"
+    ],
+    [
+     "150",
+     "Kodiak Island Borough"
+    ],
+    [
+     "164",
+     "Lake and Peninsula Borough"
+    ],
+    [
+     "170",
+     "Matanuska-Susitna Borough"
+    ],
+    [
+     "180",
+     "Nome Census Area"
+    ],
+    [
+     "185",
+     "North Slope Borough"
+    ],
+    [
+     "188",
+     "Northwest Arctic Borough"
+    ],
+    [
+     "201",
+     "Prince of Wales-Outer Ketch"
+    ],
+    [
+     "220",
+     "Sitka City and Borough"
+    ],
+    [
+     "232",
+     "Skagway-Hoonah-Angoon"
+    ],
+    [
+     "240",
+     "Southeast Fairbanks Census Area"
+    ],
+    [
+     "261",
+     "Valdez-Cordova Census Area"
+    ],
+    [
+     "270",
+     "Wade Hampton Census Area"
+    ],
+    [
+     "280",
+     "Wrangell-Petersburg Area"
+    ],
+    [
+     "282",
+     "Yakutat City and Borough"
+    ],
+    [
+     "290",
+     "Yukon-Koyukuk Census Area"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 20",
+ "section": "local-docs",
+ "version": null,
+ "text": "Excess\nSome policies include an excess, which appears after the policy limit in \nthe slip.\nIf the slip says “Excess of deductibles set forth below” , and the \ndeductibles are listed in another section, then use the deductible rules \nexplained in Deductible slides.\nEnter the excess amount in the UNDCOVAMT column of the ACC file.\nAggregate excess cannot be modeled in RMS RiskLink however \npossible in RM.\nIf a large deductible is called “self-insured retention” and is mentioned \nseparately , treat it as an excess.\nUNDCOVAMT\n25000000\n25000000\n25000000\n25000000\n25000000\n25000000",
+ "tables": []
+}

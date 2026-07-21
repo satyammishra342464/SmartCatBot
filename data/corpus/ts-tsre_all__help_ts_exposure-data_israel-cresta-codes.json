@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_israel-cresta-codes.html",
+ "title": "Israel CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Israel \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Israel.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| ISR_M | Central |\n| ISR_HA | Haifa |\n| ISR_JM | Jerusalem |\n| ISR_Z | Northern |\n| ISR_D | Southern |\n| ISR_TA | Tel Aviv |\n| ISR_X | West Bank |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "ISR_M",
+     "Central"
+    ],
+    [
+     "ISR_HA",
+     "Haifa"
+    ],
+    [
+     "ISR_JM",
+     "Jerusalem"
+    ],
+    [
+     "ISR_Z",
+     "Northern"
+    ],
+    [
+     "ISR_D",
+     "Southern"
+    ],
+    [
+     "ISR_TA",
+     "Tel Aviv"
+    ],
+    [
+     "ISR_X",
+     "West Bank"
+    ]
+   ]
+  }
+ ]
+}

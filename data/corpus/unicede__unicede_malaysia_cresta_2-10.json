@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_malaysia_cresta_2-10.html",
+ "title": "Malaysia CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Malaysia \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Malaysia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Malaysia (135).\n\n| Area Tag | Zone |\n| --- | --- |\n| 135-000 | Malaysia |\n| 135-001 | Z01: Johor |\n| 135-002 | Z02: Kedah |\n| 135-003 | Z03: Kelantan |\n| 135-004 | Z04: Melaka |\n| 135-005 | Z05: Negeri Sembilan |\n| 135-006 | Z06: Pahang |\n| 135-007 | Z07: Pulau Pinang |\n| 135-008 | Z08: Perak |\n| 135-009 | Z09: Perlis |\n| 135-010 | Z10: Selangor |\n| 135-011 | Z11: Terengganu |\n| 135-012 | Z12: Sabah |\n| 135-013 | Z13: Sarawak |\n| 135-014 | Z14: Wilayah Persekutuan Kuala Lumpur |\n| 135-015 | Z15: Wilayah Persekutuan Labuan |\n| 135-016 | Z16: Wilayah Persekutuan Putrajaya |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "135-000",
+     "Malaysia"
+    ],
+    [
+     "135-001",
+     "Z01: Johor"
+    ],
+    [
+     "135-002",
+     "Z02: Kedah"
+    ],
+    [
+     "135-003",
+     "Z03: Kelantan"
+    ],
+    [
+     "135-004",
+     "Z04: Melaka"
+    ],
+    [
+     "135-005",
+     "Z05: Negeri Sembilan"
+    ],
+    [
+     "135-006",
+     "Z06: Pahang"
+    ],
+    [
+     "135-007",
+     "Z07: Pulau Pinang"
+    ],
+    [
+     "135-008",
+     "Z08: Perak"
+    ],
+    [
+     "135-009",
+     "Z09: Perlis"
+    ],
+    [
+     "135-010",
+     "Z10: Selangor"
+    ],
+    [
+     "135-011",
+     "Z11: Terengganu"
+    ],
+    [
+     "135-012",
+     "Z12: Sabah"
+    ],
+    [
+     "135-013",
+     "Z13: Sarawak"
+    ],
+    [
+     "135-014",
+     "Z14: Wilayah Persekutuan Kuala Lumpur"
+    ],
+    [
+     "135-015",
+     "Z15: Wilayah Persekutuan Labuan"
+    ],
+    [
+     "135-016",
+     "Z16: Wilayah Persekutuan Putrajaya"
+    ]
+   ]
+  }
+ ]
+}

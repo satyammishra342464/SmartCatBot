@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_s-korea-province-codes.html",
+ "title": "South Korea Province Codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "South Korea Province Codes\n\nTouchstone\n supports the following province\n codes for South Korea.\n\n| Province Code | Province Name |\n| --- | --- |\n| 11 | Seoul |\n| 21 | Busan |\n| 22 | Daegu |\n| 23 | Incheon |\n| 24 | Gwangju |\n| 25 | Daejeon |\n| 26 | Ulsan |\n| 31 | Gyeonggi-do |\n| 32 | Gangwon-do |\n| 33 | Chungcheongbuk-do |\n| 34 | Chungcheongnam-do |\n| 35 | Jeollabuk-do |\n| 36 | Jeollanam-do |\n| 37 | Gyeongsangbuk-do |\n| 38 | Gyeongsangnam-do |\n| 39 | Jeju-do |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "11",
+     "Seoul"
+    ],
+    [
+     "21",
+     "Busan"
+    ],
+    [
+     "22",
+     "Daegu"
+    ],
+    [
+     "23",
+     "Incheon"
+    ],
+    [
+     "24",
+     "Gwangju"
+    ],
+    [
+     "25",
+     "Daejeon"
+    ],
+    [
+     "26",
+     "Ulsan"
+    ],
+    [
+     "31",
+     "Gyeonggi-do"
+    ],
+    [
+     "32",
+     "Gangwon-do"
+    ],
+    [
+     "33",
+     "Chungcheongbuk-do"
+    ],
+    [
+     "34",
+     "Chungcheongnam-do"
+    ],
+    [
+     "35",
+     "Jeollabuk-do"
+    ],
+    [
+     "36",
+     "Jeollanam-do"
+    ],
+    [
+     "37",
+     "Gyeongsangbuk-do"
+    ],
+    [
+     "38",
+     "Gyeongsangnam-do"
+    ],
+    [
+     "39",
+     "Jeju-do"
+    ]
+   ]
+  }
+ ]
+}

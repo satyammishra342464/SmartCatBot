@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_belgium-cresta-codes.html",
+ "title": "Belgium CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Belgium \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Belgium.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| BEL_1 | BEL_1 |\n| BEL_2 | BEL_2 |\n| BEL_3 | BEL_3 |\n| BEL_4 | BEL_4 |\n| BEL_5 | BEL_5 |\n| BEL_6 | BEL_6 |\n| BEL_7 | BEL_7 |\n| BEL_8 | BEL_8 |\n| BEL_9 | BEL_9 |\n| BEL_OWT | Belgium Offshore Wind Turbines |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "BEL_1",
+     "BEL_1"
+    ],
+    [
+     "BEL_2",
+     "BEL_2"
+    ],
+    [
+     "BEL_3",
+     "BEL_3"
+    ],
+    [
+     "BEL_4",
+     "BEL_4"
+    ],
+    [
+     "BEL_5",
+     "BEL_5"
+    ],
+    [
+     "BEL_6",
+     "BEL_6"
+    ],
+    [
+     "BEL_7",
+     "BEL_7"
+    ],
+    [
+     "BEL_8",
+     "BEL_8"
+    ],
+    [
+     "BEL_9",
+     "BEL_9"
+    ],
+    [
+     "BEL_OWT",
+     "Belgium Offshore Wind Turbines"
+    ]
+   ]
+  }
+ ]
+}

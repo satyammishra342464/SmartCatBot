@@ -1,0 +1,133 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_us-perils.html",
+ "title": "United States perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "United States perils\n\nPerils and peril codes that \nTouchstone\n\n supports for the United States.\nWildfire sub-peril is available for U.S. exposures only, by separate license.\n\nNote:\n With \nTouchstone\n 2021, you can\n import hail, tornado, and straight-line wind as separate perils, for the \nVerisk Severe Thunderstorm Model for the United States\n only. You can use the exposures for both the current\n and previous (archive) versions of the model. The new codes are PHL (hail), PTD\n (tornado), and PSW (straight-line wind).\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PEA | All earthquake perils including wildfire/bushfire | |\n| PEF | Fire (wildfire/bushfire, fire following earthquake) | |\n| PFF | Fire following only | |\n| PES | Earthquake shake only | |\n| PFL | Inland flood | Applies to on-plain and off-plain flooding associated with non-tropical\n systems in the contiguous U.S. |\n| PHL | Added in version 9.0: Severe thunderstorm with hail ( Verisk Severe Thunderstorm Model for the United States only) | |\n| PLS | Landslide | |\n| PNC | Non-catastrophe | Important: Non-catastrophe loss analyses were retired in Touchstone 2021 (9.0).\n Therefore, these fields do not affect losses. |\n| PPH | Precipitation flood for the Verisk Hurricane Model for the United States | |\n| PSH | Hurricane storm surge | |\n| PSL | Earthquake sprinkler leakage only | |\n| PSW | Added in version 9.0: Severe thunderstorm with straight- line wind ( Verisk Severe Thunderstorm Model for the United States only) | |\n| PTD | Added in version 9.0: Severe thunderstorm with tornado ( Verisk Severe Thunderstorm Model for the United States only) | |\n| PTR | Terrorism | |\n| PTS | Tsunami | |\n| PWA | All wind perils (tropical cyclone, severe storm, and winter\n storm) | Winter storm sub-peril is valid for U.S. exposures only. |\n| PWB | Wildfire/bushfire only | |\n| PWF | All wind and fire following earthquake perils, and\n wildfire/bushfire | |\n| PWH | Tropical cyclone only | Plate glass sub-peril is available with Verisk Hurricane Model for the United States , by separate license. |\n| PWT | Severe thunderstorm | |\n| PWW | Winter storm | |\n| PWX | Severe storm (wind excluding tropical cyclone) | Winter storm sub-peril is valid for U.S. exposures only. |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PEA",
+     "All earthquake perils including wildfire/bushfire",
+     ""
+    ],
+    [
+     "PEF",
+     "Fire (wildfire/bushfire, fire following earthquake)",
+     ""
+    ],
+    [
+     "PFF",
+     "Fire following only",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PFL",
+     "Inland flood",
+     "Applies to on-plain and off-plain flooding associated with non-tropical\n                        systems in the contiguous U.S."
+    ],
+    [
+     "PHL",
+     "Added in version 9.0: Severe thunderstorm with hail ( Verisk Severe Thunderstorm Model for the United States only)",
+     ""
+    ],
+    [
+     "PLS",
+     "Landslide",
+     ""
+    ],
+    [
+     "PNC",
+     "Non-catastrophe",
+     "Important: Non-catastrophe loss analyses were retired in Touchstone 2021 (9.0).\n                           Therefore, these fields do not affect losses."
+    ],
+    [
+     "PPH",
+     "Precipitation flood for the Verisk Hurricane Model for the United States",
+     ""
+    ],
+    [
+     "PSH",
+     "Hurricane storm surge",
+     ""
+    ],
+    [
+     "PSL",
+     "Earthquake sprinkler leakage only",
+     ""
+    ],
+    [
+     "PSW",
+     "Added in version 9.0: Severe thunderstorm with straight- line wind ( Verisk Severe Thunderstorm Model for the United States only)",
+     ""
+    ],
+    [
+     "PTD",
+     "Added in version 9.0: Severe thunderstorm with tornado ( Verisk Severe Thunderstorm Model for the United States only)",
+     ""
+    ],
+    [
+     "PTR",
+     "Terrorism",
+     ""
+    ],
+    [
+     "PTS",
+     "Tsunami",
+     ""
+    ],
+    [
+     "PWA",
+     "All wind perils (tropical cyclone, severe storm, and winter\n                        storm)",
+     "Winter storm sub-peril is valid for U.S. exposures only."
+    ],
+    [
+     "PWB",
+     "Wildfire/bushfire only",
+     ""
+    ],
+    [
+     "PWF",
+     "All wind and fire following earthquake perils, and\n                        wildfire/bushfire",
+     ""
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only",
+     "Plate glass sub-peril is available with Verisk Hurricane Model for the United States , by separate license."
+    ],
+    [
+     "PWT",
+     "Severe thunderstorm",
+     ""
+    ],
+    [
+     "PWW",
+     "Winter storm",
+     ""
+    ],
+    [
+     "PWX",
+     "Severe storm (wind excluding tropical cyclone)",
+     "Winter storm sub-peril is valid for U.S. exposures only."
+    ]
+   ]
+  }
+ ]
+}

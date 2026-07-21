@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_haiti-province-codes.html",
+ "title": "Haiti province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Haiti province codes\n\nTouchstone\n supports the following province\n codes for Haiti.\n\n| Province Code | Province Name |\n| --- | --- |\n| 1 | Artibonite |\n| 2 | Centre |\n| 3 | Grand' Anse |\n| 4 | Nord |\n| 5 | Nord-Est |\n| 6 | Nord-Ouest |\n| 7 | Ouest |\n| 8 | Sud |\n| 9 | Sud-Est |\n| 10 | Nippes |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Artibonite"
+    ],
+    [
+     "2",
+     "Centre"
+    ],
+    [
+     "3",
+     "Grand' Anse"
+    ],
+    [
+     "4",
+     "Nord"
+    ],
+    [
+     "5",
+     "Nord-Est"
+    ],
+    [
+     "6",
+     "Nord-Ouest"
+    ],
+    [
+     "7",
+     "Ouest"
+    ],
+    [
+     "8",
+     "Sud"
+    ],
+    [
+     "9",
+     "Sud-Est"
+    ],
+    [
+     "10",
+     "Nippes"
+    ]
+   ]
+  }
+ ]
+}

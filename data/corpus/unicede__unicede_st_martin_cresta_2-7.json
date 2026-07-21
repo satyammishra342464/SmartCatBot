@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_st_martin_cresta_2-7.html",
+ "title": "St. Martin Subarea Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "St. Martin Subarea Codes (v2.7)\n \n\nSubarea code for St. Martin supported by \nUNICEDE\n/2.\n\nThe code below is for Saint Martin (17).\n\n| Area Tag | Name |\n| --- | --- |\n| 17-000 | Saint Martin |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "17-000",
+     "Saint Martin"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,353 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_europe-con-class-codes.html",
+ "title": "Europe construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Europe construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for Europe.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction code | Construction class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood Frame (Modern) |\n| Wood | 103 | Masonry Veneer |\n| Masonry | 111 | Masonry |\n| Masonry | 112 | Adobe |\n| Masonry | 113 | Rubble Stone Masonry |\n| Masonry | 114 | Unreinforced Masonry - Bearing Wall |\n| Masonry | 115 | Unreinforced Masonry - Bearing Frame |\n| Masonry | 116 | Reinforced Masonry |\n| Masonry | 117 | Reinforced Masonry Shear Wall (with MRF) |\n| Masonry | 118 | Reinforced Masonry Shear Wall (without MRF) |\n| Masonry | 120 | Confined Masonry |\n| Concrete | 131 | Reinforced Concrete |\n| Concrete | 132 | Reinforced Concrete Shear Wall (with MRF) |\n| Concrete | 133 | Reinforced Concrete Shear Wall (without MRF) |\n| Concrete | 134 | Reinforced Concrete MRF - Ductile |\n| Concrete | 135 | Reinforced Concrete MRF - Non-Ductile |\n| Concrete | 136 | Tilt-Up |\n| Concrete | 137 | Pre-cast Concrete |\n| Concrete | 138 | Pre-cast Concrete with Shear Wall |\n| Concrete | 139 | Reinforced Concrete MRF |\n| Concrete | 140 | Reinforced Concrete MRF with URM |\n| Steel | 151 | Steel |\n| Steel | 152 | Light Metal |\n| Steel | 153 | Braced Steel Frame |\n| Steel | 154 | Steel MRF - Perimeter |\n| Steel | 155 | Steel MRF - Distributed |\n| Steel | 156 | Steel MRF |\n| Steel | 157 | Steel Frame with URM |\n| Steel | 158 | Steel Frame with Concrete Shear Wall |\n| Steel | 159 | Steel Reinforced Concrete |\n| Mobile Homes | 191 | Mobile Homes |\n| Mobile Homes | 192 | Mobile Home with No Tie-Downs |\n| Mobile Homes | 193 | Mobile Home with Partial Tie-Downs |\n| Mobile Homes | 194 | Mobile Homes with Full Tie-Downs |\n| Onshore | 239 | Onshore Wind Turbine |\n| Offshore | 240 | Offshore Wind Turbine |\n| Miscellaneous | 259 | Transit Warehouse |\n| Miscellaneous | 260 | Marine Hull |\n| Automobiles | 261 | Automobiles |\n| Marine Cargo | 270 | Carpool |\n| Marine cargo | 271 | General and Containerized Cargo |\n| Marine Cargo | 272 | Heavy Cargo |\n| Marine Cargo | 273 | Refrigerated Cargo |\n| Marine Cargo | 274 | Dry Bulk Cargo |\n| Marine Cargo | 275 | Liquid Bulk Cargo |\n| Marine Cargo | 276 | Unknown Cargo |\n| Marine cargo | 2701 | Automobiles |\n| Marine cargo | 2702 | Break Bulk |\n| Marine cargo | 2703 | Dry Bulk |\n| Marine cargo | 2704 | Liquid Bulk |\n| Marine cargo | 2705 | Consumables |\n| Marine cargo | 2706 | Temperature-controlled |\n| Marine cargo | 2707 | Electronics |\n| Marine cargo | 2708 | Chemical Products |\n| Marine cargo | 2709 | Explosives |\n| Marine cargo | 2710 | General Cargo |\n| Marine cargo | 2711 | Heavy Industry |\n| Marine cargo | 2712 | Light Industry |\n| Marine cargo | 2713 | Petroleum Products |\n| Marine cargo | 2714 | Pharmaceuticals |\n| Marine cargo | 2715 | Project Cargo |\n| Marine cargo | 2716 | Livestock |\n| Marine cargo | 2717 | General Specie |\n| Marine cargo | 2718 | Fine Art & Collectibles |\n| Marine cargo | 2719 | Cash In Transit |\n| Marine cargo | 2720 | Jewelers Blocks |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction code",
+    "Construction class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood Frame (Modern)"
+    ],
+    [
+     "Wood",
+     "103",
+     "Masonry Veneer"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "Masonry",
+     "112",
+     "Adobe"
+    ],
+    [
+     "Masonry",
+     "113",
+     "Rubble Stone Masonry"
+    ],
+    [
+     "Masonry",
+     "114",
+     "Unreinforced Masonry - Bearing Wall"
+    ],
+    [
+     "Masonry",
+     "115",
+     "Unreinforced Masonry - Bearing Frame"
+    ],
+    [
+     "Masonry",
+     "116",
+     "Reinforced Masonry"
+    ],
+    [
+     "Masonry",
+     "117",
+     "Reinforced Masonry Shear Wall (with MRF)"
+    ],
+    [
+     "Masonry",
+     "118",
+     "Reinforced Masonry Shear Wall (without MRF)"
+    ],
+    [
+     "Masonry",
+     "120",
+     "Confined Masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced Concrete"
+    ],
+    [
+     "Concrete",
+     "132",
+     "Reinforced Concrete Shear Wall (with MRF)"
+    ],
+    [
+     "Concrete",
+     "133",
+     "Reinforced Concrete Shear Wall (without MRF)"
+    ],
+    [
+     "Concrete",
+     "134",
+     "Reinforced Concrete MRF - Ductile"
+    ],
+    [
+     "Concrete",
+     "135",
+     "Reinforced Concrete MRF - Non-Ductile"
+    ],
+    [
+     "Concrete",
+     "136",
+     "Tilt-Up"
+    ],
+    [
+     "Concrete",
+     "137",
+     "Pre-cast Concrete"
+    ],
+    [
+     "Concrete",
+     "138",
+     "Pre-cast Concrete with Shear Wall"
+    ],
+    [
+     "Concrete",
+     "139",
+     "Reinforced Concrete MRF"
+    ],
+    [
+     "Concrete",
+     "140",
+     "Reinforced Concrete MRF with URM"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "Steel",
+     "152",
+     "Light Metal"
+    ],
+    [
+     "Steel",
+     "153",
+     "Braced Steel Frame"
+    ],
+    [
+     "Steel",
+     "154",
+     "Steel MRF - Perimeter"
+    ],
+    [
+     "Steel",
+     "155",
+     "Steel MRF - Distributed"
+    ],
+    [
+     "Steel",
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "Steel",
+     "157",
+     "Steel Frame with URM"
+    ],
+    [
+     "Steel",
+     "158",
+     "Steel Frame with Concrete Shear Wall"
+    ],
+    [
+     "Steel",
+     "159",
+     "Steel Reinforced Concrete"
+    ],
+    [
+     "Mobile Homes",
+     "191",
+     "Mobile Homes"
+    ],
+    [
+     "Mobile Homes",
+     "192",
+     "Mobile Home with No Tie-Downs"
+    ],
+    [
+     "Mobile Homes",
+     "193",
+     "Mobile Home with Partial Tie-Downs"
+    ],
+    [
+     "Mobile Homes",
+     "194",
+     "Mobile Homes with Full Tie-Downs"
+    ],
+    [
+     "Onshore",
+     "239",
+     "Onshore Wind Turbine"
+    ],
+    [
+     "Offshore",
+     "240",
+     "Offshore Wind Turbine"
+    ],
+    [
+     "Miscellaneous",
+     "259",
+     "Transit Warehouse"
+    ],
+    [
+     "Miscellaneous",
+     "260",
+     "Marine Hull"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ],
+    [
+     "Marine Cargo",
+     "270",
+     "Carpool"
+    ],
+    [
+     "Marine cargo",
+     "271",
+     "General and Containerized Cargo"
+    ],
+    [
+     "Marine Cargo",
+     "272",
+     "Heavy Cargo"
+    ],
+    [
+     "Marine Cargo",
+     "273",
+     "Refrigerated Cargo"
+    ],
+    [
+     "Marine Cargo",
+     "274",
+     "Dry Bulk Cargo"
+    ],
+    [
+     "Marine Cargo",
+     "275",
+     "Liquid Bulk Cargo"
+    ],
+    [
+     "Marine Cargo",
+     "276",
+     "Unknown Cargo"
+    ],
+    [
+     "Marine cargo",
+     "2701",
+     "Automobiles"
+    ],
+    [
+     "Marine cargo",
+     "2702",
+     "Break Bulk"
+    ],
+    [
+     "Marine cargo",
+     "2703",
+     "Dry Bulk"
+    ],
+    [
+     "Marine cargo",
+     "2704",
+     "Liquid Bulk"
+    ],
+    [
+     "Marine cargo",
+     "2705",
+     "Consumables"
+    ],
+    [
+     "Marine cargo",
+     "2706",
+     "Temperature-controlled"
+    ],
+    [
+     "Marine cargo",
+     "2707",
+     "Electronics"
+    ],
+    [
+     "Marine cargo",
+     "2708",
+     "Chemical Products"
+    ],
+    [
+     "Marine cargo",
+     "2709",
+     "Explosives"
+    ],
+    [
+     "Marine cargo",
+     "2710",
+     "General Cargo"
+    ],
+    [
+     "Marine cargo",
+     "2711",
+     "Heavy Industry"
+    ],
+    [
+     "Marine cargo",
+     "2712",
+     "Light Industry"
+    ],
+    [
+     "Marine cargo",
+     "2713",
+     "Petroleum Products"
+    ],
+    [
+     "Marine cargo",
+     "2714",
+     "Pharmaceuticals"
+    ],
+    [
+     "Marine cargo",
+     "2715",
+     "Project Cargo"
+    ],
+    [
+     "Marine cargo",
+     "2716",
+     "Livestock"
+    ],
+    [
+     "Marine cargo",
+     "2717",
+     "General Specie"
+    ],
+    [
+     "Marine cargo",
+     "2718",
+     "Fine Art & Collectibles"
+    ],
+    [
+     "Marine cargo",
+     "2719",
+     "Cash In Transit"
+    ],
+    [
+     "Marine cargo",
+     "2720",
+     "Jewelers Blocks"
+    ]
+   ]
+  }
+ ]
+}

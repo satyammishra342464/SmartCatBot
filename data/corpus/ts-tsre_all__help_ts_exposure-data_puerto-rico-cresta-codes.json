@@ -1,0 +1,329 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_puerto-rico-cresta-codes.html",
+ "title": "Puerto Rico CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Puerto Rico \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Puerto Rico.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Zone Aguadilla |\n| 2 | Zone Isabela |\n| 3 | Zone Quebradillas |\n| 4 | Zone Camuy |\n| 5 | Zone Hatillo |\n| 6 | Zone Arecibo |\n| 7 | Zone Barceloneta |\n| 8 | Zone Florida |\n| 9 | Zone Manati |\n| 10 | Zone Vega Baja |\n| 11 | Zone Vega Alta |\n| 12 | Zone Dorado |\n| 13 | Zone Toa Baja |\n| 14 | Zone Catano |\n| 15 | Zone Guaynabo |\n| 16 | Zone San Juan |\n| 17 | Zone Carolina |\n| 18 | Zone Loiza |\n| 19 | Zone Rio Grande |\n| 20 | Zone Luquillo |\n| 21 | Zone Fajardo |\n| 22 | Zone Culebra |\n| 23 | Zone Rincon |\n| 24 | Zone Aguada |\n| 25 | Zone Anasco |\n| 26 | Zone Moca |\n| 27 | Zone San Sebastian |\n| 28 | Zone Lares |\n| 29 | Zone Utuado |\n| 30 | Zone Ciales |\n| 31 | Zone Morovis |\n| 32 | Zone Corozal |\n| 33 | Zone Toa Alta |\n| 34 | Zone Naranjito |\n| 35 | Zone Bayamon |\n| 36 | Zone Trujillo Alto |\n| 37 | Zone Canovanas |\n| 38 | Zone Ceiba |\n| 39 | Zone Mayaguez |\n| 40 | Zone Las Marias |\n| 41 | Zone Maricao |\n| 42 | Zone Adjuntas |\n| 43 | Zone Jayuya |\n| 44 | Zone Orocovis |\n| 45 | Zone Barranquitas |\n| 46 | Zone Comerio |\n| 47 | Zone Aguas Buenas |\n| 48 | Zone Cidra |\n| 49 | Zone Caguas |\n| 50 | Zone Gurabo |\n| 51 | Zone Juncos |\n| 52 | Zone Las Piedras |\n| 53 | Zone Naguabo |\n| 54 | Zone Humacao |\n| 55 | Zone Vieques |\n| 56 | Zone Hormigueros |\n| 57 | Zone San German |\n| 58 | Zone Sabana Grande |\n| 59 | Zone Yauco |\n| 60 | Zone Guayanilla |\n| 61 | Zone Penuelas |\n| 62 | Zone Ponce |\n| 63 | Zone Villalba |\n| 64 | Zone Coamo |\n| 65 | Zone Aibonito |\n| 66 | Zone Cayey |\n| 67 | Zone San Lorenzo |\n| 68 | Zone Yabucoa |\n| 69 | Zone Cabo Rojo |\n| 70 | Zone Lajas |\n| 71 | Zone Guanica |\n| 72 | Zone Juana Diaz |\n| 73 | Zone Santa Isabel |\n| 74 | Zone Salinas |\n| 75 | Zone Guayama |\n| 76 | Zone Arroyo |\n| 77 | Zone Patillas |\n| 78 | Zone Maunabo |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Zone Aguadilla"
+    ],
+    [
+     "2",
+     "Zone Isabela"
+    ],
+    [
+     "3",
+     "Zone Quebradillas"
+    ],
+    [
+     "4",
+     "Zone Camuy"
+    ],
+    [
+     "5",
+     "Zone Hatillo"
+    ],
+    [
+     "6",
+     "Zone Arecibo"
+    ],
+    [
+     "7",
+     "Zone Barceloneta"
+    ],
+    [
+     "8",
+     "Zone Florida"
+    ],
+    [
+     "9",
+     "Zone Manati"
+    ],
+    [
+     "10",
+     "Zone Vega Baja"
+    ],
+    [
+     "11",
+     "Zone Vega Alta"
+    ],
+    [
+     "12",
+     "Zone Dorado"
+    ],
+    [
+     "13",
+     "Zone Toa Baja"
+    ],
+    [
+     "14",
+     "Zone Catano"
+    ],
+    [
+     "15",
+     "Zone Guaynabo"
+    ],
+    [
+     "16",
+     "Zone San Juan"
+    ],
+    [
+     "17",
+     "Zone Carolina"
+    ],
+    [
+     "18",
+     "Zone Loiza"
+    ],
+    [
+     "19",
+     "Zone Rio Grande"
+    ],
+    [
+     "20",
+     "Zone Luquillo"
+    ],
+    [
+     "21",
+     "Zone Fajardo"
+    ],
+    [
+     "22",
+     "Zone Culebra"
+    ],
+    [
+     "23",
+     "Zone Rincon"
+    ],
+    [
+     "24",
+     "Zone Aguada"
+    ],
+    [
+     "25",
+     "Zone Anasco"
+    ],
+    [
+     "26",
+     "Zone Moca"
+    ],
+    [
+     "27",
+     "Zone San Sebastian"
+    ],
+    [
+     "28",
+     "Zone Lares"
+    ],
+    [
+     "29",
+     "Zone Utuado"
+    ],
+    [
+     "30",
+     "Zone Ciales"
+    ],
+    [
+     "31",
+     "Zone Morovis"
+    ],
+    [
+     "32",
+     "Zone Corozal"
+    ],
+    [
+     "33",
+     "Zone Toa Alta"
+    ],
+    [
+     "34",
+     "Zone Naranjito"
+    ],
+    [
+     "35",
+     "Zone Bayamon"
+    ],
+    [
+     "36",
+     "Zone Trujillo Alto"
+    ],
+    [
+     "37",
+     "Zone Canovanas"
+    ],
+    [
+     "38",
+     "Zone Ceiba"
+    ],
+    [
+     "39",
+     "Zone Mayaguez"
+    ],
+    [
+     "40",
+     "Zone Las Marias"
+    ],
+    [
+     "41",
+     "Zone Maricao"
+    ],
+    [
+     "42",
+     "Zone Adjuntas"
+    ],
+    [
+     "43",
+     "Zone Jayuya"
+    ],
+    [
+     "44",
+     "Zone Orocovis"
+    ],
+    [
+     "45",
+     "Zone Barranquitas"
+    ],
+    [
+     "46",
+     "Zone Comerio"
+    ],
+    [
+     "47",
+     "Zone Aguas Buenas"
+    ],
+    [
+     "48",
+     "Zone Cidra"
+    ],
+    [
+     "49",
+     "Zone Caguas"
+    ],
+    [
+     "50",
+     "Zone Gurabo"
+    ],
+    [
+     "51",
+     "Zone Juncos"
+    ],
+    [
+     "52",
+     "Zone Las Piedras"
+    ],
+    [
+     "53",
+     "Zone Naguabo"
+    ],
+    [
+     "54",
+     "Zone Humacao"
+    ],
+    [
+     "55",
+     "Zone Vieques"
+    ],
+    [
+     "56",
+     "Zone Hormigueros"
+    ],
+    [
+     "57",
+     "Zone San German"
+    ],
+    [
+     "58",
+     "Zone Sabana Grande"
+    ],
+    [
+     "59",
+     "Zone Yauco"
+    ],
+    [
+     "60",
+     "Zone Guayanilla"
+    ],
+    [
+     "61",
+     "Zone Penuelas"
+    ],
+    [
+     "62",
+     "Zone Ponce"
+    ],
+    [
+     "63",
+     "Zone Villalba"
+    ],
+    [
+     "64",
+     "Zone Coamo"
+    ],
+    [
+     "65",
+     "Zone Aibonito"
+    ],
+    [
+     "66",
+     "Zone Cayey"
+    ],
+    [
+     "67",
+     "Zone San Lorenzo"
+    ],
+    [
+     "68",
+     "Zone Yabucoa"
+    ],
+    [
+     "69",
+     "Zone Cabo Rojo"
+    ],
+    [
+     "70",
+     "Zone Lajas"
+    ],
+    [
+     "71",
+     "Zone Guanica"
+    ],
+    [
+     "72",
+     "Zone Juana Diaz"
+    ],
+    [
+     "73",
+     "Zone Santa Isabel"
+    ],
+    [
+     "74",
+     "Zone Salinas"
+    ],
+    [
+     "75",
+     "Zone Guayama"
+    ],
+    [
+     "76",
+     "Zone Arroyo"
+    ],
+    [
+     "77",
+     "Zone Patillas"
+    ],
+    [
+     "78",
+     "Zone Maunabo"
+    ]
+   ]
+  }
+ ]
+}

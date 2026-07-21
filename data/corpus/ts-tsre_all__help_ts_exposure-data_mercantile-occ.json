@@ -1,0 +1,31 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mercantile-occ.html",
+ "title": "Mercantile occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mercantile occupancy codes\n\nTouchstone\n supports the following mercantile\n occupancy class codes.\n\nNote:\n For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\nNote:\n The associated 2-digit Standard Industrial\n Classification (SIC) code or codes are listed for each occupancy code.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 335 | Gasoline Stations | 55 | Retail establishments selling gasoline for use in motor vehicles,\n including associated retail stores and service bays. Valid for all exposures\n in the U.S., South America, Australia, Canada, the Caribbean, Japan, South\n Korea, China, and Taiwan, and for exposures covered for wind in Europe. In\n other regions, use commercial occupancy code 312 for gasoline\n stations. Also valid for Verisk Earthquake Model for New Zealand . |\n| 336 | Automotive Repair Shops and Car Washes | 75 | Includes car washes and motor vehicle repair and service businesses that\n do not also sell gasoline. If the repair service is part of a gasoline\n station, with gasoline pumps under a canopy, use mercantile occupancy code 335 . Valid\n for all exposures in the U.S., South America, Australia, Canada, the\n Caribbean, Japan, South Korea, China, and Taiwan, and for exposures covered\n for wind in Europe. In other regions, use commercial occupancy code 314 for these\n occupancies. Also valid for Verisk Earthquake Model for New Zealand . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "335",
+     "Gasoline Stations",
+     "55",
+     "Retail establishments selling gasoline for use in motor vehicles,\n                        including associated retail stores and service bays. Valid for all exposures\n                        in the U.S., South America, Australia, Canada, the Caribbean, Japan, South\n                        Korea, China, and Taiwan, and for exposures covered for wind in Europe. In\n                        other regions, use commercial occupancy code 312 for gasoline\n                        stations. Also valid for Verisk Earthquake Model for New Zealand ."
+    ],
+    [
+     "336",
+     "Automotive Repair Shops and Car Washes",
+     "75",
+     "Includes car washes and motor vehicle repair and service businesses that\n                        do not also sell gasoline. If the repair service is part of a gasoline\n                        station, with gasoline pumps under a canopy, use mercantile occupancy code 335 . Valid\n                        for all exposures in the U.S., South America, Australia, Canada, the\n                        Caribbean, Japan, South Korea, China, and Taiwan, and for exposures covered\n                        for wind in Europe. In other regions, use commercial occupancy code 314 for these\n                        occupancies. Also valid for Verisk Earthquake Model for New Zealand ."
+    ]
+   ]
+  }
+ ]
+}

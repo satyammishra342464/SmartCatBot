@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_kyrgyzstan-cresta-codes.html",
+ "title": "Kyrgyzstan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Kyrgyzstan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Kyrgyzstan.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Talas |\n| 2 | Chuy |\n| 3 | Bishkek |\n| 4 | Issyk Kul' |\n| 5 | Dzhalal Abad |\n| 6 | Naryn |\n| 7 | Osh |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Talas"
+    ],
+    [
+     "2",
+     "Chuy"
+    ],
+    [
+     "3",
+     "Bishkek"
+    ],
+    [
+     "4",
+     "Issyk Kul'"
+    ],
+    [
+     "5",
+     "Dzhalal Abad"
+    ],
+    [
+     "6",
+     "Naryn"
+    ],
+    [
+     "7",
+     "Osh"
+    ]
+   ]
+  }
+ ]
+}

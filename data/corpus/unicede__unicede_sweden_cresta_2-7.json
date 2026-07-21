@@ -1,0 +1,105 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_sweden_cresta_2-7.html",
+ "title": "Sweden CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Sweden \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Sweden supported by \nUNICEDE\n/2.\nThe codes listed below include the country code for Sweden (09).\n\n| Area Tag | Zone |\n| --- | --- |\n| 09-000 | SWEDEN |\n| 09-001 | Stockholm |\n| 09-003 | Uppsala |\n| 09-004 | SÃ¶dermanland |\n| 09-005 | ÃstergÃ¶tland |\n| 09-006 | JÃ¶nkÃ¶ping |\n| 09-007 | Kronoberg |\n| 09-008 | Kalmar |\n| 09-009 | Gotland |\n| 09-010 | Blekinge |\n| 09-012 | SkÃ¥ne |\n| 09-013 | Halland |\n| 09-014 | VÃ¤stra GÃ¶taland |\n| 09-017 | VÃ¤rmland |\n| 09-018 | Ãrebro |\n| 09-019 | VÃ¤stmanland |\n| 09-020 | Dalarna |\n| 09-021 | GÃ¤vleborg |\n| 09-022 | VÃ¤sternorrland |\n| 09-023 | JÃ¤mtland |\n| 09-024 | VÃ¤sterbotten |\n| 09-025 | Norrbotten |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "09-000",
+     "SWEDEN"
+    ],
+    [
+     "09-001",
+     "Stockholm"
+    ],
+    [
+     "09-003",
+     "Uppsala"
+    ],
+    [
+     "09-004",
+     "SÃ¶dermanland"
+    ],
+    [
+     "09-005",
+     "ÃstergÃ¶tland"
+    ],
+    [
+     "09-006",
+     "JÃ¶nkÃ¶ping"
+    ],
+    [
+     "09-007",
+     "Kronoberg"
+    ],
+    [
+     "09-008",
+     "Kalmar"
+    ],
+    [
+     "09-009",
+     "Gotland"
+    ],
+    [
+     "09-010",
+     "Blekinge"
+    ],
+    [
+     "09-012",
+     "SkÃ¥ne"
+    ],
+    [
+     "09-013",
+     "Halland"
+    ],
+    [
+     "09-014",
+     "VÃ¤stra GÃ¶taland"
+    ],
+    [
+     "09-017",
+     "VÃ¤rmland"
+    ],
+    [
+     "09-018",
+     "Ãrebro"
+    ],
+    [
+     "09-019",
+     "VÃ¤stmanland"
+    ],
+    [
+     "09-020",
+     "Dalarna"
+    ],
+    [
+     "09-021",
+     "GÃ¤vleborg"
+    ],
+    [
+     "09-022",
+     "VÃ¤sternorrland"
+    ],
+    [
+     "09-023",
+     "JÃ¤mtland"
+    ],
+    [
+     "09-024",
+     "VÃ¤sterbotten"
+    ],
+    [
+     "09-025",
+     "Norrbotten"
+    ]
+   ]
+  }
+ ]
+}

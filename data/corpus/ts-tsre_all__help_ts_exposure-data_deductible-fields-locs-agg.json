@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_deductible-fields-locs-agg.html",
+ "title": "Location aggregate deductible fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location aggregate deductible fields\n\nLocation aggregate deductible fields.\nSee \nLocation aggregate deductible types\n for information about\n location aggregate deductible types.\n\n| Field / Aggregate deductible type | AGGD |\n| --- | --- |\n| Aggregate deductible | Field represents a monetary value, expressed as a value greater than or\n equal to 1. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate deductible type",
+    "AGGD"
+   ],
+   "rows": [
+    [
+     "Aggregate deductible",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,888 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_us-canada-con-class-codes.html",
+ "title": "United States and Canada construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "United States and Canada construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for the United States and Canada. Each listed code is not necessarily\n supported for both countries.\nSolar codes were added, only for the United States, in \nTouchstone\n 2025 (13.0).\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation available on the \nClient Portal\n.\n\n| Category | Construction code | Construction class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood frame (modern) |\n| Wood | 102 | Light wood frame |\n| Wood | 103 | Masonry veneer |\n| Wood | 104 | Heavy timber |\n| Wood | 108 | Hale construction (indigenous Hawaii) |\n| Masonry | 111 | Masonry |\n| Masonry | 112 | Adobe |\n| Masonry | 113 | Rubble stone masonry |\n| Masonry | 114 | Unreinforced masonry - bearing wall |\n| Masonry | 115 | Unreinforced masonry - bearing frame |\n| Masonry | 116 | Reinforced masonry |\n| Masonry | 117 | Reinforced masonry shear wall (with MRF) |\n| Masonry | 118 | Reinforced masonry shear wall (without MRF) |\n| Masonry | 119 | Joisted masonry |\n| Concrete | 131 | Reinforced concrete |\n| Concrete | 132 | Reinforced concrete shear wall (with MRF) |\n| Concrete | 133 | Reinforced concrete shear wall (without MRF) |\n| Concrete | 134 | Reinforced concrete MRF - ductile |\n| Concrete | 135 | Reinforced concrete MRF - non-ductile |\n| Concrete | 136 | Tilt-up |\n| Concrete | 137 | Pre-cast concrete |\n| Concrete | 138 | Pre-cast concrete with shear wall |\n| Concrete | 139 | Reinforced concrete MRF |\n| Concrete | 140 | Reinforced concrete MRF with URM |\n| Steel | 151 | Steel |\n| Steel | 152 | Light metal |\n| Steel | 153 | Braced steel frame |\n| Steel | 154 | Steel MRF - perimeter |\n| Steel | 155 | Steel MRF - distributed |\n| Steel | 156 | Steel MRF |\n| Steel | 157 | Steel frame with URM |\n| Steel | 158 | Steel frame with concrete shear wall |\n| Steel | 159 | Steel reinforced concrete |\n| Steel | 160 | Steel long span |\n| Special | 181 | Long span |\n| Special | 182 | Semi-wind-resistive |\n| Special | 183 | Wind-resistive |\n| Special | 185 | Unknown glass |\n| Special | 186 | Safety glass |\n| Special | 187 | Impact resistance glass |\n| Mobile Homes | 191 | Mobile homes |\n| Mobile Homes | 192 | Mobile home with no tie-downs |\n| Mobile Homes | 193 | Mobile home with partial tie-downs |\n| Mobile Homes | 194 | Mobile home with full tie-downs |\n| Bridges | 201 | Conventional - multiple span bridges |\n| Bridges | 2010 | Unknown bridge (non-seismic or seismic) |\n| Bridges | 2011 | Multi-span simply supported (non-seismic or seismic) concrete\n bridge |\n| Bridges | 2012 | Multi-span simply supported (non-seismic or seismic) steel\n bridge |\n| Bridges | 2013 | Single Span (Non-Seismic or Seismic) Bridge |\n| Bridges | 2015 | General Concrete (Non-Seismic or Seismic) Bridge |\n| Bridges | 2016 | General steel (non-seismic or seismic) bridge |\n| Bridges | 202 | Conventional - continuous Bridges |\n| Bridges | 2021 | Multi-span continuous (non-seismic or seismic) concrete bridge |\n| Bridges | 2022 | Multi-span continuous (non-seismic or seismic) steel bridge |\n| Bridges | 203 | Major bridges |\n| Bridges | 2031 | Major bridge (non-seismic orseismic) |\n| Pavements | 204 | Railroads |\n| Pavements | 205 | Highways |\n| Pavements | 206 | Runways |\n| Dams | 211 | Concrete dams |\n| Dams | 212 | Earthfill dams |\n| Tunnels | 213 | Alluvium tunnels |\n| Tunnels | 2131 | Alluvium tunnels |\n| Tunnels | 2132 | Alluvial bored tunnels |\n| Tunnels | 214 | Rock tunnels |\n| Tunnels | 2141 | Rock tunnels |\n| Tunnels | 2142 | Rock bored tunnels |\n| Tunnels | 215 | Cut and cover tunnels |\n| Tunnels | 2150 | Unknown tunnel |\n| Tunnels | 2151 | Rock cut and cover tunnels |\n| Tunnels | 2152 | Alluvial cut and cover tunnels |\n| Storage Tanks | 221 | Underground liquid tanks |\n| Storage Tanks | 2210 | Unknown tanks |\n| Storage Tanks | 2211 | Underground liquid tanks |\n| Storage Tanks | 222 | Underground solid tanks |\n| Storage Tanks | 2221 | Underground solid tanks |\n| Storage Tanks | 223 | On ground liquid tanks |\n| Storage Tanks | 2231 | On ground liquid tanks |\n| Storage Tanks | 2232 | On ground steel liquid tanks |\n| Storage Tanks | 2233 | On ground concrete liquid tanks |\n| Storage Tanks | 224 | On ground solid tanks |\n| Storage Tanks | 2241 | On ground solid tanks |\n| Storage Tanks | 2242 | On ground steel solid tanks |\n| Storage Tanks | 2243 | On ground concrete solid tanks |\n| Storage Tanks | 225 | Elevated liquid tanks |\n| Storage Tanks | 2251 | Elevated liquid tanks |\n| Storage Tanks | 2252 | Elevated steel liquid tanks |\n| Storage Tanks | 2253 | Elevated concrete liquid tanks |\n| Storage Tanks | 226 | Elevated solid tanks |\n| Storage Tanks | 2261 | Elevated solidtanks |\n| Storage Tanks | 2262 | Elevated steel solid tanks |\n| Storage Tanks | 2263 | Elevated concrete solid tanks |\n| Pipelines | 227 | Underground pipelines |\n| Pipelines | 2270 | Unknown pipeline |\n| Pipelines | 2271 | General underground pipelines |\n| Pipelines | 2272 | Underground cast iron pipelines |\n| Pipelines | 2273 | Underground asbestos cement pipelines |\n| Pipelines | 2274 | Undergroundconcrete pipelines |\n| Pipelines | 2275 | Underground PVC pipelines |\n| Pipelines | 2276 | Underground ductile iron pipelines |\n| Pipelines | 228 | At Grade pipelines |\n| Pipelines | 2281 | General at grade pipelines |\n| Pipelines | 2282 | At grade cast iron pipelines |\n| Pipelines | 2283 | At grade asbestos cement pipelines |\n| Pipelines | 2284 | At grade concrete pipelines |\n| Pipelines | 2285 | At Grade PVC pipelines |\n| Pipelines | 2286 | At Grade ductile iron pipelines |\n| Chimneys | 231 | Masonry chimneys |\n| Chimneys | 232 | Concrete chimneys |\n| Chimneys | 233 | Steel chimneys |\n| Towers | 234 | Electrical transmission - conventional |\n| Towers | 235 | Electrical transmission - major |\n| Towers | 236 | Broadcast towers |\n| Towers | 237 | Observation towers |\n| Towers | 238 | Offshore towers |\n| Equipment | 241 | Residential equipment |\n| Equipment | 242 | Office equipment |\n| Equipment | 243 | Electrical equipment |\n| Equipment | 244 | Mechanical equipment |\n| Equipment | 245 | High technology equipment |\n| Equipment | 246 | Trains, trucks, airplanes |\n| Miscellaneous | 250 | Railway property (not valid in the United States) |\n| Miscellaneous | 251 | Pumping stations |\n| Miscellaneous | 252 | Compressor stations |\n| Miscellaneous | 253 | Cranes |\n| Miscellaneous | 254 | Conveyor systems |\n| Miscellaneous | 255 | Canals |\n| Miscellaneous | 256 | Earth retaining structures |\n| Miscellaneous | 257 | Waterfront structures |\n| Miscellaneous | 258 | Offshore structures |\n| Miscellaneous | 259 | Transit warehouse |\n| Miscellaneous | 260 | Marine hull |\n| Automobiles | 261 | Automobiles |\n| Marine Craft (Boats and Yachts) | 265 | Pleasure boats and yachts |\n| Marine Craft (Boats and Yachts) | 266 | Pleasure boats and yachts - power boats |\n| Marine Craft (Boats and Yachts) | 267 | Pleasure boats and yachts - sail boats |\n| Marine Cargo | 270 | Carpool |\n| Marine Cargo | 2701 | Automobiles |\n| Marine Cargo | 2702 | Break bulk |\n| Marine Cargo | 2703 | Dry bulk |\n| Marine Cargo | 2704 | Liquid bulk |\n| Marine Cargo | 2705 | Consumables |\n| Marine Cargo | 2706 | Temperature-controlled |\n| Marine Cargo | 2707 | Electronics |\n| Marine Cargo | 2708 | Chemical products |\n| Marine Cargo | 2709 | Explosives |\n| Marine Cargo | 271 | General and containerized cargo |\n| Marine Cargo | 2710 | General cargo |\n| Marine Cargo | 2711 | Heavy industry |\n| Marine Cargo | 2712 | Light industry |\n| Marine Cargo | 2713 | Petroleum products |\n| Marine Cargo | 2714 | Pharmaceuticals |\n| Marine Cargo | 2715 | Project cargo |\n| Marine Cargo | 2716 | Livestock |\n| Marine Cargo | 2717 | General specie |\n| Marine Cargo | 2718 | Fine Art & collectibles |\n| Marine Cargo | 2719 | Cash in transit |\n| Marine Cargo | 272 | Heavy cargo |\n| Marine Cargo | 2720 | Jewelers blocks |\n| Marine Cargo | 273 | Refrigerated cargo |\n| Marine Cargo | 274 | Dry bulk cargo |\n| Marine Cargo | 275 | Liquid bulk cargo |\n| Marine Cargo | 276 | General/unknown |\n| Solar | 500 | Solar, rooftop (unknown anchorage) |\n| Solar | 501 | Solar, rooftop, anchored |\n| Solar | 502 | Solar, rooftop, ballasted |\n| Solar | 510 | Solar, ground mounted (unknown axis) |\n| Solar | 511 | Solar, ground mounted, single axis |\n| Solar | 512 | Solar, ground mounted, dual axis |\n| Solar | 513 | Solar, ground mounted, fixed tilt |\n| Solar | 514 | BESS (Battery Energy Storage System) Unknown |\n| Onshore | Added in version 10.0: 239 | Onshore wind turbine (only for Verisk Severe Thunderstorm Model for the United States ) |\n| Offshore | Added in version 10.0: 240 | Offshore wind turbine (only for Verisk Severe Thunderstorm Model for the United States ) |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction code",
+    "Construction class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood frame (modern)"
+    ],
+    [
+     "Wood",
+     "102",
+     "Light wood frame"
+    ],
+    [
+     "Wood",
+     "103",
+     "Masonry veneer"
+    ],
+    [
+     "Wood",
+     "104",
+     "Heavy timber"
+    ],
+    [
+     "Wood",
+     "108",
+     "Hale construction (indigenous Hawaii)"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "Masonry",
+     "112",
+     "Adobe"
+    ],
+    [
+     "Masonry",
+     "113",
+     "Rubble stone masonry"
+    ],
+    [
+     "Masonry",
+     "114",
+     "Unreinforced masonry - bearing wall"
+    ],
+    [
+     "Masonry",
+     "115",
+     "Unreinforced masonry - bearing frame"
+    ],
+    [
+     "Masonry",
+     "116",
+     "Reinforced masonry"
+    ],
+    [
+     "Masonry",
+     "117",
+     "Reinforced masonry shear wall (with MRF)"
+    ],
+    [
+     "Masonry",
+     "118",
+     "Reinforced masonry shear wall (without MRF)"
+    ],
+    [
+     "Masonry",
+     "119",
+     "Joisted masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced concrete"
+    ],
+    [
+     "Concrete",
+     "132",
+     "Reinforced concrete shear wall (with MRF)"
+    ],
+    [
+     "Concrete",
+     "133",
+     "Reinforced concrete shear wall (without MRF)"
+    ],
+    [
+     "Concrete",
+     "134",
+     "Reinforced concrete MRF - ductile"
+    ],
+    [
+     "Concrete",
+     "135",
+     "Reinforced concrete MRF - non-ductile"
+    ],
+    [
+     "Concrete",
+     "136",
+     "Tilt-up"
+    ],
+    [
+     "Concrete",
+     "137",
+     "Pre-cast concrete"
+    ],
+    [
+     "Concrete",
+     "138",
+     "Pre-cast concrete with shear wall"
+    ],
+    [
+     "Concrete",
+     "139",
+     "Reinforced concrete MRF"
+    ],
+    [
+     "Concrete",
+     "140",
+     "Reinforced concrete MRF with URM"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "Steel",
+     "152",
+     "Light metal"
+    ],
+    [
+     "Steel",
+     "153",
+     "Braced steel frame"
+    ],
+    [
+     "Steel",
+     "154",
+     "Steel MRF - perimeter"
+    ],
+    [
+     "Steel",
+     "155",
+     "Steel MRF - distributed"
+    ],
+    [
+     "Steel",
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "Steel",
+     "157",
+     "Steel frame with URM"
+    ],
+    [
+     "Steel",
+     "158",
+     "Steel frame with concrete shear wall"
+    ],
+    [
+     "Steel",
+     "159",
+     "Steel reinforced concrete"
+    ],
+    [
+     "Steel",
+     "160",
+     "Steel long span"
+    ],
+    [
+     "Special",
+     "181",
+     "Long span"
+    ],
+    [
+     "Special",
+     "182",
+     "Semi-wind-resistive"
+    ],
+    [
+     "Special",
+     "183",
+     "Wind-resistive"
+    ],
+    [
+     "Special",
+     "185",
+     "Unknown glass"
+    ],
+    [
+     "Special",
+     "186",
+     "Safety glass"
+    ],
+    [
+     "Special",
+     "187",
+     "Impact resistance glass"
+    ],
+    [
+     "Mobile Homes",
+     "191",
+     "Mobile homes"
+    ],
+    [
+     "Mobile Homes",
+     "192",
+     "Mobile home with no tie-downs"
+    ],
+    [
+     "Mobile Homes",
+     "193",
+     "Mobile home with partial tie-downs"
+    ],
+    [
+     "Mobile Homes",
+     "194",
+     "Mobile home with full tie-downs"
+    ],
+    [
+     "Bridges",
+     "201",
+     "Conventional - multiple span bridges"
+    ],
+    [
+     "Bridges",
+     "2010",
+     "Unknown bridge (non-seismic or seismic)"
+    ],
+    [
+     "Bridges",
+     "2011",
+     "Multi-span simply supported (non-seismic or seismic) concrete\n                        bridge"
+    ],
+    [
+     "Bridges",
+     "2012",
+     "Multi-span simply supported (non-seismic or seismic) steel\n                        bridge"
+    ],
+    [
+     "Bridges",
+     "2013",
+     "Single Span (Non-Seismic or Seismic) Bridge"
+    ],
+    [
+     "Bridges",
+     "2015",
+     "General Concrete (Non-Seismic or Seismic) Bridge"
+    ],
+    [
+     "Bridges",
+     "2016",
+     "General steel (non-seismic or seismic) bridge"
+    ],
+    [
+     "Bridges",
+     "202",
+     "Conventional - continuous Bridges"
+    ],
+    [
+     "Bridges",
+     "2021",
+     "Multi-span continuous (non-seismic or seismic) concrete bridge"
+    ],
+    [
+     "Bridges",
+     "2022",
+     "Multi-span continuous (non-seismic or seismic) steel bridge"
+    ],
+    [
+     "Bridges",
+     "203",
+     "Major bridges"
+    ],
+    [
+     "Bridges",
+     "2031",
+     "Major bridge (non-seismic orseismic)"
+    ],
+    [
+     "Pavements",
+     "204",
+     "Railroads"
+    ],
+    [
+     "Pavements",
+     "205",
+     "Highways"
+    ],
+    [
+     "Pavements",
+     "206",
+     "Runways"
+    ],
+    [
+     "Dams",
+     "211",
+     "Concrete dams"
+    ],
+    [
+     "Dams",
+     "212",
+     "Earthfill dams"
+    ],
+    [
+     "Tunnels",
+     "213",
+     "Alluvium tunnels"
+    ],
+    [
+     "Tunnels",
+     "2131",
+     "Alluvium tunnels"
+    ],
+    [
+     "Tunnels",
+     "2132",
+     "Alluvial bored tunnels"
+    ],
+    [
+     "Tunnels",
+     "214",
+     "Rock tunnels"
+    ],
+    [
+     "Tunnels",
+     "2141",
+     "Rock tunnels"
+    ],
+    [
+     "Tunnels",
+     "2142",
+     "Rock bored tunnels"
+    ],
+    [
+     "Tunnels",
+     "215",
+     "Cut and cover tunnels"
+    ],
+    [
+     "Tunnels",
+     "2150",
+     "Unknown tunnel"
+    ],
+    [
+     "Tunnels",
+     "2151",
+     "Rock cut and cover tunnels"
+    ],
+    [
+     "Tunnels",
+     "2152",
+     "Alluvial cut and cover tunnels"
+    ],
+    [
+     "Storage Tanks",
+     "221",
+     "Underground liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2210",
+     "Unknown tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2211",
+     "Underground liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "222",
+     "Underground solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2221",
+     "Underground solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "223",
+     "On ground liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2231",
+     "On ground liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2232",
+     "On ground steel liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2233",
+     "On ground concrete liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "224",
+     "On ground solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2241",
+     "On ground solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2242",
+     "On ground steel solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2243",
+     "On ground concrete solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "225",
+     "Elevated liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2251",
+     "Elevated liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2252",
+     "Elevated steel liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2253",
+     "Elevated concrete liquid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "226",
+     "Elevated solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2261",
+     "Elevated solidtanks"
+    ],
+    [
+     "Storage Tanks",
+     "2262",
+     "Elevated steel solid tanks"
+    ],
+    [
+     "Storage Tanks",
+     "2263",
+     "Elevated concrete solid tanks"
+    ],
+    [
+     "Pipelines",
+     "227",
+     "Underground pipelines"
+    ],
+    [
+     "Pipelines",
+     "2270",
+     "Unknown pipeline"
+    ],
+    [
+     "Pipelines",
+     "2271",
+     "General underground pipelines"
+    ],
+    [
+     "Pipelines",
+     "2272",
+     "Underground cast iron pipelines"
+    ],
+    [
+     "Pipelines",
+     "2273",
+     "Underground asbestos cement pipelines"
+    ],
+    [
+     "Pipelines",
+     "2274",
+     "Undergroundconcrete pipelines"
+    ],
+    [
+     "Pipelines",
+     "2275",
+     "Underground PVC pipelines"
+    ],
+    [
+     "Pipelines",
+     "2276",
+     "Underground ductile iron pipelines"
+    ],
+    [
+     "Pipelines",
+     "228",
+     "At Grade pipelines"
+    ],
+    [
+     "Pipelines",
+     "2281",
+     "General at grade pipelines"
+    ],
+    [
+     "Pipelines",
+     "2282",
+     "At grade cast iron pipelines"
+    ],
+    [
+     "Pipelines",
+     "2283",
+     "At grade asbestos cement pipelines"
+    ],
+    [
+     "Pipelines",
+     "2284",
+     "At grade concrete pipelines"
+    ],
+    [
+     "Pipelines",
+     "2285",
+     "At Grade PVC pipelines"
+    ],
+    [
+     "Pipelines",
+     "2286",
+     "At Grade ductile iron pipelines"
+    ],
+    [
+     "Chimneys",
+     "231",
+     "Masonry chimneys"
+    ],
+    [
+     "Chimneys",
+     "232",
+     "Concrete chimneys"
+    ],
+    [
+     "Chimneys",
+     "233",
+     "Steel chimneys"
+    ],
+    [
+     "Towers",
+     "234",
+     "Electrical transmission - conventional"
+    ],
+    [
+     "Towers",
+     "235",
+     "Electrical transmission - major"
+    ],
+    [
+     "Towers",
+     "236",
+     "Broadcast towers"
+    ],
+    [
+     "Towers",
+     "237",
+     "Observation towers"
+    ],
+    [
+     "Towers",
+     "238",
+     "Offshore towers"
+    ],
+    [
+     "Equipment",
+     "241",
+     "Residential equipment"
+    ],
+    [
+     "Equipment",
+     "242",
+     "Office equipment"
+    ],
+    [
+     "Equipment",
+     "243",
+     "Electrical equipment"
+    ],
+    [
+     "Equipment",
+     "244",
+     "Mechanical equipment"
+    ],
+    [
+     "Equipment",
+     "245",
+     "High technology equipment"
+    ],
+    [
+     "Equipment",
+     "246",
+     "Trains, trucks, airplanes"
+    ],
+    [
+     "Miscellaneous",
+     "250",
+     "Railway property (not valid in the United States)"
+    ],
+    [
+     "Miscellaneous",
+     "251",
+     "Pumping stations"
+    ],
+    [
+     "Miscellaneous",
+     "252",
+     "Compressor stations"
+    ],
+    [
+     "Miscellaneous",
+     "253",
+     "Cranes"
+    ],
+    [
+     "Miscellaneous",
+     "254",
+     "Conveyor systems"
+    ],
+    [
+     "Miscellaneous",
+     "255",
+     "Canals"
+    ],
+    [
+     "Miscellaneous",
+     "256",
+     "Earth retaining structures"
+    ],
+    [
+     "Miscellaneous",
+     "257",
+     "Waterfront structures"
+    ],
+    [
+     "Miscellaneous",
+     "258",
+     "Offshore structures"
+    ],
+    [
+     "Miscellaneous",
+     "259",
+     "Transit warehouse"
+    ],
+    [
+     "Miscellaneous",
+     "260",
+     "Marine hull"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ],
+    [
+     "Marine Craft (Boats and Yachts)",
+     "265",
+     "Pleasure boats and yachts"
+    ],
+    [
+     "Marine Craft (Boats and Yachts)",
+     "266",
+     "Pleasure boats and yachts - power boats"
+    ],
+    [
+     "Marine Craft (Boats and Yachts)",
+     "267",
+     "Pleasure boats and yachts - sail boats"
+    ],
+    [
+     "Marine Cargo",
+     "270",
+     "Carpool"
+    ],
+    [
+     "Marine Cargo",
+     "2701",
+     "Automobiles"
+    ],
+    [
+     "Marine Cargo",
+     "2702",
+     "Break bulk"
+    ],
+    [
+     "Marine Cargo",
+     "2703",
+     "Dry bulk"
+    ],
+    [
+     "Marine Cargo",
+     "2704",
+     "Liquid bulk"
+    ],
+    [
+     "Marine Cargo",
+     "2705",
+     "Consumables"
+    ],
+    [
+     "Marine Cargo",
+     "2706",
+     "Temperature-controlled"
+    ],
+    [
+     "Marine Cargo",
+     "2707",
+     "Electronics"
+    ],
+    [
+     "Marine Cargo",
+     "2708",
+     "Chemical products"
+    ],
+    [
+     "Marine Cargo",
+     "2709",
+     "Explosives"
+    ],
+    [
+     "Marine Cargo",
+     "271",
+     "General and containerized cargo"
+    ],
+    [
+     "Marine Cargo",
+     "2710",
+     "General cargo"
+    ],
+    [
+     "Marine Cargo",
+     "2711",
+     "Heavy industry"
+    ],
+    [
+     "Marine Cargo",
+     "2712",
+     "Light industry"
+    ],
+    [
+     "Marine Cargo",
+     "2713",
+     "Petroleum products"
+    ],
+    [
+     "Marine Cargo",
+     "2714",
+     "Pharmaceuticals"
+    ],
+    [
+     "Marine Cargo",
+     "2715",
+     "Project cargo"
+    ],
+    [
+     "Marine Cargo",
+     "2716",
+     "Livestock"
+    ],
+    [
+     "Marine Cargo",
+     "2717",
+     "General specie"
+    ],
+    [
+     "Marine Cargo",
+     "2718",
+     "Fine Art & collectibles"
+    ],
+    [
+     "Marine Cargo",
+     "2719",
+     "Cash in transit"
+    ],
+    [
+     "Marine Cargo",
+     "272",
+     "Heavy cargo"
+    ],
+    [
+     "Marine Cargo",
+     "2720",
+     "Jewelers blocks"
+    ],
+    [
+     "Marine Cargo",
+     "273",
+     "Refrigerated cargo"
+    ],
+    [
+     "Marine Cargo",
+     "274",
+     "Dry bulk cargo"
+    ],
+    [
+     "Marine Cargo",
+     "275",
+     "Liquid bulk cargo"
+    ],
+    [
+     "Marine Cargo",
+     "276",
+     "General/unknown"
+    ],
+    [
+     "Solar",
+     "500",
+     "Solar, rooftop (unknown anchorage)"
+    ],
+    [
+     "Solar",
+     "501",
+     "Solar, rooftop, anchored"
+    ],
+    [
+     "Solar",
+     "502",
+     "Solar, rooftop, ballasted"
+    ],
+    [
+     "Solar",
+     "510",
+     "Solar, ground mounted (unknown axis)"
+    ],
+    [
+     "Solar",
+     "511",
+     "Solar, ground mounted, single axis"
+    ],
+    [
+     "Solar",
+     "512",
+     "Solar, ground mounted, dual axis"
+    ],
+    [
+     "Solar",
+     "513",
+     "Solar, ground mounted, fixed tilt"
+    ],
+    [
+     "Solar",
+     "514",
+     "BESS (Battery Energy Storage System) Unknown"
+    ],
+    [
+     "Onshore",
+     "Added in version 10.0: 239",
+     "Onshore wind turbine (only for Verisk Severe Thunderstorm Model for the United States )"
+    ],
+    [
+     "Offshore",
+     "Added in version 10.0: 240",
+     "Offshore wind turbine (only for Verisk Severe Thunderstorm Model for the United States )"
+    ]
+   ]
+  }
+ ]
+}

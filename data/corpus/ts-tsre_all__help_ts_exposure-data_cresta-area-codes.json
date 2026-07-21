@@ -1,0 +1,628 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_cresta-area-codes.html",
+ "title": "CRESTA and area codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "CRESTA\n and area codes\n\nCRESTA\n and area codes supported by \nTouchstone\n.\n\nThe table provides links to lists of the supported \nCRESTA\n and/or area codes for each country that\n \nTouchstone\n supports.\n\nUse the \ntCountry\n table in the \nAIR\nGeography database to view the supported codes.\n\n| Country | CRESTA Codes | Area Codes |\n| --- | --- | --- |\n| Albania | Albania CRESTA Codes | |\n| Algeria | Algeria CRESTA Codes | |\n| Anguilla | Anguilla CRESTA Codes | |\n| Antigua and Barbuda | Antigua and Barbuda CRESTA Codes | |\n| Aruba | Aruba CRESTA Codes | |\n| Australia | Australia CRESTA Codes | |\n| Austria | Austria CRESTA Codes | Austria\n District Codes |\n| Bahamas | | Bahamas\n District Codes |\n| Bahrain (added in 11.5) | | Bahrain governorate codes |\n| Barbados | Barbados CRESTA Codes | Barbados\n Parish Codes |\n| Belgium | Belgium CRESTA Codes | Belgium\n District Codes |\n| Belize | Belize CRESTA Codes | |\n| Bermuda | | Bermuda\n Parish Codes |\n| Bolivia | Bolivia CRESTA Codes | |\n| BES | Bonaire, Sint Eustatius, and Saba CRESTA codes | |\n| Brazil | Brazil CRESTA Codes | |\n| Bulgaria | Bulgaria CRESTA Codes | |\n| Brunei | Brunei CRESTA Codes | |\n| Canada | Canada CRESTA Codes | Canada\n Province Codes |\n| Cayman Islands | | Cayman Islands district codes |\n| Chile | Chile CRESTA Codes | Chile State\n Codes |\n| China | | China\n Province Codes |\n| Colombia | Colombia CRESTA Codes | Colombia\n Region Codes |\n| Costa Rica | Costa\n Rica CRESTA Codes | |\n| Croatia | Croatia CRESTA Codes | |\n| Cuba | | Cuba Province\n Codes |\n| CuraÃ§ao | Curacao CRESTA codes | |\n| Cyprus | Cyprus CRESTA Codes | |\n| Czech Republic | Czech\n Republic CRESTA Codes | |\n| Denmark | Denmark CRESTA Codes | Denmark\n District Codes |\n| Dominica | | Dominica\n district codes |\n| Dominican Republic | Dominican Republic CRESTA Codes | Dominican Republic Province Codes |\n| Ecuador | Ecuador CRESTA Codes | Ecuador\n Province Codes |\n| Egypt | Egypt CRESTA Codes | |\n| El Salvador | El\n Salvador CRESTA Codes | |\n| Estonia | Estonia CRESTA Codes | |\n| Finland | Finland CRESTA Codes | |\n| France | France CRESTA Codes | France County\n Codes |\n| Germany | Germany CRESTA Codes | Germany\n Region Codes |\n| Greece | Greece CRESTA Codes | Greece\n Province Codes |\n| Grenada | | Grenada\n District Codes |\n| Guadeloupe | | Guadeloupe district codes |\n| Guam | Guam CRESTA Codes | |\n| Guatemala | Guatemala CRESTA Codes | |\n| Gulf of Mexico | | Gulf of Mexico Administrative Region Codes |\n| Haiti | | Haiti\n Province Codes |\n| Honduras | Honduras CRESTA Codes | |\n| Hong Kong | Hong Kong CRESTA Codes | Hong\n Kong Province Codes |\n| Hungary | Hungary CRESTA Codes | |\n| India | India CRESTA Codes | |\n| Indonesia | Indonesia CRESTA Codes | Indonesia Province Codes |\n| Ireland | Ireland CRESTA Codes | Ireland County/Sector Codes |\n| Israel | Israel CRESTA Codes | Israel\n District Codes |\n| Italy | Italy CRESTA Codes | Italy\n Province Codes |\n| Jamaica | Jamaica CRESTA Codes | Jamaica\n Parish Codes |\n| Japan | | Japan\n Prefecture Codes |\n| Jordan | Jordan CRESTA Codes | |\n| Kazakhstan | Kazakhstan CRESTA Codes | |\n| Kenya | Kenya CRESTA Codes | |\n| Kuwait (added in 11.5) | | Kuwait governorate codes |\n| Kyrgyzstan | Kyrgyzstan CRESTA Codes | |\n| Latvia | Latvia CRESTA Codes | |\n| Lebanon | Lebanon CRESTA Codes | |\n| Lithuania | Lithuania CRESTA Codes | |\n| Luxembourg | Luxembourg CRESTA Codes | Luxembourg district codes |\n| Macau | Macau CRESTA Codes | |\n| Macedonia | Macedonia CRESTA Codes | |\n| Malaysia | Malaysia CRESTA Codes | |\n| Martinique | | Martinique district codes |\n| Mauritius | Mauritius CRESTA Codes | |\n| Mexico | Mexico CRESTA Codes | Mexico\n FIPS State Codes |\n| Montserrat | | Montserrat district codes |\n| Morocco | Morocco CRESTA Codes | |\n| Netherlands | Netherlands CRESTA Codes | Netherlands Province Codes |\n| New Zealand | New\n Zealand CRESTA Codes | |\n| Nicaragua | Nicaragua CRESTA Codes | |\n| Nigeria | Nigeria CRESTA Codes | |\n| Norway | Norway CRESTA Codes | Norway\n District Codes |\n| Oman (added in 11.5) | | Oman governorate codes |\n| Pakistan | Pakistan CRESTA Codes | |\n| Panama | Panama CRESTA Codes | |\n| Papua New Guinea | Papua New Guinea CRESTA Codes | |\n| Peru | Peru CRESTA Codes | Peru State\n Codes |\n| Philippines | Philippines CRESTA Codes | Philippines Region/State Codes |\n| Poland | Poland CRESTA Codes | |\n| Portugal | Portugal CRESTA Codes | Portugal\n district codes |\n| Puerto Rico | Puerto\n Rico CRESTA Codes | Puerto Rico Municipality Codes |\n| Qatar (added in 11.5) | Qatar CRESTA codes | |\n| Romania | Romania CRESTA Codes | |\n| Saint BarthÃ©lemy | | Saint BarthÃ©lemy district codes |\n| Saint Kitts and Nevis | Saint Kitts and Nevis CRESTA Codes | |\n| Saint Lucia | | Saint\n Lucia district codes |\n| Saint Vincent and The Grenadines | | Saint Vincent and The Grenadines district codes |\n| Saipan | Saipan CRESTA Codes | |\n| Saudi Arabia | Saudi\n Arabia CRESTA Codes | |\n| Serbia | Serbia CRESTA Codes | |\n| Singapore | Singapore CRESTA Codes | |\n| Slovakia | Slovakia CRESTA Codes | |\n| Slovenia | Slovenia CRESTA Codes | |\n| South Africa | South\n Africa CRESTA Codes | |\n| South Korea | South Korea CRESTA Codes | South\n Korea Province Codes |\n| Sri Lanka | Sri Lanka CRESTA Codes | |\n| Sint Maarten | Sint\n Maarten CRESTA Codes | |\n| Saint Martin | Saint\n Martin CRESTA Codes | |\n| Sudan | Sudan CRESTA Codes | |\n| Sweden | Sweden CRESTA Codes | Sweden\n Province Codes |\n| Switzerland | Switzerland CRESTA Codes | Switzerland Region Codes |\n| Taiwan | Taiwan CRESTA Codes | Taiwan\n County/Sector Codes |\n| Tanzania | Tanzania CRESTA Codes | |\n| Thailand | Thailand CRESTA Codes | |\n| Trinidad and Tobago | Trinidad and Tobago CRESTA Codes | Trinidad and Tobago County/Sector Codes |\n| Turkey | | Turkey\n Province Codes |\n| Turks and Caicos Islands | | Turks and Caicos Islands district codes |\n| United Arab Emirates (UAE) (added in 11.5) | United Arab Emirates CRESTA codes | |\n| Uganda | Uganda CRESTA Codes | |\n| United Kingdom | United Kingdom CRESTA Codes | United\n Kingdom Municipality Codes |\n| United States | | United States\n State Codes |\n| Uzbekistan | Uzbekistan CRESTA Codes | |\n| Venezuela | Venezuela CRESTA Codes | Venezuela\n State Codes |\n| Vietnam | Vietnam CRESTA Codes | |\n| Virgin Islands (U.S.) | | Virgin Islands (U.S.) district codes |\n| Virgin Islands (British) | | Virgin Islands (British) district codes |",
+ "tables": [
+  {
+   "headers": [
+    "Country",
+    "CRESTA Codes",
+    "Area Codes"
+   ],
+   "rows": [
+    [
+     "Albania",
+     "Albania CRESTA Codes",
+     ""
+    ],
+    [
+     "Algeria",
+     "Algeria CRESTA Codes",
+     ""
+    ],
+    [
+     "Anguilla",
+     "Anguilla CRESTA Codes",
+     ""
+    ],
+    [
+     "Antigua and Barbuda",
+     "Antigua and Barbuda CRESTA Codes",
+     ""
+    ],
+    [
+     "Aruba",
+     "Aruba CRESTA Codes",
+     ""
+    ],
+    [
+     "Australia",
+     "Australia CRESTA Codes",
+     ""
+    ],
+    [
+     "Austria",
+     "Austria CRESTA Codes",
+     "Austria\n                           District Codes"
+    ],
+    [
+     "Bahamas",
+     "",
+     "Bahamas\n                           District Codes"
+    ],
+    [
+     "Bahrain (added in 11.5)",
+     "",
+     "Bahrain governorate codes"
+    ],
+    [
+     "Barbados",
+     "Barbados CRESTA Codes",
+     "Barbados\n                           Parish Codes"
+    ],
+    [
+     "Belgium",
+     "Belgium CRESTA Codes",
+     "Belgium\n                           District Codes"
+    ],
+    [
+     "Belize",
+     "Belize CRESTA Codes",
+     ""
+    ],
+    [
+     "Bermuda",
+     "",
+     "Bermuda\n                           Parish Codes"
+    ],
+    [
+     "Bolivia",
+     "Bolivia CRESTA Codes",
+     ""
+    ],
+    [
+     "BES",
+     "Bonaire, Sint Eustatius, and Saba CRESTA codes",
+     ""
+    ],
+    [
+     "Brazil",
+     "Brazil CRESTA Codes",
+     ""
+    ],
+    [
+     "Bulgaria",
+     "Bulgaria CRESTA Codes",
+     ""
+    ],
+    [
+     "Brunei",
+     "Brunei CRESTA Codes",
+     ""
+    ],
+    [
+     "Canada",
+     "Canada CRESTA Codes",
+     "Canada\n                           Province Codes"
+    ],
+    [
+     "Cayman Islands",
+     "",
+     "Cayman Islands district codes"
+    ],
+    [
+     "Chile",
+     "Chile CRESTA Codes",
+     "Chile State\n                           Codes"
+    ],
+    [
+     "China",
+     "",
+     "China\n                           Province Codes"
+    ],
+    [
+     "Colombia",
+     "Colombia CRESTA Codes",
+     "Colombia\n                           Region Codes"
+    ],
+    [
+     "Costa Rica",
+     "Costa\n                           Rica CRESTA Codes",
+     ""
+    ],
+    [
+     "Croatia",
+     "Croatia CRESTA Codes",
+     ""
+    ],
+    [
+     "Cuba",
+     "",
+     "Cuba Province\n                           Codes"
+    ],
+    [
+     "CuraÃ§ao",
+     "Curacao CRESTA codes",
+     ""
+    ],
+    [
+     "Cyprus",
+     "Cyprus CRESTA Codes",
+     ""
+    ],
+    [
+     "Czech Republic",
+     "Czech\n                           Republic CRESTA Codes",
+     ""
+    ],
+    [
+     "Denmark",
+     "Denmark CRESTA Codes",
+     "Denmark\n                           District Codes"
+    ],
+    [
+     "Dominica",
+     "",
+     "Dominica\n                           district codes"
+    ],
+    [
+     "Dominican Republic",
+     "Dominican Republic CRESTA Codes",
+     "Dominican Republic Province Codes"
+    ],
+    [
+     "Ecuador",
+     "Ecuador CRESTA Codes",
+     "Ecuador\n                           Province Codes"
+    ],
+    [
+     "Egypt",
+     "Egypt CRESTA Codes",
+     ""
+    ],
+    [
+     "El Salvador",
+     "El\n                           Salvador CRESTA Codes",
+     ""
+    ],
+    [
+     "Estonia",
+     "Estonia CRESTA Codes",
+     ""
+    ],
+    [
+     "Finland",
+     "Finland CRESTA Codes",
+     ""
+    ],
+    [
+     "France",
+     "France CRESTA Codes",
+     "France County\n                           Codes"
+    ],
+    [
+     "Germany",
+     "Germany CRESTA Codes",
+     "Germany\n                           Region Codes"
+    ],
+    [
+     "Greece",
+     "Greece CRESTA Codes",
+     "Greece\n                           Province Codes"
+    ],
+    [
+     "Grenada",
+     "",
+     "Grenada\n                           District Codes"
+    ],
+    [
+     "Guadeloupe",
+     "",
+     "Guadeloupe district codes"
+    ],
+    [
+     "Guam",
+     "Guam CRESTA Codes",
+     ""
+    ],
+    [
+     "Guatemala",
+     "Guatemala CRESTA Codes",
+     ""
+    ],
+    [
+     "Gulf of Mexico",
+     "",
+     "Gulf of Mexico Administrative Region Codes"
+    ],
+    [
+     "Haiti",
+     "",
+     "Haiti\n                           Province Codes"
+    ],
+    [
+     "Honduras",
+     "Honduras CRESTA Codes",
+     ""
+    ],
+    [
+     "Hong Kong",
+     "Hong Kong CRESTA Codes",
+     "Hong\n                           Kong Province Codes"
+    ],
+    [
+     "Hungary",
+     "Hungary CRESTA Codes",
+     ""
+    ],
+    [
+     "India",
+     "India CRESTA Codes",
+     ""
+    ],
+    [
+     "Indonesia",
+     "Indonesia CRESTA Codes",
+     "Indonesia Province Codes"
+    ],
+    [
+     "Ireland",
+     "Ireland CRESTA Codes",
+     "Ireland County/Sector Codes"
+    ],
+    [
+     "Israel",
+     "Israel CRESTA Codes",
+     "Israel\n                           District Codes"
+    ],
+    [
+     "Italy",
+     "Italy CRESTA Codes",
+     "Italy\n                           Province Codes"
+    ],
+    [
+     "Jamaica",
+     "Jamaica CRESTA Codes",
+     "Jamaica\n                           Parish Codes"
+    ],
+    [
+     "Japan",
+     "",
+     "Japan\n                           Prefecture Codes"
+    ],
+    [
+     "Jordan",
+     "Jordan CRESTA Codes",
+     ""
+    ],
+    [
+     "Kazakhstan",
+     "Kazakhstan CRESTA Codes",
+     ""
+    ],
+    [
+     "Kenya",
+     "Kenya CRESTA Codes",
+     ""
+    ],
+    [
+     "Kuwait (added in 11.5)",
+     "",
+     "Kuwait governorate codes"
+    ],
+    [
+     "Kyrgyzstan",
+     "Kyrgyzstan CRESTA Codes",
+     ""
+    ],
+    [
+     "Latvia",
+     "Latvia CRESTA Codes",
+     ""
+    ],
+    [
+     "Lebanon",
+     "Lebanon CRESTA Codes",
+     ""
+    ],
+    [
+     "Lithuania",
+     "Lithuania CRESTA Codes",
+     ""
+    ],
+    [
+     "Luxembourg",
+     "Luxembourg CRESTA Codes",
+     "Luxembourg district codes"
+    ],
+    [
+     "Macau",
+     "Macau CRESTA Codes",
+     ""
+    ],
+    [
+     "Macedonia",
+     "Macedonia CRESTA Codes",
+     ""
+    ],
+    [
+     "Malaysia",
+     "Malaysia CRESTA Codes",
+     ""
+    ],
+    [
+     "Martinique",
+     "",
+     "Martinique district codes"
+    ],
+    [
+     "Mauritius",
+     "Mauritius CRESTA Codes",
+     ""
+    ],
+    [
+     "Mexico",
+     "Mexico CRESTA Codes",
+     "Mexico\n                           FIPS State Codes"
+    ],
+    [
+     "Montserrat",
+     "",
+     "Montserrat district codes"
+    ],
+    [
+     "Morocco",
+     "Morocco CRESTA Codes",
+     ""
+    ],
+    [
+     "Netherlands",
+     "Netherlands CRESTA Codes",
+     "Netherlands Province Codes"
+    ],
+    [
+     "New Zealand",
+     "New\n                           Zealand CRESTA Codes",
+     ""
+    ],
+    [
+     "Nicaragua",
+     "Nicaragua CRESTA Codes",
+     ""
+    ],
+    [
+     "Nigeria",
+     "Nigeria CRESTA Codes",
+     ""
+    ],
+    [
+     "Norway",
+     "Norway CRESTA Codes",
+     "Norway\n                           District Codes"
+    ],
+    [
+     "Oman (added in 11.5)",
+     "",
+     "Oman governorate codes"
+    ],
+    [
+     "Pakistan",
+     "Pakistan CRESTA Codes",
+     ""
+    ],
+    [
+     "Panama",
+     "Panama CRESTA Codes",
+     ""
+    ],
+    [
+     "Papua New Guinea",
+     "Papua New Guinea CRESTA Codes",
+     ""
+    ],
+    [
+     "Peru",
+     "Peru CRESTA Codes",
+     "Peru State\n                           Codes"
+    ],
+    [
+     "Philippines",
+     "Philippines CRESTA Codes",
+     "Philippines Region/State Codes"
+    ],
+    [
+     "Poland",
+     "Poland CRESTA Codes",
+     ""
+    ],
+    [
+     "Portugal",
+     "Portugal CRESTA Codes",
+     "Portugal\n                           district codes"
+    ],
+    [
+     "Puerto Rico",
+     "Puerto\n                           Rico CRESTA Codes",
+     "Puerto Rico Municipality Codes"
+    ],
+    [
+     "Qatar (added in 11.5)",
+     "Qatar CRESTA codes",
+     ""
+    ],
+    [
+     "Romania",
+     "Romania CRESTA Codes",
+     ""
+    ],
+    [
+     "Saint BarthÃ©lemy",
+     "",
+     "Saint BarthÃ©lemy district codes"
+    ],
+    [
+     "Saint Kitts and Nevis",
+     "Saint Kitts and Nevis CRESTA Codes",
+     ""
+    ],
+    [
+     "Saint Lucia",
+     "",
+     "Saint\n                           Lucia district codes"
+    ],
+    [
+     "Saint Vincent and The Grenadines",
+     "",
+     "Saint Vincent and The Grenadines district codes"
+    ],
+    [
+     "Saipan",
+     "Saipan CRESTA Codes",
+     ""
+    ],
+    [
+     "Saudi Arabia",
+     "Saudi\n                           Arabia CRESTA Codes",
+     ""
+    ],
+    [
+     "Serbia",
+     "Serbia CRESTA Codes",
+     ""
+    ],
+    [
+     "Singapore",
+     "Singapore CRESTA Codes",
+     ""
+    ],
+    [
+     "Slovakia",
+     "Slovakia CRESTA Codes",
+     ""
+    ],
+    [
+     "Slovenia",
+     "Slovenia CRESTA Codes",
+     ""
+    ],
+    [
+     "South Africa",
+     "South\n                           Africa CRESTA Codes",
+     ""
+    ],
+    [
+     "South Korea",
+     "South Korea CRESTA Codes",
+     "South\n                           Korea Province Codes"
+    ],
+    [
+     "Sri Lanka",
+     "Sri Lanka CRESTA Codes",
+     ""
+    ],
+    [
+     "Sint Maarten",
+     "Sint\n                           Maarten CRESTA Codes",
+     ""
+    ],
+    [
+     "Saint Martin",
+     "Saint\n                           Martin CRESTA Codes",
+     ""
+    ],
+    [
+     "Sudan",
+     "Sudan CRESTA Codes",
+     ""
+    ],
+    [
+     "Sweden",
+     "Sweden CRESTA Codes",
+     "Sweden\n                           Province Codes"
+    ],
+    [
+     "Switzerland",
+     "Switzerland CRESTA Codes",
+     "Switzerland Region Codes"
+    ],
+    [
+     "Taiwan",
+     "Taiwan CRESTA Codes",
+     "Taiwan\n                           County/Sector Codes"
+    ],
+    [
+     "Tanzania",
+     "Tanzania CRESTA Codes",
+     ""
+    ],
+    [
+     "Thailand",
+     "Thailand CRESTA Codes",
+     ""
+    ],
+    [
+     "Trinidad and Tobago",
+     "Trinidad and Tobago CRESTA Codes",
+     "Trinidad and Tobago County/Sector Codes"
+    ],
+    [
+     "Turkey",
+     "",
+     "Turkey\n                           Province Codes"
+    ],
+    [
+     "Turks and Caicos Islands",
+     "",
+     "Turks and Caicos Islands district codes"
+    ],
+    [
+     "United Arab Emirates (UAE) (added in 11.5)",
+     "United Arab Emirates CRESTA codes",
+     ""
+    ],
+    [
+     "Uganda",
+     "Uganda CRESTA Codes",
+     ""
+    ],
+    [
+     "United Kingdom",
+     "United Kingdom CRESTA Codes",
+     "United\n                           Kingdom Municipality Codes"
+    ],
+    [
+     "United States",
+     "",
+     "United States\n                           State Codes"
+    ],
+    [
+     "Uzbekistan",
+     "Uzbekistan CRESTA Codes",
+     ""
+    ],
+    [
+     "Venezuela",
+     "Venezuela CRESTA Codes",
+     "Venezuela\n                           State Codes"
+    ],
+    [
+     "Vietnam",
+     "Vietnam CRESTA Codes",
+     ""
+    ],
+    [
+     "Virgin Islands (U.S.)",
+     "",
+     "Virgin Islands (U.S.) district codes"
+    ],
+    [
+     "Virgin Islands (British)",
+     "",
+     "Virgin Islands (British) district codes"
+    ]
+   ]
+  }
+ ]
+}

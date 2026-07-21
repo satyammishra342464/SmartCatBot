@@ -1,0 +1,125 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_switzerland_cresta_2-7.html",
+ "title": "Switzerland CRESTA Codes (v2.6)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Switzerland \nCRESTA\n Codes (v2.6)\n \n\nCRESTA\n codes for Switzer supported by \nUNICEDE\n/2land.\nThese codes include the country code for Switzerland (10).\n\n| Area Tag | Zone |\n| --- | --- |\n| 10-000 | SWITZERLAND |\n| 10-001 | Aargau |\n| 10-002 | Appenzell-Ausser Rhoden |\n| 10-003 | Appenzell-Inner Rhoden |\n| 10-004 | Basel Land |\n| 10-005 | Basel Stadt |\n| 10-006 | Bern |\n| 10-007 | Freiburg |\n| 10-008 | GenÃ¨ve |\n| 10-009 | Glarus |\n| 10-010 | GraubÃ¼nden |\n| 10-011 | Jura |\n| 10-012 | Luzern |\n| 10-013 | Neuenburg |\n| 10-014 | Nidwalden |\n| 10-015 | Obwalden |\n| 10-016 | Schaffhause |\n| 10-017 | Schwyz |\n| 10-018 | Solothurn |\n| 10-019 | St. Gallen |\n| 10-020 | Tessin |\n| 10-021 | Thurgau |\n| 10-022 | Uri |\n| 10-023 | Waadt |\n| 10-024 | Wallis |\n| 10-025 | Zurich |\n| 10-026 | Zug |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "10-000",
+     "SWITZERLAND"
+    ],
+    [
+     "10-001",
+     "Aargau"
+    ],
+    [
+     "10-002",
+     "Appenzell-Ausser Rhoden"
+    ],
+    [
+     "10-003",
+     "Appenzell-Inner Rhoden"
+    ],
+    [
+     "10-004",
+     "Basel Land"
+    ],
+    [
+     "10-005",
+     "Basel Stadt"
+    ],
+    [
+     "10-006",
+     "Bern"
+    ],
+    [
+     "10-007",
+     "Freiburg"
+    ],
+    [
+     "10-008",
+     "GenÃ¨ve"
+    ],
+    [
+     "10-009",
+     "Glarus"
+    ],
+    [
+     "10-010",
+     "GraubÃ¼nden"
+    ],
+    [
+     "10-011",
+     "Jura"
+    ],
+    [
+     "10-012",
+     "Luzern"
+    ],
+    [
+     "10-013",
+     "Neuenburg"
+    ],
+    [
+     "10-014",
+     "Nidwalden"
+    ],
+    [
+     "10-015",
+     "Obwalden"
+    ],
+    [
+     "10-016",
+     "Schaffhause"
+    ],
+    [
+     "10-017",
+     "Schwyz"
+    ],
+    [
+     "10-018",
+     "Solothurn"
+    ],
+    [
+     "10-019",
+     "St. Gallen"
+    ],
+    [
+     "10-020",
+     "Tessin"
+    ],
+    [
+     "10-021",
+     "Thurgau"
+    ],
+    [
+     "10-022",
+     "Uri"
+    ],
+    [
+     "10-023",
+     "Waadt"
+    ],
+    [
+     "10-024",
+     "Wallis"
+    ],
+    [
+     "10-025",
+     "Zurich"
+    ],
+    [
+     "10-026",
+     "Zug"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_offshore-asset-occ.html",
+ "title": "Offshore asset occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Offshore asset occupancy codes\n\nTouchstone\n supports the following offshore\n asset occupancy class codes.\nSince Standard Industrial Classification (SIC) codes are not mapped to 900-series codes, \"n/a\"\n indicates that the column is not applicable.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 900 | Unknown | n/a | Offshore platform occupancy is unknown. |\n| 901 | Oil Production Only | n/a | Offshore platforms that only produce oil. |\n| 902 | Gas Production Only | n/a | Offshore platforms that only produce gas. |\n| 903 | No Production | n/a | Offshore platforms that do not produce oil or gas. |\n| 904 | Oil and Gas Production | n/a | Offshore platforms that produce oil and gas. |\n| 905 | Drilling | n/a | Platforms used for drilling. |\n| 906 | Workover | n/a | Platforms that repair or stimulate existing production wells for the\n purpose of restoring, prolonging, or enhancing the production of\n hydrocarbons. |\n| 907 | Ready Stacked | n/a | Rigs that are not under contract but generally are ready for service. |\n| 908 | Waiting on Location | n/a | Waiting on location. |\n| 909 | Pipelines | n/a | Pipelines. This occupancy class is for accumulation only. |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "900",
+     "Unknown",
+     "n/a",
+     "Offshore platform occupancy is unknown."
+    ],
+    [
+     "901",
+     "Oil Production Only",
+     "n/a",
+     "Offshore platforms that only produce oil."
+    ],
+    [
+     "902",
+     "Gas Production Only",
+     "n/a",
+     "Offshore platforms that only produce gas."
+    ],
+    [
+     "903",
+     "No Production",
+     "n/a",
+     "Offshore platforms that do not produce oil or gas."
+    ],
+    [
+     "904",
+     "Oil and Gas Production",
+     "n/a",
+     "Offshore platforms that produce oil and gas."
+    ],
+    [
+     "905",
+     "Drilling",
+     "n/a",
+     "Platforms used for drilling."
+    ],
+    [
+     "906",
+     "Workover",
+     "n/a",
+     "Platforms that repair or stimulate existing production wells for the\n                        purpose of restoring, prolonging, or enhancing the production of\n                        hydrocarbons."
+    ],
+    [
+     "907",
+     "Ready Stacked",
+     "n/a",
+     "Rigs that are not under contract but generally are ready for service."
+    ],
+    [
+     "908",
+     "Waiting on Location",
+     "n/a",
+     "Waiting on location."
+    ],
+    [
+     "909",
+     "Pipelines",
+     "n/a",
+     "Pipelines. This occupancy class is for accumulation only."
+    ]
+   ]
+  }
+ ]
+}

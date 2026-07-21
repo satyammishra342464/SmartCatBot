@@ -1,0 +1,213 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_australia-cresta-codes.html",
+ "title": "Australia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Australia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Australia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Z01:Gold Coast |\n| 2 | Z02:Brisbane |\n| 3 | Z03:Caloundra |\n| 4 | Z04:Bundaberg |\n| 5 | Z05:Gladstone |\n| 6 | Z06:Rockhampton |\n| 7 | Z07:Mackay |\n| 8 | Z08:Bowen |\n| 9 | Z09:Townsville |\n| 10 | Z10:Halifax |\n| 11 | Z11:Cairns |\n| 12 | Z12:N. Queensland |\n| 13 | Z13:Cape York Peninsula |\n| 14 | Z14:Burketown |\n| 15 | Z15:Queensland Center-NSW Center |\n| 16 | Z16:N. Northern Territory |\n| 17 | Z17:Darwin |\n| 18 | Z18:Northern Territory Remainder |\n| 19 | Z19:Broome-Wyndham |\n| 20 | Z20:Dampier-Port Headland |\n| 21 | Z21:Carnarvon-Geraldton |\n| 22 | Z22:Perth |\n| 23 | Z23:Bunbury-Albany |\n| 24 | Z24:WA Remainder-SA Remainder |\n| 25 | Z25:Port Lincoln-Whyalla |\n| 26 | Z26:Gulf St.Vincent-Kangaroo Isle |\n| 27 | Z27:Adelaide and Surroundings |\n| 28 | Z28:Adelaide Remainder |\n| 29 | Z29:Tasmania |\n| 30 | Z30:Vict Center-lower S.E. SA |\n| 31 | Z31:Geelong-Warrnambool-Gambier |\n| 32 | Z32:Wontaggi-Foster |\n| 33 | Z33:Melbourne and Surroundings |\n| 34 | Z34:Emerald |\n| 35 | Z35:Mallacata and Bega |\n| 36 | Z36:E. Vict-S.E. NSW |\n| 37 | Z37:N. Vict-S. NSW-upper S.E. SA |\n| 38 | Z38:Wagga Wagga-Griffith |\n| 39 | Z39:Canberra-ACT-etc. |\n| 40 | Z40:Wollongong |\n| 41 | Z41:S. and Central Sydney |\n| 42 | Z42:W. Sydney |\n| 43 | Z43:N. Sydney |\n| 44 | Z44:Central Coast-Gosford |\n| 45 | Z45:Blue Mountains |\n| 46 | Z46:Newcastle |\n| 47 | Z47:Dubbo-Armidale |\n| 48 | Z48:Port Macquarie |\n| 49 | Z49:Coffs Harbour |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Z01:Gold Coast"
+    ],
+    [
+     "2",
+     "Z02:Brisbane"
+    ],
+    [
+     "3",
+     "Z03:Caloundra"
+    ],
+    [
+     "4",
+     "Z04:Bundaberg"
+    ],
+    [
+     "5",
+     "Z05:Gladstone"
+    ],
+    [
+     "6",
+     "Z06:Rockhampton"
+    ],
+    [
+     "7",
+     "Z07:Mackay"
+    ],
+    [
+     "8",
+     "Z08:Bowen"
+    ],
+    [
+     "9",
+     "Z09:Townsville"
+    ],
+    [
+     "10",
+     "Z10:Halifax"
+    ],
+    [
+     "11",
+     "Z11:Cairns"
+    ],
+    [
+     "12",
+     "Z12:N. Queensland"
+    ],
+    [
+     "13",
+     "Z13:Cape York Peninsula"
+    ],
+    [
+     "14",
+     "Z14:Burketown"
+    ],
+    [
+     "15",
+     "Z15:Queensland Center-NSW Center"
+    ],
+    [
+     "16",
+     "Z16:N. Northern Territory"
+    ],
+    [
+     "17",
+     "Z17:Darwin"
+    ],
+    [
+     "18",
+     "Z18:Northern Territory Remainder"
+    ],
+    [
+     "19",
+     "Z19:Broome-Wyndham"
+    ],
+    [
+     "20",
+     "Z20:Dampier-Port Headland"
+    ],
+    [
+     "21",
+     "Z21:Carnarvon-Geraldton"
+    ],
+    [
+     "22",
+     "Z22:Perth"
+    ],
+    [
+     "23",
+     "Z23:Bunbury-Albany"
+    ],
+    [
+     "24",
+     "Z24:WA Remainder-SA Remainder"
+    ],
+    [
+     "25",
+     "Z25:Port Lincoln-Whyalla"
+    ],
+    [
+     "26",
+     "Z26:Gulf St.Vincent-Kangaroo Isle"
+    ],
+    [
+     "27",
+     "Z27:Adelaide and Surroundings"
+    ],
+    [
+     "28",
+     "Z28:Adelaide Remainder"
+    ],
+    [
+     "29",
+     "Z29:Tasmania"
+    ],
+    [
+     "30",
+     "Z30:Vict Center-lower S.E. SA"
+    ],
+    [
+     "31",
+     "Z31:Geelong-Warrnambool-Gambier"
+    ],
+    [
+     "32",
+     "Z32:Wontaggi-Foster"
+    ],
+    [
+     "33",
+     "Z33:Melbourne and Surroundings"
+    ],
+    [
+     "34",
+     "Z34:Emerald"
+    ],
+    [
+     "35",
+     "Z35:Mallacata and Bega"
+    ],
+    [
+     "36",
+     "Z36:E. Vict-S.E. NSW"
+    ],
+    [
+     "37",
+     "Z37:N. Vict-S. NSW-upper S.E. SA"
+    ],
+    [
+     "38",
+     "Z38:Wagga Wagga-Griffith"
+    ],
+    [
+     "39",
+     "Z39:Canberra-ACT-etc."
+    ],
+    [
+     "40",
+     "Z40:Wollongong"
+    ],
+    [
+     "41",
+     "Z41:S. and Central Sydney"
+    ],
+    [
+     "42",
+     "Z42:W. Sydney"
+    ],
+    [
+     "43",
+     "Z43:N. Sydney"
+    ],
+    [
+     "44",
+     "Z44:Central Coast-Gosford"
+    ],
+    [
+     "45",
+     "Z45:Blue Mountains"
+    ],
+    [
+     "46",
+     "Z46:Newcastle"
+    ],
+    [
+     "47",
+     "Z47:Dubbo-Armidale"
+    ],
+    [
+     "48",
+     "Z48:Port Macquarie"
+    ],
+    [
+     "49",
+     "Z49:Coffs Harbour"
+    ]
+   ]
+  }
+ ]
+}

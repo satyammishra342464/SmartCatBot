@@ -1,0 +1,23 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_onshore-asset-con.html",
+ "title": "Onshore asset construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Onshore asset construction codes\n\nThe onshore asset codes supported by \nTouchstone\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 239 | Onshore Wind Turbines | Onshore wind turbines are installed individually, and in groups called\n \"wind farms.\". Wind turbine systems comprise a tower, hub and blades (the\n rotor), and nacelle (houses the generator). They are typically attached to a\n reinforced concrete foundation. Based on the wind characteristics of the\n site, these structures are generally designed to conform to the\n International Electrotechnical Commission (IEC) 61400-1 wind turbine design\n class. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "239",
+     "Onshore Wind Turbines",
+     "Onshore wind turbines are installed individually, and in groups called\n                        \"wind farms.\". Wind turbine systems comprise a tower, hub and blades (the\n                        rotor), and nacelle (houses the generator). They are typically attached to a\n                        reinforced concrete foundation. Based on the wind characteristics of the\n                        site, these structures are generally designed to conform to the\n                        International Electrotechnical Commission (IEC) 61400-1 wind turbine design\n                        class."
+    ]
+   ]
+  }
+ ]
+}

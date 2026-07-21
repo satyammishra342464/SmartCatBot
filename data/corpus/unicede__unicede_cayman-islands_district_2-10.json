@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_cayman-islands_district_2-10.html",
+ "title": "Cayman Islands district codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Cayman Islands district codes (v2.10)\n\nDistrict codes for Cayman Islands supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Cayman Islands (40).\n\n| Area Tag | District Name |\n| --- | --- |\n| 40-000 | Cayman Islands |\n| 40-001 | Bodden Town |\n| 40-002 | East End |\n| 40-003 | George Town |\n| 40-004 | North Side |\n| 40-005 | West Bay |\n| 40-006 | Little Cayman |\n| 40-007 | Cayman Brac |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "40-000",
+     "Cayman Islands"
+    ],
+    [
+     "40-001",
+     "Bodden Town"
+    ],
+    [
+     "40-002",
+     "East End"
+    ],
+    [
+     "40-003",
+     "George Town"
+    ],
+    [
+     "40-004",
+     "North Side"
+    ],
+    [
+     "40-005",
+     "West Bay"
+    ],
+    [
+     "40-006",
+     "Little Cayman"
+    ],
+    [
+     "40-007",
+     "Cayman Brac"
+    ]
+   ]
+  }
+ ]
+}

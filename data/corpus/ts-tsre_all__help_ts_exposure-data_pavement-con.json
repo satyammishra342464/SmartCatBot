@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_pavement-con.html",
+ "title": "Pavement construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Pavement construction codes\n\nThe pavement construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for \nVerisk Bushfire Model for Australia\n and \nVerisk Typhoon Model for South Korea\n. For\n information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 204 | Railroads | Railroads of any kind used to carry trains |\n| 205 | Highways | Concrete, asphalt, or gravel highways |\n| 206 | Runways | Concrete or asphalt airport runways |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "204",
+     "Railroads",
+     "Railroads of any kind used to carry trains"
+    ],
+    [
+     "205",
+     "Highways",
+     "Concrete, asphalt, or gravel highways"
+    ],
+    [
+     "206",
+     "Runways",
+     "Concrete or asphalt airport runways"
+    ]
+   ]
+  }
+ ]
+}

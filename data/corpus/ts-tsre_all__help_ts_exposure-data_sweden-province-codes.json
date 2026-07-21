@@ -1,0 +1,101 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sweden-province-codes.html",
+ "title": "Sweden province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sweden province codes\n\nTouchstone\n supports the following province\n codes for Sweden.\n\n| Province Code | Province Name |\n| --- | --- |\n| 01 | Stockholms lÃ¤n |\n| 03 | Uppsala lÃ¤n |\n| 04 | SÃ¶dermanlands lÃ¤n |\n| 05 | ÃstergÃ¶tlands lÃ¤n |\n| 06 | JÃ¶nkÃ¶pings lÃ¤n |\n| 07 | Kronobergs lÃ¤n |\n| 08 | Kalmar lÃ¤n |\n| 09 | Gotlands lÃ¤n |\n| 10 | Blekinge lÃ¤n |\n| 12 | SkÃ¥ne lÃ¤n |\n| 13 | Hallands lÃ¤n |\n| 14 | VÃ¤stra GÃ¶talands lÃ¤n |\n| 17 | VÃ¤rmlands lÃ¤n |\n| 18 | Ãrebro lÃ¤n |\n| 19 | VÃ¤stmanlands lÃ¤n |\n| 20 | Dalarnas lÃ¤n |\n| 21 | GÃ¤vleborgs lÃ¤n |\n| 22 | VÃ¤sternorrlands lÃ¤n |\n| 23 | JÃ¤mtlands lÃ¤n |\n| 24 | VÃ¤sterbottens lÃ¤n |\n| 25 | Norrbottens lÃ¤n |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Stockholms lÃ¤n"
+    ],
+    [
+     "03",
+     "Uppsala lÃ¤n"
+    ],
+    [
+     "04",
+     "SÃ¶dermanlands lÃ¤n"
+    ],
+    [
+     "05",
+     "ÃstergÃ¶tlands lÃ¤n"
+    ],
+    [
+     "06",
+     "JÃ¶nkÃ¶pings lÃ¤n"
+    ],
+    [
+     "07",
+     "Kronobergs lÃ¤n"
+    ],
+    [
+     "08",
+     "Kalmar lÃ¤n"
+    ],
+    [
+     "09",
+     "Gotlands lÃ¤n"
+    ],
+    [
+     "10",
+     "Blekinge lÃ¤n"
+    ],
+    [
+     "12",
+     "SkÃ¥ne lÃ¤n"
+    ],
+    [
+     "13",
+     "Hallands lÃ¤n"
+    ],
+    [
+     "14",
+     "VÃ¤stra GÃ¶talands lÃ¤n"
+    ],
+    [
+     "17",
+     "VÃ¤rmlands lÃ¤n"
+    ],
+    [
+     "18",
+     "Ãrebro lÃ¤n"
+    ],
+    [
+     "19",
+     "VÃ¤stmanlands lÃ¤n"
+    ],
+    [
+     "20",
+     "Dalarnas lÃ¤n"
+    ],
+    [
+     "21",
+     "GÃ¤vleborgs lÃ¤n"
+    ],
+    [
+     "22",
+     "VÃ¤sternorrlands lÃ¤n"
+    ],
+    [
+     "23",
+     "JÃ¤mtlands lÃ¤n"
+    ],
+    [
+     "24",
+     "VÃ¤sterbottens lÃ¤n"
+    ],
+    [
+     "25",
+     "Norrbottens lÃ¤n"
+    ]
+   ]
+  }
+ ]
+}

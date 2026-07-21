@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_uzbekistan-cresta-codes.html",
+ "title": "Uzbekistan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Uzbekistan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Uzbekistan.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Respublika Karakalpakstan |\n| 2 | Navoiyskaya |\n| 3 | Djizakskaya |\n| 4 | Syrdar'inskaya |\n| 5 | Tashkentskaya |\n| 6 | Tashkent |\n| 7 | Namanganskaya |\n| 8 | Andijanskaya |\n| 9 | Ferganskaya |\n| 10 | Chorezemskaya |\n| 11 | Bucharskaya |\n| 12 | Samarkandskaya |\n| 13 | Kashkardar'inskaya |\n| 14 | Suchandar'inskaya |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Respublika Karakalpakstan"
+    ],
+    [
+     "2",
+     "Navoiyskaya"
+    ],
+    [
+     "3",
+     "Djizakskaya"
+    ],
+    [
+     "4",
+     "Syrdar'inskaya"
+    ],
+    [
+     "5",
+     "Tashkentskaya"
+    ],
+    [
+     "6",
+     "Tashkent"
+    ],
+    [
+     "7",
+     "Namanganskaya"
+    ],
+    [
+     "8",
+     "Andijanskaya"
+    ],
+    [
+     "9",
+     "Ferganskaya"
+    ],
+    [
+     "10",
+     "Chorezemskaya"
+    ],
+    [
+     "11",
+     "Bucharskaya"
+    ],
+    [
+     "12",
+     "Samarkandskaya"
+    ],
+    [
+     "13",
+     "Kashkardar'inskaya"
+    ],
+    [
+     "14",
+     "Suchandar'inskaya"
+    ]
+   ]
+  }
+ ]
+}

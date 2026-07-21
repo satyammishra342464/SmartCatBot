@@ -1,0 +1,137 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_dominican-rep-province-codes.html",
+ "title": "Dominican Republic Province Codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Dominican Republic Province Codes\n\nTouchstone\n supports the following province\n codes for the Dominican Republic.\n\n| Province Code | Province Name |\n| --- | --- |\n| 1 | Azua |\n| 2 | Bahoruco |\n| 3 | Barahona |\n| 4 | Dajabon |\n| 5 | Distrito National |\n| 6 | Duarte |\n| 7 | Elias Pina |\n| 8 | El Seibo |\n| 9 | Espaillat |\n| 10 | Hato Mayor |\n| 11 | Independencia |\n| 12 | La Altagracia |\n| 13 | La Romana |\n| 14 | La Vega |\n| 15 | Maria Trinidad SÃ¡nchez |\n| 16 | Monsenor Nouel |\n| 17 | Monte Cristi |\n| 18 | Monte Plata |\n| 19 | Pedernales |\n| 20 | Peravia |\n| 21 | Puerto Plata |\n| 22 | Salcedo |\n| 23 | Samana |\n| 24 | SÃ¡nchez Ramirez |\n| 25 | San Cristobal |\n| 26 | San Juan |\n| 27 | San Pedro de Macoris |\n| 28 | Santiago |\n| 29 | Santiago Rodriguez |\n| 30 | Valverde |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Azua"
+    ],
+    [
+     "2",
+     "Bahoruco"
+    ],
+    [
+     "3",
+     "Barahona"
+    ],
+    [
+     "4",
+     "Dajabon"
+    ],
+    [
+     "5",
+     "Distrito National"
+    ],
+    [
+     "6",
+     "Duarte"
+    ],
+    [
+     "7",
+     "Elias Pina"
+    ],
+    [
+     "8",
+     "El Seibo"
+    ],
+    [
+     "9",
+     "Espaillat"
+    ],
+    [
+     "10",
+     "Hato Mayor"
+    ],
+    [
+     "11",
+     "Independencia"
+    ],
+    [
+     "12",
+     "La Altagracia"
+    ],
+    [
+     "13",
+     "La Romana"
+    ],
+    [
+     "14",
+     "La Vega"
+    ],
+    [
+     "15",
+     "Maria Trinidad SÃ¡nchez"
+    ],
+    [
+     "16",
+     "Monsenor Nouel"
+    ],
+    [
+     "17",
+     "Monte Cristi"
+    ],
+    [
+     "18",
+     "Monte Plata"
+    ],
+    [
+     "19",
+     "Pedernales"
+    ],
+    [
+     "20",
+     "Peravia"
+    ],
+    [
+     "21",
+     "Puerto Plata"
+    ],
+    [
+     "22",
+     "Salcedo"
+    ],
+    [
+     "23",
+     "Samana"
+    ],
+    [
+     "24",
+     "SÃ¡nchez Ramirez"
+    ],
+    [
+     "25",
+     "San Cristobal"
+    ],
+    [
+     "26",
+     "San Juan"
+    ],
+    [
+     "27",
+     "San Pedro de Macoris"
+    ],
+    [
+     "28",
+     "Santiago"
+    ],
+    [
+     "29",
+     "Santiago Rodriguez"
+    ],
+    [
+     "30",
+     "Valverde"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,490 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_s-america-occ-class-codes.html",
+ "title": "South America occupancy class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "South America occupancy class codes\n\nTouchstone\n supports the occupancy codes\n listed in this topic for South America.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Occupancy code | Occupancy class |\n| --- | --- | --- |\n| Unknown | 300 | Unknown |\n| Residential | 301 | General Residential |\n| 302 | Permanent Dwelling: Single Family |\n| 303 | Permanent Dwelling: Multi Family |\n| 304 | Temporary Lodging |\n| 305 | Group Institutional Housing |\n| 306 | Apartments/Condominiums |\n| 382 | Construction/Erection Risks |\n| Commercial | 311 | General Commercial |\n| 312 | Retail Trade |\n| 313 | Wholesale Trade |\n| 314 | Personal and Repair Services |\n| 315 | Professional, Technical, and Business Services |\n| 316 | Health Care Services |\n| 317 | Entertainment and Recreation |\n| 318 | Parking |\n| 319 | Golf Courses |\n| 383 | Construction/Erection Risks |\n| Industrial | 321 | General Industrial |\n| 322 | Heavy Fabrication and Assembly |\n| 323 | Light Fabrication and Assembly |\n| 324 | Food and Drug Processing |\n| 325 | Chemical Processing |\n| 326 | Metal and Minerals Processing |\n| 327 | High Technology |\n| 328 | Construction |\n| 329 | Petroleum |\n| 330 | Mining |\n| 384 | Construction/Erection Risks |\n| Restaurants | 331 | Restaurants |\n| Mercantile | 335 | Gasoline Stations |\n| 336 | Automotive Repair Shops and Car Washes |\n| Public | 341 | Religion and Non-Profit |\n| 342 | Churches |\n| 343 | Government - General Services |\n| 344 | Government - Emergency Services |\n| Education | 345 | Universities, Colleges, and Technical Schools |\n| 346 | Primary and Secondary Schools |\n| Transportation | 351 | Highway |\n| 352 | Railroad |\n| 353 | Air |\n| 354 | Sea and Inland Waterways |\n| 355 | Aircraft Hangars |\n| Utilities | 361 | Electrical Utilities |\n| 362 | Water Utilities |\n| 363 | Sanitary Sewer |\n| 364 | Natural Gas |\n| 365 | Telephone and Telegraph |\n| Miscellaneous | 371 | Communication |\n| 372 | Flood Control |\n| 373 | Agriculture |\n| 374 | Greenhouses |\n| 381 | Construction/Erection Risks |\n| Industrial Facility | 400 | Unknown Industrial Facility |\n| 401 | Heavy Fabrication and Assembly - General |\n| 402 | Automotive Manufacturing |\n| 403 | Fabricated Metal Products |\n| 404 | Industrial and Commercial Machinery and Equipment |\n| 405 | Transportation Equipment Assembly |\n| 406 | Pulp/Paper and Allied Products Manufacturing |\n| 407 | Textile Mill Products |\n| 408 | Lumber and Wood Products (Except Furniture) |\n| 409 | Stone/Clay/Glass/Ceramics Products |\n| 414 | Light Fabrication and Assembly - General |\n| 415 | Furniture and Fixtures |\n| 416 | Apparel and Finished Products from Fabrics |\n| 417 | Print/Publishing and Allied Industries |\n| 418 | Rubber and Miscellaneous Plastics Products |\n| 419 | Leather and Leather Products |\n| 420 | Electronic and Other Electrical Equipment (Except Computer Equipment) |\n| 421 | Measuring, Analyzing, and Controlling Instruments |\n| 422 | Photographic, Medical, and Optical Goods |\n| 423 | Watches and Clocks |\n| 424 | Miscellaneous Manufacturing Industries |\n| 425 | Tire Manufacturers |\n| 429 | Food and Drug Processing - General |\n| 430 | Food and Kindred Products |\n| 431 | Tobacco Products |\n| 432 | Pharmaceutical Plants |\n| 433 | Biological Products (Except Diagnostic)\n Medicinals/Botanicals/Biomedical |\n| 434 | Wineries |\n| 438 | Chemical Processing - General |\n| 439 | Chlorine Plants |\n| 440 | Vinyl Plants |\n| 441 | Light Hydrocarbon or Aromatics Plants |\n| 442 | Plastics Plants |\n| 443 | Chlorhydrin Plants |\n| 444 | Fertilizer Plants |\n| 445 | Cement Plants/Cement Mills |\n| 446 | Other Chemical and Allied Products |\n| 449 | Metal and Minerals Processing - General |\n| 450 | Primary Metal Industry |\n| 451 | Steel Mills |\n| 452 | Smelters |\n| 455 | High Technology - General |\n| 456 | Semi-conductor and Related Devices |\n| 457 | Electronic Computer Devices |\n| 458 | Computer Storage Devices |\n| 459 | Electron Tubes |\n| 460 | Printed Circuit Boards |\n| 463 | General Building/Construction Contractors |\n| 464 | Heavy Constructions |\n| 465 | Special Trade Contractors |\n| 470 | Mining - General |\n| 471 | Mining Operations |\n| 472 | Metal Mining |\n| 473 | Coal Mining |\n| 474 | Mining/Quarrying - Non-Metallic Mineral (Except Fuels) |\n| 475 | Oil Refinery Systems - General |\n| 476 | Hydro-Electric Power Systems - General |\n| 477 | Thermo-Electric Power Systems - General |\n| 479 | Electric Substations |\n| 480 | Potable Water Systems - General |\n| 481 | Waste Water Treatment Systems - General |\n| 482 | Gas Processing Systems - General |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Occupancy code",
+    "Occupancy class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "300",
+     "Unknown"
+    ],
+    [
+     "Residential",
+     "301",
+     "General Residential"
+    ],
+    [
+     "302",
+     "Permanent Dwelling: Single Family"
+    ],
+    [
+     "303",
+     "Permanent Dwelling: Multi Family"
+    ],
+    [
+     "304",
+     "Temporary Lodging"
+    ],
+    [
+     "305",
+     "Group Institutional Housing"
+    ],
+    [
+     "306",
+     "Apartments/Condominiums"
+    ],
+    [
+     "382",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Commercial",
+     "311",
+     "General Commercial"
+    ],
+    [
+     "312",
+     "Retail Trade"
+    ],
+    [
+     "313",
+     "Wholesale Trade"
+    ],
+    [
+     "314",
+     "Personal and Repair Services"
+    ],
+    [
+     "315",
+     "Professional, Technical, and Business Services"
+    ],
+    [
+     "316",
+     "Health Care Services"
+    ],
+    [
+     "317",
+     "Entertainment and Recreation"
+    ],
+    [
+     "318",
+     "Parking"
+    ],
+    [
+     "319",
+     "Golf Courses"
+    ],
+    [
+     "383",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Industrial",
+     "321",
+     "General Industrial"
+    ],
+    [
+     "322",
+     "Heavy Fabrication and Assembly"
+    ],
+    [
+     "323",
+     "Light Fabrication and Assembly"
+    ],
+    [
+     "324",
+     "Food and Drug Processing"
+    ],
+    [
+     "325",
+     "Chemical Processing"
+    ],
+    [
+     "326",
+     "Metal and Minerals Processing"
+    ],
+    [
+     "327",
+     "High Technology"
+    ],
+    [
+     "328",
+     "Construction"
+    ],
+    [
+     "329",
+     "Petroleum"
+    ],
+    [
+     "330",
+     "Mining"
+    ],
+    [
+     "384",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Restaurants",
+     "331",
+     "Restaurants"
+    ],
+    [
+     "Mercantile",
+     "335",
+     "Gasoline Stations"
+    ],
+    [
+     "336",
+     "Automotive Repair Shops and Car Washes"
+    ],
+    [
+     "Public",
+     "341",
+     "Religion and Non-Profit"
+    ],
+    [
+     "342",
+     "Churches"
+    ],
+    [
+     "343",
+     "Government - General Services"
+    ],
+    [
+     "344",
+     "Government - Emergency Services"
+    ],
+    [
+     "Education",
+     "345",
+     "Universities, Colleges, and Technical Schools"
+    ],
+    [
+     "346",
+     "Primary and Secondary Schools"
+    ],
+    [
+     "Transportation",
+     "351",
+     "Highway"
+    ],
+    [
+     "352",
+     "Railroad"
+    ],
+    [
+     "353",
+     "Air"
+    ],
+    [
+     "354",
+     "Sea and Inland Waterways"
+    ],
+    [
+     "355",
+     "Aircraft Hangars"
+    ],
+    [
+     "Utilities",
+     "361",
+     "Electrical Utilities"
+    ],
+    [
+     "362",
+     "Water Utilities"
+    ],
+    [
+     "363",
+     "Sanitary Sewer"
+    ],
+    [
+     "364",
+     "Natural Gas"
+    ],
+    [
+     "365",
+     "Telephone and Telegraph"
+    ],
+    [
+     "Miscellaneous",
+     "371",
+     "Communication"
+    ],
+    [
+     "372",
+     "Flood Control"
+    ],
+    [
+     "373",
+     "Agriculture"
+    ],
+    [
+     "374",
+     "Greenhouses"
+    ],
+    [
+     "381",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Industrial Facility",
+     "400",
+     "Unknown Industrial Facility"
+    ],
+    [
+     "401",
+     "Heavy Fabrication and Assembly - General"
+    ],
+    [
+     "402",
+     "Automotive Manufacturing"
+    ],
+    [
+     "403",
+     "Fabricated Metal Products"
+    ],
+    [
+     "404",
+     "Industrial and Commercial Machinery and Equipment"
+    ],
+    [
+     "405",
+     "Transportation Equipment Assembly"
+    ],
+    [
+     "406",
+     "Pulp/Paper and Allied Products Manufacturing"
+    ],
+    [
+     "407",
+     "Textile Mill Products"
+    ],
+    [
+     "408",
+     "Lumber and Wood Products (Except Furniture)"
+    ],
+    [
+     "409",
+     "Stone/Clay/Glass/Ceramics Products"
+    ],
+    [
+     "414",
+     "Light Fabrication and Assembly - General"
+    ],
+    [
+     "415",
+     "Furniture and Fixtures"
+    ],
+    [
+     "416",
+     "Apparel and Finished Products from Fabrics"
+    ],
+    [
+     "417",
+     "Print/Publishing and Allied Industries"
+    ],
+    [
+     "418",
+     "Rubber and Miscellaneous Plastics Products"
+    ],
+    [
+     "419",
+     "Leather and Leather Products"
+    ],
+    [
+     "420",
+     "Electronic and Other Electrical Equipment (Except Computer Equipment)"
+    ],
+    [
+     "421",
+     "Measuring, Analyzing, and Controlling Instruments"
+    ],
+    [
+     "422",
+     "Photographic, Medical, and Optical Goods"
+    ],
+    [
+     "423",
+     "Watches and Clocks"
+    ],
+    [
+     "424",
+     "Miscellaneous Manufacturing Industries"
+    ],
+    [
+     "425",
+     "Tire Manufacturers"
+    ],
+    [
+     "429",
+     "Food and Drug Processing - General"
+    ],
+    [
+     "430",
+     "Food and Kindred Products"
+    ],
+    [
+     "431",
+     "Tobacco Products"
+    ],
+    [
+     "432",
+     "Pharmaceutical Plants"
+    ],
+    [
+     "433",
+     "Biological Products (Except Diagnostic)\n                           Medicinals/Botanicals/Biomedical"
+    ],
+    [
+     "434",
+     "Wineries"
+    ],
+    [
+     "438",
+     "Chemical Processing - General"
+    ],
+    [
+     "439",
+     "Chlorine Plants"
+    ],
+    [
+     "440",
+     "Vinyl Plants"
+    ],
+    [
+     "441",
+     "Light Hydrocarbon or Aromatics Plants"
+    ],
+    [
+     "442",
+     "Plastics Plants"
+    ],
+    [
+     "443",
+     "Chlorhydrin Plants"
+    ],
+    [
+     "444",
+     "Fertilizer Plants"
+    ],
+    [
+     "445",
+     "Cement Plants/Cement Mills"
+    ],
+    [
+     "446",
+     "Other Chemical and Allied Products"
+    ],
+    [
+     "449",
+     "Metal and Minerals Processing - General"
+    ],
+    [
+     "450",
+     "Primary Metal Industry"
+    ],
+    [
+     "451",
+     "Steel Mills"
+    ],
+    [
+     "452",
+     "Smelters"
+    ],
+    [
+     "455",
+     "High Technology - General"
+    ],
+    [
+     "456",
+     "Semi-conductor and Related Devices"
+    ],
+    [
+     "457",
+     "Electronic Computer Devices"
+    ],
+    [
+     "458",
+     "Computer Storage Devices"
+    ],
+    [
+     "459",
+     "Electron Tubes"
+    ],
+    [
+     "460",
+     "Printed Circuit Boards"
+    ],
+    [
+     "463",
+     "General Building/Construction Contractors"
+    ],
+    [
+     "464",
+     "Heavy Constructions"
+    ],
+    [
+     "465",
+     "Special Trade Contractors"
+    ],
+    [
+     "470",
+     "Mining - General"
+    ],
+    [
+     "471",
+     "Mining Operations"
+    ],
+    [
+     "472",
+     "Metal Mining"
+    ],
+    [
+     "473",
+     "Coal Mining"
+    ],
+    [
+     "474",
+     "Mining/Quarrying - Non-Metallic Mineral (Except Fuels)"
+    ],
+    [
+     "475",
+     "Oil Refinery Systems - General"
+    ],
+    [
+     "476",
+     "Hydro-Electric Power Systems - General"
+    ],
+    [
+     "477",
+     "Thermo-Electric Power Systems - General"
+    ],
+    [
+     "479",
+     "Electric Substations"
+    ],
+    [
+     "480",
+     "Potable Water Systems - General"
+    ],
+    [
+     "481",
+     "Waste Water Treatment Systems - General"
+    ],
+    [
+     "482",
+     "Gas Processing Systems - General"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_indonesia_peril_codes_2-8.html",
+ "title": "Indonesia Peril Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Indonesia Peril Codes (v2.8)\n\nPeril codes for Indonesia supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for Perils Covered for risks in Indonesia.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ]
+   ]
+  }
+ ]
+}

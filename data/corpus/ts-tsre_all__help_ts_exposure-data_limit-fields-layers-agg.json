@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-fields-layers-agg.html",
+ "title": "Layer aggregate limit fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer aggregate limit fields\n\nLayer aggregate limit fields.\nSee \nLayer aggregate limit types\n for information about\n layer aggregate limit types.\n\n| Field / Aggregate limit type | AGGL |\n| --- | --- |\n| Aggregate Limit | A monetary value expressed as a value greater than or equal to\n 1. |\n| Aggregate Attachment Point | A monetary value expressed as a value greater than or equal to\n 1. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate limit type",
+    "AGGL"
+   ],
+   "rows": [
+    [
+     "Aggregate Limit",
+     "A monetary value expressed as a value greater than or equal to\n                        1."
+    ],
+    [
+     "Aggregate Attachment Point",
+     "A monetary value expressed as a value greater than or equal to\n                        1."
+    ]
+   ]
+  }
+ ]
+}

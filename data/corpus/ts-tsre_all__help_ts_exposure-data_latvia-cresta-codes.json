@@ -1,0 +1,133 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_latvia-cresta-codes.html",
+ "title": "Latvia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Latvia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Latvia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| LVA_OWT | Latvia Offshore Wind Turbines |\n| LVA_10 | LVA_10 |\n| LVA_20 | LVA_20 |\n| LVA_21 | LVA_21 |\n| LVA_30 | LVA_30 |\n| LVA_31 | LVA_31 |\n| LVA_32 | LVA_32 |\n| LVA_33 | LVA_33 |\n| LVA_34 | LVA_34 |\n| LVA_36 | LVA_36 |\n| LVA_37 | LVA_37 |\n| LVA_38 | LVA_38 |\n| LVA_39 | LVA_39 |\n| LVA_40 | LVA_40 |\n| LVA_41 | LVA_41 |\n| LVA_42 | LVA_42 |\n| LVA_43 | LVA_43 |\n| LVA_44 | LVA_44 |\n| LVA_45 | LVA_45 |\n| LVA_46 | LVA_46 |\n| LVA_47 | LVA_47 |\n| LVA_48 | LVA_48 |\n| LVA_50 | LVA_50 |\n| LVA_51 | LVA_51 |\n| LVA_52 | LVA_52 |\n| LVA_53 | LVA_53 |\n| LVA_54 | LVA_54 |\n| LVA_56 | LVA_56 |\n| LVA_57 | LVA_57 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "LVA_OWT",
+     "Latvia Offshore Wind Turbines"
+    ],
+    [
+     "LVA_10",
+     "LVA_10"
+    ],
+    [
+     "LVA_20",
+     "LVA_20"
+    ],
+    [
+     "LVA_21",
+     "LVA_21"
+    ],
+    [
+     "LVA_30",
+     "LVA_30"
+    ],
+    [
+     "LVA_31",
+     "LVA_31"
+    ],
+    [
+     "LVA_32",
+     "LVA_32"
+    ],
+    [
+     "LVA_33",
+     "LVA_33"
+    ],
+    [
+     "LVA_34",
+     "LVA_34"
+    ],
+    [
+     "LVA_36",
+     "LVA_36"
+    ],
+    [
+     "LVA_37",
+     "LVA_37"
+    ],
+    [
+     "LVA_38",
+     "LVA_38"
+    ],
+    [
+     "LVA_39",
+     "LVA_39"
+    ],
+    [
+     "LVA_40",
+     "LVA_40"
+    ],
+    [
+     "LVA_41",
+     "LVA_41"
+    ],
+    [
+     "LVA_42",
+     "LVA_42"
+    ],
+    [
+     "LVA_43",
+     "LVA_43"
+    ],
+    [
+     "LVA_44",
+     "LVA_44"
+    ],
+    [
+     "LVA_45",
+     "LVA_45"
+    ],
+    [
+     "LVA_46",
+     "LVA_46"
+    ],
+    [
+     "LVA_47",
+     "LVA_47"
+    ],
+    [
+     "LVA_48",
+     "LVA_48"
+    ],
+    [
+     "LVA_50",
+     "LVA_50"
+    ],
+    [
+     "LVA_51",
+     "LVA_51"
+    ],
+    [
+     "LVA_52",
+     "LVA_52"
+    ],
+    [
+     "LVA_53",
+     "LVA_53"
+    ],
+    [
+     "LVA_54",
+     "LVA_54"
+    ],
+    [
+     "LVA_56",
+     "LVA_56"
+    ],
+    [
+     "LVA_57",
+     "LVA_57"
+    ]
+   ]
+  }
+ ]
+}

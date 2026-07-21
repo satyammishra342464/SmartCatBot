@@ -1,0 +1,529 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_virginia_fips.html",
+ "title": "Virginia (VA) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Virginia (VA) Counties\n\nFIPS codes for Virginia.\n\nFIPS State Code: 51\n\nFor example, for Bath County, enter \n01-51017.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Accomack |\n| 003 | Albemarle |\n| 005 | Alleghany |\n| 007 | Amelia |\n| 009 | Amherst |\n| 011 | Appomattox |\n| 013 | Arlington |\n| 015 | Augusta |\n| 017 | Bath |\n| 019 | Bedford |\n| 021 | Bland |\n| 023 | Botetourt |\n| 025 | Brunswick |\n| 027 | Buchanan |\n| 029 | Buckingham |\n| 031 | Campbell |\n| 033 | Caroline |\n| 035 | Carroll |\n| 036 | Charles City |\n| 037 | Charlotte |\n| 041 | Chesterfield |\n| 043 | Clarke |\n| 045 | Craig |\n| 047 | Culpeper |\n| 049 | Cumberland |\n| 051 | Dickenson |\n| 053 | Dinwiddie |\n| 057 | Essex |\n| 059 | Fairfax |\n| 061 | Fauquier |\n| 063 | Floyd |\n| 065 | Fluvanna |\n| 067 | Franklin |\n| 069 | Frederick |\n| 071 | Giles |\n| 073 | Gloucester |\n| 075 | Goochland |\n| 077 | Grayson |\n| 079 | Greene |\n| 081 | Greensville |\n| 083 | Halifax |\n| 085 | Hanover |\n| 087 | Henrico |\n| 089 | Henry |\n| 091 | Highland |\n| 093 | Isle of Wight |\n| 095 | James City |\n| 097 | King and Queen |\n| 099 | King George |\n| 101 | King William |\n| 103 | Lancaster |\n| 105 | Lee |\n| 107 | Loudoun |\n| 109 | Louisa |\n| 111 | Lunenburg |\n| 113 | Madison |\n| 115 | Mathews |\n| 117 | Mecklenburg |\n| 119 | Middlesex |\n| 121 | Montgomery |\n| 125 | Nelson |\n| 127 | New Kent |\n| 131 | Northampton |\n| 133 | Northumberland |\n| 135 | Nottoway |\n| 137 | Orange |\n| 139 | Page |\n| 141 | Patrick |\n| 143 | Pittsylvania |\n| 145 | Powhatan |\n| 147 | Prince Edward |\n| 149 | Prince George |\n| 153 | Prince William |\n| 155 | Pulaski |\n| 157 | Rappahannock |\n| 159 | Richmond |\n| 161 | Roanoke |\n| 163 | Rockbridge |\n| 165 | Rockingham |\n| 167 | Russell |\n| 169 | Scott |\n| 171 | Shenandoah |\n| 173 | Smyth |\n| 175 | Southampton |\n| 177 | Spotsylvania |\n| 179 | Stafford |\n| 181 | Surry |\n| 183 | Sussex |\n| 185 | Tazewell |\n| 187 | Warren |\n| 191 | Washington |\n| 193 | Westmoreland |\n| 195 | Wise |\n| 197 | Wythe |\n| 199 | York |\n| 510 | Alexandria City |\n| 520 | Bristol City |\n| 530 | Buena Vista City |\n| 540 | Charlottesville City |\n| 550 | Chesapeake City |\n| 570 | Colonial Heights City |\n| 590 | Danville City |\n| 610 | Falls Church City |\n| 620 | Franklin City |\n| 630 | Fredericksburg City |\n| 640 | Galax City |\n| 650 | Hampton City |\n| 660 | Harrisonburg City |\n| 670 | Hopewell City |\n| 680 | Lynchburg City |\n| 683 | Manassas City |\n| 690 | Martinsville City |\n| 700 | Newport News City |\n| 710 | Norfolk City |\n| 720 | Norton City |\n| 730 | Petersburg City |\n| 735 | Poquoson City |\n| 740 | Portsmouth City |\n| 750 | Radford City |\n| 760 | Richmond City |\n| 770 | Roanoke City |\n| 775 | Salem City |\n| 790 | Staunton City |\n| 800 | Suffolk City |\n| 810 | Virginia Beach City |\n| 820 | Waynesboro City |\n| 830 | Williamsburg City |\n| 840 | Winchester City |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Accomack"
+    ],
+    [
+     "003",
+     "Albemarle"
+    ],
+    [
+     "005",
+     "Alleghany"
+    ],
+    [
+     "007",
+     "Amelia"
+    ],
+    [
+     "009",
+     "Amherst"
+    ],
+    [
+     "011",
+     "Appomattox"
+    ],
+    [
+     "013",
+     "Arlington"
+    ],
+    [
+     "015",
+     "Augusta"
+    ],
+    [
+     "017",
+     "Bath"
+    ],
+    [
+     "019",
+     "Bedford"
+    ],
+    [
+     "021",
+     "Bland"
+    ],
+    [
+     "023",
+     "Botetourt"
+    ],
+    [
+     "025",
+     "Brunswick"
+    ],
+    [
+     "027",
+     "Buchanan"
+    ],
+    [
+     "029",
+     "Buckingham"
+    ],
+    [
+     "031",
+     "Campbell"
+    ],
+    [
+     "033",
+     "Caroline"
+    ],
+    [
+     "035",
+     "Carroll"
+    ],
+    [
+     "036",
+     "Charles City"
+    ],
+    [
+     "037",
+     "Charlotte"
+    ],
+    [
+     "041",
+     "Chesterfield"
+    ],
+    [
+     "043",
+     "Clarke"
+    ],
+    [
+     "045",
+     "Craig"
+    ],
+    [
+     "047",
+     "Culpeper"
+    ],
+    [
+     "049",
+     "Cumberland"
+    ],
+    [
+     "051",
+     "Dickenson"
+    ],
+    [
+     "053",
+     "Dinwiddie"
+    ],
+    [
+     "057",
+     "Essex"
+    ],
+    [
+     "059",
+     "Fairfax"
+    ],
+    [
+     "061",
+     "Fauquier"
+    ],
+    [
+     "063",
+     "Floyd"
+    ],
+    [
+     "065",
+     "Fluvanna"
+    ],
+    [
+     "067",
+     "Franklin"
+    ],
+    [
+     "069",
+     "Frederick"
+    ],
+    [
+     "071",
+     "Giles"
+    ],
+    [
+     "073",
+     "Gloucester"
+    ],
+    [
+     "075",
+     "Goochland"
+    ],
+    [
+     "077",
+     "Grayson"
+    ],
+    [
+     "079",
+     "Greene"
+    ],
+    [
+     "081",
+     "Greensville"
+    ],
+    [
+     "083",
+     "Halifax"
+    ],
+    [
+     "085",
+     "Hanover"
+    ],
+    [
+     "087",
+     "Henrico"
+    ],
+    [
+     "089",
+     "Henry"
+    ],
+    [
+     "091",
+     "Highland"
+    ],
+    [
+     "093",
+     "Isle of Wight"
+    ],
+    [
+     "095",
+     "James City"
+    ],
+    [
+     "097",
+     "King and Queen"
+    ],
+    [
+     "099",
+     "King George"
+    ],
+    [
+     "101",
+     "King William"
+    ],
+    [
+     "103",
+     "Lancaster"
+    ],
+    [
+     "105",
+     "Lee"
+    ],
+    [
+     "107",
+     "Loudoun"
+    ],
+    [
+     "109",
+     "Louisa"
+    ],
+    [
+     "111",
+     "Lunenburg"
+    ],
+    [
+     "113",
+     "Madison"
+    ],
+    [
+     "115",
+     "Mathews"
+    ],
+    [
+     "117",
+     "Mecklenburg"
+    ],
+    [
+     "119",
+     "Middlesex"
+    ],
+    [
+     "121",
+     "Montgomery"
+    ],
+    [
+     "125",
+     "Nelson"
+    ],
+    [
+     "127",
+     "New Kent"
+    ],
+    [
+     "131",
+     "Northampton"
+    ],
+    [
+     "133",
+     "Northumberland"
+    ],
+    [
+     "135",
+     "Nottoway"
+    ],
+    [
+     "137",
+     "Orange"
+    ],
+    [
+     "139",
+     "Page"
+    ],
+    [
+     "141",
+     "Patrick"
+    ],
+    [
+     "143",
+     "Pittsylvania"
+    ],
+    [
+     "145",
+     "Powhatan"
+    ],
+    [
+     "147",
+     "Prince Edward"
+    ],
+    [
+     "149",
+     "Prince George"
+    ],
+    [
+     "153",
+     "Prince William"
+    ],
+    [
+     "155",
+     "Pulaski"
+    ],
+    [
+     "157",
+     "Rappahannock"
+    ],
+    [
+     "159",
+     "Richmond"
+    ],
+    [
+     "161",
+     "Roanoke"
+    ],
+    [
+     "163",
+     "Rockbridge"
+    ],
+    [
+     "165",
+     "Rockingham"
+    ],
+    [
+     "167",
+     "Russell"
+    ],
+    [
+     "169",
+     "Scott"
+    ],
+    [
+     "171",
+     "Shenandoah"
+    ],
+    [
+     "173",
+     "Smyth"
+    ],
+    [
+     "175",
+     "Southampton"
+    ],
+    [
+     "177",
+     "Spotsylvania"
+    ],
+    [
+     "179",
+     "Stafford"
+    ],
+    [
+     "181",
+     "Surry"
+    ],
+    [
+     "183",
+     "Sussex"
+    ],
+    [
+     "185",
+     "Tazewell"
+    ],
+    [
+     "187",
+     "Warren"
+    ],
+    [
+     "191",
+     "Washington"
+    ],
+    [
+     "193",
+     "Westmoreland"
+    ],
+    [
+     "195",
+     "Wise"
+    ],
+    [
+     "197",
+     "Wythe"
+    ],
+    [
+     "199",
+     "York"
+    ],
+    [
+     "510",
+     "Alexandria City"
+    ],
+    [
+     "520",
+     "Bristol City"
+    ],
+    [
+     "530",
+     "Buena Vista City"
+    ],
+    [
+     "540",
+     "Charlottesville City"
+    ],
+    [
+     "550",
+     "Chesapeake City"
+    ],
+    [
+     "570",
+     "Colonial Heights City"
+    ],
+    [
+     "590",
+     "Danville City"
+    ],
+    [
+     "610",
+     "Falls Church City"
+    ],
+    [
+     "620",
+     "Franklin City"
+    ],
+    [
+     "630",
+     "Fredericksburg City"
+    ],
+    [
+     "640",
+     "Galax City"
+    ],
+    [
+     "650",
+     "Hampton City"
+    ],
+    [
+     "660",
+     "Harrisonburg City"
+    ],
+    [
+     "670",
+     "Hopewell City"
+    ],
+    [
+     "680",
+     "Lynchburg City"
+    ],
+    [
+     "683",
+     "Manassas City"
+    ],
+    [
+     "690",
+     "Martinsville City"
+    ],
+    [
+     "700",
+     "Newport News City"
+    ],
+    [
+     "710",
+     "Norfolk City"
+    ],
+    [
+     "720",
+     "Norton City"
+    ],
+    [
+     "730",
+     "Petersburg City"
+    ],
+    [
+     "735",
+     "Poquoson City"
+    ],
+    [
+     "740",
+     "Portsmouth City"
+    ],
+    [
+     "750",
+     "Radford City"
+    ],
+    [
+     "760",
+     "Richmond City"
+    ],
+    [
+     "770",
+     "Roanoke City"
+    ],
+    [
+     "775",
+     "Salem City"
+    ],
+    [
+     "790",
+     "Staunton City"
+    ],
+    [
+     "800",
+     "Suffolk City"
+    ],
+    [
+     "810",
+     "Virginia Beach City"
+    ],
+    [
+     "820",
+     "Waynesboro City"
+    ],
+    [
+     "830",
+     "Williamsburg City"
+    ],
+    [
+     "840",
+     "Winchester City"
+    ]
+   ]
+  }
+ ]
+}

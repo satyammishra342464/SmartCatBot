@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hong_kong_peril_codes_3.html",
+ "title": "Hong Kong Peril Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Hong Kong Peril Codes\n\nPeril codes for Hong Kong supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Windstorm only |\n| PEQ | Earthquake only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PEQ",
+     "Earthquake only"
+    ]
+   ]
+  }
+ ]
+}

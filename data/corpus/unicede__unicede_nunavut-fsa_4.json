@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_nunavut-fsa_4.html",
+ "title": "Nunavut FSA Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Nunavut FSA Codes\n\nFSA codes for Nunavut.\nThe codes below include the country code for Canada (18).\n\n| Area Tag | Name |\n| --- | --- |\n| 18-Z00 | Nunavut |\n| 18-X0A | X0A |\n| 18-X0B | X0B |\n| 18-X0C | X0C |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "18-Z00",
+     "Nunavut"
+    ],
+    [
+     "18-X0A",
+     "X0A"
+    ],
+    [
+     "18-X0B",
+     "X0B"
+    ],
+    [
+     "18-X0C",
+     "X0C"
+    ]
+   ]
+  }
+ ]
+}

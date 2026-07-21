@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_st_maarten_cresta_2-7.html",
+ "title": "St. Maarten Subarea Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "St. Maarten Subarea Codes (v2.7)\n \n\nSubarea code for St. Maarten supported by \nUNICEDE\n/2.\n\nThe code below is for Sint Maarten (16).\n\n| Area Tag | Zone |\n| --- | --- |\n| 16-000 | Sint Maarten |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "16-000",
+     "Sint Maarten"
+    ]
+   ]
+  }
+ ]
+}

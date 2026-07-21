@@ -1,0 +1,105 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_yemen_governorates_2-7.html",
+ "title": "Yemen Governorates (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Yemen Governorates (v2.7)\n\nGovernorate codes for Yemen supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Yemen (228).\n\n| Area Tag | Governorates |\n| --- | --- |\n| 228-000 | Yemen |\n| 228-001 | Abyan |\n| 228-002 | Aden |\n| 228-003 | Al Bayda |\n| 228-004 | Al Dhale'e |\n| 228-005 | Al Hudaydah |\n| 228-006 | Al Jawf |\n| 228-007 | Al Maharah |\n| 228-008 | Al Mahwit |\n| 228-009 | Amanat Al Asimah |\n| 228-010 | Amran |\n| 228-011 | Dhamar |\n| 228-012 | Hadramaut |\n| 228-013 | Hajjah |\n| 228-014 | Ibb |\n| 228-015 | Lahj |\n| 228-016 | Marib |\n| 228-017 | Raymah |\n| 228-018 | Sa'adah |\n| 228-019 | Sana'a |\n| 228-020 | Shabwah |\n| 228-021 | Taizz |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Governorates"
+   ],
+   "rows": [
+    [
+     "228-000",
+     "Yemen"
+    ],
+    [
+     "228-001",
+     "Abyan"
+    ],
+    [
+     "228-002",
+     "Aden"
+    ],
+    [
+     "228-003",
+     "Al Bayda"
+    ],
+    [
+     "228-004",
+     "Al Dhale'e"
+    ],
+    [
+     "228-005",
+     "Al Hudaydah"
+    ],
+    [
+     "228-006",
+     "Al Jawf"
+    ],
+    [
+     "228-007",
+     "Al Maharah"
+    ],
+    [
+     "228-008",
+     "Al Mahwit"
+    ],
+    [
+     "228-009",
+     "Amanat Al Asimah"
+    ],
+    [
+     "228-010",
+     "Amran"
+    ],
+    [
+     "228-011",
+     "Dhamar"
+    ],
+    [
+     "228-012",
+     "Hadramaut"
+    ],
+    [
+     "228-013",
+     "Hajjah"
+    ],
+    [
+     "228-014",
+     "Ibb"
+    ],
+    [
+     "228-015",
+     "Lahj"
+    ],
+    [
+     "228-016",
+     "Marib"
+    ],
+    [
+     "228-017",
+     "Raymah"
+    ],
+    [
+     "228-018",
+     "Sa'adah"
+    ],
+    [
+     "228-019",
+     "Sana'a"
+    ],
+    [
+     "228-020",
+     "Shabwah"
+    ],
+    [
+     "228-021",
+     "Taizz"
+    ]
+   ]
+  }
+ ]
+}

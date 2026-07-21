@@ -1,0 +1,145 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mexico-fips-state-codes.html",
+ "title": "Mexico FIPS state codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mexico FIPS state codes\n\nTouchstone\n supports the following FIPS state\n codes for Mexico.\n\n| FIPS State Code | FIPS State Name |\n| --- | --- |\n| 01 | Aguascalientes |\n| 02 | Baja California |\n| 03 | Baja California Sur |\n| 04 | Campeche |\n| 05 | Coahuila |\n| 06 | Colima |\n| 07 | Chiapas |\n| 08 | Chihuahua |\n| 09 | Distrito Federal |\n| 10 | Durango |\n| 11 | Guanajuato |\n| 12 | Guerrero |\n| 13 | Hidalgo |\n| 14 | Jalisco |\n| 15 | Mexico |\n| 16 | Michoacan |\n| 17 | Morelos |\n| 18 | Nayarit |\n| 19 | Nuevo Leon |\n| 20 | Oaxaca |\n| 21 | Puebla |\n| 22 | Queretaro |\n| 23 | Quintana Roo |\n| 24 | San Luis Potosi |\n| 25 | Sinaloa |\n| 26 | Sonora |\n| 27 | Tabasco |\n| 28 | Tamaulipas |\n| 29 | Tlaxcala |\n| 30 | Veracruz |\n| 31 | Yucatan |\n| 32 | Zacatecas |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS State Code",
+    "FIPS State Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Aguascalientes"
+    ],
+    [
+     "02",
+     "Baja California"
+    ],
+    [
+     "03",
+     "Baja California Sur"
+    ],
+    [
+     "04",
+     "Campeche"
+    ],
+    [
+     "05",
+     "Coahuila"
+    ],
+    [
+     "06",
+     "Colima"
+    ],
+    [
+     "07",
+     "Chiapas"
+    ],
+    [
+     "08",
+     "Chihuahua"
+    ],
+    [
+     "09",
+     "Distrito Federal"
+    ],
+    [
+     "10",
+     "Durango"
+    ],
+    [
+     "11",
+     "Guanajuato"
+    ],
+    [
+     "12",
+     "Guerrero"
+    ],
+    [
+     "13",
+     "Hidalgo"
+    ],
+    [
+     "14",
+     "Jalisco"
+    ],
+    [
+     "15",
+     "Mexico"
+    ],
+    [
+     "16",
+     "Michoacan"
+    ],
+    [
+     "17",
+     "Morelos"
+    ],
+    [
+     "18",
+     "Nayarit"
+    ],
+    [
+     "19",
+     "Nuevo Leon"
+    ],
+    [
+     "20",
+     "Oaxaca"
+    ],
+    [
+     "21",
+     "Puebla"
+    ],
+    [
+     "22",
+     "Queretaro"
+    ],
+    [
+     "23",
+     "Quintana Roo"
+    ],
+    [
+     "24",
+     "San Luis Potosi"
+    ],
+    [
+     "25",
+     "Sinaloa"
+    ],
+    [
+     "26",
+     "Sonora"
+    ],
+    [
+     "27",
+     "Tabasco"
+    ],
+    [
+     "28",
+     "Tamaulipas"
+    ],
+    [
+     "29",
+     "Tlaxcala"
+    ],
+    [
+     "30",
+     "Veracruz"
+    ],
+    [
+     "31",
+     "Yucatan"
+    ],
+    [
+     "32",
+     "Zacatecas"
+    ]
+   ]
+  }
+ ]
+}

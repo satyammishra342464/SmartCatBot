@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_uganda-cresta-codes.html",
+ "title": "Uganda CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Uganda \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Uganda.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Kampala |\n| 2 | Central Buganda |\n| 3 | North Buganda |\n| 4 | South Buganda |\n| 5 | Southern |\n| 6 | Western |\n| 7 | Nile |\n| 8 | Northern |\n| 9 | Karamoja |\n| 10 | Eastern |\n| 11 | Busoga |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Kampala"
+    ],
+    [
+     "2",
+     "Central Buganda"
+    ],
+    [
+     "3",
+     "North Buganda"
+    ],
+    [
+     "4",
+     "South Buganda"
+    ],
+    [
+     "5",
+     "Southern"
+    ],
+    [
+     "6",
+     "Western"
+    ],
+    [
+     "7",
+     "Nile"
+    ],
+    [
+     "8",
+     "Northern"
+    ],
+    [
+     "9",
+     "Karamoja"
+    ],
+    [
+     "10",
+     "Eastern"
+    ],
+    [
+     "11",
+     "Busoga"
+    ]
+   ]
+  }
+ ]
+}

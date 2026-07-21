@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_australia-peril-codes_2-9.html",
+ "title": "Australia Peril Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Australia Peril Codes (v2.9)\n\nPerils covered for risks in Australia supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake |\n| PFO | Fire Following |\n| PWS | Wind |\n| PAN | Pandemic |\n\nNote:\n \nUse \nW\n as the coverage for the pandemic peril",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake"
+    ],
+    [
+     "PFO",
+     "Fire Following"
+    ],
+    [
+     "PWS",
+     "Wind"
+    ],
+    [
+     "PAN",
+     "Pandemic"
+    ]
+   ]
+  }
+ ]
+}

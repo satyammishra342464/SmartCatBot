@@ -1,0 +1,78 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-loc-deductible-type-combos.html",
+ "title": "Sublimit location deductible types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit location deductible types\n\nSublimit location deductible type combinations.\n\n| Sublimit / Location | AA | FR | ML | MP | PL | S | CB | CT | C | N |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| MI | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| MA | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| MM | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| N | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Sublimit / Location",
+    "AA",
+    "FR",
+    "ML",
+    "MP",
+    "PL",
+    "S",
+    "CB",
+    "CT",
+    "C",
+    "N"
+   ],
+   "rows": [
+    [
+     "MI",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "MA",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "MM",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

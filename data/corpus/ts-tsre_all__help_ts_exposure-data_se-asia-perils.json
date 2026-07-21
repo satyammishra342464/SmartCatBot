@@ -1,0 +1,114 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_se-asia-perils.html",
+ "title": "Southeast Asia perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Southeast Asia perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for Southeast Asia.\nThe Southeast Asia region includes Brunei, Guam, Hong Kong, Indonesia, Macau, Malaysia, the\n Philippines, Saipan, Singapore, Taiwan, Thailand, and Vietnam.\n\n| Import peril code | Peril |\n| --- | --- |\n| PAL | All licensed perils |\n| PES | Earthquake shake only (for Brunei, Hong Kong, Indonesia, Macau,\n Malaysia, the Philippines, Singapore, Taiwan, Thailand, and Vietnam) |\n| PFL | On-plain and off-plain source of flooding. Added support for Verisk Inland Flood Model for Malaysia and Indonesia in v13.1). |\n| PPH | Precipitation-induced flooding (for Guam, Hong Kong, Macau, the\n Philippines, Saipan, Taiwan, and Thailand) |\n| PSH | Storm surge (for Hong Kong, the Philippines, and Taiwan |\n| PTS | Tsunami (for Indonesia, the Philippines, and Taiwan) |\n| PWH | Typhoon only (for Guam, Hong Kong, Macau, the Philippines, Saipan,\n Taiwan, and Thailand) |\n\nPeril support by country\nThe following table lists the perils and peril codes\n that \nTouchstone\n supports for each country within\n the region:\n\n| Country | Peril codes | Perils |\n| --- | --- | --- |\n| Brunei | PAL PES | All licensed perils Earthquake shake only |\n| Guam | PAL PPH PWH | All licensed perils Precipitation-induced flooding Typhoon only |\n| Hong Kong | PAL PES PPH PSH PWH | All licensed perils Earthquake shake only Precipitation-induced flooding Storm surge Typhoon only |\n| Indonesia | PAL PES PTS | All licensed perils Earthquake shake only Tsunami |\n| Macau | PAL PES PPH PWH | All licensed perils Earthquake shake only Precipitation-induced flooding Typhoon only |\n| Malaysia | PAL PES | All licensed perils Earthquake shake only |\n| Philippines | PAL PES PPH PSH PTS PWH | All licensed perils Earthquake shake only Precipitation-induced flooding Storm surge Tsunami Typhoon only |\n| Saipan | PAL PPH PWH | All licensed perils Precipitation-induced flooding Typhoon only |\n| Singapore | PAL PES | All licensed perils Earthquake shake only |\n| Taiwan | PAL PES PPH PSH PTS PWH | All licensed perils Earthquake shake Precipitation-induced flooding Storm surge Tsunami Typhoon only |\n| Thailand | PAL PES | All licensed perils Earthquake shake only |\n| Vietnam | PAL PES PPH PWH | All licensed perils Earthquake shake only Precipitation-induced flooding Typhoon only |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils"
+    ],
+    [
+     "PES",
+     "Earthquake shake only (for Brunei, Hong Kong, Indonesia, Macau,\n                        Malaysia, the Philippines, Singapore, Taiwan, Thailand, and Vietnam)"
+    ],
+    [
+     "PFL",
+     "On-plain and off-plain source of flooding. Added support for Verisk Inland Flood Model for Malaysia and Indonesia in v13.1)."
+    ],
+    [
+     "PPH",
+     "Precipitation-induced flooding (for Guam, Hong Kong, Macau, the\n                        Philippines, Saipan, Taiwan, and Thailand)"
+    ],
+    [
+     "PSH",
+     "Storm surge (for Hong Kong, the Philippines, and Taiwan"
+    ],
+    [
+     "PTS",
+     "Tsunami (for Indonesia, the Philippines, and Taiwan)"
+    ],
+    [
+     "PWH",
+     "Typhoon only (for Guam, Hong Kong, Macau, the Philippines, Saipan,\n                           Taiwan, and Thailand)"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Country",
+    "Peril codes",
+    "Perils"
+   ],
+   "rows": [
+    [
+     "Brunei",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Guam",
+     "PAL PPH PWH",
+     "All licensed perils Precipitation-induced flooding Typhoon only"
+    ],
+    [
+     "Hong Kong",
+     "PAL PES PPH PSH PWH",
+     "All licensed perils Earthquake shake only Precipitation-induced flooding Storm surge Typhoon only"
+    ],
+    [
+     "Indonesia",
+     "PAL PES PTS",
+     "All licensed perils Earthquake shake only Tsunami"
+    ],
+    [
+     "Macau",
+     "PAL PES PPH PWH",
+     "All licensed perils Earthquake shake only Precipitation-induced flooding Typhoon only"
+    ],
+    [
+     "Malaysia",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Philippines",
+     "PAL PES PPH PSH PTS PWH",
+     "All licensed perils Earthquake shake only Precipitation-induced flooding Storm surge Tsunami Typhoon only"
+    ],
+    [
+     "Saipan",
+     "PAL PPH PWH",
+     "All licensed perils Precipitation-induced flooding Typhoon only"
+    ],
+    [
+     "Singapore",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Taiwan",
+     "PAL PES PPH PSH PTS PWH",
+     "All licensed perils Earthquake shake Precipitation-induced flooding Storm surge Tsunami Typhoon only"
+    ],
+    [
+     "Thailand",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Vietnam",
+     "PAL PES PPH PWH",
+     "All licensed perils Earthquake shake only Precipitation-induced flooding Typhoon only"
+    ]
+   ]
+  }
+ ]
+}

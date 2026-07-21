@@ -1,0 +1,125 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_brazil-cresta-codes.html",
+ "title": "Brazil CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Brazil \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Brazil.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| BRA_AC | Acre |\n| BRA_AL | Alagoas |\n| BRA_AM | Amazonas |\n| BRA_AP | AmapÃ¡ |\n| BRA_BA | Bahia |\n| BRA_CE | CearÃ¡ |\n| BRA_DF | Distrito Federal |\n| BRA_ES | EspÃ­rito Santo |\n| BRA_GO | GoiÃ¡s |\n| BRA_MA | MaranhÃ£o |\n| BRA_MG | Minas Gerais |\n| BRA_MS | Mato Grosso do Sul |\n| BRA_MT | Mato Grosso |\n| BRA_PA | ParÃ¡ |\n| BRA_PB | ParaÃ­ba |\n| BRA_PE | Pernambuco |\n| BRA_PI | PiauÃ­ |\n| BRA_PR | ParanÃ¡ |\n| BRA_RJ | Rio de Janeiro |\n| BRA_RN | Rio Grande do Norte |\n| BRA_RO | RondÃ´nia |\n| BRA_RR | Roraima |\n| BRA_RS | Rio Grande do Sul |\n| BRA_SC | Santa Catarina |\n| BRA_SE | Sergipe |\n| BRA_SP | SÃ£o Paulo |\n| BRA_TO | Tocantins |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "BRA_AC",
+     "Acre"
+    ],
+    [
+     "BRA_AL",
+     "Alagoas"
+    ],
+    [
+     "BRA_AM",
+     "Amazonas"
+    ],
+    [
+     "BRA_AP",
+     "AmapÃ¡"
+    ],
+    [
+     "BRA_BA",
+     "Bahia"
+    ],
+    [
+     "BRA_CE",
+     "CearÃ¡"
+    ],
+    [
+     "BRA_DF",
+     "Distrito Federal"
+    ],
+    [
+     "BRA_ES",
+     "EspÃ­rito Santo"
+    ],
+    [
+     "BRA_GO",
+     "GoiÃ¡s"
+    ],
+    [
+     "BRA_MA",
+     "MaranhÃ£o"
+    ],
+    [
+     "BRA_MG",
+     "Minas Gerais"
+    ],
+    [
+     "BRA_MS",
+     "Mato Grosso do Sul"
+    ],
+    [
+     "BRA_MT",
+     "Mato Grosso"
+    ],
+    [
+     "BRA_PA",
+     "ParÃ¡"
+    ],
+    [
+     "BRA_PB",
+     "ParaÃ­ba"
+    ],
+    [
+     "BRA_PE",
+     "Pernambuco"
+    ],
+    [
+     "BRA_PI",
+     "PiauÃ­"
+    ],
+    [
+     "BRA_PR",
+     "ParanÃ¡"
+    ],
+    [
+     "BRA_RJ",
+     "Rio de Janeiro"
+    ],
+    [
+     "BRA_RN",
+     "Rio Grande do Norte"
+    ],
+    [
+     "BRA_RO",
+     "RondÃ´nia"
+    ],
+    [
+     "BRA_RR",
+     "Roraima"
+    ],
+    [
+     "BRA_RS",
+     "Rio Grande do Sul"
+    ],
+    [
+     "BRA_SC",
+     "Santa Catarina"
+    ],
+    [
+     "BRA_SE",
+     "Sergipe"
+    ],
+    [
+     "BRA_SP",
+     "SÃ£o Paulo"
+    ],
+    [
+     "BRA_TO",
+     "Tocantins"
+    ]
+   ]
+  }
+ ]
+}

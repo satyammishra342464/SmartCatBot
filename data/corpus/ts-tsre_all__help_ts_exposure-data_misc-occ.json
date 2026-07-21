@@ -1,0 +1,55 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_misc-occ.html",
+ "title": "Miscellaneous occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Miscellaneous occupancy codes\n\nTouchstone\n supports the following\n miscellaneous occupancy class codes.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\nNote:\n The associated 2-digit Standard Industrial Classification (SIC)\n code or codes are listed for each occupancy code.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 371 | Communication | 48 | Includes establishments furnishing point-to-point communications\n services, whether intended to be received aurally or visually, as well as\n radio and television broadcasting. |\n| 372 | Flood Control | n/a | Government establishments primarily engaged in regulation, planning,\n protection, and conservation of air and water resources, solid waste\n management, water and air pollution control and prevention, flood control,\n drainage development, and consumption of water resources. It also includes\n coordination of these activities at intergovernmental levels and research\n necessary for air pollution abatement and control and conservation of water\n resources. |\n| 373 | Agriculture | 01, 02 | Establishments primarily engaged in performing soil preparation\n services, crop services, veterinary services, other animal services, farm\n labor and management services, and landscape and horticultural services for\n others on a contract or fee basis. |\n| 374 | Greenhouses | n/a | Includes establishments (e.g., farms, orchards, greenhouses, and\n nurseries) primarily engaged in the production of crops, plants, vines, and\n trees (excluding forestry operations). This major group also includes\n establishments primarily engaged in the operation of sod farms and cranberry\n bogs, in the production of mushrooms, bulbs, flower seeds, and vegetable\n seeds, and in the growing of hydroponic crops. Supported for locations in\n Europe, South America, Southeast Asia, and Mainland China. In Touchstone 2022, this code is supported\n for the Verisk Severe Thunderstorm Model for the United States |\n| 375 | Forestry | 08 | Currently supported for all locations in Europe. Will return zero losses\n if used with the Verisk Earthquake Model for the Pan-European Region and Verisk Inland Flood Model for Central Europe , and with the Verisk Coastal Flood Model for Great Britain . |\n| 381 | Construction/Erection Risks | n/a | Miscellaneous construction/erection risk is a composite of all buildings\n that are under construction. You can select this occupancy if you have no\n specific information about the occupancy type. Currently supported for\n locations in China, India, Japan, South America, South Korea, the United\n States, the Middle East (earthquake, added in version 11.5), and for some\n locations in Europe , including Central Europe. Also valid for Verisk Earthquake Model for New Zealand and Verisk Earthquake Model for Australia . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "371",
+     "Communication",
+     "48",
+     "Includes establishments furnishing point-to-point communications\n                        services, whether intended to be received aurally or visually, as well as\n                        radio and television broadcasting."
+    ],
+    [
+     "372",
+     "Flood Control",
+     "n/a",
+     "Government establishments primarily engaged in regulation, planning,\n                        protection, and conservation of air and water resources, solid waste\n                        management, water and air pollution control and prevention, flood control,\n                        drainage development, and consumption of water resources. It also includes\n                        coordination of these activities at intergovernmental levels and research\n                        necessary for air pollution abatement and control and conservation of water\n                        resources."
+    ],
+    [
+     "373",
+     "Agriculture",
+     "01, 02",
+     "Establishments primarily engaged in performing soil preparation\n                        services, crop services, veterinary services, other animal services, farm\n                        labor and management services, and landscape and horticultural services for\n                        others on a contract or fee basis."
+    ],
+    [
+     "374",
+     "Greenhouses",
+     "n/a",
+     "Includes establishments (e.g., farms, orchards, greenhouses, and\n                        nurseries) primarily engaged in the production of crops, plants, vines, and\n                        trees (excluding forestry operations). This major group also includes\n                        establishments primarily engaged in the operation of sod farms and cranberry\n                        bogs, in the production of mushrooms, bulbs, flower seeds, and vegetable\n                        seeds, and in the growing of hydroponic crops. Supported for locations in\n                        Europe, South America, Southeast Asia, and Mainland China. In Touchstone 2022, this code is supported\n                        for the Verisk Severe Thunderstorm Model for the United States"
+    ],
+    [
+     "375",
+     "Forestry",
+     "08",
+     "Currently supported for all locations in Europe. Will return zero losses\n                        if used with the Verisk Earthquake Model for the Pan-European Region and Verisk Inland Flood Model for Central Europe , and with the Verisk Coastal Flood Model for Great Britain ."
+    ],
+    [
+     "381",
+     "Construction/Erection Risks",
+     "n/a",
+     "Miscellaneous construction/erection risk is a composite of all buildings\n                        that are under construction. You can select this occupancy if you have no\n                        specific information about the occupancy type. Currently supported for\n                        locations in China, India, Japan, South America, South Korea, the United\n                        States, the Middle East (earthquake, added in version 11.5), and for some\n                        locations in Europe , including Central Europe. Also valid for Verisk Earthquake Model for New Zealand and Verisk Earthquake Model for Australia ."
+    ]
+   ]
+  }
+ ]
+}

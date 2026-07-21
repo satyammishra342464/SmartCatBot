@@ -1,0 +1,101 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_trinidad-tobago-cresta-codes.html",
+ "title": "Trinidad and Tobago CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Trinidad and Tobago \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Trinidad and Tobago.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 10 | Port of Spain |\n| 11 | Mayoro/Rio Claro |\n| 12 | Sangre Grande |\n| 13 | Princes Town |\n| 14 | Penal/Debe |\n| 15 | Siparia |\n| 20 | San Fernando |\n| 30 | Arima |\n| 40 | Chaguanas |\n| 50 | Point Fortin |\n| 60 | Diego Martin |\n| 70 | San Juan/Laventille |\n| 80 | Tunapuna/Piarco |\n| 90 | Couva/Tabaquite/Talparo |\n| 91 | St. George |\n| 92 | St. Mary |\n| 93 | St. Andrew |\n| 94 | St. Patrick |\n| 95 | St. David |\n| 96 | St. Paul |\n| 97 | St. John |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "10",
+     "Port of Spain"
+    ],
+    [
+     "11",
+     "Mayoro/Rio Claro"
+    ],
+    [
+     "12",
+     "Sangre Grande"
+    ],
+    [
+     "13",
+     "Princes Town"
+    ],
+    [
+     "14",
+     "Penal/Debe"
+    ],
+    [
+     "15",
+     "Siparia"
+    ],
+    [
+     "20",
+     "San Fernando"
+    ],
+    [
+     "30",
+     "Arima"
+    ],
+    [
+     "40",
+     "Chaguanas"
+    ],
+    [
+     "50",
+     "Point Fortin"
+    ],
+    [
+     "60",
+     "Diego Martin"
+    ],
+    [
+     "70",
+     "San Juan/Laventille"
+    ],
+    [
+     "80",
+     "Tunapuna/Piarco"
+    ],
+    [
+     "90",
+     "Couva/Tabaquite/Talparo"
+    ],
+    [
+     "91",
+     "St. George"
+    ],
+    [
+     "92",
+     "St. Mary"
+    ],
+    [
+     "93",
+     "St. Andrew"
+    ],
+    [
+     "94",
+     "St. Patrick"
+    ],
+    [
+     "95",
+     "St. David"
+    ],
+    [
+     "96",
+     "St. Paul"
+    ],
+    [
+     "97",
+     "St. John"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_deductible-fields-sublimits-agg.html",
+ "title": "Sublimit aggregate deductible fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit aggregate deductible fields\n\nSublimit aggregate deductible fields.\nSee \nSublimit aggregate deductible types\n for information\n about sublimit types and fields.\n\n| Field / Aggregate deductible type | AGGD |\n| --- | --- |\n| Aggregate deductible | Field represents a monetary value, expressed as a value greater than or\n equal to 1. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate deductible type",
+    "AGGD"
+   ],
+   "rows": [
+    [
+     "Aggregate deductible",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1."
+    ]
+   ]
+  }
+ ]
+}

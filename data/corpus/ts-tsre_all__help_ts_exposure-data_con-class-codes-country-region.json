@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_con-class-codes-country-region.html",
+ "title": "Construction class codes by country/region",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Construction class codes by country/region\n\nTouchstone\n support for construction\n classes varies by country/region as well as by model.\n\nFor information about supported codes and limitations for specific models, refer to the model\n documentation that is available on the \nClient Portal\n.\nThe following topics list all the construction codes that are supported for each country/region.\n Some topics cover more than one country; in that case, be aware that each\n listed code is not necessarily supported for each country specified in the\n topic. \n\nUnited States and Canada\n\nMexico\n\nGulf of\n Mexico\n\nMiddle East\n (added in version 11.5)\n\nCaribbean\n\nCentral America\n\nSouth\n America\n\nEurope\n\nIndia\n\nJapan\n\nChina\n\nSoutheast Asia\n\nSouth\n Korea\n\nAustralia and New Zealand\n\nNote:\n \nTouchstone\n also supports\n non-\nAIR\n construction\n class codes. For more information, see \"Non-\nAIR\n Construction Class Codes\"\n in the Help provided in your \nTouchstone\n Client.",
+ "tables": []
+}

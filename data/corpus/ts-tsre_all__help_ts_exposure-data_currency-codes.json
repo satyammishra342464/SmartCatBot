@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_currency-codes.html",
+ "title": "Currency codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Currency codes\n\nCurrency codes supported by \nTouchstone\n\n during import.\nBefore importing data, review the following information.\n\nTo view the currency codes supported by \nTouchstone\n, log in to the\n \nClient Portal\n,\n navigate to the \nDeveloper Zone\n, click\n \nTouchstone\n Database\n Reference\n, and then search for \"tCurrency\n Table\" (located in the \nAIR\nReference\n database). The \nDescription\n field for the\n \nCurrency Code\n column lists the ISO\n 3-character code for each currency.\n\nYou cannot import data with, or set rates for, the following codes in\n \nTouchstone\n: ZWL, CYP,\n GHC, TMT, MXP, and CLF. You must convert these exposures to a \nTouchstone\n-recognized currency\n code prior to import.\n\nIf you import exposures with the UF code, \nTouchstone\n will change\n the code to CLP, if you then export the data to a CLF. Since UF\n and CLP are different currencies, you should confirm the\n exchange rate in SQL before importing, or convert the exposure\n from UF to CLP before importing.",
+ "tables": []
+}

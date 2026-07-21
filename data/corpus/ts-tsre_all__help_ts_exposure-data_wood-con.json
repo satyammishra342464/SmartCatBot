@@ -1,0 +1,48 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_wood-con.html",
+ "title": "Wood construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Wood construction codes\n\nThe wood construction codes supported by \nTouchstone\n.\n\nNote:\n \nTouchstone\n applies\n non-engineered building damage distributions to the following construction classes: 101,\n 102, 103, 104, 111, 112, 113, 114, 115, 173, 174, 178, 179, 261. This action occurs\n regardless of occupancy class, including the industrial facility (400-series) occupancy\n classes. This note applies to the \nVerisk Earthquake Model for Japan\n, to the\n \nVerisk Earthquake Model for Canada\n, and to the \nVerisk Typhoon Model for South Korea\n.\n\nIn \nTouchstone 2025\n, we added support for codes 102-104 to\n the \nVerisk Typhoon Model for South Korea\n. For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 101 | Wood Frame (Modern) | Wood frame (modern) structures tend to be mostly low rise (one to three\n stories, occasionally four). Stud walls are typically constructed of 2x4 or\n 2x6 inch wood members vertically set 16 or 24 inches apart. These walls are\n braced by plywood or by diagonals made of wood or steel. Many detached\n single and low-rise multiple family residences in the United States are of\n stud wall wood frame construction. |\n| 102 | Light Wood Frame | Light wood frame structures are typically not built in the United States\n but would be found in other countries, such as Japan. In Hawaii, this\n classification would include single wall (studless) construction framed with\n light timber trusses. |\n| 103 | Masonry Veneer | A wood-framed structure faced with a single width of non-load-bearing\n concrete, stone, or clay brick attached to the stud wall. |\n| 104 | Heavy Timber | Heavy Timber structures typically have masonry walls with heavy wood\n column supports, and floor and roof decks are 2-3 inch tongue-and-groove\n planks. |\n| 107 | Lightweight Cladding | Non-structural cladding and linings (e.g., fiber cement, plywood) used in\n lightweight construction that uses timber or light gauge steel framing as\n the structural support system. Currently supported only for locations in Australia and New Zealand. |\n| 108 | Hale Construction | Indigenous Hawaiian construction. Supported only for the Verisk Earthquake Model for Hawaii and the Verisk Tropical Cyclone Model for Hawaii . |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "101",
+     "Wood Frame (Modern)",
+     "Wood frame (modern) structures tend to be mostly low rise (one to three\n                        stories, occasionally four). Stud walls are typically constructed of 2x4 or\n                        2x6 inch wood members vertically set 16 or 24 inches apart. These walls are\n                        braced by plywood or by diagonals made of wood or steel. Many detached\n                        single and low-rise multiple family residences in the United States are of\n                        stud wall wood frame construction."
+    ],
+    [
+     "102",
+     "Light Wood Frame",
+     "Light wood frame structures are typically not built in the United States\n                        but would be found in other countries, such as Japan. In Hawaii, this\n                        classification would include single wall (studless) construction framed with\n                        light timber trusses."
+    ],
+    [
+     "103",
+     "Masonry Veneer",
+     "A wood-framed structure faced with a single width of non-load-bearing\n                        concrete, stone, or clay brick attached to the stud wall."
+    ],
+    [
+     "104",
+     "Heavy Timber",
+     "Heavy Timber structures typically have masonry walls with heavy wood\n                        column supports, and floor and roof decks are 2-3 inch tongue-and-groove\n                        planks."
+    ],
+    [
+     "107",
+     "Lightweight Cladding",
+     "Non-structural cladding and linings (e.g., fiber cement, plywood) used in\n                           lightweight construction that uses timber or light gauge steel framing as\n                           the structural support system. Currently supported only for locations in Australia and New Zealand."
+    ],
+    [
+     "108",
+     "Hale Construction",
+     "Indigenous Hawaiian construction. Supported only for the Verisk Earthquake Model for Hawaii and the Verisk Tropical Cyclone Model for Hawaii ."
+    ]
+   ]
+  }
+ ]
+}

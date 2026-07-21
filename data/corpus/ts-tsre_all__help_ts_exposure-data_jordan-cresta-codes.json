@@ -1,0 +1,105 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_jordan-cresta-codes.html",
+ "title": "Jordan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Jordan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Jordan.\nThe following table applies to versions 11.0 and later.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| JOR_AJ | Ajlun |\n| JOR_AM | Amman |\n| JOR_AQ | Aqaba |\n| JOR_AT | Tafiela |\n| JOR_AZ | Zarqua |\n| JOR_BA | Balqa |\n| JOR_IR | Irbid |\n| JOR_JA | Jarash |\n| JOR_KA | Karak |\n| JOR_MA | Mafraq |\n| JOR_MD | Madaba |\n| JOR_MN | Maan |\n\nThe following table applies to versions 10.0 and earlier.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Irbid |\n| 2 | Amman |\n| 3 | Zarka |\n| 4 | Rest of Amman District |\n| 5 | Karak |\n| 6 | Ma'an |\n| 7 | Aqaba |\n| 8 | West Bank |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "JOR_AJ",
+     "Ajlun"
+    ],
+    [
+     "JOR_AM",
+     "Amman"
+    ],
+    [
+     "JOR_AQ",
+     "Aqaba"
+    ],
+    [
+     "JOR_AT",
+     "Tafiela"
+    ],
+    [
+     "JOR_AZ",
+     "Zarqua"
+    ],
+    [
+     "JOR_BA",
+     "Balqa"
+    ],
+    [
+     "JOR_IR",
+     "Irbid"
+    ],
+    [
+     "JOR_JA",
+     "Jarash"
+    ],
+    [
+     "JOR_KA",
+     "Karak"
+    ],
+    [
+     "JOR_MA",
+     "Mafraq"
+    ],
+    [
+     "JOR_MD",
+     "Madaba"
+    ],
+    [
+     "JOR_MN",
+     "Maan"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Irbid"
+    ],
+    [
+     "2",
+     "Amman"
+    ],
+    [
+     "3",
+     "Zarka"
+    ],
+    [
+     "4",
+     "Rest of Amman District"
+    ],
+    [
+     "5",
+     "Karak"
+    ],
+    [
+     "6",
+     "Ma'an"
+    ],
+    [
+     "7",
+     "Aqaba"
+    ],
+    [
+     "8",
+     "West Bank"
+    ]
+   ]
+  }
+ ]
+}

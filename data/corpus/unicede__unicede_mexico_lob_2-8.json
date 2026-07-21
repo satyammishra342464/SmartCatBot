@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_mexico_lob_2-8.html",
+ "title": "Mexico Lines Of Business (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Mexico Lines Of Business (v2.8)\n \n\nLOB codes for Mexico supported by \nUNICEDE\n/2.\n\nThese codes are valid for Mexico.\n\nStandard Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Household Building |\n| CNT | Household Contents |\n| COMB | Fire & Allied Lines |\n| COMC | Engineering |\n| AUTO | Auto |\n\nMarket Share Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| BLD | Residential Building |\n| CNT | Residential Contents |\n| COM | Commercial |\n| AUTO | Auto |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Household Building"
+    ],
+    [
+     "CNT",
+     "Household Contents"
+    ],
+    [
+     "COMB",
+     "Fire & Allied Lines"
+    ],
+    [
+     "COMC",
+     "Engineering"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "CNT",
+     "Residential Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  }
+ ]
+}

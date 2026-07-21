@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts_val-ref_intro/ts_val-ref_intro_whats-new-8-0.html",
+ "title": "What's New in Touchstone 2020 (8.0) validation reference",
+ "section": "ts_val-ref_intro",
+ "version": null,
+ "text": "What's New in \nTouchstone\n 2020 (8.0) validation\n reference\n\nNew and Updated Models\n\nThe following models are new to, or have been updated in, \nTouchstone\n 8.0 (\nTouchstone\n 2020). New and/or updated loss files are\n available for each of these models.\n\nVerisk Inland Flood Model for the United States\n\nVerisk Hurricane Model for the United States\n\nVerisk Earthquake Model for Australia\n\nVerisk Earthquake Model for the Caribbean\n\nVerisk Tropical Cyclone Model for the Caribbean\n\nOther Updates\n\nCaribbean updates enable you to import exposure data for the Caribbean countries for use\n with \nTouchstone\n 8.0 model updates for Caribbean\n countries. Changes may include changes in \nCRESTA\n,\n Area, and Postal names and codes; boundaries, and code formats; there may be new and\n deprecated names and codes. Support for city-level data import and geocoding has also been\n added for all Caribbean countries.\n\nThis release supports local intensity event calculations for the Precipitation Depth\n sub-perils of the Tropical Cyclone perils for the \nVerisk Hurricane Model for the United States\n\n and the \nVerisk Typhoon Model for Japan\n.\n\nMore Information\n\nThe \nScope of Model and\n Software Updates\n, available on the \nClient Portal\n, provides high-level information about model updates and updates to\n \nVerisk\n's \nIndustry Exposure Database\n.",
+ "tables": []
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_st-martin-cresta-codes.html",
+ "title": "Saint Martin CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Saint Martin \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Saint Martin.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Saint Martin |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Saint Martin"
+    ]
+   ]
+  }
+ ]
+}

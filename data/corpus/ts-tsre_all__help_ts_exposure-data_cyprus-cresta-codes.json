@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_cyprus-cresta-codes.html",
+ "title": "Cyprus CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Cyprus \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Cyprus.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| CYP_04 | Eparchia Ammochostou |\n| CYP_06 | Eparchia Keryneias |\n| CYP_03 | Eparchia Larnakas |\n| CYP_01 | Eparchia Lefkosias |\n| CYP_02 | Eparchia Lemesou |\n| CYP_05 | Eparchia Pafou |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "CYP_04",
+     "Eparchia Ammochostou"
+    ],
+    [
+     "CYP_06",
+     "Eparchia Keryneias"
+    ],
+    [
+     "CYP_03",
+     "Eparchia Larnakas"
+    ],
+    [
+     "CYP_01",
+     "Eparchia Lefkosias"
+    ],
+    [
+     "CYP_02",
+     "Eparchia Lemesou"
+    ],
+    [
+     "CYP_05",
+     "Eparchia Pafou"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_gom-perils.html",
+ "title": "Gulf of Mexico Perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Gulf of Mexico Perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for the Gulf of Mexico.\n\n| Import peril code | Peril |\n| --- | --- |\n| PAL | All licensed perils |\n| PWH | Tropical cyclone only |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils"
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only"
+    ]
+   ]
+  }
+ ]
+}

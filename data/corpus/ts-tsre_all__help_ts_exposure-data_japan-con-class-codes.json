@@ -1,0 +1,356 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_japan-con-class-codes.html",
+ "title": "Japan construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Japan construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for Japan.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction code | Construction class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood Frame (Modern) |\n| Masonry | 111 | Masonry |\n| 114 | Unreinforced Masonry - Bearing Wall |\n| 116 | Reinforced Masonry |\n| Concrete | 131 | Reinforced Concrete |\n| 132 | Reinforced Concrete Shear Wall (with MRF) |\n| 133 | Reinforced Concrete Shear Wall (without MRF) |\n| 137 | Pre-cast Concrete |\n| 138 | Pre-cast Concrete with Shear Wall |\n| 139 | Reinforced Concrete MRF |\n| Steel | 151 | Steel |\n| 152 | Light Metal |\n| 153 | Braced Steel Frame |\n| 156 | Steel MRF |\n| 158 | Steel Frame with Concrete Shear Wall |\n| 159 | Steel Reinforced Concrete |\n| 160 | Steel Long Span |\n| Japan Composite | 161 | M: Fire-resistant reinforced concrete apartments and masonry\n dwellings |\n| 162 | T: Fire-resistant non-apartment dwellings including reinforced concrete,\n masonry, and steel |\n| 163 | H: Other Residential Dwellings (buildings other than M, T) |\n| 164 | 1: Fire-resistant reinforced concrete and masonry buildings |\n| 165 | 2: Semi-fire-resistant and steel buildings |\n| 166 | 3: Other Commercial Dwellings (buildings other than 1, 2) |\n| 171 | A: Reinforced Concrete, Steel with Fire Insulation Dwellings |\n| 172 | B: General Steel Dwellings |\n| 173 | C: Wood Frame with Fire Insulation Dwellings |\n| 174 | D: Other than A, B, C; or General Wood Dwellings |\n| 175 | SP: Reinforced Concrete Buildings |\n| 176 | 1: Steel with Fire Insulation Buildings |\n| 177 | 2: General Steel Buildings |\n| 178 | 3: Wood Frame with Fire Insulation Buildings |\n| 179 | 4: Other than SP, 1, 2, 3; or General Wood Frame |\n| Equipment | 245 | High Technology Equipment |\n| 246 | Trains, Trucks, Airplanes |\n| 247 | Thermal Power Plant |\n| Miscellaneous | 250 | Railway Property |\n| 257 | Waterfront Structures |\n| 259 | Transit Warehouse |\n| 260 | Marine Hull |\n| Automobiles | 261 | Automobiles |\n| Marine Cargo (added in version 9.0) | 270 | Carpool |\n| 271 | General and Containerized Cargo |\n| 272 | Heavy Cargo |\n| 273 | Refrigerated Cargo |\n| 274 | Dry Bulk Cargo |\n| 275 | Liquid Bulk Cargo |\n| 276 | General/Unknown |\n| 280 | Combustible: Carpool |\n| 281 | Combustible: General and Containerized Cargo |\n| 282 | Combustible: Heavy Cargo |\n| 283 | Combustible: Refrigerated Cargo |\n| 284 | Combustible: Dry Bulk Cargo |\n| 285 | Combustible: Liquid Bulk Cargo |\n| 286 | Unknown: Combustible |\n| 290 | Non-Combustible: Carpool |\n| 291 | Non-Combustible: General and Containerized Cargo |\n| 292 | Non-Combustible: Heavy Cargo |\n| 293 | Non-Combustible: Refrigerated Cargo |\n| 294 | Non-Combustible: Dry Bulk Cargo |\n| 295 | Non-Combustible: Liquid Bulk Cargo |\n| 296 | Unknown: Non-Combustible |\n| 2701 | Automobiles |\n| 2702 | Break Bulk |\n| 2703 | Dry Bulk |\n| 2704 | Liquid Bulk |\n| 2705 | Consumables |\n| 2706 | Temperature-controlled |\n| 2707 | Electronics |\n| 2708 | Chemical Products |\n| 2709 | Explosives |\n| 2710 | General Cargo |\n| 2711 | Heavy Industry |\n| 2712 | Light Industry |\n| 2713 | Petroleum Products |\n| 2714 | Pharmaceuticals |\n| 2715 | Project Cargo |\n| 2716 | Livestock |\n| 2717 | General Specie |\n| 2718 | Fine Art & Collectibles |\n| 2719 | Cash in Transit |\n| 2720 | Jewelers Blocks |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction code",
+    "Construction class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood Frame (Modern)"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "114",
+     "Unreinforced Masonry - Bearing Wall"
+    ],
+    [
+     "116",
+     "Reinforced Masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced Concrete"
+    ],
+    [
+     "132",
+     "Reinforced Concrete Shear Wall (with MRF)"
+    ],
+    [
+     "133",
+     "Reinforced Concrete Shear Wall (without MRF)"
+    ],
+    [
+     "137",
+     "Pre-cast Concrete"
+    ],
+    [
+     "138",
+     "Pre-cast Concrete with Shear Wall"
+    ],
+    [
+     "139",
+     "Reinforced Concrete MRF"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "152",
+     "Light Metal"
+    ],
+    [
+     "153",
+     "Braced Steel Frame"
+    ],
+    [
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "158",
+     "Steel Frame with Concrete Shear Wall"
+    ],
+    [
+     "159",
+     "Steel Reinforced Concrete"
+    ],
+    [
+     "160",
+     "Steel Long Span"
+    ],
+    [
+     "Japan Composite",
+     "161",
+     "M: Fire-resistant reinforced concrete apartments and masonry\n                        dwellings"
+    ],
+    [
+     "162",
+     "T: Fire-resistant non-apartment dwellings including reinforced concrete,\n                        masonry, and steel"
+    ],
+    [
+     "163",
+     "H: Other Residential Dwellings (buildings other than M, T)"
+    ],
+    [
+     "164",
+     "1: Fire-resistant reinforced concrete and masonry buildings"
+    ],
+    [
+     "165",
+     "2: Semi-fire-resistant and steel buildings"
+    ],
+    [
+     "166",
+     "3: Other Commercial Dwellings (buildings other than 1, 2)"
+    ],
+    [
+     "171",
+     "A: Reinforced Concrete, Steel with Fire Insulation Dwellings"
+    ],
+    [
+     "172",
+     "B: General Steel Dwellings"
+    ],
+    [
+     "173",
+     "C: Wood Frame with Fire Insulation Dwellings"
+    ],
+    [
+     "174",
+     "D: Other than A, B, C; or General Wood Dwellings"
+    ],
+    [
+     "175",
+     "SP: Reinforced Concrete Buildings"
+    ],
+    [
+     "176",
+     "1: Steel with Fire Insulation Buildings"
+    ],
+    [
+     "177",
+     "2: General Steel Buildings"
+    ],
+    [
+     "178",
+     "3: Wood Frame with Fire Insulation Buildings"
+    ],
+    [
+     "179",
+     "4: Other than SP, 1, 2, 3; or General Wood Frame"
+    ],
+    [
+     "Equipment",
+     "245",
+     "High Technology Equipment"
+    ],
+    [
+     "246",
+     "Trains, Trucks, Airplanes"
+    ],
+    [
+     "247",
+     "Thermal Power Plant"
+    ],
+    [
+     "Miscellaneous",
+     "250",
+     "Railway Property"
+    ],
+    [
+     "257",
+     "Waterfront Structures"
+    ],
+    [
+     "259",
+     "Transit Warehouse"
+    ],
+    [
+     "260",
+     "Marine Hull"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ],
+    [
+     "Marine Cargo (added in version 9.0)",
+     "270",
+     "Carpool"
+    ],
+    [
+     "271",
+     "General and Containerized Cargo"
+    ],
+    [
+     "272",
+     "Heavy Cargo"
+    ],
+    [
+     "273",
+     "Refrigerated Cargo"
+    ],
+    [
+     "274",
+     "Dry Bulk Cargo"
+    ],
+    [
+     "275",
+     "Liquid Bulk Cargo"
+    ],
+    [
+     "276",
+     "General/Unknown"
+    ],
+    [
+     "280",
+     "Combustible: Carpool"
+    ],
+    [
+     "281",
+     "Combustible: General and Containerized Cargo"
+    ],
+    [
+     "282",
+     "Combustible: Heavy Cargo"
+    ],
+    [
+     "283",
+     "Combustible: Refrigerated Cargo"
+    ],
+    [
+     "284",
+     "Combustible: Dry Bulk Cargo"
+    ],
+    [
+     "285",
+     "Combustible: Liquid Bulk Cargo"
+    ],
+    [
+     "286",
+     "Unknown: Combustible"
+    ],
+    [
+     "290",
+     "Non-Combustible: Carpool"
+    ],
+    [
+     "291",
+     "Non-Combustible: General and Containerized Cargo"
+    ],
+    [
+     "292",
+     "Non-Combustible: Heavy Cargo"
+    ],
+    [
+     "293",
+     "Non-Combustible: Refrigerated Cargo"
+    ],
+    [
+     "294",
+     "Non-Combustible: Dry Bulk Cargo"
+    ],
+    [
+     "295",
+     "Non-Combustible: Liquid Bulk Cargo"
+    ],
+    [
+     "296",
+     "Unknown: Non-Combustible"
+    ],
+    [
+     "2701",
+     "Automobiles"
+    ],
+    [
+     "2702",
+     "Break Bulk"
+    ],
+    [
+     "2703",
+     "Dry Bulk"
+    ],
+    [
+     "2704",
+     "Liquid Bulk"
+    ],
+    [
+     "2705",
+     "Consumables"
+    ],
+    [
+     "2706",
+     "Temperature-controlled"
+    ],
+    [
+     "2707",
+     "Electronics"
+    ],
+    [
+     "2708",
+     "Chemical Products"
+    ],
+    [
+     "2709",
+     "Explosives"
+    ],
+    [
+     "2710",
+     "General Cargo"
+    ],
+    [
+     "2711",
+     "Heavy Industry"
+    ],
+    [
+     "2712",
+     "Light Industry"
+    ],
+    [
+     "2713",
+     "Petroleum Products"
+    ],
+    [
+     "2714",
+     "Pharmaceuticals"
+    ],
+    [
+     "2715",
+     "Project Cargo"
+    ],
+    [
+     "2716",
+     "Livestock"
+    ],
+    [
+     "2717",
+     "General Specie"
+    ],
+    [
+     "2718",
+     "Fine Art & Collectibles"
+    ],
+    [
+     "2719",
+     "Cash in Transit"
+    ],
+    [
+     "2720",
+     "Jewelers Blocks"
+    ]
+   ]
+  }
+ ]
+}

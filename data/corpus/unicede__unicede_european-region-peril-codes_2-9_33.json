@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_european-region-peril-codes_2-9_33.html",
+ "title": "European Region Peril Codes (v2.9)",
+ "section": "unicede",
+ "version": null,
+ "text": "European Region Peril Codes (v2.9)\n\nUNICEDE\n/2 supports the following codes for\n Perils Covered for the risks in Europe supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Windstorm only |\n| PEQ | Earthquake only |\n| PFL | Flood Only |\n| PAN | Pandemic |\n\nNote:\n\nThe countries in the European region where each of these perils is\n currently modeled by \nVerisk\n:\n\nWindstorm/Severe Thunderstorm\n\nAustria, Belgium, Czech Republic, Denmark, Estonia, Finland, France,\n Germany, Hungary, the Republic of Ireland, Latvia, Liechtenstein, Lithuania,\n Luxembourg, Netherlands, Norway, Poland, Slovakia, Slovenia, Sweden, Switzerland,\n United Kingdom\n\nEarthquake\n\nAlbania, Austria, Belgium, Bulgaria, Cyprus, Czech Republic, Denmark,\n Estonia, Finland, France, Germany, Greece, Hungary, the Republic of Ireland, Israel,\n Italy, Latvia, Lithuania, Luxembourg, Macedonia, Netherlands, Norway, Poland,\n Portugal, Romania, Serbia, Slovakia, Slovenia, Sweden, Switzerland, Turkey, United\n Kingdom\n\nFlood\n\nAlbania, Austria, Czech Republic, Germany, Italy, Macedonia, Poland,\n Serbia, Switzerland, United Kingdom\n\nPandemic\n\nFrance, Germany, United Kingdom\n\nUse \nW\n as the coverage for the pandemic peril",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFL",
+     "Flood Only"
+    ],
+    [
+     "PAN",
+     "Pandemic"
+    ]
+   ]
+  }
+ ]
+}

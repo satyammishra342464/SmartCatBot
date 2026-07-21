@@ -1,0 +1,437 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_area-tag.html",
+ "title": "Area tags",
+ "section": "unicede",
+ "version": null,
+ "text": "Area tags\n\nArea details supported by \nUNICEDE\n/2.\n\nArea tabs (a.k.a. area and subarea codes) vary \nby country and by version\n of\n \nUNICEDE\n/2. Some countries support multiple\n subareas (e.g. CRESTA and District). Not all of the listed subareas are supported for\n Market Share imports.\n\nNavigate to the \nUNICEDE\n/2 version and country listing to view available area and subarea codes.\n \n\nUNICEDE/2 v2.9\n\nUNICEDE/2 v2.8\n\nUNICEDE/2 v2.7\n\n| Country | Supported Subareas |\n| --- | --- |\n| Anguilla | CRESTA |\n| Antigua & Barbuda | CRESTA |\n| Argentina | CRESTA |\n| Aruba | CRESTA |\n| Australia | CRESTA |\n| Austria | CRESTA |\n| Bahamas | District |\n| Bahrain | Governates |\n| Barbados | CRESTA |\n| Belgium | CRESTA |\n| Belize | CRESTA |\n| Bermuda | Parish |\n| Brazil | CRESTA |\n| British Virgin Islands | District |\n| Bulgaria | CRESTA |\n| Canada | FSAk CRESTA |\n| Cayman Islands | District |\n| Chile | CRESTA |\n| China | CRESTA, Province |\n| Colombia | CRESTA |\n| Costa Rica | CRESTA |\n| Croatia | CRESTA |\n| Cyprus | CRESTA |\n| Cuba | Province |\n| Czech Republic | Postal |\n| Denmark | CRESTA |\n| Dominica | Country |\n| Dominican Republic | CRESTA |\n| Ecuador | CRESTA, Province |\n| El Salvador | CRESTA |\n| Estonia | Postal |\n| Finland | CRESTA |\n| France | CRESTA |\n| Germany | CRESTA |\n| Greece | CRESTA |\n| Grenada | Country |\n| Guadeloupe | Country |\n| Guam | Country |\n| Guatemala | CRESTA, sub-CRESTA |\n| Gulf of Mexico | Protraction |\n| Haiti | Department |\n| Honduras | CRESTA |\n| Hong Kong | CRESTA, sub-CRESTA |\n| Hungary | CRESTA |\n| India | State/District |\n| Indonesia | CRESTA, sub-CRESTA |\n| Ireland | CRESTA |\n| Iran | CRESTA |\n| Israel | District and CRESTA |\n| Italy | CRESTA |\n| Jamaica | CRESTA |\n| Japan | CRESTA, Prefecture |\n| Kazakhstan | CRESTA |\n| Kuwait | Governates |\n| Latvia | Postal |\n| Lithuania | Postal |\n| Liechtenstein | CRESTA |\n| Luxembourg | Country |\n| Macau | Country |\n| Malaysia | CRESTA |\n| Martinique | Country |\n| Mexico | CRESTA |\n| Montserrat | Country |\n| Netherlands | CRESTA |\n| Netherlands Antilles | CRESTA |\n| New Zealand | CRESTA |\n| Nicaragua | CRESTA |\n| Norway | CRESTA |\n| Oman | Governates |\n| Panama | CRESTA |\n| Papua New Guinea | CRESTA |\n| Peru | CRESTA, sub-CRESTA |\n| Philippines | CRESTA, sub-CRESTA |\n| Poland | Postal |\n| Portugal | CRESTA |\n| Puerto Rico | CRESTA |\n| Qatar | CRESTA |\n| Romania | CRESTA |\n| Russia | District |\n| Saipan | Country |\n| Saudi Arabia | CRESTA |\n| Singapore | Country |\n| Slovakia | CRESTA |\n| Slovenia | CRESTA |\n| South Africa | CRESTA |\n| South Korea | CRESTA |\n| St. Barts | Country |\n| St. Kitts & Nevis | CRESTA |\n| St. Lucia | Country |\n| St. Maarten | CRESTA |\n| St. Martin | Sub-Area |\n| Sweden | CRESTA |\n| Switzerland | CRESTA |\n| Taiwan | CRESTA |\n| Thailand | CRESTA |\n| Trinidad and Tobago | CRESTA |\n| Turkey | CRESTA, Province |\n| Ukraine | CRESTA |\n| United Arab Emirates | CRESTA |\n| United Kingdom | Postal Areas, Postal Sectors |\n| United States | FIPS State/County Codes |\n| Venezuela | CRESTA |\n| Vietnam | CRESTA |\n| Virgin Islands (U.S.) | Districts |\n| Yemen | Governorates |",
+ "tables": [
+  {
+   "headers": [
+    "Country",
+    "Supported Subareas"
+   ],
+   "rows": [
+    [
+     "Anguilla",
+     "CRESTA"
+    ],
+    [
+     "Antigua & Barbuda",
+     "CRESTA"
+    ],
+    [
+     "Argentina",
+     "CRESTA"
+    ],
+    [
+     "Aruba",
+     "CRESTA"
+    ],
+    [
+     "Australia",
+     "CRESTA"
+    ],
+    [
+     "Austria",
+     "CRESTA"
+    ],
+    [
+     "Bahamas",
+     "District"
+    ],
+    [
+     "Bahrain",
+     "Governates"
+    ],
+    [
+     "Barbados",
+     "CRESTA"
+    ],
+    [
+     "Belgium",
+     "CRESTA"
+    ],
+    [
+     "Belize",
+     "CRESTA"
+    ],
+    [
+     "Bermuda",
+     "Parish"
+    ],
+    [
+     "Brazil",
+     "CRESTA"
+    ],
+    [
+     "British Virgin Islands",
+     "District"
+    ],
+    [
+     "Bulgaria",
+     "CRESTA"
+    ],
+    [
+     "Canada",
+     "FSAk CRESTA"
+    ],
+    [
+     "Cayman Islands",
+     "District"
+    ],
+    [
+     "Chile",
+     "CRESTA"
+    ],
+    [
+     "China",
+     "CRESTA, Province"
+    ],
+    [
+     "Colombia",
+     "CRESTA"
+    ],
+    [
+     "Costa Rica",
+     "CRESTA"
+    ],
+    [
+     "Croatia",
+     "CRESTA"
+    ],
+    [
+     "Cyprus",
+     "CRESTA"
+    ],
+    [
+     "Cuba",
+     "Province"
+    ],
+    [
+     "Czech Republic",
+     "Postal"
+    ],
+    [
+     "Denmark",
+     "CRESTA"
+    ],
+    [
+     "Dominica",
+     "Country"
+    ],
+    [
+     "Dominican Republic",
+     "CRESTA"
+    ],
+    [
+     "Ecuador",
+     "CRESTA, Province"
+    ],
+    [
+     "El Salvador",
+     "CRESTA"
+    ],
+    [
+     "Estonia",
+     "Postal"
+    ],
+    [
+     "Finland",
+     "CRESTA"
+    ],
+    [
+     "France",
+     "CRESTA"
+    ],
+    [
+     "Germany",
+     "CRESTA"
+    ],
+    [
+     "Greece",
+     "CRESTA"
+    ],
+    [
+     "Grenada",
+     "Country"
+    ],
+    [
+     "Guadeloupe",
+     "Country"
+    ],
+    [
+     "Guam",
+     "Country"
+    ],
+    [
+     "Guatemala",
+     "CRESTA, sub-CRESTA"
+    ],
+    [
+     "Gulf of Mexico",
+     "Protraction"
+    ],
+    [
+     "Haiti",
+     "Department"
+    ],
+    [
+     "Honduras",
+     "CRESTA"
+    ],
+    [
+     "Hong Kong",
+     "CRESTA, sub-CRESTA"
+    ],
+    [
+     "Hungary",
+     "CRESTA"
+    ],
+    [
+     "India",
+     "State/District"
+    ],
+    [
+     "Indonesia",
+     "CRESTA, sub-CRESTA"
+    ],
+    [
+     "Ireland",
+     "CRESTA"
+    ],
+    [
+     "Iran",
+     "CRESTA"
+    ],
+    [
+     "Israel",
+     "District and CRESTA"
+    ],
+    [
+     "Italy",
+     "CRESTA"
+    ],
+    [
+     "Jamaica",
+     "CRESTA"
+    ],
+    [
+     "Japan",
+     "CRESTA, Prefecture"
+    ],
+    [
+     "Kazakhstan",
+     "CRESTA"
+    ],
+    [
+     "Kuwait",
+     "Governates"
+    ],
+    [
+     "Latvia",
+     "Postal"
+    ],
+    [
+     "Lithuania",
+     "Postal"
+    ],
+    [
+     "Liechtenstein",
+     "CRESTA"
+    ],
+    [
+     "Luxembourg",
+     "Country"
+    ],
+    [
+     "Macau",
+     "Country"
+    ],
+    [
+     "Malaysia",
+     "CRESTA"
+    ],
+    [
+     "Martinique",
+     "Country"
+    ],
+    [
+     "Mexico",
+     "CRESTA"
+    ],
+    [
+     "Montserrat",
+     "Country"
+    ],
+    [
+     "Netherlands",
+     "CRESTA"
+    ],
+    [
+     "Netherlands Antilles",
+     "CRESTA"
+    ],
+    [
+     "New Zealand",
+     "CRESTA"
+    ],
+    [
+     "Nicaragua",
+     "CRESTA"
+    ],
+    [
+     "Norway",
+     "CRESTA"
+    ],
+    [
+     "Oman",
+     "Governates"
+    ],
+    [
+     "Panama",
+     "CRESTA"
+    ],
+    [
+     "Papua New Guinea",
+     "CRESTA"
+    ],
+    [
+     "Peru",
+     "CRESTA, sub-CRESTA"
+    ],
+    [
+     "Philippines",
+     "CRESTA, sub-CRESTA"
+    ],
+    [
+     "Poland",
+     "Postal"
+    ],
+    [
+     "Portugal",
+     "CRESTA"
+    ],
+    [
+     "Puerto Rico",
+     "CRESTA"
+    ],
+    [
+     "Qatar",
+     "CRESTA"
+    ],
+    [
+     "Romania",
+     "CRESTA"
+    ],
+    [
+     "Russia",
+     "District"
+    ],
+    [
+     "Saipan",
+     "Country"
+    ],
+    [
+     "Saudi Arabia",
+     "CRESTA"
+    ],
+    [
+     "Singapore",
+     "Country"
+    ],
+    [
+     "Slovakia",
+     "CRESTA"
+    ],
+    [
+     "Slovenia",
+     "CRESTA"
+    ],
+    [
+     "South Africa",
+     "CRESTA"
+    ],
+    [
+     "South Korea",
+     "CRESTA"
+    ],
+    [
+     "St. Barts",
+     "Country"
+    ],
+    [
+     "St. Kitts & Nevis",
+     "CRESTA"
+    ],
+    [
+     "St. Lucia",
+     "Country"
+    ],
+    [
+     "St. Maarten",
+     "CRESTA"
+    ],
+    [
+     "St. Martin",
+     "Sub-Area"
+    ],
+    [
+     "Sweden",
+     "CRESTA"
+    ],
+    [
+     "Switzerland",
+     "CRESTA"
+    ],
+    [
+     "Taiwan",
+     "CRESTA"
+    ],
+    [
+     "Thailand",
+     "CRESTA"
+    ],
+    [
+     "Trinidad and Tobago",
+     "CRESTA"
+    ],
+    [
+     "Turkey",
+     "CRESTA, Province"
+    ],
+    [
+     "Ukraine",
+     "CRESTA"
+    ],
+    [
+     "United Arab Emirates",
+     "CRESTA"
+    ],
+    [
+     "United Kingdom",
+     "Postal Areas, Postal Sectors"
+    ],
+    [
+     "United States",
+     "FIPS State/County Codes"
+    ],
+    [
+     "Venezuela",
+     "CRESTA"
+    ],
+    [
+     "Vietnam",
+     "CRESTA"
+    ],
+    [
+     "Virgin Islands (U.S.)",
+     "Districts"
+    ],
+    [
+     "Yemen",
+     "Governorates"
+    ]
+   ]
+  }
+ ]
+}

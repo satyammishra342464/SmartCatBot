@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_netherlands_antilles_cresta_2-8.html",
+ "title": "Netherlands Antilles CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Netherlands Antilles \nCRESTA\n Codes (v2.8)\n \n\nCRESTA\n codes for Netherlands Antilles supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Netherlands Antilles (153).\n\n| Area Tag | Zone |\n| --- | --- |\n| 153-000 | Netherlands Antilles |\n| 153-002 | Z02: Curacao |\n| 153-003 | Z03: Bonaire |\n| 153-004 | Z04: Saba |\n| 153-005 | Z05: St. Eustatius |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "153-000",
+     "Netherlands Antilles"
+    ],
+    [
+     "153-002",
+     "Z02: Curacao"
+    ],
+    [
+     "153-003",
+     "Z03: Bonaire"
+    ],
+    [
+     "153-004",
+     "Z04: Saba"
+    ],
+    [
+     "153-005",
+     "Z05: St. Eustatius"
+    ]
+   ]
+  }
+ ]
+}

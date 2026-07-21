@@ -1,0 +1,105 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_slovenia-cresta-codes.html",
+ "title": "Slovenia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Slovenia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Slovenia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| SVN_30 | Celje |\n| SVN_62 | Divaca |\n| SVN_82 | Dobrnic |\n| SVN_33 | Grize |\n| SVN_23 | Hoce |\n| SVN_14 | Izlake |\n| SVN_63 | Izola - Isola |\n| SVN_52 | Kojsko |\n| SVN_60 | Koper/Capodistria |\n| SVN_83 | Kostanjevica Na Krki |\n| SVN_40 | Kranj |\n| SVN_32 | Ljubecna |\n| SVN_10 | Ljubljana |\n| SVN_92 | Mackovci |\n| SVN_20 | Maribor |\n| SVN_22 | Miklavz Na Dravskem Polju |\n| SVN_90 | Murska Sobota |\n| SVN_42 | Naklo |\n| SVN_50 | Nova Gorica |\n| SVN_80 | Novo Mesto |\n| SVN_12 | Smlednik |\n| SVN_13 | Zagradec |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "SVN_30",
+     "Celje"
+    ],
+    [
+     "SVN_62",
+     "Divaca"
+    ],
+    [
+     "SVN_82",
+     "Dobrnic"
+    ],
+    [
+     "SVN_33",
+     "Grize"
+    ],
+    [
+     "SVN_23",
+     "Hoce"
+    ],
+    [
+     "SVN_14",
+     "Izlake"
+    ],
+    [
+     "SVN_63",
+     "Izola - Isola"
+    ],
+    [
+     "SVN_52",
+     "Kojsko"
+    ],
+    [
+     "SVN_60",
+     "Koper/Capodistria"
+    ],
+    [
+     "SVN_83",
+     "Kostanjevica Na Krki"
+    ],
+    [
+     "SVN_40",
+     "Kranj"
+    ],
+    [
+     "SVN_32",
+     "Ljubecna"
+    ],
+    [
+     "SVN_10",
+     "Ljubljana"
+    ],
+    [
+     "SVN_92",
+     "Mackovci"
+    ],
+    [
+     "SVN_20",
+     "Maribor"
+    ],
+    [
+     "SVN_22",
+     "Miklavz Na Dravskem Polju"
+    ],
+    [
+     "SVN_90",
+     "Murska Sobota"
+    ],
+    [
+     "SVN_42",
+     "Naklo"
+    ],
+    [
+     "SVN_50",
+     "Nova Gorica"
+    ],
+    [
+     "SVN_80",
+     "Novo Mesto"
+    ],
+    [
+     "SVN_12",
+     "Smlednik"
+    ],
+    [
+     "SVN_13",
+     "Zagradec"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_central-american-lob_2-10_3.html",
+ "title": "Central American Lines Of Business (v2.10)",
+ "section": "unicede",
+ "version": null,
+ "text": "Central American Lines Of Business (v2.10)\n\nLOB codes for select Central American countries supported by \nUNICEDE\n/2.\n\nThese codes are valid when using \nUNICEDE\n/2 for exposures in the following countries:\n Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama.\n\nStandard Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| HSHB | Household Building |\n| HSHC | Household Contents |\n| FAL | Fire & Allied Lines |\n| ENG | Engineering |\n| AUTO | Auto |\n\nMarket Share Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential Building |\n| CNT | Residential Contents |\n| COM | Commercial |\n| AUTO | Auto |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "HSHB",
+     "Household Building"
+    ],
+    [
+     "HSHC",
+     "Household Contents"
+    ],
+    [
+     "FAL",
+     "Fire & Allied Lines"
+    ],
+    [
+     "ENG",
+     "Engineering"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "CNT",
+     "Residential Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  }
+ ]
+}

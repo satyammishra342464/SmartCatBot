@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_caribbean-peril-codes_2-8_21.html",
+ "title": "Caribbean Peril Codes (v2.8)",
+ "section": "unicede",
+ "version": null,
+ "text": "Caribbean Peril Codes (v2.8)\n \n\nPeril codes for select countries in the Caribbean supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for Perils Covered for risks in Bahamas,\n Barbados, Bermuda, Cayman Islands, Dominican Republic, Jamaica, St. Maarten, St. Martin\n and Trinidad and Tobago:\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Windstorm only |\n| PEQ | Earthquake only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PEQ",
+     "Earthquake only"
+    ]
+   ]
+  }
+ ]
+}

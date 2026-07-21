@@ -1,0 +1,79 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_treaty-info-reins-programs.html",
+ "title": "Treaty information (reinsurance programs)",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Treaty information (reinsurance programs)\n\nValidation rules for fields related to treaty information for reinsurance\n programs.\n\nReinsurance Programs\n > \n{Select a Reinsurance Program}\n > \nTreaty Information\n\nDetailed Loss Analysis\n > \nReinsurance Diagnostic\n > \nApply Reinsurance Programs pane\n > \nReinsurance Program Manager {Select a Reinsurance Program}\n > \nTreaty Information\n\nNote:\n\nTouchstone\n does not support single-day\n contracts.\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Treaty Type | One of the following treaty types: Catastrophe Excess of Loss Quota Share Surplus Share Per-Risk Excess of Loss | Required if you are creating a new record or editing an existing record. | |\n| Treaty ID | User-specified name of this treaty. Surplus Share treaty IDs are not case-sensitive. For example, assume that you\n import four Exposure Set s, each of which\n contains a separate Surplus Share treaty, where the treaty IDs are: SS , Ss , sS , and ss . You then create an exposure view that includes all four Exposure Set s. The Reinsurance Program\n Manager does not consider the treaty IDs in those four files to be unique. As a\n result, when you create a Surplus Share program in the Reinsurance Program\n Manager, select that exposure view as the target exposure, and try to add a\n Surplus Share treaty for each Surplus Share treaty included in the exposure data,\n you will see that the only valid ID in the Treaty ID field\n is SS . To apply different limit terms to each of the surplus\n share treaties, make sure that the treaty IDs are unique before you import the\n exposures. This is especially important to keep in mind if you have a large\n portfolio used across multiple exposure views. Touchstone displays a maximum of 9318\n Surplus Share treaty IDs in the Treaty ID list. | Required if you are creating a new record or editing an existing record. Must be unique within the reinsurance program. Cannot begin with a space. Can contain up to 100 characters. | |\n| Cedant Name | User-specified name of the primary insurance company that has purchased\n reinsurance. | Optional. Can contain up to 60 characters. | |\n| Reinsurer Name | User-specified name of the insurer or reinsurer that assumed the cedant's risk\n under this treaty. | Optional. Can contain up to 60 characters. | |\n| Treaty Perils | Perils that this treaty covers. To specify multiple perils in a single entry within an import file, separate the\n corresponding peril codes with a Plus (+) symbol, such as, PWH+PES ). | Defaults to a value. At least one peril is required if you are creating a new record or editing an\n existing record. | All perils (PAL) |\n| Treaty Status | One of the following submission statuses for this treaty: Bound, Canceled,\n Expired, Quoted, Rejected, Renewal, or Submitted | Defaults to a value. | Bound |\n| Inception Date | Date of the first day on which coverage for this treaty is effective. When importing data, use one of the following formats and select this format on\n the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD For inception and expiration dates, and other in-force dates, you must specify a\n date value between 01/01/1970 and 12/31/2038, inclusive, for dates based on US\n regional settings. If you are not using US regional settings, use a date value\n other than 01/01/1970, such as 01/01/1990. | Required if you are creating a new record or editing an existing record. Defaults to a value. Date format is specific to locale of end user. Must be less than the expiration date. | 01/01/[current year] |\n| Expiration Date | Date of the last day on which coverage for this treaty is effective. When importing data, use one of the following formats and select this format on\n the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD For inception and expiration dates, and other in-force dates, you must specify a\n date value between 01/01/1970 and 12/31/2038, inclusive, for dates based on US\n regional settings. If you are not using US regional settings, use a date value\n other than 01/01/1970, such as 01/01/1990. | Required if you are creating a new record or editing an existing record. Defaults to a value. Date format is specific to locale of end user. Must be greater than the inception date. | 12/31/[current year] |\n| Inuring Order | Inuring order for this treaty The treaty type (portfolio, contract, location or layer) is specified in the Target Type column on the Terms tab.\n The inuring rules are defined in the Validation Rules column. | Defaults to a value. The inuring order of treaties must start with 1 , and all\n rows must be sequential. If a treaty has a target type of: Portfolio , the inuring order number must be\n greater than the inuring order number of all other treaties in the same\n program that have a target type of \"Contract\" or \"Location or Layer\". Contract , the inuring order number must be greater\n than the inuring order number of all other treaties in the same program\n that have a target type of \"Location or Layer\". Contract , the inuring order number must be less\n than the inuring order number of all other treaties in the same program\n that have a target type of \"Portfolio\". Location or Layer , the inuring order number must\n be less than the inuring order number of all other treaties in the same\n program that have a target type of \"Contract\" or \"Portfolio\". Must be a numeric value between 1 and 99 , inclusive. | 1 |\n| Description | User-specified description of this treaty. | Optional. Can contain up to 1024 characters. | |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Treaty Type",
+     "One of the following treaty types: Catastrophe Excess of Loss Quota Share Surplus Share Per-Risk Excess of Loss",
+     "Required if you are creating a new record or editing an existing record.",
+     ""
+    ],
+    [
+     "Treaty ID",
+     "User-specified name of this treaty. Surplus Share treaty IDs are not case-sensitive. For example, assume that you\n                  import four Exposure Set s, each of which\n                  contains a separate Surplus Share treaty, where the treaty IDs are: SS , Ss , sS , and ss . You then create an exposure view that includes all four Exposure Set s. The Reinsurance Program\n                  Manager does not consider the treaty IDs in those four files to be unique. As a\n                  result, when you create a Surplus Share program in the Reinsurance Program\n                  Manager, select that exposure view as the target exposure, and try to add a\n                  Surplus Share treaty for each Surplus Share treaty included in the exposure data,\n                  you will see that the only valid ID in the Treaty ID field\n                  is SS . To apply different limit terms to each of the surplus\n                  share treaties, make sure that the treaty IDs are unique before you import the\n                  exposures. This is especially important to keep in mind if you have a large\n                  portfolio used across multiple exposure views. Touchstone displays a maximum of 9318\n                  Surplus Share treaty IDs in the Treaty ID list.",
+     "Required if you are creating a new record or editing an existing record. Must be unique within the reinsurance program. Cannot begin with a space. Can contain up to 100 characters.",
+     ""
+    ],
+    [
+     "Cedant Name",
+     "User-specified name of the primary insurance company that has purchased\n                  reinsurance.",
+     "Optional. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "Reinsurer Name",
+     "User-specified name of the insurer or reinsurer that assumed the cedant's risk\n                  under this treaty.",
+     "Optional. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "Treaty Perils",
+     "Perils that this treaty covers. To specify multiple perils in a single entry within an import file, separate the\n                  corresponding peril codes with a Plus (+) symbol, such as, PWH+PES ).",
+     "Defaults to a value. At least one peril is required if you are creating a new record or editing an\n                      existing record.",
+     "All perils (PAL)"
+    ],
+    [
+     "Treaty Status",
+     "One of the following submission statuses for this treaty: Bound, Canceled,\n                  Expired, Quoted, Rejected, Renewal, or Submitted",
+     "Defaults to a value.",
+     "Bound"
+    ],
+    [
+     "Inception Date",
+     "Date of the first day on which coverage for this treaty is effective. When importing data, use one of the following formats and select this format on\n                  the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD For inception and expiration dates, and other in-force dates, you must specify a\n                  date value between 01/01/1970 and 12/31/2038, inclusive, for dates based on US\n                  regional settings. If you are not using US regional settings, use a date value\n                  other than 01/01/1970, such as 01/01/1990.",
+     "Required if you are creating a new record or editing an existing record. Defaults to a value. Date format is specific to locale of end user. Must be less than the expiration date.",
+     "01/01/[current year]"
+    ],
+    [
+     "Expiration Date",
+     "Date of the last day on which coverage for this treaty is effective. When importing data, use one of the following formats and select this format on\n                  the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD For inception and expiration dates, and other in-force dates, you must specify a\n                  date value between 01/01/1970 and 12/31/2038, inclusive, for dates based on US\n                  regional settings. If you are not using US regional settings, use a date value\n                  other than 01/01/1970, such as 01/01/1990.",
+     "Required if you are creating a new record or editing an existing record. Defaults to a value. Date format is specific to locale of end user. Must be greater than the inception date.",
+     "12/31/[current year]"
+    ],
+    [
+     "Inuring Order",
+     "Inuring order for this treaty The treaty type (portfolio, contract, location or layer) is specified in the Target Type column on the Terms tab.\n                  The inuring rules are defined in the Validation Rules column.",
+     "Defaults to a value. The inuring order of treaties must start with 1 , and all\n                      rows must be sequential. If a treaty has a target type of: Portfolio , the inuring order number must be\n                          greater than the inuring order number of all other treaties in the same\n                          program that have a target type of \"Contract\" or \"Location or Layer\". Contract , the inuring order number must be greater\n                          than the inuring order number of all other treaties in the same program\n                          that have a target type of \"Location or Layer\". Contract , the inuring order number must be less\n                          than the inuring order number of all other treaties in the same program\n                          that have a target type of \"Portfolio\". Location or Layer , the inuring order number must\n                          be less than the inuring order number of all other treaties in the same\n                          program that have a target type of \"Contract\" or \"Portfolio\". Must be a numeric value between 1 and 99 , inclusive.",
+     "1"
+    ],
+    [
+     "Description",
+     "User-specified description of this treaty.",
+     "Optional. Can contain up to 1024 characters.",
+     ""
+    ]
+   ]
+  }
+ ]
+}

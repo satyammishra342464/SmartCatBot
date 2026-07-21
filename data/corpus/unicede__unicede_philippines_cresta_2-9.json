@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_philippines_cresta_2-9.html",
+ "title": "Philippines CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Philippines \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Philippines supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Philippines (44).\n\n| Area Tag | Zone |\n| --- | --- |\n| 44-0000 | Philippines |\n| 44-0001 | Zone 1 |\n| 44-0002 | Zone 2 |\n| 44-0003 | Zone 3 |\n| 44-0004 | Zone 4 |\n| 44-0005 | Zone 5 |\n| 44-0006 | Zone 6 |\n| 44-0007 | Zone 7 |\n| 44-0008 | Zone 8 |\n| 44-0009 | Zone 9 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "44-0000",
+     "Philippines"
+    ],
+    [
+     "44-0001",
+     "Zone 1"
+    ],
+    [
+     "44-0002",
+     "Zone 2"
+    ],
+    [
+     "44-0003",
+     "Zone 3"
+    ],
+    [
+     "44-0004",
+     "Zone 4"
+    ],
+    [
+     "44-0005",
+     "Zone 5"
+    ],
+    [
+     "44-0006",
+     "Zone 6"
+    ],
+    [
+     "44-0007",
+     "Zone 7"
+    ],
+    [
+     "44-0008",
+     "Zone 8"
+    ],
+    [
+     "44-0009",
+     "Zone 9"
+    ]
+   ]
+  }
+ ]
+}

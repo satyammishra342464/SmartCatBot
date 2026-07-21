@@ -1,0 +1,111 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-deductible-combos-layers.html",
+ "title": "Layer limit/deductible combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer limit/deductible combinations\n\nLayer limit/deductible combinations.\n\n| Limit / Deductible | AP | B | FR | MA | MI | MM | PL | CB | CT | C | N |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| B | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| E | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| C | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| CSL100 | | | | | | | | | | | Valid |\n| CSLAI | | | | | | | | | | | Valid |\n| N | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Limit / Deductible",
+    "AP",
+    "B",
+    "FR",
+    "MA",
+    "MI",
+    "MM",
+    "PL",
+    "CB",
+    "CT",
+    "C",
+    "N"
+   ],
+   "rows": [
+    [
+     "B",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "E",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "C",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "CSL100",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "CSLAI",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

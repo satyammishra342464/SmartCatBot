@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_vietnam_peril_codes_2-8.html",
+ "title": "Vietnam Peril Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Vietnam Peril Codes (v2.8)\n\nPeril codes for Vietnam supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for Perils Covered risks in Vietnam.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Windstorm only |\n| PEQ | Earthquake only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PEQ",
+     "Earthquake only"
+    ]
+   ]
+  }
+ ]
+}

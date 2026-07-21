@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_taiwan_cresta_2-9.html",
+ "title": "Taiwan CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Taiwan \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Taiwan.\n\nThe codes listed below include the country code for Taiwan (43).\n\n| Area Tag | Zone |\n| --- | --- |\n| 43-0000 | Taiwan |\n| 43-0100 | Z 1.0 City of Taipei |\n| 43-0101 | Z 1.1 Rest of Taipei Keelung |\n| 43-0200 | Z 2.0 Taoyuan |\n| 43-0300 | Z 3.0 Hsinchu |\n| 43-0400 | Z 4.0 Maioli |\n| 43-0500 | Z 5.0 Taichung |\n| 43-0600 | Z 6.0 Nantou |\n| 43-0700 | Z 7.0 Changhua |\n| 43-0800 | Z 8.0 Yuanlin |\n| 43-0900 | Z 9.0 Chiai Tainan Penghu Islands |\n| 43-1000 | Z 10.0 Kaohsiung Pingtung |\n| 43-1100 | Z 11.0 Hualien Taitung |\n| 43-1200 | Z 12.0 Ilan |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "43-0000",
+     "Taiwan"
+    ],
+    [
+     "43-0100",
+     "Z 1.0 City of Taipei"
+    ],
+    [
+     "43-0101",
+     "Z 1.1 Rest of Taipei Keelung"
+    ],
+    [
+     "43-0200",
+     "Z 2.0 Taoyuan"
+    ],
+    [
+     "43-0300",
+     "Z 3.0 Hsinchu"
+    ],
+    [
+     "43-0400",
+     "Z 4.0 Maioli"
+    ],
+    [
+     "43-0500",
+     "Z 5.0 Taichung"
+    ],
+    [
+     "43-0600",
+     "Z 6.0 Nantou"
+    ],
+    [
+     "43-0700",
+     "Z 7.0 Changhua"
+    ],
+    [
+     "43-0800",
+     "Z 8.0 Yuanlin"
+    ],
+    [
+     "43-0900",
+     "Z 9.0 Chiai Tainan Penghu Islands"
+    ],
+    [
+     "43-1000",
+     "Z 10.0 Kaohsiung Pingtung"
+    ],
+    [
+     "43-1100",
+     "Z 11.0 Hualien Taitung"
+    ],
+    [
+     "43-1200",
+     "Z 12.0 Ilan"
+    ]
+   ]
+  }
+ ]
+}

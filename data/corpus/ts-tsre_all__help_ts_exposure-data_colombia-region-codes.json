@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_colombia-region-codes.html",
+ "title": "Colombia region codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Colombia region codes\n\nTouchstone\n supports the following region\n codes for Colombia.\n\n| Region Code | Region Name |\n| --- | --- |\n| 05 | Antioquia |\n| 08 | AtlÃ¡ntico |\n| 11 | BogotÃ¡ |\n| 13 | BolÃ­var |\n| 15 | BoyacÃ¡ |\n| 17 | Caldas |\n| 18 | CaquetÃ¡ |\n| 19 | Cauca |\n| 20 | Cesar |\n| 23 | CÃ³rdoba |\n| 25 | Cundinamarca |\n| 27 | ChocÃ³ |\n| 41 | Huila |\n| 44 | Guajira |\n| 47 | Magdalena |\n| 50 | Meta |\n| 52 | NariÃ±o |\n| 54 | Norte de Santander |\n| 63 | QuindÃ­o |\n| 66 | Risaralda |\n| 68 | Santander |\n| 70 | Sucre |\n| 73 | Tolima |\n| 76 | Valle del Cauca |\n| 81 | Arauca |\n| 85 | Casanare |\n| 86 | Putumayo |\n| 88 | San AndrÃ©s and Providenci |\n| 91 | Amazonas |\n| 94 | GuainÃ­a |\n| 95 | Guaviare |\n| 97 | VaupÃ©s |\n| 99 | Vichada |",
+ "tables": [
+  {
+   "headers": [
+    "Region Code",
+    "Region Name"
+   ],
+   "rows": [
+    [
+     "05",
+     "Antioquia"
+    ],
+    [
+     "08",
+     "AtlÃ¡ntico"
+    ],
+    [
+     "11",
+     "BogotÃ¡"
+    ],
+    [
+     "13",
+     "BolÃ­var"
+    ],
+    [
+     "15",
+     "BoyacÃ¡"
+    ],
+    [
+     "17",
+     "Caldas"
+    ],
+    [
+     "18",
+     "CaquetÃ¡"
+    ],
+    [
+     "19",
+     "Cauca"
+    ],
+    [
+     "20",
+     "Cesar"
+    ],
+    [
+     "23",
+     "CÃ³rdoba"
+    ],
+    [
+     "25",
+     "Cundinamarca"
+    ],
+    [
+     "27",
+     "ChocÃ³"
+    ],
+    [
+     "41",
+     "Huila"
+    ],
+    [
+     "44",
+     "Guajira"
+    ],
+    [
+     "47",
+     "Magdalena"
+    ],
+    [
+     "50",
+     "Meta"
+    ],
+    [
+     "52",
+     "NariÃ±o"
+    ],
+    [
+     "54",
+     "Norte de Santander"
+    ],
+    [
+     "63",
+     "QuindÃ­o"
+    ],
+    [
+     "66",
+     "Risaralda"
+    ],
+    [
+     "68",
+     "Santander"
+    ],
+    [
+     "70",
+     "Sucre"
+    ],
+    [
+     "73",
+     "Tolima"
+    ],
+    [
+     "76",
+     "Valle del Cauca"
+    ],
+    [
+     "81",
+     "Arauca"
+    ],
+    [
+     "85",
+     "Casanare"
+    ],
+    [
+     "86",
+     "Putumayo"
+    ],
+    [
+     "88",
+     "San AndrÃ©s and Providenci"
+    ],
+    [
+     "91",
+     "Amazonas"
+    ],
+    [
+     "94",
+     "GuainÃ­a"
+    ],
+    [
+     "95",
+     "Guaviare"
+    ],
+    [
+     "97",
+     "VaupÃ©s"
+    ],
+    [
+     "99",
+     "Vichada"
+    ]
+   ]
+  }
+ ]
+}

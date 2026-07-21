@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_antigua-barbuda-cresta_2-8.html",
+ "title": "Antigua & BarbudaCRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Antigua & Barbuda\nCRESTA\n Codes (v2.8)\n \n\nCRESTA\n codes for Antigua & Barbuda supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Antigua & Barbuda (237).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 237-000 | Antigua & Barbuda |\n| 237-001 | Saint Johns |\n| 237-002 | Rest of Antigua |\n| 237-003 | Barbuda |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "237-000",
+     "Antigua & Barbuda"
+    ],
+    [
+     "237-001",
+     "Saint Johns"
+    ],
+    [
+     "237-002",
+     "Rest of Antigua"
+    ],
+    [
+     "237-003",
+     "Barbuda"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_trinidad-tobago-county-sector-codes.html",
+ "title": "Trinidad and Tobago county/sector codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Trinidad and Tobago county/sector codes\n\nTouchstone\n supports the following\n county/sector codes for Trinidad and Tobago.\n\n| County/Sector Code | County/Sector Name |\n| --- | --- |\n| 1 | Caroni |\n| 2 | Mayaro |\n| 3 | Nariva |\n| 4 | St. Andrew |\n| 5 | St. David |\n| 6 | St. George |\n| 7 | St. Patrick |\n| 8 | Victoria |\n| 9 | Tobago |",
+ "tables": [
+  {
+   "headers": [
+    "County/Sector Code",
+    "County/Sector Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Caroni"
+    ],
+    [
+     "2",
+     "Mayaro"
+    ],
+    [
+     "3",
+     "Nariva"
+    ],
+    [
+     "4",
+     "St. Andrew"
+    ],
+    [
+     "5",
+     "St. David"
+    ],
+    [
+     "6",
+     "St. George"
+    ],
+    [
+     "7",
+     "St. Patrick"
+    ],
+    [
+     "8",
+     "Victoria"
+    ],
+    [
+     "9",
+     "Tobago"
+    ]
+   ]
+  }
+ ]
+}

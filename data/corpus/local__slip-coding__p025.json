@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 25",
+ "section": "local-docs",
+ "version": null,
+ "text": "Location Deductibles\n• We can apply deductibles to a location (site deductible) or on a unit of \ncoverage at a location (location coverage specific).\n• There may be specific deductibles for selected regions locations.\n• In the loc file, filter for specific regions described in the slip (e.g. by state, \noccupancies or location name).\n• You may need to filter the loc file on specific criteria e.g. State, occupancy.\n• It is often useful to create columns USERTXT1 and USERTXT2. They values in \nthese column are free for you to alter as you please to categorise criteria e.g. \nmember names or location types. They will be maintained on import into \nRiskLink but will not affect any modelling outcome.",
+ "tables": []
+}

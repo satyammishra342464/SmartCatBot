@@ -1,0 +1,227 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_europe-perils.html",
+ "title": "Europe perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Europe perils\n\nTouchstone\n includes support for various\n perils and peril codes for Europe.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PES | Earthquake shake only | |\n| PFL | Inland flood | Inland flood peril is available, by separate license, only for exposures in: Great Britain (pre-v13.0) United Kingdom and the Republic of Ireland (13.0 and later) Central Europe (including Germany, Austria, Czech Republic, and\n Switzerland, and Poland) Southeast Europe (Albania, Macedonia, and Serbia) Italy |\n| PSH | Storm surge | Storm surge peril is available only for exposures in Great\n Britain. |\n| PWA | All wind perils (tropical cyclone and severe storm) | Winter storm sub-peril is valid only for United States\n exposures. |\n| PWH | Extratropical Cyclone only | |\n| PWX | Severe Thunderstorm (wind excluding tropical cyclone) | Severe Thunderstorm is appended to PWH exposures for the 22 countries\n where Severe Thunderstorm is supported, on exposure upgrade from Touchstone 5.0. |\n\nPeril support by country\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for each\n country within the European region:\n\n| Country | Peril codes | Perils |\n| --- | --- | --- |\n| Albania | PAL PES PFL | All licensed perils Earthquake shake only Inland flood |\n| Austria | PAL PES PFL PWH PWX | All licensed perils Earthquake shake only Inland flood Extratropical cyclone only Severe thunderstorm |\n| Belgium | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm |\n| Bulgaria | PAL PES | All licensed perils Earthquake shake only |\n| Cyprus | PAL PES | All licensed perils Earthquake shake only |\n| Czech Republic | PAL PES PFL PWH PWX | All licensed perils Earthquake shake only Inland flood Extratropical cyclone only Severe thunderstorm |\n| Denmark | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm |\n| Estonia | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm |\n| Finland | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm |\n| France | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm |\n| Germany | PAL PES PFL PWH PWX | All licensed perils Earthquake shake only Inland flood Extratropical cyclone only Severe thunderstorm |\n| Greece | PAL PES | All licensed perils Earthquake shake only |\n| Hungary | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Ireland (Republic) | PAL PES PFL (added in v13.0) PWH PWX | All licensed perils Earthquake shake only Inland Flood (added in v13.0) Extratropical Cyclone only Severe thunderstorm |\n| Israel | PAL PES | All licensed perils Earthquake shake only |\n| Italy | PAL PES PFL (added in v11.5) | All licensed perils Earthquake shake only Inland Flood (added in v11.5) |\n| Latvia | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Liechtenstein | PAL PWH PWX | All licensed perils Extratropical Cyclone only Severe thunderstorm |\n| Lithuania | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Luxembourg | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Macedonia | PAL PES PFL | All licensed perils Earthquake shake only Inland flood |\n| Netherlands | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Norway | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Poland | PAL PES PFL PWH PWX | All licensed perils Earthquake shake only Inland flood Extratropical Cyclone only Severe thunderstorm |\n| Portugal | PAL PES | All licensed perils Earthquake shake only |\n| Romania | PAL PES | All licensed perils Earthquake shake only |\n| Serbia | PAL PES PFL | All licensed perils Earthquake shake only Inland flood |\n| Slovakia | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Slovenia | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Sweden | PAL PES PWH PWX | All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm |\n| Switzerland | PAL PES PFL PWH PWX | All licensed perils Earthquake shake only Inland flood Extratropical Cyclone only Severe thunderstorm |\n| Turkey | PAL PES | All licensed perils Earthquake shake only |\n| United Kingdom | PAL PES PFL PWH PSH PWX | All licensed perils Earthquake shake only Inland flood Extratropical Cyclone only Great Britain storm surge Severe thunderstorm |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PFL",
+     "Inland flood",
+     "Inland flood peril is available, by separate license, only for exposures in: Great Britain (pre-v13.0) United Kingdom and the Republic of Ireland (13.0 and later) Central Europe (including Germany, Austria, Czech Republic, and\n                              Switzerland, and Poland) Southeast Europe (Albania, Macedonia, and Serbia) Italy"
+    ],
+    [
+     "PSH",
+     "Storm surge",
+     "Storm surge peril is available only for exposures in Great\n                        Britain."
+    ],
+    [
+     "PWA",
+     "All wind perils (tropical cyclone and severe storm)",
+     "Winter storm sub-peril is valid only for United States\n                        exposures."
+    ],
+    [
+     "PWH",
+     "Extratropical Cyclone only",
+     ""
+    ],
+    [
+     "PWX",
+     "Severe Thunderstorm (wind excluding tropical cyclone)",
+     "Severe Thunderstorm is appended to PWH exposures for the 22 countries\n                        where Severe Thunderstorm is supported, on exposure upgrade from Touchstone 5.0."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Country",
+    "Peril codes",
+    "Perils"
+   ],
+   "rows": [
+    [
+     "Albania",
+     "PAL PES PFL",
+     "All licensed perils Earthquake shake only Inland flood"
+    ],
+    [
+     "Austria",
+     "PAL PES PFL PWH PWX",
+     "All licensed perils Earthquake shake only Inland flood Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Belgium",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Bulgaria",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Cyprus",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Czech Republic",
+     "PAL PES PFL PWH PWX",
+     "All licensed perils Earthquake shake only Inland flood Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Denmark",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Estonia",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Finland",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "France",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Germany",
+     "PAL PES PFL PWH PWX",
+     "All licensed perils Earthquake shake only Inland flood Extratropical cyclone only Severe thunderstorm"
+    ],
+    [
+     "Greece",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Hungary",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Ireland (Republic)",
+     "PAL PES PFL (added in v13.0) PWH PWX",
+     "All licensed perils Earthquake shake only Inland Flood (added in v13.0) Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Israel",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Italy",
+     "PAL PES PFL (added in v11.5)",
+     "All licensed perils Earthquake shake only Inland Flood (added in v11.5)"
+    ],
+    [
+     "Latvia",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Liechtenstein",
+     "PAL PWH PWX",
+     "All licensed perils Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Lithuania",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Luxembourg",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Macedonia",
+     "PAL PES PFL",
+     "All licensed perils Earthquake shake only Inland flood"
+    ],
+    [
+     "Netherlands",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Norway",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Poland",
+     "PAL PES PFL PWH PWX",
+     "All licensed perils Earthquake shake only Inland flood Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Portugal",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Romania",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "Serbia",
+     "PAL PES PFL",
+     "All licensed perils Earthquake shake only Inland flood"
+    ],
+    [
+     "Slovakia",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Slovenia",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Sweden",
+     "PAL PES PWH PWX",
+     "All licensed perils Earthquake shake only Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Switzerland",
+     "PAL PES PFL PWH PWX",
+     "All licensed perils Earthquake shake only Inland flood Extratropical Cyclone only Severe thunderstorm"
+    ],
+    [
+     "Turkey",
+     "PAL PES",
+     "All licensed perils Earthquake shake only"
+    ],
+    [
+     "United Kingdom",
+     "PAL PES PFL PWH PSH PWX",
+     "All licensed perils Earthquake shake only Inland flood Extratropical Cyclone only Great Britain storm surge Severe thunderstorm"
+    ]
+   ]
+  }
+ ]
+}

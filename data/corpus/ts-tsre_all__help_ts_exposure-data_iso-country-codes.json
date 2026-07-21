@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_iso-country-codes.html",
+ "title": "ISO country codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "ISO country codes\n\nTouchstone\n supports ISO 2-character\n country codes.\n\nUse the \ntCountry\n table in the \nAIR\nReference database to view\n the supported codes.\n\nSee \nUsing Geocoding in \nTouchstone\n on\n the \nClient Portal\n for information\n about specifying geographic information for exposures.",
+ "tables": []
+}

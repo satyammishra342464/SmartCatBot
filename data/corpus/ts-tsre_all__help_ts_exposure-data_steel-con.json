@@ -1,0 +1,68 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_steel-con.html",
+ "title": "Steel construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Steel construction codes\n\nThe steel construction codes supported by \nTouchstone\n.\n\nIn \nTouchstone 2025\n, we support codes 151-159 for \nVerisk Bushfire Model for Australia\n and \nVerisk Typhoon Model for South Korea\n. For\n information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 151 | Steel | Steel frame buildings consist of steel columns and beams. Use this if\n the other technical characteristics of the building are unknown. |\n| 152 | Light Metal | Light metal buildings are made of light gauge steel frame and are\n usually clad with lightweight metal or asbestos siding and roof, often\n corrugated. They typically are low-rise structures. |\n| 153 | Braced Steel Frame | Buildings constructed with steel columns and beams that are braced with\n diagonal steel members to resist lateral forces. |\n| 154 | Steel MRF - Perimeter | Buildings constructed with steel columns and beams that use only the\n frame members on the periphery of the structure to carry lateral loads. The\n internal beams and columns only carry the gravity load to the foundation. |\n| 155 | Steel MRF - Distributed | Buildings constructed with steel columns and beams to carry lateral\n loads distributed throughout the building. The diaphragms are usually\n concrete, sometimes over steel decking. This structural type is seldom used\n for low-rise buildings. |\n| 156 | Steel MRF | Steel MRF buildings consist of structural steel columns and beams.\n Lateral loads due to earthquakes are carried by the \"moment-resisting\n frames,\" but the locations of the moment-resisting frames in the building\n are unknown. |\n| 157 | Steel Frame with URM | Structural steel columns and beams form \"moment-resisting frames\" to\n carry lateral loads due to earthquakes. Unreinforced masonry walls are used\n as infills between the columns to add lateral load resistance, but are not\n intended to serve as vertical load-bearing elements. Sometimes the steel\n frames are completely hidden in the masonry walls. |\n| 158 | Steel Frame with Concrete Shear Wall | Structural steel columns and beams form exterior frames, but the joints\n are not designed for moment resistance. Lateral loads due to earthquakes are\n carried by reinforced concrete \"shear\" walls. The concrete walls are\n continuous from the foundation to the roof. |\n| 159 | Steel Reinforced Concrete | Structural steel sections (beams and columns) are encased in reinforced\n concrete. The encased structural steel columns are sometimes discontinued in\n the upper portions of the buildings, making the columns in the upper floor\n regular reinforced concrete columns. |\n| 160 | Steel Long Span | Steel long-span buildings create unobstructed, column-free spaces\n greater than 100 feet for a variety of activities or functions. These\n include activities where visibility is important for large audiences (e.g.,\n auditoriums and covered stadiums), where flexibility is important (e.g.,\n exhibition halls and certain types of manufacturing facilities), and where\n large movable objects are housed. Two-hinge (made of a single member hinged\n at each end) and three-hinge (made of two members hinged at each end and at\n the meeting point at the crown) trussed arches are widely used. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "151",
+     "Steel",
+     "Steel frame buildings consist of steel columns and beams. Use this if\n                        the other technical characteristics of the building are unknown."
+    ],
+    [
+     "152",
+     "Light Metal",
+     "Light metal buildings are made of light gauge steel frame and are\n                        usually clad with lightweight metal or asbestos siding and roof, often\n                        corrugated. They typically are low-rise structures."
+    ],
+    [
+     "153",
+     "Braced Steel Frame",
+     "Buildings constructed with steel columns and beams that are braced with\n                        diagonal steel members to resist lateral forces."
+    ],
+    [
+     "154",
+     "Steel MRF - Perimeter",
+     "Buildings constructed with steel columns and beams that use only the\n                        frame members on the periphery of the structure to carry lateral loads. The\n                        internal beams and columns only carry the gravity load to the foundation."
+    ],
+    [
+     "155",
+     "Steel MRF - Distributed",
+     "Buildings constructed with steel columns and beams to carry lateral\n                        loads distributed throughout the building. The diaphragms are usually\n                        concrete, sometimes over steel decking. This structural type is seldom used\n                        for low-rise buildings."
+    ],
+    [
+     "156",
+     "Steel MRF",
+     "Steel MRF buildings consist of structural steel columns and beams.\n                        Lateral loads due to earthquakes are carried by the \"moment-resisting\n                        frames,\" but the locations of the moment-resisting frames in the building\n                        are unknown."
+    ],
+    [
+     "157",
+     "Steel Frame with URM",
+     "Structural steel columns and beams form \"moment-resisting frames\" to\n                        carry lateral loads due to earthquakes. Unreinforced masonry walls are used\n                        as infills between the columns to add lateral load resistance, but are not\n                        intended to serve as vertical load-bearing elements. Sometimes the steel\n                        frames are completely hidden in the masonry walls."
+    ],
+    [
+     "158",
+     "Steel Frame with Concrete Shear Wall",
+     "Structural steel columns and beams form exterior frames, but the joints\n                        are not designed for moment resistance. Lateral loads due to earthquakes are\n                        carried by reinforced concrete \"shear\" walls. The concrete walls are\n                        continuous from the foundation to the roof."
+    ],
+    [
+     "159",
+     "Steel Reinforced Concrete",
+     "Structural steel sections (beams and columns) are encased in reinforced\n                        concrete. The encased structural steel columns are sometimes discontinued in\n                        the upper portions of the buildings, making the columns in the upper floor\n                        regular reinforced concrete columns."
+    ],
+    [
+     "160",
+     "Steel Long Span",
+     "Steel long-span buildings create unobstructed, column-free spaces\n                        greater than 100 feet for a variety of activities or functions. These\n                        include activities where visibility is important for large audiences (e.g.,\n                        auditoriums and covered stadiums), where flexibility is important (e.g.,\n                        exhibition halls and certain types of manufacturing facilities), and where\n                        large movable objects are housed. Two-hinge (made of a single member hinged\n                        at each end) and three-hinge (made of two members hinged at each end and at\n                        the meeting point at the crown) trussed arches are widely used."
+    ]
+   ]
+  }
+ ]
+}

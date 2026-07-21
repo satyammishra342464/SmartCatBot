@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_haiti_codes_2-8.html",
+ "title": "Haiti Department Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Haiti Department Codes (v2.8)\n \n\nDepartment codes for Haiti supported by \nUNICEDE\n/2.\n\nThe department codes for Haiti (108) are listed below:\n\n| Area Tag | Department |\n| --- | --- |\n| 108-000 | Haiti |\n| 108-001 | Artibonite |\n| 108-002 | Centre |\n| 108-003 | Grand'Anse |\n| 108-004 | Nord |\n| 108-005 | Nord-Est |\n| 108-006 | Nord-Ouest |\n| 108-007 | Ouest |\n| 108-008 | Sud |\n| 108-009 | Sud-Est |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Department"
+   ],
+   "rows": [
+    [
+     "108-000",
+     "Haiti"
+    ],
+    [
+     "108-001",
+     "Artibonite"
+    ],
+    [
+     "108-002",
+     "Centre"
+    ],
+    [
+     "108-003",
+     "Grand'Anse"
+    ],
+    [
+     "108-004",
+     "Nord"
+    ],
+    [
+     "108-005",
+     "Nord-Est"
+    ],
+    [
+     "108-006",
+     "Nord-Ouest"
+    ],
+    [
+     "108-007",
+     "Ouest"
+    ],
+    [
+     "108-008",
+     "Sud"
+    ],
+    [
+     "108-009",
+     "Sud-Est"
+    ]
+   ]
+  }
+ ]
+}

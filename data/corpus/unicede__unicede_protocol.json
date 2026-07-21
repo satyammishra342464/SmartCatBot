@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_protocol.html",
+ "title": "UNICEDE/2 protocol",
+ "section": "unicede",
+ "version": null,
+ "text": "UNICEDE\n/2 protocol\n\nVerisk\n has designed the \nUNICEDE\n/2 protocol based on specific\n considerations.\n\nUNICEDE\n/2 protocol\n\nThe contents of the file should be easy to read \nboth\n by\n people and by computer software in virtually \nany\n operating\n system.\n\nIt is particularly important that the information contained in a UNI\nCEDE\n/2 file be readable by people so\n that:\n\nthe data can be proof-read easily, if necessary.\n\nthe individual elements of the file can easily referenced.\n\nThe protocol should be easily extended when necessary while remaining compatible\n with prior versions, if any.\n\nThe file must be a pure ASCII text file. It may contain only the following ASCII\n characters:\n\nprintable decimal ASCII values 32 through 126\n\nnon-printable decimal ASCII values 13 (i.e., CARRIAGE RETURN) and 10\n (LINE FEED)\n\nThe presence of any other characters may result in the software either\n rejecting the source file or in ignoring the character. THE ACTION TAKEN DEPENDS ON\n THE SOFTWARE and is not part of the \nUNICEDE\n\n /2 standard.\n\nFile Structure\n\nThe basic file structure contains two parts:\n\nThe \nHeader\n describes the contents of the file.\n\nThe \nBody\n contains the actual data being submitted.",
+ "tables": []
+}

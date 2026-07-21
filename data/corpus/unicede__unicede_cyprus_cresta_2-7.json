@@ -1,0 +1,46 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_cyprus_cresta_2-7.html",
+ "title": "Cyprus CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Cyprus \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Cyprus supported by \nUNICEDE\n/2.\nThe codes listed below include the country code for Cyprus (76).\n\n| Area Tag | CRESTA Zone |\n| 76-000 | Cyprus |\n| 76-001 | Lefkosia |\n| 76-002 | Lemesos |\n| 76-003 | Larnaka |\n| 76-004 | Pafos |\n| 76-005 | Ammochostos |\n| 76-006 | Keryneia |",
+ "tables": [
+  {
+   "headers": [],
+   "rows": [
+    [
+     "Area Tag",
+     "CRESTA Zone"
+    ],
+    [
+     "76-000",
+     "Cyprus"
+    ],
+    [
+     "76-001",
+     "Lefkosia"
+    ],
+    [
+     "76-002",
+     "Lemesos"
+    ],
+    [
+     "76-003",
+     "Larnaka"
+    ],
+    [
+     "76-004",
+     "Pafos"
+    ],
+    [
+     "76-005",
+     "Ammochostos"
+    ],
+    [
+     "76-006",
+     "Keryneia"
+    ]
+   ]
+  }
+ ]
+}

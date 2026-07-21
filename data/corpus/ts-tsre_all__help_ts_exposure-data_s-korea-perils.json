@@ -1,0 +1,28 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_s-korea-perils.html",
+ "title": "South Korea perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "South Korea perils\n\nThe following table lists the peril codes and perils that \nTouchstone\n supports for South Korea.\n\n| Import peril code | Peril | Note |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PWH | Typhoon only | Added storm surge in\n v13.0. |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Note"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PWH",
+     "Typhoon only",
+     "Added storm surge in\n                        v13.0."
+    ]
+   ]
+  }
+ ]
+}

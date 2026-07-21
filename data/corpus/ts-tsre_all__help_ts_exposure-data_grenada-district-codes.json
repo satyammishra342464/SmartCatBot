@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_grenada-district-codes.html",
+ "title": "Grenada district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Grenada district codes\n\nTouchstone\n supports the following district\n codes for Grenada.\n\n| District Code | District Name |\n| --- | --- |\n| 1 | Grenada |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Grenada"
+    ]
+   ]
+  }
+ ]
+}

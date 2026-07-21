@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_data-levels.html",
+ "title": "Data levels",
+ "section": "unicede",
+ "version": null,
+ "text": "Data levels\n\nData details supported by \nUNICEDE\n/2.\n\nThis field indicates the level of data (e.g. \nCRESTA\n-level, sub-\nCRESTA\n, postal codes, province codes, governates, perfectures) in the import\n file. The \nDataLevel\n and \nArea tag type\n\n must match.\n\nGo to the appropriate \nUNICEDE\n/2 version and country name to view the list of valid Area Tags.\n\nUNICEDE/2 v2.9\n\nUNICEDE/2 v2.8\n\nUNICEDE/2 v2.7\n\n| Data Level | Country/Data Level |\n| --- | --- |\n| 9 | Canada |\n| 10 | Albania Anguilla Antigua & Barbuda Argentina Aruba Australia Austria Barbados Belgium Belize Bonaire, St. Eustatius, Saba Brazil Bulgaria Chile China Colombia Costa Rica Croatia Curacao Cyprus Denmark Dominican Republic Ecuador El Salvador Finland France Germany Greece Guatemala Honduras Hong Kong Hungary Indonesia Iran Israel Italy Jamaica Japan Kazakhstan Liechtenstein Luxembourg Macedonia Malaysia Mexico Netherlands [RETIRED] Netherlands Antilles New Zealand Nicaragua Norway Qatar Panama Papua New Guinea Peru Philippines Portugal Puerto Rico Romania Saudi Arabia Serbia Slovakia Slovenia South Africa South Korea St. Kitts & Nevis St. Maarten Sweden Switzerland Taiwan Thailand Trinidad and Tobago Turkey Ukraine United Arab Emirates United Kingdom Venezuela Vietnam |\n| 11 | United States FIPS Codes |\n| 13 | Canada FSA Codes |\n| 14 | Bahamas Bermuda Dominica Grenada Guadeloupe Guam Gulf of Mexico Protractions Macau Martinique Montserrat Saipan Singapore St. Barts St. Lucia St. Martin Subareas |\n| 15 | United Kingdom Postal Areas United Kingdom Postal Sectors |\n| 17 | China Provinces |\n| 18 | India Districts |\n| 27 | Bahrain Governorates British Virgin Islands Cayman Islands Districts Cuba Provinces Czech Republic Postal Ecuador Provinces Estonia Postal Guatemala Sub- CRESTA Haiti Department Indonesia Sub- CRESTA Ireland Counties Israel Districts Japan Prefectures Kuwait Governorates Latvia Postal Lithuania Postal Mexico CRESTA Oman Governorates Peru Sub- CRESTA Philippines Sub- CRESTA Poland Postal Russia District St. Vincent/Grenadines District Turkey Provinces Turks & Caicos Islands U.S. Virgin Islands Districts Yemen Governorates |\n| 98 | Valid only when importing CRESTA -level market shares (Coverage = MS)\n for multiple supported countries. The Data Level value and format must be valid\n for any country supported at this level for market share imports. |\n| 99 | Valid only when importing non- CRESTA area or subarea-level market shares (Coverage = MS) for multiple supported countries. The Data Level value and format\n must be valid for any country supported at this level for market share\n imports. |",
+ "tables": [
+  {
+   "headers": [
+    "Data Level",
+    "Country/Data Level"
+   ],
+   "rows": [
+    [
+     "9",
+     "Canada"
+    ],
+    [
+     "10",
+     "Albania Anguilla Antigua & Barbuda Argentina Aruba Australia Austria Barbados Belgium Belize Bonaire, St. Eustatius, Saba Brazil Bulgaria Chile China Colombia Costa Rica Croatia Curacao Cyprus Denmark Dominican Republic Ecuador El Salvador Finland France Germany Greece Guatemala Honduras Hong Kong Hungary Indonesia Iran Israel Italy Jamaica Japan Kazakhstan Liechtenstein Luxembourg Macedonia Malaysia Mexico Netherlands [RETIRED] Netherlands Antilles New Zealand Nicaragua Norway Qatar Panama Papua New Guinea Peru Philippines Portugal Puerto Rico Romania Saudi Arabia Serbia Slovakia Slovenia South Africa South Korea St. Kitts & Nevis St. Maarten Sweden Switzerland Taiwan Thailand Trinidad and Tobago Turkey Ukraine United Arab Emirates United Kingdom Venezuela Vietnam"
+    ],
+    [
+     "11",
+     "United States FIPS Codes"
+    ],
+    [
+     "13",
+     "Canada FSA Codes"
+    ],
+    [
+     "14",
+     "Bahamas Bermuda Dominica Grenada Guadeloupe Guam Gulf of Mexico Protractions Macau Martinique Montserrat Saipan Singapore St. Barts St. Lucia St. Martin Subareas"
+    ],
+    [
+     "15",
+     "United Kingdom Postal Areas United Kingdom Postal Sectors"
+    ],
+    [
+     "17",
+     "China Provinces"
+    ],
+    [
+     "18",
+     "India Districts"
+    ],
+    [
+     "27",
+     "Bahrain Governorates British Virgin Islands Cayman Islands Districts Cuba Provinces Czech Republic Postal Ecuador Provinces Estonia Postal Guatemala Sub- CRESTA Haiti Department Indonesia Sub- CRESTA Ireland Counties Israel Districts Japan Prefectures Kuwait Governorates Latvia Postal Lithuania Postal Mexico CRESTA Oman Governorates Peru Sub- CRESTA Philippines Sub- CRESTA Poland Postal Russia District St. Vincent/Grenadines District Turkey Provinces Turks & Caicos Islands U.S. Virgin Islands Districts Yemen Governorates"
+    ],
+    [
+     "98",
+     "Valid only when importing CRESTA -level market shares (Coverage = MS)\n                     for multiple supported countries. The Data Level value and format must be valid\n                     for any country supported at this level for market share imports."
+    ],
+    [
+     "99",
+     "Valid only when importing non- CRESTA area or subarea-level market shares (Coverage = MS) for multiple supported countries. The Data Level value and format\n                     must be valid for any country supported at this level for market share\n                     imports."
+    ]
+   ]
+  }
+ ]
+}

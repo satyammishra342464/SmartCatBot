@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_barbados-parish-codes.html",
+ "title": "Barbados parish codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Barbados parish codes\n\nTouchstone\n supports the following parish\n codes for Barbados.\n\n| Parish Code | Parish Name |\n| --- | --- |\n| 1 | Christ Church |\n| 2 | St. Andrew |\n| 3 | St. George |\n| 4 | St. James |\n| 5 | St. John |\n| 6 | St. Joseph |\n| 7 | St. Lucy |\n| 8 | St. Michael |\n| 9 | St. Peter |\n| 10 | St. Philip |\n| 11 | St. Thomas |",
+ "tables": [
+  {
+   "headers": [
+    "Parish Code",
+    "Parish Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Christ Church"
+    ],
+    [
+     "2",
+     "St. Andrew"
+    ],
+    [
+     "3",
+     "St. George"
+    ],
+    [
+     "4",
+     "St. James"
+    ],
+    [
+     "5",
+     "St. John"
+    ],
+    [
+     "6",
+     "St. Joseph"
+    ],
+    [
+     "7",
+     "St. Lucy"
+    ],
+    [
+     "8",
+     "St. Michael"
+    ],
+    [
+     "9",
+     "St. Peter"
+    ],
+    [
+     "10",
+     "St. Philip"
+    ],
+    [
+     "11",
+     "St. Thomas"
+    ]
+   ]
+  }
+ ]
+}

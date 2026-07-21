@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_curacao_cresta_2-9.html",
+ "title": "CuraÃ§ao CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "CuraÃ§ao \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for CuraÃ§ao supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for CuraÃ§ao (284).\n\n| Area Tag | Province |\n| --- | --- |\n| 284-000 | CuraÃ§ao |\n| 284-002 | CuraÃ§ao |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Province"
+   ],
+   "rows": [
+    [
+     "284-000",
+     "CuraÃ§ao"
+    ],
+    [
+     "284-002",
+     "CuraÃ§ao"
+    ]
+   ]
+  }
+ ]
+}

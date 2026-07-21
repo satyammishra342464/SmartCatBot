@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_nicaragua-cresta-codes.html",
+ "title": "Nicaragua CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Nicaragua \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Nicaragua.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | 1 |\n| 2 | 2 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_unknown-occ.html",
+ "title": "Unknown occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Unknown occupancy codes\n\nTouchstone\n supports the following unknown\n occupancy class code.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | Description |\n| --- | --- | --- |\n| 300 | Unknown | The occupancy is unknown. |\n\nNote:\n In some models, the construction and occupancy class code combination\n \n100\n-300 is invalid, and\n \nTouchstone\n remaps this combination to\n 100-311. Analysis logs note when the combination 100-300 has been remapped to 100-311,\n where \n311\n is General\n Commercial.",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "300",
+     "Unknown",
+     "The occupancy is unknown."
+    ]
+   ]
+  }
+ ]
+}

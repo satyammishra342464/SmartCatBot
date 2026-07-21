@@ -1,0 +1,353 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_philippines-cresta-codes.html",
+ "title": "Philippines CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Philippines \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Philippines.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Zone 1 |\n| 1.1 | Abra |\n| 1.10 | Kalinga |\n| 1.11 | La Union |\n| 1.12 | Mountain |\n| 1.13 | Quirino |\n| 1.14 | Pangasinan |\n| 1.2 | Aurora |\n| 1.3 | Batanes |\n| 1.4 | Benguet |\n| 1.5 | Cagayan |\n| 1.6 | Ifugao |\n| 1.7 | Ilocos Norte |\n| 1.8 | Ilocos Sur |\n| 1.9 | Isabela |\n| 2 | Makati |\n| 3 | Manila Bay Reclamation Area |\n| 4 | Santa Cruz Binondo Area |\n| 5 | Manila |\n| 6 | Zone 6 |\n| 6.1 | Albay |\n| 6.10 | Marinduque |\n| 6.11 | Masbate |\n| 6.12 | Nueva Ecija |\n| 6.13 | Occidental Mindoro |\n| 6.14 | Oriental Mindoro |\n| 6.15 | Pampanga |\n| 6.16 | Quezon |\n| 6.17 | Rizal |\n| 6.18 | Romblon |\n| 6.19 | Sorsogon |\n| 6.2 | Bataan |\n| 6.20 | Tarlac |\n| 6.21 | Zambales |\n| 6.3 | Batangas |\n| 6.4 | Bulacan |\n| 6.5 | Camarines Norte |\n| 6.6 | Camarines Sur |\n| 6.7 | Catanduanes |\n| 6.8 | Cavite |\n| 6.9 | Laguna |\n| 7 | Zone 7 |\n| 7.1 | Aklan |\n| 7.10 | Iloilo |\n| 7.11 | Leyte |\n| 7.12 | Negros Occidental |\n| 7.13 | Negros Oriental |\n| 7.14 | Northern Samar |\n| 7.15 | Palawan |\n| 7.16 | Siquijor |\n| 7.17 | Southern Leyte |\n| 7.18 | Western Samar |\n| 7.2 | Antique |\n| 7.3 | Biliran |\n| 7.4 | Bohol |\n| 7.5 | Camotes |\n| 7.6 | Capiz |\n| 7.7 | Cebu |\n| 7.8 | Eastern Samar |\n| 7.9 | Guiamaras |\n| 8 | Zone 8 |\n| 8.1 | Agusan Del Norte |\n| 8.10 | Surigao Del Norte |\n| 8.11 | Surigao Del Sur |\n| 8.12 | Zamboanga Del Norte |\n| 8.13 | Zamboanga del Sur |\n| 8.2 | Agusan Del Sur |\n| 8.3 | Basilan |\n| 8.4 | Bukidnon |\n| 8.5 | Camiguin |\n| 8.6 | Lanao Del Norte |\n| 8.7 | Lanao Del Sur |\n| 8.8 | Misamis Occidental |\n| 8.9 | Misamis Oriental |\n| 9 | Zone 9 |\n| 9.1 | Davao del Norte |\n| 9.2 | Davao Oriental |\n| 9.3 | Davao Del Sur |\n| 9.4 | Maguindanao |\n| 9.5 | North Cotabato |\n| 9.6 | South Cotabato |\n| 9.7 | Sultan Kudarat |\n| 9.8 | Sulu |\n| 9.9 | Tawi-Tawi |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Zone 1"
+    ],
+    [
+     "1.1",
+     "Abra"
+    ],
+    [
+     "1.10",
+     "Kalinga"
+    ],
+    [
+     "1.11",
+     "La Union"
+    ],
+    [
+     "1.12",
+     "Mountain"
+    ],
+    [
+     "1.13",
+     "Quirino"
+    ],
+    [
+     "1.14",
+     "Pangasinan"
+    ],
+    [
+     "1.2",
+     "Aurora"
+    ],
+    [
+     "1.3",
+     "Batanes"
+    ],
+    [
+     "1.4",
+     "Benguet"
+    ],
+    [
+     "1.5",
+     "Cagayan"
+    ],
+    [
+     "1.6",
+     "Ifugao"
+    ],
+    [
+     "1.7",
+     "Ilocos Norte"
+    ],
+    [
+     "1.8",
+     "Ilocos Sur"
+    ],
+    [
+     "1.9",
+     "Isabela"
+    ],
+    [
+     "2",
+     "Makati"
+    ],
+    [
+     "3",
+     "Manila Bay Reclamation Area"
+    ],
+    [
+     "4",
+     "Santa Cruz Binondo Area"
+    ],
+    [
+     "5",
+     "Manila"
+    ],
+    [
+     "6",
+     "Zone 6"
+    ],
+    [
+     "6.1",
+     "Albay"
+    ],
+    [
+     "6.10",
+     "Marinduque"
+    ],
+    [
+     "6.11",
+     "Masbate"
+    ],
+    [
+     "6.12",
+     "Nueva Ecija"
+    ],
+    [
+     "6.13",
+     "Occidental Mindoro"
+    ],
+    [
+     "6.14",
+     "Oriental Mindoro"
+    ],
+    [
+     "6.15",
+     "Pampanga"
+    ],
+    [
+     "6.16",
+     "Quezon"
+    ],
+    [
+     "6.17",
+     "Rizal"
+    ],
+    [
+     "6.18",
+     "Romblon"
+    ],
+    [
+     "6.19",
+     "Sorsogon"
+    ],
+    [
+     "6.2",
+     "Bataan"
+    ],
+    [
+     "6.20",
+     "Tarlac"
+    ],
+    [
+     "6.21",
+     "Zambales"
+    ],
+    [
+     "6.3",
+     "Batangas"
+    ],
+    [
+     "6.4",
+     "Bulacan"
+    ],
+    [
+     "6.5",
+     "Camarines Norte"
+    ],
+    [
+     "6.6",
+     "Camarines Sur"
+    ],
+    [
+     "6.7",
+     "Catanduanes"
+    ],
+    [
+     "6.8",
+     "Cavite"
+    ],
+    [
+     "6.9",
+     "Laguna"
+    ],
+    [
+     "7",
+     "Zone 7"
+    ],
+    [
+     "7.1",
+     "Aklan"
+    ],
+    [
+     "7.10",
+     "Iloilo"
+    ],
+    [
+     "7.11",
+     "Leyte"
+    ],
+    [
+     "7.12",
+     "Negros Occidental"
+    ],
+    [
+     "7.13",
+     "Negros Oriental"
+    ],
+    [
+     "7.14",
+     "Northern Samar"
+    ],
+    [
+     "7.15",
+     "Palawan"
+    ],
+    [
+     "7.16",
+     "Siquijor"
+    ],
+    [
+     "7.17",
+     "Southern Leyte"
+    ],
+    [
+     "7.18",
+     "Western Samar"
+    ],
+    [
+     "7.2",
+     "Antique"
+    ],
+    [
+     "7.3",
+     "Biliran"
+    ],
+    [
+     "7.4",
+     "Bohol"
+    ],
+    [
+     "7.5",
+     "Camotes"
+    ],
+    [
+     "7.6",
+     "Capiz"
+    ],
+    [
+     "7.7",
+     "Cebu"
+    ],
+    [
+     "7.8",
+     "Eastern Samar"
+    ],
+    [
+     "7.9",
+     "Guiamaras"
+    ],
+    [
+     "8",
+     "Zone 8"
+    ],
+    [
+     "8.1",
+     "Agusan Del Norte"
+    ],
+    [
+     "8.10",
+     "Surigao Del Norte"
+    ],
+    [
+     "8.11",
+     "Surigao Del Sur"
+    ],
+    [
+     "8.12",
+     "Zamboanga Del Norte"
+    ],
+    [
+     "8.13",
+     "Zamboanga del Sur"
+    ],
+    [
+     "8.2",
+     "Agusan Del Sur"
+    ],
+    [
+     "8.3",
+     "Basilan"
+    ],
+    [
+     "8.4",
+     "Bukidnon"
+    ],
+    [
+     "8.5",
+     "Camiguin"
+    ],
+    [
+     "8.6",
+     "Lanao Del Norte"
+    ],
+    [
+     "8.7",
+     "Lanao Del Sur"
+    ],
+    [
+     "8.8",
+     "Misamis Occidental"
+    ],
+    [
+     "8.9",
+     "Misamis Oriental"
+    ],
+    [
+     "9",
+     "Zone 9"
+    ],
+    [
+     "9.1",
+     "Davao del Norte"
+    ],
+    [
+     "9.2",
+     "Davao Oriental"
+    ],
+    [
+     "9.3",
+     "Davao Del Sur"
+    ],
+    [
+     "9.4",
+     "Maguindanao"
+    ],
+    [
+     "9.5",
+     "North Cotabato"
+    ],
+    [
+     "9.6",
+     "South Cotabato"
+    ],
+    [
+     "9.7",
+     "Sultan Kudarat"
+    ],
+    [
+     "9.8",
+     "Sulu"
+    ],
+    [
+     "9.9",
+     "Tawi-Tawi"
+    ]
+   ]
+  }
+ ]
+}

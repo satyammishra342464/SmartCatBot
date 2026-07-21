@@ -1,0 +1,78 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_bridge-con.html",
+ "title": "Bridge construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Bridge construction codes\n\nThe bridge construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for \nVerisk Bushfire Model for Australia\n and \nVerisk Typhoon Model for South Korea\n. For\n information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 201 | Conventional - Multiple Span Bridges | Bridges having multiple simple spans with each span being less than 500\n feet. These bridges may be constructed of concrete, steel, or timber. Valid\n only for the U.S. and Canada, but not when the peril is Severe Thunderstorm\n (PWX) . Use in conjunction with occupancy class 300 . |\n| 202 | Conventional - Continuous Bridges | Bridges having continuous spans of less than 500 feet. These bridges may\n be constructed of concrete, steel, or timber. Valid only for the U.S. and\n Canada, but not when the peril is Severe Thunderstorm\n (PWX) . Use in conjunction with occupancy class 300 . |\n| 203 | Major Bridges | Bridges having individual spans of 500 feet or more. These bridges may\n be constructed of concrete or steel. Valid only for the U.S. and Canada, but\n not when the peril is Severe Thunderstorm (PWX) . Use in conjunction with occupancy\n class 300 . |\n| 2010 | Unknown Bridge (Non-Seismic or Seismic) | Seismically or non-seismically designed highway bridges with individual\n span length less than 500 feet with unknown material of construction,\n unknown number of spans, and unknown support conditions, or other unknown\n bridges that cannot be mapped to any of the other bridge construction class\n codes. Touchstone determines\n whether a bridge is seismically or non-seismically designed via the bridge's\n year built information; the determination varies by country depending on\n each country's respective effective bridge design code. |\n| 2011 | Multi-Span Simply Supported (Non-Seismic or Seismic) Concrete\n Bridge | Seismically or non-seismically designed highway bridges constructed of\n concrete and consisting of multiple simply supported spans, with individual\n span length less than 500 feet, spanning between consecutive piers and\n between abutments and piers. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information, and the determination varies by country depending on each\n country's respective effective bridge design code. |\n| 2012 | Multi-Span Simply Supported (Non-Seismic or Seismic) Steel\n Bridge | Seismically or non-seismically designed highway bridges constructed of\n steel and consisting of multiple simply supported spans, with individual\n span length less than 500 feet, spanning between consecutive piers and\n between abutments and piers. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information; the determination varies by country depending on each country's\n respective effective bridge design code. |\n| 2013 | Single Span (Non-Seismic or Seismic) Bridge | Seismically or non-seismically designed highway bridges constructed of\n steel or concrete and with a single span less than 500 feet spanning between\n abutments without intermediate piers. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information; the determination varies by country depending on each country's\n respective effective bridge design code. For single-span bridges, the\n construction material does not matter. |\n| 2015 | General Concrete (Non-Seismic or Seismic) Bridge | Seismically or non-seismically designed highway bridges constructed of\n concrete with individual span length less than 500 feet, unknown number of\n spans, and unknown support conditions. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information; the determination varies by country depending on each country's\n respective effective bridge design code. |\n| 2016 | General Steel (Non-Seismic or Seismic) Bridge | Seismically or non-seismically designed highway bridges constructed of\n steel with individual span length less than 500 feet, unknown number of\n spans, and unknown support conditions. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information; the determination varies by country depending on each country's\n respective effective bridge design code. |\n| 2021 | Multi-Span Continuous (Non-Seismic or Seismic) Concrete Bridge | Seismically or non-seismically designed highway bridges constructed of\n concrete and consisting of multiple continuously supported spans, with\n individual span length less than 500 feet, spanning between consecutive\n piers and between abutments and piers. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information; the determination varies by country depending on each country's\n respective effective bridge design code. |\n| 2022 | Multi-Span Continuous (Non-Seismic or Seismic) Steel Bridge | Seismically or non-seismically designed highway bridges constructed of\n steel and consisting of multiple continuously supported spans, with\n individual span length less than 500 feet, spanning between consecutive\n piers and between abutments and piers. Touchstone determines whether a bridge\n is seismically or non-seismically designed through the bridge's year built\n information; the determination varies by country depending on each country's\n respective effective bridge design code. |\n| 2031 | Major Bridge (Non-Seismic or Seismic) | Seismically or non-seismically designed multiple simply supported or\n continuously supported bridges of steel or concrete with individual span\n lengths more than 500 feet. Iconic bridges are also included in this\n category. Touchstone determines\n whether a bridge is seismically or non-seismically designed through the\n bridge's year built information, and the determination varies by country\n depending on each country's respective effective bridge design code. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "201",
+     "Conventional - Multiple Span Bridges",
+     "Bridges having multiple simple spans with each span being less than 500\n                        feet. These bridges may be constructed of concrete, steel, or timber. Valid\n                        only for the U.S. and Canada, but not when the peril is Severe Thunderstorm\n                           (PWX) . Use in conjunction with occupancy class 300 ."
+    ],
+    [
+     "202",
+     "Conventional - Continuous Bridges",
+     "Bridges having continuous spans of less than 500 feet. These bridges may\n                        be constructed of concrete, steel, or timber. Valid only for the U.S. and\n                        Canada, but not when the peril is Severe Thunderstorm\n                           (PWX) . Use in conjunction with occupancy class 300 ."
+    ],
+    [
+     "203",
+     "Major Bridges",
+     "Bridges having individual spans of 500 feet or more. These bridges may\n                        be constructed of concrete or steel. Valid only for the U.S. and Canada, but\n                        not when the peril is Severe Thunderstorm (PWX) . Use in conjunction with occupancy\n                        class 300 ."
+    ],
+    [
+     "2010",
+     "Unknown Bridge (Non-Seismic or Seismic)",
+     "Seismically or non-seismically designed highway bridges with individual\n                        span length less than 500 feet with unknown material of construction,\n                        unknown number of spans, and unknown support conditions, or other unknown\n                        bridges that cannot be mapped to any of the other bridge construction class\n                        codes. Touchstone determines\n                        whether a bridge is seismically or non-seismically designed via the bridge's\n                        year built information; the determination varies by country depending on\n                        each country's respective effective bridge design code."
+    ],
+    [
+     "2011",
+     "Multi-Span Simply Supported (Non-Seismic or Seismic) Concrete\n                        Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        concrete and consisting of multiple simply supported spans, with individual\n                        span length less than 500 feet, spanning between consecutive piers and\n                        between abutments and piers. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information, and the determination varies by country depending on each\n                        country's respective effective bridge design code."
+    ],
+    [
+     "2012",
+     "Multi-Span Simply Supported (Non-Seismic or Seismic) Steel\n                        Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        steel and consisting of multiple simply supported spans, with individual\n                        span length less than 500 feet, spanning between consecutive piers and\n                        between abutments and piers. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information; the determination varies by country depending on each country's\n                        respective effective bridge design code."
+    ],
+    [
+     "2013",
+     "Single Span (Non-Seismic or Seismic) Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        steel or concrete and with a single span less than 500 feet spanning between\n                        abutments without intermediate piers. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information; the determination varies by country depending on each country's\n                        respective effective bridge design code. For single-span bridges, the\n                        construction material does not matter."
+    ],
+    [
+     "2015",
+     "General Concrete (Non-Seismic or Seismic) Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        concrete with individual span length less than 500 feet, unknown number of\n                        spans, and unknown support conditions. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information; the determination varies by country depending on each country's\n                        respective effective bridge design code."
+    ],
+    [
+     "2016",
+     "General Steel (Non-Seismic or Seismic) Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        steel with individual span length less than 500 feet, unknown number of\n                        spans, and unknown support conditions. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information; the determination varies by country depending on each country's\n                        respective effective bridge design code."
+    ],
+    [
+     "2021",
+     "Multi-Span Continuous (Non-Seismic or Seismic) Concrete Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        concrete and consisting of multiple continuously supported spans, with\n                        individual span length less than 500 feet, spanning between consecutive\n                        piers and between abutments and piers. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information; the determination varies by country depending on each country's\n                        respective effective bridge design code."
+    ],
+    [
+     "2022",
+     "Multi-Span Continuous (Non-Seismic or Seismic) Steel Bridge",
+     "Seismically or non-seismically designed highway bridges constructed of\n                        steel and consisting of multiple continuously supported spans, with\n                        individual span length less than 500 feet, spanning between consecutive\n                        piers and between abutments and piers. Touchstone determines whether a bridge\n                        is seismically or non-seismically designed through the bridge's year built\n                        information; the determination varies by country depending on each country's\n                        respective effective bridge design code."
+    ],
+    [
+     "2031",
+     "Major Bridge (Non-Seismic or Seismic)",
+     "Seismically or non-seismically designed multiple simply supported or\n                        continuously supported bridges of steel or concrete with individual span\n                        lengths more than 500 feet. Iconic bridges are also included in this\n                        category. Touchstone determines\n                        whether a bridge is seismically or non-seismically designed through the\n                        bridge's year built information, and the determination varies by country\n                        depending on each country's respective effective bridge design code."
+    ]
+   ]
+  }
+ ]
+}

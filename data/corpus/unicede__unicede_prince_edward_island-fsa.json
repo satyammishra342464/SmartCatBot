@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_prince_edward_island-fsa.html",
+ "title": "Prince Edward Island FSA Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Prince Edward Island FSA Codes\n \n\nFSA codes for Prince Edward Island.\nThe codes below include the country code for Canada (18).\n\n| Area Tag | Name |\n| --- | --- |\n| 18-C00 | Prince Edward Island |\n| 18-C0A | C0A |\n| 18-C0B | C0B |\n| 18-C1A | C1A |\n| 18-C1B | C1B |\n| 18-C1C | C1C |\n| 18-C1E | C1E |\n| 18-C1N | C1N |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "18-C00",
+     "Prince Edward Island"
+    ],
+    [
+     "18-C0A",
+     "C0A"
+    ],
+    [
+     "18-C0B",
+     "C0B"
+    ],
+    [
+     "18-C1A",
+     "C1A"
+    ],
+    [
+     "18-C1B",
+     "C1B"
+    ],
+    [
+     "18-C1C",
+     "C1C"
+    ],
+    [
+     "18-C1E",
+     "C1E"
+    ],
+    [
+     "18-C1N",
+     "C1N"
+    ]
+   ]
+  }
+ ]
+}

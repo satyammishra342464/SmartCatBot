@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_utility-occ.html",
+ "title": "Utility occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Utility occupancy codes\n\nTouchstone\n supports the following utility\n occupancy class codes.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 361 | Electrical Utilities | 49 | Establishments engaged in the generation, transmission, and/or\n distribution of electric energy for sale. Includes electric power\n generation, transmission, or distribution. |\n| 362 | Water Utilities | 49 | Establishments primarily engaged in distributing water for sale for\n domestic, commercial, and industrial use. |\n| 363 | Sanitary Sewer | 49 | Establishments primarily engaged in the collection and disposal of\n wastes conducted through a sewer system, including such treatment processes\n as may be provided and establishments primarily engaged in the collection\n and disposal of refuse by processing or destruction or in the operation of\n incinerators, waste treatment plants, landfills, or other sites for disposal\n of such materials. |\n| 364 | Natural Gas | 49 | Establishments engaged in the transmission and distribution and/or\n storage of natural gas for sale. |\n| 365 | Telephone and Telegraph | 48 | Establishments primarily engaged in providing paging and beeper\n services and those engaged in leasing telephone lines or other methods of\n telephone transmission, such as optical fiber lines and microwave or\n satellite facilities, as well as reselling the use of such methods to\n others. |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "361",
+     "Electrical Utilities",
+     "49",
+     "Establishments engaged in the generation, transmission, and/or\n                        distribution of electric energy for sale. Includes electric power\n                        generation, transmission, or distribution."
+    ],
+    [
+     "362",
+     "Water Utilities",
+     "49",
+     "Establishments primarily engaged in distributing water for sale for\n                        domestic, commercial, and industrial use."
+    ],
+    [
+     "363",
+     "Sanitary Sewer",
+     "49",
+     "Establishments primarily engaged in the collection and disposal of\n                        wastes conducted through a sewer system, including such treatment processes\n                        as may be provided and establishments primarily engaged in the collection\n                        and disposal of refuse by processing or destruction or in the operation of\n                        incinerators, waste treatment plants, landfills, or other sites for disposal\n                        of such materials."
+    ],
+    [
+     "364",
+     "Natural Gas",
+     "49",
+     "Establishments engaged in the transmission and distribution and/or\n                        storage of natural gas for sale."
+    ],
+    [
+     "365",
+     "Telephone and Telegraph",
+     "48",
+     "Establishments primarily engaged in providing paging and beeper\n                        services and those engaged in leasing telephone lines or other methods of\n                        telephone transmission, such as optical fiber lines and microwave or\n                        satellite facilities, as well as reselling the use of such methods to\n                        others."
+    ]
+   ]
+  }
+ ]
+}

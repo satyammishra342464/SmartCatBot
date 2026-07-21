@@ -1,0 +1,233 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_chile-cresta-codes.html",
+ "title": "Chile CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Chile \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Chile.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1.1 | Tarapaca |\n| 1.1 | Z1.1:Tarapaca |\n| 1.2 | Antofagasta |\n| 1.2 | Z1.2:Antofagasta |\n| 1.3 | Atacama |\n| 1.3 | Z1.3:Atacama |\n| 1.4 | Z1.4:Coquimbo |\n| 1.4 | Coquimbo |\n| 2 | Valparaiso/Aconcagua |\n| 2 | Z2.0:Valparaiso/Aconcagua |\n| 3 | Santiago |\n| 3 | Z3.0:Santiago |\n| 4.1 | O'Higgins |\n| 4.1 | Z4. 1:O'Higgins |\n| 4.1 | Z4.10:Arauco |\n| 4.1 | Arauco |\n| 4.2 | Z4. 2:Colchagua |\n| 4.2 | Colchagua |\n| 4.3 | Z4. 3:Curico |\n| 4.3 | Curico |\n| 4.4 | Z4. 4:Talca |\n| 4.4 | Talca |\n| 4.5 | Maule |\n| 4.5 | Z4. 5:Maule |\n| 4.6 | Linares |\n| 4.6 | Z4. 6:Linares |\n| 4.7 | Z4. 7:Nuble |\n| 4.7 | Nuble |\n| 4.8 | Z4. 8:Concepcion |\n| 4.8 | Concepcion |\n| 4.9 | Bio-Bio |\n| 4.9 | Z4. 9:Bio-Bio |\n| 5.1 | Malleco |\n| 5.1 | Z5. 1:Malleco |\n| 5.1 | Z5.10:Antarctica chilena |\n| 5.1 | Antarctica chilena |\n| 5.2 | Cautin |\n| 5.2 | Z5. 2:Cautin |\n| 5.3 | Valdivia |\n| 5.3 | Z5. 3:Valdivia |\n| 5.4 | Osorno |\n| 5.4 | Z5. 4:Osorno |\n| 5.5 | Llanquihue |\n| 5.5 | Z5. 5:Llanquihue |\n| 5.6 | Z5. 6:Chiloe |\n| 5.6 | Chiloe |\n| 5.7 | Z5. 7:Aisen |\n| 5.7 | Aysen |\n| 5.8 | Z5. 8:Magallanes |\n| 5.8 | Magallanes |\n| 5.9 | Z5. 9:Tierra del Fuego |\n| 5.9 | Tierra del Fuego |\n| 6 | Z6:Chilean Flotantes |\n| 6 | Chilean Flotantes |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1.1",
+     "Tarapaca"
+    ],
+    [
+     "1.1",
+     "Z1.1:Tarapaca"
+    ],
+    [
+     "1.2",
+     "Antofagasta"
+    ],
+    [
+     "1.2",
+     "Z1.2:Antofagasta"
+    ],
+    [
+     "1.3",
+     "Atacama"
+    ],
+    [
+     "1.3",
+     "Z1.3:Atacama"
+    ],
+    [
+     "1.4",
+     "Z1.4:Coquimbo"
+    ],
+    [
+     "1.4",
+     "Coquimbo"
+    ],
+    [
+     "2",
+     "Valparaiso/Aconcagua"
+    ],
+    [
+     "2",
+     "Z2.0:Valparaiso/Aconcagua"
+    ],
+    [
+     "3",
+     "Santiago"
+    ],
+    [
+     "3",
+     "Z3.0:Santiago"
+    ],
+    [
+     "4.1",
+     "O'Higgins"
+    ],
+    [
+     "4.1",
+     "Z4. 1:O'Higgins"
+    ],
+    [
+     "4.1",
+     "Z4.10:Arauco"
+    ],
+    [
+     "4.1",
+     "Arauco"
+    ],
+    [
+     "4.2",
+     "Z4. 2:Colchagua"
+    ],
+    [
+     "4.2",
+     "Colchagua"
+    ],
+    [
+     "4.3",
+     "Z4. 3:Curico"
+    ],
+    [
+     "4.3",
+     "Curico"
+    ],
+    [
+     "4.4",
+     "Z4. 4:Talca"
+    ],
+    [
+     "4.4",
+     "Talca"
+    ],
+    [
+     "4.5",
+     "Maule"
+    ],
+    [
+     "4.5",
+     "Z4. 5:Maule"
+    ],
+    [
+     "4.6",
+     "Linares"
+    ],
+    [
+     "4.6",
+     "Z4. 6:Linares"
+    ],
+    [
+     "4.7",
+     "Z4. 7:Nuble"
+    ],
+    [
+     "4.7",
+     "Nuble"
+    ],
+    [
+     "4.8",
+     "Z4. 8:Concepcion"
+    ],
+    [
+     "4.8",
+     "Concepcion"
+    ],
+    [
+     "4.9",
+     "Bio-Bio"
+    ],
+    [
+     "4.9",
+     "Z4. 9:Bio-Bio"
+    ],
+    [
+     "5.1",
+     "Malleco"
+    ],
+    [
+     "5.1",
+     "Z5. 1:Malleco"
+    ],
+    [
+     "5.1",
+     "Z5.10:Antarctica chilena"
+    ],
+    [
+     "5.1",
+     "Antarctica chilena"
+    ],
+    [
+     "5.2",
+     "Cautin"
+    ],
+    [
+     "5.2",
+     "Z5. 2:Cautin"
+    ],
+    [
+     "5.3",
+     "Valdivia"
+    ],
+    [
+     "5.3",
+     "Z5. 3:Valdivia"
+    ],
+    [
+     "5.4",
+     "Osorno"
+    ],
+    [
+     "5.4",
+     "Z5. 4:Osorno"
+    ],
+    [
+     "5.5",
+     "Llanquihue"
+    ],
+    [
+     "5.5",
+     "Z5. 5:Llanquihue"
+    ],
+    [
+     "5.6",
+     "Z5. 6:Chiloe"
+    ],
+    [
+     "5.6",
+     "Chiloe"
+    ],
+    [
+     "5.7",
+     "Z5. 7:Aisen"
+    ],
+    [
+     "5.7",
+     "Aysen"
+    ],
+    [
+     "5.8",
+     "Z5. 8:Magallanes"
+    ],
+    [
+     "5.8",
+     "Magallanes"
+    ],
+    [
+     "5.9",
+     "Z5. 9:Tierra del Fuego"
+    ],
+    [
+     "5.9",
+     "Tierra del Fuego"
+    ],
+    [
+     "6",
+     "Z6:Chilean Flotantes"
+    ],
+    [
+     "6",
+     "Chilean Flotantes"
+    ]
+   ]
+  }
+ ]
+}

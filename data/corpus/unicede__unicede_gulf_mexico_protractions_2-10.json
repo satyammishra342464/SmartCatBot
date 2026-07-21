@@ -1,0 +1,293 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_gulf_mexico_protractions_2-10.html",
+ "title": "Gulf of Mexico Protractions (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Gulf of Mexico Protractions (v2.10)\n\nProtraction codes for Gulf of Mexico supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for offshore platforms in the Gulf of\n Mexico (57).\n\n| Area Tag | Protraction Name |\n| --- | --- |\n| 57-000 | Gulf of Mexico |\n| 57-001 | Alabama State Waters - AL |\n| 57-002 | Aliminos Canyon - AC |\n| 57-003 | Amery Terrace - AM |\n| 57-004 | Apalachicola - AP |\n| 57-005 | Atwater - AT |\n| 57-006 | Bay Marchand - BM |\n| 57-007 | Brazos - BA |\n| 57-008 | Breton Sound - BS |\n| 57-009 | Campeche Escarpment - CE |\n| 57-010 | Chandeleur - CA |\n| 57-011 | Charlotte Harbor - CH |\n| 57-012 | Corpus Christi - CC |\n| 57-013 | Desoto Canyon - DC |\n| 57-014 | Destin Dome - DD |\n| 57-015 | Dry Tortugas - DT |\n| 57-016 | East Breaks - EB |\n| 57-017 | East Cameron - EC |\n| 57-018 | Eugene Island - EI |\n| 57-019 | Ewing Bank - EW |\n| 57-020 | Florida Middle Ground - FM |\n| 57-021 | Florida Plain - FP |\n| 57-022 | Florida State Waters - FL |\n| 57-023 | Gainesville - GV |\n| 57-024 | Galveston - GA |\n| 57-025 | Garden Banks - GB |\n| 57-026 | Grand Isle - GI |\n| 57-027 | Green Canyon - GC |\n| 57-028 | Henderson - HE |\n| 57-029 | High Island - HI |\n| 57-030 | Howell Hook - HH |\n| 57-031 | Keathley Canyon - KC |\n| 57-032 | Key West - KW |\n| 57-033 | Lloyd - LL |\n| 57-034 | Louisianno State Waters - LA |\n| 57-035 | Lund - LU |\n| 57-036 | Lund South - LS |\n| 57-037 | Main Pass - MP |\n| 57-038 | Matagorda Island - MI |\n| 57-039 | Miami - MA |\n| 57-040 | Mississippi Canyon - MC |\n| 57-041 | Mississippi State Waters - MS |\n| 57-042 | Mobile - MO |\n| 57-043 | Mustang Island - MU |\n| 57-044 | North Padre Island - PN |\n| 57-045 | Pensacola - PE |\n| 57-046 | Port Isabel - PI |\n| 57-047 | Pulley Ridge - PR |\n| 57-048 | Rankin - RK |\n| 57-049 | Sabine Pass (Louisiana) - SA |\n| 57-050 | Sabine Pass (Texas) - SX |\n| 57-051 | Ship Shoal - SS |\n| 57-052 | Sigsbee Escarpment - SE |\n| 57-053 | South Marsh Island - SM |\n| 57-054 | South Padre Island - PS |\n| 57-055 | South Pass - SP |\n| 57-056 | South Pelto - PL |\n| 57-057 | South Timbalier - ST |\n| 57-058 | St. Petersburg - PB |\n| 57-059 | Tarpon Springs - TP |\n| 57-060 | Texas State Waters - TX |\n| 57-061 | The Elbow - EL |\n| 57-062 | Tortugas Valley - TV |\n| 57-063 | Vermilion - VR |\n| 57-064 | Vernon - VN |\n| 57-065 | Viosca Knoll - VK |\n| 57-066 | Walker Ridge - WR |\n| 57-067 | West Cameron - WC |\n| 57-068 | West Delta - WD |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Protraction Name"
+   ],
+   "rows": [
+    [
+     "57-000",
+     "Gulf of Mexico"
+    ],
+    [
+     "57-001",
+     "Alabama State Waters - AL"
+    ],
+    [
+     "57-002",
+     "Aliminos Canyon - AC"
+    ],
+    [
+     "57-003",
+     "Amery Terrace - AM"
+    ],
+    [
+     "57-004",
+     "Apalachicola - AP"
+    ],
+    [
+     "57-005",
+     "Atwater - AT"
+    ],
+    [
+     "57-006",
+     "Bay Marchand - BM"
+    ],
+    [
+     "57-007",
+     "Brazos - BA"
+    ],
+    [
+     "57-008",
+     "Breton Sound - BS"
+    ],
+    [
+     "57-009",
+     "Campeche Escarpment - CE"
+    ],
+    [
+     "57-010",
+     "Chandeleur - CA"
+    ],
+    [
+     "57-011",
+     "Charlotte Harbor - CH"
+    ],
+    [
+     "57-012",
+     "Corpus Christi - CC"
+    ],
+    [
+     "57-013",
+     "Desoto Canyon - DC"
+    ],
+    [
+     "57-014",
+     "Destin Dome - DD"
+    ],
+    [
+     "57-015",
+     "Dry Tortugas - DT"
+    ],
+    [
+     "57-016",
+     "East Breaks - EB"
+    ],
+    [
+     "57-017",
+     "East Cameron - EC"
+    ],
+    [
+     "57-018",
+     "Eugene Island - EI"
+    ],
+    [
+     "57-019",
+     "Ewing Bank - EW"
+    ],
+    [
+     "57-020",
+     "Florida Middle Ground - FM"
+    ],
+    [
+     "57-021",
+     "Florida Plain - FP"
+    ],
+    [
+     "57-022",
+     "Florida State Waters - FL"
+    ],
+    [
+     "57-023",
+     "Gainesville - GV"
+    ],
+    [
+     "57-024",
+     "Galveston - GA"
+    ],
+    [
+     "57-025",
+     "Garden Banks - GB"
+    ],
+    [
+     "57-026",
+     "Grand Isle - GI"
+    ],
+    [
+     "57-027",
+     "Green Canyon - GC"
+    ],
+    [
+     "57-028",
+     "Henderson - HE"
+    ],
+    [
+     "57-029",
+     "High Island - HI"
+    ],
+    [
+     "57-030",
+     "Howell Hook - HH"
+    ],
+    [
+     "57-031",
+     "Keathley Canyon - KC"
+    ],
+    [
+     "57-032",
+     "Key West - KW"
+    ],
+    [
+     "57-033",
+     "Lloyd - LL"
+    ],
+    [
+     "57-034",
+     "Louisianno State Waters - LA"
+    ],
+    [
+     "57-035",
+     "Lund - LU"
+    ],
+    [
+     "57-036",
+     "Lund South - LS"
+    ],
+    [
+     "57-037",
+     "Main Pass - MP"
+    ],
+    [
+     "57-038",
+     "Matagorda Island - MI"
+    ],
+    [
+     "57-039",
+     "Miami - MA"
+    ],
+    [
+     "57-040",
+     "Mississippi Canyon - MC"
+    ],
+    [
+     "57-041",
+     "Mississippi State Waters - MS"
+    ],
+    [
+     "57-042",
+     "Mobile - MO"
+    ],
+    [
+     "57-043",
+     "Mustang Island - MU"
+    ],
+    [
+     "57-044",
+     "North Padre Island - PN"
+    ],
+    [
+     "57-045",
+     "Pensacola - PE"
+    ],
+    [
+     "57-046",
+     "Port Isabel - PI"
+    ],
+    [
+     "57-047",
+     "Pulley Ridge - PR"
+    ],
+    [
+     "57-048",
+     "Rankin - RK"
+    ],
+    [
+     "57-049",
+     "Sabine Pass (Louisiana) - SA"
+    ],
+    [
+     "57-050",
+     "Sabine Pass (Texas) - SX"
+    ],
+    [
+     "57-051",
+     "Ship Shoal - SS"
+    ],
+    [
+     "57-052",
+     "Sigsbee Escarpment - SE"
+    ],
+    [
+     "57-053",
+     "South Marsh Island - SM"
+    ],
+    [
+     "57-054",
+     "South Padre Island - PS"
+    ],
+    [
+     "57-055",
+     "South Pass - SP"
+    ],
+    [
+     "57-056",
+     "South Pelto - PL"
+    ],
+    [
+     "57-057",
+     "South Timbalier - ST"
+    ],
+    [
+     "57-058",
+     "St. Petersburg - PB"
+    ],
+    [
+     "57-059",
+     "Tarpon Springs - TP"
+    ],
+    [
+     "57-060",
+     "Texas State Waters - TX"
+    ],
+    [
+     "57-061",
+     "The Elbow - EL"
+    ],
+    [
+     "57-062",
+     "Tortugas Valley - TV"
+    ],
+    [
+     "57-063",
+     "Vermilion - VR"
+    ],
+    [
+     "57-064",
+     "Vernon - VN"
+    ],
+    [
+     "57-065",
+     "Viosca Knoll - VK"
+    ],
+    [
+     "57-066",
+     "Walker Ridge - WR"
+    ],
+    [
+     "57-067",
+     "West Cameron - WC"
+    ],
+    [
+     "57-068",
+     "West Delta - WD"
+    ]
+   ]
+  }
+ ]
+}

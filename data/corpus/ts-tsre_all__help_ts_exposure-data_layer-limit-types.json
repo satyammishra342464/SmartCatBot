@@ -1,0 +1,58 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_layer-limit-types.html",
+ "title": "Layer occurrence limit types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer occurrence limit types\n\nNGM\n financial engine policy\n terms: layer occurrence limit types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| B | Blanket limit | Total |\n| E | Excess limit | Total |\n| C | Limit by coverage | ABCD |\n| CSL100 | Combined single limit 100% participation | ABCD |\n| CB | Combined, excluding time | ABC-D |\n| CT | Combined, including time limit | ABC-D |\n| CSLAI | Combined single limit assured interest | ABCD |\n| N | No limit | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "B",
+     "Blanket limit",
+     "Total"
+    ],
+    [
+     "E",
+     "Excess limit",
+     "Total"
+    ],
+    [
+     "C",
+     "Limit by coverage",
+     "ABCD"
+    ],
+    [
+     "CSL100",
+     "Combined single limit 100% participation",
+     "ABCD"
+    ],
+    [
+     "CB",
+     "Combined, excluding time",
+     "ABC-D"
+    ],
+    [
+     "CT",
+     "Combined, including time limit",
+     "ABC-D"
+    ],
+    [
+     "CSLAI",
+     "Combined single limit assured interest",
+     "ABCD"
+    ],
+    [
+     "N",
+     "No limit",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

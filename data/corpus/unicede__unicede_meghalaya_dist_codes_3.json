@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_meghalaya_dist_codes_3.html",
+ "title": "Meghalaya district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Meghalaya district codes \n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-17000 | Meghalaya |\n| 113-17001 | West Garo Hills |\n| 113-17002 | East Garo Hills |\n| 113-17003 | South Garo Hills |\n| 113-17004 | West Khasi Hills |\n| 113-17005 | Ri-Bhoi |\n| 113-17006 | East Khasi Hills |\n| 113-17007 | Jaintia Hills |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-17000",
+     "Meghalaya"
+    ],
+    [
+     "113-17001",
+     "West Garo Hills"
+    ],
+    [
+     "113-17002",
+     "East Garo Hills"
+    ],
+    [
+     "113-17003",
+     "South Garo Hills"
+    ],
+    [
+     "113-17004",
+     "West Khasi Hills"
+    ],
+    [
+     "113-17005",
+     "Ri-Bhoi"
+    ],
+    [
+     "113-17006",
+     "East Khasi Hills"
+    ],
+    [
+     "113-17007",
+     "Jaintia Hills"
+    ]
+   ]
+  }
+ ]
+}

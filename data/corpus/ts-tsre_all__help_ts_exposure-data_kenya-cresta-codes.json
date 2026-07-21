@@ -1,0 +1,197 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_kenya-cresta-codes.html",
+ "title": "Kenya CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Kenya \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Kenya.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Western Kenya |\n| 1.1 | West Pokot |\n| 1.10 | Kisumu |\n| 1.11 | Kericho |\n| 1.12 | Kisii |\n| 1.13 | Homa Bay Districts |\n| 1.2 | Trans Nzoia |\n| 1.3 | Elgeyo Marakwet |\n| 1.4 | Uasin Gishu |\n| 1.5 | Busia |\n| 1.6 | Kakamega |\n| 1.7 | Nandi |\n| 1.8 | Siaya |\n| 1.9 | Bungoma |\n| 2 | Rift Valley |\n| 2.1 | Turkana |\n| 2.2 | Baringo |\n| 2.3 | Nakuru |\n| 2.4 | Narok |\n| 3 | Central Valley |\n| 3.1 | Marsabit |\n| 3.10 | Kiambu |\n| 3.11 | Kajiado |\n| 3.12 | Marchakos |\n| 3.13 | Kitui |\n| 3.14 | Mandera |\n| 3.15 | Wajir |\n| 3.16 | Isiolo |\n| 3.17 | Garissa |\n| 3.2 | Samburu |\n| 3.3 | Laikipia |\n| 3.4 | Meru |\n| 3.5 | Nyandarua |\n| 3.6 | Nyeri |\n| 3.7 | Kirinyaga |\n| 3.8 | Embu |\n| 3.9 | Muranga |\n| 4 | Nairobi Area |\n| 5 | Coastal Region |\n| 5.1 | Taita/Taveta |\n| 5.2 | Lamu |\n| 5.3 | Killfi |\n| 5.4 | Tana River |\n| 5.5 | Mombasa |\n| 5.6 | Kwale |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Western Kenya"
+    ],
+    [
+     "1.1",
+     "West Pokot"
+    ],
+    [
+     "1.10",
+     "Kisumu"
+    ],
+    [
+     "1.11",
+     "Kericho"
+    ],
+    [
+     "1.12",
+     "Kisii"
+    ],
+    [
+     "1.13",
+     "Homa Bay Districts"
+    ],
+    [
+     "1.2",
+     "Trans Nzoia"
+    ],
+    [
+     "1.3",
+     "Elgeyo Marakwet"
+    ],
+    [
+     "1.4",
+     "Uasin Gishu"
+    ],
+    [
+     "1.5",
+     "Busia"
+    ],
+    [
+     "1.6",
+     "Kakamega"
+    ],
+    [
+     "1.7",
+     "Nandi"
+    ],
+    [
+     "1.8",
+     "Siaya"
+    ],
+    [
+     "1.9",
+     "Bungoma"
+    ],
+    [
+     "2",
+     "Rift Valley"
+    ],
+    [
+     "2.1",
+     "Turkana"
+    ],
+    [
+     "2.2",
+     "Baringo"
+    ],
+    [
+     "2.3",
+     "Nakuru"
+    ],
+    [
+     "2.4",
+     "Narok"
+    ],
+    [
+     "3",
+     "Central Valley"
+    ],
+    [
+     "3.1",
+     "Marsabit"
+    ],
+    [
+     "3.10",
+     "Kiambu"
+    ],
+    [
+     "3.11",
+     "Kajiado"
+    ],
+    [
+     "3.12",
+     "Marchakos"
+    ],
+    [
+     "3.13",
+     "Kitui"
+    ],
+    [
+     "3.14",
+     "Mandera"
+    ],
+    [
+     "3.15",
+     "Wajir"
+    ],
+    [
+     "3.16",
+     "Isiolo"
+    ],
+    [
+     "3.17",
+     "Garissa"
+    ],
+    [
+     "3.2",
+     "Samburu"
+    ],
+    [
+     "3.3",
+     "Laikipia"
+    ],
+    [
+     "3.4",
+     "Meru"
+    ],
+    [
+     "3.5",
+     "Nyandarua"
+    ],
+    [
+     "3.6",
+     "Nyeri"
+    ],
+    [
+     "3.7",
+     "Kirinyaga"
+    ],
+    [
+     "3.8",
+     "Embu"
+    ],
+    [
+     "3.9",
+     "Muranga"
+    ],
+    [
+     "4",
+     "Nairobi Area"
+    ],
+    [
+     "5",
+     "Coastal Region"
+    ],
+    [
+     "5.1",
+     "Taita/Taveta"
+    ],
+    [
+     "5.2",
+     "Lamu"
+    ],
+    [
+     "5.3",
+     "Killfi"
+    ],
+    [
+     "5.4",
+     "Tana River"
+    ],
+    [
+     "5.5",
+     "Mombasa"
+    ],
+    [
+     "5.6",
+     "Kwale"
+    ]
+   ]
+  }
+ ]
+}

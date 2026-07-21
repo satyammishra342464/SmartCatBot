@@ -1,0 +1,213 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_mexico_cresta_2-8.html",
+ "title": "Mexico CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Mexico \nCRESTA\n Codes (v2.8)\n \n\nCRESTA\n codes for Mexico supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Mexico (28).\n\n| Area Tag | Zone |\n| --- | --- |\n| 28-000 | MEXICO |\n| 28-001 | Z01:Aguascalientes-A |\n| 28-002 | Z02:Baja California Norte-B |\n| 28-003 | Z03:Baja California Norte-C |\n| 28-004 | Z04:Baja California Sur-B |\n| 28-005 | Z05:Campeche Norte Oriental-A |\n| 28-006 | Z06:Campeche Sur Occidental-B |\n| 28-007 | Z07:Chiapas-D |\n| 28-008 | Z08:Chihuahua-A |\n| 28-009 | Z09:Coahuila De Zaragoza-A |\n| 28-010 | Z10:Colima-D |\n| 28-011 | Z11:Distrito Federal-E |\n| 28-012 | Z12:Distrito Federal-F |\n| 28-013 | Z13:Distrito Federal-G |\n| 28-014 | Z14:Distrito Federal-H |\n| 28-015 | Z15:Durango-A |\n| 28-016 | Z16:Guanajuato-B |\n| 28-017 | Z17:Guerrero Norte Oriental-C |\n| 28-018 | Z18:Guerrero Sur Occidental-D |\n| 28-019 | Z19:Acapulco Resto-I |\n| 28-020 | Z20:Acapulco Relleno-J |\n| 28-021 | Z21:Hidalgo-B |\n| 28-022 | Z22:Jalisco Norte Oriental-B |\n| 28-023 | Z23:Jalisco Central-C |\n| 28-024 | Z24:Jalisco Sur Occidental-D |\n| 28-025 | Z25:Mexico-B |\n| 28-026 | Z26:Mexico-B1 |\n| 28-027 | Z27:Michoacan Norte Oriental-B |\n| 28-028 | Z28:Michoacan Central-C |\n| 28-029 | Z29:Michoacan Sur Occidental-D |\n| 28-030 | Z30:Morelos-B |\n| 28-031 | Z31:Nayarit-B |\n| 28-032 | Z32:Nuevo Leon-A |\n| 28-033 | Z33:Oaxaca Norte Oriental-C |\n| 28-034 | Z34:Oaxaca Sur Occidental-D |\n| 28-035 | Z35:Puebla-B |\n| 28-036 | Z36:Queretaro de Arteaga-B |\n| 28-037 | Z37:Quintana Roo-A |\n| 28-038 | Z38:San Luis Potosi-A |\n| 28-039 | Z39:Sinaloa-B |\n| 28-040 | Z40:Sonora-B/C |\n| 28-041 | Z41:Tabasco-B |\n| 28-042 | Z42:Tamaulipas-A |\n| 28-043 | Z43:Tlaxcala-B |\n| 28-044 | Z44:Veracruz Norte-A |\n| 28-045 | Z45:Veracruz Central-B |\n| 28-046 | Z46:Veracruz Sur-C |\n| 28-047 | Z47:Yucatan-A |\n| 28-048 | Z48:Zacatecas-A |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "28-000",
+     "MEXICO"
+    ],
+    [
+     "28-001",
+     "Z01:Aguascalientes-A"
+    ],
+    [
+     "28-002",
+     "Z02:Baja California Norte-B"
+    ],
+    [
+     "28-003",
+     "Z03:Baja California Norte-C"
+    ],
+    [
+     "28-004",
+     "Z04:Baja California Sur-B"
+    ],
+    [
+     "28-005",
+     "Z05:Campeche Norte Oriental-A"
+    ],
+    [
+     "28-006",
+     "Z06:Campeche Sur Occidental-B"
+    ],
+    [
+     "28-007",
+     "Z07:Chiapas-D"
+    ],
+    [
+     "28-008",
+     "Z08:Chihuahua-A"
+    ],
+    [
+     "28-009",
+     "Z09:Coahuila De Zaragoza-A"
+    ],
+    [
+     "28-010",
+     "Z10:Colima-D"
+    ],
+    [
+     "28-011",
+     "Z11:Distrito Federal-E"
+    ],
+    [
+     "28-012",
+     "Z12:Distrito Federal-F"
+    ],
+    [
+     "28-013",
+     "Z13:Distrito Federal-G"
+    ],
+    [
+     "28-014",
+     "Z14:Distrito Federal-H"
+    ],
+    [
+     "28-015",
+     "Z15:Durango-A"
+    ],
+    [
+     "28-016",
+     "Z16:Guanajuato-B"
+    ],
+    [
+     "28-017",
+     "Z17:Guerrero Norte Oriental-C"
+    ],
+    [
+     "28-018",
+     "Z18:Guerrero Sur Occidental-D"
+    ],
+    [
+     "28-019",
+     "Z19:Acapulco Resto-I"
+    ],
+    [
+     "28-020",
+     "Z20:Acapulco Relleno-J"
+    ],
+    [
+     "28-021",
+     "Z21:Hidalgo-B"
+    ],
+    [
+     "28-022",
+     "Z22:Jalisco Norte Oriental-B"
+    ],
+    [
+     "28-023",
+     "Z23:Jalisco Central-C"
+    ],
+    [
+     "28-024",
+     "Z24:Jalisco Sur Occidental-D"
+    ],
+    [
+     "28-025",
+     "Z25:Mexico-B"
+    ],
+    [
+     "28-026",
+     "Z26:Mexico-B1"
+    ],
+    [
+     "28-027",
+     "Z27:Michoacan Norte Oriental-B"
+    ],
+    [
+     "28-028",
+     "Z28:Michoacan Central-C"
+    ],
+    [
+     "28-029",
+     "Z29:Michoacan Sur Occidental-D"
+    ],
+    [
+     "28-030",
+     "Z30:Morelos-B"
+    ],
+    [
+     "28-031",
+     "Z31:Nayarit-B"
+    ],
+    [
+     "28-032",
+     "Z32:Nuevo Leon-A"
+    ],
+    [
+     "28-033",
+     "Z33:Oaxaca Norte Oriental-C"
+    ],
+    [
+     "28-034",
+     "Z34:Oaxaca Sur Occidental-D"
+    ],
+    [
+     "28-035",
+     "Z35:Puebla-B"
+    ],
+    [
+     "28-036",
+     "Z36:Queretaro de Arteaga-B"
+    ],
+    [
+     "28-037",
+     "Z37:Quintana Roo-A"
+    ],
+    [
+     "28-038",
+     "Z38:San Luis Potosi-A"
+    ],
+    [
+     "28-039",
+     "Z39:Sinaloa-B"
+    ],
+    [
+     "28-040",
+     "Z40:Sonora-B/C"
+    ],
+    [
+     "28-041",
+     "Z41:Tabasco-B"
+    ],
+    [
+     "28-042",
+     "Z42:Tamaulipas-A"
+    ],
+    [
+     "28-043",
+     "Z43:Tlaxcala-B"
+    ],
+    [
+     "28-044",
+     "Z44:Veracruz Norte-A"
+    ],
+    [
+     "28-045",
+     "Z45:Veracruz Central-B"
+    ],
+    [
+     "28-046",
+     "Z46:Veracruz Sur-C"
+    ],
+    [
+     "28-047",
+     "Z47:Yucatan-A"
+    ],
+    [
+     "28-048",
+     "Z48:Zacatecas-A"
+    ]
+   ]
+  }
+ ]
+}

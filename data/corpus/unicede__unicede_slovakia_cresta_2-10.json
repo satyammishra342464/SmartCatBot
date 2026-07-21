@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_slovakia_cresta_2-10.html",
+ "title": "Slovakia CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Slovakia \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Slovakia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Slovakia (193).\n\n| Area Tag | Zone |\n| --- | --- |\n| 193-SVK | Slovakia |\n| 193-SVK_01 | Z01 |\n| 193-SVK_02 | Z02 |\n| 193-SVK_03 | Z03 |\n| 193-SVK_04 | Z04 |\n| 193-SVK_05 | Z05 |\n| 193-SVK_06 | Z06 |\n| 193-SVK_07 | Z07 |\n| 193-SVK_08 | Z08 |\n| 193-SVK_09 | Z09 |\n| 193-SVK_81 | Z81 |\n| 193-SVK_82 | Z82 |\n| 193-SVK_83 | Z83 |\n| 193-SVK_84 | Z84 |\n| 193-SVK_85 | Z85 |\n| 193-SVK_90 | Z90 |\n| 193-SVK_91 | Z91 |\n| 193-SVK_92 | Z92 |\n| 193-SVK_93 | Z93 |\n| 193-SVK_94 | Z94 |\n| 193-SVK_95 | Z95 |\n| 193-SVK_96 | Z96 |\n| 193-SVK_97 | Z97 |\n| 193-SVK_98 | Z98 |\n| 193-SVK_99 | Z99 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "193-SVK",
+     "Slovakia"
+    ],
+    [
+     "193-SVK_01",
+     "Z01"
+    ],
+    [
+     "193-SVK_02",
+     "Z02"
+    ],
+    [
+     "193-SVK_03",
+     "Z03"
+    ],
+    [
+     "193-SVK_04",
+     "Z04"
+    ],
+    [
+     "193-SVK_05",
+     "Z05"
+    ],
+    [
+     "193-SVK_06",
+     "Z06"
+    ],
+    [
+     "193-SVK_07",
+     "Z07"
+    ],
+    [
+     "193-SVK_08",
+     "Z08"
+    ],
+    [
+     "193-SVK_09",
+     "Z09"
+    ],
+    [
+     "193-SVK_81",
+     "Z81"
+    ],
+    [
+     "193-SVK_82",
+     "Z82"
+    ],
+    [
+     "193-SVK_83",
+     "Z83"
+    ],
+    [
+     "193-SVK_84",
+     "Z84"
+    ],
+    [
+     "193-SVK_85",
+     "Z85"
+    ],
+    [
+     "193-SVK_90",
+     "Z90"
+    ],
+    [
+     "193-SVK_91",
+     "Z91"
+    ],
+    [
+     "193-SVK_92",
+     "Z92"
+    ],
+    [
+     "193-SVK_93",
+     "Z93"
+    ],
+    [
+     "193-SVK_94",
+     "Z94"
+    ],
+    [
+     "193-SVK_95",
+     "Z95"
+    ],
+    [
+     "193-SVK_96",
+     "Z96"
+    ],
+    [
+     "193-SVK_97",
+     "Z97"
+    ],
+    [
+     "193-SVK_98",
+     "Z98"
+    ],
+    [
+     "193-SVK_99",
+     "Z99"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_luxembourg_cresta_2-10.html",
+ "title": "Luxembourg CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Luxembourg \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Luxembourg supported by \nUNICEDE\n/2.\n\nThe code listed below includes the country code for Luxembourg (6).\n\n| Area Tag | Zone |\n| --- | --- |\n| 06-LUX | Luxembourg |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "06-LUX",
+     "Luxembourg"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_turkey_cresta_2-10.html",
+ "title": "Turkey CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Turkey \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for Turkey supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Turkey (38).\n\n| Area Tag | Zone |\n| --- | --- |\n| 38-0000 | Turkey |\n| 38-0034 | Zone 1 |\n| 38-0022 | Zone 2 |\n| 38-0041 | Zone 3 |\n| 38-0010 | Zone 4 |\n| 38-0009 | Zone 5 |\n| 38-0003 | Zone 6 |\n| 38-0007 | Zone 7 |\n| 38-0001 | Zone 8 |\n| 38-0038 | Zone 9 |\n| 38-0006 | Zone 10 |\n| 38-0014 | Zone 11 |\n| 38-0005 | Zone 12 |\n| 38-0008 | Zone 13 |\n| 38-000 | Zone 14 |\n| 38-0002 | Zone 15 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "38-0000",
+     "Turkey"
+    ],
+    [
+     "38-0034",
+     "Zone 1"
+    ],
+    [
+     "38-0022",
+     "Zone 2"
+    ],
+    [
+     "38-0041",
+     "Zone 3"
+    ],
+    [
+     "38-0010",
+     "Zone 4"
+    ],
+    [
+     "38-0009",
+     "Zone 5"
+    ],
+    [
+     "38-0003",
+     "Zone 6"
+    ],
+    [
+     "38-0007",
+     "Zone 7"
+    ],
+    [
+     "38-0001",
+     "Zone 8"
+    ],
+    [
+     "38-0038",
+     "Zone 9"
+    ],
+    [
+     "38-0006",
+     "Zone 10"
+    ],
+    [
+     "38-0014",
+     "Zone 11"
+    ],
+    [
+     "38-0005",
+     "Zone 12"
+    ],
+    [
+     "38-0008",
+     "Zone 13"
+    ],
+    [
+     "38-000",
+     "Zone 14"
+    ],
+    [
+     "38-0002",
+     "Zone 15"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_luxembourg_country_codes_2-7.html",
+ "title": "Luxembourg Country Code (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Luxembourg Country Code (v2.7)\n\nCountry code for Luxembourg supported by \nUNICEDE\n/2.\nThe code listed below includes the country code for Luxembourg (6).\n\n| Area Tag | Country Name |\n| --- | --- |\n| 06-000 | LUXEMBOURG |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Country Name"
+   ],
+   "rows": [
+    [
+     "06-000",
+     "LUXEMBOURG"
+    ]
+   ]
+  }
+ ]
+}

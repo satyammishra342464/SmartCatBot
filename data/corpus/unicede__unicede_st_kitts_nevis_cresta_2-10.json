@@ -1,0 +1,77 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_st_kitts_nevis_cresta_2-10.html",
+ "title": "St. Kitts & Nevis CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "St. Kitts & Nevis \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for St. Kitts & Nevis supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for St. Kitts & Nevis (180).\n\n| Area Tag | Zone |\n| --- | --- |\n| 180-000 | St. Kitts & Nevis |\n| 180-001 | Christ Church Nichola Town |\n| 180-002 | Saint Anne Sandy Point |\n| 180-003 | Saint George Basseterre |\n| 180-004 | Saint George Gingerland |\n| 180-005 | Saint James Windward |\n| 180-006 | Saint John Capisterre |\n| 180-007 | Saint John Figtree |\n| 180-008 | Saint Mary Cayon |\n| 180-009 | Saint Paul Capisterre |\n| 180-010 | Saint Paul Charlestown |\n| 180-011 | Saint Peter Basseterre |\n| 180-012 | Saint Thomas Lowland |\n| 180-013 | Saint Thomas Middle Island |\n| 180-014 | Trinity Palmetto Point |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "180-000",
+     "St. Kitts & Nevis"
+    ],
+    [
+     "180-001",
+     "Christ Church Nichola Town"
+    ],
+    [
+     "180-002",
+     "Saint Anne Sandy Point"
+    ],
+    [
+     "180-003",
+     "Saint George Basseterre"
+    ],
+    [
+     "180-004",
+     "Saint George Gingerland"
+    ],
+    [
+     "180-005",
+     "Saint James Windward"
+    ],
+    [
+     "180-006",
+     "Saint John Capisterre"
+    ],
+    [
+     "180-007",
+     "Saint John Figtree"
+    ],
+    [
+     "180-008",
+     "Saint Mary Cayon"
+    ],
+    [
+     "180-009",
+     "Saint Paul Capisterre"
+    ],
+    [
+     "180-010",
+     "Saint Paul Charlestown"
+    ],
+    [
+     "180-011",
+     "Saint Peter Basseterre"
+    ],
+    [
+     "180-012",
+     "Saint Thomas Lowland"
+    ],
+    [
+     "180-013",
+     "Saint Thomas Middle Island"
+    ],
+    [
+     "180-014",
+     "Trinity Palmetto Point"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_jamaica_cresta_2-9.html",
+ "title": "Jamaica CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Jamaica \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Jamaica supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Jamaica (22).\n\n| Area Tag | Zone |\n| --- | --- |\n| 22-000 | Jamaica |\n| 22-001 | Hanover |\n| 22-002 | Saint James |\n| 22-003 | Trelawny |\n| 22-004 | Saint Ann |\n| 22-005 | Saint Mary |\n| 22-006 | Portland |\n| 22-007 | Westmoreland |\n| 22-008 | Saint Elizabeth |\n| 22-009 | Manchester |\n| 22-010 | Clarendon |\n| 22-011 | Saint Catherine |\n| 22-012 | Saint Andrew |\n| 22-013 | Kingston |\n| 22-014 | Saint Thomas |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "22-000",
+     "Jamaica"
+    ],
+    [
+     "22-001",
+     "Hanover"
+    ],
+    [
+     "22-002",
+     "Saint James"
+    ],
+    [
+     "22-003",
+     "Trelawny"
+    ],
+    [
+     "22-004",
+     "Saint Ann"
+    ],
+    [
+     "22-005",
+     "Saint Mary"
+    ],
+    [
+     "22-006",
+     "Portland"
+    ],
+    [
+     "22-007",
+     "Westmoreland"
+    ],
+    [
+     "22-008",
+     "Saint Elizabeth"
+    ],
+    [
+     "22-009",
+     "Manchester"
+    ],
+    [
+     "22-010",
+     "Clarendon"
+    ],
+    [
+     "22-011",
+     "Saint Catherine"
+    ],
+    [
+     "22-012",
+     "Saint Andrew"
+    ],
+    [
+     "22-013",
+     "Kingston"
+    ],
+    [
+     "22-014",
+     "Saint Thomas"
+    ]
+   ]
+  }
+ ]
+}

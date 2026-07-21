@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_honduras_cresta_2-7.html",
+ "title": "Honduras CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Honduras \nCRESTA\n Codes (v2.7)\n\nCRESTA\n codes for Honduras supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Honduras (48).\n\n| Area Tag | Zone |\n| --- | --- |\n| 48-000 | HONDURAS |\n| 48-001 | Z01: Distrito Central includ. Tegucigalpa |\n| 48-002 | Z02: Depto. Francisco MorazÃ¡n |\n| 48-003 | Z03: Depto. CortÃ©s |\n| 48-004 | Z04: Depto. Valle |\n| 48-005 | Z05: Depto. Choluteca |\n| 48-006 | Z06: DemÃ¡s Departamentos de Honduras |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "48-000",
+     "HONDURAS"
+    ],
+    [
+     "48-001",
+     "Z01: Distrito Central includ. Tegucigalpa"
+    ],
+    [
+     "48-002",
+     "Z02: Depto. Francisco MorazÃ¡n"
+    ],
+    [
+     "48-003",
+     "Z03: Depto. CortÃ©s"
+    ],
+    [
+     "48-004",
+     "Z04: Depto. Valle"
+    ],
+    [
+     "48-005",
+     "Z05: Depto. Choluteca"
+    ],
+    [
+     "48-006",
+     "Z06: DemÃ¡s Departamentos de Honduras"
+    ]
+   ]
+  }
+ ]
+}

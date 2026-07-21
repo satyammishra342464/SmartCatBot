@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_greece_lob_2-10.html",
+ "title": "Greece Lines of Business (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Greece Lines of Business (v2.10)\n\nLOB codes for Greece supported by \nUNICEDE\n/2.\n\nStandard and Market Share Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential Buildings |\n| CNT | Residential Contents |\n| RBC | Residential Building & Contents |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |\n| AG | Agriculture |\n| AUTO | Automotive |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Buildings"
+    ],
+    [
+     "CNT",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Building & Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AG",
+     "Agriculture"
+    ],
+    [
+     "AUTO",
+     "Automotive"
+    ]
+   ]
+  }
+ ]
+}

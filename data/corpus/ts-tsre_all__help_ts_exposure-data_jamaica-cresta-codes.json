@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_jamaica-cresta-codes.html",
+ "title": "Jamaica CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Jamaica \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Jamaica.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Zone Hanover |\n| 2 | Zone St.James |\n| 3 | Zone Trelawny |\n| 4 | Zone St.Ann |\n| 5 | Zone St.Mary |\n| 6 | Zone Portland |\n| 7 | Zone Westmoreland |\n| 8 | Zone St.Elizabeth |\n| 9 | Zone Manchester |\n| 10 | Zone Clarendon |\n| 11 | Zone St.Catherine |\n| 12 | Zone Saint Andrew |\n| 13 | Zone Kingston |\n| 14 | Zone St.Thomas |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Zone Hanover"
+    ],
+    [
+     "2",
+     "Zone St.James"
+    ],
+    [
+     "3",
+     "Zone Trelawny"
+    ],
+    [
+     "4",
+     "Zone St.Ann"
+    ],
+    [
+     "5",
+     "Zone St.Mary"
+    ],
+    [
+     "6",
+     "Zone Portland"
+    ],
+    [
+     "7",
+     "Zone Westmoreland"
+    ],
+    [
+     "8",
+     "Zone St.Elizabeth"
+    ],
+    [
+     "9",
+     "Zone Manchester"
+    ],
+    [
+     "10",
+     "Zone Clarendon"
+    ],
+    [
+     "11",
+     "Zone St.Catherine"
+    ],
+    [
+     "12",
+     "Zone Saint Andrew"
+    ],
+    [
+     "13",
+     "Zone Kingston"
+    ],
+    [
+     "14",
+     "Zone St.Thomas"
+    ]
+   ]
+  }
+ ]
+}

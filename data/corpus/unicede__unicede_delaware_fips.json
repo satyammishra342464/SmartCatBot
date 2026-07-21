@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_delaware_fips.html",
+ "title": "Delaware (DE) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Delaware (DE) Counties\n\nFIPS codes for Delaware.\n\nFIPS State Code: 10 \n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Kent County, enter \n01-10001.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Kent |\n| 003 | New Castle |\n| 005 | Sussex |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Kent"
+    ],
+    [
+     "003",
+     "New Castle"
+    ],
+    [
+     "005",
+     "Sussex"
+    ]
+   ]
+  }
+ ]
+}

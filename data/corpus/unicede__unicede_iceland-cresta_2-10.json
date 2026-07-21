@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_iceland-cresta_2-10.html",
+ "title": "Iceland CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Iceland \nCRESTA\n Codes (v2.10) \n\nCRESTA\n codes for Iceland supported by\n \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Iceland (112).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 112-000 | Iceland |\n| 112-001 | Capital Region |\n| 112-002 | Southern Peninsula |\n| 112-003 | Western Region |\n| 112-004 | Westfjords |\n| 112-005 | Northwestern Region |\n| 112-006 | Northeastern Region |\n| 112-007 | Eastern Region |\n| 112-008 | Southern Region |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "112-000",
+     "Iceland"
+    ],
+    [
+     "112-001",
+     "Capital Region"
+    ],
+    [
+     "112-002",
+     "Southern Peninsula"
+    ],
+    [
+     "112-003",
+     "Western Region"
+    ],
+    [
+     "112-004",
+     "Westfjords"
+    ],
+    [
+     "112-005",
+     "Northwestern Region"
+    ],
+    [
+     "112-006",
+     "Northeastern Region"
+    ],
+    [
+     "112-007",
+     "Eastern Region"
+    ],
+    [
+     "112-008",
+     "Southern Region"
+    ]
+   ]
+  }
+ ]
+}

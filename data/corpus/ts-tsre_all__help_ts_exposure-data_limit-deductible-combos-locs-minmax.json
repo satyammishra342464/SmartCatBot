@@ -1,0 +1,83 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-deductible-combos-locs-minmax.html",
+ "title": "Location min/max deductible/location deductible combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location min/max deductible/location deductible combinations\n\nLocation min/max deductible/location deductible combinations.\n\n| Location min/max / Location deductible | AA | FR | ML | MP | PL | S | CB | CT | CPL | C | N |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| MI | | | | | Valid | | Valid | Valid | Valid | Valid | Valid |\n| MA | | | | | Valid | | Valid | Valid | Valid | Valid | Valid |\n| MM | | | | | Valid | | Valid | Valid | Valid | Valid | Valid |\n| N | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Location min/max / Location deductible",
+    "AA",
+    "FR",
+    "ML",
+    "MP",
+    "PL",
+    "S",
+    "CB",
+    "CT",
+    "CPL",
+    "C",
+    "N"
+   ],
+   "rows": [
+    [
+     "MI",
+     "",
+     "",
+     "",
+     "",
+     "Valid",
+     "",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "MA",
+     "",
+     "",
+     "",
+     "",
+     "Valid",
+     "",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "MM",
+     "",
+     "",
+     "",
+     "",
+     "Valid",
+     "",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

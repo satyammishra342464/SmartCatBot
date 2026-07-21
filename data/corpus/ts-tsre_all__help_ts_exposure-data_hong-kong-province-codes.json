@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_hong-kong-province-codes.html",
+ "title": "Hong Kong province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Hong Kong province codes\n\nTouchstone\n supports the following province\n codes for Hong Kong.\n\n| Province Code | Province Name |\n| --- | --- |\n| 81 | Hong Kong TeBieXingZhengQu |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "81",
+     "Hong Kong TeBieXingZhengQu"
+    ]
+   ]
+  }
+ ]
+}

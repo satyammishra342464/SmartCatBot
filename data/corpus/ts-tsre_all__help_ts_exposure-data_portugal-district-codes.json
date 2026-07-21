@@ -1,0 +1,133 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_portugal-district-codes.html",
+ "title": "Portugal district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Portugal district codes\n\nTouchstone\n supports the following district\n codes for Portugal.\n\n| District Code | District Name |\n| --- | --- |\n| 01 | Aveiro |\n| 02 | Beja |\n| 03 | Braga |\n| 04 | BraganÃ§a |\n| 05 | Castelo Branco |\n| 06 | Coimbra |\n| 07 | Ãvora |\n| 08 | Faro |\n| 09 | Guarda |\n| 10 | Leiria |\n| 11 | Lisboa |\n| 12 | Portalegre |\n| 13 | Porto |\n| 14 | SantarÃ©m |\n| 15 | SetÃºbal |\n| 16 | Viana do Castelo |\n| 17 | Vila Real |\n| 18 | Viseu |\n| 31 | Ilha da Madeira |\n| 32 | Ilha de Porto Santo |\n| 41 | Ilha de Santa Maria |\n| 42 | Ilha de SÃ£o Miguel |\n| 43 | Ilha Terceira |\n| 44 | Ilha Graciosa |\n| 45 | Ilha de SÃ£o Jorge |\n| 46 | Ilha do Pico |\n| 47 | Ilha do Faial |\n| 48 | Ilha das Flores |\n| 49 | Ilha do Corvo |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Aveiro"
+    ],
+    [
+     "02",
+     "Beja"
+    ],
+    [
+     "03",
+     "Braga"
+    ],
+    [
+     "04",
+     "BraganÃ§a"
+    ],
+    [
+     "05",
+     "Castelo Branco"
+    ],
+    [
+     "06",
+     "Coimbra"
+    ],
+    [
+     "07",
+     "Ãvora"
+    ],
+    [
+     "08",
+     "Faro"
+    ],
+    [
+     "09",
+     "Guarda"
+    ],
+    [
+     "10",
+     "Leiria"
+    ],
+    [
+     "11",
+     "Lisboa"
+    ],
+    [
+     "12",
+     "Portalegre"
+    ],
+    [
+     "13",
+     "Porto"
+    ],
+    [
+     "14",
+     "SantarÃ©m"
+    ],
+    [
+     "15",
+     "SetÃºbal"
+    ],
+    [
+     "16",
+     "Viana do Castelo"
+    ],
+    [
+     "17",
+     "Vila Real"
+    ],
+    [
+     "18",
+     "Viseu"
+    ],
+    [
+     "31",
+     "Ilha da Madeira"
+    ],
+    [
+     "32",
+     "Ilha de Porto Santo"
+    ],
+    [
+     "41",
+     "Ilha de Santa Maria"
+    ],
+    [
+     "42",
+     "Ilha de SÃ£o Miguel"
+    ],
+    [
+     "43",
+     "Ilha Terceira"
+    ],
+    [
+     "44",
+     "Ilha Graciosa"
+    ],
+    [
+     "45",
+     "Ilha de SÃ£o Jorge"
+    ],
+    [
+     "46",
+     "Ilha do Pico"
+    ],
+    [
+     "47",
+     "Ilha do Faial"
+    ],
+    [
+     "48",
+     "Ilha das Flores"
+    ],
+    [
+     "49",
+     "Ilha do Corvo"
+    ]
+   ]
+  }
+ ]
+}

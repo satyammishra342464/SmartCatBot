@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 15",
+ "section": "local-docs",
+ "version": null,
+ "text": "RMS fields for Limit and Ded.\nFiles Name RMS Fields Notes\nAccount File ACCNTNUM\nThe name of the policy or an identifying name; for inputting a single policy this name should be the \nsame for each location and should match the ACCNTNUM in the Location file\nAccount File ACCNTNAME The name of the insured party\nAccount File POLICYNUM Peril Name(EQ,WS,SCS,FL,FR, TR)\nAccount File POLICYTYPE Peril Type(1,2,3,4,5,6)\nAccount File BLANLIMAMT Blanket Limit\nAccount File PARTOF Part Of\nAccount File UNDCOVAMT Excess of (Attachment Point)\nAccount File BLANDEDAMT Blanket Deductible\nAccount File INCEPTDATE The date of the first day on which coverage is effective\nAccount File EXPIREDATE The date of the last day on which coverage is effective\nAccount File MINDEDAMT Minimum / Maximum Deductible\nAccount File MAXDEDAMT Minimum / Maximum Deductible\nLocation Files EQSITELIM Coverage Limit / Coverage Deductible\nLocation Files EQSITEDED Site Limit / Site Deductible\nLocation Files EQCOMBINEDLIM Coverage Limit / Coverage Deductible\nLocation Files EQCOMBINEDDED Site Limit / Site Deductible\nLocation Files USERTXT1 User define ref. column, use to code Site level limit and ded.\nLocation Files USERTXT2 User define ref. column, use to code Site level limit and ded.",
+ "tables": []
+}

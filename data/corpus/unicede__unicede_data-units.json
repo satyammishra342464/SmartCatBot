@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_data-units.html",
+ "title": "Data units",
+ "section": "unicede",
+ "version": null,
+ "text": "Data units\n\nData details supported by \nUNICEDE\n/2.\n\nData units are used for all numerical values.\n\n| Units | Description |\n| --- | --- |\n| 1: 1.0 | If sums-insured values are in dollars |\n| 2: 1000.0 | If sums-insured values are in thousands of dollars |\n| 3: 1000000.0 | If sums-insured values are in millions of dollars |\n| 4: 1000000000.0 | If sums-insured values are in billions of dollars |\n\n Note that all of the text after and including the colon (\":\") is ignored as comments.",
+ "tables": [
+  {
+   "headers": [
+    "Units",
+    "Description"
+   ],
+   "rows": [
+    [
+     "1: 1.0",
+     "If sums-insured values are in dollars"
+    ],
+    [
+     "2: 1000.0",
+     "If sums-insured values are in thousands of dollars"
+    ],
+    [
+     "3: 1000000.0",
+     "If sums-insured values are in millions of dollars"
+    ],
+    [
+     "4: 1000000000.0",
+     "If sums-insured values are in billions of dollars"
+    ]
+   ]
+  }
+ ]
+}

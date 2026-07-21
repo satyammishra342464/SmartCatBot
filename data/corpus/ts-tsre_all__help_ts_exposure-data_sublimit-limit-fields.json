@@ -1,0 +1,94 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-limit-fields.html",
+ "title": "Sublimit limit fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit limit fields\n\nSublimit limit fields.\nSee \nSublimit occurrence limit types\n for information about\n sublimit occurrence limit types.\n\n| Field / Limit | B | C | E | C100 | CAI | N |\n| --- | --- | --- | --- | --- | --- | --- |\n| Limit 1 | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to Limit\n 2. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. |\n| Limit 2 | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value less than or equal to Limit\n 1. | A monetary value expressed as a value less than or equal to Limit\n 1. | A monetary value expressed as a value less than or equal to Limit\n 1. | Not required. |\n| Limit 3 | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. |\n| Limit 4 | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. |\n| Attachment 1 | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required |\n| Attachment 2 | Not required | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to 1 | A monetary value expressed as a value greater than or equal to 1 | A monetary value expressed as a value greater than or equal to 1 | Not required |\n| Attachment 3 | Not required | A monetary value expressed as a value greater than or equal to 1 | Not required | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required |\n| Attachment 4 | Not required | A monetary value expressed as a value greater than or equal to 1 | Not required | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Limit",
+    "B",
+    "C",
+    "E",
+    "C100",
+    "CAI",
+    "N"
+   ],
+   "rows": [
+    [
+     "Limit 1",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to Limit\n                        2.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required."
+    ],
+    [
+     "Limit 2",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value less than or equal to Limit\n                        1.",
+     "A monetary value expressed as a value less than or equal to Limit\n                        1.",
+     "A monetary value expressed as a value less than or equal to Limit\n                        1.",
+     "Not required."
+    ],
+    [
+     "Limit 3",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required."
+    ],
+    [
+     "Limit 4",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required."
+    ],
+    [
+     "Attachment 1",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required"
+    ],
+    [
+     "Attachment 2",
+     "Not required",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to 1",
+     "A monetary value expressed as a value greater than or equal to 1",
+     "A monetary value expressed as a value greater than or equal to 1",
+     "Not required"
+    ],
+    [
+     "Attachment 3",
+     "Not required",
+     "A monetary value expressed as a value greater than or equal to 1",
+     "Not required",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required"
+    ],
+    [
+     "Attachment 4",
+     "Not required",
+     "A monetary value expressed as a value greater than or equal to 1",
+     "Not required",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required"
+    ]
+   ]
+  }
+ ]
+}

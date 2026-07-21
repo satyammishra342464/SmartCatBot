@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_ecuador-province-codes.html",
+ "title": "Ecuador Province Codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Ecuador Province Codes\n\nTouchstone\n supports the following province\n codes for Ecuador.\n\n| Province Code | Province Name |\n| --- | --- |\n| 01 | Azuay |\n| 02 | Bolivar |\n| 03 | Canar |\n| 04 | Carchi |\n| 05 | Cotopaxi |\n| 06 | Chimborazo |\n| 07 | El Oro |\n| 08 | Esmeraldas |\n| 09 | Guayas |\n| 10 | Imbabura |\n| 11 | Loja |\n| 12 | Los Rios |\n| 13 | Manabi |\n| 14 | Morona Santiago |\n| 15 | Napo |\n| 16 | Pastaza |\n| 17 | Pichincha |\n| 18 | Tungurahua |\n| 19 | Zamora Chinchipe |\n| 20 | Galapagos |\n| 21 | Sucumbios |\n| 22 | Orellana |\n| 23 | Santo Domingo de los Tsachilas |\n| 24 | Santa Elena |\n| 90 | Zonas No Delimitadas |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Azuay"
+    ],
+    [
+     "02",
+     "Bolivar"
+    ],
+    [
+     "03",
+     "Canar"
+    ],
+    [
+     "04",
+     "Carchi"
+    ],
+    [
+     "05",
+     "Cotopaxi"
+    ],
+    [
+     "06",
+     "Chimborazo"
+    ],
+    [
+     "07",
+     "El Oro"
+    ],
+    [
+     "08",
+     "Esmeraldas"
+    ],
+    [
+     "09",
+     "Guayas"
+    ],
+    [
+     "10",
+     "Imbabura"
+    ],
+    [
+     "11",
+     "Loja"
+    ],
+    [
+     "12",
+     "Los Rios"
+    ],
+    [
+     "13",
+     "Manabi"
+    ],
+    [
+     "14",
+     "Morona Santiago"
+    ],
+    [
+     "15",
+     "Napo"
+    ],
+    [
+     "16",
+     "Pastaza"
+    ],
+    [
+     "17",
+     "Pichincha"
+    ],
+    [
+     "18",
+     "Tungurahua"
+    ],
+    [
+     "19",
+     "Zamora Chinchipe"
+    ],
+    [
+     "20",
+     "Galapagos"
+    ],
+    [
+     "21",
+     "Sucumbios"
+    ],
+    [
+     "22",
+     "Orellana"
+    ],
+    [
+     "23",
+     "Santo Domingo de los Tsachilas"
+    ],
+    [
+     "24",
+     "Santa Elena"
+    ],
+    [
+     "90",
+     "Zonas No Delimitadas"
+    ]
+   ]
+  }
+ ]
+}

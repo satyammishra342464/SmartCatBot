@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sri-lanka-cresta-codes.html",
+ "title": "Sri Lanka CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sri Lanka \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Sri Lanka.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Jaffna |\n| 2 | Mannar |\n| 3 | Mullaittivu |\n| 4 | Vavuniya |\n| 5 | Puttalam |\n| 6 | Kurunegala |\n| 7 | Anuradhapura |\n| 8 | Trincomalee |\n| 9 | Matale |\n| 10 | Polonnaruwa |\n| 11 | Batticaloa |\n| 13 | Gampaha |\n| 14 | Colombo |\n| 15 | Kegalle |\n| 16 | Kandy |\n| 17 | Nuwara Elliya |\n| 18 | Badulla |\n| 19 | Ampara |\n| 20 | Moneragala |\n| 21 | Hambantota |\n| 22 | Ratnapura |\n| 23 | Kalutara |\n| 24 | Galle |\n| 25 | Matura |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Jaffna"
+    ],
+    [
+     "2",
+     "Mannar"
+    ],
+    [
+     "3",
+     "Mullaittivu"
+    ],
+    [
+     "4",
+     "Vavuniya"
+    ],
+    [
+     "5",
+     "Puttalam"
+    ],
+    [
+     "6",
+     "Kurunegala"
+    ],
+    [
+     "7",
+     "Anuradhapura"
+    ],
+    [
+     "8",
+     "Trincomalee"
+    ],
+    [
+     "9",
+     "Matale"
+    ],
+    [
+     "10",
+     "Polonnaruwa"
+    ],
+    [
+     "11",
+     "Batticaloa"
+    ],
+    [
+     "13",
+     "Gampaha"
+    ],
+    [
+     "14",
+     "Colombo"
+    ],
+    [
+     "15",
+     "Kegalle"
+    ],
+    [
+     "16",
+     "Kandy"
+    ],
+    [
+     "17",
+     "Nuwara Elliya"
+    ],
+    [
+     "18",
+     "Badulla"
+    ],
+    [
+     "19",
+     "Ampara"
+    ],
+    [
+     "20",
+     "Moneragala"
+    ],
+    [
+     "21",
+     "Hambantota"
+    ],
+    [
+     "22",
+     "Ratnapura"
+    ],
+    [
+     "23",
+     "Kalutara"
+    ],
+    [
+     "24",
+     "Galle"
+    ],
+    [
+     "25",
+     "Matura"
+    ]
+   ]
+  }
+ ]
+}

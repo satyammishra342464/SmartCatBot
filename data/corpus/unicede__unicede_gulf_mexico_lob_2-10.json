@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_gulf_mexico_lob_2-10.html",
+ "title": "Gulf of Mexico Lines of Business (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Gulf of Mexico Lines of Business (v2.10)\n\nLOB codes for Gulf of Mexico supported by \nUNICEDE\n/2.\n\nThese codes are valid for offshore platforms in the Gulf of Mexico when using\n \nUNICEDE\n/2.\n\nStandard Line of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| PD | Physical Damage |\n\nMarket Share Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| PD | Physical Damage |\n| ROD | Removal of Debris |\n| OEE | Operator's Extra Expenses |\n| BI | Business Interruption |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "PD",
+     "Physical Damage"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "PD",
+     "Physical Damage"
+    ],
+    [
+     "ROD",
+     "Removal of Debris"
+    ],
+    [
+     "OEE",
+     "Operator's Extra Expenses"
+    ],
+    [
+     "BI",
+     "Business Interruption"
+    ]
+   ]
+  }
+ ]
+}

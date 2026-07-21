@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 33",
+ "section": "local-docs",
+ "version": null,
+ "text": "Policy Conditions\nAbility to define a policy that applies ONL Y to certain locations\n• Example: A policy that covers only California locations\nAbility to define a policy that covers all locations but applies limited coverage (limit/deductible) to a subset of locations (Sublimit)\n• Example: A $100M EQ policy with a $50M sublimit for California locations\nThese are generally referred to as Special Conditions\nAt the Policy Level\n• Ability to define a condition at the policy level\n• Ability to see which locations the condition applies to\n• Ability to manually select the locations the condition applies to (User explicitly selects specific buildings/locations)\n• Ability to use criteria to automatically identify locations the condition applies to\nExamples:\n• State Code = CA\n• Occupancy Type = Hospital\n• UserT ext1 = “High Hazard Zone”\nAt the Location Level\n• Ability to see which conditions apply to each location (Each location shows the list of applied Special Conditions)\n• Ability to manually assign which conditions apply to a location (User can override or add specific conditions)\nExample 1 — Policy applies only to a subset\n• “Apply this EQ policy only to California buildings. ”\nExample 2 — Policy applies to all, but with a sublimit\n• “Policy limit = $100M, but only up to $50M can be used for California buildings. ”\nPolicy Conditions",
+ "tables": []
+}

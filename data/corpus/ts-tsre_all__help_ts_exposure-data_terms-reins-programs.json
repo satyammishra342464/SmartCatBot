@@ -1,0 +1,145 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_terms-reins-programs.html",
+ "title": "Terms (reinsurance programs)",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Terms (reinsurance programs)\n\nValidation rules for fields related to treaty terms for reinsurance\n programs.\n\nReinsurance Programs\n > \n{Select a Reinsurance Program}\n > \nTerms\n\nDetailed Loss Analysis\n > \nReinsurance Diagnostic\n > \nApply Reinsurance Programs pane\n > \nReinsurance Program Manager {Select a Reinsurance Program}\n > \nTerms\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Treaty Type | One of the following treaty types: Catastrophe Excess of Loss Quota Share Surplus Share Per-Risk Excess of Loss | Required if you are creating a new record or editing an existing record. | |\n| Treaty ID | User-specified name of this treaty. | Required if you are creating a new record or editing an existing record. Must be unique within the reinsurance program. Cannot begin with a space. Can contain up to 100 characters. | |\n| Target Type | One of the following types of exposure to which this treaty applies: Portfolio Contract Location or Layer If you select Location or Layer as the target type, Touchstone automatically applies the treaty at\n the location level if there are no layers in the policy, and at the layer level if\n there are layers in the policy. | The following list summarizes the applicable target type options per treaty\n type: Quota Share : Contract; Location or Layer. Per-Risk Excess of Loss : Contract; Location or\n Layer. Surplus Share : Location or Layer. Catastrophe Excess of Loss : Portfolio. Required if the treaty type is Quota Share or Per-Risk Excess of Loss. Defaults to a value if the treaty type is Catastrophe Excess of Loss. | Portfolio (for CAT XOL) |\n| Trigger Type | One of the following trigger type values to indicate the type of loss occurrence to\n which this treaty coverage applies: Losses Occuring During : Treaty coverage is applied to\n losses occurring between the treaty inception and expiration dates. Risks Attaching : Treaty coverage is applied to losses\n occurring to risks attached or incepted during the treaty period but that may have\n a policy expiration date beyond that of the treaty. | The following list summarizes the applicable trigger type options per treaty type: Quota Share : Losses Occurring During; Risks\n Attaching. Per-Risk Excess of Loss : Losses Occurring During;\n Risks Attaching. Surplus Share : Losses Occurring During; Risks\n Attaching. Catastrophe Excess of Loss : Losses Occurring\n During. Required if the treaty type is Quota Share, Surplus Share, or Per-Risk Excess of\n Loss. Defaults to a value if the treaty type is Catastrophe Excess of Loss. | Losses Occurring During (for CAT XOL) |\n| Percent Ceded | Ceded amount as a percentage Percent Ceded is applied before aggregate and occurrence terms while Percent Placed\n is applied after aggregate and occurrence terms. | Required if you are creating a new record or editing an existing record. Defaults to a value. Must be a numeric value between 0 and 100 ,\n inclusive. | 100.00 |\n| Treaty Currency | Currency in which you are specifying these financial treaty terms. | Defaults to a value in the Touchstone user interface. | US Dollar (USD) |\n| Risk Limit | Treaty limit for a single risk or layer. | Applies only to Per-Risk Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive. | |\n| Risk Aggregate Limit | Aggregate limit for a single risk or per layer for this treaty. | | |\n| Risk Limit Reinstatement | Maximum number of times the risk limit can be reinstated after the application of\n a loss amount during the coverage period. | Applies only to Per-Risk Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive. | |\n| Risk Retention | Treaty retention for a single risk or per layer. | Applies only to Per-Risk Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive. | |\n| Risk Aggregate Retention | Aggregate retention for a single risk or per layer for this treaty. | | |\n| Occurrence Limit | Maximum loss that this treaty can incur from each occurrence. | Must be a numeric value between 0 and 99999999999999 , inclusive. | |\n| Occurrence Retention | Deductible amount 1 The treaty does not assume losses below the value\n specified in this field. | Applies only to treaties of the Catastrophe Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive. | |\n| Aggregate Limit | Maximum amount payable under this treaty that provides overall maximum loss\n limitation A treaty cannot have both an aggregate limit and a reinstatement\n amount that is greater than 0 . | Must be 0 if the reinstatement amount is greater than 0 . Must be a numeric value between 0 and 99999999999999 , inclusive. | 0.00 |\n| Aggregate Retention | Additional monetary amount or percentage of risk that the cedant retains under\n this treaty. | Applies only to Catastrophe Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive | |\n| Percent Placed | Percentage of the limit that has been placed in the reinsurance\n market Percent Ceded is applied before aggregate and occurrence terms while Percent\n Placed is applied after aggregate and occurrence terms. | Required if you are creating a new record or editing an existing record. Defaults to a value. Must be a numeric value between 0 and 100 ,\n inclusive. | 100.00 |\n| Reinstatement | Maximum number of times the risk limit can be reinstated after the application of a\n loss amount during the coverage period You can specify a reinstatement value instead of an aggregate limit. If there are\n no reinstatements, the aggregate limit equals the occurrence limit. A treaty cannot\n have both an aggregate limit and a restatement amount that is greater than 0 . Enter 0 to represent no reinstatements or 99 to\n represent unlimited reinstatements. | Applies only to Catastrophe Excess of Loss treaties. Must be 0 if the aggregate limit is greater than 0. Must be a numeric value between 0 and 99 ,\n inclusive. | |\n| Applies to Area | Geographic area to which the treaty applies. Define a geographic area by clicking the down arrow, specifying the desired level\n of regional detail in the filter widget that appears, and then clicking Close . CATXOL : The detailed loss analysis results must be saved\n at the LOB or appropriate geographic resolution or higher for these fields to be\n effective for CATXOL treaties. For example, if a CATXOL treaty includes an LOB\n specified in the Applies to LOB field (on the Terms tab for the treaty), but the loss results are not\n saved by LOB, Touchstone will ignore\n what is specified in the Applies to LOB field and apply the\n CATXOL treaty to all LOBs. Similarly, if a CATXOL treaty includes a geographic\n area within the Applies to Area field (on the Terms tab for the treaty), but the loss results are not\n saved by that particular geographic resolution, Touchstone will ignore what is specified in the Applies to Area field and apply the CATXOL treaty to all\n geographic areas. QS & XPR : You do not need to save by the same\n resolution for Quota Share and Per-Risk XOL treaties for Touchstone to apply the treaties correctly. For\n example you can save by Event Total and the QS and XPR treaties will apply\n correctly to what is specified in the Applies to LOB and Applies to Area fields. | Applies only to Catastrophe Excess of Loss (CATXOL), Quota Share, and Per-Risk\n Excess of Loss (XPR) treaties. | |\n| Applies to Event | Event to which these treaty terms apply. | Applies only to Catastrophe Excess of Loss (CATXOL), Quota Share, and Per-Risk\n Excess of Loss (XPR) treaties. | |\n| Applies to LOB | User lines of business (LOBs) to which this treaty applies. CATXOL : Detailed loss analysis results must be saved at\n the LOB or appropriate geographic resolution or higher for these fields to be\n effective for CATXOL treaties. For example, if a CATXOL treaty includes an LOB\n specified in the Applies to LOB field (on the Terms tab for the treaty), but the loss results are not\n saved by LOB, Touchstone will ignore\n what is specified in the Applies to LOB field and apply the\n CATXOL treaty to all LOBs. Similarly, if a CATXOL treaty includes a geographic\n area within the Applies to Area field (on the Terms tab for the treaty), but the loss results are not\n saved by that particular geographic resolution, Touchstone will ignore what is specified in the Applies to Area field and apply the CATXOL treaty to all\n geographic areas. QS & XPR : You do not need to save by the same\n resolution for Quota Share and Per-Risk XOL treaties for Touchstone to apply the treaties correctly. For\n example you can save by Event Total and the QS and XPR treaties will apply\n correctly to what is specified in the Applies to LOB and Applies to\n Area fields. | Applies only to Catastrophe Excess of Loss (CATXOL), Quota Share, and Per-Risk\n Excess of Loss (XPR) treaties. You can specify up to 200 lines of business for this field. To select additional\n lines of business, create another treaty in the same reinsurance program. Enter None or another non-existent value if you do not want to\n apply reinsurance to your exposure data. If you leave this field blank, Touchstone will apply reinsurance to all\n LOBs. | |\n| Insurer's Coinsurance | Insurer's coinsurance amount. | Applies only to Catastrophe Excess of Loss treaties. Required if you are creating a new record or editing an existing record. Defaults to a value. Must be a numeric value between 0 and 100 ,\n inclusive. | 100.00 |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Treaty Type",
+     "One of the following treaty types: Catastrophe Excess of Loss Quota Share Surplus Share Per-Risk Excess of Loss",
+     "Required if you are creating a new record or editing an existing record.",
+     ""
+    ],
+    [
+     "Treaty ID",
+     "User-specified name of this treaty.",
+     "Required if you are creating a new record or editing an existing record. Must be unique within the reinsurance program. Cannot begin with a space. Can contain up to 100 characters.",
+     ""
+    ],
+    [
+     "Target Type",
+     "One of the following types of exposure to which this treaty applies: Portfolio Contract Location or Layer If you select Location or Layer as the target type, Touchstone automatically applies the treaty at\n                the location level if there are no layers in the policy, and at the layer level if\n                there are layers in the policy.",
+     "The following list summarizes the applicable target type options per treaty\n                    type: Quota Share : Contract; Location or Layer. Per-Risk Excess of Loss : Contract; Location or\n                      Layer. Surplus Share : Location or Layer. Catastrophe Excess of Loss : Portfolio. Required if the treaty type is Quota Share or Per-Risk Excess of Loss. Defaults to a value if the treaty type is Catastrophe Excess of Loss.",
+     "Portfolio (for CAT XOL)"
+    ],
+    [
+     "Trigger Type",
+     "One of the following trigger type values to indicate the type of loss occurrence to\n                which this treaty coverage applies: Losses Occuring During : Treaty coverage is applied to\n                  losses occurring between the treaty inception and expiration dates. Risks Attaching : Treaty coverage is applied to losses\n                  occurring to risks attached or incepted during the treaty period but that may have\n                  a policy expiration date beyond that of the treaty.",
+     "The following list summarizes the applicable trigger type options per treaty type: Quota Share : Losses Occurring During; Risks\n                      Attaching. Per-Risk Excess of Loss : Losses Occurring During;\n                      Risks Attaching. Surplus Share : Losses Occurring During; Risks\n                      Attaching. Catastrophe Excess of Loss : Losses Occurring\n                      During. Required if the treaty type is Quota Share, Surplus Share, or Per-Risk Excess of\n                  Loss. Defaults to a value if the treaty type is Catastrophe Excess of Loss.",
+     "Losses Occurring During (for CAT XOL)"
+    ],
+    [
+     "Percent Ceded",
+     "Ceded amount as a percentage Percent Ceded is applied before aggregate and occurrence terms while Percent Placed\n                is applied after aggregate and occurrence terms.",
+     "Required if you are creating a new record or editing an existing record. Defaults to a value. Must be a numeric value between 0 and 100 ,\n                  inclusive.",
+     "100.00"
+    ],
+    [
+     "Treaty Currency",
+     "Currency in which you are specifying these financial treaty terms.",
+     "Defaults to a value in the Touchstone user interface.",
+     "US Dollar (USD)"
+    ],
+    [
+     "Risk Limit",
+     "Treaty limit for a single risk or layer.",
+     "Applies only to Per-Risk Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     ""
+    ],
+    [
+     "Risk Aggregate Limit",
+     "Aggregate limit for a single risk or per layer for this treaty.",
+     "",
+     ""
+    ],
+    [
+     "Risk Limit Reinstatement",
+     "Maximum number of times the risk limit can be reinstated after the application of\n              a loss amount during the coverage period.",
+     "Applies only to Per-Risk Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     ""
+    ],
+    [
+     "Risk Retention",
+     "Treaty retention for a single risk or per layer.",
+     "Applies only to Per-Risk Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     ""
+    ],
+    [
+     "Risk Aggregate Retention",
+     "Aggregate retention for a single risk or per layer for this treaty.",
+     "",
+     ""
+    ],
+    [
+     "Occurrence Limit",
+     "Maximum loss that this treaty can incur from each occurrence.",
+     "Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     ""
+    ],
+    [
+     "Occurrence Retention",
+     "Deductible amount 1 The treaty does not assume losses below the value\n              specified in this field.",
+     "Applies only to treaties of the Catastrophe Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     ""
+    ],
+    [
+     "Aggregate Limit",
+     "Maximum amount payable under this treaty that provides overall maximum loss\n                limitation A treaty cannot have both an aggregate limit and a reinstatement\n              amount that is greater than 0 .",
+     "Must be 0 if the reinstatement amount is greater than 0 . Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     "0.00"
+    ],
+    [
+     "Aggregate Retention",
+     "Additional monetary amount or percentage of risk that the cedant retains under\n              this treaty.",
+     "Applies only to Catastrophe Excess of Loss treaties. Must be a numeric value between 0 and 99999999999999 , inclusive",
+     ""
+    ],
+    [
+     "Percent Placed",
+     "Percentage of the limit that has been placed in the reinsurance\n              market Percent Ceded is applied before aggregate and occurrence terms while Percent\n              Placed is applied after aggregate and occurrence terms.",
+     "Required if you are creating a new record or editing an existing record. Defaults to a value. Must be a numeric value between 0 and 100 ,\n                  inclusive.",
+     "100.00"
+    ],
+    [
+     "Reinstatement",
+     "Maximum number of times the risk limit can be reinstated after the application of a\n                loss amount during the coverage period You can specify a reinstatement value instead of an aggregate limit. If there are\n                no reinstatements, the aggregate limit equals the occurrence limit. A treaty cannot\n                have both an aggregate limit and a restatement amount that is greater than 0 . Enter 0 to represent no reinstatements or 99 to\n                represent unlimited reinstatements.",
+     "Applies only to Catastrophe Excess of Loss treaties. Must be 0 if the aggregate limit is greater than 0. Must be a numeric value between 0 and 99 ,\n                  inclusive.",
+     ""
+    ],
+    [
+     "Applies to Area",
+     "Geographic area to which the treaty applies. Define a geographic area by clicking the down arrow, specifying the desired level\n                of regional detail in the filter widget that appears, and then clicking Close . CATXOL : The detailed loss analysis results must be saved\n                  at the LOB or appropriate geographic resolution or higher for these fields to be\n                  effective for CATXOL treaties. For example, if a CATXOL treaty includes an LOB\n                  specified in the Applies to LOB field (on the Terms tab for the treaty), but the loss results are not\n                  saved by LOB, Touchstone will ignore\n                  what is specified in the Applies to LOB field and apply the\n                  CATXOL treaty to all LOBs. Similarly, if a CATXOL treaty includes a geographic\n                  area within the Applies to Area field (on the Terms tab for the treaty), but the loss results are not\n                  saved by that particular geographic resolution, Touchstone will ignore what is specified in the Applies to Area field and apply the CATXOL treaty to all\n                  geographic areas. QS & XPR : You do not need to save by the same\n                  resolution for Quota Share and Per-Risk XOL treaties for Touchstone to apply the treaties correctly. For\n                  example you can save by Event Total and the QS and XPR treaties will apply\n                  correctly to what is specified in the Applies to LOB and Applies to Area fields.",
+     "Applies only to Catastrophe Excess of Loss (CATXOL), Quota Share, and Per-Risk\n              Excess of Loss (XPR) treaties.",
+     ""
+    ],
+    [
+     "Applies to Event",
+     "Event to which these treaty terms apply.",
+     "Applies only to Catastrophe Excess of Loss (CATXOL), Quota Share, and Per-Risk\n              Excess of Loss (XPR) treaties.",
+     ""
+    ],
+    [
+     "Applies to LOB",
+     "User lines of business (LOBs) to which this treaty applies. CATXOL : Detailed loss analysis results must be saved at\n                  the LOB or appropriate geographic resolution or higher for these fields to be\n                  effective for CATXOL treaties. For example, if a CATXOL treaty includes an LOB\n                  specified in the Applies to LOB field (on the Terms tab for the treaty), but the loss results are not\n                  saved by LOB, Touchstone will ignore\n                  what is specified in the Applies to LOB field and apply the\n                  CATXOL treaty to all LOBs. Similarly, if a CATXOL treaty includes a geographic\n                  area within the Applies to Area field (on the Terms tab for the treaty), but the loss results are not\n                  saved by that particular geographic resolution, Touchstone will ignore what is specified in the Applies to Area field and apply the CATXOL treaty to all\n                  geographic areas. QS & XPR : You do not need to save by the same\n                  resolution for Quota Share and Per-Risk XOL treaties for Touchstone to apply the treaties correctly. For\n                  example you can save by Event Total and the QS and XPR treaties will apply\n                  correctly to what is specified in the Applies to LOB and Applies to\n                    Area fields.",
+     "Applies only to Catastrophe Excess of Loss (CATXOL), Quota Share, and Per-Risk\n                  Excess of Loss (XPR) treaties. You can specify up to 200 lines of business for this field. To select additional\n                  lines of business, create another treaty in the same reinsurance program. Enter None or another non-existent value if you do not want to\n                  apply reinsurance to your exposure data. If you leave this field blank, Touchstone will apply reinsurance to all\n                  LOBs.",
+     ""
+    ],
+    [
+     "Insurer's Coinsurance",
+     "Insurer's coinsurance amount.",
+     "Applies only to Catastrophe Excess of Loss treaties. Required if you are creating a new record or editing an existing record. Defaults to a value. Must be a numeric value between 0 and 100 ,\n                  inclusive.",
+     "100.00"
+    ]
+   ]
+  }
+ ]
+}

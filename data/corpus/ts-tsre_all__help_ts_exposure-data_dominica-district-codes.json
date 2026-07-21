@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_dominica-district-codes.html",
+ "title": "Dominica district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Dominica district codes\n\nTouchstone\n supports the following district\n codes for Dominica.\n\n| District Code | District Name |\n| --- | --- |\n| 1 | Dominica |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Dominica"
+    ]
+   ]
+  }
+ ]
+}

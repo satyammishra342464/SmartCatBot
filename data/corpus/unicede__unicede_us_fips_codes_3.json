@@ -1,0 +1,245 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_us_fips_codes_3.html",
+ "title": "United States FIPS Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "United States FIPS Codes\n \n\nFIPS codes for the U.S. supported by \nUNICEDE\n/2.\n\nNote:\n\nDo not use this scheme for \nCLASIC/2\n data\n format files.\n\n This Area code scheme is based on the country code and the U.S. FIPS codes for states\n and counties. This scheme can only be used to identify U.S. states and counties. Click a\n state below to view the supported counties and their codes. Please note that: \n\nEach code begins with the three characters '01-'. This set of three characters is\n the country code for the United States. \nThe leading zero is required\n.\n\nThe next two digits is the state FIPS code. For example, the FIPS code of Arizona\n is '04'. \nThe leading zero is required\n.\n\nThe remaining three digits identify the county. The value used is the FIPS county\n code, which \nmust be padded with leading zeros\n so that the county code\n occupies all three digits. For example, the FIPS code for Cochise county in\n Arizona is 3. In \nUNICEDE\n/2 it should be identified by three digits, as '003'.\n\nEXAMPLE: The complete \nUNICEDE\n/2 code for Cochise county in Arizona, USA, is\n '01-04003'.\n\n| Code | Name |\n| --- | --- |\n| 01-00000 | UNITED STATES |\n| 01-01000 | Alabama (AL) Counties |\n| 01-02000 | Alaska (AK) Counties | Alaska (AK) Counties (2.6) |\n| 01-03000 | - (reserved) |\n| 01-04000 | Arizona (AZ) Counties |\n| 01-05000 | Arkansas (AR) Counties |\n| 01-06000 | California (CA) Counties |\n| 01-07000 | - (reserved) |\n| 01-08000 | Colorado (CO) Counties |\n| 01-09000 | Connecticut (CT) Counties |\n| 01-10000 | Delaware (DE) Counties |\n| 01-11000 | District of Columbia (DC) |\n| 01-12000 | Florida (FL) Counties |\n| 01-13000 | Georgia (GA) Counties |\n| 01-14000 | - (reserved) |\n| 01-15000 | Hawaii (HI) Counties |\n| 01-16000 | Idaho (ID) Counties |\n| 01-17000 | Illinois (IL) Counties |\n| 01-18000 | Indiana (IN) Counties |\n| 01-19000 | Iowa (IA) Counties |\n| 01-20000 | Kansas (KS) Counties |\n| 01-21000 | Kentucky (KY) Counties |\n| 01-22000 | Louisiana (LA) Counties |\n| 01-23000 | Maine (ME) Counties |\n| 01-24000 | Maryland (MD) Counties |\n| 01-25000 | Massachusetts (MA) Counties |\n| 01-26000 | Michigan (MI) Counties |\n| 01-27000 | Minnesota (MN) Counties |\n| 01-28000 | Mississippi (MS) Counties |\n| 01-29000 | Missouri (MO) Counties |\n| 01-30000 | Montana (MT) Counties |\n| 01-31000 | Nebraska (NE) Counties |\n| 01-32000 | Nevada (NV) Counties |\n| 01-33000 | New Hampshire (NH) Counties |\n| 01-34000 | New Jersey (NJ) Counties |\n| 01-35000 | New Mexico (NM) Counties |\n| 01-36000 | New York (NY) Counties |\n| 01-37000 | North Carolina (NC) Counties |\n| 01-38000 | North Dakota (ND) Counties |\n| 01-39000 | Ohio (OH) Counties |\n| 01-40000 | Oklahoma (OK) Counties |\n| 01-41000 | Oregon (OR) Counties |\n| 01-42000 | Pennsylvania (PA) Counties |\n| 01-43000 | - (reserved) |\n| 01-44000 | Rhode Island (RI) Counties |\n| 01-45000 | South Carolina (SC) Counties |\n| 01-46000 | South Dakota (SD) Counties |\n| 01-47000 | Tennessee (TN) Counties |\n| 01-48000 | Texas (TX) Counties |\n| 01-49000 | Utah (UT) Counties |\n| 01-50000 | Vermont (VT) Counties |\n| 01-51000 | Virginia (VA) Counties |\n| 01-52000 | - (reserved) |\n| 01-53000 | Washington (WA) Counties |\n| 01-54000 | West Virginia (WV) Counties |\n| 01-55000 | Wisconsin (WI) Counties |\n| 01-56000 | Wyoming (WY) Counties |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Name"
+   ],
+   "rows": [
+    [
+     "01-00000",
+     "UNITED STATES"
+    ],
+    [
+     "01-01000",
+     "Alabama (AL) Counties"
+    ],
+    [
+     "01-02000",
+     "Alaska (AK) Counties | Alaska (AK) Counties (2.6)"
+    ],
+    [
+     "01-03000",
+     "- (reserved)"
+    ],
+    [
+     "01-04000",
+     "Arizona (AZ) Counties"
+    ],
+    [
+     "01-05000",
+     "Arkansas (AR) Counties"
+    ],
+    [
+     "01-06000",
+     "California (CA) Counties"
+    ],
+    [
+     "01-07000",
+     "- (reserved)"
+    ],
+    [
+     "01-08000",
+     "Colorado (CO) Counties"
+    ],
+    [
+     "01-09000",
+     "Connecticut (CT) Counties"
+    ],
+    [
+     "01-10000",
+     "Delaware (DE) Counties"
+    ],
+    [
+     "01-11000",
+     "District of Columbia (DC)"
+    ],
+    [
+     "01-12000",
+     "Florida (FL) Counties"
+    ],
+    [
+     "01-13000",
+     "Georgia (GA) Counties"
+    ],
+    [
+     "01-14000",
+     "- (reserved)"
+    ],
+    [
+     "01-15000",
+     "Hawaii (HI) Counties"
+    ],
+    [
+     "01-16000",
+     "Idaho (ID) Counties"
+    ],
+    [
+     "01-17000",
+     "Illinois (IL) Counties"
+    ],
+    [
+     "01-18000",
+     "Indiana (IN) Counties"
+    ],
+    [
+     "01-19000",
+     "Iowa (IA) Counties"
+    ],
+    [
+     "01-20000",
+     "Kansas (KS) Counties"
+    ],
+    [
+     "01-21000",
+     "Kentucky (KY) Counties"
+    ],
+    [
+     "01-22000",
+     "Louisiana (LA) Counties"
+    ],
+    [
+     "01-23000",
+     "Maine (ME) Counties"
+    ],
+    [
+     "01-24000",
+     "Maryland (MD) Counties"
+    ],
+    [
+     "01-25000",
+     "Massachusetts (MA) Counties"
+    ],
+    [
+     "01-26000",
+     "Michigan (MI) Counties"
+    ],
+    [
+     "01-27000",
+     "Minnesota (MN) Counties"
+    ],
+    [
+     "01-28000",
+     "Mississippi (MS) Counties"
+    ],
+    [
+     "01-29000",
+     "Missouri (MO) Counties"
+    ],
+    [
+     "01-30000",
+     "Montana (MT) Counties"
+    ],
+    [
+     "01-31000",
+     "Nebraska (NE) Counties"
+    ],
+    [
+     "01-32000",
+     "Nevada (NV) Counties"
+    ],
+    [
+     "01-33000",
+     "New Hampshire (NH) Counties"
+    ],
+    [
+     "01-34000",
+     "New Jersey (NJ) Counties"
+    ],
+    [
+     "01-35000",
+     "New Mexico (NM) Counties"
+    ],
+    [
+     "01-36000",
+     "New York (NY) Counties"
+    ],
+    [
+     "01-37000",
+     "North Carolina (NC) Counties"
+    ],
+    [
+     "01-38000",
+     "North Dakota (ND) Counties"
+    ],
+    [
+     "01-39000",
+     "Ohio (OH) Counties"
+    ],
+    [
+     "01-40000",
+     "Oklahoma (OK) Counties"
+    ],
+    [
+     "01-41000",
+     "Oregon (OR) Counties"
+    ],
+    [
+     "01-42000",
+     "Pennsylvania (PA) Counties"
+    ],
+    [
+     "01-43000",
+     "- (reserved)"
+    ],
+    [
+     "01-44000",
+     "Rhode Island (RI) Counties"
+    ],
+    [
+     "01-45000",
+     "South Carolina (SC) Counties"
+    ],
+    [
+     "01-46000",
+     "South Dakota (SD) Counties"
+    ],
+    [
+     "01-47000",
+     "Tennessee (TN) Counties"
+    ],
+    [
+     "01-48000",
+     "Texas (TX) Counties"
+    ],
+    [
+     "01-49000",
+     "Utah (UT) Counties"
+    ],
+    [
+     "01-50000",
+     "Vermont (VT) Counties"
+    ],
+    [
+     "01-51000",
+     "Virginia (VA) Counties"
+    ],
+    [
+     "01-52000",
+     "- (reserved)"
+    ],
+    [
+     "01-53000",
+     "Washington (WA) Counties"
+    ],
+    [
+     "01-54000",
+     "West Virginia (WV) Counties"
+    ],
+    [
+     "01-55000",
+     "Wisconsin (WI) Counties"
+    ],
+    [
+     "01-56000",
+     "Wyoming (WY) Counties"
+    ]
+   ]
+  }
+ ]
+}

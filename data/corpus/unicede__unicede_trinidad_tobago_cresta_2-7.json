@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_trinidad_tobago_cresta_2-7.html",
+ "title": "Trinidad and Tobago CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Trinidad and Tobago \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Trinidad and Tobago supported by \nUNICEDE\n/2.\n\nThe \nCRESTA\n codes for Trinidad and Tobago (42) are listed below.\n\n| Area Tag | Zone |\n| --- | --- |\n| 42-000 | TRINIDAD AND TOBAGO |\n| 42-101 | Greater Port of Spain |\n| 42-102 | Diego Martin |\n| 42-103 | St. Anns |\n| 42-104 | Tacarigua |\n| 42-105 | Arima |\n| 42-200 | Rest of Trinidad |\n| 42-300 | Tobago |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "42-000",
+     "TRINIDAD AND TOBAGO"
+    ],
+    [
+     "42-101",
+     "Greater Port of Spain"
+    ],
+    [
+     "42-102",
+     "Diego Martin"
+    ],
+    [
+     "42-103",
+     "St. Anns"
+    ],
+    [
+     "42-104",
+     "Tacarigua"
+    ],
+    [
+     "42-105",
+     "Arima"
+    ],
+    [
+     "42-200",
+     "Rest of Trinidad"
+    ],
+    [
+     "42-300",
+     "Tobago"
+    ]
+   ]
+  }
+ ]
+}

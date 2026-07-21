@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_bahrain-governorrates_2-9.html",
+ "title": "Bahrain Governorates (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Bahrain Governorates (v2.9)\n\nGovernorates codes for Bahrain supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Bahrain (240).\n\n| Area Tag | Governorates |\n| --- | --- |\n| 240-000 | Bahrain |\n| 240-001 | Capital |\n| 240-002 | Muharraq |\n| 240-003 | Northern |\n| 240-004 | Southern |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Governorates"
+   ],
+   "rows": [
+    [
+     "240-000",
+     "Bahrain"
+    ],
+    [
+     "240-001",
+     "Capital"
+    ],
+    [
+     "240-002",
+     "Muharraq"
+    ],
+    [
+     "240-003",
+     "Northern"
+    ],
+    [
+     "240-004",
+     "Southern"
+    ]
+   ]
+  }
+ ]
+}

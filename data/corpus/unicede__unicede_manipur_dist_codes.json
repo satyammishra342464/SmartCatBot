@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_manipur_dist_codes.html",
+ "title": "Manipur district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Manipur district codes \n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-14000 | Manipur |\n| 113-14001 | Senapati |\n| 113-14002 | Tamenglong |\n| 113-14003 | Churachandpur |\n| 113-14004 | Bishnupur |\n| 113-14005 | Thoubal |\n| 113-14006 | Imphal West |\n| 113-14007 | Imphal East |\n| 113-14008 | Ukhrul |\n| 113-14009 | Chandel |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-14000",
+     "Manipur"
+    ],
+    [
+     "113-14001",
+     "Senapati"
+    ],
+    [
+     "113-14002",
+     "Tamenglong"
+    ],
+    [
+     "113-14003",
+     "Churachandpur"
+    ],
+    [
+     "113-14004",
+     "Bishnupur"
+    ],
+    [
+     "113-14005",
+     "Thoubal"
+    ],
+    [
+     "113-14006",
+     "Imphal West"
+    ],
+    [
+     "113-14007",
+     "Imphal East"
+    ],
+    [
+     "113-14008",
+     "Ukhrul"
+    ],
+    [
+     "113-14009",
+     "Chandel"
+    ]
+   ]
+  }
+ ]
+}

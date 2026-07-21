@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_new_zealand_lob_2-7.html",
+ "title": "New Zealand Lines Of Business (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "New Zealand Lines Of Business (v2.7)\n \n\nLOB codes for New Zealand supported by \nUNICEDE\n/2.\n\nThese codes are valid for New Zealand.\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential Building |\n| CNT | Residential Contents |\n| COM | Commercial |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "CNT",
+     "Residential Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ]
+   ]
+  }
+ ]
+}

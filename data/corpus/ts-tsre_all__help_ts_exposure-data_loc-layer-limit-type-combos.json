@@ -1,0 +1,67 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-layer-limit-type-combos.html",
+ "title": "Location/layer limit type combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location/layer limit type combinations\n\nLocation/layer limit type combinations.\n\n| Location / Layer | B | E | C | CSL100 | CSLAI | N |\n| --- | --- | --- | --- | --- | --- | --- |\n| S | Valid | Valid | Valid | | | Valid |\n| EE | Valid | Valid | Valid | | | Valid |\n| C | Valid | Valid | Valid | Valid | Valid | Valid |\n| EF | Valid | Valid | Valid | Valid | Valid | Valid |\n| N | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Location / Layer",
+    "B",
+    "E",
+    "C",
+    "CSL100",
+    "CSLAI",
+    "N"
+   ],
+   "rows": [
+    [
+     "S",
+     "Valid",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "EE",
+     "Valid",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "C",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "EF",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

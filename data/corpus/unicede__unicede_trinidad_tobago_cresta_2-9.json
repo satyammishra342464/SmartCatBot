@@ -1,0 +1,105 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_trinidad_tobago_cresta_2-9.html",
+ "title": "Trinidad and Tobago CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Trinidad and Tobago \nCRESTA\n Codes (v2.9)\n \n\nCRESTA\n codes for Trinidad and Tobago supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Trinidad and Tobago (42).\n\n| Area Tag | Zone |\n| --- | --- |\n| 42-000 | Trinidad & Tabago |\n| 42-010 | Port of Spain |\n| 42-011 | Mayaro/Rio Claro |\n| 42-012 | Sangre Grande |\n| 42-013 | Princes Town |\n| 42-014 | Penal/Debe |\n| 42-015 | Siparia |\n| 42-020 | San Fernando |\n| 42-030 | Arima |\n| 42-040 | Chaguanas |\n| 42-050 | Point Fortin |\n| 42-060 | Diego Martin |\n| 42-070 | San Juan/Laventille |\n| 42-080 | Tunapuna/Piarco |\n| 42-090 | Couva/Tabaquite/Talparo |\n| 42-091 | St. George |\n| 42-092 | St. Mary |\n| 42-093 | St. Andrew |\n| 42-094 | St. Patrick |\n| 42-095 | St. David |\n| 42-096 | St. Paul |\n| 42-097 | St. John |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "42-000",
+     "Trinidad & Tabago"
+    ],
+    [
+     "42-010",
+     "Port of Spain"
+    ],
+    [
+     "42-011",
+     "Mayaro/Rio Claro"
+    ],
+    [
+     "42-012",
+     "Sangre Grande"
+    ],
+    [
+     "42-013",
+     "Princes Town"
+    ],
+    [
+     "42-014",
+     "Penal/Debe"
+    ],
+    [
+     "42-015",
+     "Siparia"
+    ],
+    [
+     "42-020",
+     "San Fernando"
+    ],
+    [
+     "42-030",
+     "Arima"
+    ],
+    [
+     "42-040",
+     "Chaguanas"
+    ],
+    [
+     "42-050",
+     "Point Fortin"
+    ],
+    [
+     "42-060",
+     "Diego Martin"
+    ],
+    [
+     "42-070",
+     "San Juan/Laventille"
+    ],
+    [
+     "42-080",
+     "Tunapuna/Piarco"
+    ],
+    [
+     "42-090",
+     "Couva/Tabaquite/Talparo"
+    ],
+    [
+     "42-091",
+     "St. George"
+    ],
+    [
+     "42-092",
+     "St. Mary"
+    ],
+    [
+     "42-093",
+     "St. Andrew"
+    ],
+    [
+     "42-094",
+     "St. Patrick"
+    ],
+    [
+     "42-095",
+     "St. David"
+    ],
+    [
+     "42-096",
+     "St. Paul"
+    ],
+    [
+     "42-097",
+     "St. John"
+    ]
+   ]
+  }
+ ]
+}

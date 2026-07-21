@@ -1,0 +1,433 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_peru-cresta-codes.html",
+ "title": "Peru CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Peru \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Peru.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Zone 01 |\n| 1 | Zone 1 |\n| 1.1 | Ventanilla |\n| 1.1 | Z01.1:Ventanilla |\n| 1.2 | Z01.2:Callao |\n| 1.2 | Callao |\n| 1.3 | Carmen de la Legua |\n| 1.3 | Z01.3:Carmen de la Legua |\n| 1.4 | Z01.4:Bellavista |\n| 1.4 | Bellavista |\n| 1.5 | La Perla |\n| 1.5 | Z01.5:La Perla |\n| 1.6 | Z01.6:La Punta |\n| 1.6 | La Punta |\n| 2 | Zone 2 |\n| 2 | Zone 02 |\n| 2.1 | Z02.1:San Martin de Porras |\n| 2.1 | San Martin de Porras |\n| 2.2 | Lima |\n| 2.2 | Z02.2:Lima |\n| 2.3 | San Miguel |\n| 2.3 | Z02.3:San Miguel |\n| 2.4 | Magdalena del Mar |\n| 2.4 | Z02.4:Magdalena del Mar |\n| 2.5 | Jesus Maria |\n| 2.5 | Z02.5:Jesus Maria |\n| 2.6 | Pueblo Libre |\n| 2.6 | Z02.6:Pueblo Libre |\n| 2.7 | Z02.7:Brena |\n| 2.7 | Brena |\n| 2.8 | La Victoria |\n| 2.8 | Z02.8:La Victoria |\n| 2.9 | San Luis |\n| 2.9 | Z02.9:San Luis |\n| 3 | Zone 03 |\n| 3 | Zone 3 |\n| 3.1 | Lince |\n| 3.1 | Z03.1:Lince |\n| 3.2 | San Isidro |\n| 3.2 | Z03.2:San Isidro |\n| 3.3 | Miraflores |\n| 3.3 | Z03.3:Miraflores |\n| 4 | Zone 4 |\n| 4 | Zone 04 |\n| 4.1 | Z04.1:El Agustino |\n| 4.1 | El Agustino |\n| 4.2 | Z04.2:Ate |\n| 4.2 | Ate |\n| 5 | Z05.0:Barranco/ Chorrillos/ rest of Lima |\n| 5 | Zone 5 |\n| 6 | Zone 06 |\n| 6 | Zone 6 |\n| 6.1 | Z06.1:Tumbes |\n| 6.1 | Tumbes |\n| 6.2 | Piura |\n| 6.2 | Z06.2:Piura |\n| 6.3 | Lambayeque |\n| 6.3 | Z06.3:Lambayeque |\n| 7 | Zone 07 |\n| 7 | Zone 7 |\n| 7.1 | Z07.1:Cajamarca |\n| 7.1 | Cajamarca |\n| 7.2 | Z07.2:La Libertad |\n| 7.2 | La Libertad |\n| 8 | Zone 8 |\n| 8 | Zone 08 |\n| 8.1 | Z08.1:Loreto |\n| 8.1 | Loreto |\n| 8.2 | Amazonas |\n| 8.2 | Z08.2:Amazonas |\n| 8.3 | San Martin |\n| 8.3 | Z08.3:San Martin |\n| 8.4 | Huanuco |\n| 8.4 | Z08.4:Huanuco |\n| 8.5 | Ucayali |\n| 8.5 | Z08.5:Ucayali |\n| 8.6 | Madre de Dios |\n| 8.6 | Z08.6:Madre de Dios |\n| 8.7 | Cuzco |\n| 8.7 | Z08.7:Cuzco |\n| 8.8 | Z08.8:Puno |\n| 8.8 | Puno |\n| 9 | Z09.0:Ancash |\n| 9 | Zone 9 |\n| 10 | Zone 10 |\n| 10.1 | Z10.1:Pasco |\n| 10.1 | Pasco |\n| 10.2 | Z10.2:Junin |\n| 10.2 | Junin |\n| 10.3 | Z10.3:Huancavelica |\n| 10.3 | Huancavelica |\n| 10.4 | Ayacucho |\n| 10.4 | Z10.4:Ayacucho |\n| 10.5 | Apurimac |\n| 10.5 | Z10.5:Apurimac |\n| 11 | Z11.0:Ica |\n| 11 | Zone 11 |\n| 12 | Zone 12 |\n| 12.1 | Arequipa |\n| 12.1 | Z12.1:Arequipa |\n| 12.2 | Moquegua |\n| 12.2 | Z12.2:Moquegua |\n| 12.3 | Tacna |\n| 12.3 | Z12.3:Tacna |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Zone 01"
+    ],
+    [
+     "1",
+     "Zone 1"
+    ],
+    [
+     "1.1",
+     "Ventanilla"
+    ],
+    [
+     "1.1",
+     "Z01.1:Ventanilla"
+    ],
+    [
+     "1.2",
+     "Z01.2:Callao"
+    ],
+    [
+     "1.2",
+     "Callao"
+    ],
+    [
+     "1.3",
+     "Carmen de la Legua"
+    ],
+    [
+     "1.3",
+     "Z01.3:Carmen de la Legua"
+    ],
+    [
+     "1.4",
+     "Z01.4:Bellavista"
+    ],
+    [
+     "1.4",
+     "Bellavista"
+    ],
+    [
+     "1.5",
+     "La Perla"
+    ],
+    [
+     "1.5",
+     "Z01.5:La Perla"
+    ],
+    [
+     "1.6",
+     "Z01.6:La Punta"
+    ],
+    [
+     "1.6",
+     "La Punta"
+    ],
+    [
+     "2",
+     "Zone 2"
+    ],
+    [
+     "2",
+     "Zone 02"
+    ],
+    [
+     "2.1",
+     "Z02.1:San Martin de Porras"
+    ],
+    [
+     "2.1",
+     "San Martin de Porras"
+    ],
+    [
+     "2.2",
+     "Lima"
+    ],
+    [
+     "2.2",
+     "Z02.2:Lima"
+    ],
+    [
+     "2.3",
+     "San Miguel"
+    ],
+    [
+     "2.3",
+     "Z02.3:San Miguel"
+    ],
+    [
+     "2.4",
+     "Magdalena del Mar"
+    ],
+    [
+     "2.4",
+     "Z02.4:Magdalena del Mar"
+    ],
+    [
+     "2.5",
+     "Jesus Maria"
+    ],
+    [
+     "2.5",
+     "Z02.5:Jesus Maria"
+    ],
+    [
+     "2.6",
+     "Pueblo Libre"
+    ],
+    [
+     "2.6",
+     "Z02.6:Pueblo Libre"
+    ],
+    [
+     "2.7",
+     "Z02.7:Brena"
+    ],
+    [
+     "2.7",
+     "Brena"
+    ],
+    [
+     "2.8",
+     "La Victoria"
+    ],
+    [
+     "2.8",
+     "Z02.8:La Victoria"
+    ],
+    [
+     "2.9",
+     "San Luis"
+    ],
+    [
+     "2.9",
+     "Z02.9:San Luis"
+    ],
+    [
+     "3",
+     "Zone 03"
+    ],
+    [
+     "3",
+     "Zone 3"
+    ],
+    [
+     "3.1",
+     "Lince"
+    ],
+    [
+     "3.1",
+     "Z03.1:Lince"
+    ],
+    [
+     "3.2",
+     "San Isidro"
+    ],
+    [
+     "3.2",
+     "Z03.2:San Isidro"
+    ],
+    [
+     "3.3",
+     "Miraflores"
+    ],
+    [
+     "3.3",
+     "Z03.3:Miraflores"
+    ],
+    [
+     "4",
+     "Zone 4"
+    ],
+    [
+     "4",
+     "Zone 04"
+    ],
+    [
+     "4.1",
+     "Z04.1:El Agustino"
+    ],
+    [
+     "4.1",
+     "El Agustino"
+    ],
+    [
+     "4.2",
+     "Z04.2:Ate"
+    ],
+    [
+     "4.2",
+     "Ate"
+    ],
+    [
+     "5",
+     "Z05.0:Barranco/ Chorrillos/ rest of Lima"
+    ],
+    [
+     "5",
+     "Zone 5"
+    ],
+    [
+     "6",
+     "Zone 06"
+    ],
+    [
+     "6",
+     "Zone 6"
+    ],
+    [
+     "6.1",
+     "Z06.1:Tumbes"
+    ],
+    [
+     "6.1",
+     "Tumbes"
+    ],
+    [
+     "6.2",
+     "Piura"
+    ],
+    [
+     "6.2",
+     "Z06.2:Piura"
+    ],
+    [
+     "6.3",
+     "Lambayeque"
+    ],
+    [
+     "6.3",
+     "Z06.3:Lambayeque"
+    ],
+    [
+     "7",
+     "Zone 07"
+    ],
+    [
+     "7",
+     "Zone 7"
+    ],
+    [
+     "7.1",
+     "Z07.1:Cajamarca"
+    ],
+    [
+     "7.1",
+     "Cajamarca"
+    ],
+    [
+     "7.2",
+     "Z07.2:La Libertad"
+    ],
+    [
+     "7.2",
+     "La Libertad"
+    ],
+    [
+     "8",
+     "Zone 8"
+    ],
+    [
+     "8",
+     "Zone 08"
+    ],
+    [
+     "8.1",
+     "Z08.1:Loreto"
+    ],
+    [
+     "8.1",
+     "Loreto"
+    ],
+    [
+     "8.2",
+     "Amazonas"
+    ],
+    [
+     "8.2",
+     "Z08.2:Amazonas"
+    ],
+    [
+     "8.3",
+     "San Martin"
+    ],
+    [
+     "8.3",
+     "Z08.3:San Martin"
+    ],
+    [
+     "8.4",
+     "Huanuco"
+    ],
+    [
+     "8.4",
+     "Z08.4:Huanuco"
+    ],
+    [
+     "8.5",
+     "Ucayali"
+    ],
+    [
+     "8.5",
+     "Z08.5:Ucayali"
+    ],
+    [
+     "8.6",
+     "Madre de Dios"
+    ],
+    [
+     "8.6",
+     "Z08.6:Madre de Dios"
+    ],
+    [
+     "8.7",
+     "Cuzco"
+    ],
+    [
+     "8.7",
+     "Z08.7:Cuzco"
+    ],
+    [
+     "8.8",
+     "Z08.8:Puno"
+    ],
+    [
+     "8.8",
+     "Puno"
+    ],
+    [
+     "9",
+     "Z09.0:Ancash"
+    ],
+    [
+     "9",
+     "Zone 9"
+    ],
+    [
+     "10",
+     "Zone 10"
+    ],
+    [
+     "10.1",
+     "Z10.1:Pasco"
+    ],
+    [
+     "10.1",
+     "Pasco"
+    ],
+    [
+     "10.2",
+     "Z10.2:Junin"
+    ],
+    [
+     "10.2",
+     "Junin"
+    ],
+    [
+     "10.3",
+     "Z10.3:Huancavelica"
+    ],
+    [
+     "10.3",
+     "Huancavelica"
+    ],
+    [
+     "10.4",
+     "Ayacucho"
+    ],
+    [
+     "10.4",
+     "Z10.4:Ayacucho"
+    ],
+    [
+     "10.5",
+     "Apurimac"
+    ],
+    [
+     "10.5",
+     "Z10.5:Apurimac"
+    ],
+    [
+     "11",
+     "Z11.0:Ica"
+    ],
+    [
+     "11",
+     "Zone 11"
+    ],
+    [
+     "12",
+     "Zone 12"
+    ],
+    [
+     "12.1",
+     "Arequipa"
+    ],
+    [
+     "12.1",
+     "Z12.1:Arequipa"
+    ],
+    [
+     "12.2",
+     "Moquegua"
+    ],
+    [
+     "12.2",
+     "Z12.2:Moquegua"
+    ],
+    [
+     "12.3",
+     "Tacna"
+    ],
+    [
+     "12.3",
+     "Z12.3:Tacna"
+    ]
+   ]
+  }
+ ]
+}

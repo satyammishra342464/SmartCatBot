@@ -1,0 +1,28 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_layer-agg_limit-types.html",
+ "title": "Layer aggregate limit types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer aggregate limit types\n\nNGM\n financial engine policy\n terms: layer aggregate limit types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| AGGL | Annual aggregate limit | Total |\n| N | No limit | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "AGGL",
+     "Annual aggregate limit",
+     "Total"
+    ],
+    [
+     "N",
+     "No limit",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

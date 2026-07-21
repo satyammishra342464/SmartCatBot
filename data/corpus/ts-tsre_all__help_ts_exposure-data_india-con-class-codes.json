@@ -1,0 +1,100 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_india-con-class-codes.html",
+ "title": "India construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "India construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for India.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction Code | Construction Class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood Frame (Modern) |\n| Masonry | 111 | Masonry |\n| 112 | Adobe |\n| 113 | Rubble Stone Masonry |\n| 114 | Unreinforced Masonry - Bearing Wall |\n| 120 | Confined Masonry |\n| Concrete | 131 | Reinforced Concrete |\n| 132 | Reinforced Concrete Shear Wall (with MRF) |\n| 133 | Reinforced Concrete Shear Wall (without MRF) |\n| 139 | Reinforced Concrete MRF |\n| 140 | Reinforced Concrete MRF with URM |\n| Steel | 151 | Steel |\n| 152 | Light Metal |\n| 153 | Braced Steel Frame |\n| 156 | Steel MRF |\n| 157 | Steel Frame with URM |\n| 158 | Steel Frame with Concrete Shear Wall |\n| Automobiles | 261 | Automobiles |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction Code",
+    "Construction Class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood Frame (Modern)"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "112",
+     "Adobe"
+    ],
+    [
+     "113",
+     "Rubble Stone Masonry"
+    ],
+    [
+     "114",
+     "Unreinforced Masonry - Bearing Wall"
+    ],
+    [
+     "120",
+     "Confined Masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced Concrete"
+    ],
+    [
+     "132",
+     "Reinforced Concrete Shear Wall (with MRF)"
+    ],
+    [
+     "133",
+     "Reinforced Concrete Shear Wall (without MRF)"
+    ],
+    [
+     "139",
+     "Reinforced Concrete MRF"
+    ],
+    [
+     "140",
+     "Reinforced Concrete MRF with URM"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "152",
+     "Light Metal"
+    ],
+    [
+     "153",
+     "Braced Steel Frame"
+    ],
+    [
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "157",
+     "Steel Frame with URM"
+    ],
+    [
+     "158",
+     "Steel Frame with Concrete Shear Wall"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ]
+   ]
+  }
+ ]
+}

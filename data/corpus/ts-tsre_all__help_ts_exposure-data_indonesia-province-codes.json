@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_indonesia-province-codes.html",
+ "title": "Indonesia province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Indonesia province codes\n\nTouchstone\n supports the following province\n codes for Indonesia.\n\n| Province Code | Province Name |\n| --- | --- |\n| 11 | Nanggroe Aceh Darussalam |\n| 12 | Sumatera Utara |\n| 13 | Sumatera Barat |\n| 14 | Riau |\n| 15 | Jambi |\n| 16 | Sumatera Selatan |\n| 17 | Bengkulu |\n| 18 | Lampung |\n| 19 | Kepulauan Bangka Belitung |\n| 21 | Kepulauan Riau |\n| 31 | DKI Jakarta |\n| 32 | Jawa Barat |\n| 33 | Jawa Tengah |\n| 34 | DI Yogyakarta |\n| 35 | Jawa Timur |\n| 36 | Banten |\n| 51 | Bali |\n| 52 | Nusa Tenggara Barat |\n| 53 | Nusa Tenggara Timur |\n| 61 | Kalimantan Barat |\n| 62 | Kalimantan Tengah |\n| 63 | Kalimantan Selatan |\n| 64 | Kalimantan Timur |\n| 71 | Sulawesi Utara |\n| 72 | Sulawesi Tengah |\n| 73 | Sulawesi Selatan |\n| 74 | Sulawesi Tenggara |\n| 75 | Gorontalo |\n| 76 | Sulawesi Barat |\n| 81 | Maluku |\n| 82 | Maluku Utara |\n| 91 | Papua Barat |\n| 94 | Papua |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "11",
+     "Nanggroe Aceh Darussalam"
+    ],
+    [
+     "12",
+     "Sumatera Utara"
+    ],
+    [
+     "13",
+     "Sumatera Barat"
+    ],
+    [
+     "14",
+     "Riau"
+    ],
+    [
+     "15",
+     "Jambi"
+    ],
+    [
+     "16",
+     "Sumatera Selatan"
+    ],
+    [
+     "17",
+     "Bengkulu"
+    ],
+    [
+     "18",
+     "Lampung"
+    ],
+    [
+     "19",
+     "Kepulauan Bangka Belitung"
+    ],
+    [
+     "21",
+     "Kepulauan Riau"
+    ],
+    [
+     "31",
+     "DKI Jakarta"
+    ],
+    [
+     "32",
+     "Jawa Barat"
+    ],
+    [
+     "33",
+     "Jawa Tengah"
+    ],
+    [
+     "34",
+     "DI Yogyakarta"
+    ],
+    [
+     "35",
+     "Jawa Timur"
+    ],
+    [
+     "36",
+     "Banten"
+    ],
+    [
+     "51",
+     "Bali"
+    ],
+    [
+     "52",
+     "Nusa Tenggara Barat"
+    ],
+    [
+     "53",
+     "Nusa Tenggara Timur"
+    ],
+    [
+     "61",
+     "Kalimantan Barat"
+    ],
+    [
+     "62",
+     "Kalimantan Tengah"
+    ],
+    [
+     "63",
+     "Kalimantan Selatan"
+    ],
+    [
+     "64",
+     "Kalimantan Timur"
+    ],
+    [
+     "71",
+     "Sulawesi Utara"
+    ],
+    [
+     "72",
+     "Sulawesi Tengah"
+    ],
+    [
+     "73",
+     "Sulawesi Selatan"
+    ],
+    [
+     "74",
+     "Sulawesi Tenggara"
+    ],
+    [
+     "75",
+     "Gorontalo"
+    ],
+    [
+     "76",
+     "Sulawesi Barat"
+    ],
+    [
+     "81",
+     "Maluku"
+    ],
+    [
+     "82",
+     "Maluku Utara"
+    ],
+    [
+     "91",
+     "Papua Barat"
+    ],
+    [
+     "94",
+     "Papua"
+    ]
+   ]
+  }
+ ]
+}

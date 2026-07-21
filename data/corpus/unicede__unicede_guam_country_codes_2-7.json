@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_guam_country_codes_2-7.html",
+ "title": "Guam Country Code (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Guam Country Code (v2.7)\n \n\nCounty code for Guam supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Guam (105).\n\n| Area Tag | Country Code |\n| --- | --- |\n| 105-000 | Guam |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Country Code"
+   ],
+   "rows": [
+    [
+     "105-000",
+     "Guam"
+    ]
+   ]
+  }
+ ]
+}

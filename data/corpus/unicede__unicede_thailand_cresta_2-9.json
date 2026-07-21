@@ -1,0 +1,325 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_thailand_cresta_2-9.html",
+ "title": "Thailand CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Thailand \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Thailand supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Thailand (207).\n\n| Area Tag | Zone |\n| --- | --- |\n| 207-000 | Thailand |\n| 207-010 | Z10: Krung Thep Maha Nakhon [Bangkok] |\n| 207-011 | Z11: Samut Prakan |\n| 207-012 | Z12: Nonthaburi |\n| 207-013 | Z13: Pathum Thani |\n| 207-014 | Z14: PhraNakhon Si Ayutthaya |\n| 207-015 | Z15: Ang Thong |\n| 207-016 | Z16: Lop Buri |\n| 207-017 | Z17: Sing Buri |\n| 207-018 | Z18: Chai Nat |\n| 207-019 | Z19: Saraburi |\n| 207-020 | Z20: Chon Buri |\n| 207-021 | Z21: Rayong |\n| 207-022 | Z22: Chanthaburi |\n| 207-023 | Z23: Trat |\n| 207-024 | Z24: Chachoengsao |\n| 207-025 | Z25: Prachin Buri |\n| 207-026 | Z26: Nakhon Nayok |\n| 207-027 | Z27: Sa Kaeo |\n| 207-030 | Z30: Nakhon Ratchasima |\n| 207-031 | Z31: Buri Ram |\n| 207-032 | Z32: Surin |\n| 207-033 | Z33: SiSa Ket |\n| 207-034 | Z34: Ubon Ratchathani |\n| 207-035 | Z35: Yasothon |\n| 207-036 | Z36: Chaiyaphum |\n| 207-037 | Z37: Amnat Charoen |\n| 207-039 | Z39: Nong Bua Lam Phu |\n| 207-040 | Z40: Khon Kaen |\n| 207-041 | Z41: Udon Thani |\n| 207-042 | Z42: Loei |\n| 207-043 | Z43: Nong Khai |\n| 207-044 | Z44: Maha Sarakham |\n| 207-045 | Z45: Roi Et |\n| 207-046 | Z46: Kalasin |\n| 207-047 | Z47: Sakon Nakhon |\n| 207-048 | Z48: Nakhon Phanom |\n| 207-049 | Z49: Mukdahan |\n| 207-050 | Z50: Chiang Mai |\n| 207-051 | Z51: Lamphun |\n| 207-052 | Z52: Lampang |\n| 207-053 | Z53: Uttaradit |\n| 207-054 | Z54: Phrae |\n| 207-055 | Z55: Nan |\n| 207-056 | Z56: Phayao |\n| 207-057 | Z57: Chiang Rai |\n| 207-058 | Z58: Mae Hong Son |\n| 207-060 | Z60: Nakhon Sawan |\n| 207-061 | Z61: Uthai Thani |\n| 207-062 | Z62: Kamphaeng Phet |\n| 207-063 | Z63: Tak |\n| 207-064 | Z64: Sukhothai |\n| 207-065 | Z65: Phitsanulok |\n| 207-066 | Z66: Phichit |\n| 207-067 | Z67: Phetchabun |\n| 207-070 | Z70: Ratchaburi |\n| 207-071 | Z71: Kanchanaburi |\n| 207-072 | Z72: Suphan Buri |\n| 207-073 | Z73: Nakhon Pathom |\n| 207-074 | Z74: Samut Sakhon |\n| 207-075 | Z75: Samut Songkhram |\n| 207-076 | Z76: Phetchaburi |\n| 207-077 | Z77: Prachuap Khiri Khan |\n| 207-080 | Z80: Nakhon Si Thammarat |\n| 207-081 | Z81: Krabi |\n| 207-082 | Z82: Phangnga |\n| 207-083 | Z83: Phuket |\n| 207-084 | Z84: Surat Thani |\n| 207-085 | Z85: Ranong |\n| 207-086 | Z86: Chumphon |\n| 207-090 | Z90: Songkhla |\n| 207-091 | Z91: Satun |\n| 207-092 | Z92: Trang |\n| 207-093 | Z93: Phatthalung |\n| 207-094 | Z94: Pattani |\n| 207-095 | Z95: Yala |\n| 207-096 | Z96: Narathiwat |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "207-000",
+     "Thailand"
+    ],
+    [
+     "207-010",
+     "Z10: Krung Thep Maha Nakhon [Bangkok]"
+    ],
+    [
+     "207-011",
+     "Z11: Samut Prakan"
+    ],
+    [
+     "207-012",
+     "Z12: Nonthaburi"
+    ],
+    [
+     "207-013",
+     "Z13: Pathum Thani"
+    ],
+    [
+     "207-014",
+     "Z14: PhraNakhon Si Ayutthaya"
+    ],
+    [
+     "207-015",
+     "Z15: Ang Thong"
+    ],
+    [
+     "207-016",
+     "Z16: Lop Buri"
+    ],
+    [
+     "207-017",
+     "Z17: Sing Buri"
+    ],
+    [
+     "207-018",
+     "Z18: Chai Nat"
+    ],
+    [
+     "207-019",
+     "Z19: Saraburi"
+    ],
+    [
+     "207-020",
+     "Z20: Chon Buri"
+    ],
+    [
+     "207-021",
+     "Z21: Rayong"
+    ],
+    [
+     "207-022",
+     "Z22: Chanthaburi"
+    ],
+    [
+     "207-023",
+     "Z23: Trat"
+    ],
+    [
+     "207-024",
+     "Z24: Chachoengsao"
+    ],
+    [
+     "207-025",
+     "Z25: Prachin Buri"
+    ],
+    [
+     "207-026",
+     "Z26: Nakhon Nayok"
+    ],
+    [
+     "207-027",
+     "Z27: Sa Kaeo"
+    ],
+    [
+     "207-030",
+     "Z30: Nakhon Ratchasima"
+    ],
+    [
+     "207-031",
+     "Z31: Buri Ram"
+    ],
+    [
+     "207-032",
+     "Z32: Surin"
+    ],
+    [
+     "207-033",
+     "Z33: SiSa Ket"
+    ],
+    [
+     "207-034",
+     "Z34: Ubon Ratchathani"
+    ],
+    [
+     "207-035",
+     "Z35: Yasothon"
+    ],
+    [
+     "207-036",
+     "Z36: Chaiyaphum"
+    ],
+    [
+     "207-037",
+     "Z37: Amnat Charoen"
+    ],
+    [
+     "207-039",
+     "Z39: Nong Bua Lam Phu"
+    ],
+    [
+     "207-040",
+     "Z40: Khon Kaen"
+    ],
+    [
+     "207-041",
+     "Z41: Udon Thani"
+    ],
+    [
+     "207-042",
+     "Z42: Loei"
+    ],
+    [
+     "207-043",
+     "Z43: Nong Khai"
+    ],
+    [
+     "207-044",
+     "Z44: Maha Sarakham"
+    ],
+    [
+     "207-045",
+     "Z45: Roi Et"
+    ],
+    [
+     "207-046",
+     "Z46: Kalasin"
+    ],
+    [
+     "207-047",
+     "Z47: Sakon Nakhon"
+    ],
+    [
+     "207-048",
+     "Z48: Nakhon Phanom"
+    ],
+    [
+     "207-049",
+     "Z49: Mukdahan"
+    ],
+    [
+     "207-050",
+     "Z50: Chiang Mai"
+    ],
+    [
+     "207-051",
+     "Z51: Lamphun"
+    ],
+    [
+     "207-052",
+     "Z52: Lampang"
+    ],
+    [
+     "207-053",
+     "Z53: Uttaradit"
+    ],
+    [
+     "207-054",
+     "Z54: Phrae"
+    ],
+    [
+     "207-055",
+     "Z55: Nan"
+    ],
+    [
+     "207-056",
+     "Z56: Phayao"
+    ],
+    [
+     "207-057",
+     "Z57: Chiang Rai"
+    ],
+    [
+     "207-058",
+     "Z58: Mae Hong Son"
+    ],
+    [
+     "207-060",
+     "Z60: Nakhon Sawan"
+    ],
+    [
+     "207-061",
+     "Z61: Uthai Thani"
+    ],
+    [
+     "207-062",
+     "Z62: Kamphaeng Phet"
+    ],
+    [
+     "207-063",
+     "Z63: Tak"
+    ],
+    [
+     "207-064",
+     "Z64: Sukhothai"
+    ],
+    [
+     "207-065",
+     "Z65: Phitsanulok"
+    ],
+    [
+     "207-066",
+     "Z66: Phichit"
+    ],
+    [
+     "207-067",
+     "Z67: Phetchabun"
+    ],
+    [
+     "207-070",
+     "Z70: Ratchaburi"
+    ],
+    [
+     "207-071",
+     "Z71: Kanchanaburi"
+    ],
+    [
+     "207-072",
+     "Z72: Suphan Buri"
+    ],
+    [
+     "207-073",
+     "Z73: Nakhon Pathom"
+    ],
+    [
+     "207-074",
+     "Z74: Samut Sakhon"
+    ],
+    [
+     "207-075",
+     "Z75: Samut Songkhram"
+    ],
+    [
+     "207-076",
+     "Z76: Phetchaburi"
+    ],
+    [
+     "207-077",
+     "Z77: Prachuap Khiri Khan"
+    ],
+    [
+     "207-080",
+     "Z80: Nakhon Si Thammarat"
+    ],
+    [
+     "207-081",
+     "Z81: Krabi"
+    ],
+    [
+     "207-082",
+     "Z82: Phangnga"
+    ],
+    [
+     "207-083",
+     "Z83: Phuket"
+    ],
+    [
+     "207-084",
+     "Z84: Surat Thani"
+    ],
+    [
+     "207-085",
+     "Z85: Ranong"
+    ],
+    [
+     "207-086",
+     "Z86: Chumphon"
+    ],
+    [
+     "207-090",
+     "Z90: Songkhla"
+    ],
+    [
+     "207-091",
+     "Z91: Satun"
+    ],
+    [
+     "207-092",
+     "Z92: Trang"
+    ],
+    [
+     "207-093",
+     "Z93: Phatthalung"
+    ],
+    [
+     "207-094",
+     "Z94: Pattani"
+    ],
+    [
+     "207-095",
+     "Z95: Yala"
+    ],
+    [
+     "207-096",
+     "Z96: Narathiwat"
+    ]
+   ]
+  }
+ ]
+}

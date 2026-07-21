@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_gom-administrative-region-codes.html",
+ "title": "Gulf of Mexico administrative region codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Gulf of Mexico administrative region codes\n\nTouchstone\n supports the following\n administrative region codes for Gulf of Mexico.\n\n| Administrative Region Code | Administrative Region Name |\n| --- | --- |\n| 01 | Alabama |\n| 12 | Florida |\n| 22 | Louisiana |\n| 28 | Mississippi |\n| 48 | Texas |\n| OCS | Outer Continental Shelf |",
+ "tables": [
+  {
+   "headers": [
+    "Administrative Region Code",
+    "Administrative Region Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Alabama"
+    ],
+    [
+     "12",
+     "Florida"
+    ],
+    [
+     "22",
+     "Louisiana"
+    ],
+    [
+     "28",
+     "Mississippi"
+    ],
+    [
+     "48",
+     "Texas"
+    ],
+    [
+     "OCS",
+     "Outer Continental Shelf"
+    ]
+   ]
+  }
+ ]
+}

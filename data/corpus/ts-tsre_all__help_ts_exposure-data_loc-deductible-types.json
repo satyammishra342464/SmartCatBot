@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-deductible-types.html",
+ "title": "Location deductible types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location deductible types\n\nNGM\n financial engine policy\n terms: location deductible types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| AA | Florida annual amount | Total |\n| C | Deductible by coverage | ABCD |\n| CB | Combined - excluding time | ABC-D |\n| CT | Combined - including time | ABC-D |\n| CPL | Coverage percent of loss | ABCD |\n| FR | Franchise deductible | Total |\n| ML | Maximum of deductible amount or percent loss | Total |\n| MP | Mini policy deductible | Total |\n| N | No deductible | N/A |\n| PL | Percent of loss | Total |\n| S | Site deductible | Total |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "AA",
+     "Florida annual amount",
+     "Total"
+    ],
+    [
+     "C",
+     "Deductible by coverage",
+     "ABCD"
+    ],
+    [
+     "CB",
+     "Combined - excluding time",
+     "ABC-D"
+    ],
+    [
+     "CT",
+     "Combined - including time",
+     "ABC-D"
+    ],
+    [
+     "CPL",
+     "Coverage percent of loss",
+     "ABCD"
+    ],
+    [
+     "FR",
+     "Franchise deductible",
+     "Total"
+    ],
+    [
+     "ML",
+     "Maximum of deductible amount or percent loss",
+     "Total"
+    ],
+    [
+     "MP",
+     "Mini policy deductible",
+     "Total"
+    ],
+    [
+     "N",
+     "No deductible",
+     "N/A"
+    ],
+    [
+     "PL",
+     "Percent of loss",
+     "Total"
+    ],
+    [
+     "S",
+     "Site deductible",
+     "Total"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_tunisia-cresta_2-9.html",
+ "title": "Tunisia CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Tunisia \nCRESTA\n Codes (v2.9) \n\nCRESTA\n codes for Tunisia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Tunisia (212).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 212-000 | Tunisia |\n| 212-011 | Tunis |\n| 212-012 | L'Ariana |\n| 212-013 | Ben Arous |\n| 212-014 | La Manouba |\n| 212-021 | Nabeul |\n| 212-022 | Zaghouan |\n| 212-023 | Bizerte |\n| 212-031 | BÃ©ja |\n| 212-032 | Jendouba |\n| 212-033 | Le Kef |\n| 212-034 | Siliana |\n| 212-041 | Kairouan |\n| 212-042 | Kasserine |\n| 212-043 | Sidi Bouzid |\n| 212-051 | Sousse |\n| 212-052 | Monastir |\n| 212-053 | Mahdia |\n| 212-061 | Sfax |\n| 212-071 | Gafsa |\n| 212-072 | Tozeur |\n| 212-073 | KÃ©bili |\n| 212-081 | GabÃ¨s |\n| 212-082 | MÃ©denine |\n| 212-083 | Tataouine |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "212-000",
+     "Tunisia"
+    ],
+    [
+     "212-011",
+     "Tunis"
+    ],
+    [
+     "212-012",
+     "L'Ariana"
+    ],
+    [
+     "212-013",
+     "Ben Arous"
+    ],
+    [
+     "212-014",
+     "La Manouba"
+    ],
+    [
+     "212-021",
+     "Nabeul"
+    ],
+    [
+     "212-022",
+     "Zaghouan"
+    ],
+    [
+     "212-023",
+     "Bizerte"
+    ],
+    [
+     "212-031",
+     "BÃ©ja"
+    ],
+    [
+     "212-032",
+     "Jendouba"
+    ],
+    [
+     "212-033",
+     "Le Kef"
+    ],
+    [
+     "212-034",
+     "Siliana"
+    ],
+    [
+     "212-041",
+     "Kairouan"
+    ],
+    [
+     "212-042",
+     "Kasserine"
+    ],
+    [
+     "212-043",
+     "Sidi Bouzid"
+    ],
+    [
+     "212-051",
+     "Sousse"
+    ],
+    [
+     "212-052",
+     "Monastir"
+    ],
+    [
+     "212-053",
+     "Mahdia"
+    ],
+    [
+     "212-061",
+     "Sfax"
+    ],
+    [
+     "212-071",
+     "Gafsa"
+    ],
+    [
+     "212-072",
+     "Tozeur"
+    ],
+    [
+     "212-073",
+     "KÃ©bili"
+    ],
+    [
+     "212-081",
+     "GabÃ¨s"
+    ],
+    [
+     "212-082",
+     "MÃ©denine"
+    ],
+    [
+     "212-083",
+     "Tataouine"
+    ]
+   ]
+  }
+ ]
+}

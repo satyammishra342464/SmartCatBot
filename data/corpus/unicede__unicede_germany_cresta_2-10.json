@@ -1,0 +1,401 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_germany_cresta_2-10.html",
+ "title": "Germany CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Germany \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Germany supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Germany (05).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 05-DEU | Germany |\n| 05-DEU_01 | Z01: Dresden |\n| 05-DEU_02 | Z02: Bautzen/Goerlitz |\n| 05-DEU_03 | Z03: Cottbus |\n| 05-DEU_04 | Z04: Leipzig |\n| 05-DEU_06 | Z06: Halle |\n| 05-DEU_07 | Z07: Gera |\n| 05-DEU_08 | Z08: Zwickau |\n| 05-DEU_09 | Z09: Chemnitz |\n| 05-DEU_10 | Z10: Berlin |\n| 05-DEU_12 | Z12: Berlin |\n| 05-DEU_13 | Z13: Berlin |\n| 05-DEU_14 | Z14: Potsdam/Brandenburg |\n| 05-DEU_15 | Z15: Frankfurt/Oder |\n| 05-DEU_16 | Z16: Oranienburg |\n| 05-DEU_17 | Z17: Neubrandenburg |\n| 05-DEU_18 | Z18: Rostock/Stralsund |\n| 05-DEU_19 | Z19: Schwerin |\n| 05-DEU_20 | Z20: Hamburg |\n| 05-DEU_21 | Z21: Hamburg-SÃ¼d |\n| 05-DEU_22 | Z22: Hamburg |\n| 05-DEU_23 | Z23: LÃ¼beck |\n| 05-DEU_24 | Z24: Flensburg/Kiel |\n| 05-DEU_25 | Z25: Elmshorn |\n| 05-DEU_26 | Z26: Emden/Oldenburg |\n| 05-DEU_27 | Z27: Bremerhaven |\n| 05-DEU_28 | Z28: Bremen |\n| 05-DEU_29 | Z29: Celle |\n| 05-DEU_30 | Z30: Hannover |\n| 05-DEU_31 | Z31: Hannover |\n| 05-DEU_32 | Z32: Herford |\n| 05-DEU_33 | Z33: Bielefeld |\n| 05-DEU_34 | Z34: Kassel |\n| 05-DEU_35 | Z35: Giessen |\n| 05-DEU_36 | Z36: Fulda |\n| 05-DEU_37 | Z37: Goettingen |\n| 05-DEU_38 | Z38: Braunschweig |\n| 05-DEU_39 | Z39: MagdeburgStendal |\n| 05-DEU_40 | Z40: Duesseldorf |\n| 05-DEU_41 | Z41: MÃ¶nchengladbach |\n| 05-DEU_42 | Z42: Wuppertal |\n| 05-DEU_44 | Z44: Dortmund |\n| 05-DEU_45 | Z45: Essen |\n| 05-DEU_46 | Z46: Oberhausen |\n| 05-DEU_47 | Z47: Duisburg |\n| 05-DEU_48 | Z48: Muenster |\n| 05-DEU_49 | Z49: OsnabrÃ¼eck |\n| 05-DEU_50 | Z50: KÃ¶eln |\n| 05-DEU_51 | Z51: KÃ¶eln/Leverkusen |\n| 05-DEU_52 | Z52: Aachen |\n| 05-DEU_53 | Z53: Bonn |\n| 05-DEU_54 | Z54: Trier |\n| 05-DEU_55 | Z55: Mainz |\n| 05-DEU_56 | Z56: Koblenz |\n| 05-DEU_57 | Z57: Siegen |\n| 05-DEU_58 | Z58: Hagen |\n| 05-DEU_59 | Z59: Arnsberg/Hamm |\n| 05-DEU_60 | Z60: Frankfurt-am-Main |\n| 05-DEU_61 | Z61: Bad Homburg/Friedberg |\n| 05-DEU_63 | Z63: Aschaffenburg |\n| 05-DEU_64 | Z64: Darmstadt |\n| 05-DEU_65 | Z65: Wiesbaden |\n| 05-DEU_66 | Z66: Saarbruecken |\n| 05-DEU_67 | Z67: Kaiserslautern |\n| 05-DEU_68 | Z68: Mannheim |\n| 05-DEU_69 | Z69: Heidelberg |\n| 05-DEU_70 | Z70: Stuttgart |\n| 05-DEU_71 | Z71: Ludwigsburg/Leonberg |\n| 05-DEU_72 | Z72: Tuebingen |\n| 05-DEU_73 | Z73: Goeppingen |\n| 05-DEU_74 | Z74: Heilbronn |\n| 05-DEU_75 | Z75: Pforzheim |\n| 05-DEU_76 | Z76: Karlsruhe |\n| 05-DEU_77 | Z77: Offenburg |\n| 05-DEU_78 | Z78: Karlsruhe |\n| 05-DEU_79 | Z79: Freiburg |\n| 05-DEU_80 | Z80: MÃ¼nchen |\n| 05-DEU_81 | Z81: MÃ¼nchen |\n| 05-DEU_82 | Z82: Garmisch-Partenkirchen |\n| 05-DEU_83 | Z83: Rosenheim |\n| 05-DEU_84 | Z84: Landshut |\n| 05-DEU_85 | Z85: Ingolstadt |\n| 05-DEU_86 | Z86: Augsburg |\n| 05-DEU_87 | Z87: Kempten |\n| 05-DEU_88 | Z88: Friedrichshafen |\n| 05-DEU_89 | Z89: Ulm |\n| 05-DEU_90 | Z90: NÃ¼rnberg |\n| 05-DEU_91 | Z91: Ansbach |\n| 05-DEU_92 | Z92: Amberg |\n| 05-DEU_93 | Z93: Regensburg |\n| 05-DEU_94 | Z94: Passau |\n| 05-DEU_95 | Z95: Hof |\n| 05-DEU_96 | Z96: Bamberg |\n| 05-DEU_97 | Z97: WÃ¼rzburg |\n| 05-DEU_98 | Z98: Suhl |\n| 05-DEU_99 | Z99: Erfurt |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "05-DEU",
+     "Germany"
+    ],
+    [
+     "05-DEU_01",
+     "Z01: Dresden"
+    ],
+    [
+     "05-DEU_02",
+     "Z02: Bautzen/Goerlitz"
+    ],
+    [
+     "05-DEU_03",
+     "Z03: Cottbus"
+    ],
+    [
+     "05-DEU_04",
+     "Z04: Leipzig"
+    ],
+    [
+     "05-DEU_06",
+     "Z06: Halle"
+    ],
+    [
+     "05-DEU_07",
+     "Z07: Gera"
+    ],
+    [
+     "05-DEU_08",
+     "Z08: Zwickau"
+    ],
+    [
+     "05-DEU_09",
+     "Z09: Chemnitz"
+    ],
+    [
+     "05-DEU_10",
+     "Z10: Berlin"
+    ],
+    [
+     "05-DEU_12",
+     "Z12: Berlin"
+    ],
+    [
+     "05-DEU_13",
+     "Z13: Berlin"
+    ],
+    [
+     "05-DEU_14",
+     "Z14: Potsdam/Brandenburg"
+    ],
+    [
+     "05-DEU_15",
+     "Z15: Frankfurt/Oder"
+    ],
+    [
+     "05-DEU_16",
+     "Z16: Oranienburg"
+    ],
+    [
+     "05-DEU_17",
+     "Z17: Neubrandenburg"
+    ],
+    [
+     "05-DEU_18",
+     "Z18: Rostock/Stralsund"
+    ],
+    [
+     "05-DEU_19",
+     "Z19: Schwerin"
+    ],
+    [
+     "05-DEU_20",
+     "Z20: Hamburg"
+    ],
+    [
+     "05-DEU_21",
+     "Z21: Hamburg-SÃ¼d"
+    ],
+    [
+     "05-DEU_22",
+     "Z22: Hamburg"
+    ],
+    [
+     "05-DEU_23",
+     "Z23: LÃ¼beck"
+    ],
+    [
+     "05-DEU_24",
+     "Z24: Flensburg/Kiel"
+    ],
+    [
+     "05-DEU_25",
+     "Z25: Elmshorn"
+    ],
+    [
+     "05-DEU_26",
+     "Z26: Emden/Oldenburg"
+    ],
+    [
+     "05-DEU_27",
+     "Z27: Bremerhaven"
+    ],
+    [
+     "05-DEU_28",
+     "Z28: Bremen"
+    ],
+    [
+     "05-DEU_29",
+     "Z29: Celle"
+    ],
+    [
+     "05-DEU_30",
+     "Z30: Hannover"
+    ],
+    [
+     "05-DEU_31",
+     "Z31: Hannover"
+    ],
+    [
+     "05-DEU_32",
+     "Z32: Herford"
+    ],
+    [
+     "05-DEU_33",
+     "Z33: Bielefeld"
+    ],
+    [
+     "05-DEU_34",
+     "Z34: Kassel"
+    ],
+    [
+     "05-DEU_35",
+     "Z35: Giessen"
+    ],
+    [
+     "05-DEU_36",
+     "Z36: Fulda"
+    ],
+    [
+     "05-DEU_37",
+     "Z37: Goettingen"
+    ],
+    [
+     "05-DEU_38",
+     "Z38: Braunschweig"
+    ],
+    [
+     "05-DEU_39",
+     "Z39: MagdeburgStendal"
+    ],
+    [
+     "05-DEU_40",
+     "Z40: Duesseldorf"
+    ],
+    [
+     "05-DEU_41",
+     "Z41: MÃ¶nchengladbach"
+    ],
+    [
+     "05-DEU_42",
+     "Z42: Wuppertal"
+    ],
+    [
+     "05-DEU_44",
+     "Z44: Dortmund"
+    ],
+    [
+     "05-DEU_45",
+     "Z45: Essen"
+    ],
+    [
+     "05-DEU_46",
+     "Z46: Oberhausen"
+    ],
+    [
+     "05-DEU_47",
+     "Z47: Duisburg"
+    ],
+    [
+     "05-DEU_48",
+     "Z48: Muenster"
+    ],
+    [
+     "05-DEU_49",
+     "Z49: OsnabrÃ¼eck"
+    ],
+    [
+     "05-DEU_50",
+     "Z50: KÃ¶eln"
+    ],
+    [
+     "05-DEU_51",
+     "Z51: KÃ¶eln/Leverkusen"
+    ],
+    [
+     "05-DEU_52",
+     "Z52: Aachen"
+    ],
+    [
+     "05-DEU_53",
+     "Z53: Bonn"
+    ],
+    [
+     "05-DEU_54",
+     "Z54: Trier"
+    ],
+    [
+     "05-DEU_55",
+     "Z55: Mainz"
+    ],
+    [
+     "05-DEU_56",
+     "Z56: Koblenz"
+    ],
+    [
+     "05-DEU_57",
+     "Z57: Siegen"
+    ],
+    [
+     "05-DEU_58",
+     "Z58: Hagen"
+    ],
+    [
+     "05-DEU_59",
+     "Z59: Arnsberg/Hamm"
+    ],
+    [
+     "05-DEU_60",
+     "Z60: Frankfurt-am-Main"
+    ],
+    [
+     "05-DEU_61",
+     "Z61: Bad Homburg/Friedberg"
+    ],
+    [
+     "05-DEU_63",
+     "Z63: Aschaffenburg"
+    ],
+    [
+     "05-DEU_64",
+     "Z64: Darmstadt"
+    ],
+    [
+     "05-DEU_65",
+     "Z65: Wiesbaden"
+    ],
+    [
+     "05-DEU_66",
+     "Z66: Saarbruecken"
+    ],
+    [
+     "05-DEU_67",
+     "Z67: Kaiserslautern"
+    ],
+    [
+     "05-DEU_68",
+     "Z68: Mannheim"
+    ],
+    [
+     "05-DEU_69",
+     "Z69: Heidelberg"
+    ],
+    [
+     "05-DEU_70",
+     "Z70: Stuttgart"
+    ],
+    [
+     "05-DEU_71",
+     "Z71: Ludwigsburg/Leonberg"
+    ],
+    [
+     "05-DEU_72",
+     "Z72: Tuebingen"
+    ],
+    [
+     "05-DEU_73",
+     "Z73: Goeppingen"
+    ],
+    [
+     "05-DEU_74",
+     "Z74: Heilbronn"
+    ],
+    [
+     "05-DEU_75",
+     "Z75: Pforzheim"
+    ],
+    [
+     "05-DEU_76",
+     "Z76: Karlsruhe"
+    ],
+    [
+     "05-DEU_77",
+     "Z77: Offenburg"
+    ],
+    [
+     "05-DEU_78",
+     "Z78: Karlsruhe"
+    ],
+    [
+     "05-DEU_79",
+     "Z79: Freiburg"
+    ],
+    [
+     "05-DEU_80",
+     "Z80: MÃ¼nchen"
+    ],
+    [
+     "05-DEU_81",
+     "Z81: MÃ¼nchen"
+    ],
+    [
+     "05-DEU_82",
+     "Z82: Garmisch-Partenkirchen"
+    ],
+    [
+     "05-DEU_83",
+     "Z83: Rosenheim"
+    ],
+    [
+     "05-DEU_84",
+     "Z84: Landshut"
+    ],
+    [
+     "05-DEU_85",
+     "Z85: Ingolstadt"
+    ],
+    [
+     "05-DEU_86",
+     "Z86: Augsburg"
+    ],
+    [
+     "05-DEU_87",
+     "Z87: Kempten"
+    ],
+    [
+     "05-DEU_88",
+     "Z88: Friedrichshafen"
+    ],
+    [
+     "05-DEU_89",
+     "Z89: Ulm"
+    ],
+    [
+     "05-DEU_90",
+     "Z90: NÃ¼rnberg"
+    ],
+    [
+     "05-DEU_91",
+     "Z91: Ansbach"
+    ],
+    [
+     "05-DEU_92",
+     "Z92: Amberg"
+    ],
+    [
+     "05-DEU_93",
+     "Z93: Regensburg"
+    ],
+    [
+     "05-DEU_94",
+     "Z94: Passau"
+    ],
+    [
+     "05-DEU_95",
+     "Z95: Hof"
+    ],
+    [
+     "05-DEU_96",
+     "Z96: Bamberg"
+    ],
+    [
+     "05-DEU_97",
+     "Z97: WÃ¼rzburg"
+    ],
+    [
+     "05-DEU_98",
+     "Z98: Suhl"
+    ],
+    [
+     "05-DEU_99",
+     "Z99: Erfurt"
+    ]
+   ]
+  }
+ ]
+}

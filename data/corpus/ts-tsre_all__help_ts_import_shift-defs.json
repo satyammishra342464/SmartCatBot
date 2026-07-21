@@ -1,0 +1,74 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_import_shift-defs.html",
+ "title": "Shift and injury type definitions",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Shift and injury type definitions\n\nThis topic includes workers' compensation definitions for shifts and for injury types\n for the United States and Japan.\nU.S. shift definitions\n\n| Shift | Time |\n| --- | --- |\n| Day | 9:00 a.m. to 4:59 p.m. |\n| Night | 7:00 p.m. to 6:59 a.m. |\n| Evening / Commute | 7:00 a.m. to 8:59 a.m. and 5:00 p.m. to 6:59 p.m. |\n\nJapan\n shift definitions\n\n| Shift | Time |\n| --- | --- |\n| Morning (Day) | 6:00 a.m. to 5:59 p.m. |\n| Night | 6:00 p.m. to 5:59 a.m. |\n\nInjury type definitions\n\n| U.S. Severity Level | Japan Severity Level | Description |\n| --- | --- | --- |\n| Minor | Outpatient | Injuries requiring basic medical aid without requiring\n hospitalization. |\n| Moderate | Hospitalization and Surgery | Injuries requiring a greater degree of medical care and hospitalization,\n but not expected to progress to a life threatening status. |\n| Major | Disability | Injuries that pose an immediate life-threatening condition if not\n treated adequately or expeditiously. The majority of these injuries are the\n result of structural collapse and subsequent entrapment or impairment of the\n occupants. |\n| Fatal | Death | Instantaneously killed or mortally injured. |",
+ "tables": [
+  {
+   "headers": [
+    "Shift",
+    "Time"
+   ],
+   "rows": [
+    [
+     "Day",
+     "9:00 a.m. to 4:59 p.m."
+    ],
+    [
+     "Night",
+     "7:00 p.m. to 6:59 a.m."
+    ],
+    [
+     "Evening / Commute",
+     "7:00 a.m. to 8:59 a.m. and 5:00 p.m. to 6:59 p.m."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Shift",
+    "Time"
+   ],
+   "rows": [
+    [
+     "Morning (Day)",
+     "6:00 a.m. to 5:59 p.m."
+    ],
+    [
+     "Night",
+     "6:00 p.m. to 5:59 a.m."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "U.S. Severity Level",
+    "Japan Severity Level",
+    "Description"
+   ],
+   "rows": [
+    [
+     "Minor",
+     "Outpatient",
+     "Injuries requiring basic medical aid without requiring\n                        hospitalization."
+    ],
+    [
+     "Moderate",
+     "Hospitalization and Surgery",
+     "Injuries requiring a greater degree of medical care and hospitalization,\n                        but not expected to progress to a life threatening status."
+    ],
+    [
+     "Major",
+     "Disability",
+     "Injuries that pose an immediate life-threatening condition if not\n                        treated adequately or expeditiously. The majority of these injuries are the\n                        result of structural collapse and subsequent entrapment or impairment of the\n                        occupants."
+    ],
+    [
+     "Fatal",
+     "Death",
+     "Instantaneously killed or mortally injured."
+    ]
+   ]
+  }
+ ]
+}

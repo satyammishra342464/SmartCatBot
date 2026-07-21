@@ -1,0 +1,193 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_contract-list.html",
+ "title": "Contract list",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Contract list\n\nValidation rules for fields related to contracts.\n\nProject Data\n > \nExposure Views\n > \n{Select an Exposure View}\n > \nContract List\n\nNote:\n \nTouchstone\n does not support\n single-day contracts.\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Contract ID | Unique, required, user-defined contract identifier. | Required if you are creating a new record or editing an existing\n record. Must be unique. Cannot begin with a space or contain commas or semicolons. Can contain up to 100 characters. | |\n| Contract Type | One of the following contract types: Primary Property Facultative Property Primary Workers' Compensation Facultative Workers' Compensatio | Defaults to a value in the Touchstone user interface. | Primary Property |\n| Exposure Set | Unique identifier for the exposure set to which this contract\n belongs.. | Read-only | |\n| Insured Name | Name of the insured party. | Optional. Must be unique for the book. Can contain up to 60 characters. | |\n| Producer Name | Name of the producer. | Optional. Can contain up to 60 characters. | |\n| Underwriter | Name of the underwriter. | Optional. Can contain up to 60 characters. | |\n| Branch | Name of the branch. | Optional. Can contain up to 60 characters. | |\n| ID of Expiring Contract | ID of the expiring contract. | Optional. Can contain up to 100 characters. | |\n| Terms Currency | Base currency for this contract For analysis at the contract level, Touchstone converts all locations to\n this base currency. Refer to the list of valid currency codes. | Defaults to a value in the Touchstone user interface. | US Dollar (USD) |\n| Currency Exchange Rate | Currency exchange rate. | Read-only. | |\n| Inception Date | Date of the first day on which coverage is effective. When importing data, use one of the following formats and select this\n format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface. Date format is specific to locale of end user. Must be less than the expiration date. For inception and expiration dates, and other in-force dates, you must\n specify a date value between 01/01/1970 and 12/31/2038, inclusive, for dates\n based on U.S. regional settings. If you are not using U.S. regional\n settings, use a date value other than 01/01/1970, such as\n 01/01/1990. | 1/1/[current year] |\n| Expiration Date | Date of the last day on which coverage is effective. When importing data, use one of the following formats and select this\n format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD | Required if you are creating a new record or editing an existing\n record. Defaults to a value in the Touchstone user interface. Date format is specific to locale of end user. Must be greater than the inception date. For inception and expiration dates, and other in-force dates, you must\n specify a date value between 01/01/1970 and 12/31/2038, inclusive, for dates\n based on U.S. regional settings. If you are not using U.S. regional\n settings, use a date value other than 01/01/1970, such as\n 01/01/1990. | 12/31/[current year] |\n| Status | One of the following contract submission statuses where the letters\n represent the SubmitStatusCode in the database reference: Authorized (A) Bound (B) Cancelled (C) Expired (E) Quoted (Q) Rejected (R) Renewal (RN) Submitted (S) | Defaults to a value in the Touchstone user interface. | Submitted |\n| Perils | Perils insured under this contract. Refer to the list of valid peril codes. Note: To specify multiple perils in a single entry within an\n import file, separate the corresponding peril codes with a plus (+)\n symbol, for example: PWH+PES. | Defaults to a value in the Touchstone user interface. | All perils (PAL) |\n| Policy Form | User-defined policy form assigned to this contract. | Defaults to a value in the Touchstone user interface. Can contain up to 60 characters. | Unknown |\n| Line of Business | User-specified line of business. | Defaults to a value in the Touchstone user interface. Lines of business should be unique between property and workers'\n compensation, if you need to see data separately for property and\n workers' compensation. Can contain up to 60 characters. | Unknown |\n| Location Count | Number of locations in this contract. | Read-only | |\n| Layer Count | Number of layers in this contract. | Read-only | |\n| Layer Level Reinsurance Count | Number of reinsurance treaties in the layer(s) in this contract. | Read-only | |\n| Location Level Reinsurance Count | Number of reinsurance treaties associated with the location(s) that this\n contract covers. | Read-only | |\n| Step Function | One of the following values to Indicate whether this contract includes a\n step function: Yes No | Read-only | |\n| Total Replacement Value | Total replacement value for each contract. | Defaults to a value in the Touchstone user interface,\n provided that an exposure summary has been generated for the exposure\n view. Value changes if Display Currency settings\n change for the project. | |\n| TRV Currency | The currency used to calculate the TRV. | Defaults to the currency selected when the exposure view was\n created. Touchstone dynamically\n converts all location TRVs using the exposure view currency and\n conversion rate; it does not store these values in the database. | |\n| User Defined Field (UDF) 1 | User-defined field #1 Used for purposes of aggregation. | Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters. | |\n| User Defined Field (UDF) 2 | User-defined field #2. Used for purposes of aggregation. | Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters. | |\n| User Defined Field (UDF) 3 | User-defined field #3. Used for purposes of aggregation. | Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters. | |\n| User Defined Field (UDF) 4 | User-defined field #4. Used for purposes of aggregation. | Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters. | |\n| User Defined Field (UDF) 5 | User-defined field #5 Used for purposes of aggregation. | Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters. | |\n| Location DFID | User-defined field for damage function ID that helps connect the\n location to custom damage functions from Model Builder . | Optional. Can contain up to 60 characters. | |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Contract ID",
+     "Unique, required, user-defined contract identifier.",
+     "Required if you are creating a new record or editing an existing\n                              record. Must be unique. Cannot begin with a space or contain commas or semicolons. Can contain up to 100 characters.",
+     ""
+    ],
+    [
+     "Contract Type",
+     "One of the following contract types: Primary Property Facultative Property Primary Workers' Compensation Facultative Workers' Compensatio",
+     "Defaults to a value in the Touchstone user interface.",
+     "Primary Property"
+    ],
+    [
+     "Exposure Set",
+     "Unique identifier for the exposure set to which this contract\n                        belongs..",
+     "Read-only",
+     ""
+    ],
+    [
+     "Insured Name",
+     "Name of the insured party.",
+     "Optional. Must be unique for the book. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "Producer Name",
+     "Name of the producer.",
+     "Optional. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "Underwriter",
+     "Name of the underwriter.",
+     "Optional. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "Branch",
+     "Name of the branch.",
+     "Optional. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "ID of Expiring Contract",
+     "ID of the expiring contract.",
+     "Optional. Can contain up to 100 characters.",
+     ""
+    ],
+    [
+     "Terms Currency",
+     "Base currency for this contract For analysis at the contract level, Touchstone converts all locations to\n                           this base currency. Refer to the list of valid currency codes.",
+     "Defaults to a value in the Touchstone user interface.",
+     "US Dollar (USD)"
+    ],
+    [
+     "Currency Exchange Rate",
+     "Currency exchange rate.",
+     "Read-only.",
+     ""
+    ],
+    [
+     "Inception Date",
+     "Date of the first day on which coverage is effective. When importing data, use one of the following formats and select this\n                           format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD",
+     "Required if you are creating a new record or editing an existing\n                              record Defaults to a value in the Touchstone user interface. Date format is specific to locale of end user. Must be less than the expiration date. For inception and expiration dates, and other in-force dates, you must\n                        specify a date value between 01/01/1970 and 12/31/2038, inclusive, for dates\n                        based on U.S. regional settings. If you are not using U.S. regional\n                        settings, use a date value other than 01/01/1970, such as\n                        01/01/1990.",
+     "1/1/[current year]"
+    ],
+    [
+     "Expiration Date",
+     "Date of the last day on which coverage is effective. When importing data, use one of the following formats and select this\n                           format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD",
+     "Required if you are creating a new record or editing an existing\n                              record. Defaults to a value in the Touchstone user interface. Date format is specific to locale of end user. Must be greater than the inception date. For inception and expiration dates, and other in-force dates, you must\n                        specify a date value between 01/01/1970 and 12/31/2038, inclusive, for dates\n                        based on U.S. regional settings. If you are not using U.S. regional\n                        settings, use a date value other than 01/01/1970, such as\n                        01/01/1990.",
+     "12/31/[current year]"
+    ],
+    [
+     "Status",
+     "One of the following contract submission statuses where the letters\n                           represent the SubmitStatusCode in the database reference: Authorized (A) Bound (B) Cancelled (C) Expired (E) Quoted (Q) Rejected (R) Renewal (RN) Submitted (S)",
+     "Defaults to a value in the Touchstone user interface.",
+     "Submitted"
+    ],
+    [
+     "Perils",
+     "Perils insured under this contract. Refer to the list of valid peril codes. Note: To specify multiple perils in a single entry within an\n                           import file, separate the corresponding peril codes with a plus (+)\n                           symbol, for example: PWH+PES.",
+     "Defaults to a value in the Touchstone user interface.",
+     "All perils (PAL)"
+    ],
+    [
+     "Policy Form",
+     "User-defined policy form assigned to this contract.",
+     "Defaults to a value in the Touchstone user interface. Can contain up to 60 characters.",
+     "Unknown"
+    ],
+    [
+     "Line of Business",
+     "User-specified line of business.",
+     "Defaults to a value in the Touchstone user interface. Lines of business should be unique between property and workers'\n                              compensation, if you need to see data separately for property and\n                              workers' compensation. Can contain up to 60 characters.",
+     "Unknown"
+    ],
+    [
+     "Location Count",
+     "Number of locations in this contract.",
+     "Read-only",
+     ""
+    ],
+    [
+     "Layer Count",
+     "Number of layers in this contract.",
+     "Read-only",
+     ""
+    ],
+    [
+     "Layer Level Reinsurance Count",
+     "Number of reinsurance treaties in the layer(s) in this contract.",
+     "Read-only",
+     ""
+    ],
+    [
+     "Location Level Reinsurance Count",
+     "Number of reinsurance treaties associated with the location(s) that this\n                        contract covers.",
+     "Read-only",
+     ""
+    ],
+    [
+     "Step Function",
+     "One of the following values to Indicate whether this contract includes a\n                        step function: Yes No",
+     "Read-only",
+     ""
+    ],
+    [
+     "Total Replacement Value",
+     "Total replacement value for each contract.",
+     "Defaults to a value in the Touchstone user interface,\n                              provided that an exposure summary has been generated for the exposure\n                              view. Value changes if Display Currency settings\n                              change for the project.",
+     ""
+    ],
+    [
+     "TRV Currency",
+     "The currency used to calculate the TRV.",
+     "Defaults to the currency selected when the exposure view was\n                              created. Touchstone dynamically\n                              converts all location TRVs using the exposure view currency and\n                              conversion rate; it does not store these values in the database.",
+     ""
+    ],
+    [
+     "User Defined Field (UDF) 1",
+     "User-defined field #1 Used for purposes of aggregation.",
+     "Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "User Defined Field (UDF) 2",
+     "User-defined field #2. Used for purposes of aggregation.",
+     "Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "User Defined Field (UDF) 3",
+     "User-defined field #3. Used for purposes of aggregation.",
+     "Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "User Defined Field (UDF) 4",
+     "User-defined field #4. Used for purposes of aggregation.",
+     "Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "User Defined Field (UDF) 5",
+     "User-defined field #5 Used for purposes of aggregation.",
+     "Optional. May be alphanumeric and may include hyphens and underscores. Can contain up to 60 characters.",
+     ""
+    ],
+    [
+     "Location DFID",
+     "User-defined field for damage function ID that helps connect the\n                        location to custom damage functions from Model Builder .",
+     "Optional. Can contain up to 60 characters.",
+     ""
+    ]
+   ]
+  }
+ ]
+}

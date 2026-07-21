@@ -1,0 +1,153 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_ireland-county-sector-codes.html",
+ "title": "Ireland county/sector codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Ireland county/sector codes\n\nTouchstone\n supports the following\n county/sector codes for Ireland.\n\n| County/Sector Code | County/Sector Name |\n| --- | --- |\n| 01 | Carlow |\n| 02 | Dublin County Borough |\n| 03 | South Dublin |\n| 04 | Fingal |\n| 05 | Dun Laoghaire-Rathdown |\n| 06 | Kildare |\n| 07 | Kilkenny |\n| 08 | Laoighis |\n| 09 | Longford |\n| 10 | Louth |\n| 11 | Meath |\n| 12 | Offaly |\n| 13 | Westmeath |\n| 14 | Wexford |\n| 15 | Wicklow |\n| 16 | Clare |\n| 18 | Cork County Borough |\n| 19 | Cork |\n| 20 | Kerry |\n| 22 | Limerick County Borough |\n| 23 | Limerick |\n| 24 | Tipperary North Riding |\n| 25 | Tipperay South Riding |\n| 27 | Waterford County Borough |\n| 28 | Waterford |\n| 29 | Galway |\n| 30 | Leitrim |\n| 31 | Mayo |\n| 32 | Roscommon |\n| 33 | Sligo |\n| 34 | Cavan |\n| 35 | Donegal |\n| 36 | Monaghan |\n| 37 | Galway County Borough |",
+ "tables": [
+  {
+   "headers": [
+    "County/Sector Code",
+    "County/Sector Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Carlow"
+    ],
+    [
+     "02",
+     "Dublin County Borough"
+    ],
+    [
+     "03",
+     "South Dublin"
+    ],
+    [
+     "04",
+     "Fingal"
+    ],
+    [
+     "05",
+     "Dun Laoghaire-Rathdown"
+    ],
+    [
+     "06",
+     "Kildare"
+    ],
+    [
+     "07",
+     "Kilkenny"
+    ],
+    [
+     "08",
+     "Laoighis"
+    ],
+    [
+     "09",
+     "Longford"
+    ],
+    [
+     "10",
+     "Louth"
+    ],
+    [
+     "11",
+     "Meath"
+    ],
+    [
+     "12",
+     "Offaly"
+    ],
+    [
+     "13",
+     "Westmeath"
+    ],
+    [
+     "14",
+     "Wexford"
+    ],
+    [
+     "15",
+     "Wicklow"
+    ],
+    [
+     "16",
+     "Clare"
+    ],
+    [
+     "18",
+     "Cork County Borough"
+    ],
+    [
+     "19",
+     "Cork"
+    ],
+    [
+     "20",
+     "Kerry"
+    ],
+    [
+     "22",
+     "Limerick County Borough"
+    ],
+    [
+     "23",
+     "Limerick"
+    ],
+    [
+     "24",
+     "Tipperary North Riding"
+    ],
+    [
+     "25",
+     "Tipperay South Riding"
+    ],
+    [
+     "27",
+     "Waterford County Borough"
+    ],
+    [
+     "28",
+     "Waterford"
+    ],
+    [
+     "29",
+     "Galway"
+    ],
+    [
+     "30",
+     "Leitrim"
+    ],
+    [
+     "31",
+     "Mayo"
+    ],
+    [
+     "32",
+     "Roscommon"
+    ],
+    [
+     "33",
+     "Sligo"
+    ],
+    [
+     "34",
+     "Cavan"
+    ],
+    [
+     "35",
+     "Donegal"
+    ],
+    [
+     "36",
+     "Monaghan"
+    ],
+    [
+     "37",
+     "Galway County Borough"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts_val-ref_intro/ts_val-ref_intro_whats-new-2025-13-1.html",
+ "title": "What's new in the 2025 validation reference (13.1)",
+ "section": "ts_val-ref_intro",
+ "version": null,
+ "text": "What's new in the 2025 validation reference (13.1)\n\nThe 2025 \nTouchstone\n Exposure Data\n Validation Reference\n includes information about support for the new,\n high-resolution \nVerisk Inland Flood Model for Malaysia and Indonesia\n. \n\nFor further details about this new model as well as other features and enhancements\n included in this release, refer to the \nTouchstone\n 2025 (13.1) Release\n Documentation\n page on the \nClient Portal\n. \n\nChange to contents of validation reference\n\nThe validation reference now contains \nall\n content from \nTouchstone\n 2020 (8.0) onwards. You can view the\n changes in each release in the \"What's new\" topics, and see a cumulative list of all\n changes in the \"Revision history\" topic. You can find earlier versions of the\n validation reference by navigating to the \"Earlier Versions\" section in the\n validation reference and selecting the version that you want to view.\n\nThe most current version of the validation reference includes text that identifies\n the version in which a feature was introduced or updated, as shown in the following\n examples:\n\nIn \nTouchstone\n 2023 (11.0), we\n added validation rules for \nVerisk\n BINS ID\n location fields.\n\nNew model\nThis release includes the new \nVerisk Inland Flood Model for Malaysia and Indonesia\n.",
+ "tables": []
+}

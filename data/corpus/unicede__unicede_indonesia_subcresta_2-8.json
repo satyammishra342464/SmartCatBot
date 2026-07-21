@@ -1,0 +1,93 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_indonesia_subcresta_2-8.html",
+ "title": "Indonesia Sub-CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Indonesia Sub-\nCRESTA\n Codes (v2.8)\n\nSub-\nCRESTA\n codes for Indonesia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Indonesia (45).\n\n| Area Tag | Sub-Zone |\n| --- | --- |\n| 45-000 | INDONESIA |\n| 45-001 | Z1.1: Banda Aceh |\n| 45-002 | Z1.2: Medan |\n| 45-003 | Z1.3: Remaining North Sumatra |\n| 45-004 | Z2.1: Padang |\n| 45-005 | Z2.2: Palembang |\n| 45-006 | Z2.3: Remaining South Sumatra |\n| 45-007 | Z3.1: Jakarta |\n| 45-008 | Z3.2: Bandung |\n| 45-009 | Z3.3: Remaining West Java |\n| 45-010 | Z4.1: Semarang |\n| 45-011 | Z4.2: Yogyakarta |\n| 45-012 | Z4.3: Remaining Central Java |\n| 45-013 | Z5.1: Surabaya |\n| 45-014 | Z5.2: Remaining East Java |\n| 45-015 | Z6.0: Kalimantan |\n| 45-016 | Z7.1: Ujung Pandang |\n| 45-017 | Z7.2: Remaining Sulawesi |\n| 45-018 | Z8.0:All Other Islands and Irian Jaya |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Sub-Zone"
+   ],
+   "rows": [
+    [
+     "45-000",
+     "INDONESIA"
+    ],
+    [
+     "45-001",
+     "Z1.1: Banda Aceh"
+    ],
+    [
+     "45-002",
+     "Z1.2: Medan"
+    ],
+    [
+     "45-003",
+     "Z1.3: Remaining North Sumatra"
+    ],
+    [
+     "45-004",
+     "Z2.1: Padang"
+    ],
+    [
+     "45-005",
+     "Z2.2: Palembang"
+    ],
+    [
+     "45-006",
+     "Z2.3: Remaining South Sumatra"
+    ],
+    [
+     "45-007",
+     "Z3.1: Jakarta"
+    ],
+    [
+     "45-008",
+     "Z3.2: Bandung"
+    ],
+    [
+     "45-009",
+     "Z3.3: Remaining West Java"
+    ],
+    [
+     "45-010",
+     "Z4.1: Semarang"
+    ],
+    [
+     "45-011",
+     "Z4.2: Yogyakarta"
+    ],
+    [
+     "45-012",
+     "Z4.3: Remaining Central Java"
+    ],
+    [
+     "45-013",
+     "Z5.1: Surabaya"
+    ],
+    [
+     "45-014",
+     "Z5.2: Remaining East Java"
+    ],
+    [
+     "45-015",
+     "Z6.0: Kalimantan"
+    ],
+    [
+     "45-016",
+     "Z7.1: Ujung Pandang"
+    ],
+    [
+     "45-017",
+     "Z7.2: Remaining Sulawesi"
+    ],
+    [
+     "45-018",
+     "Z8.0:All Other Islands and Irian Jaya"
+    ]
+   ]
+  }
+ ]
+}

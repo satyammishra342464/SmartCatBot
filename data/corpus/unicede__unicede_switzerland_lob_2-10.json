@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_switzerland_lob_2-10.html",
+ "title": "Switzerland Lines Of Business (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Switzerland Lines Of Business (v2.10)\n \n\nLOB codes for Switzerland supported by \nUNICEDE\n/2.\n\n| Code | Lines of Busines |\n| --- | --- |\n| RB | Residential Building |\n| RC | Residential Contents |\n| RBC | Residential Building & Contents |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |\n| AG | Agriculture |\n| AUTO | Automotive |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Busines"
+   ],
+   "rows": [
+    [
+     "RB",
+     "Residential Building"
+    ],
+    [
+     "RC",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Building & Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AG",
+     "Agriculture"
+    ],
+    [
+     "AUTO",
+     "Automotive"
+    ]
+   ]
+  }
+ ]
+}

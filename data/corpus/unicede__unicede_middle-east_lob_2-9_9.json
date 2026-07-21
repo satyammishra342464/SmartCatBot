@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_middle-east_lob_2-9_9.html",
+ "title": "Middle East Line of Business Codes (v2.9)",
+ "section": "unicede",
+ "version": null,
+ "text": "Middle East Line of Business Codes (v2.9) \n\nLOB codes for Middle East supported by \nUNICEDE\n/2.\n\n| Code | Lines of Business |\n| --- | --- |\n| RES | Residential |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |\n| AUTO | Automotive |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AUTO",
+     "Automotive"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_kuwait_governorates_2-10.html",
+ "title": "Kuwait Governorates (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Kuwait Governorates (v2.10)\n\nCRESTA\n codes for Kuwait supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Kuwait (122).\n\n| Area Tag | Governorates |\n| --- | --- |\n| 122-000 | Kuwait |\n| 122-001 | Al-Ahmadi |\n| 122-002 | Capital |\n| 122-003 | Al-Farwaniya |\n| 122-004 | Hawalli |\n| 122-005 | Al-Jahra |\n| 122-006 | Mubarak Al-Kabeer |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Governorates"
+   ],
+   "rows": [
+    [
+     "122-000",
+     "Kuwait"
+    ],
+    [
+     "122-001",
+     "Al-Ahmadi"
+    ],
+    [
+     "122-002",
+     "Capital"
+    ],
+    [
+     "122-003",
+     "Al-Farwaniya"
+    ],
+    [
+     "122-004",
+     "Hawalli"
+    ],
+    [
+     "122-005",
+     "Al-Jahra"
+    ],
+    [
+     "122-006",
+     "Mubarak Al-Kabeer"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_croatia-cresta-codes.html",
+ "title": "Croatia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Croatia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Croatia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Medimurska |\n| 2 | Krapinsko-zagorska |\n| 3 | Varazdinska |\n| 4 | Koprivnicko-krizevacka |\n| 5 | Zagrebacka |\n| 6 | Grad Zagreb |\n| 7 | Bjelovarsko-bilogorska |\n| 8 | Viroviticko-podravska |\n| 9 | Osjecko-baranjska |\n| 10 | Istarska |\n| 11 | Primorsko-goranska |\n| 12 | Karlovacka |\n| 13 | Sisacko-moslavacka |\n| 14 | Pozesko-slavonska |\n| 15 | Brodsko-posavska |\n| 16 | Vukovarsko-srijemska |\n| 17 | Licko-senjska |\n| 18 | Zadarska |\n| 19 | Sibensko-Kninska |\n| 20 | Splitsko-dalmatinska |\n| 21 | Dubrovacko-neretvanska |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Medimurska"
+    ],
+    [
+     "2",
+     "Krapinsko-zagorska"
+    ],
+    [
+     "3",
+     "Varazdinska"
+    ],
+    [
+     "4",
+     "Koprivnicko-krizevacka"
+    ],
+    [
+     "5",
+     "Zagrebacka"
+    ],
+    [
+     "6",
+     "Grad Zagreb"
+    ],
+    [
+     "7",
+     "Bjelovarsko-bilogorska"
+    ],
+    [
+     "8",
+     "Viroviticko-podravska"
+    ],
+    [
+     "9",
+     "Osjecko-baranjska"
+    ],
+    [
+     "10",
+     "Istarska"
+    ],
+    [
+     "11",
+     "Primorsko-goranska"
+    ],
+    [
+     "12",
+     "Karlovacka"
+    ],
+    [
+     "13",
+     "Sisacko-moslavacka"
+    ],
+    [
+     "14",
+     "Pozesko-slavonska"
+    ],
+    [
+     "15",
+     "Brodsko-posavska"
+    ],
+    [
+     "16",
+     "Vukovarsko-srijemska"
+    ],
+    [
+     "17",
+     "Licko-senjska"
+    ],
+    [
+     "18",
+     "Zadarska"
+    ],
+    [
+     "19",
+     "Sibensko-Kninska"
+    ],
+    [
+     "20",
+     "Splitsko-dalmatinska"
+    ],
+    [
+     "21",
+     "Dubrovacko-neretvanska"
+    ]
+   ]
+  }
+ ]
+}

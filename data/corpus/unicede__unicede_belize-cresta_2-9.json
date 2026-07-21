@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_belize-cresta_2-9.html",
+ "title": "Belize CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Belize \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Belize supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Belize (54).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 54-000 | Belize |\n| 54-001 | Z01: Belize City |\n| 54-002 | Z02: Rest of Belize |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "54-000",
+     "Belize"
+    ],
+    [
+     "54-001",
+     "Z01: Belize City"
+    ],
+    [
+     "54-002",
+     "Z02: Rest of Belize"
+    ]
+   ]
+  }
+ ]
+}

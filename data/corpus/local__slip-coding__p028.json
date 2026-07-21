@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 28",
+ "section": "local-docs",
+ "version": null,
+ "text": "Site level Minimum & Maximum % \nDeductibles\n• If a percentage deductible is given with a minimum and/or maximum \nvalue, create a column for the TIV of each location in your highlighted \ncriteria and order a based on TIV .\n• In a new column, calculate the resulting deductible with the relevant % \ndeductible applied.\n• If the value is below the minimum, code the minimum deductible value \nin these cells.\n• If the value is below the maximum, code the maximum deductible \nvalue in these cells.\n• If the value is in between the min & max, code the % deductible.",
+ "tables": []
+}

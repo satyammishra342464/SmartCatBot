@@ -1,0 +1,381 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_netherlands_cresta_2-8.html",
+ "title": "Netherlands CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Netherlands \nCRESTA\n Codes (v2.8)\n\nCRESTA\n codes for the Netherlands supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Netherlands (07).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 07-NLD | NETHERLANDS |\n| 07-NLD_10 | Z10: Amsterdam |\n| 07-NLD_11 | Z11: Amsterdam |\n| 07-NLD_12 | Z12: Hilversum |\n| 07-NLD_13 | Z13: Almere |\n| 07-NLD_14 | Z14: Bussum |\n| 07-NLD_15 | Z15: Zaandam |\n| 07-NLD_16 | Z16: Oosterlee |\n| 07-NLD_17 | Z17: Heerhugow |\n| 07-NLD_18 | Z18: Alkmaar |\n| 07-NLD_19 | Z19: Castricum |\n| 07-NLD_20 | Z20: Haarlem |\n| 07-NLD_21 | Z21: Heemstede |\n| 07-NLD_22 | Z22: Noordwijk |\n| 07-NLD_23 | Z23: Leiden |\n| 07-NLD_24 | Z24: Alphen aan den Rijn |\n| 07-NLD_25 | Z25: 's- Gravenhage |\n| 07-NLD_26 | Z26 Delft |\n| 07-NLD_27 | Z27: Zoetermeer |\n| 07-NLD_28 | Z28: Gouda |\n| 07-NLD_29 | Z29: Capelle |\n| 07-NLD_30 | Z30: Rotterdam |\n| 07-NLD_31 | Z31: Schiedam |\n| 07-NLD_32 | Z32: Spijkenisse |\n| 07-NLD_33 | Z33: Dordrecht |\n| 07-NLD_34 | Z34: Benschop |\n| 07-NLD_35 | Z35: Utrecht |\n| 07-NLD_36 | Z36: Maarssen |\n| 07-NLD_37 | Z37: Zeist |\n| 07-NLD_38 | Z38: Amersfoort |\n| 07-NLD_39 | Z39: Veenendaal |\n| 07-NLD_40 | Z40: Tiel |\n| 07-NLD_41 | Z41: Culemborg |\n| 07-NLD_42 | Z42: Gorinchem |\n| 07-NLD_43 | Z43: Oosterlaan |\n| 07-NLD_44 | Z44: Yerseke |\n| 07-NLD_45 | Z45: Oostburg |\n| 07-NLD_46 | Z46: Bergen |\n| 07-NLD_47 | Z47: Roosendaal |\n| 07-NLD_48 | Z48: Breda |\n| 07-NLD_49 | Z49: Oosterhout |\n| 07-NLD_50 | Z50: Tilburg |\n| 07-NLD_51 | Z51: Dongen |\n| 07-NLD_52 | Z52: 's-Hertogenbosch |\n| 07-NLD_53 | Z53: Brakel |\n| 07-NLD_54 | Z54: Uden |\n| 07-NLD_55 | Z55: Veldhoven |\n| 07-NLD_56 | Z56: Eindhoven |\n| 07-NLD_57 | Z57: Helmond |\n| 07-NLD_58 | Z58: Venray |\n| 07-NLD_59 | Z59: Venlo |\n| 07-NLD_60 | Z60: Weert |\n| 07-NLD_61 | Z61: Echt |\n| 07-NLD_62 | Z62: Maastricht |\n| 07-NLD_63 | Z63: Valkenburg |\n| 07-NLD_64 | Z64: Heerlen |\n| 07-NLD_65 | Z65: Nijmegen |\n| 07-NLD_66 | Z66: Niftrik |\n| 07-NLD_67 | Z67: Wageningen |\n| 07-NLD_68 | Z68: Arnhem |\n| 07-NLD_69 | Z69 :Zevenaar |\n| 07-NLD_70 | Z70: Doetinchem |\n| 07-NLD_71 | Z71: Winterswijk |\n| 07-NLD_72 | Z72: Zutphen |\n| 07-NLD_73 | Z73: Apeldoorn |\n| 07-NLD_74 | Z74: Deventer |\n| 07-NLD_75 | Z75: Enschede |\n| 07-NLD_76 | Z76: Almelo |\n| 07-NLD_77 | Z77: Balkbrug |\n| 07-NLD_78 | Z78: Emmen |\n| 07-NLD_79 | Z79: Hoogeveen |\n| 07-NLD_80 | Z80: Zwolle |\n| 07-NLD_81 | Z81: Broekland |\n| 07-NLD_82 | Z82: Lelystad |\n| 07-NLD_83 | Z83: Tollebeek |\n| 07-NLD_84 | Z84: Lippenhuizen |\n| 07-NLD_85 | Z85: Delfstrah |\n| 07-NLD_86 | Z86: Sneek |\n| 07-NLD_87 | Z87: Bolsward |\n| 07-NLD_88 | Z88: Franeker |\n| 07-NLD_89 | Z89: Leeuwarden |\n| 07-NLD_90 | Z90: Idaard |\n| 07-NLD_91 | Z91: Rinsumage |\n| 07-NLD_92 | Z92 Drachten |\n| 07-NLD_93 | Z93: Lieveren |\n| 07-NLD_94 | Z94: Assen |\n| 07-NLD_95 | Z95: Stadskanaal |\n| 07-NLD_96 | Z96: Hoogezand |\n| 07-NLD_97 | Z97: Groningen |\n| 07-NLD_98 | Z98: Noordhorn |\n| 07-NLD_99 | Z99: Appingedam |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "07-NLD",
+     "NETHERLANDS"
+    ],
+    [
+     "07-NLD_10",
+     "Z10: Amsterdam"
+    ],
+    [
+     "07-NLD_11",
+     "Z11: Amsterdam"
+    ],
+    [
+     "07-NLD_12",
+     "Z12: Hilversum"
+    ],
+    [
+     "07-NLD_13",
+     "Z13: Almere"
+    ],
+    [
+     "07-NLD_14",
+     "Z14: Bussum"
+    ],
+    [
+     "07-NLD_15",
+     "Z15: Zaandam"
+    ],
+    [
+     "07-NLD_16",
+     "Z16: Oosterlee"
+    ],
+    [
+     "07-NLD_17",
+     "Z17: Heerhugow"
+    ],
+    [
+     "07-NLD_18",
+     "Z18: Alkmaar"
+    ],
+    [
+     "07-NLD_19",
+     "Z19: Castricum"
+    ],
+    [
+     "07-NLD_20",
+     "Z20: Haarlem"
+    ],
+    [
+     "07-NLD_21",
+     "Z21: Heemstede"
+    ],
+    [
+     "07-NLD_22",
+     "Z22: Noordwijk"
+    ],
+    [
+     "07-NLD_23",
+     "Z23: Leiden"
+    ],
+    [
+     "07-NLD_24",
+     "Z24: Alphen aan den Rijn"
+    ],
+    [
+     "07-NLD_25",
+     "Z25: 's- Gravenhage"
+    ],
+    [
+     "07-NLD_26",
+     "Z26 Delft"
+    ],
+    [
+     "07-NLD_27",
+     "Z27: Zoetermeer"
+    ],
+    [
+     "07-NLD_28",
+     "Z28: Gouda"
+    ],
+    [
+     "07-NLD_29",
+     "Z29: Capelle"
+    ],
+    [
+     "07-NLD_30",
+     "Z30: Rotterdam"
+    ],
+    [
+     "07-NLD_31",
+     "Z31: Schiedam"
+    ],
+    [
+     "07-NLD_32",
+     "Z32: Spijkenisse"
+    ],
+    [
+     "07-NLD_33",
+     "Z33: Dordrecht"
+    ],
+    [
+     "07-NLD_34",
+     "Z34: Benschop"
+    ],
+    [
+     "07-NLD_35",
+     "Z35: Utrecht"
+    ],
+    [
+     "07-NLD_36",
+     "Z36: Maarssen"
+    ],
+    [
+     "07-NLD_37",
+     "Z37: Zeist"
+    ],
+    [
+     "07-NLD_38",
+     "Z38: Amersfoort"
+    ],
+    [
+     "07-NLD_39",
+     "Z39: Veenendaal"
+    ],
+    [
+     "07-NLD_40",
+     "Z40: Tiel"
+    ],
+    [
+     "07-NLD_41",
+     "Z41: Culemborg"
+    ],
+    [
+     "07-NLD_42",
+     "Z42: Gorinchem"
+    ],
+    [
+     "07-NLD_43",
+     "Z43: Oosterlaan"
+    ],
+    [
+     "07-NLD_44",
+     "Z44: Yerseke"
+    ],
+    [
+     "07-NLD_45",
+     "Z45: Oostburg"
+    ],
+    [
+     "07-NLD_46",
+     "Z46: Bergen"
+    ],
+    [
+     "07-NLD_47",
+     "Z47: Roosendaal"
+    ],
+    [
+     "07-NLD_48",
+     "Z48: Breda"
+    ],
+    [
+     "07-NLD_49",
+     "Z49: Oosterhout"
+    ],
+    [
+     "07-NLD_50",
+     "Z50: Tilburg"
+    ],
+    [
+     "07-NLD_51",
+     "Z51: Dongen"
+    ],
+    [
+     "07-NLD_52",
+     "Z52: 's-Hertogenbosch"
+    ],
+    [
+     "07-NLD_53",
+     "Z53: Brakel"
+    ],
+    [
+     "07-NLD_54",
+     "Z54: Uden"
+    ],
+    [
+     "07-NLD_55",
+     "Z55: Veldhoven"
+    ],
+    [
+     "07-NLD_56",
+     "Z56: Eindhoven"
+    ],
+    [
+     "07-NLD_57",
+     "Z57: Helmond"
+    ],
+    [
+     "07-NLD_58",
+     "Z58: Venray"
+    ],
+    [
+     "07-NLD_59",
+     "Z59: Venlo"
+    ],
+    [
+     "07-NLD_60",
+     "Z60: Weert"
+    ],
+    [
+     "07-NLD_61",
+     "Z61: Echt"
+    ],
+    [
+     "07-NLD_62",
+     "Z62: Maastricht"
+    ],
+    [
+     "07-NLD_63",
+     "Z63: Valkenburg"
+    ],
+    [
+     "07-NLD_64",
+     "Z64: Heerlen"
+    ],
+    [
+     "07-NLD_65",
+     "Z65: Nijmegen"
+    ],
+    [
+     "07-NLD_66",
+     "Z66: Niftrik"
+    ],
+    [
+     "07-NLD_67",
+     "Z67: Wageningen"
+    ],
+    [
+     "07-NLD_68",
+     "Z68: Arnhem"
+    ],
+    [
+     "07-NLD_69",
+     "Z69 :Zevenaar"
+    ],
+    [
+     "07-NLD_70",
+     "Z70: Doetinchem"
+    ],
+    [
+     "07-NLD_71",
+     "Z71: Winterswijk"
+    ],
+    [
+     "07-NLD_72",
+     "Z72: Zutphen"
+    ],
+    [
+     "07-NLD_73",
+     "Z73: Apeldoorn"
+    ],
+    [
+     "07-NLD_74",
+     "Z74: Deventer"
+    ],
+    [
+     "07-NLD_75",
+     "Z75: Enschede"
+    ],
+    [
+     "07-NLD_76",
+     "Z76: Almelo"
+    ],
+    [
+     "07-NLD_77",
+     "Z77: Balkbrug"
+    ],
+    [
+     "07-NLD_78",
+     "Z78: Emmen"
+    ],
+    [
+     "07-NLD_79",
+     "Z79: Hoogeveen"
+    ],
+    [
+     "07-NLD_80",
+     "Z80: Zwolle"
+    ],
+    [
+     "07-NLD_81",
+     "Z81: Broekland"
+    ],
+    [
+     "07-NLD_82",
+     "Z82: Lelystad"
+    ],
+    [
+     "07-NLD_83",
+     "Z83: Tollebeek"
+    ],
+    [
+     "07-NLD_84",
+     "Z84: Lippenhuizen"
+    ],
+    [
+     "07-NLD_85",
+     "Z85: Delfstrah"
+    ],
+    [
+     "07-NLD_86",
+     "Z86: Sneek"
+    ],
+    [
+     "07-NLD_87",
+     "Z87: Bolsward"
+    ],
+    [
+     "07-NLD_88",
+     "Z88: Franeker"
+    ],
+    [
+     "07-NLD_89",
+     "Z89: Leeuwarden"
+    ],
+    [
+     "07-NLD_90",
+     "Z90: Idaard"
+    ],
+    [
+     "07-NLD_91",
+     "Z91: Rinsumage"
+    ],
+    [
+     "07-NLD_92",
+     "Z92 Drachten"
+    ],
+    [
+     "07-NLD_93",
+     "Z93: Lieveren"
+    ],
+    [
+     "07-NLD_94",
+     "Z94: Assen"
+    ],
+    [
+     "07-NLD_95",
+     "Z95: Stadskanaal"
+    ],
+    [
+     "07-NLD_96",
+     "Z96: Hoogezand"
+    ],
+    [
+     "07-NLD_97",
+     "Z97: Groningen"
+    ],
+    [
+     "07-NLD_98",
+     "Z98: Noordhorn"
+    ],
+    [
+     "07-NLD_99",
+     "Z99: Appingedam"
+    ]
+   ]
+  }
+ ]
+}

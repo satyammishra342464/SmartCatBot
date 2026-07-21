@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_panama_cresta_2-9.html",
+ "title": "Panama CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Panama \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Panama supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Panama (56).\n\n| Area Tag | Zone |\n| --- | --- |\n| 56-000 | Panama |\n| 56-001 | Z01:Prov. de PanamÃ¡ |\n| 56-002 | Z02:ColÃ³n, zona libre |\n| 56-003 | Z03:ColÃ³n, zona libre nueva |\n| 56-004 | Z04:Resto de la provincia de ColÃ³n |\n| 56-005 | Z05:ArchipiÃ©lago de lad Perlas y otras islas |\n| 56-006 | Z06:Provincias Oeste (Bocas del Toro, ChiriquÃ­, Veraguas, Herrera, Los\n Santos, CoclÃ©) |\n| 56-007 | Z07:Provincias Este (DariÃ©n, Comarca de San Blas) |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "56-000",
+     "Panama"
+    ],
+    [
+     "56-001",
+     "Z01:Prov. de PanamÃ¡"
+    ],
+    [
+     "56-002",
+     "Z02:ColÃ³n, zona libre"
+    ],
+    [
+     "56-003",
+     "Z03:ColÃ³n, zona libre nueva"
+    ],
+    [
+     "56-004",
+     "Z04:Resto de la provincia de ColÃ³n"
+    ],
+    [
+     "56-005",
+     "Z05:ArchipiÃ©lago de lad Perlas y otras islas"
+    ],
+    [
+     "56-006",
+     "Z06:Provincias Oeste (Bocas del Toro, ChiriquÃ­, Veraguas, Herrera, Los\n                        Santos, CoclÃ©)"
+    ],
+    [
+     "56-007",
+     "Z07:Provincias Este (DariÃ©n, Comarca de San Blas)"
+    ]
+   ]
+  }
+ ]
+}

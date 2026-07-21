@@ -1,0 +1,433 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_data-currency.html",
+ "title": "Data currency",
+ "section": "unicede",
+ "version": null,
+ "text": "Data currency\n\nCurrency details supported by \nUNICEDE\n/2.\n\n| Code | Currency | Notes |\n| --- | --- | --- |\n| AED | United Arab Emirates Dirham | |\n| ANG | Netherlands Antillian Guilder | Aso used by CuraÃ§ao |\n| ARS | Argentine Peso | Replaces ARP |\n| AUD | Australian Dollar | |\n| AWG | Aruban Florin | |\n| BAM | Bosnian Convertible Marka | |\n| BBD | Barbados Dollar | |\n| BGN | Bulgarian Lev | |\n| BHD | Bahrain Dinar | |\n| BMD | Bermudian Dollar | |\n| BRL | Brazilian Real | Replaces BRR |\n| BSD | Bahamian Dollar | |\n| BYN | Belarus Ruble | Replaces BYR |\n| BZD | Belize Dollar | |\n| CAD | Canadian Dollar | |\n| CHF | Swiss Franc | |\n| CLP | Chilean Peso | |\n| CNY | Chinese Yuan Renminbi | |\n| COP | Colombian Peso | |\n| CRC | Costa Rican Colon | |\n| CUP | Cuban Peso | |\n| CZK | Czech Koruna | |\n| DKK | Danish Krone | |\n| DOP | Dominican Rep. Peso | |\n| DZD | Algerian Dinar | |\n| EGP | Egyptian Pound | |\n| EUR | Euro | |\n| GBP | British Pound | |\n| GTQ | Guatemalan Quetzal | |\n| HKD | Hong Kong Dollar | |\n| HNL | Honduran Lempira | |\n| HRK | Croatian Kuna | |\n| HTG | Haitian Gourde | |\n| HUF | Hungarian Forint | |\n| IDR | Indonesian Rupiah | |\n| ILS | Israeli New Shekel | |\n| INR | Indian Rupee | |\n| IRR | Iranian Rial | |\n| ISK | Iceland Krona | |\n| JMD | Jamaican Dollar | |\n| JOD | Jordanian Dinar | |\n| JPY | Japanese Yen | |\n| KRW | South Korean Won | |\n| KYD | Cayman Islands Dollar | |\n| KZT | Kazakhstan Tenge | |\n| KWD | Kuwait Dinar | |\n| LBP | Lebanese Pound | |\n| LTL | Lithuanian Litas | |\n| LVL | Latvian Lats | |\n| MAD | Moroccan Dirham | |\n| MOP | Macanese Pataca | |\n| MXN | Mexican Peso | |\n| MYR | Malaysian Ringgit | |\n| NIO | Nicaraguan Cordoba Oro | |\n| NOK | Norwegian Kroner | |\n| NZD | New Zealand Dollar | |\n| OMR | Omani Rial | |\n| PAB | Panamanian Balboa | |\n| PEN | Peruvian Nuevo Sol | |\n| PHP | Philippine Peso | |\n| PGK | Papua New Guinea Kina | |\n| PLN | Polish Zloty | |\n| QAR | Qatari Riyal | |\n| RON | Romanian New Leu | |\n| RUB | Russian Rouble | |\n| SAR | Saudi Riyal | |\n| SEK | Swedish Krona | |\n| SGD | Singapore Dollar | |\n| SVC | El Salvadoran Colon | |\n| THB | Thai Baht | |\n| TND | Tunisian Dinar | |\n| TRY | New Turkish Lira | |\n| TTD | Trinidad/Tobago Dollar | |\n| TWD | New Taiwan Dollar | |\n| UAH | Ukraine Hryvnia | |\n| UF | Unidad de Fomento | |\n| USD | U.S. Dollar | Also used by Guam, Saipan, Bonaire/Sint Eustatius/Saba |\n| VEB | Venezuelan Bolivar | |\n| VEF | Venezuelan Bolivar Fuerte | |\n| VND | Vietnamese Dong | |\n| XCD | Eastern Caribbean Dollar | |\n| YER | Yemeni Rial | |\n| ZAR | South African Rand | |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Currency",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "AED",
+     "United Arab Emirates Dirham",
+     ""
+    ],
+    [
+     "ANG",
+     "Netherlands Antillian Guilder",
+     "Aso used by CuraÃ§ao"
+    ],
+    [
+     "ARS",
+     "Argentine Peso",
+     "Replaces ARP"
+    ],
+    [
+     "AUD",
+     "Australian Dollar",
+     ""
+    ],
+    [
+     "AWG",
+     "Aruban Florin",
+     ""
+    ],
+    [
+     "BAM",
+     "Bosnian Convertible Marka",
+     ""
+    ],
+    [
+     "BBD",
+     "Barbados Dollar",
+     ""
+    ],
+    [
+     "BGN",
+     "Bulgarian Lev",
+     ""
+    ],
+    [
+     "BHD",
+     "Bahrain Dinar",
+     ""
+    ],
+    [
+     "BMD",
+     "Bermudian Dollar",
+     ""
+    ],
+    [
+     "BRL",
+     "Brazilian Real",
+     "Replaces BRR"
+    ],
+    [
+     "BSD",
+     "Bahamian Dollar",
+     ""
+    ],
+    [
+     "BYN",
+     "Belarus Ruble",
+     "Replaces BYR"
+    ],
+    [
+     "BZD",
+     "Belize Dollar",
+     ""
+    ],
+    [
+     "CAD",
+     "Canadian Dollar",
+     ""
+    ],
+    [
+     "CHF",
+     "Swiss Franc",
+     ""
+    ],
+    [
+     "CLP",
+     "Chilean Peso",
+     ""
+    ],
+    [
+     "CNY",
+     "Chinese Yuan Renminbi",
+     ""
+    ],
+    [
+     "COP",
+     "Colombian Peso",
+     ""
+    ],
+    [
+     "CRC",
+     "Costa Rican Colon",
+     ""
+    ],
+    [
+     "CUP",
+     "Cuban Peso",
+     ""
+    ],
+    [
+     "CZK",
+     "Czech Koruna",
+     ""
+    ],
+    [
+     "DKK",
+     "Danish Krone",
+     ""
+    ],
+    [
+     "DOP",
+     "Dominican Rep. Peso",
+     ""
+    ],
+    [
+     "DZD",
+     "Algerian Dinar",
+     ""
+    ],
+    [
+     "EGP",
+     "Egyptian Pound",
+     ""
+    ],
+    [
+     "EUR",
+     "Euro",
+     ""
+    ],
+    [
+     "GBP",
+     "British Pound",
+     ""
+    ],
+    [
+     "GTQ",
+     "Guatemalan Quetzal",
+     ""
+    ],
+    [
+     "HKD",
+     "Hong Kong Dollar",
+     ""
+    ],
+    [
+     "HNL",
+     "Honduran Lempira",
+     ""
+    ],
+    [
+     "HRK",
+     "Croatian Kuna",
+     ""
+    ],
+    [
+     "HTG",
+     "Haitian Gourde",
+     ""
+    ],
+    [
+     "HUF",
+     "Hungarian Forint",
+     ""
+    ],
+    [
+     "IDR",
+     "Indonesian Rupiah",
+     ""
+    ],
+    [
+     "ILS",
+     "Israeli New Shekel",
+     ""
+    ],
+    [
+     "INR",
+     "Indian Rupee",
+     ""
+    ],
+    [
+     "IRR",
+     "Iranian Rial",
+     ""
+    ],
+    [
+     "ISK",
+     "Iceland Krona",
+     ""
+    ],
+    [
+     "JMD",
+     "Jamaican Dollar",
+     ""
+    ],
+    [
+     "JOD",
+     "Jordanian Dinar",
+     ""
+    ],
+    [
+     "JPY",
+     "Japanese Yen",
+     ""
+    ],
+    [
+     "KRW",
+     "South Korean Won",
+     ""
+    ],
+    [
+     "KYD",
+     "Cayman Islands Dollar",
+     ""
+    ],
+    [
+     "KZT",
+     "Kazakhstan Tenge",
+     ""
+    ],
+    [
+     "KWD",
+     "Kuwait Dinar",
+     ""
+    ],
+    [
+     "LBP",
+     "Lebanese Pound",
+     ""
+    ],
+    [
+     "LTL",
+     "Lithuanian Litas",
+     ""
+    ],
+    [
+     "LVL",
+     "Latvian Lats",
+     ""
+    ],
+    [
+     "MAD",
+     "Moroccan Dirham",
+     ""
+    ],
+    [
+     "MOP",
+     "Macanese Pataca",
+     ""
+    ],
+    [
+     "MXN",
+     "Mexican Peso",
+     ""
+    ],
+    [
+     "MYR",
+     "Malaysian Ringgit",
+     ""
+    ],
+    [
+     "NIO",
+     "Nicaraguan Cordoba Oro",
+     ""
+    ],
+    [
+     "NOK",
+     "Norwegian Kroner",
+     ""
+    ],
+    [
+     "NZD",
+     "New Zealand Dollar",
+     ""
+    ],
+    [
+     "OMR",
+     "Omani Rial",
+     ""
+    ],
+    [
+     "PAB",
+     "Panamanian Balboa",
+     ""
+    ],
+    [
+     "PEN",
+     "Peruvian Nuevo Sol",
+     ""
+    ],
+    [
+     "PHP",
+     "Philippine Peso",
+     ""
+    ],
+    [
+     "PGK",
+     "Papua New Guinea Kina",
+     ""
+    ],
+    [
+     "PLN",
+     "Polish Zloty",
+     ""
+    ],
+    [
+     "QAR",
+     "Qatari Riyal",
+     ""
+    ],
+    [
+     "RON",
+     "Romanian New Leu",
+     ""
+    ],
+    [
+     "RUB",
+     "Russian Rouble",
+     ""
+    ],
+    [
+     "SAR",
+     "Saudi Riyal",
+     ""
+    ],
+    [
+     "SEK",
+     "Swedish Krona",
+     ""
+    ],
+    [
+     "SGD",
+     "Singapore Dollar",
+     ""
+    ],
+    [
+     "SVC",
+     "El Salvadoran Colon",
+     ""
+    ],
+    [
+     "THB",
+     "Thai Baht",
+     ""
+    ],
+    [
+     "TND",
+     "Tunisian Dinar",
+     ""
+    ],
+    [
+     "TRY",
+     "New Turkish Lira",
+     ""
+    ],
+    [
+     "TTD",
+     "Trinidad/Tobago Dollar",
+     ""
+    ],
+    [
+     "TWD",
+     "New Taiwan Dollar",
+     ""
+    ],
+    [
+     "UAH",
+     "Ukraine Hryvnia",
+     ""
+    ],
+    [
+     "UF",
+     "Unidad de Fomento",
+     ""
+    ],
+    [
+     "USD",
+     "U.S. Dollar",
+     "Also used by Guam, Saipan, Bonaire/Sint Eustatius/Saba"
+    ],
+    [
+     "VEB",
+     "Venezuelan Bolivar",
+     ""
+    ],
+    [
+     "VEF",
+     "Venezuelan Bolivar Fuerte",
+     ""
+    ],
+    [
+     "VND",
+     "Vietnamese Dong",
+     ""
+    ],
+    [
+     "XCD",
+     "Eastern Caribbean Dollar",
+     ""
+    ],
+    [
+     "YER",
+     "Yemeni Rial",
+     ""
+    ],
+    [
+     "ZAR",
+     "South African Rand",
+     ""
+    ]
+   ]
+  }
+ ]
+}

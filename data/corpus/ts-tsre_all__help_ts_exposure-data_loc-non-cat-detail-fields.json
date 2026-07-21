@@ -1,0 +1,31 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-non-cat-detail-fields.html",
+ "title": "Location non catastrophe detail fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location non catastrophe detail fields\n\nValidation rules for fields that store non-catastrophe-related information for a\n location.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the location.\n\nNote:\n We retired non-catastrophe loss analyses in \nTouchstone\n 2021 (9.0). Therefore, these fields do\n not affect losses.\n\n| Field | Description | Validation rules | Default value |\n| --- | --- | --- | --- |\n| Public Protection Class Code | One of the following codes to represent the level of\n protection that the local fire department provides for this location: 1 1X 1Y 2 2X 2Y 3 3X 3Y 4 4X 4Y 5 5X 5Y 6 6X 6Y 7 7X 7Y 8 8B 8X 8Y 9 10 10W Class 1 represents the best public protection, and Class 10 indicates\n no recognized protection. | Optional | |\n| NonCat Ground Up Loss | Non-catastrophe ground-up loss for this location | Optional Defaults to a value in the Touchstone user interface | 0 |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation rules",
+    "Default value"
+   ],
+   "rows": [
+    [
+     "Public Protection Class Code",
+     "One of the following codes to represent the level of\n                        protection that the local fire department provides for this location: 1 1X 1Y 2 2X 2Y 3 3X 3Y 4 4X 4Y 5 5X 5Y 6 6X 6Y 7 7X 7Y 8 8B 8X 8Y 9 10 10W Class 1 represents the best public protection, and Class 10 indicates\n                        no recognized protection.",
+     "Optional",
+     ""
+    ],
+    [
+     "NonCat Ground Up Loss",
+     "Non-catastrophe ground-up loss for this location",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "0"
+    ]
+   ]
+  }
+ ]
+}

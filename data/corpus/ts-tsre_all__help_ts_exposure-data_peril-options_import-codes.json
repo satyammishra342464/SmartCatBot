@@ -1,0 +1,146 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_peril-options_import-codes.html",
+ "title": "Peril codes for import",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Peril codes for import\n\nYou use three-character peril codes to import exposure data into \nTouchstone\n.\n\nThe \nVerisk Severe Thunderstorm Model for the United States\n allows you to individually code exposures\n for hail, tornado, and straight-line winds and run detailed loss analyses individually\n for these perils. You can use the exposures for both the current and previous (archive)\n versions of the model. The codes are PHL (hail), PSW (straight-line winds), and PTD\n (tornado). Non-U.S. severe thunderstorm models should continue to use the severe\n thunderstorm peril code, PWT. You cannot currently import the new codes for column-wise\n policy terms.\n\n| Peril code | Perils |\n| --- | --- |\n| PAL | All licensed perils |\n| PEA | Earthquake sub-perils (earthquake shake, fire following, sprinkler\n leakage, landslide, tsunami, and liquefaction), wildfire/bushfire and smoke. Note: The landslide peril applies only for *.csv imports. Starting in version\n 11.0,while the Verisk Earthquake Model for the Middle East supports\n earthquake shake and liquefaction, support for liquefaction is limited to\n certain high-hazard regions. In addition, for Middle East event sets,\n only the earthquake shake sub-peril is enabled; it is not separable from\n liquefaction. |\n| PEF | Fire (wildfire/bushfire, fire following earthquake, smoke) PEF\n includes PWB, PFF, and PSM. PSM was introduced in June 2024 for the\n United States. |\n| PES | Earthquake shake only |\n| PFF | Fire following only |\n| PFL | Inland flood |\n| PHL | Severe thunderstorm with hail ( Verisk Severe Thunderstorm Model for the United States only) |\n| PLQ | Liquefaction. We support separate liquefaction losses only for\n the Verisk Earthquake Model for New Zealand . For all other models that\n support liquefaction, the losses are rolled into the earthquake shake (PES)\n peril losses. |\n| PLS | Landslide |\n| PNC | Non-catastrophe Note: We retired non-catastrophe loss\n analyses in Touchstone 2021\n (9.0). Therefore, these fields do not affect losses. |\n| PPH | Precipitation flood |\n| PSH | Hurricane storm surge or coastal flood |\n| PSL | Earthquake sprinkler leakage only |\n| PSM | Added in June 2024: Smoke sub-peril. |\n| PSW | Severe thunderstorm with straight-line winds ( Verisk Severe Thunderstorm Model for the United States only). |\n| PTD | Severe thunderstorm with tornado ( Verisk Severe Thunderstorm Model for the United States ) only |\n| PTR | Terrorism |\n| PTS | Tsunami |\n| PWA | All wind perils (tropical cyclone, severe storm, and winter storm) |\n| PWB | Wildfire/bushfire only |\n| PWF | All wind and fire following earthquake sub-perils, wildfire/bushfire,\n smoke |\n| PWH | Tropical cyclone only |\n| PWT | Severe thunderstorm (hail, tornado, and straight-line winds) |\n| PWW | Winter storm |\n| PWX | Severe storm (wind excluding tropical cyclone). The code will be\n appended to PWH exposures for the 22 countries where extratropical cyclone\n and severe thunderstorm perils are supported. |\n\nApplication of storm surge and precipitation flood\n\nTouchstone\n applies storm surge and\n precipitation flood differently depending on the following two conditions:\n\nWhether you code your contract and/or location data specifically to include the\n storm surge peril (PSH or PAL - all licensed perils) or the precipitation flood peril\n (PPH or PAL - all licensed perils) when you import or add this data to a \ncontract\n or \nlocation\n.\n\nWhether you enable \nStorm Surge\n or \nPrecipitation Flood\n in the\n \nPerils\n area in the loss analysis settings when you configure\n a detailed loss analysis.\n\nThe combination of each of the options for these two conditions results in the following\n four scenarios:\n\n| Contract/location coded for storm surge peril (PSH or PAL) /\n precipitation flood peril (PPH or PAL)? | Storm surge / precipitation flood check box in detailed loss analysis\n configuration enabled? | Result |\n| --- | --- | --- |\n| Yes | No | Touchstone does not include any\n storm surge / precipitation flood losses. |\n| Yes | Yes | Touchstone runs the storm surge\n / precipitation flood model and includes 100% of storm surge /\n precipitation flood losses in the analysis results. |\n| No | No | Touchstone does not include any\n storm surge / precipitation flood losses. |\n| No | Yes | Touchstone runs the storm surge /\n precipitation flood model and adds the percentage of storm surge /\n precipitation flood lossesâas specified in the Loss Analysis\n Options: Storm Surge Options dialog box or in the Loss Analysis Options: Precipitation Flood Options dialog boxâto the wind losses in the analysis results. If the storm surge\n and precipitation flood sub-perils are not explicitly coded in the\n exposure data, you must select the wind peril when configuring the loss\n analysis. You cannot get surge or precipitation flood leakage losses\n independently of wind losses. (Not applicable to Verisk Inland Flood Model for Malaysia and Indonesia .) |\n\nIf a contract or location is not specifically covered for storm surge or precipitation\n flood, you can configure a detailed loss analysis to include a percentage of storm surge\n or precipitation flood losses by line of business for the following reasons:\n\nYou may choose to assume that you will pay some storm surge or precipitation flood\n losses, even if your policies do not specifically cover this peril. This condition is\n called \"leakage\" and typically applies to residential policies.\n\nYou may not have the precise details that specify exactly which perils every policy\n covers. Therefore, you may want to assume that a certain percentage of your risks\n have storm surge or precipitation flood coverage. This condition typically applies to\n commercial policies or aggregate data.",
+ "tables": [
+  {
+   "headers": [
+    "Peril code",
+    "Perils"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils"
+    ],
+    [
+     "PEA",
+     "Earthquake sub-perils (earthquake shake, fire following, sprinkler\n                        leakage, landslide, tsunami, and liquefaction), wildfire/bushfire and smoke. Note: The landslide peril applies only for *.csv imports. Starting in version\n                           11.0,while the Verisk Earthquake Model for the Middle East supports\n                           earthquake shake and liquefaction, support for liquefaction is limited to\n                           certain high-hazard regions. In addition, for Middle East event sets,\n                           only the earthquake shake sub-peril is enabled; it is not separable from\n                           liquefaction."
+    ],
+    [
+     "PEF",
+     "Fire (wildfire/bushfire, fire following earthquake, smoke) PEF\n                           includes PWB, PFF, and PSM. PSM was introduced in June 2024 for the\n                           United States."
+    ],
+    [
+     "PES",
+     "Earthquake shake only"
+    ],
+    [
+     "PFF",
+     "Fire following only"
+    ],
+    [
+     "PFL",
+     "Inland flood"
+    ],
+    [
+     "PHL",
+     "Severe thunderstorm with hail ( Verisk Severe Thunderstorm Model for the United States only)"
+    ],
+    [
+     "PLQ",
+     "Liquefaction. We support separate liquefaction losses only for\n                        the Verisk Earthquake Model for New Zealand . For all other models that\n                        support liquefaction, the losses are rolled into the earthquake shake (PES)\n                        peril losses."
+    ],
+    [
+     "PLS",
+     "Landslide"
+    ],
+    [
+     "PNC",
+     "Non-catastrophe Note: We retired non-catastrophe loss\n                           analyses in Touchstone 2021\n                           (9.0). Therefore, these fields do not affect losses."
+    ],
+    [
+     "PPH",
+     "Precipitation flood"
+    ],
+    [
+     "PSH",
+     "Hurricane storm surge or coastal flood"
+    ],
+    [
+     "PSL",
+     "Earthquake sprinkler leakage only"
+    ],
+    [
+     "PSM",
+     "Added in June 2024: Smoke sub-peril."
+    ],
+    [
+     "PSW",
+     "Severe thunderstorm with straight-line winds ( Verisk Severe Thunderstorm Model for the United States only)."
+    ],
+    [
+     "PTD",
+     "Severe thunderstorm with tornado ( Verisk Severe Thunderstorm Model for the United States ) only"
+    ],
+    [
+     "PTR",
+     "Terrorism"
+    ],
+    [
+     "PTS",
+     "Tsunami"
+    ],
+    [
+     "PWA",
+     "All wind perils (tropical cyclone, severe storm, and winter storm)"
+    ],
+    [
+     "PWB",
+     "Wildfire/bushfire only"
+    ],
+    [
+     "PWF",
+     "All wind and fire following earthquake sub-perils, wildfire/bushfire,\n                        smoke"
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only"
+    ],
+    [
+     "PWT",
+     "Severe thunderstorm (hail, tornado, and straight-line winds)"
+    ],
+    [
+     "PWW",
+     "Winter storm"
+    ],
+    [
+     "PWX",
+     "Severe storm (wind excluding tropical cyclone). The code will be\n                        appended to PWH exposures for the 22 countries where extratropical cyclone\n                        and severe thunderstorm perils are supported."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Contract/location coded for storm surge peril (PSH or PAL) /\n                        precipitation flood peril (PPH or PAL)?",
+    "Storm surge / precipitation flood check box in detailed loss analysis\n                        configuration enabled?",
+    "Result"
+   ],
+   "rows": [
+    [
+     "Yes",
+     "No",
+     "Touchstone does not include any\n                           storm surge / precipitation flood losses."
+    ],
+    [
+     "Yes",
+     "Yes",
+     "Touchstone runs the storm surge\n                           / precipitation flood model and includes 100% of storm surge /\n                           precipitation flood losses in the analysis results."
+    ],
+    [
+     "No",
+     "No",
+     "Touchstone does not include any\n                           storm surge / precipitation flood losses."
+    ],
+    [
+     "No",
+     "Yes",
+     "Touchstone runs the storm surge /\n                        precipitation flood model and adds the percentage of storm surge /\n                        precipitation flood lossesâas specified in the Loss Analysis\n                           Options: Storm Surge Options dialog box or in the Loss Analysis Options: Precipitation Flood Options dialog boxâto the wind losses in the analysis results. If the storm surge\n                           and precipitation flood sub-perils are not explicitly coded in the\n                           exposure data, you must select the wind peril when configuring the loss\n                           analysis. You cannot get surge or precipitation flood leakage losses\n                           independently of wind losses. (Not applicable to Verisk Inland Flood Model for Malaysia and Indonesia .)"
+    ]
+   ]
+  }
+ ]
+}

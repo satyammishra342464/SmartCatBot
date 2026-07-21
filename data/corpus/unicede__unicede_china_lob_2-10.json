@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_china_lob_2-10.html",
+ "title": "China Lines of Business (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "China Lines of Business (v2.10)\n\nLOB codes for China supported by \nUNICEDE\n/2.\n\nStandard Share Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| CAI | Commercial & Industrial |\n| ENG | CAREAR |\n\nMarket Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| COM | Commercial |\n| ENG | CAREAR |\n\nMulti-Peril Crop Insurance (MPCI) Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| CORN | Corn |\n| COTT | Cotton |\n| FRUTRE* | Fruit Trees |\n| RAPS | Rapeseed |\n| RICE | Rice |\n| SOYB | Soybean |\n| WHEA | Wheat |\n| BARLY | Barley |\n| PEANT | Peanut |\n| POTATO | Potato |\n| SUGAR | Sugar |\n| TOB* | Tobacco |\n| RUBBER | Rubber |\n| COMBND | Crop Combined |\n| FORFIR* 1 | Forestry: Fire |\n| FORCOM* | Forestry: Comprehensive |\n| DRYCTL | Dairy Cattle |\n| OTRCTL | Other Cattle |\n| BRDSOW | Breeding Sow |\n| OTRPIG | Other Pig |\n| POLTRY | Poultry |\n| SHPGOT | Sheep Goat |\n| LCMBND | Livestock Combined |\n\n * New for 2023\n \n\n1\n previously FOR",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "ENG",
+     "CAREAR"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "ENG",
+     "CAREAR"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "CORN",
+     "Corn"
+    ],
+    [
+     "COTT",
+     "Cotton"
+    ],
+    [
+     "FRUTRE*",
+     "Fruit Trees"
+    ],
+    [
+     "RAPS",
+     "Rapeseed"
+    ],
+    [
+     "RICE",
+     "Rice"
+    ],
+    [
+     "SOYB",
+     "Soybean"
+    ],
+    [
+     "WHEA",
+     "Wheat"
+    ],
+    [
+     "BARLY",
+     "Barley"
+    ],
+    [
+     "PEANT",
+     "Peanut"
+    ],
+    [
+     "POTATO",
+     "Potato"
+    ],
+    [
+     "SUGAR",
+     "Sugar"
+    ],
+    [
+     "TOB*",
+     "Tobacco"
+    ],
+    [
+     "RUBBER",
+     "Rubber"
+    ],
+    [
+     "COMBND",
+     "Crop Combined"
+    ],
+    [
+     "FORFIR* 1",
+     "Forestry: Fire"
+    ],
+    [
+     "FORCOM*",
+     "Forestry: Comprehensive"
+    ],
+    [
+     "DRYCTL",
+     "Dairy Cattle"
+    ],
+    [
+     "OTRCTL",
+     "Other Cattle"
+    ],
+    [
+     "BRDSOW",
+     "Breeding Sow"
+    ],
+    [
+     "OTRPIG",
+     "Other Pig"
+    ],
+    [
+     "POLTRY",
+     "Poultry"
+    ],
+    [
+     "SHPGOT",
+     "Sheep Goat"
+    ],
+    [
+     "LCMBND",
+     "Livestock Combined"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_bahrain-governorate-codes.html",
+ "title": "Bahrain governorate codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Bahrain governorate codes\n\nTouchstone\n supports the following\n governorate codes for Bahrain.\n\n| Governorate Code | Governorate Name |\n| --- | --- |\n| 1 | Capital Governorate |\n| 2 | Muharraq Governorate |\n| 3 | Northern Governorate |\n| 4 | Southern Governorate |",
+ "tables": [
+  {
+   "headers": [
+    "Governorate Code",
+    "Governorate Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Capital Governorate"
+    ],
+    [
+     "2",
+     "Muharraq Governorate"
+    ],
+    [
+     "3",
+     "Northern Governorate"
+    ],
+    [
+     "4",
+     "Southern Governorate"
+    ]
+   ]
+  }
+ ]
+}

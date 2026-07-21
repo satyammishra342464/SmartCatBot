@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_anguilla-cresta_2-7.html",
+ "title": "Anguilla CRESTA codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Anguilla \nCRESTA\n codes (v2.7) \n\nCRESTA\n codes for Anguilla supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Anguilla (181).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 181-000 | Anguilla |\n| 181-003 | Z03: Anguilla |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "181-000",
+     "Anguilla"
+    ],
+    [
+     "181-003",
+     "Z03: Anguilla"
+    ]
+   ]
+  }
+ ]
+}

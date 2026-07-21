@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_uae_cresta_2-10.html",
+ "title": "United Arab Emirates CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "United Arab Emirates \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for United Arab Emirates supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for the United Arab Emirates (211).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| | United Arab Emirates |\n| 211-ARE_AJ | Ajman |\n| 211-ARE_AZ | Abu Dhabi |\n| 211-ARE_DU | Dubai |\n| 211-ARE_FU | Fujairah |\n| 211-ARE_RK | Ras al-Khaimah |\n| 211-ARE_SH | Sharjah |\n| 211-ARE_UQ | Umm al-Quwain |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "",
+     "United Arab Emirates"
+    ],
+    [
+     "211-ARE_AJ",
+     "Ajman"
+    ],
+    [
+     "211-ARE_AZ",
+     "Abu Dhabi"
+    ],
+    [
+     "211-ARE_DU",
+     "Dubai"
+    ],
+    [
+     "211-ARE_FU",
+     "Fujairah"
+    ],
+    [
+     "211-ARE_RK",
+     "Ras al-Khaimah"
+    ],
+    [
+     "211-ARE_SH",
+     "Sharjah"
+    ],
+    [
+     "211-ARE_UQ",
+     "Umm al-Quwain"
+    ]
+   ]
+  }
+ ]
+}

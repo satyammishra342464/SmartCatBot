@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_goa_dist_codes_2.html",
+ "title": "Goa district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Goa district codes\n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-30000 | Goa |\n| 113-30001 | North Goa |\n| 113-30002 | South Goa |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-30000",
+     "Goa"
+    ],
+    [
+     "113-30001",
+     "North Goa"
+    ],
+    [
+     "113-30002",
+     "South Goa"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_canada-province-codes.html",
+ "title": "Canada province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Canada province codes\n\nTouchstone\n supports the following province\n codes for Canada.\n\n| Province Code | Province Name |\n| --- | --- |\n| 10 | Newfoundland |\n| 11 | Prince Edward Island |\n| 12 | Nova Scotia |\n| 13 | New Brunswick |\n| 24 | Quebec |\n| 35 | Ontario |\n| 46 | Manitoba |\n| 47 | Saskatchewan |\n| 48 | Alberta |\n| 59 | British Columbia |\n| 60 | Yukon |\n| 61 | North West Territories |\n| 62 | Nunavut |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "10",
+     "Newfoundland"
+    ],
+    [
+     "11",
+     "Prince Edward Island"
+    ],
+    [
+     "12",
+     "Nova Scotia"
+    ],
+    [
+     "13",
+     "New Brunswick"
+    ],
+    [
+     "24",
+     "Quebec"
+    ],
+    [
+     "35",
+     "Ontario"
+    ],
+    [
+     "46",
+     "Manitoba"
+    ],
+    [
+     "47",
+     "Saskatchewan"
+    ],
+    [
+     "48",
+     "Alberta"
+    ],
+    [
+     "59",
+     "British Columbia"
+    ],
+    [
+     "60",
+     "Yukon"
+    ],
+    [
+     "61",
+     "North West Territories"
+    ],
+    [
+     "62",
+     "Nunavut"
+    ]
+   ]
+  }
+ ]
+}

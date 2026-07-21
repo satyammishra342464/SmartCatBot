@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_luxembourg-cresta-codes.html",
+ "title": "Luxembourg CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Luxembourg \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Luxembourg.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| LUX_LUX | Luxembourg |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "LUX_LUX",
+     "Luxembourg"
+    ]
+   ]
+  }
+ ]
+}

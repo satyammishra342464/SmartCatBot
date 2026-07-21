@@ -1,0 +1,89 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_colombia-cresta-codes.html",
+ "title": "Colombia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Colombia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Colombia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Cundinamarca |\n| 1 | Z01:Cundinamarca |\n| 2 | Caldas, Quindio, Risaralda |\n| 2 | Z02:Caldas/ Quindio/ Risaralda |\n| 3 | Tolima |\n| 3 | Z03:Tolima |\n| 4 | Valle del Cauca |\n| 4 | Z04:Valle del Cauca |\n| 5 | Huila, Cauca, Narino |\n| 5 | Z05:Huila/ Cauca/ Narino |\n| 6 | Z06:Putumayo/ Caqueta/ Meta/... |\n| 6 | Putumayo, Caqueta, Meta, Casanare, Vichada, Guainia, Vaupes, Amazonas |\n| 7 | Boyaca, Arauca, Santander, Norte de Santander, Cesar, Guajira |\n| 7 | Z07:Boyaca/ Arauca/ Santander/... |\n| 8 | Magdalena, Bolivar, Atlantico, Sucre, Cordoba, Isla de San Andres, Isla\n de Providencia |\n| 8 | Z08:Magdalena/ Bolivar/ Atlantico/... |\n| 9 | Z09:Antioquia/ Choco |\n| 9 | Antioquia, Choco |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Cundinamarca"
+    ],
+    [
+     "1",
+     "Z01:Cundinamarca"
+    ],
+    [
+     "2",
+     "Caldas, Quindio, Risaralda"
+    ],
+    [
+     "2",
+     "Z02:Caldas/ Quindio/ Risaralda"
+    ],
+    [
+     "3",
+     "Tolima"
+    ],
+    [
+     "3",
+     "Z03:Tolima"
+    ],
+    [
+     "4",
+     "Valle del Cauca"
+    ],
+    [
+     "4",
+     "Z04:Valle del Cauca"
+    ],
+    [
+     "5",
+     "Huila, Cauca, Narino"
+    ],
+    [
+     "5",
+     "Z05:Huila/ Cauca/ Narino"
+    ],
+    [
+     "6",
+     "Z06:Putumayo/ Caqueta/ Meta/..."
+    ],
+    [
+     "6",
+     "Putumayo, Caqueta, Meta, Casanare, Vichada, Guainia, Vaupes, Amazonas"
+    ],
+    [
+     "7",
+     "Boyaca, Arauca, Santander, Norte de Santander, Cesar, Guajira"
+    ],
+    [
+     "7",
+     "Z07:Boyaca/ Arauca/ Santander/..."
+    ],
+    [
+     "8",
+     "Magdalena, Bolivar, Atlantico, Sucre, Cordoba, Isla de San Andres, Isla\n                           de Providencia"
+    ],
+    [
+     "8",
+     "Z08:Magdalena/ Bolivar/ Atlantico/..."
+    ],
+    [
+     "9",
+     "Z09:Antioquia/ Choco"
+    ],
+    [
+     "9",
+     "Antioquia, Choco"
+    ]
+   ]
+  }
+ ]
+}

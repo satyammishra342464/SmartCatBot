@@ -1,0 +1,145 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_bahamas-district-codes.html",
+ "title": "Bahamas district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Bahamas district codes\n\nDistrict codes supported by \nTouchstone\n.\nTouchstone\n supports the following district codes\n for Bahamas:\n\n| District Code | District Name |\n| --- | --- |\n| 01 | Acklins |\n| 02 | Berry Islands |\n| 03 | Bimini |\n| 04 | Black Point |\n| 05 | Cat Island |\n| 06 | Central Abaco |\n| 07 | Central Andros |\n| 08 | Central Eleuthera |\n| 09 | City of Freeport |\n| 10 | Crooked Island |\n| 11 | East Grand Bahama |\n| 12 | Exuma |\n| 13 | Grand Cay |\n| 14 | Harbour Island |\n| 15 | Hope Town |\n| 16 | Inagua |\n| 17 | Long Island |\n| 18 | Mangrove Cay |\n| 19 | Mayaguana |\n| 20 | Moore's Island |\n| NP | New Providence |\n| 21 | North Abaco |\n| 22 | North Andros |\n| 23 | North Eleuthera |\n| 24 | Ragged Island |\n| 25 | Rum Cay |\n| 26 | San Salvador |\n| 27 | South Abaco |\n| 28 | South Andros |\n| 29 | South Eleuthera |\n| 30 | Spanish Wells |\n| 31 | West Grand Bahama |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Acklins"
+    ],
+    [
+     "02",
+     "Berry Islands"
+    ],
+    [
+     "03",
+     "Bimini"
+    ],
+    [
+     "04",
+     "Black Point"
+    ],
+    [
+     "05",
+     "Cat Island"
+    ],
+    [
+     "06",
+     "Central Abaco"
+    ],
+    [
+     "07",
+     "Central Andros"
+    ],
+    [
+     "08",
+     "Central Eleuthera"
+    ],
+    [
+     "09",
+     "City of Freeport"
+    ],
+    [
+     "10",
+     "Crooked Island"
+    ],
+    [
+     "11",
+     "East Grand Bahama"
+    ],
+    [
+     "12",
+     "Exuma"
+    ],
+    [
+     "13",
+     "Grand Cay"
+    ],
+    [
+     "14",
+     "Harbour Island"
+    ],
+    [
+     "15",
+     "Hope Town"
+    ],
+    [
+     "16",
+     "Inagua"
+    ],
+    [
+     "17",
+     "Long Island"
+    ],
+    [
+     "18",
+     "Mangrove Cay"
+    ],
+    [
+     "19",
+     "Mayaguana"
+    ],
+    [
+     "20",
+     "Moore's Island"
+    ],
+    [
+     "NP",
+     "New Providence"
+    ],
+    [
+     "21",
+     "North Abaco"
+    ],
+    [
+     "22",
+     "North Andros"
+    ],
+    [
+     "23",
+     "North Eleuthera"
+    ],
+    [
+     "24",
+     "Ragged Island"
+    ],
+    [
+     "25",
+     "Rum Cay"
+    ],
+    [
+     "26",
+     "San Salvador"
+    ],
+    [
+     "27",
+     "South Abaco"
+    ],
+    [
+     "28",
+     "South Andros"
+    ],
+    [
+     "29",
+     "South Eleuthera"
+    ],
+    [
+     "30",
+     "Spanish Wells"
+    ],
+    [
+     "31",
+     "West Grand Bahama"
+    ]
+   ]
+  }
+ ]
+}

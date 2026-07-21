@@ -1,0 +1,186 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_cen-america-con-class-codes.html",
+ "title": "Central America construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Central America construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for Central America.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction code | Construction class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood Frame (Modern) |\n| 102 | Light Wood Frame |\n| 103 | Masonry Veneer |\n| 104 | Heavy Timber |\n| Masonry | 111 | Masonry |\n| 112 | Adobe |\n| 113 | Rubble Stone Masonry |\n| 114 | Unreinforced Masonry - Bearing Wall |\n| 115 | Unreinforced Masonry - Bearing Frame |\n| 116 | Reinforced Masonry |\n| 117 | Reinforced Masonry Shear Wall (with MRF) |\n| 118 | Reinforced Masonry Shear Wall (without MRF) |\n| 119 | Joisted Masonry |\n| 120 | Confined Masonry |\n| Concrete | 131 | Reinforced Concrete |\n| 132 | Reinforced Concrete Shear Wall (with MRF) |\n| 133 | Reinforced Concrete Shear Wall (without MRF) |\n| 134 | Reinforced Concrete MRF - Ductile |\n| 135 | Reinforced Concrete MRF - Non-Ductile |\n| 136 | Tilt-Up |\n| 137 | Pre-cast Concrete |\n| 139 | Reinforced Concrete MRF |\n| 140 | Reinforced concrete MRF with URM |\n| Steel | 151 | Steel |\n| 152 | Light Metal |\n| 153 | Braced Steel Frame |\n| 154 | Steel MRF - Perimeter |\n| 155 | Steel MRF - Distributed |\n| 156 | Steel MRF |\n| 157 | Steel Frame with URM |\n| 158 | Steel Frame with Concrete Shear Wall |\n| Special | 181 | Long Span |\n| 182 | Semi-Wind Resistive |\n| 183 | Wind Resistive |\n| Mobile Homes | 191 | Mobile Homes |\n| 192 | Mobile Home with No Tie-Downs |\n| 193 | Mobile Home with Partial Tie-Downs |\n| 194 | Mobile Home with Full Tie-Downs |\n| Automobiles | 261 | Automobiles |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction code",
+    "Construction class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood Frame (Modern)"
+    ],
+    [
+     "102",
+     "Light Wood Frame"
+    ],
+    [
+     "103",
+     "Masonry Veneer"
+    ],
+    [
+     "104",
+     "Heavy Timber"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "112",
+     "Adobe"
+    ],
+    [
+     "113",
+     "Rubble Stone Masonry"
+    ],
+    [
+     "114",
+     "Unreinforced Masonry - Bearing Wall"
+    ],
+    [
+     "115",
+     "Unreinforced Masonry - Bearing Frame"
+    ],
+    [
+     "116",
+     "Reinforced Masonry"
+    ],
+    [
+     "117",
+     "Reinforced Masonry Shear Wall (with MRF)"
+    ],
+    [
+     "118",
+     "Reinforced Masonry Shear Wall (without MRF)"
+    ],
+    [
+     "119",
+     "Joisted Masonry"
+    ],
+    [
+     "120",
+     "Confined Masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced Concrete"
+    ],
+    [
+     "132",
+     "Reinforced Concrete Shear Wall (with MRF)"
+    ],
+    [
+     "133",
+     "Reinforced Concrete Shear Wall (without MRF)"
+    ],
+    [
+     "134",
+     "Reinforced Concrete MRF - Ductile"
+    ],
+    [
+     "135",
+     "Reinforced Concrete MRF - Non-Ductile"
+    ],
+    [
+     "136",
+     "Tilt-Up"
+    ],
+    [
+     "137",
+     "Pre-cast Concrete"
+    ],
+    [
+     "139",
+     "Reinforced Concrete MRF"
+    ],
+    [
+     "140",
+     "Reinforced concrete MRF with URM"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "152",
+     "Light Metal"
+    ],
+    [
+     "153",
+     "Braced Steel Frame"
+    ],
+    [
+     "154",
+     "Steel MRF - Perimeter"
+    ],
+    [
+     "155",
+     "Steel MRF - Distributed"
+    ],
+    [
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "157",
+     "Steel Frame with URM"
+    ],
+    [
+     "158",
+     "Steel Frame with Concrete Shear Wall"
+    ],
+    [
+     "Special",
+     "181",
+     "Long Span"
+    ],
+    [
+     "182",
+     "Semi-Wind Resistive"
+    ],
+    [
+     "183",
+     "Wind Resistive"
+    ],
+    [
+     "Mobile Homes",
+     "191",
+     "Mobile Homes"
+    ],
+    [
+     "192",
+     "Mobile Home with No Tie-Downs"
+    ],
+    [
+     "193",
+     "Mobile Home with Partial Tie-Downs"
+    ],
+    [
+     "194",
+     "Mobile Home with Full Tie-Downs"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_comm-occ.html",
+ "title": "Commercial occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Commercial occupancy codes\n\nTouchstone\n supports the following commercial\n occupancy class codes.\n\nSince Standard Industrial Classification (SIC) codes are not mapped to commercial\n occupancies, \"n/a\" indicates that the column is not applicable. The associated 2-digit\n Standard Industrial Classification (SIC) code or codes are listed for each occupancy\n code.\nNote:\n For information about supported codes and limitations for\n specific models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 311 | General Commercial | n/a | General Commercial is a composite of all other commercial occupancies.\n You can select this occupancy class code if you have no specific information\n about the risk. |\n| 312 | Retail Trade | 52 - 59 | Retail stores including those establishments that sell building\n materials and hardware, general merchandise, food, apparel and accessories,\n home furniture, furnishings and appliances, and prepared food and drinks.\n Includes automotive dealers, gasoline service stations, and motorcycle,\n boat, and recreational vehicle dealers. Includes other retail such as drug\n stores, liquor stores, bookstores, used merchandise, jewelry stores, and\n piece goods stores. Also includes non-store retailers and fuel dealers. For\n all exposures in the U.S., Canada, South America, and the Caribbean, and for\n exposures covered for wind in Europe, restaurants (331) and gasoline stations\n (335) have separate occupancy codes. In other regions, use 312 for\n these occupancies. Also valid for Verisk Earthquake Model for New Zealand . |\n| 313 | Wholesale Trade | 50 - 51 | Includes wholesale distribution of durable goods including motor\n vehicles and parts, home furnishings, lumber and construction materials,\n professional and commercial equipment, metals and minerals, electrical\n goods, hardware, plumbing and heating equipment, machinery, equipment and\n supplies, and other miscellaneous durable goods. Also includes wholesale\n distribution of non-durable goods including paper and paper products, drugs,\n apparel, groceries, farm-product raw materials, chemicals, petroleum and\n petroleum related products, alcoholic beverages, and other miscellaneous\n non-durable goods. |\n| 314 | Personal and Repair Services | 72, 75, 76 | Includes personal services such as laundry and dry cleaning services,\n beauty and barbershops, shoe repair shops, photographic studios, and funeral\n services, as well as automotive rental and leasing, automotive repair shops,\n and other automotive service including car washes and miscellaneous repair\n services. For all exposures in the U.S., Canada, and the Caribbean, and for\n exposures covered for wind in Europe, use code 336 (instead of\n 314), for automotive repair services and car washes. In other regions, use\n 314 for these occupancies. Also valid for Verisk Earthquake Model for New Zealand . |\n| 315 | Professional, Technical, and Business Services | 60 - 67, 73, 81, 87, 91, 93 - 97 | Occupancies involved in the financial industry including depository\n institutions, non-depository credit institutions, security and commodity\n brokers, dealers and exchanges, insurance carriers, insurance agents and\n brokers, and real estate and other investment offices. Includes business\n services such as advertising agencies, consumer credit reporting agencies,\n mailing services, reproduction services, commercial art services, building\n cleaning and pest control services, equipment rental/leasing operations,\n employment agencies, computer programming, and computer rental/maintenance\n services. Also included in this occupancy class are legal services,\n engineering and architectural services, accounting services, research and\n development services, and management/public relations services. Executive\n offices, legislative bodies, and government offices are included in this\n occupancy class as are government establishments engaged in finance and\n taxation, in environmental quality and housing programs, and in the\n administration of economic programs including transportation, communications\n and utilities, agriculture, space and technology, national security and\n internal affairs, as well as government establishments engaged in human\n resource programs such as public health, veterans affairs, education, and\n social and human resources. |\n| 316 | Health Care Services | 80 | Occupancies include medical, surgical, and other health services\n including clinics, laboratories, hospitals, and other health services. |\n| 317 | Entertainment and Recreation | 78, 79, 84 | This occupancy class includes motion picture production and\n distribution facilities including motion picture theaters and video tape\n rental establishments, dance studios, theatrical production (other than\n motion picture), bowling centers, sports clubs, and physical fitness\n facilities, as well as amusement parks, museums, art galleries, arboreta,\n and botanical and zoological gardens. For all exposures in the U.S., Canada,\n the Caribbean, and Japan, and for exposures covered for wind in Europe, use\n commercial occupancy code 319 (rather than 317) for golf courses. In other\n regions, use 317 for golf courses. Also valid for Verisk Earthquake Model for New Zealand . Note: Although we do not explicitly\n model swimming pools, a suggestion for coding a swimming pool includes\n using either 116\n (Reinforced Masonry) or 131 (Reinforced\n Concrete) as the construction code, while using occupancy code\n 317, and then entering the replacement value for the pool as the building\n replacement value (that is, Coverage A) . |\n| 318 | Parking | 75 | Automobile parking facilities. |\n| 319 | Golf Courses | 79 | Golf courses and related buildings and facilities. Valid for all\n exposures in the U.S., Australia, Canada, South America, the Caribbean,\n Japan, South Korea, China, and Taiwan, and for exposures covered for wind in\n Europe. In other regions, use code 317 (Entertainment and Recreation) for\n golf courses. Also valid for Verisk Earthquake Model for New Zealand |\n| 366 | Inland Transit Cargo | n/a | Distribution centers that temporarily store various commodities for\n further distribution, including wholesale stores. The commodities can be\n light (e.g. food, drug, light fabrication of clothing, high technology\n electricals) and heavy (e.g. heavy construction machineries). Warehouses are\n typically one-story steel frame or SRC (steel-reinforced concrete)\n construction with high ceilings. Most of the commodities are well packed and\n can be stacked during storage. Valid only for Southeast Asia models. |\n| 383 | Construction/Erection Risks | n/a | Commercial construction/erection risk is an under-construction building\n that is intended for general commercial occupancy. Currently supported for\n locations in China, India, South Korea, Southeast Asia (earthquake and\n typhoon), South America, Japan (earthquake and typhoon), the Middle East\n (earthquake) (version 11.5 and later), and for some locations in Europe,\n including Central Europe. Also valid for Verisk Earthquake Model for New Zealand and Verisk Earthquake Model for Australia . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "311",
+     "General Commercial",
+     "n/a",
+     "General Commercial is a composite of all other commercial occupancies.\n                        You can select this occupancy class code if you have no specific information\n                        about the risk."
+    ],
+    [
+     "312",
+     "Retail Trade",
+     "52 - 59",
+     "Retail stores including those establishments that sell building\n                        materials and hardware, general merchandise, food, apparel and accessories,\n                        home furniture, furnishings and appliances, and prepared food and drinks.\n                        Includes automotive dealers, gasoline service stations, and motorcycle,\n                        boat, and recreational vehicle dealers. Includes other retail such as drug\n                        stores, liquor stores, bookstores, used merchandise, jewelry stores, and\n                        piece goods stores. Also includes non-store retailers and fuel dealers. For\n                        all exposures in the U.S., Canada, South America, and the Caribbean, and for\n                        exposures covered for wind in Europe, restaurants (331) and gasoline stations\n                           (335) have separate occupancy codes. In other regions, use 312 for\n                        these occupancies. Also valid for Verisk Earthquake Model for New Zealand ."
+    ],
+    [
+     "313",
+     "Wholesale Trade",
+     "50 - 51",
+     "Includes wholesale distribution of durable goods including motor\n                        vehicles and parts, home furnishings, lumber and construction materials,\n                        professional and commercial equipment, metals and minerals, electrical\n                        goods, hardware, plumbing and heating equipment, machinery, equipment and\n                        supplies, and other miscellaneous durable goods. Also includes wholesale\n                        distribution of non-durable goods including paper and paper products, drugs,\n                        apparel, groceries, farm-product raw materials, chemicals, petroleum and\n                        petroleum related products, alcoholic beverages, and other miscellaneous\n                        non-durable goods."
+    ],
+    [
+     "314",
+     "Personal and Repair Services",
+     "72, 75, 76",
+     "Includes personal services such as laundry and dry cleaning services,\n                        beauty and barbershops, shoe repair shops, photographic studios, and funeral\n                        services, as well as automotive rental and leasing, automotive repair shops,\n                        and other automotive service including car washes and miscellaneous repair\n                        services. For all exposures in the U.S., Canada, and the Caribbean, and for\n                        exposures covered for wind in Europe, use code 336 (instead of\n                        314), for automotive repair services and car washes. In other regions, use\n                        314 for these occupancies. Also valid for Verisk Earthquake Model for New Zealand ."
+    ],
+    [
+     "315",
+     "Professional, Technical, and Business Services",
+     "60 - 67, 73, 81, 87, 91, 93 - 97",
+     "Occupancies involved in the financial industry including depository\n                        institutions, non-depository credit institutions, security and commodity\n                        brokers, dealers and exchanges, insurance carriers, insurance agents and\n                        brokers, and real estate and other investment offices. Includes business\n                        services such as advertising agencies, consumer credit reporting agencies,\n                        mailing services, reproduction services, commercial art services, building\n                        cleaning and pest control services, equipment rental/leasing operations,\n                        employment agencies, computer programming, and computer rental/maintenance\n                        services. Also included in this occupancy class are legal services,\n                        engineering and architectural services, accounting services, research and\n                        development services, and management/public relations services. Executive\n                        offices, legislative bodies, and government offices are included in this\n                        occupancy class as are government establishments engaged in finance and\n                        taxation, in environmental quality and housing programs, and in the\n                        administration of economic programs including transportation, communications\n                        and utilities, agriculture, space and technology, national security and\n                        internal affairs, as well as government establishments engaged in human\n                        resource programs such as public health, veterans affairs, education, and\n                        social and human resources."
+    ],
+    [
+     "316",
+     "Health Care Services",
+     "80",
+     "Occupancies include medical, surgical, and other health services\n                        including clinics, laboratories, hospitals, and other health services."
+    ],
+    [
+     "317",
+     "Entertainment and Recreation",
+     "78, 79, 84",
+     "This occupancy class includes motion picture production and\n                        distribution facilities including motion picture theaters and video tape\n                        rental establishments, dance studios, theatrical production (other than\n                        motion picture), bowling centers, sports clubs, and physical fitness\n                        facilities, as well as amusement parks, museums, art galleries, arboreta,\n                        and botanical and zoological gardens. For all exposures in the U.S., Canada,\n                        the Caribbean, and Japan, and for exposures covered for wind in Europe, use\n                        commercial occupancy code 319 (rather than 317) for golf courses. In other\n                        regions, use 317 for golf courses. Also valid for Verisk Earthquake Model for New Zealand . Note: Although we do not explicitly\n                           model swimming pools, a suggestion for coding a swimming pool includes\n                           using either 116\n                              (Reinforced Masonry) or 131 (Reinforced\n                              Concrete) as the construction code, while using occupancy code\n                           317, and then entering the replacement value for the pool as the building\n                              replacement value (that is, Coverage A) ."
+    ],
+    [
+     "318",
+     "Parking",
+     "75",
+     "Automobile parking facilities."
+    ],
+    [
+     "319",
+     "Golf Courses",
+     "79",
+     "Golf courses and related buildings and facilities. Valid for all\n                        exposures in the U.S., Australia, Canada, South America, the Caribbean,\n                        Japan, South Korea, China, and Taiwan, and for exposures covered for wind in\n                        Europe. In other regions, use code 317 (Entertainment and Recreation) for\n                        golf courses. Also valid for Verisk Earthquake Model for New Zealand"
+    ],
+    [
+     "366",
+     "Inland Transit Cargo",
+     "n/a",
+     "Distribution centers that temporarily store various commodities for\n                        further distribution, including wholesale stores. The commodities can be\n                        light (e.g. food, drug, light fabrication of clothing, high technology\n                        electricals) and heavy (e.g. heavy construction machineries). Warehouses are\n                        typically one-story steel frame or SRC (steel-reinforced concrete)\n                        construction with high ceilings. Most of the commodities are well packed and\n                        can be stacked during storage. Valid only for Southeast Asia models."
+    ],
+    [
+     "383",
+     "Construction/Erection Risks",
+     "n/a",
+     "Commercial construction/erection risk is an under-construction building\n                        that is intended for general commercial occupancy. Currently supported for\n                        locations in China, India, South Korea, Southeast Asia (earthquake and\n                        typhoon), South America, Japan (earthquake and typhoon), the Middle East\n                        (earthquake) (version 11.5 and later), and for some locations in Europe,\n                        including Central Europe. Also valid for Verisk Earthquake Model for New Zealand and Verisk Earthquake Model for Australia ."
+    ]
+   ]
+  }
+ ]
+}

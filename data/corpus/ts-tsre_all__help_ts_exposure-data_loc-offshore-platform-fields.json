@@ -1,0 +1,167 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-offshore-platform-fields.html",
+ "title": "Location offshore platform fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location offshore platform fields\n\nValidation rules for fields related to offshore platforms.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the location.\n\nOur individual risk methodology follows a structured, logical approach that groups\n building characteristics according to their function to reflect the contribution of each\n characteristic to overall building performance. For information about the secondary risk\n characteristics that are supported in a specific model, refer to the \"Model in \nTouchstone\nâ chapter in the model description, which\n is available on the \nClient Portal\n. Documentation\n for some \nVerisk\n models includes a separate\n document that serves as a guide to the secondary risk characteristics (SRC) used in the\n model.\n\n| Field | Perils | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- | --- |\n| PBN Definition | US HU OS | Complete platform definition (protraction + block + name) for this\n platform\n Enter the area/protraction, followed by the block, followed by the\n structure name. Separate these values by spaces. For example: SS 26\n B-HTR\n If the PBN definition is unknown, enter X for this field. | Required if you have not provided the MMS complex ID , MMS structure number , or AIR structure\n ID | |\n| AIR Structure ID | US HU OS | Unique AIR -assigned\n identifier for this platform | Required if you have not provided the MMS complex ID, MMS structure\n number, or PBN definition | |\n| MMS Complex ID | US HU OS | Unique BOEMRE (Bureau of Ocean Energy Management, Regulation and\n Enforcement - formerly known as Mineral Management Survey - MMS)\n identifier assigned to a single structure or a group of structures\n connected by a walkway | Required if you have not provided the MMS structure number, AIR structure ID, or PBN\n definition | |\n| MMS Structure Number | US HU OS | Unique BOEMRE (Bureau of Ocean Energy Management, Regulation and\n Enforcement - formerly known as Mineral Management Survey - MMS) number\n assigned to a specific structure within a complex | Required if you have not provided the MMS complex ID, AIR structure ID, or PBN\n definition | |\n| Federal/State Waters | US HU OS | Administrative area in which this platform is located | Optional Can contain up to 255 characters | |\n| Protraction/Area | US HU OS | Protraction/area in which this platform is located | Optional Can contain up to 255 characters | |\n| Block | US HU OS | Block in which this platform is located | Optional Can contain up to 255 characters | |\n| Replacement Value Physical Damage | US HU OS | Replacement cost of this platform | Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 999999999999999,\n inclusive | 0.00 |\n| Year Built | US HU OS | Year in which this platform was built or underwent a major upgrade | Defaults to a value in the Touchstone user interface Must be 0 or a numeric value between 1967 and 2067, inclusive | 0 |\n| Gas Production Rate | US HU OS | Rate of gas that this platform produces per day, measured in Mcf (1,000\n cubic feet) | Defaults to a value in the Touchstone user interface Must be -1 or a numeric value greater than or equal to 0 | 0 |\n| Oil Production Rate | US HU OS | Rate of oil that this platform produces per day, measured in barrels | Defaults to a value in the Touchstone user interface Must be -1 or a numeric value greater than or equal to 0 | 0 |\n| Deck Height | US HU OS | Height of the deck of this platform above the water, measured in\n meters | Defaults to a value in the Touchstone user interface Must be -1 or a numeric value between 0 and 999, inclusive We recommend that you specify a deck height value between 0 and\n 999, inclusive. | -1 |\n| Slot Count | US HU OS | Number of wells that this entity is licensed to drill | Defaults to a value in the Touchstone user interface Must be -1, 300, or a numeric value between 0 and 50, inclusive We recommend that you specify a slot count value between 0 and 50,\n inclusive. Nevertheless, if you specify a slot count value greater\n than 50, the model will still use it. | -1 |\n| Slot Drill Count | US HU OS | Number of wells currently drilled | Defaults to a value in the Touchstone user interface Must be -1, 300, or a numeric value between 0 and 50, inclusive We recommend that you specify a slot drill count value between 0\n and 50, inclusive. Nevertheless, if you specify a slot count value\n greater than 50, the model will still use it. | -1 |\n| Leg Count | US HU OS | Number of legs on this platform | Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 44, inclusive | 0 |\n| Deck Count | US HU OS | Number of decks on this platform | Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 10, inclusive | 0 |\n| Trans Frame Type | US HU OS | One of the following types (or shapes) of transverse framing used to\n brace the legs of this platform: 0 1 2 3 4 5 6 7 | Defaults to a value in the Touchstone user interface | Unknown |\n| Topside Cost | US HU OS | Cost of the deck or decks and equipment on this platform | Defaults to a value in the Touchstone user interface Must be -1 or a numeric value between 0 and 100, inclusive We recommend that you specify a topside cost value between 0 and\n 100, inclusive. | -1 |\n| Manned/Unmanned | US HU OS | One of the following values to indicate whether this platform is\n manned: 0 - Unknown 1 - Manned 2 - Unmanned | Defaults to a value in the Touchstone user interface | Unknown |\n| Company Size | US HU OS | One of the following values to describe the size of the company that\n operates this platform: 0 1 2 3 | Defaults to a value in the Touchstone user interface | Unknown |\n| Well Count | US HU OS | Number of wells connected to this platform | Defaults to a value in the Touchstone user interface Must be -1 or a numeric value between 0 and 100, inclusive We recommend that you specify a well count value between 0 and 100,\n inclusive. | -1 |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Perils",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "PBN Definition",
+     "US HU OS",
+     "Complete platform definition (protraction + block + name) for this\n                           platform\n                        Enter the area/protraction, followed by the block, followed by the\n                           structure name. Separate these values by spaces. For example: SS 26\n                           B-HTR\n                        If the PBN definition is unknown, enter X for this field.",
+     "Required if you have not provided the MMS complex ID , MMS structure number , or AIR structure\n                              ID",
+     ""
+    ],
+    [
+     "AIR Structure ID",
+     "US HU OS",
+     "Unique AIR -assigned\n                           identifier for this platform",
+     "Required if you have not provided the MMS complex ID, MMS structure\n                           number, or PBN definition",
+     ""
+    ],
+    [
+     "MMS Complex ID",
+     "US HU OS",
+     "Unique BOEMRE (Bureau of Ocean Energy Management, Regulation and\n                           Enforcement - formerly known as Mineral Management Survey - MMS)\n                           identifier assigned to a single structure or a group of structures\n                           connected by a walkway",
+     "Required if you have not provided the MMS structure number, AIR structure ID, or PBN\n                           definition",
+     ""
+    ],
+    [
+     "MMS Structure Number",
+     "US HU OS",
+     "Unique BOEMRE (Bureau of Ocean Energy Management, Regulation and\n                           Enforcement - formerly known as Mineral Management Survey - MMS) number\n                           assigned to a specific structure within a complex",
+     "Required if you have not provided the MMS complex ID, AIR structure ID, or PBN\n                           definition",
+     ""
+    ],
+    [
+     "Federal/State Waters",
+     "US HU OS",
+     "Administrative area in which this platform is located",
+     "Optional Can contain up to 255 characters",
+     ""
+    ],
+    [
+     "Protraction/Area",
+     "US HU OS",
+     "Protraction/area in which this platform is located",
+     "Optional Can contain up to 255 characters",
+     ""
+    ],
+    [
+     "Block",
+     "US HU OS",
+     "Block in which this platform is located",
+     "Optional Can contain up to 255 characters",
+     ""
+    ],
+    [
+     "Replacement Value Physical Damage",
+     "US HU OS",
+     "Replacement cost of this platform",
+     "Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 999999999999999,\n                                 inclusive",
+     "0.00"
+    ],
+    [
+     "Year Built",
+     "US HU OS",
+     "Year in which this platform was built or underwent a major upgrade",
+     "Defaults to a value in the Touchstone user interface Must be 0 or a numeric value between 1967 and 2067, inclusive",
+     "0"
+    ],
+    [
+     "Gas Production Rate",
+     "US HU OS",
+     "Rate of gas that this platform produces per day, measured in Mcf (1,000\n                           cubic feet)",
+     "Defaults to a value in the Touchstone user interface Must be -1 or a numeric value greater than or equal to 0",
+     "0"
+    ],
+    [
+     "Oil Production Rate",
+     "US HU OS",
+     "Rate of oil that this platform produces per day, measured in barrels",
+     "Defaults to a value in the Touchstone user interface Must be -1 or a numeric value greater than or equal to 0",
+     "0"
+    ],
+    [
+     "Deck Height",
+     "US HU OS",
+     "Height of the deck of this platform above the water, measured in\n                           meters",
+     "Defaults to a value in the Touchstone user interface Must be -1 or a numeric value between 0 and 999, inclusive We recommend that you specify a deck height value between 0 and\n                                 999, inclusive.",
+     "-1"
+    ],
+    [
+     "Slot Count",
+     "US HU OS",
+     "Number of wells that this entity is licensed to drill",
+     "Defaults to a value in the Touchstone user interface Must be -1, 300, or a numeric value between 0 and 50, inclusive We recommend that you specify a slot count value between 0 and 50,\n                                 inclusive. Nevertheless, if you specify a slot count value greater\n                                 than 50, the model will still use it.",
+     "-1"
+    ],
+    [
+     "Slot Drill Count",
+     "US HU OS",
+     "Number of wells currently drilled",
+     "Defaults to a value in the Touchstone user interface Must be -1, 300, or a numeric value between 0 and 50, inclusive We recommend that you specify a slot drill count value between 0\n                                 and 50, inclusive. Nevertheless, if you specify a slot count value\n                                 greater than 50, the model will still use it.",
+     "-1"
+    ],
+    [
+     "Leg Count",
+     "US HU OS",
+     "Number of legs on this platform",
+     "Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 44, inclusive",
+     "0"
+    ],
+    [
+     "Deck Count",
+     "US HU OS",
+     "Number of decks on this platform",
+     "Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 10, inclusive",
+     "0"
+    ],
+    [
+     "Trans Frame Type",
+     "US HU OS",
+     "One of the following types (or shapes) of transverse framing used to\n                           brace the legs of this platform: 0 1 2 3 4 5 6 7",
+     "Defaults to a value in the Touchstone user interface",
+     "Unknown"
+    ],
+    [
+     "Topside Cost",
+     "US HU OS",
+     "Cost of the deck or decks and equipment on this platform",
+     "Defaults to a value in the Touchstone user interface Must be -1 or a numeric value between 0 and 100, inclusive We recommend that you specify a topside cost value between 0 and\n                                 100, inclusive.",
+     "-1"
+    ],
+    [
+     "Manned/Unmanned",
+     "US HU OS",
+     "One of the following values to indicate whether this platform is\n                           manned: 0 - Unknown 1 - Manned 2 - Unmanned",
+     "Defaults to a value in the Touchstone user interface",
+     "Unknown"
+    ],
+    [
+     "Company Size",
+     "US HU OS",
+     "One of the following values to describe the size of the company that\n                           operates this platform: 0 1 2 3",
+     "Defaults to a value in the Touchstone user interface",
+     "Unknown"
+    ],
+    [
+     "Well Count",
+     "US HU OS",
+     "Number of wells connected to this platform",
+     "Defaults to a value in the Touchstone user interface Must be -1 or a numeric value between 0 and 100, inclusive We recommend that you specify a well count value between 0 and 100,\n                                 inclusive.",
+     "-1"
+    ]
+   ]
+  }
+ ]
+}

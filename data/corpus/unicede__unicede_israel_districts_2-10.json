@@ -1,0 +1,93 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_israel_districts_2-10.html",
+ "title": "Israel Districts (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Israel Districts (v2.10)\n\nDistrict codes for Israel supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Israel (20).\n\n| Area Tag | District Name |\n| --- | --- |\n| 20-000 | Israel |\n| 20-001 | Jerusalem |\n| 20-002 | Zefat |\n| 20-003 | Kinneret |\n| 20-004 | Yizre'el |\n| 20-005 | Akko |\n| 20-006 | Golan |\n| 20-007 | Haifa |\n| 20-008 | Hadera |\n| 20-009 | Sharon |\n| 20-010 | Petah Tiqwa |\n| 20-011 | Ramla |\n| 20-012 | Rehovot |\n| 20-013 | Tel Aviv |\n| 20-014 | Ashqelon |\n| 20-015 | Be'er Sheva |\n| 20-016 | Judea & Samaria |\n| 20-017 | Gaza Area |\n| 20-018 | Sea |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "20-000",
+     "Israel"
+    ],
+    [
+     "20-001",
+     "Jerusalem"
+    ],
+    [
+     "20-002",
+     "Zefat"
+    ],
+    [
+     "20-003",
+     "Kinneret"
+    ],
+    [
+     "20-004",
+     "Yizre'el"
+    ],
+    [
+     "20-005",
+     "Akko"
+    ],
+    [
+     "20-006",
+     "Golan"
+    ],
+    [
+     "20-007",
+     "Haifa"
+    ],
+    [
+     "20-008",
+     "Hadera"
+    ],
+    [
+     "20-009",
+     "Sharon"
+    ],
+    [
+     "20-010",
+     "Petah Tiqwa"
+    ],
+    [
+     "20-011",
+     "Ramla"
+    ],
+    [
+     "20-012",
+     "Rehovot"
+    ],
+    [
+     "20-013",
+     "Tel Aviv"
+    ],
+    [
+     "20-014",
+     "Ashqelon"
+    ],
+    [
+     "20-015",
+     "Be'er Sheva"
+    ],
+    [
+     "20-016",
+     "Judea & Samaria"
+    ],
+    [
+     "20-017",
+     "Gaza Area"
+    ],
+    [
+     "20-018",
+     "Sea"
+    ]
+   ]
+  }
+ ]
+}

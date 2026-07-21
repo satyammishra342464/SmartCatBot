@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 17",
+ "section": "local-docs",
+ "version": null,
+ "text": "Incept and Expiry Dates\nInception and expiry dates are usually \nshown clearly on the first few pages of the \nslip.\nIf insurance is written as exactly 365 days \n(example: 01-Oct-2023 to 01-Oct-2024), \nchange the expiry date to the previous day \n(30-Sep-2024).\nEnter both dates in DD/MM/YYYY format in \nthe INCEPTDATE and EXPIREDATE columns \nof the ACC file.\nINCEPTDATE EXPIREDATE\n1/1/2019 12/30/2019\n1/1/2019 12/30/2019\n1/1/2019 12/30/2019\n1/1/2019 12/30/2019\n1/1/2019 12/30/2019\n1/1/2019 12/30/2019",
+ "tables": []
+}

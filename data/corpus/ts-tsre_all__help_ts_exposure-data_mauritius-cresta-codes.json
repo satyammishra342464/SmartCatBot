@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mauritius-cresta-codes.html",
+ "title": "Mauritius CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mauritius \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Mauritius.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Port Louis |\n| 2 | Rest of Mauritius Island |\n| 3 | Rodriguez Island |\n| 4 | Agalega Islands |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Port Louis"
+    ],
+    [
+     "2",
+     "Rest of Mauritius Island"
+    ],
+    [
+     "3",
+     "Rodriguez Island"
+    ],
+    [
+     "4",
+     "Agalega Islands"
+    ]
+   ]
+  }
+ ]
+}

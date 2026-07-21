@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_canada_lob_2-7.html",
+ "title": "Canada Lines Of Business (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Canada Lines Of Business (v2.7)\n \n\nLOB codes for Canada supported by \nUNICEDE\n/2.\n\n| Code | Lines of Business |\n| --- | --- |\n| PER | Personal |\n| MHO | Mobile Home |\n| COM | Commercial |\n| AUTO | Auto |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "PER",
+     "Personal"
+    ],
+    [
+     "MHO",
+     "Mobile Home"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  }
+ ]
+}

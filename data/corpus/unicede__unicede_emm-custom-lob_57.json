@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_emm-custom-lob_57.html",
+ "title": "EMM Custom Lines of Business",
+ "section": "unicede",
+ "version": null,
+ "text": "EMM Custom Lines of Business\n\nCustom LOBs supported by \nUNICEDE\n/2.\n\nCustom lines of business are defined for each \nTouchstone Re\n Advanced Loss Modification (ALM)\n country where sums insured data is entered in the Exposures pane for the selected peril,\n year and currency. Because Custom LOB definitions are specific to each \nTouchstone Re\n environment, \nUNICEDE\n/2 files with Custom LOB exposures must use\n generic LOB codes (LOB1, LOB2, etc.). Also, Custom LOB exposures must be coded with the\n Coverage Code âCLâ in any \nUNICEDE\n/2 file.",
+ "tables": []
+}

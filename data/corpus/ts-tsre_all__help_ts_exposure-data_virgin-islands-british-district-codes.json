@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_virgin-islands-british-district-codes.html",
+ "title": "Virgin Islands (British) district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Virgin Islands (British) district codes\n\nTouchstone\n supports the following district\n codes for the British Virgin Islands.\n\n| District Code | District Name |\n| --- | --- |\n| 01 | Anegada |\n| 02 | Jost Van Dyke |\n| 03 | Southern Islands |\n| 04 | Tortola |\n| 05 | Virgin Gorda |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Anegada"
+    ],
+    [
+     "02",
+     "Jost Van Dyke"
+    ],
+    [
+     "03",
+     "Southern Islands"
+    ],
+    [
+     "04",
+     "Tortola"
+    ],
+    [
+     "05",
+     "Virgin Gorda"
+    ]
+   ]
+  }
+ ]
+}

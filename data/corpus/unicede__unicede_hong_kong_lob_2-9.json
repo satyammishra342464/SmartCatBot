@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hong_kong_lob_2-9.html",
+ "title": "Hong Kong Lines of Business (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Hong Kong Lines of Business (v2.9)\n\nLOB codes for Hong Kong supported by \nUNICEDE\n/2.\n\n| Code | Line of Business |\n| --- | --- |\n| RB | Residential Buildings |\n| RC | Residential Contents |\n| RBC | Residential Buildings & Contents |\n| COMB | Commercial & Industrial Buildings |\n| COMC | Commercial & Industrial Contents |\n| CAI | Commercial & Industrial |\n| AUTO | Auto |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RB",
+     "Residential Buildings"
+    ],
+    [
+     "RC",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Buildings & Contents"
+    ],
+    [
+     "COMB",
+     "Commercial & Industrial Buildings"
+    ],
+    [
+     "COMC",
+     "Commercial & Industrial Contents"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  }
+ ]
+}

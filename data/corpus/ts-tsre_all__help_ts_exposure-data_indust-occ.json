@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_indust-occ.html",
+ "title": "Industrial occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Industrial occupancy codes\n\nTouchstone\n supports the following industrial\n occupancy class codes.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 321 | General Industrial | n/a | General industrial is a composite of all other industrial occupancies.\n You can use this occupancy class code if you have no specific information\n about the risk. |\n| 322 | Heavy Fabrication and Assembly | 08, 09, 24, 26, 30, 32, 35, 37, 99 | Includes commercial fishing, hunting and trapping, operation of timber\n tracts, tree farms, forestry, nurseries and related activities, and\n establishments engaged in the cutting of timber and pulpwood. Includes\n the manufacture of furniture and other wood products, pulps from wood and\n other sources, tires and various other rubber and plastic products, glass\n products, cement, structural clay products, pottery, concrete and gypsum\n products, cut stone, and abrasive and asbestos products. Includes the\n manufacture of industrial and commercial machinery and equipment such as\n engines and turbines, farm and garden machinery, construction and mining\n equipment, metalworking machinery, special industry machinery, general\n industrial machinery, computer and office equipment, refrigeration\n machinery, and miscellaneous industrial machinery. Also includes the\n manufacture of motor vehicles, aircraft and aircraft parts, ship/boat\n building and repair, railroad equipment, motorcycles and bicycles, guided\n missiles, space vehicles, and transport equipment. |\n| 323 | Light Fabrication and Assembly | 22, 23, 25, 27, 31, 39 | Occupancies involved in the preparation and manufacture of yarn, thread,\n twine, and cordage, in the manufacture of fabrics, carpets, and rugs, and\n in the dyeing and finishing of fiber, yarn, and fabrics. Includes the\n manufacture of apparel, felt goods, lace goods, non-woven fabrics,\n miscellaneous textiles, and textile products. Includes the manufacture of\n household, office, and restaurant furniture, as well as office and store\n fixtures. Includes occupancies involved in the publishing and/or printing\n trade and in service industries related to the printing trade. This\n occupancy class also includes tanning, currying, and finishing of hides\n and skins, manufacturing of finished leather and artificial leather\n products, jewelry, musical instruments, dolls, and toys, as well as other\n miscellaneous manufacturing. |\n| 324 | Food and Drug Processing | 20, 21 | Includes food and beverage manufacturing and processing, and the\n manufacturing of cigarettes, cigars, and chewing and smoking tobacco. |\n| 325 | Chemical Processing | 28 | Establishments involved in the manufacture of basic chemicals including\n acids, alkalis, salts, and organic chemicals, as well as chemical\n products that are to be used in further manufacturing including synthetic\n fibers, plastic materials, dry colors, and pigments. Includes the\n manufacture of finished products used for ultimate consumption including\n drugs, cosmetics, and soaps, as well as products used as supplies in\n other industries including paints, fertilizers, and explosives. |\n| 326 | Metal and Mineral Processing | 33, 34 | Includes the smelting and refining of metals, the manufacture of\n castings, other basic metal products, nails, spikes, insulated wire, and\n cable, the production of coke, the fabrication of metal products\n including metal cans, tin ware, hand tools, cutlery, and general\n hardware, and metal forging. |\n| 327 | High Technology | 36, 38 | Includes occupancies involved in the manufacture of machinery and\n supplies for the generation, storage, transmission, transformation, and\n utilization of electrical energy including electricity distribution\n equipment, industrial apparatus, household appliances, electrical\n lighting, and wiring equipment. Includes manufacturing instruments for\n measuring, testing, analyzing, and controlling, optical instruments and\n lenses, surveying and drafting instruments, hydrological, meteorological,\n navigational, surgical, medical, ophthalmic, and photographic equipment.\n Also included are watches and clocks. |\n| 328 | Construction | 15 - 17 | Includes general contractors and builders of residential, farm,\n industrial, commercial, and other buildings, as well as general\n contractors involved in heavy construction including highways, streets,\n bridges, tunnels, etc. Also included are special trade contractors\n including painting, electrical work, carpentry work, plumbing, heating,\n roofing, etc. |\n| 329 | Petroleum | 29, 46 | Establishments involved in petroleum refining, in the manufacture of\n paving and roofing materials, of compounding and lubricating oils and\n greases. Also includes the transportation of petroleum and other\n commodities, other than natural gas, through pipelines. |\n| 330 | Mining | 10, 12 - 14 | Includes mining and exploring for metallic and nonmetallic minerals, as\n well as the mining and preparation of coal. Includes the extraction of\n oil from sand and shale and the production of natural gasoline. |\n| 384 | Construction/Erection Risks | n/a | Industrial construction/erection risk is an under-construction building\n that is intended for a general industrial occupancy. Currently supported\n only for locations in China, India, South Korea, Southeast Asia (earthquake\n and typhoon), South America, Japan (earthquake and typhoon), the Middle East\n (added in 11.5), and for some locations in\n Europe , including Central Europe. Also valid for Verisk Earthquake Model for New Zealand . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "321",
+     "General Industrial",
+     "n/a",
+     "General industrial is a composite of all other industrial occupancies.\n                           You can use this occupancy class code if you have no specific information\n                           about the risk."
+    ],
+    [
+     "322",
+     "Heavy Fabrication and Assembly",
+     "08, 09, 24, 26, 30, 32, 35, 37, 99",
+     "Includes commercial fishing, hunting and trapping, operation of timber\n                           tracts, tree farms, forestry, nurseries and related activities, and\n                           establishments engaged in the cutting of timber and pulpwood. Includes\n                           the manufacture of furniture and other wood products, pulps from wood and\n                           other sources, tires and various other rubber and plastic products, glass\n                           products, cement, structural clay products, pottery, concrete and gypsum\n                           products, cut stone, and abrasive and asbestos products. Includes the\n                           manufacture of industrial and commercial machinery and equipment such as\n                           engines and turbines, farm and garden machinery, construction and mining\n                           equipment, metalworking machinery, special industry machinery, general\n                           industrial machinery, computer and office equipment, refrigeration\n                           machinery, and miscellaneous industrial machinery. Also includes the\n                           manufacture of motor vehicles, aircraft and aircraft parts, ship/boat\n                           building and repair, railroad equipment, motorcycles and bicycles, guided\n                           missiles, space vehicles, and transport equipment."
+    ],
+    [
+     "323",
+     "Light Fabrication and Assembly",
+     "22, 23, 25, 27, 31, 39",
+     "Occupancies involved in the preparation and manufacture of yarn, thread,\n                           twine, and cordage, in the manufacture of fabrics, carpets, and rugs, and\n                           in the dyeing and finishing of fiber, yarn, and fabrics. Includes the\n                           manufacture of apparel, felt goods, lace goods, non-woven fabrics,\n                           miscellaneous textiles, and textile products. Includes the manufacture of\n                           household, office, and restaurant furniture, as well as office and store\n                           fixtures. Includes occupancies involved in the publishing and/or printing\n                           trade and in service industries related to the printing trade. This\n                           occupancy class also includes tanning, currying, and finishing of hides\n                           and skins, manufacturing of finished leather and artificial leather\n                           products, jewelry, musical instruments, dolls, and toys, as well as other\n                           miscellaneous manufacturing."
+    ],
+    [
+     "324",
+     "Food and Drug Processing",
+     "20, 21",
+     "Includes food and beverage manufacturing and processing, and the\n                           manufacturing of cigarettes, cigars, and chewing and smoking tobacco."
+    ],
+    [
+     "325",
+     "Chemical Processing",
+     "28",
+     "Establishments involved in the manufacture of basic chemicals including\n                           acids, alkalis, salts, and organic chemicals, as well as chemical\n                           products that are to be used in further manufacturing including synthetic\n                           fibers, plastic materials, dry colors, and pigments. Includes the\n                           manufacture of finished products used for ultimate consumption including\n                           drugs, cosmetics, and soaps, as well as products used as supplies in\n                           other industries including paints, fertilizers, and explosives."
+    ],
+    [
+     "326",
+     "Metal and Mineral Processing",
+     "33, 34",
+     "Includes the smelting and refining of metals, the manufacture of\n                           castings, other basic metal products, nails, spikes, insulated wire, and\n                           cable, the production of coke, the fabrication of metal products\n                           including metal cans, tin ware, hand tools, cutlery, and general\n                           hardware, and metal forging."
+    ],
+    [
+     "327",
+     "High Technology",
+     "36, 38",
+     "Includes occupancies involved in the manufacture of machinery and\n                           supplies for the generation, storage, transmission, transformation, and\n                           utilization of electrical energy including electricity distribution\n                           equipment, industrial apparatus, household appliances, electrical\n                           lighting, and wiring equipment. Includes manufacturing instruments for\n                           measuring, testing, analyzing, and controlling, optical instruments and\n                           lenses, surveying and drafting instruments, hydrological, meteorological,\n                           navigational, surgical, medical, ophthalmic, and photographic equipment.\n                           Also included are watches and clocks."
+    ],
+    [
+     "328",
+     "Construction",
+     "15 - 17",
+     "Includes general contractors and builders of residential, farm,\n                           industrial, commercial, and other buildings, as well as general\n                           contractors involved in heavy construction including highways, streets,\n                           bridges, tunnels, etc. Also included are special trade contractors\n                           including painting, electrical work, carpentry work, plumbing, heating,\n                           roofing, etc."
+    ],
+    [
+     "329",
+     "Petroleum",
+     "29, 46",
+     "Establishments involved in petroleum refining, in the manufacture of\n                           paving and roofing materials, of compounding and lubricating oils and\n                           greases. Also includes the transportation of petroleum and other\n                           commodities, other than natural gas, through pipelines."
+    ],
+    [
+     "330",
+     "Mining",
+     "10, 12 - 14",
+     "Includes mining and exploring for metallic and nonmetallic minerals, as\n                           well as the mining and preparation of coal. Includes the extraction of\n                           oil from sand and shale and the production of natural gasoline."
+    ],
+    [
+     "384",
+     "Construction/Erection Risks",
+     "n/a",
+     "Industrial construction/erection risk is an under-construction building\n                        that is intended for a general industrial occupancy. Currently supported\n                        only for locations in China, India, South Korea, Southeast Asia (earthquake\n                        and typhoon), South America, Japan (earthquake and typhoon), the Middle East\n                        (added in 11.5), and for some locations in\n                           Europe , including Central Europe. Also valid for Verisk Earthquake Model for New Zealand ."
+    ]
+   ]
+  }
+ ]
+}

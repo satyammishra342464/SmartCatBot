@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_indonesia-cresta-codes.html",
+ "title": "Indonesia CRESTA Codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Indonesia \nCRESTA\n Codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Indonesia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | North Sumatra |\n| 1.1 | Banda Aceh |\n| 1.2 | Medan |\n| 1.3 | Remaining North Sumatra |\n| 2 | South Sumatra |\n| 2.1 | Padang |\n| 2.2 | Palembang |\n| 2.3 | Remaining South Sumatra |\n| 3 | West Java |\n| 3.1 | Jakarta |\n| 3.2 | Bandung |\n| 3.3 | Remaining West Java |\n| 4 | Central Java |\n| 4.1 | Semarang |\n| 4.2 | Yogyakarta |\n| 4.3 | Remaining Central Java |\n| 5 | East Java |\n| 5.1 | Surabaya |\n| 5.2 | Remaining East Java |\n| 6 | Kalimantan |\n| 7 | Sulawesi |\n| 7.1 | Ujung Pandang |\n| 7.2 | Remaining Sulawesi |\n| 8 | All Other Islands and Irian Jaya |\n| 9 | East Timor (Timor Timur) |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "North Sumatra"
+    ],
+    [
+     "1.1",
+     "Banda Aceh"
+    ],
+    [
+     "1.2",
+     "Medan"
+    ],
+    [
+     "1.3",
+     "Remaining North Sumatra"
+    ],
+    [
+     "2",
+     "South Sumatra"
+    ],
+    [
+     "2.1",
+     "Padang"
+    ],
+    [
+     "2.2",
+     "Palembang"
+    ],
+    [
+     "2.3",
+     "Remaining South Sumatra"
+    ],
+    [
+     "3",
+     "West Java"
+    ],
+    [
+     "3.1",
+     "Jakarta"
+    ],
+    [
+     "3.2",
+     "Bandung"
+    ],
+    [
+     "3.3",
+     "Remaining West Java"
+    ],
+    [
+     "4",
+     "Central Java"
+    ],
+    [
+     "4.1",
+     "Semarang"
+    ],
+    [
+     "4.2",
+     "Yogyakarta"
+    ],
+    [
+     "4.3",
+     "Remaining Central Java"
+    ],
+    [
+     "5",
+     "East Java"
+    ],
+    [
+     "5.1",
+     "Surabaya"
+    ],
+    [
+     "5.2",
+     "Remaining East Java"
+    ],
+    [
+     "6",
+     "Kalimantan"
+    ],
+    [
+     "7",
+     "Sulawesi"
+    ],
+    [
+     "7.1",
+     "Ujung Pandang"
+    ],
+    [
+     "7.2",
+     "Remaining Sulawesi"
+    ],
+    [
+     "8",
+     "All Other Islands and Irian Jaya"
+    ],
+    [
+     "9",
+     "East Timor (Timor Timur)"
+    ]
+   ]
+  }
+ ]
+}

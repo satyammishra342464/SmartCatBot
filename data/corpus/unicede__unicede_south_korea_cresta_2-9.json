@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_south_korea_cresta_2-9.html",
+ "title": "South Korea CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "South Korea \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for South Korea supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for South Korea (50).\n\n| Area Tag | Zone |\n| --- | --- |\n| 50-000 | South Korea |\n| 50-100 | Seoul |\n| 50-200 | Busan |\n| 50-300 | GyeongGi-do |\n| 50-400 | GangWon-do |\n| 50-500 | Chungcheongnam-do |\n| 50-600 | Chungcheongbuk-do |\n| 50-700 | Gyeingsangbuk-do |\n| 50-800 | Gyeingsangnam-do |\n| 50-900 | Jeollabuk-do |\n| 50-1000 | Jeollanam-do |\n| 50-1100 | Jeju-do |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "50-000",
+     "South Korea"
+    ],
+    [
+     "50-100",
+     "Seoul"
+    ],
+    [
+     "50-200",
+     "Busan"
+    ],
+    [
+     "50-300",
+     "GyeongGi-do"
+    ],
+    [
+     "50-400",
+     "GangWon-do"
+    ],
+    [
+     "50-500",
+     "Chungcheongnam-do"
+    ],
+    [
+     "50-600",
+     "Chungcheongbuk-do"
+    ],
+    [
+     "50-700",
+     "Gyeingsangbuk-do"
+    ],
+    [
+     "50-800",
+     "Gyeingsangnam-do"
+    ],
+    [
+     "50-900",
+     "Jeollabuk-do"
+    ],
+    [
+     "50-1000",
+     "Jeollanam-do"
+    ],
+    [
+     "50-1100",
+     "Jeju-do"
+    ]
+   ]
+  }
+ ]
+}

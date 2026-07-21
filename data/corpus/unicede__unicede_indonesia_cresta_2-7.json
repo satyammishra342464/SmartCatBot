@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_indonesia_cresta_2-7.html",
+ "title": "Indonesia CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Indonesia \nCRESTA\n Codes (v2.7)\n\nCRESTA\n codes for Indonesia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Indonesia (45).\n\n| Area Tag | Zone |\n| --- | --- |\n| 45-0000 | INDONESIA |\n| 45-0001 | Z1 North Sumatra |\n| 45-0002 | Z2 South Sumatra |\n| 45-0003 | Z3 West Java |\n| 45-0004 | Z4 Central Java |\n| 45-0005 | Z5 East Java |\n| 45-0006 | Z6 Kalimantan |\n| 45-0007 | Z7 Sulawesi |\n| 45-0008 | Z8 Other island and Irian Jaya |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "45-0000",
+     "INDONESIA"
+    ],
+    [
+     "45-0001",
+     "Z1 North Sumatra"
+    ],
+    [
+     "45-0002",
+     "Z2 South Sumatra"
+    ],
+    [
+     "45-0003",
+     "Z3 West Java"
+    ],
+    [
+     "45-0004",
+     "Z4 Central Java"
+    ],
+    [
+     "45-0005",
+     "Z5 East Java"
+    ],
+    [
+     "45-0006",
+     "Z6 Kalimantan"
+    ],
+    [
+     "45-0007",
+     "Z7 Sulawesi"
+    ],
+    [
+     "45-0008",
+     "Z8 Other island and Irian Jaya"
+    ]
+   ]
+  }
+ ]
+}

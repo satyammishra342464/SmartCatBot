@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_germany-region-codes.html",
+ "title": "Germany region codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Germany region codes\n\nTouchstone\n supports the following region\n codes for Germany.\n\n| Region Code | Region Name |\n| --- | --- |\n| 01 | Schleswig-Holstein |\n| 02 | Hamburg |\n| 03 | Niedersachsen |\n| 04 | Bremen |\n| 05 | Nordrhein-Westfalen |\n| 06 | Hessen |\n| 07 | Rheinland-Pfalz |\n| 08 | Baden-WÃ¼rttemberg |\n| 09 | Bayern |\n| 10 | Saarland |\n| 11 | Berlin |\n| 12 | Brandenburg |\n| 13 | Mecklenburg-Vorpommern |\n| 14 | Sachsen |\n| 15 | Sachsen-Anhalt |\n| 16 | Thueringen |",
+ "tables": [
+  {
+   "headers": [
+    "Region Code",
+    "Region Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Schleswig-Holstein"
+    ],
+    [
+     "02",
+     "Hamburg"
+    ],
+    [
+     "03",
+     "Niedersachsen"
+    ],
+    [
+     "04",
+     "Bremen"
+    ],
+    [
+     "05",
+     "Nordrhein-Westfalen"
+    ],
+    [
+     "06",
+     "Hessen"
+    ],
+    [
+     "07",
+     "Rheinland-Pfalz"
+    ],
+    [
+     "08",
+     "Baden-WÃ¼rttemberg"
+    ],
+    [
+     "09",
+     "Bayern"
+    ],
+    [
+     "10",
+     "Saarland"
+    ],
+    [
+     "11",
+     "Berlin"
+    ],
+    [
+     "12",
+     "Brandenburg"
+    ],
+    [
+     "13",
+     "Mecklenburg-Vorpommern"
+    ],
+    [
+     "14",
+     "Sachsen"
+    ],
+    [
+     "15",
+     "Sachsen-Anhalt"
+    ],
+    [
+     "16",
+     "Thueringen"
+    ]
+   ]
+  }
+ ]
+}

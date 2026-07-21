@@ -1,0 +1,121 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_s-korea-cresta-codes.html",
+ "title": "South Korea CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "South\n Korea \nCRESTA\n codes\n\nTouchstone\n supports the following\n \nCRESTA\n codes\n for South Korea.\nThe codes changed with the release of \nTouchstone\n\n 2025 (13.0). The table lists the old and the new codes.\n\n| New CRESTA code | New CRESTA name | Old CRESTA code | Old CRESTA name |\n| --- | --- | --- | --- |\n| KOR_11 | Seoul | 1 | Seoul |\n| KOR_26 | Busan | 2 | Busan |\n| KOR_27 | Daegu | NULL | NULL |\n| KOR_28 | Incheon | NULL | NULL |\n| KOR_29 | Gwangju | NULL | NULL |\n| KOR_30 | Daejeon | NULL | NULL |\n| KOR_31 | Ulsan | NULL | NULL |\n| KOR_41 | Gyeonggi-do | 3 | GyeongGi-do |\n| KOR_42 | Gangwon-do | 4 | GangWon-do |\n| KOR_43 | Chungcheongbuk-do | 6 | Chungcheongbuk-do |\n| KOR_44 | Chungcheongnam-do | 5 | Chungcheongnam-do |\n| KOR_45 | Jeollabuk-do | 9 | Jeollabuk-do |\n| KOR_46 | Jellanam-do | 10 | Jeollanam-do |\n| KOR_47 | Gyeongsangbuk-do | 7 | Gyeingsangbuk-do |\n| KOR_48 | Gyeongsangnam-do | 8 | Gyeingsangnam-do |\n| KOR_49 | Jeju-do | 11 | Jeju-do |\n| KOR_50 | Sejong-si | NULL | NULL |",
+ "tables": [
+  {
+   "headers": [
+    "New CRESTA code",
+    "New CRESTA name",
+    "Old CRESTA code",
+    "Old CRESTA name"
+   ],
+   "rows": [
+    [
+     "KOR_11",
+     "Seoul",
+     "1",
+     "Seoul"
+    ],
+    [
+     "KOR_26",
+     "Busan",
+     "2",
+     "Busan"
+    ],
+    [
+     "KOR_27",
+     "Daegu",
+     "NULL",
+     "NULL"
+    ],
+    [
+     "KOR_28",
+     "Incheon",
+     "NULL",
+     "NULL"
+    ],
+    [
+     "KOR_29",
+     "Gwangju",
+     "NULL",
+     "NULL"
+    ],
+    [
+     "KOR_30",
+     "Daejeon",
+     "NULL",
+     "NULL"
+    ],
+    [
+     "KOR_31",
+     "Ulsan",
+     "NULL",
+     "NULL"
+    ],
+    [
+     "KOR_41",
+     "Gyeonggi-do",
+     "3",
+     "GyeongGi-do"
+    ],
+    [
+     "KOR_42",
+     "Gangwon-do",
+     "4",
+     "GangWon-do"
+    ],
+    [
+     "KOR_43",
+     "Chungcheongbuk-do",
+     "6",
+     "Chungcheongbuk-do"
+    ],
+    [
+     "KOR_44",
+     "Chungcheongnam-do",
+     "5",
+     "Chungcheongnam-do"
+    ],
+    [
+     "KOR_45",
+     "Jeollabuk-do",
+     "9",
+     "Jeollabuk-do"
+    ],
+    [
+     "KOR_46",
+     "Jellanam-do",
+     "10",
+     "Jeollanam-do"
+    ],
+    [
+     "KOR_47",
+     "Gyeongsangbuk-do",
+     "7",
+     "Gyeingsangbuk-do"
+    ],
+    [
+     "KOR_48",
+     "Gyeongsangnam-do",
+     "8",
+     "Gyeingsangnam-do"
+    ],
+    [
+     "KOR_49",
+     "Jeju-do",
+     "11",
+     "Jeju-do"
+    ],
+    [
+     "KOR_50",
+     "Sejong-si",
+     "NULL",
+     "NULL"
+    ]
+   ]
+  }
+ ]
+}

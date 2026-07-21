@@ -1,0 +1,337 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_philippines_subcresta_2-10.html",
+ "title": "Philippines Sub-CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Philippines Sub-\nCRESTA\n Codes (v2.10)\n\nSub-\nCRESTA\n codes for Philippines supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Philippines (44).\n\n| Area Tag | Sub-Zone |\n| --- | --- |\n| 44-000 | Philippines |\n| 44-001 | Z1.1: Abra |\n| 44-002 | Z1.2: Aurora |\n| 44-003 | Z1.3: Batanes |\n| 44-004 | Z1.4: Benguet |\n| 44-005 | Z1.5: Cagayan |\n| 44-006 | Z1.6: Ifugao |\n| 44-007 | Z1.7: Ilocos Norte |\n| 44-008 | Z1.8: Ilocos Sur |\n| 44-009 | Z1.9: Isabela |\n| 44-010 | Z1.10: Kalinga |\n| 44-011 | Z1.11: La Union |\n| 44-012 | Z1.12: Mountain |\n| 44-013 | Z1.13: Quirino |\n| 44-014 | Z1.14: Pangasinan |\n| 44-015 | Z2.0: Makati |\n| 44-016 | Z3.0: Manila Bay Reclamation Area |\n| 44-017 | Z4.0: Santa Cruz Binondo Area |\n| 44-018 | Z5.0: Rest of Metropolitan Manila |\n| 44-019 | Z6.1: Albay |\n| 44-020 | Z6.2: Bataan |\n| 44-021 | Z6.3: Batangas |\n| 44-022 | Z6.4: Bulacan |\n| 44-023 | Z6.5: Camarines Norte |\n| 44-024 | Z6.6: Camarines Sur |\n| 44-025 | Z6.7: Catanduanes |\n| 44-026 | Z6.8: Cavite |\n| 44-027 | Z6.9: Laguna |\n| 44-028 | Z6.10: Marinduque |\n| 44-029 | Z6.11: Masbate |\n| 44-030 | Z6.12: Nueva Ecija |\n| 44-031 | Z6.13: Occidental Mindoro |\n| 44-032 | Z6.14: Oriental Mindoro |\n| 44-033 | Z6.15: Pampanga |\n| 44-034 | Z6.16: Quezon |\n| 44-035 | Z6.17: Rizal |\n| 44-036 | Z6.18: Romblon |\n| 44-037 | Z6.19: Sorsogon |\n| 44-038 | Z6.20: Tarlac |\n| 44-039 | Z6.21: Zambales |\n| 44-040 | Z7. 1: Aklan |\n| 44-041 | Z7. 2:Antique |\n| 44-042 | Z7. 3:Biliran |\n| 44-043 | Z7. 4:Bohol |\n| 44-044 | Z7. 5:Camotes |\n| 44-045 | Z7. 6:Capiz |\n| 44-046 | Z7. 7: Cebu |\n| 44-047 | Z7. 8: Eastern Samar |\n| 44-048 | Z7. 9: Guiamaras |\n| 44-049 | Z7.10:Iloilo |\n| 44-050 | Z7.11:Leyte |\n| 44-051 | Z7.12:Negros Occidental |\n| 44-052 | Z7.13:Negros Oriental |\n| 44-053 | Z7.14:Northern Samar |\n| 44-054 | Z7.15:Palawan |\n| 44-055 | Z7.16:Siquijor |\n| 44-056 | Z7.17:Southern Leyte |\n| 44-057 | Z7.18:Western Samar |\n| 44-058 | Z8. 1:Agusan Del Norte |\n| 44-059 | Z8. 2:Agusan Del Sur |\n| 44-060 | Z8. 3:Basilan |\n| 44-061 | Z8. 4:Bukidnon |\n| 44-062 | Z8. 5:Camiguin |\n| 44-063 | Z8. 6:Lanao Del Norte |\n| 44-064 | Z8. 7:Lanao Del Sur |\n| 44-065 | Z8. 8:Misamis Occidental |\n| 44-066 | Z8. 9:Misamis Oriental |\n| 44-067 | Z8.10:Surigao Del Norte |\n| 44-068 | Z8.11:Surigao Del Sur |\n| 44-069 | Z8.12:Zamboanga Del Norte |\n| 44-070 | Z8.13:Zamboanga del Sur |\n| 44-071 | Z9.1:Davao del Norte |\n| 44-072 | Z9.2:Davao Oriental |\n| 44-073 | Z9.3:Davao Del Sur |\n| 44-074 | Z9.4:Maguindanao |\n| 44-075 | Z9.5:North Cotabato |\n| 44-076 | Z9.6:South Cotabato |\n| 44-077 | Z9.7:Sultan Kudarat |\n| 44-078 | Z9.8:Sulu |\n| 44-079 | Z9.9:Tawi-Tawi |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Sub-Zone"
+   ],
+   "rows": [
+    [
+     "44-000",
+     "Philippines"
+    ],
+    [
+     "44-001",
+     "Z1.1: Abra"
+    ],
+    [
+     "44-002",
+     "Z1.2: Aurora"
+    ],
+    [
+     "44-003",
+     "Z1.3: Batanes"
+    ],
+    [
+     "44-004",
+     "Z1.4: Benguet"
+    ],
+    [
+     "44-005",
+     "Z1.5: Cagayan"
+    ],
+    [
+     "44-006",
+     "Z1.6: Ifugao"
+    ],
+    [
+     "44-007",
+     "Z1.7: Ilocos Norte"
+    ],
+    [
+     "44-008",
+     "Z1.8: Ilocos Sur"
+    ],
+    [
+     "44-009",
+     "Z1.9: Isabela"
+    ],
+    [
+     "44-010",
+     "Z1.10: Kalinga"
+    ],
+    [
+     "44-011",
+     "Z1.11: La Union"
+    ],
+    [
+     "44-012",
+     "Z1.12: Mountain"
+    ],
+    [
+     "44-013",
+     "Z1.13: Quirino"
+    ],
+    [
+     "44-014",
+     "Z1.14: Pangasinan"
+    ],
+    [
+     "44-015",
+     "Z2.0: Makati"
+    ],
+    [
+     "44-016",
+     "Z3.0: Manila Bay Reclamation Area"
+    ],
+    [
+     "44-017",
+     "Z4.0: Santa Cruz Binondo Area"
+    ],
+    [
+     "44-018",
+     "Z5.0: Rest of Metropolitan Manila"
+    ],
+    [
+     "44-019",
+     "Z6.1: Albay"
+    ],
+    [
+     "44-020",
+     "Z6.2: Bataan"
+    ],
+    [
+     "44-021",
+     "Z6.3: Batangas"
+    ],
+    [
+     "44-022",
+     "Z6.4: Bulacan"
+    ],
+    [
+     "44-023",
+     "Z6.5: Camarines Norte"
+    ],
+    [
+     "44-024",
+     "Z6.6: Camarines Sur"
+    ],
+    [
+     "44-025",
+     "Z6.7: Catanduanes"
+    ],
+    [
+     "44-026",
+     "Z6.8: Cavite"
+    ],
+    [
+     "44-027",
+     "Z6.9: Laguna"
+    ],
+    [
+     "44-028",
+     "Z6.10: Marinduque"
+    ],
+    [
+     "44-029",
+     "Z6.11: Masbate"
+    ],
+    [
+     "44-030",
+     "Z6.12: Nueva Ecija"
+    ],
+    [
+     "44-031",
+     "Z6.13: Occidental Mindoro"
+    ],
+    [
+     "44-032",
+     "Z6.14: Oriental Mindoro"
+    ],
+    [
+     "44-033",
+     "Z6.15: Pampanga"
+    ],
+    [
+     "44-034",
+     "Z6.16: Quezon"
+    ],
+    [
+     "44-035",
+     "Z6.17: Rizal"
+    ],
+    [
+     "44-036",
+     "Z6.18: Romblon"
+    ],
+    [
+     "44-037",
+     "Z6.19: Sorsogon"
+    ],
+    [
+     "44-038",
+     "Z6.20: Tarlac"
+    ],
+    [
+     "44-039",
+     "Z6.21: Zambales"
+    ],
+    [
+     "44-040",
+     "Z7. 1: Aklan"
+    ],
+    [
+     "44-041",
+     "Z7. 2:Antique"
+    ],
+    [
+     "44-042",
+     "Z7. 3:Biliran"
+    ],
+    [
+     "44-043",
+     "Z7. 4:Bohol"
+    ],
+    [
+     "44-044",
+     "Z7. 5:Camotes"
+    ],
+    [
+     "44-045",
+     "Z7. 6:Capiz"
+    ],
+    [
+     "44-046",
+     "Z7. 7: Cebu"
+    ],
+    [
+     "44-047",
+     "Z7. 8: Eastern Samar"
+    ],
+    [
+     "44-048",
+     "Z7. 9: Guiamaras"
+    ],
+    [
+     "44-049",
+     "Z7.10:Iloilo"
+    ],
+    [
+     "44-050",
+     "Z7.11:Leyte"
+    ],
+    [
+     "44-051",
+     "Z7.12:Negros Occidental"
+    ],
+    [
+     "44-052",
+     "Z7.13:Negros Oriental"
+    ],
+    [
+     "44-053",
+     "Z7.14:Northern Samar"
+    ],
+    [
+     "44-054",
+     "Z7.15:Palawan"
+    ],
+    [
+     "44-055",
+     "Z7.16:Siquijor"
+    ],
+    [
+     "44-056",
+     "Z7.17:Southern Leyte"
+    ],
+    [
+     "44-057",
+     "Z7.18:Western Samar"
+    ],
+    [
+     "44-058",
+     "Z8. 1:Agusan Del Norte"
+    ],
+    [
+     "44-059",
+     "Z8. 2:Agusan Del Sur"
+    ],
+    [
+     "44-060",
+     "Z8. 3:Basilan"
+    ],
+    [
+     "44-061",
+     "Z8. 4:Bukidnon"
+    ],
+    [
+     "44-062",
+     "Z8. 5:Camiguin"
+    ],
+    [
+     "44-063",
+     "Z8. 6:Lanao Del Norte"
+    ],
+    [
+     "44-064",
+     "Z8. 7:Lanao Del Sur"
+    ],
+    [
+     "44-065",
+     "Z8. 8:Misamis Occidental"
+    ],
+    [
+     "44-066",
+     "Z8. 9:Misamis Oriental"
+    ],
+    [
+     "44-067",
+     "Z8.10:Surigao Del Norte"
+    ],
+    [
+     "44-068",
+     "Z8.11:Surigao Del Sur"
+    ],
+    [
+     "44-069",
+     "Z8.12:Zamboanga Del Norte"
+    ],
+    [
+     "44-070",
+     "Z8.13:Zamboanga del Sur"
+    ],
+    [
+     "44-071",
+     "Z9.1:Davao del Norte"
+    ],
+    [
+     "44-072",
+     "Z9.2:Davao Oriental"
+    ],
+    [
+     "44-073",
+     "Z9.3:Davao Del Sur"
+    ],
+    [
+     "44-074",
+     "Z9.4:Maguindanao"
+    ],
+    [
+     "44-075",
+     "Z9.5:North Cotabato"
+    ],
+    [
+     "44-076",
+     "Z9.6:South Cotabato"
+    ],
+    [
+     "44-077",
+     "Z9.7:Sultan Kudarat"
+    ],
+    [
+     "44-078",
+     "Z9.8:Sulu"
+    ],
+    [
+     "44-079",
+     "Z9.9:Tawi-Tawi"
+    ]
+   ]
+  }
+ ]
+}

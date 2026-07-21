@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_belgium-cresta_2-9.html",
+ "title": "Belgium CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Belgium \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Belgium supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Belgium (02).\n\n| Area Tag | Zone |\n| --- | --- |\n| 02-BEL | Belgium |\n| 02-BEL_1 | Z01: Bruxelles |\n| 02-BEL_2 | Z02: Anvers, Mechelen |\n| 02-BEL_3 | Z03: Louvain, Tienen, Hasselt |\n| 02-BEL_4 | Z04: LiÃ¨ge |\n| 02-BEL_5 | Z05: Namur |\n| 02-BEL_6 | Z06: Charleroi, Libramont |\n| 02-BEL_7 | Z07: Tournai, Ath, Mons |\n| 02-BEL_8 | Z08: Oostende, Brugge, Kortrijk |\n| 02-BEL_9 | Z09: Gent |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "02-BEL",
+     "Belgium"
+    ],
+    [
+     "02-BEL_1",
+     "Z01: Bruxelles"
+    ],
+    [
+     "02-BEL_2",
+     "Z02: Anvers, Mechelen"
+    ],
+    [
+     "02-BEL_3",
+     "Z03: Louvain, Tienen, Hasselt"
+    ],
+    [
+     "02-BEL_4",
+     "Z04: LiÃ¨ge"
+    ],
+    [
+     "02-BEL_5",
+     "Z05: Namur"
+    ],
+    [
+     "02-BEL_6",
+     "Z06: Charleroi, Libramont"
+    ],
+    [
+     "02-BEL_7",
+     "Z07: Tournai, Ath, Mons"
+    ],
+    [
+     "02-BEL_8",
+     "Z08: Oostende, Brugge, Kortrijk"
+    ],
+    [
+     "02-BEL_9",
+     "Z09: Gent"
+    ]
+   ]
+  }
+ ]
+}

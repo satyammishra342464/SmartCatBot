@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-term-count-field.html",
+ "title": "Location term count field",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location term count field\n\nTouchstone\n field specifying the number of\n terms for a location.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the location.\n\nThe \nTerm Count\n field is a read-only field that displays the number of terms for this\n location.",
+ "tables": []
+}

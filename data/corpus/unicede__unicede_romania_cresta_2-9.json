@@ -1,0 +1,209 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_romania_cresta_2-9.html",
+ "title": "Romania CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Romania \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Romania supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Romania (176).\n\n| Area Tag | Zone |\n| --- | --- |\n| 176-ROU | Romania |\n| 176-ROU_01 | Z01: Bucuresti |\n| 176-ROU_02 | Z02: Bucuresti |\n| 176-ROU_03 | Z03: Bucuresti |\n| 176-ROU_04 | Z04: Bucuresti |\n| 176-ROU_05 | Z05: Bucuresti |\n| 176-ROU_06 | Z06: Bucuresti |\n| 176-ROU_07 | Z07: Ilfov |\n| 176-ROU_08 | Z08: Giurgiu |\n| 176-ROU_10 | Z10: Prahova |\n| 176-ROU_11 | Z11: Arges |\n| 176-ROU_12 | Z12: Buzau |\n| 176-ROU_13 | Z13: Dambovita |\n| 176-ROU_14 | Z14: Teleorman |\n| 176-ROU_20 | Z20: Dolj |\n| 176-ROU_21 | Z21: Gorj |\n| 176-ROU_22 | Z22: Mehedinti |\n| 176-ROU_23 | Z23: Olt |\n| 176-ROU_24 | Z24: Valcea |\n| 176-ROU_30 | Z30: Timis |\n| 176-ROU_31 | Z31: Arad |\n| 176-ROU_32 | Z32: Caras-Severin |\n| 176-ROU_33 | Z33: Hunedoara |\n| 176-ROU_40 | Z40: Cluj |\n| 176-ROU_41 | Z41: Bihor |\n| 176-ROU_42 | Z42: Bistrita-Nasaud |\n| 176-ROU_43 | Z43: Maramures |\n| 176-ROU_44 | Z44: Satu Mare |\n| 176-ROU_45 | Z45: Salaj |\n| 176-ROU_50 | Z50: Brasov |\n| 176-ROU_51 | Z51: Alba |\n| 176-ROU_52 | Z52: Covasna |\n| 176-ROU_53 | Z53: Harghita |\n| 176-ROU_54 | Z54: Mures |\n| 176-ROU_55 | Z55: Sibiu |\n| 176-ROU_60 | Z60: Bacau |\n| 176-ROU_61 | Z61: Neamt |\n| 176-ROU_62 | Z62: Vrancea |\n| 176-ROU_70 | Z70: Iasi |\n| 176-ROU_71 | Z71: Botosani |\n| 176-ROU_72 | Z72: Suceava |\n| 176-ROU_73 | Z73: Vaslui |\n| 176-ROU_80 | Z80: Galati |\n| 176-ROU_81 | Z81: Braila |\n| 176-ROU_82 | Z82: Tulcea |\n| 176-ROU_90 | Z90: Constanta |\n| 176-ROU_91 | Z91: Calarasi |\n| 176-ROU_92 | Z92: Ialomita |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "176-ROU",
+     "Romania"
+    ],
+    [
+     "176-ROU_01",
+     "Z01: Bucuresti"
+    ],
+    [
+     "176-ROU_02",
+     "Z02: Bucuresti"
+    ],
+    [
+     "176-ROU_03",
+     "Z03: Bucuresti"
+    ],
+    [
+     "176-ROU_04",
+     "Z04: Bucuresti"
+    ],
+    [
+     "176-ROU_05",
+     "Z05: Bucuresti"
+    ],
+    [
+     "176-ROU_06",
+     "Z06: Bucuresti"
+    ],
+    [
+     "176-ROU_07",
+     "Z07: Ilfov"
+    ],
+    [
+     "176-ROU_08",
+     "Z08: Giurgiu"
+    ],
+    [
+     "176-ROU_10",
+     "Z10: Prahova"
+    ],
+    [
+     "176-ROU_11",
+     "Z11: Arges"
+    ],
+    [
+     "176-ROU_12",
+     "Z12: Buzau"
+    ],
+    [
+     "176-ROU_13",
+     "Z13: Dambovita"
+    ],
+    [
+     "176-ROU_14",
+     "Z14: Teleorman"
+    ],
+    [
+     "176-ROU_20",
+     "Z20: Dolj"
+    ],
+    [
+     "176-ROU_21",
+     "Z21: Gorj"
+    ],
+    [
+     "176-ROU_22",
+     "Z22: Mehedinti"
+    ],
+    [
+     "176-ROU_23",
+     "Z23: Olt"
+    ],
+    [
+     "176-ROU_24",
+     "Z24: Valcea"
+    ],
+    [
+     "176-ROU_30",
+     "Z30: Timis"
+    ],
+    [
+     "176-ROU_31",
+     "Z31: Arad"
+    ],
+    [
+     "176-ROU_32",
+     "Z32: Caras-Severin"
+    ],
+    [
+     "176-ROU_33",
+     "Z33: Hunedoara"
+    ],
+    [
+     "176-ROU_40",
+     "Z40: Cluj"
+    ],
+    [
+     "176-ROU_41",
+     "Z41: Bihor"
+    ],
+    [
+     "176-ROU_42",
+     "Z42: Bistrita-Nasaud"
+    ],
+    [
+     "176-ROU_43",
+     "Z43: Maramures"
+    ],
+    [
+     "176-ROU_44",
+     "Z44: Satu Mare"
+    ],
+    [
+     "176-ROU_45",
+     "Z45: Salaj"
+    ],
+    [
+     "176-ROU_50",
+     "Z50: Brasov"
+    ],
+    [
+     "176-ROU_51",
+     "Z51: Alba"
+    ],
+    [
+     "176-ROU_52",
+     "Z52: Covasna"
+    ],
+    [
+     "176-ROU_53",
+     "Z53: Harghita"
+    ],
+    [
+     "176-ROU_54",
+     "Z54: Mures"
+    ],
+    [
+     "176-ROU_55",
+     "Z55: Sibiu"
+    ],
+    [
+     "176-ROU_60",
+     "Z60: Bacau"
+    ],
+    [
+     "176-ROU_61",
+     "Z61: Neamt"
+    ],
+    [
+     "176-ROU_62",
+     "Z62: Vrancea"
+    ],
+    [
+     "176-ROU_70",
+     "Z70: Iasi"
+    ],
+    [
+     "176-ROU_71",
+     "Z71: Botosani"
+    ],
+    [
+     "176-ROU_72",
+     "Z72: Suceava"
+    ],
+    [
+     "176-ROU_73",
+     "Z73: Vaslui"
+    ],
+    [
+     "176-ROU_80",
+     "Z80: Galati"
+    ],
+    [
+     "176-ROU_81",
+     "Z81: Braila"
+    ],
+    [
+     "176-ROU_82",
+     "Z82: Tulcea"
+    ],
+    [
+     "176-ROU_90",
+     "Z90: Constanta"
+    ],
+    [
+     "176-ROU_91",
+     "Z91: Calarasi"
+    ],
+    [
+     "176-ROU_92",
+     "Z92: Ialomita"
+    ]
+   ]
+  }
+ ]
+}

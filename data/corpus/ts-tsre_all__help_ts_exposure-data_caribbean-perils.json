@@ -1,0 +1,202 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_caribbean-perils.html",
+ "title": "Caribbean perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Caribbean perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for the Caribbean.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PES | Earthquake shake only | |\n| PPH | Precipitation flood | |\n| PWA | All wind perils (tropical cyclone and severe storm) | Winter storm sub-peril is valid for U.S. exposures only. |\n| PTS | Tsunami | |\n| PWH | Tropical cyclone only | |\n\nPeril support by country\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for each country within the\n Caribbean region:\n\n| Country | Peril codes | Perils |\n| --- | --- | --- |\n| Anguilla | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami |\n| Antigua and Barbuda | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami |\n| Aruba | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami |\n| Bahamas | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Barbados | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Bermuda | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Bonaire, Sint Eustatius, and Saba | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Cayman Islands | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Cuba | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami |\n| CuraÃ§ao | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Dominica | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Dominican Republic | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Grenada | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Guadeloupe | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only |\n| Haiti | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Jamaica | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Martinique | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Montserrat | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Puerto Rico | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Saint BarthÃ©lemy | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Saint Kitts and Nevis | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Saint Lucia | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Saint Vincent and The Grenadines | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Sint Maarten | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |\n| Saint Martin | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Trinidad and Tobago | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Turks and Caicos Islands | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Virgin Islands (British) | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami |\n| Virgin Islands (U.S.) | PAL PWH PWA PPH PES PTS | All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PPH",
+     "Precipitation flood",
+     ""
+    ],
+    [
+     "PWA",
+     "All wind perils (tropical cyclone and severe storm)",
+     "Winter storm sub-peril is valid for U.S. exposures only."
+    ],
+    [
+     "PTS",
+     "Tsunami",
+     ""
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only",
+     ""
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Country",
+    "Peril codes",
+    "Perils"
+   ],
+   "rows": [
+    [
+     "Anguilla",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami"
+    ],
+    [
+     "Antigua and Barbuda",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami"
+    ],
+    [
+     "Aruba",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami"
+    ],
+    [
+     "Bahamas",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Barbados",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Bermuda",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Bonaire, Sint Eustatius, and Saba",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Cayman Islands",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Cuba",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake Only Tsunami"
+    ],
+    [
+     "CuraÃ§ao",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Dominica",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Dominican Republic",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Grenada",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Guadeloupe",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only"
+    ],
+    [
+     "Haiti",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Jamaica",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Martinique",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Montserrat",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Puerto Rico",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Saint BarthÃ©lemy",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Saint Kitts and Nevis",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Saint Lucia",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Saint Vincent and The Grenadines",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Sint Maarten",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ],
+    [
+     "Saint Martin",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Trinidad and Tobago",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Turks and Caicos Islands",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Virgin Islands (British)",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake Shake only Tsunami"
+    ],
+    [
+     "Virgin Islands (U.S.)",
+     "PAL PWH PWA PPH PES PTS",
+     "All licensed perils Tropical cyclone only All wind perils (tropical cyclone and severe storm) Precipitation flood Earthquake shake only Tsunami"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_bermuda-parish-codes_2-10.html",
+ "title": "Bermuda parish codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Bermuda parish codes (v2.10)\n \n\nParish codes for Bermuda supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Bermuda (14).\n\n| Area Tag | Parish Name |\n| --- | --- |\n| 14-000 | Bermuda |\n| 14-001 | Sandys |\n| 14-002 | Southampton |\n| 14-003 | Warwick |\n| 14-004 | Paget |\n| 14-005 | Pembroke |\n| 14-006 | Devonshire |\n| 14-007 | Smith's |\n| 14-008 | Hamilton |\n| 14-009 | St. George's |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Parish Name"
+   ],
+   "rows": [
+    [
+     "14-000",
+     "Bermuda"
+    ],
+    [
+     "14-001",
+     "Sandys"
+    ],
+    [
+     "14-002",
+     "Southampton"
+    ],
+    [
+     "14-003",
+     "Warwick"
+    ],
+    [
+     "14-004",
+     "Paget"
+    ],
+    [
+     "14-005",
+     "Pembroke"
+    ],
+    [
+     "14-006",
+     "Devonshire"
+    ],
+    [
+     "14-007",
+     "Smith's"
+    ],
+    [
+     "14-008",
+     "Hamilton"
+    ],
+    [
+     "14-009",
+     "St. George's"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_oman-governorate-codes.html",
+ "title": "Oman governorate codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Oman governorate codes\n\nTouchstone\n supports the following\n governorate codes for Oman.\n\n| Governorate Code | Governorate Name |\n| --- | --- |\n| 1 | Al Batinah North Governorate |\n| 2 | Al Batinah South Governorate |\n| 3 | Al-Buraymi Governorate |\n| 4 | Ad Dakhiliyah Governorate |\n| 5 | Adh Dhahirah Governorate |\n| 6 | Ash Sharqiyah North Governorate |\n| 7 | Ash Sharqiyah South Governorate |\n| 8 | Al Wusta Governorate |\n| 9 | Dhofar Governorate |\n| 10 | Musandam Governorate |\n| 11 | Muscat Governorate |",
+ "tables": [
+  {
+   "headers": [
+    "Governorate Code",
+    "Governorate Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Al Batinah North Governorate"
+    ],
+    [
+     "2",
+     "Al Batinah South Governorate"
+    ],
+    [
+     "3",
+     "Al-Buraymi Governorate"
+    ],
+    [
+     "4",
+     "Ad Dakhiliyah Governorate"
+    ],
+    [
+     "5",
+     "Adh Dhahirah Governorate"
+    ],
+    [
+     "6",
+     "Ash Sharqiyah North Governorate"
+    ],
+    [
+     "7",
+     "Ash Sharqiyah South Governorate"
+    ],
+    [
+     "8",
+     "Al Wusta Governorate"
+    ],
+    [
+     "9",
+     "Dhofar Governorate"
+    ],
+    [
+     "10",
+     "Musandam Governorate"
+    ],
+    [
+     "11",
+     "Muscat Governorate"
+    ]
+   ]
+  }
+ ]
+}

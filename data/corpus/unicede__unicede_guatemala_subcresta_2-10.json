@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_guatemala_subcresta_2-10.html",
+ "title": "Guatemala Sub-CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Guatemala Sub-\nCRESTA\n Codes (v2.10)\n\nSub-\nCRESTA\n codes for Guatemala supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Guatemala (46).\n\n| Area Tag | Sub-Zone |\n| --- | --- |\n| 46-000 | GUATEMALA |\n| 46-001 | Z01.0:Guatemala City |\n| 46-002 | Z02.0:Resto del Departamento de Guatemala |\n| 46-003 | Z03.01:San Marcos |\n| 46-004 | Z03.02:Quezaltenango |\n| 46-005 | Z03.03:Retalhuleu |\n| 46-006 | Z03.04:SololÃ¡ |\n| 46-007 | Z03.05:Suchitepequez |\n| 46-008 | Z03.06:Escuintla |\n| 46-009 | Z03.07:Santa Rosa |\n| 46-010 | Z03.08:Jutiapa |\n| 46-011 | Z03.09:Chimaltenango |\n| 46-012 | Z03.10:Sacatepequez |\n| 46-013 | Z04.01:TotonicapÃ¡n |\n| 46-014 | Z04.02:El QuichÃ© |\n| 46-015 | Z04.03:Baja Verapaz |\n| 46-016 | Z04.04:Alta Verapaz |\n| 46-017 | Z04.05:El Progreso |\n| 46-018 | Z04.06:Jalapa |\n| 46-019 | Z04.07:Zacapa |\n| 46-020 | Z04.08:Izabal |\n| 46-021 | Z04.09:El PetÃ©n |\n| 46-022 | Z04.10:Chiquimila |\n| 46-023 | Z04.11:Huehuetenango |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Sub-Zone"
+   ],
+   "rows": [
+    [
+     "46-000",
+     "GUATEMALA"
+    ],
+    [
+     "46-001",
+     "Z01.0:Guatemala City"
+    ],
+    [
+     "46-002",
+     "Z02.0:Resto del Departamento de Guatemala"
+    ],
+    [
+     "46-003",
+     "Z03.01:San Marcos"
+    ],
+    [
+     "46-004",
+     "Z03.02:Quezaltenango"
+    ],
+    [
+     "46-005",
+     "Z03.03:Retalhuleu"
+    ],
+    [
+     "46-006",
+     "Z03.04:SololÃ¡"
+    ],
+    [
+     "46-007",
+     "Z03.05:Suchitepequez"
+    ],
+    [
+     "46-008",
+     "Z03.06:Escuintla"
+    ],
+    [
+     "46-009",
+     "Z03.07:Santa Rosa"
+    ],
+    [
+     "46-010",
+     "Z03.08:Jutiapa"
+    ],
+    [
+     "46-011",
+     "Z03.09:Chimaltenango"
+    ],
+    [
+     "46-012",
+     "Z03.10:Sacatepequez"
+    ],
+    [
+     "46-013",
+     "Z04.01:TotonicapÃ¡n"
+    ],
+    [
+     "46-014",
+     "Z04.02:El QuichÃ©"
+    ],
+    [
+     "46-015",
+     "Z04.03:Baja Verapaz"
+    ],
+    [
+     "46-016",
+     "Z04.04:Alta Verapaz"
+    ],
+    [
+     "46-017",
+     "Z04.05:El Progreso"
+    ],
+    [
+     "46-018",
+     "Z04.06:Jalapa"
+    ],
+    [
+     "46-019",
+     "Z04.07:Zacapa"
+    ],
+    [
+     "46-020",
+     "Z04.08:Izabal"
+    ],
+    [
+     "46-021",
+     "Z04.09:El PetÃ©n"
+    ],
+    [
+     "46-022",
+     "Z04.10:Chiquimila"
+    ],
+    [
+     "46-023",
+     "Z04.11:Huehuetenango"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_st_kitts_nevis_cresta_2-7.html",
+ "title": "St. Kitts & Nevis CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "St. Kitts & Nevis \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for St. Kitts & Nevis supported by \nUNICEDE\n/2.\n\nThe codes listed below are the \nCRESTA\n codes for St. Kitts & Nevis (180).\n\n| Area Tag | Zone |\n| --- | --- |\n| 180-000 | St. Kitts & Nevis |\n| 180-100 | St. Kitts |\n| 180-101 | Basseterre |\n| 180-102 | Rest of St. Kitts |\n| 180-200 | Nevis |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "180-000",
+     "St. Kitts & Nevis"
+    ],
+    [
+     "180-100",
+     "St. Kitts"
+    ],
+    [
+     "180-101",
+     "Basseterre"
+    ],
+    [
+     "180-102",
+     "Rest of St. Kitts"
+    ],
+    [
+     "180-200",
+     "Nevis"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_virgin_islands_us_subarea_2-7.html",
+ "title": "Virgin Islands (U.S.) district codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Virgin Islands (U.S.) district codes (v2.7)\n \n\nDistrict codes for U.S. Virgin Islands supported by \nUNICEDE\n/2.\n\nThe district codes include the country code for Virgin Islands (U.S.) (13).\n\n| Area Tag | District Name |\n| --- | --- |\n| 013-000 | VIRGIN ISLANDS (US) |\n| 013-001 | St. Croix |\n| 013-002 | St. John |\n| 013-003 | St. Thomas |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "013-000",
+     "VIRGIN ISLANDS (US)"
+    ],
+    [
+     "013-001",
+     "St. Croix"
+    ],
+    [
+     "013-002",
+     "St. John"
+    ],
+    [
+     "013-003",
+     "St. Thomas"
+    ]
+   ]
+  }
+ ]
+}

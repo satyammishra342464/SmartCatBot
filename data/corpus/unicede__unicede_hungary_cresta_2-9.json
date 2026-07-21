@@ -1,0 +1,353 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hungary_cresta_2-9.html",
+ "title": "Hungary CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Hungary \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Hungary supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Hungary (111).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 111-HUN | Hungary |\n| 111-HUN_10 | Z10: Budapest |\n| 111-HUN_11 | Z11: Budapest |\n| 111-HUN_12 | Z12: Budapest |\n| 111-HUN_20 | Z20: Szentendre |\n| 111-HUN_21 | Z21: Godollo |\n| 111-HUN_22 | Z22: Monor |\n| 111-HUN_23 | Z23: Rackeve |\n| 111-HUN_24 | Z24: Dunaujvaros |\n| 111-HUN_25 | Z25: Esztergom |\n| 111-HUN_26 | Z26: Vac |\n| 111-HUN_27 | Z27: Cegled |\n| 111-HUN_28 | Z28: Tatabanya |\n| 111-HUN_29 | Z29: Komarom |\n| 111-HUN_30 | Z30: Hatvan |\n| 111-HUN_31 | Z31: Salgotarjan |\n| 111-HUN_32 | Z32: Gyongyos |\n| 111-HUN_33 | Z33: Eger |\n| 111-HUN_34 | Z34: Mezokovesd |\n| 111-HUN_35 | Z35: Miskolc |\n| 111-HUN_36 | Z36: Ozd |\n| 111-HUN_37 | Z37: Kazincbarcika |\n| 111-HUN_38 | Z38: Szikszo |\n| 111-HUN_39 | Z39: Szerencs |\n| 111-HUN_40 | Z40: Debrecen |\n| 111-HUN_41 | Z41: Berettyoujfalu |\n| 111-HUN_42 | Z42: Hajduszoboszlo |\n| 111-HUN_43 | Z43: Nyirbator |\n| 111-HUN_44 | Z44: Nyiregyhaza |\n| 111-HUN_45 | Z45: Baktaloranthaza |\n| 111-HUN_46 | Z46: Kisvarda |\n| 111-HUN_47 | Z47: Mateszalka |\n| 111-HUN_48 | Z48: Vasarosnameny |\n| 111-HUN_49 | Z49: Fehergyarmat |\n| 111-HUN_50 | Z50: Szolnok |\n| 111-HUN_51 | Z51: Jaszbereny |\n| 111-HUN_52 | Z52: Torokszentmiklos |\n| 111-HUN_53 | Z53: Karcag |\n| 111-HUN_54 | Z54: Mezotur |\n| 111-HUN_55 | Z55: Gyomaendrod |\n| 111-HUN_56 | Z56: Bekescsaba |\n| 111-HUN_57 | Z57: Gyula |\n| 111-HUN_58 | Z58: Mezokovacshaza |\n| 111-HUN_59 | Z59: Oroshaza |\n| 111-HUN_60 | Z60: Kecskemet |\n| 111-HUN_61 | Z61: Kiskunfelegyhaza |\n| 111-HUN_62 | Z62: Kiskoros |\n| 111-HUN_63 | Z63: Kalocsa |\n| 111-HUN_64 | Z64: Kiskunhalas |\n| 111-HUN_65 | Z65: Baja |\n| 111-HUN_66 | Z66: Szentes |\n| 111-HUN_67 | Z67: Szeged |\n| 111-HUN_68 | Z68: Hodmezovasarhely |\n| 111-HUN_69 | Z69: Mako |\n| 111-HUN_70 | Z70: Sarbogard |\n| 111-HUN_71 | Z71: Szekszard |\n| 111-HUN_72 | Z72: Dombovar |\n| 111-HUN_73 | Z73: Komlo/Mecsekpoloske |\n| 111-HUN_74 | Z74: Kaposvar/Orci/Zselickislak |\n| 111-HUN_75 | Z75: Nagyatad |\n| 111-HUN_76 | Z76: Pecs |\n| 111-HUN_77 | Z77: Mohacs |\n| 111-HUN_78 | Z78: Kisharsany/Nagytotfalu/Siklos |\n| 111-HUN_79 | Z79: Botykapeterd/Cserto/Szigetvar |\n| 111-HUN_80 | Z80: Szekesfehervar |\n| 111-HUN_81 | Z81: Varpalota |\n| 111-HUN_82 | Z82: Veszprem |\n| 111-HUN_83 | Z83: Raposka/Tapolca |\n| 111-HUN_84 | Z84: Ajka |\n| 111-HUN_85 | Z85: Papa |\n| 111-HUN_86 | Z86: Siofok |\n| 111-HUN_87 | Z87: Csomend/Marcali |\n| 111-HUN_88 | Z88: Nagykanizsa |\n| 111-HUN_89 | Z89: Zalaegerszeg |\n| 111-HUN_90 | Z90: Gyor |\n| 111-HUN_91 | Z91: Tet |\n| 111-HUN_92 | Z92: Mosonmagyarovar |\n| 111-HUN_93 | Z93: Csorna |\n| 111-HUN_94 | Z94: Sopron |\n| 111-HUN_95 | Z95: Celldomolk |\n| 111-HUN_96 | Z96: Sarvar |\n| 111-HUN_97 | Z97: Szombathely |\n| 111-HUN_98 | Z98: Vasvar |\n| 111-HUN_99 | Z99: Kormend |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "111-HUN",
+     "Hungary"
+    ],
+    [
+     "111-HUN_10",
+     "Z10: Budapest"
+    ],
+    [
+     "111-HUN_11",
+     "Z11: Budapest"
+    ],
+    [
+     "111-HUN_12",
+     "Z12: Budapest"
+    ],
+    [
+     "111-HUN_20",
+     "Z20: Szentendre"
+    ],
+    [
+     "111-HUN_21",
+     "Z21: Godollo"
+    ],
+    [
+     "111-HUN_22",
+     "Z22: Monor"
+    ],
+    [
+     "111-HUN_23",
+     "Z23: Rackeve"
+    ],
+    [
+     "111-HUN_24",
+     "Z24: Dunaujvaros"
+    ],
+    [
+     "111-HUN_25",
+     "Z25: Esztergom"
+    ],
+    [
+     "111-HUN_26",
+     "Z26: Vac"
+    ],
+    [
+     "111-HUN_27",
+     "Z27: Cegled"
+    ],
+    [
+     "111-HUN_28",
+     "Z28: Tatabanya"
+    ],
+    [
+     "111-HUN_29",
+     "Z29: Komarom"
+    ],
+    [
+     "111-HUN_30",
+     "Z30: Hatvan"
+    ],
+    [
+     "111-HUN_31",
+     "Z31: Salgotarjan"
+    ],
+    [
+     "111-HUN_32",
+     "Z32: Gyongyos"
+    ],
+    [
+     "111-HUN_33",
+     "Z33: Eger"
+    ],
+    [
+     "111-HUN_34",
+     "Z34: Mezokovesd"
+    ],
+    [
+     "111-HUN_35",
+     "Z35: Miskolc"
+    ],
+    [
+     "111-HUN_36",
+     "Z36: Ozd"
+    ],
+    [
+     "111-HUN_37",
+     "Z37: Kazincbarcika"
+    ],
+    [
+     "111-HUN_38",
+     "Z38: Szikszo"
+    ],
+    [
+     "111-HUN_39",
+     "Z39: Szerencs"
+    ],
+    [
+     "111-HUN_40",
+     "Z40: Debrecen"
+    ],
+    [
+     "111-HUN_41",
+     "Z41: Berettyoujfalu"
+    ],
+    [
+     "111-HUN_42",
+     "Z42: Hajduszoboszlo"
+    ],
+    [
+     "111-HUN_43",
+     "Z43: Nyirbator"
+    ],
+    [
+     "111-HUN_44",
+     "Z44: Nyiregyhaza"
+    ],
+    [
+     "111-HUN_45",
+     "Z45: Baktaloranthaza"
+    ],
+    [
+     "111-HUN_46",
+     "Z46: Kisvarda"
+    ],
+    [
+     "111-HUN_47",
+     "Z47: Mateszalka"
+    ],
+    [
+     "111-HUN_48",
+     "Z48: Vasarosnameny"
+    ],
+    [
+     "111-HUN_49",
+     "Z49: Fehergyarmat"
+    ],
+    [
+     "111-HUN_50",
+     "Z50: Szolnok"
+    ],
+    [
+     "111-HUN_51",
+     "Z51: Jaszbereny"
+    ],
+    [
+     "111-HUN_52",
+     "Z52: Torokszentmiklos"
+    ],
+    [
+     "111-HUN_53",
+     "Z53: Karcag"
+    ],
+    [
+     "111-HUN_54",
+     "Z54: Mezotur"
+    ],
+    [
+     "111-HUN_55",
+     "Z55: Gyomaendrod"
+    ],
+    [
+     "111-HUN_56",
+     "Z56: Bekescsaba"
+    ],
+    [
+     "111-HUN_57",
+     "Z57: Gyula"
+    ],
+    [
+     "111-HUN_58",
+     "Z58: Mezokovacshaza"
+    ],
+    [
+     "111-HUN_59",
+     "Z59: Oroshaza"
+    ],
+    [
+     "111-HUN_60",
+     "Z60: Kecskemet"
+    ],
+    [
+     "111-HUN_61",
+     "Z61: Kiskunfelegyhaza"
+    ],
+    [
+     "111-HUN_62",
+     "Z62: Kiskoros"
+    ],
+    [
+     "111-HUN_63",
+     "Z63: Kalocsa"
+    ],
+    [
+     "111-HUN_64",
+     "Z64: Kiskunhalas"
+    ],
+    [
+     "111-HUN_65",
+     "Z65: Baja"
+    ],
+    [
+     "111-HUN_66",
+     "Z66: Szentes"
+    ],
+    [
+     "111-HUN_67",
+     "Z67: Szeged"
+    ],
+    [
+     "111-HUN_68",
+     "Z68: Hodmezovasarhely"
+    ],
+    [
+     "111-HUN_69",
+     "Z69: Mako"
+    ],
+    [
+     "111-HUN_70",
+     "Z70: Sarbogard"
+    ],
+    [
+     "111-HUN_71",
+     "Z71: Szekszard"
+    ],
+    [
+     "111-HUN_72",
+     "Z72: Dombovar"
+    ],
+    [
+     "111-HUN_73",
+     "Z73: Komlo/Mecsekpoloske"
+    ],
+    [
+     "111-HUN_74",
+     "Z74: Kaposvar/Orci/Zselickislak"
+    ],
+    [
+     "111-HUN_75",
+     "Z75: Nagyatad"
+    ],
+    [
+     "111-HUN_76",
+     "Z76: Pecs"
+    ],
+    [
+     "111-HUN_77",
+     "Z77: Mohacs"
+    ],
+    [
+     "111-HUN_78",
+     "Z78: Kisharsany/Nagytotfalu/Siklos"
+    ],
+    [
+     "111-HUN_79",
+     "Z79: Botykapeterd/Cserto/Szigetvar"
+    ],
+    [
+     "111-HUN_80",
+     "Z80: Szekesfehervar"
+    ],
+    [
+     "111-HUN_81",
+     "Z81: Varpalota"
+    ],
+    [
+     "111-HUN_82",
+     "Z82: Veszprem"
+    ],
+    [
+     "111-HUN_83",
+     "Z83: Raposka/Tapolca"
+    ],
+    [
+     "111-HUN_84",
+     "Z84: Ajka"
+    ],
+    [
+     "111-HUN_85",
+     "Z85: Papa"
+    ],
+    [
+     "111-HUN_86",
+     "Z86: Siofok"
+    ],
+    [
+     "111-HUN_87",
+     "Z87: Csomend/Marcali"
+    ],
+    [
+     "111-HUN_88",
+     "Z88: Nagykanizsa"
+    ],
+    [
+     "111-HUN_89",
+     "Z89: Zalaegerszeg"
+    ],
+    [
+     "111-HUN_90",
+     "Z90: Gyor"
+    ],
+    [
+     "111-HUN_91",
+     "Z91: Tet"
+    ],
+    [
+     "111-HUN_92",
+     "Z92: Mosonmagyarovar"
+    ],
+    [
+     "111-HUN_93",
+     "Z93: Csorna"
+    ],
+    [
+     "111-HUN_94",
+     "Z94: Sopron"
+    ],
+    [
+     "111-HUN_95",
+     "Z95: Celldomolk"
+    ],
+    [
+     "111-HUN_96",
+     "Z96: Sarvar"
+    ],
+    [
+     "111-HUN_97",
+     "Z97: Szombathely"
+    ],
+    [
+     "111-HUN_98",
+     "Z98: Vasvar"
+    ],
+    [
+     "111-HUN_99",
+     "Z99: Kormend"
+    ]
+   ]
+  }
+ ]
+}

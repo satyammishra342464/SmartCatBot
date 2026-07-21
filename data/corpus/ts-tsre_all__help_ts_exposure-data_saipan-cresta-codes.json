@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_saipan-cresta-codes.html",
+ "title": "Saipan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Saipan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Saipan.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Saipan |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Saipan"
+    ]
+   ]
+  }
+ ]
+}

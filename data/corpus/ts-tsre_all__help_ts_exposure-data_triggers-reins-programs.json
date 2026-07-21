@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_triggers-reins-programs.html",
+ "title": "Triggers (reinsurance programs)",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Triggers (reinsurance programs)\n\nValidation rules for triggers related to treaty terms for CAT XOL reinsurance\n only.\n\nReinsurance Programs\n > \n{Select a Reinsurance Program}\n > \nTriggers\n\nDetailed Loss Analysis\n > \nReinsurance Diagnostic\n > \nApply Reinsurance Programs pane\n > \nReinsurance Program Manager {Select a Reinsurance Program}\n > \nTriggers\n\nTriggers do not apply to any other treaty types. Triggers do not change the way in which\n \nTouchstone\n applies CAT XOL terms. These\n triggers only affect the events to which a trigger applies.\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Treaty Type | Catastrophe Excess of Loss treaties only. | Required if you are creating a new record or editing an existing\n record. | |\n| Treaty ID | User-specified name of this treaty. | Required if you are creating a new record or editing an existing\n record. Must be unique within the reinsurance program. Cannot begin with a space. Can contain up to 100 characters. | |\n| Industry Loss Minimum | Reserved for future use | | |\n| Industry Loss Maximum | Reserved for future use | | |\n| Portfolio Loss Minimum | Minimum value of events to which Touchstone should apply this CAT XOL\n treaty. Touchstone applies CATXOL\n treaties only to events with net losses between the portfolio minimum and\n maximum values. | Must be less than the portfolio loss maximum if the portfolio loss\n maximum value is greater than 0 . Must be a numeric value between 0 and 99999999999999 , inclusive | 0.0 |\n| Portfolio Loss Maximum | Maximum value of events to which Touchstone should apply this CAT XOL\n treaty. Touchstone applies CAT XOL\n treaties only to events with net losses between the portfolio minimum and\n maximum values. | Must be greater than the portfolio loss minimum if the portfolio\n loss maximum value is greater than 0 . Must be a numeric value between 0 and 99999999999999 , inclusive. | 0.0 |\n| Starting Event # | Sequence number of an event within a single year's set of events at which Touchstone begins applying\n this CAT XOL treaty. This starting event number is not the event ID. It is typically a number\n between 1 and 10, inclusive, depending on the number of events per year.\n The default value of 1 indicates that Touchstone applies this treaty\n starting with the first event of every year. | Required if you are creating a new record or editing an existing\n record. Defaults to a value. Must be a numeric value between 1 and 999 , inclusive | 1 |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Treaty Type",
+     "Catastrophe Excess of Loss treaties only.",
+     "Required if you are creating a new record or editing an existing\n                           record.",
+     ""
+    ],
+    [
+     "Treaty ID",
+     "User-specified name of this treaty.",
+     "Required if you are creating a new record or editing an existing\n                                 record. Must be unique within the reinsurance program. Cannot begin with a space. Can contain up to 100 characters.",
+     ""
+    ],
+    [
+     "Industry Loss Minimum",
+     "Reserved for future use",
+     "",
+     ""
+    ],
+    [
+     "Industry Loss Maximum",
+     "Reserved for future use",
+     "",
+     ""
+    ],
+    [
+     "Portfolio Loss Minimum",
+     "Minimum value of events to which Touchstone should apply this CAT XOL\n                           treaty. Touchstone applies CATXOL\n                           treaties only to events with net losses between the portfolio minimum and\n                           maximum values.",
+     "Must be less than the portfolio loss maximum if the portfolio loss\n                                 maximum value is greater than 0 . Must be a numeric value between 0 and 99999999999999 , inclusive",
+     "0.0"
+    ],
+    [
+     "Portfolio Loss Maximum",
+     "Maximum value of events to which Touchstone should apply this CAT XOL\n                           treaty. Touchstone applies CAT XOL\n                           treaties only to events with net losses between the portfolio minimum and\n                           maximum values.",
+     "Must be greater than the portfolio loss minimum if the portfolio\n                                 loss maximum value is greater than 0 . Must be a numeric value between 0 and 99999999999999 , inclusive.",
+     "0.0"
+    ],
+    [
+     "Starting Event #",
+     "Sequence number of an event within a single year's set of events at which Touchstone begins applying\n                           this CAT XOL treaty. This starting event number is not the event ID. It is typically a number\n                           between 1 and 10, inclusive, depending on the number of events per year.\n                           The default value of 1 indicates that Touchstone applies this treaty\n                           starting with the first event of every year.",
+     "Required if you are creating a new record or editing an existing\n                                 record. Defaults to a value. Must be a numeric value between 1 and 999 , inclusive",
+     "1"
+    ]
+   ]
+  }
+ ]
+}

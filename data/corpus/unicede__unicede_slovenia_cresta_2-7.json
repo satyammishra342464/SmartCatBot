@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_slovenia_cresta_2-7.html",
+ "title": "Slovenia CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Slovenia \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Slovenia supported by \nUNICEDE\n/2.\nThe codes listed below include the country code for Slovenia (195).\n\n| Area Tag | Zone |\n| --- | --- |\n| 195-000 | SLOVENIA |\n| 195-001 | Z01 |\n| 195-002 | Z02 |\n| 195-003 | Z03 |\n| 195-004 | Z04 |\n| 195-005 | Z05 |\n| 195-006 | Z06 |\n| 195-007 | Z07 |\n| 195-008 | Z08 |\n| 195-009 | Z09 |\n| 195-010 | Z10 |\n| 195-011 | Z11 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "195-000",
+     "SLOVENIA"
+    ],
+    [
+     "195-001",
+     "Z01"
+    ],
+    [
+     "195-002",
+     "Z02"
+    ],
+    [
+     "195-003",
+     "Z03"
+    ],
+    [
+     "195-004",
+     "Z04"
+    ],
+    [
+     "195-005",
+     "Z05"
+    ],
+    [
+     "195-006",
+     "Z06"
+    ],
+    [
+     "195-007",
+     "Z07"
+    ],
+    [
+     "195-008",
+     "Z08"
+    ],
+    [
+     "195-009",
+     "Z09"
+    ],
+    [
+     "195-010",
+     "Z10"
+    ],
+    [
+     "195-011",
+     "Z11"
+    ]
+   ]
+  }
+ ]
+}

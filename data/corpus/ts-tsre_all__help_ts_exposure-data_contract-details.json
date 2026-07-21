@@ -1,0 +1,77 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_contract-details.html",
+ "title": "Contract details",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Contract details\n\nValidation rules for fields related to contract details.\n\nProject Data\n > \nExposure Views\n > \n{Select an Exposure View}\n > \nContract List\n > \n{Select or Add a Contract}\n > \nContract Details pane\n\nNote:\n\nTouchstone\n does not support single-day\n contracts.\n\n| Field or tab | Description |\n| --- | --- |\n| Contract ID | Unique, required, user-defined contract identifier. |\n| Contract Type | One of the following contract types: Primary Property Facultative Property Primary Workers' Compensation Facultative Workers' Compensation |\n| Status | One of the following contract submission statuses where the letters\n represent the SubmitStatusCode in the database reference: Authorized (A) Bound (B) Cancelled (C) Expired (E) Quoted (Q) Rejected (R) Renewal (RN) Submitted (S) |\n| Inception Date | Date of the first day on which coverage is effective. When importing data, use one of the following formats and select this\n format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n a location, and these dates are different from (that is, a subset of)\n the inception and expiration dates for the corresponding contract, Touchstone considers only\n the location-level inception and expiration dates for this location\n when performing a detailed loss analysis For inception and expiration dates, and other in-force dates, you must\n specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n dates based on U.S. regional settings. If you are not using U.S. regional\n settings, use a date value other than 01/01/1970, such as 01/01/1990. |\n| Expiration Date | Date of the last day on which coverage is effective. When importing data, use one of the following formats and select this\n format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n a location, and these dates are different from (that is, a subset of)\n the inception and expiration dates for the corresponding contract, Touchstone considers only\n the location-level inception and expiration dates for this location\n when performing a detailed loss analysis. For inception and expiration dates, and other in-force dates, you must\n specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n dates based on U.S. regional settings. If you are not using U.S. regional\n settings, use a date value other than 01/01/1970, such as 01/01/1990. |\n| Insured Name | Name of the insured party. |\n| Line of Business | User-specified line of business. |\n| Underwriter | Name of the underwriter. |\n| Producer | Name of the producer. |\n| Currency | Base currency for this contract. For analysis at the contract level, Touchstone converts all locations to\n this base currency. See the list of valid currency codes. |\n| Perils | Perils insured under this contract. See the list of valid peril codes. Important: To specify multiple perils in a single entry within an import file,\n separate the corresponding peril codes with a Plus (+) symbol, such\n as, PWH+PES). |\n| Policy Form | User defined policy form assigned to this contract. |\n| Locations | Locations associated with this contract. |\n| Layers | Layers associated with this contract |\n| Step Function | Step function associated with this contract. |",
+ "tables": [
+  {
+   "headers": [
+    "Field or tab",
+    "Description"
+   ],
+   "rows": [
+    [
+     "Contract ID",
+     "Unique, required, user-defined contract identifier."
+    ],
+    [
+     "Contract Type",
+     "One of the following contract types: Primary Property Facultative Property Primary Workers' Compensation Facultative Workers' Compensation"
+    ],
+    [
+     "Status",
+     "One of the following contract submission statuses where the letters\n                           represent the SubmitStatusCode in the database reference: Authorized (A) Bound (B) Cancelled (C) Expired (E) Quoted (Q) Rejected (R) Renewal (RN) Submitted (S)"
+    ],
+    [
+     "Inception Date",
+     "Date of the first day on which coverage is effective. When importing data, use one of the following formats and select this\n                           format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n                              a location, and these dates are different from (that is, a subset of)\n                              the inception and expiration dates for the corresponding contract, Touchstone considers only\n                              the location-level inception and expiration dates for this location\n                              when performing a detailed loss analysis For inception and expiration dates, and other in-force dates, you must\n                           specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n                           dates based on U.S. regional settings. If you are not using U.S. regional\n                           settings, use a date value other than 01/01/1970, such as 01/01/1990."
+    ],
+    [
+     "Expiration Date",
+     "Date of the last day on which coverage is effective. When importing data, use one of the following formats and select this\n                           format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n                              a location, and these dates are different from (that is, a subset of)\n                              the inception and expiration dates for the corresponding contract, Touchstone considers only\n                              the location-level inception and expiration dates for this location\n                              when performing a detailed loss analysis. For inception and expiration dates, and other in-force dates, you must\n                           specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n                           dates based on U.S. regional settings. If you are not using U.S. regional\n                           settings, use a date value other than 01/01/1970, such as 01/01/1990."
+    ],
+    [
+     "Insured Name",
+     "Name of the insured party."
+    ],
+    [
+     "Line of Business",
+     "User-specified line of business."
+    ],
+    [
+     "Underwriter",
+     "Name of the underwriter."
+    ],
+    [
+     "Producer",
+     "Name of the producer."
+    ],
+    [
+     "Currency",
+     "Base currency for this contract. For analysis at the contract level, Touchstone converts all locations to\n                           this base currency. See the list of valid currency codes."
+    ],
+    [
+     "Perils",
+     "Perils insured under this contract. See the list of valid peril codes. Important: To specify multiple perils in a single entry within an import file,\n                              separate the corresponding peril codes with a Plus (+) symbol, such\n                              as, PWH+PES)."
+    ],
+    [
+     "Policy Form",
+     "User defined policy form assigned to this contract."
+    ],
+    [
+     "Locations",
+     "Locations associated with this contract."
+    ],
+    [
+     "Layers",
+     "Layers associated with this contract"
+    ],
+    [
+     "Step Function",
+     "Step function associated with this contract."
+    ]
+   ]
+  }
+ ]
+}

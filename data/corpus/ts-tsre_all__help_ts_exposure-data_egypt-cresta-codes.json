@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_egypt-cresta-codes.html",
+ "title": "Egypt CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Egypt \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Egypt.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Cairo and Gizeh |\n| 2 | Alexandria |\n| 4 | Suez |\n| 5 | Rest of Country |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Cairo and Gizeh"
+    ],
+    [
+     "2",
+     "Alexandria"
+    ],
+    [
+     "4",
+     "Suez"
+    ],
+    [
+     "5",
+     "Rest of Country"
+    ]
+   ]
+  }
+ ]
+}

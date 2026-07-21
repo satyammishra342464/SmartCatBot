@@ -1,0 +1,48 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-limit-types.html",
+ "title": "Sublimit occurrence limit types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit occurrence limit types\n\nNGM\n financial engine policy\n terms: sublimit occurrence limit types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| B | Blanket limit | Total |\n| E | Excess limit | Total |\n| C | Limit by coverage | ABCD |\n| C100 | Limit by coverage with 100% participation | ABCD |\n| CAI | Limit by coverage with assured interest | ABCD |\n| N | No limit | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "B",
+     "Blanket limit",
+     "Total"
+    ],
+    [
+     "E",
+     "Excess limit",
+     "Total"
+    ],
+    [
+     "C",
+     "Limit by coverage",
+     "ABCD"
+    ],
+    [
+     "C100",
+     "Limit by coverage with 100% participation",
+     "ABCD"
+    ],
+    [
+     "CAI",
+     "Limit by coverage with assured interest",
+     "ABCD"
+    ],
+    [
+     "N",
+     "No limit",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

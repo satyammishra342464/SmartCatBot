@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_val-rules-exposure-data.html",
+ "title": "Validation rules for exposure data",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Validation rules for exposure data\n\nValidation rules that \nTouchstone\n applies\n during import.\n\nTouchstone\n also applies the rules within\n the exposure-related portions of the \nTouchstone\n user interface. For detailed\n information about these validation rules, see the following topics:\n\nContract\n List\n\nContract\n Details\n\nLocations\n\nTerms (Location\n Terms)\n\nTerms: Deductible Location\n Terms \n\nReinsurance\n (Location Reinsurance)\n\nLayers\n\nReinsurance\n (Layer Reinsurance)\n\nStep\n Function\n\nReinsurance\n Programs\n\nTreaty\n Information (Reinsurance Programs)\n\nTerms\n (Reinsurance Programs)\n\nTriggers\n (Reinsurance Programs)\n\nTouchstone\n writes validation errors to the\n import log file. To view the validation error table, log in to the \nClient Portal\n, navigate to the \nDeveloper Zone\n, click the\n \nTouchstone\n\n Databases\n link (under \"Database Documentation\"), and then search\n for \"tValidationError Table\". The\n Description\n field for the\n \nValidationErrorCode\n column lists the code that\n represents the validation error.",
+ "tables": []
+}

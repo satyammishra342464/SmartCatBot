@@ -1,0 +1,273 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_vietnam-cresta-codes.html",
+ "title": "Vietnam CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Vietnam \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Vietnam.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Tinh Lai Chau |\n| 2 | Tinh Lao Cai |\n| 3 | Tinh Ha Giang |\n| 4 | Tinh Cao Bang |\n| 5 | Tinh Son La |\n| 6 | Tinh Yen Bai |\n| 7 | Tinh Tuyen Quang |\n| 9 | Tinh Lang Son |\n| 13 | Tinh Quang Ninh |\n| 14 | Tinh Hoa Binh |\n| 15 | Ha Tay |\n| 18 | Tinh Ninh Binh |\n| 20 | Tinh Thai Binh |\n| 21 | Tinh Thanh Hoa |\n| 22 | Tinh Nghe An |\n| 23 | Tinh Ha Tinh |\n| 24 | Tinh Quang Binh |\n| 25 | Tinh Quang Tri |\n| 26 | Tinh Thua Thien Hue |\n| 27 | Tinh Quang Nam |\n| 28 | Tinh Kon Tum |\n| 29 | Tinh Quang Ngai |\n| 30 | Tinh Gia Lai |\n| 31 | Tinh Binh Dinh |\n| 32 | Tinh Phu Yen |\n| 33 | Tinh Dak Lak |\n| 34 | Tinh Khanh Hoa |\n| 35 | Tinh Lam Dong |\n| 36 | Tinh Ninh Thuan |\n| 37 | Tinh Tay Ninh |\n| 39 | Tinh Dong Nai |\n| 40 | Tinh Binh Thuan |\n| 41 | Tinh Long An |\n| 43 | Tinh Ba Ria - Vung Tau |\n| 44 | Tinh An Giang |\n| 45 | Tinh Dong Thap |\n| 46 | Tinh Tien Giang |\n| 47 | Tinh Kien Giang |\n| 49 | Tinh Vinh Long |\n| 50 | Tinh Ben Tre |\n| 51 | Tinh Tra Vinh |\n| 52 | Tinh Soc Trang |\n| 53 | Tinh Bac Kan |\n| 54 | Tinh Bac Giang |\n| 55 | Tinh Bac Lieu |\n| 56 | Tinh Bac Ninh |\n| 57 | Tinh Binh Duong |\n| 58 | Tinh Binh Phuoc |\n| 59 | Tinh Ca Mau |\n| 61 | Tinh Hai Duong |\n| 63 | Tinh Ha Nam |\n| 66 | Tinh Hung Yen |\n| 67 | Tinh Nam Dinh |\n| 68 | Tinh Phu Tho |\n| 69 | Tinh Thai Nguyen |\n| 70 | Tinh Vinh Phuc |\n| 71 | Tinh Dien Bien |\n| 72 | Tinh Dak Nong |\n| 73 | Tinh Hau Giang |\n| CT | Thanh pho Can Tho |\n| DN | Thanh pho Da Nang |\n| HN | Ha Noi |\n| HP | Thanh pho Hai Phong |\n| SG | Thanh pho Ho Chi Minh |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Tinh Lai Chau"
+    ],
+    [
+     "2",
+     "Tinh Lao Cai"
+    ],
+    [
+     "3",
+     "Tinh Ha Giang"
+    ],
+    [
+     "4",
+     "Tinh Cao Bang"
+    ],
+    [
+     "5",
+     "Tinh Son La"
+    ],
+    [
+     "6",
+     "Tinh Yen Bai"
+    ],
+    [
+     "7",
+     "Tinh Tuyen Quang"
+    ],
+    [
+     "9",
+     "Tinh Lang Son"
+    ],
+    [
+     "13",
+     "Tinh Quang Ninh"
+    ],
+    [
+     "14",
+     "Tinh Hoa Binh"
+    ],
+    [
+     "15",
+     "Ha Tay"
+    ],
+    [
+     "18",
+     "Tinh Ninh Binh"
+    ],
+    [
+     "20",
+     "Tinh Thai Binh"
+    ],
+    [
+     "21",
+     "Tinh Thanh Hoa"
+    ],
+    [
+     "22",
+     "Tinh Nghe An"
+    ],
+    [
+     "23",
+     "Tinh Ha Tinh"
+    ],
+    [
+     "24",
+     "Tinh Quang Binh"
+    ],
+    [
+     "25",
+     "Tinh Quang Tri"
+    ],
+    [
+     "26",
+     "Tinh Thua Thien Hue"
+    ],
+    [
+     "27",
+     "Tinh Quang Nam"
+    ],
+    [
+     "28",
+     "Tinh Kon Tum"
+    ],
+    [
+     "29",
+     "Tinh Quang Ngai"
+    ],
+    [
+     "30",
+     "Tinh Gia Lai"
+    ],
+    [
+     "31",
+     "Tinh Binh Dinh"
+    ],
+    [
+     "32",
+     "Tinh Phu Yen"
+    ],
+    [
+     "33",
+     "Tinh Dak Lak"
+    ],
+    [
+     "34",
+     "Tinh Khanh Hoa"
+    ],
+    [
+     "35",
+     "Tinh Lam Dong"
+    ],
+    [
+     "36",
+     "Tinh Ninh Thuan"
+    ],
+    [
+     "37",
+     "Tinh Tay Ninh"
+    ],
+    [
+     "39",
+     "Tinh Dong Nai"
+    ],
+    [
+     "40",
+     "Tinh Binh Thuan"
+    ],
+    [
+     "41",
+     "Tinh Long An"
+    ],
+    [
+     "43",
+     "Tinh Ba Ria - Vung Tau"
+    ],
+    [
+     "44",
+     "Tinh An Giang"
+    ],
+    [
+     "45",
+     "Tinh Dong Thap"
+    ],
+    [
+     "46",
+     "Tinh Tien Giang"
+    ],
+    [
+     "47",
+     "Tinh Kien Giang"
+    ],
+    [
+     "49",
+     "Tinh Vinh Long"
+    ],
+    [
+     "50",
+     "Tinh Ben Tre"
+    ],
+    [
+     "51",
+     "Tinh Tra Vinh"
+    ],
+    [
+     "52",
+     "Tinh Soc Trang"
+    ],
+    [
+     "53",
+     "Tinh Bac Kan"
+    ],
+    [
+     "54",
+     "Tinh Bac Giang"
+    ],
+    [
+     "55",
+     "Tinh Bac Lieu"
+    ],
+    [
+     "56",
+     "Tinh Bac Ninh"
+    ],
+    [
+     "57",
+     "Tinh Binh Duong"
+    ],
+    [
+     "58",
+     "Tinh Binh Phuoc"
+    ],
+    [
+     "59",
+     "Tinh Ca Mau"
+    ],
+    [
+     "61",
+     "Tinh Hai Duong"
+    ],
+    [
+     "63",
+     "Tinh Ha Nam"
+    ],
+    [
+     "66",
+     "Tinh Hung Yen"
+    ],
+    [
+     "67",
+     "Tinh Nam Dinh"
+    ],
+    [
+     "68",
+     "Tinh Phu Tho"
+    ],
+    [
+     "69",
+     "Tinh Thai Nguyen"
+    ],
+    [
+     "70",
+     "Tinh Vinh Phuc"
+    ],
+    [
+     "71",
+     "Tinh Dien Bien"
+    ],
+    [
+     "72",
+     "Tinh Dak Nong"
+    ],
+    [
+     "73",
+     "Tinh Hau Giang"
+    ],
+    [
+     "CT",
+     "Thanh pho Can Tho"
+    ],
+    [
+     "DN",
+     "Thanh pho Da Nang"
+    ],
+    [
+     "HN",
+     "Ha Noi"
+    ],
+    [
+     "HP",
+     "Thanh pho Hai Phong"
+    ],
+    [
+     "SG",
+     "Thanh pho Ho Chi Minh"
+    ]
+   ]
+  }
+ ]
+}

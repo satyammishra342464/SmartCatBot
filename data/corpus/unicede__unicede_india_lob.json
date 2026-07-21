@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_india_lob.html",
+ "title": "India Lines of Business",
+ "section": "unicede",
+ "version": null,
+ "text": "India Lines of Business\n\nLOB codes for India supported by \nUNICEDE\n/2.\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_slovenia_cresta_2-8.html",
+ "title": "Slovenia CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Slovenia \nCRESTA\n Codes (v2.8)\n\nCRESTA\n codes for Slovenia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Slovenia (195).\n\n| Area Tag | CRESTA Zone |\n| 195-SVN | SLOVENIA |\n| 195-SVN_10 | Z10: Ljubljana |\n| 195-SVN_12 | Z12: Smlednik |\n| 195-SVN_13 | Z13: Zagradec |\n| 195-SVN_14 | Z14: Izlake |\n| 195-SVN_20 | Z20: Maribor |\n| 195-SVN_22 | Z22: Miklavz na Dravskem polju |\n| 195-SVN_23 | Z23: Hoce |\n| 195-SVN_30 | Z30: Celje |\n| 195-SVN_32 | Z32: Ljubecna |\n| 195-SVN_33 | Z33: Grize |\n| 195-SVN_40 | Z40: Kranj |\n| 195-SVN_42 | Z42: Naklo |\n| 195-SVN_50 | Z50: Nova Gorica |\n| 195-SVN_52 | Z52: Kojsko |\n| 195-SVN_60 | Z60: Koper/Capodistria |\n| 195-SVN_62 | Z62: Divaca |\n| 195-SVN_63 | Z63: Izola - Isola |\n| 195-SVN_80 | Z80: Novo mesto |\n| 195-SVN_82 | Z82: Dobrnic |\n| 195-SVN_83 | Z83: Kostanjevica na Krki |\n| 195-SVN_90 | Z90: Murska Sobota |\n| 195-SVN_92 | Z92: Mackovci |",
+ "tables": [
+  {
+   "headers": [],
+   "rows": [
+    [
+     "Area Tag",
+     "CRESTA Zone"
+    ],
+    [
+     "195-SVN",
+     "SLOVENIA"
+    ],
+    [
+     "195-SVN_10",
+     "Z10: Ljubljana"
+    ],
+    [
+     "195-SVN_12",
+     "Z12: Smlednik"
+    ],
+    [
+     "195-SVN_13",
+     "Z13: Zagradec"
+    ],
+    [
+     "195-SVN_14",
+     "Z14: Izlake"
+    ],
+    [
+     "195-SVN_20",
+     "Z20: Maribor"
+    ],
+    [
+     "195-SVN_22",
+     "Z22: Miklavz na Dravskem polju"
+    ],
+    [
+     "195-SVN_23",
+     "Z23: Hoce"
+    ],
+    [
+     "195-SVN_30",
+     "Z30: Celje"
+    ],
+    [
+     "195-SVN_32",
+     "Z32: Ljubecna"
+    ],
+    [
+     "195-SVN_33",
+     "Z33: Grize"
+    ],
+    [
+     "195-SVN_40",
+     "Z40: Kranj"
+    ],
+    [
+     "195-SVN_42",
+     "Z42: Naklo"
+    ],
+    [
+     "195-SVN_50",
+     "Z50: Nova Gorica"
+    ],
+    [
+     "195-SVN_52",
+     "Z52: Kojsko"
+    ],
+    [
+     "195-SVN_60",
+     "Z60: Koper/Capodistria"
+    ],
+    [
+     "195-SVN_62",
+     "Z62: Divaca"
+    ],
+    [
+     "195-SVN_63",
+     "Z63: Izola - Isola"
+    ],
+    [
+     "195-SVN_80",
+     "Z80: Novo mesto"
+    ],
+    [
+     "195-SVN_82",
+     "Z82: Dobrnic"
+    ],
+    [
+     "195-SVN_83",
+     "Z83: Kostanjevica na Krki"
+    ],
+    [
+     "195-SVN_90",
+     "Z90: Murska Sobota"
+    ],
+    [
+     "195-SVN_92",
+     "Z92: Mackovci"
+    ]
+   ]
+  }
+ ]
+}

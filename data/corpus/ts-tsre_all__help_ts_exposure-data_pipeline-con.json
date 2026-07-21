@@ -1,0 +1,93 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_pipeline-con.html",
+ "title": "Pipeline construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Pipeline construction codes\n\nThe pipeline construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for 2000-series codes\n to the \nVerisk Bushfire Model for Australia\n and the \nVerisk Typhoon Model for South Korea\n. For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 227 | Underground Pipelines | Pipelines located under the surface of the ground. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n pipeline construction code 2271. |\n| 228 | At Grade Pipelines | Pipelines located at the surface of the ground. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n pipeline construction code 2281. |\n| 2270 | Unknown Pipeline | Pipelines with an unknown location and material, or other unknown\n pipelines that cannot be mapped to any of the other pipeline construction\n class codes. |\n| 2271 | General Underground Pipelines | Pipelines located under the surface of the ground with an unknown\n material of construction. |\n| 2272 | Underground Cast Iron Pipelines | Pipelines located under the surface of the ground and made of cast iron\n material. |\n| 2273 | Underground Asbestos Cement Pipelines | Pipelines located under the surface of the ground and made of\n asbestos-cement material. |\n| 2274 | Underground Concrete Pipelines | Pipelines located under the surface of the ground and made of concrete\n material. |\n| 2275 | Underground PVC Pipelines | Pipelines located under the surface of the ground and made of PVC\n material. |\n| 2276 | Underground Ductile Iron Pipelines | Pipelines located under the surface of the ground and made of ductile\n iron material. |\n| 2281 | General At Grade Pipelines | Pipelines located at the surface of the ground with an unknown material\n of construction. |\n| 2282 | At Grade Cast Iron Pipelines | Pipelines located at the surface of the ground and made of cast iron\n material. |\n| 2283 | At Grade Asbestos Cement Pipelines | Pipelines located at the surface of the ground and made of\n asbestos-cement material. |\n| 2284 | At Grade Concrete Pipelines | Pipelines located at the surface of the ground and made of concrete\n material. |\n| 2285 | At Grade PVC Pipelines | Pipelines located at the surface of the ground and made of PVC\n material. |\n| 2286 | At Grade Ductile Iron Pipelines | Pipelines located at the surface of the ground and made of ductile iron\n material. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "227",
+     "Underground Pipelines",
+     "Pipelines located under the surface of the ground. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n                        pipeline construction code 2271."
+    ],
+    [
+     "228",
+     "At Grade Pipelines",
+     "Pipelines located at the surface of the ground. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n                        pipeline construction code 2281."
+    ],
+    [
+     "2270",
+     "Unknown Pipeline",
+     "Pipelines with an unknown location and material, or other unknown\n                        pipelines that cannot be mapped to any of the other pipeline construction\n                        class codes."
+    ],
+    [
+     "2271",
+     "General Underground Pipelines",
+     "Pipelines located under the surface of the ground with an unknown\n                        material of construction."
+    ],
+    [
+     "2272",
+     "Underground Cast Iron Pipelines",
+     "Pipelines located under the surface of the ground and made of cast iron\n                        material."
+    ],
+    [
+     "2273",
+     "Underground Asbestos Cement Pipelines",
+     "Pipelines located under the surface of the ground and made of\n                        asbestos-cement material."
+    ],
+    [
+     "2274",
+     "Underground Concrete Pipelines",
+     "Pipelines located under the surface of the ground and made of concrete\n                        material."
+    ],
+    [
+     "2275",
+     "Underground PVC Pipelines",
+     "Pipelines located under the surface of the ground and made of PVC\n                        material."
+    ],
+    [
+     "2276",
+     "Underground Ductile Iron Pipelines",
+     "Pipelines located under the surface of the ground and made of ductile\n                        iron material."
+    ],
+    [
+     "2281",
+     "General At Grade Pipelines",
+     "Pipelines located at the surface of the ground with an unknown material\n                        of construction."
+    ],
+    [
+     "2282",
+     "At Grade Cast Iron Pipelines",
+     "Pipelines located at the surface of the ground and made of cast iron\n                        material."
+    ],
+    [
+     "2283",
+     "At Grade Asbestos Cement Pipelines",
+     "Pipelines located at the surface of the ground and made of\n                        asbestos-cement material."
+    ],
+    [
+     "2284",
+     "At Grade Concrete Pipelines",
+     "Pipelines located at the surface of the ground and made of concrete\n                        material."
+    ],
+    [
+     "2285",
+     "At Grade PVC Pipelines",
+     "Pipelines located at the surface of the ground and made of PVC\n                        material."
+    ],
+    [
+     "2286",
+     "At Grade Ductile Iron Pipelines",
+     "Pipelines located at the surface of the ground and made of ductile iron\n                        material."
+    ]
+   ]
+  }
+ ]
+}

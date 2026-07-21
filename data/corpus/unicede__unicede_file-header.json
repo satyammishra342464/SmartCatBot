@@ -1,0 +1,173 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_file-header.html",
+ "title": "UNICEDE/2 file header",
+ "section": "unicede",
+ "version": null,
+ "text": "UNICEDE\n/2 file header\n\nFile header details supported by \nUNICEDE\n/2.\n\nThe HEADER section of a \nUNICEDE\n/2 submission\n describes the contents of the file. Each file must begin with a header section. Each row in the header begins with an asterisk (*), making the header easy to identify when reviewing the contents of the file.\n\nIt is important that: \n\nAll the items listed below be included in the file\n\nThey be included in the same order\n\nEach line starting with the asterisk (*) must begin in column 1, (i.e., without\n leading spaces)\n\nEach item occupies a single line ending with CARRIAGE RETURN and LINE FEED.\n\n| Item | Description | Example |\n| --- | --- | --- |\n| Marker | This identifies the protocol being used. It MUST be reproduced EXACTLY as\n shown. | UNICEDE -PUBLIC-2.9.0 * Verisk - UNICEDE -PUBLIC-2.8.0 UNICEDE -PUBLIC-2.7.0 |\n| Reference | This is the source where you can obtain documentation that explains the\n details of the protocol, a document like this one. | *REF = Verisk , Boston, MA\n 02116 |\n| SourceDate | The date on which this file was prepared for submission. The date value on\n the left of \":\" is in the universal 8 character format YYYYMMDD, where YYYY is the year, e.g., 2019 MM is the month, e.g., 09 DD is day, e.g., 07. | UNICEDE 2.9: *SOURCE DATE = 20170701: 1 July 2020 UNICEDE 2.8: *SOURCE_DATE = 20160701: 1 July 2019 UNICEDE 2.7: *SOURCE DATE = 20100701: 1 July 2018 |\n| SourceCompany | Name of the company that prepared the file for submission | *SOURCE_COMPANY = ABC Reinsurance Intermediaries Inc. |\n| SourceContact | Name of the contact person. | *SOURCE_CONTACT = John Smith |\n| SourceAddressLine1 | The address of the contact person. | *SOURCE_ADDR_1 = 1234 Main Street |\n| SourceAddressLine2 | | *SOURCE_ADDR_2 = P.O. Box 4321 |\n| SourceAddressLine3 | | *SOURCE_ADDR_3 = Boston, MA 02134 |\n| SourceAddressLine4 | | *SOURCE_ADDR_4 = USA |\n| SourceAddressLine5 | | *SOURCE_ADDR_5 = |\n| SourcePhone | The phone number of the contact person. | *SOURCE_PHONE = 617-456-7890 |\n| SourceFax | The fax number of the contact person. | *SOURCE_FAX = 617-987-6543 |\n| SourceE-Mail | The E-mail address of the contact person. | *SOURCE_EMAIL = smith@ www.air-worldwide.com |\n| CedingCompany | The name of the ceding company seeking reinsurance. | *CEDING_COMPANY = Solar Insurance Company |\n| CedingCoStdID | This identifies the standard ID of the company. Currently UNICEDE /2 does not recognize any standard\n ID numbers for Europe. However, it does recognize A.M. Best's ID numbers for\n US cedants. The general format for the ID number is \"nnnnn\", where nnnnn is the A. M. Best identification number. For example, the\n A. M. Best identification number of A I LLOYD'S would be specified as: 04292 For a company without an A.M. Best ID, use 100000 . | *CEDING_CO_STD_ID = 1000000 |\n| DataAsOf | The inforce date as of which this data represents the ceding company's\n exposures for which the data is being submitted. 19960701: July 1, 2019 The date value on the left of the colon is in the universal 8 character\n format YYYYMMDD, where YYYY is the year, e.g., 2019 MM is the month, e.g., 09 DD is day, e.g., 07. The date value on the right of the colon is required and is for the benefit\n of a human reader and can be specified in any manner. | The data represents the company's exposures as of July 1, 2019, then the\n entry would be *DATA_AS_OF = 20160501: 1 May 2018 |\n| DataUnits | The units used for all numerical values. 1: 1.0 if sums-insured values are in dollars 2: 1000.0 if sums-insured values are in thousands of dollars 3: 1000000.0 if sums-insured values are in millions of\n dollars 4: 1000000000.0 if sums-insured values are in billions of\n dollars Note: All the text after and including the colon (\":\") is ignored as\n comments. | *DATA_UNITS = 2: 1000.0 |\n| DataCurrency | Currency of the data. | *DATA_CURRENCY = USD |\n| DataFor | DataFor: TREATY: Treaty Reinsurance | *DATA_FOR = TREATY: Treaty Reinsurance |\n| DataQuality | This provides qualitative information regarding the data. Currently there\n are 5 levels of data quality: 1 : Excellent - All data submitted directly by ceding\n company. 2 : Good - Most data submitted by ceding company, other data\n estimated 3 : Fair - Some data submitted directly by ceding company, remainder\n estimated 4 : All values are estimates and may be revised within 30\n days 5 : All values are estimates and will be revised within 30\n days Of course, these are highly subjective in nature. This information in not\n used by the software to interpret or modify the data. | *DATA_QUALITY = 1 |\n| DataLevel | Iindicates the level of data (e.g. -level, sub-, postal codes, province codes, governates, perfectures) in the import file. | *DATA_LEVEL = 11 |\n| DataLineType | This defines the \"format\" of the values in each line of data in the\n BODY. 10: Standard: All values are \"comma-delimited\", i.e., separated by commas.\n However, because the lines of business (LOBs) vary from country to country,\n so do the contents of the records. See LOB Codes . Important: Because field values in records are comma-delimited the values themselves must not contain\n commas . For example, in comma delimited records\n the correct way to represent the numbers 1,234 and 5,678 is\n 1234, 5678. Note that the comma is used to separate the two\n values and not the digits within each\n value. | *DATA_LINE_TYPE = 10 |\n| DataCoversAreas | This indicates whether or not the exposure data provided in this file\n represents all the risks in all the geographic areas (e.g., states in the US\n or counties in Europe) in which the cedant writes business. See the Area Tag specification for valid\n geographic areas. The possible values are: 0: No (This file does not contain all the areas) 1: Yes (All areas included) Important: It is very important that the file include all the exposures\n in all geographic areas. If the file does not include all the\n data -- for example, if the file includes only coastal\n counties -- the reinsurance underwriter using CATMAP/2 might\n distribute all of the ceding company's state level premiums\n to those coastal counties. This, in turn, could make the\n cedant's loss potential appear to be signficantly higher than\n it may be otherwise. | *DATA_COVERS_AREAS = 1 |\n| DataSubAreasComplete | This indicates exposure data provided for each geographic area (e.g.,\n country) in this file represents all the risks in all the subareas (e.g.,\n counties in the US or CRESTA zones\n in Europe) in which the cedant does business. See the Area Tag specification for valid\n geographic areas. The possible values are: 0: No (This file does not contain all the subareas) 1: Yes (All subareas are included for each area) | *DATA_SUBAREAS_COMPLETE = 1 |\n| DataCoversLines | This indicates whether or not the exposure data provided in this file\n represents all the risks for all the lines of business written by the\n cedant. See LOB Codes further\n information. The possible values are: 0: No (This file does not contain all the lines) 1: Yes (All lines included) | *DATA_COVERS_LINES = 1 |\n| DataCoverPerils | This indicates whether or not the exposure data provided in this file\n represents all the risks for all the perils covered by the cedant. See Peril Codes for currently\n supported perils.. The possible values are: 0: No (This file does not contain all the perils) 1: Yes (All perils included) | *DATA_COVERS_PERILS = 1 |\n| AreaTagType | Defines the format of the Area Tag field value in the Body records. | *AREA_TAG_TYPE = 11 |\n| FieldSeparator | This identifies the character that separates two adjacent fields (or values)\n in a record (or a line) in the Body. Currently only the following is\n supported: 1: Comma | *FIELD_SEPARATOR = 1 |\n| RecordSeparator | This identifies the character that separates two adjacent records (or lines) in the BODY.\n Currently only the following is supported: 0: Carriage Return + LineFeed | *RECORD_SEPARATOR = 0 |\n| CLFAvailable | This identifies whether a CATMAP/2 or CATRADER compatible Company Loss File is\n available. The possible values are: 0: No (Company Loss File is not available) 1: Yes (Company Loss File is available) A Company Loss File (CLF) is a special binary file that is created using Verisk 's CLASIC software. This\n file contains the cedant's distribution of losses for every event in the\n Industry Loss File used in CATMAP/2 or CATRADER . Each CLF is created using the\n most detailed exposure data for each risk of the ceding\n company such as location (ZIP or geocode), detailed policy conditions (replacement values, sums insured\n values, and deductibles by coverage), and construction among others. With the CLF file installed in CATMAP/2 or CATRADER the reinsurer can use the\n losses in the CLF instead of market shares based on aggregated exposure\n information contained in UNICEDE /2\n files. | *CLF_AVAILABLE = 1 |\n| Comment | All comments begin with three asterisks (i.e., '***') starting in the first\n character position in the line. This is where the creator of the file can\n place text either for his/her reference or for the benefit of others. The\n software importing the file will, more likely than not, simply ignore these\n comments, unless the user of the software wants the comments to be\n displayed. The important thing is that there is no information in this field\n that is interpreted by the software reading it. Note: Each comment is for a single line only. If you want multiple\n line comments, then EACH line must begin with the comment\n token, i.e., '***'. | ***Comments are optional. |",
+ "tables": [
+  {
+   "headers": [
+    "Item",
+    "Description",
+    "Example"
+   ],
+   "rows": [
+    [
+     "Marker",
+     "This identifies the protocol being used. It MUST be reproduced EXACTLY as\n                        shown.",
+     "UNICEDE -PUBLIC-2.9.0 * Verisk - UNICEDE -PUBLIC-2.8.0 UNICEDE -PUBLIC-2.7.0"
+    ],
+    [
+     "Reference",
+     "This is the source where you can obtain documentation that explains the\n                        details of the protocol, a document like this one.",
+     "*REF = Verisk , Boston, MA\n                           02116"
+    ],
+    [
+     "SourceDate",
+     "The date on which this file was prepared for submission. The date value on\n                        the left of \":\" is in the universal 8 character format YYYYMMDD, where YYYY is the year, e.g., 2019 MM is the month, e.g., 09 DD is day, e.g., 07.",
+     "UNICEDE 2.9: *SOURCE DATE = 20170701: 1 July 2020 UNICEDE 2.8: *SOURCE_DATE = 20160701: 1 July 2019 UNICEDE 2.7: *SOURCE DATE = 20100701: 1 July 2018"
+    ],
+    [
+     "SourceCompany",
+     "Name of the company that prepared the file for submission",
+     "*SOURCE_COMPANY = ABC Reinsurance Intermediaries Inc."
+    ],
+    [
+     "SourceContact",
+     "Name of the contact person.",
+     "*SOURCE_CONTACT = John Smith"
+    ],
+    [
+     "SourceAddressLine1",
+     "The address of the contact person.",
+     "*SOURCE_ADDR_1 = 1234 Main Street"
+    ],
+    [
+     "SourceAddressLine2",
+     "",
+     "*SOURCE_ADDR_2 = P.O. Box 4321"
+    ],
+    [
+     "SourceAddressLine3",
+     "",
+     "*SOURCE_ADDR_3 = Boston, MA 02134"
+    ],
+    [
+     "SourceAddressLine4",
+     "",
+     "*SOURCE_ADDR_4 = USA"
+    ],
+    [
+     "SourceAddressLine5",
+     "",
+     "*SOURCE_ADDR_5 ="
+    ],
+    [
+     "SourcePhone",
+     "The phone number of the contact person.",
+     "*SOURCE_PHONE = 617-456-7890"
+    ],
+    [
+     "SourceFax",
+     "The fax number of the contact person.",
+     "*SOURCE_FAX = 617-987-6543"
+    ],
+    [
+     "SourceE-Mail",
+     "The E-mail address of the contact person.",
+     "*SOURCE_EMAIL = smith@ www.air-worldwide.com"
+    ],
+    [
+     "CedingCompany",
+     "The name of the ceding company seeking reinsurance.",
+     "*CEDING_COMPANY = Solar Insurance Company"
+    ],
+    [
+     "CedingCoStdID",
+     "This identifies the standard ID of the company. Currently UNICEDE /2 does not recognize any standard\n                        ID numbers for Europe. However, it does recognize A.M. Best's ID numbers for\n                        US cedants. The general format for the ID number is \"nnnnn\", where nnnnn is the A. M. Best identification number. For example, the\n                        A. M. Best identification number of A I LLOYD'S would be specified as: 04292 For a company without an A.M. Best ID, use 100000 .",
+     "*CEDING_CO_STD_ID = 1000000"
+    ],
+    [
+     "DataAsOf",
+     "The inforce date as of which this data represents the ceding company's\n                        exposures for which the data is being submitted. 19960701: July 1, 2019 The date value on the left of the colon is in the universal 8 character\n                        format YYYYMMDD, where YYYY is the year, e.g., 2019 MM is the month, e.g., 09 DD is day, e.g., 07. The date value on the right of the colon is required and is for the benefit\n                        of a human reader and can be specified in any manner.",
+     "The data represents the company's exposures as of July 1, 2019, then the\n                        entry would be *DATA_AS_OF = 20160501: 1 May 2018"
+    ],
+    [
+     "DataUnits",
+     "The units used for all numerical values. 1: 1.0 if sums-insured values are in dollars 2: 1000.0 if sums-insured values are in thousands of dollars 3: 1000000.0 if sums-insured values are in millions of\n                           dollars 4: 1000000000.0 if sums-insured values are in billions of\n                           dollars Note: All the text after and including the colon (\":\") is ignored as\n                           comments.",
+     "*DATA_UNITS = 2: 1000.0"
+    ],
+    [
+     "DataCurrency",
+     "Currency of the data.",
+     "*DATA_CURRENCY = USD"
+    ],
+    [
+     "DataFor",
+     "DataFor: TREATY: Treaty Reinsurance",
+     "*DATA_FOR = TREATY: Treaty Reinsurance"
+    ],
+    [
+     "DataQuality",
+     "This provides qualitative information regarding the data. Currently there\n                        are 5 levels of data quality: 1 : Excellent - All data submitted directly by ceding\n                        company. 2 : Good - Most data submitted by ceding company, other data\n                        estimated 3 : Fair - Some data submitted directly by ceding company, remainder\n                        estimated 4 : All values are estimates and may be revised within 30\n                        days 5 : All values are estimates and will be revised within 30\n                        days Of course, these are highly subjective in nature. This information in not\n                        used by the software to interpret or modify the data.",
+     "*DATA_QUALITY = 1"
+    ],
+    [
+     "DataLevel",
+     "Iindicates the level of data (e.g. -level, sub-, postal codes, province codes, governates, perfectures) in the import file.",
+     "*DATA_LEVEL = 11"
+    ],
+    [
+     "DataLineType",
+     "This defines the \"format\" of the values in each line of data in the\n                        BODY. 10: Standard: All values are \"comma-delimited\", i.e., separated by commas.\n                        However, because the lines of business (LOBs) vary from country to country,\n                        so do the contents of the records. See LOB Codes . Important: Because field values in records are comma-delimited the values themselves must not contain\n                                          commas . For example, in comma delimited records\n                                       the correct way to represent the numbers 1,234 and 5,678 is\n                                       1234, 5678. Note that the comma is used to separate the two\n                                       values and not the digits within each\n                                       value.",
+     "*DATA_LINE_TYPE = 10"
+    ],
+    [
+     "DataCoversAreas",
+     "This indicates whether or not the exposure data provided in this file\n                        represents all the risks in all the geographic areas (e.g., states in the US\n                        or counties in Europe) in which the cedant writes business. See the Area Tag specification for valid\n                        geographic areas. The possible values are: 0: No (This file does not contain all the areas) 1: Yes (All areas included) Important: It is very important that the file include all the exposures\n                                       in all geographic areas. If the file does not include all the\n                                       data -- for example, if the file includes only coastal\n                                       counties -- the reinsurance underwriter using CATMAP/2 might\n                                       distribute all of the ceding company's state level premiums\n                                       to those coastal counties. This, in turn, could make the\n                                       cedant's loss potential appear to be signficantly higher than\n                                       it may be otherwise.",
+     "*DATA_COVERS_AREAS = 1"
+    ],
+    [
+     "DataSubAreasComplete",
+     "This indicates exposure data provided for each geographic area (e.g.,\n                        country) in this file represents all the risks in all the subareas (e.g.,\n                        counties in the US or CRESTA zones\n                        in Europe) in which the cedant does business. See the Area Tag specification for valid\n                        geographic areas. The possible values are: 0: No (This file does not contain all the subareas) 1: Yes (All subareas are included for each area)",
+     "*DATA_SUBAREAS_COMPLETE = 1"
+    ],
+    [
+     "DataCoversLines",
+     "This indicates whether or not the exposure data provided in this file\n                        represents all the risks for all the lines of business written by the\n                        cedant. See LOB Codes further\n                        information. The possible values are: 0: No (This file does not contain all the lines) 1: Yes (All lines included)",
+     "*DATA_COVERS_LINES = 1"
+    ],
+    [
+     "DataCoverPerils",
+     "This indicates whether or not the exposure data provided in this file\n                        represents all the risks for all the perils covered by the cedant. See Peril Codes for currently\n                        supported perils.. The possible values are: 0: No (This file does not contain all the perils) 1: Yes (All perils included)",
+     "*DATA_COVERS_PERILS = 1"
+    ],
+    [
+     "AreaTagType",
+     "Defines the format of the Area Tag field value in the Body records.",
+     "*AREA_TAG_TYPE = 11"
+    ],
+    [
+     "FieldSeparator",
+     "This identifies the character that separates two adjacent fields (or values)\n                        in a record (or a line) in the Body. Currently only the following is\n                        supported: 1: Comma",
+     "*FIELD_SEPARATOR = 1"
+    ],
+    [
+     "RecordSeparator",
+     "This identifies the character that separates two adjacent records (or lines) in the BODY.\n                        Currently only the following is supported: 0: Carriage Return + LineFeed",
+     "*RECORD_SEPARATOR = 0"
+    ],
+    [
+     "CLFAvailable",
+     "This identifies whether a CATMAP/2 or CATRADER compatible Company Loss File is\n                        available. The possible values are: 0: No (Company Loss File is not available) 1: Yes (Company Loss File is available) A Company Loss File (CLF) is a special binary file that is created using Verisk 's CLASIC software. This\n                        file contains the cedant's distribution of losses for every event in the\n                        Industry Loss File used in CATMAP/2 or CATRADER . Each CLF is created using the\n                        most detailed exposure data for each risk of the ceding\n                        company such as location (ZIP or geocode), detailed policy conditions (replacement values, sums insured\n                        values, and deductibles by coverage), and construction among others. With the CLF file installed in CATMAP/2 or CATRADER the reinsurer can use the\n                        losses in the CLF instead of market shares based on aggregated exposure\n                        information contained in UNICEDE /2\n                        files.",
+     "*CLF_AVAILABLE = 1"
+    ],
+    [
+     "Comment",
+     "All comments begin with three asterisks (i.e., '***') starting in the first\n                        character position in the line. This is where the creator of the file can\n                        place text either for his/her reference or for the benefit of others. The\n                        software importing the file will, more likely than not, simply ignore these\n                        comments, unless the user of the software wants the comments to be\n                        displayed. The important thing is that there is no information in this field\n                        that is interpreted by the software reading it. Note: Each comment is for a single line only. If you want multiple\n                                       line comments, then EACH line must begin with the comment\n                                       token, i.e., '***'.",
+     "***Comments are optional."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_kuwait-governorate-codes.html",
+ "title": "Kuwait governorate codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Kuwait governorate codes\n\nTouchstone\n supports the following\n governorate codes for Kuwait.\n\n| Governorate Code | Governorate Name |\n| --- | --- |\n| 1 | Al-Ahmadi |\n| 2 | Capital |\n| 3 | Al-Farwaniya |\n| 4 | Hawalli |\n| 5 | Al-Jabra |\n| 6 | Mubarak Al-Kabeer |",
+ "tables": [
+  {
+   "headers": [
+    "Governorate Code",
+    "Governorate Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Al-Ahmadi"
+    ],
+    [
+     "2",
+     "Capital"
+    ],
+    [
+     "3",
+     "Al-Farwaniya"
+    ],
+    [
+     "4",
+     "Hawalli"
+    ],
+    [
+     "5",
+     "Al-Jabra"
+    ],
+    [
+     "6",
+     "Mubarak Al-Kabeer"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_bosniaherzegovina-cresta_2-10.html",
+ "title": "Bosnia & Herzegovina CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Bosnia & Herzegovina \nCRESTA\n Codes (v2.10) \n\nCRESTA\n codes for Bosnia & Herzegovina supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Bosnia & Herzegovina (247).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 247-BIH | Bosnia and Herzegovia |\n| 247-BIH_70 | Bosnia and Herzegovia |\n| 247-BIH_71 | Bosnia and Herzegovia |\n| 247-BIH_72 | Bosnia and Herzegovia |\n| 247-BIH_73 | Bosnia and Herzegovia |\n| 247-BIH_74 | Bosnia and Herzegovia |\n| 247-BIH_75 | Bosnia and Herzegovia |\n| 247-BIH_76 | Bosnia and Herzegovia |\n| 247-BIH_77 | Bosnia and Herzegovia |\n| 247-BIH_78 | Bosnia and Herzegovia |\n| 247-BIH_79 | Bosnia and Herzegovia |\n| 247-BIH_80 | Bosnia and Herzegovia |\n| 247-BIH_88 | Bosnia and Herzegovia |\n| 247-BIH_89 | Bosnia and Herzegovia |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "247-BIH",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_70",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_71",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_72",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_73",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_74",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_75",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_76",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_77",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_78",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_79",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_80",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_88",
+     "Bosnia and Herzegovia"
+    ],
+    [
+     "247-BIH_89",
+     "Bosnia and Herzegovia"
+    ]
+   ]
+  }
+ ]
+}

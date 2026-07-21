@@ -1,0 +1,77 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_occ-class-desc.html",
+ "title": "Occupancy class codes supported by Touchstone",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Occupancy class codes supported by \nTouchstone\n\nTouchstone\n supports the following occupancy\n class codes.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Code Range | Category |\n| --- | --- |\n| 300 | Unknown occupancy |\n| 301-307, 367, 382 | Residential occupancies |\n| 311-319, 366, 383 | Commercial occupancies |\n| 321-330, 384 | Industrial occupancies |\n| 331 | Restaurant occupancy |\n| 335-336 | Mercantile\n occupancies |\n| 341-344 | Public occupancies |\n| 345-346 | Education occupancies |\n| 351-356 | Transportation occupancies |\n| 361-365 | Utility occupancies |\n| 371-381 | Miscellaneous occupancies |\n| 400-488 | Industrial facility\n occupancies |\n| 900-909 | Offshore Asset\n occupancies |\n| 1001-1012 | Marine Cargo occupancy\n codes |\n| 3001-3023 (added in 13.0) | Solar occupancy codes |",
+ "tables": [
+  {
+   "headers": [
+    "Code Range",
+    "Category"
+   ],
+   "rows": [
+    [
+     "300",
+     "Unknown occupancy"
+    ],
+    [
+     "301-307, 367, 382",
+     "Residential occupancies"
+    ],
+    [
+     "311-319, 366, 383",
+     "Commercial occupancies"
+    ],
+    [
+     "321-330, 384",
+     "Industrial occupancies"
+    ],
+    [
+     "331",
+     "Restaurant occupancy"
+    ],
+    [
+     "335-336",
+     "Mercantile\n                  occupancies"
+    ],
+    [
+     "341-344",
+     "Public occupancies"
+    ],
+    [
+     "345-346",
+     "Education occupancies"
+    ],
+    [
+     "351-356",
+     "Transportation occupancies"
+    ],
+    [
+     "361-365",
+     "Utility occupancies"
+    ],
+    [
+     "371-381",
+     "Miscellaneous occupancies"
+    ],
+    [
+     "400-488",
+     "Industrial facility\n                    occupancies"
+    ],
+    [
+     "900-909",
+     "Offshore Asset\n                    occupancies"
+    ],
+    [
+     "1001-1012",
+     "Marine Cargo occupancy\n                  codes"
+    ],
+    [
+     "3001-3023 (added in 13.0)",
+     "Solar occupancy codes"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_russia_district_2-9.html",
+ "title": "Russia district codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Russia district codes (v2.9)\n\nDistrict codes for Russia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Russia (177).\n\n| Area Tag | District |\n| --- | --- |\n| 177-000 | Russia |\n| 177-001 | Central Federal District |\n| 177-002 | Southern Federal District |\n| 177-003 | Northwestern Federal District |\n| 177-004 | Far Eastern Federal District |\n| 177-005 | Siberian Federal District |\n| 177-006 | Urals Federal District |\n| 177-007 | Volga Federal District |\n| 177-008 | North Caucasian Federal District |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District"
+   ],
+   "rows": [
+    [
+     "177-000",
+     "Russia"
+    ],
+    [
+     "177-001",
+     "Central Federal District"
+    ],
+    [
+     "177-002",
+     "Southern Federal District"
+    ],
+    [
+     "177-003",
+     "Northwestern Federal District"
+    ],
+    [
+     "177-004",
+     "Far Eastern Federal District"
+    ],
+    [
+     "177-005",
+     "Siberian Federal District"
+    ],
+    [
+     "177-006",
+     "Urals Federal District"
+    ],
+    [
+     "177-007",
+     "Volga Federal District"
+    ],
+    [
+     "177-008",
+     "North Caucasian Federal District"
+    ]
+   ]
+  }
+ ]
+}

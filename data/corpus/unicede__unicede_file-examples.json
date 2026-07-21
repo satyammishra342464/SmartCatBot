@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_file-examples.html",
+ "title": "File examples",
+ "section": "unicede",
+ "version": null,
+ "text": "File examples\n\nSample files for \nUNICEDE\n/2.\n\nFor the XYZ Insurance Company, the Homeowner values insured for wind and fire (in\n ones) in Rhode Island may be:\n\nCounty Name # of Risks Sums Insured\n\nRHODE ISLAND 221. 67490000.Bristol 65. 20500000.Kent 72. 242500000.Newport 84.\n 22740000.\n\nThe portion of the BODY containing this data would then look like this (assuming the\n Data Units is coded as ones):\n\n01-44000, PWF, PHO, BCT, 221, 67490000, 0, 0, 0, Rhode Island01-44001, PWF, PHO, BCT,\n 65, 20500000, 0, 0, 0, Bristol01-44003, PWF, PHO, BCT, 72, 24250000, 0, 0, 0,\n Kent01-44005, PWF, PHO, BCT, 84, 22740000, 0, 0, 0, Newport\n\nt - For countries other than the United States and Canada, Subarea Name is the\n eleventh field in the body of the file; field 10 is an unused placeholder.\n\nNote:\n \n\nNo premium or average deductible values are included in this sample. Zeros are used\n as placeholders when this information is not available.",
+ "tables": []
+}

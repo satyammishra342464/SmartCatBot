@@ -1,0 +1,213 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_algeria-cresta_2-9.html",
+ "title": "Algeria CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Algeria \nCRESTA\n Codes (v2.9) \n\nCRESTA\n codes for Algeria supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Algeria (232).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 232-MAR | Algeria |\n| 232-MAR_01 | Adrar |\n| 232-MAR_02 | Chlef |\n| 232-MAR_03 | Laghouat |\n| 232-MAR_04 | Oum El Bouaghi |\n| 232-MAR_05 | Batna |\n| 232-MAR_06 | Bejaia |\n| 232-MAR_07 | Biskra |\n| 232-MAR_08 | Bechar |\n| 232-MAR_09 | Blida |\n| 232-MAR_10 | Bouira |\n| 232-MAR_11 | Tamanrasset |\n| 232-MAR_12 | Tebessa |\n| 232-MAR_13 | Tlemcen |\n| 232-MAR_14 | Tiaret |\n| 232-MAR_15 | Tizi Ouzou |\n| 232-MAR_16 | Alger |\n| 232-MAR_17 | Djelfa |\n| 232-MAR_18 | Jijel |\n| 232-MAR_19 | Setif |\n| 232-MAR_20 | Saida |\n| 232-MAR_21 | Skikda |\n| 232-MAR_22 | Sidi Bel Abbes |\n| 232-MAR_23 | Annaba |\n| 232-MAR_24 | Guelma |\n| 232-MAR_25 | Constantine |\n| 232-MAR_26 | Medea |\n| 232-MAR_27 | Mostaganem |\n| 232-MAR_28 | M'Sila |\n| 232-MAR_29 | Mascara |\n| 232-MAR_30 | Ouargla |\n| 232-MAR_31 | Oran |\n| 232-MAR_32 | El Bayadh |\n| 232-MAR_33 | Illizi |\n| 232-MAR_34 | Bordj Bou Arreridj |\n| 232-MAR_35 | Boumerdes |\n| 232-MAR_36 | El Tarf |\n| 232-MAR_37 | Tindouf |\n| 232-MAR_38 | Tissemsilt |\n| 232-MAR_39 | El Oued |\n| 232-MAR_40 | Khenchela |\n| 232-MAR_41 | Souk Ahras |\n| 232-MAR_42 | Tipaza |\n| 232-MAR_43 | Mila |\n| 232-MAR_44 | Ain Defla |\n| 232-MAR_45 | Naama |\n| 232-MAR_46 | Ain Temouchent |\n| 232-MAR_47 | Ghardaia |\n| 232-MAR_48 | Relizane |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "232-MAR",
+     "Algeria"
+    ],
+    [
+     "232-MAR_01",
+     "Adrar"
+    ],
+    [
+     "232-MAR_02",
+     "Chlef"
+    ],
+    [
+     "232-MAR_03",
+     "Laghouat"
+    ],
+    [
+     "232-MAR_04",
+     "Oum El Bouaghi"
+    ],
+    [
+     "232-MAR_05",
+     "Batna"
+    ],
+    [
+     "232-MAR_06",
+     "Bejaia"
+    ],
+    [
+     "232-MAR_07",
+     "Biskra"
+    ],
+    [
+     "232-MAR_08",
+     "Bechar"
+    ],
+    [
+     "232-MAR_09",
+     "Blida"
+    ],
+    [
+     "232-MAR_10",
+     "Bouira"
+    ],
+    [
+     "232-MAR_11",
+     "Tamanrasset"
+    ],
+    [
+     "232-MAR_12",
+     "Tebessa"
+    ],
+    [
+     "232-MAR_13",
+     "Tlemcen"
+    ],
+    [
+     "232-MAR_14",
+     "Tiaret"
+    ],
+    [
+     "232-MAR_15",
+     "Tizi Ouzou"
+    ],
+    [
+     "232-MAR_16",
+     "Alger"
+    ],
+    [
+     "232-MAR_17",
+     "Djelfa"
+    ],
+    [
+     "232-MAR_18",
+     "Jijel"
+    ],
+    [
+     "232-MAR_19",
+     "Setif"
+    ],
+    [
+     "232-MAR_20",
+     "Saida"
+    ],
+    [
+     "232-MAR_21",
+     "Skikda"
+    ],
+    [
+     "232-MAR_22",
+     "Sidi Bel Abbes"
+    ],
+    [
+     "232-MAR_23",
+     "Annaba"
+    ],
+    [
+     "232-MAR_24",
+     "Guelma"
+    ],
+    [
+     "232-MAR_25",
+     "Constantine"
+    ],
+    [
+     "232-MAR_26",
+     "Medea"
+    ],
+    [
+     "232-MAR_27",
+     "Mostaganem"
+    ],
+    [
+     "232-MAR_28",
+     "M'Sila"
+    ],
+    [
+     "232-MAR_29",
+     "Mascara"
+    ],
+    [
+     "232-MAR_30",
+     "Ouargla"
+    ],
+    [
+     "232-MAR_31",
+     "Oran"
+    ],
+    [
+     "232-MAR_32",
+     "El Bayadh"
+    ],
+    [
+     "232-MAR_33",
+     "Illizi"
+    ],
+    [
+     "232-MAR_34",
+     "Bordj Bou Arreridj"
+    ],
+    [
+     "232-MAR_35",
+     "Boumerdes"
+    ],
+    [
+     "232-MAR_36",
+     "El Tarf"
+    ],
+    [
+     "232-MAR_37",
+     "Tindouf"
+    ],
+    [
+     "232-MAR_38",
+     "Tissemsilt"
+    ],
+    [
+     "232-MAR_39",
+     "El Oued"
+    ],
+    [
+     "232-MAR_40",
+     "Khenchela"
+    ],
+    [
+     "232-MAR_41",
+     "Souk Ahras"
+    ],
+    [
+     "232-MAR_42",
+     "Tipaza"
+    ],
+    [
+     "232-MAR_43",
+     "Mila"
+    ],
+    [
+     "232-MAR_44",
+     "Ain Defla"
+    ],
+    [
+     "232-MAR_45",
+     "Naama"
+    ],
+    [
+     "232-MAR_46",
+     "Ain Temouchent"
+    ],
+    [
+     "232-MAR_47",
+     "Ghardaia"
+    ],
+    [
+     "232-MAR_48",
+     "Relizane"
+    ]
+   ]
+  }
+ ]
+}

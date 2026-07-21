@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_morocco-cresta_2-10.html",
+ "title": "Morocco CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Morocco \nCRESTA\n Codes (v2.10) \n\nCRESTA\n codes for Morocco supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Morocco (147).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 147-MAR | Morocco |\n| 147-MAR_01 | Tanger-Tetouan-Al Hoceima |\n| 147-MAR_02 | Oriental |\n| 147-MAR_03 | Fes-Meknes |\n| 147-MAR_04 | Rabat-Sale-Kenitra |\n| 147-MAR_05 | Beeni Mellal-Khenifra |\n| 147-MAR_06 | Grand Casablanca-Settat |\n| 147-MAR_07 | Marrakech-Safi |\n| 147-MAR_08 | Draa-Tafilalet |\n| 147-MAR_09 | Souss-Massa |\n| 147-MAR_10 | Guelmim-Oued Noun |\n| 147-MAR_11 | Laayoune-Sakia El Hamra |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "147-MAR",
+     "Morocco"
+    ],
+    [
+     "147-MAR_01",
+     "Tanger-Tetouan-Al Hoceima"
+    ],
+    [
+     "147-MAR_02",
+     "Oriental"
+    ],
+    [
+     "147-MAR_03",
+     "Fes-Meknes"
+    ],
+    [
+     "147-MAR_04",
+     "Rabat-Sale-Kenitra"
+    ],
+    [
+     "147-MAR_05",
+     "Beeni Mellal-Khenifra"
+    ],
+    [
+     "147-MAR_06",
+     "Grand Casablanca-Settat"
+    ],
+    [
+     "147-MAR_07",
+     "Marrakech-Safi"
+    ],
+    [
+     "147-MAR_08",
+     "Draa-Tafilalet"
+    ],
+    [
+     "147-MAR_09",
+     "Souss-Massa"
+    ],
+    [
+     "147-MAR_10",
+     "Guelmim-Oued Noun"
+    ],
+    [
+     "147-MAR_11",
+     "Laayoune-Sakia El Hamra"
+    ]
+   ]
+  }
+ ]
+}

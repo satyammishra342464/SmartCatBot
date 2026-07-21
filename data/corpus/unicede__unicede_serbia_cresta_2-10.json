@@ -1,0 +1,121 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_serbia_cresta_2-10.html",
+ "title": "Serbia CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Serbia \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for Serbia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Serbia (189).\n\n| Area Tag | Zone |\n| --- | --- |\n| 189-000 | Serbia |\n| 189-999 | Grad Beograd |\n| 189-001 | Severno-Backi |\n| 189-002 | Srednje-Banatski |\n| 189-003 | Severno-Banatski |\n| 189-004 | Juzno-Banatski |\n| 189-005 | Zapadno-Backi |\n| 189-006 | Juzno-Backi |\n| 189-007 | Sremski |\n| 189-008 | Macvanski |\n| 189-009 | Kolubarski |\n| 189-010 | Podunavski |\n| 189-011 | Branicevski |\n| 189-012 | Sumadijski |\n| 189-013 | Pomoravski |\n| 189-014 | Borski |\n| 189-015 | Zajecarski |\n| 189-016 | Zlatiborski |\n| 189-017 | Moravicki |\n| 189-018 | Raski |\n| 189-019 | Rasinski |\n| 189-020 | Nisavski |\n| 189-021 | Toplicki |\n| 189-022 | Pirotski |\n| 189-023 | Jablanicki |\n| 189-024 | Pcinjski |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "189-000",
+     "Serbia"
+    ],
+    [
+     "189-999",
+     "Grad Beograd"
+    ],
+    [
+     "189-001",
+     "Severno-Backi"
+    ],
+    [
+     "189-002",
+     "Srednje-Banatski"
+    ],
+    [
+     "189-003",
+     "Severno-Banatski"
+    ],
+    [
+     "189-004",
+     "Juzno-Banatski"
+    ],
+    [
+     "189-005",
+     "Zapadno-Backi"
+    ],
+    [
+     "189-006",
+     "Juzno-Backi"
+    ],
+    [
+     "189-007",
+     "Sremski"
+    ],
+    [
+     "189-008",
+     "Macvanski"
+    ],
+    [
+     "189-009",
+     "Kolubarski"
+    ],
+    [
+     "189-010",
+     "Podunavski"
+    ],
+    [
+     "189-011",
+     "Branicevski"
+    ],
+    [
+     "189-012",
+     "Sumadijski"
+    ],
+    [
+     "189-013",
+     "Pomoravski"
+    ],
+    [
+     "189-014",
+     "Borski"
+    ],
+    [
+     "189-015",
+     "Zajecarski"
+    ],
+    [
+     "189-016",
+     "Zlatiborski"
+    ],
+    [
+     "189-017",
+     "Moravicki"
+    ],
+    [
+     "189-018",
+     "Raski"
+    ],
+    [
+     "189-019",
+     "Rasinski"
+    ],
+    [
+     "189-020",
+     "Nisavski"
+    ],
+    [
+     "189-021",
+     "Toplicki"
+    ],
+    [
+     "189-022",
+     "Pirotski"
+    ],
+    [
+     "189-023",
+     "Jablanicki"
+    ],
+    [
+     "189-024",
+     "Pcinjski"
+    ]
+   ]
+  }
+ ]
+}

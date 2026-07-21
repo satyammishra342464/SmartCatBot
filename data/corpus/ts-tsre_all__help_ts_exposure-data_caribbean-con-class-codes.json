@@ -1,0 +1,259 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_caribbean-con-class-codes.html",
+ "title": "Caribbean construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Caribbean construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for the Caribbean.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction Code | Construction Class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood Frame (Modern) |\n| 102 | Light Wood Frame |\n| 103 | Masonry Veneer |\n| 104 | Heavy Timber |\n| Masonry | 111 | Masonry |\n| 112 | Adobe |\n| 113 | Rubble Stone Masonry |\n| 114 | Unreinforced Masonry - Bearing Wall |\n| 115 | Unreinforced Masonry - Bearing Frame |\n| 116 | Reinforced Masonry |\n| 117 | Reinforced Masonry Shear Wall (with MRF) |\n| 118 | Reinforced Masonry Shear Wall (without MRF) |\n| 119 | Joisted Masonry |\n| 120 | Confined Masonry |\n| Concrete | 131 | Reinforced Concrete |\n| 132 | Reinforced Concrete Shear Wall (with MRF) |\n| 133 | Reinforced Concrete Shear Wall (without MRF) |\n| 134 | Reinforced Concrete MRF - Ductile |\n| 135 | Reinforced concrete MRF - Non-Ductile |\n| 136 | Tilt-Up |\n| 137 | Pre-cast Concrete |\n| 141 | Reinforced Concrete Frame with 2nd Story Wood Frame or URM\n Addition |\n| Steel | 151 | Steel |\n| 152 | Light Metal |\n| 153 | Braced Steel Frame |\n| 154 | Steel MRF - Perimeter |\n| 155 | Steel MRF - Distributed |\n| 156 | Steel MRF |\n| 158 | Steel Frame with Concrete Shear Wall |\n| Special | 181 | Long Span |\n| 182 | Semi-Wind Resistive |\n| 183 | Wind Resistive |\n| Mobile Homes | 191 | Mobile Homes |\n| 192 | Mobile Home with No Tie-Downs |\n| 193 | Mobile Home with Partial Tie-Downs |\n| 194 | Mobile Home with Full Tie-Downs |\n| Automobiles | 261 | Automobiles |\n| Marine Cargo (added in version 9.0) | 2701 | Automobiles |\n| 2702 | Break Bulk |\n| 2703 | Dry Bulk |\n| 2704 | Liquid Bulk |\n| 2705 | Consumables |\n| 2706 | Temperature-controlled |\n| 2707 | Electronics |\n| 2708 | Chemical Products |\n| 2709 | Explosives |\n| 2710 | General Cargo |\n| 2711 | Heavy Industry |\n| 2712 | Light Industry |\n| 2713 | Petroleum Products |\n| 2714 | Pharmaceuticals |\n| 2715 | Project Cargo |\n| 2716 | Livestock |\n| 2717 | General Specie |\n| 2718 | Fine Art & Collectibles |\n| 2719 | Cash in Transit |\n| 2720 | Jewelers Blocks |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction Code",
+    "Construction Class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood Frame (Modern)"
+    ],
+    [
+     "102",
+     "Light Wood Frame"
+    ],
+    [
+     "103",
+     "Masonry Veneer"
+    ],
+    [
+     "104",
+     "Heavy Timber"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "112",
+     "Adobe"
+    ],
+    [
+     "113",
+     "Rubble Stone Masonry"
+    ],
+    [
+     "114",
+     "Unreinforced Masonry - Bearing Wall"
+    ],
+    [
+     "115",
+     "Unreinforced Masonry - Bearing Frame"
+    ],
+    [
+     "116",
+     "Reinforced Masonry"
+    ],
+    [
+     "117",
+     "Reinforced Masonry Shear Wall (with MRF)"
+    ],
+    [
+     "118",
+     "Reinforced Masonry Shear Wall (without MRF)"
+    ],
+    [
+     "119",
+     "Joisted Masonry"
+    ],
+    [
+     "120",
+     "Confined Masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced Concrete"
+    ],
+    [
+     "132",
+     "Reinforced Concrete Shear Wall (with MRF)"
+    ],
+    [
+     "133",
+     "Reinforced Concrete Shear Wall (without MRF)"
+    ],
+    [
+     "134",
+     "Reinforced Concrete MRF - Ductile"
+    ],
+    [
+     "135",
+     "Reinforced concrete MRF - Non-Ductile"
+    ],
+    [
+     "136",
+     "Tilt-Up"
+    ],
+    [
+     "137",
+     "Pre-cast Concrete"
+    ],
+    [
+     "141",
+     "Reinforced Concrete Frame with 2nd Story Wood Frame or URM\n                        Addition"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "152",
+     "Light Metal"
+    ],
+    [
+     "153",
+     "Braced Steel Frame"
+    ],
+    [
+     "154",
+     "Steel MRF - Perimeter"
+    ],
+    [
+     "155",
+     "Steel MRF - Distributed"
+    ],
+    [
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "158",
+     "Steel Frame with Concrete Shear Wall"
+    ],
+    [
+     "Special",
+     "181",
+     "Long Span"
+    ],
+    [
+     "182",
+     "Semi-Wind Resistive"
+    ],
+    [
+     "183",
+     "Wind Resistive"
+    ],
+    [
+     "Mobile Homes",
+     "191",
+     "Mobile Homes"
+    ],
+    [
+     "192",
+     "Mobile Home with No Tie-Downs"
+    ],
+    [
+     "193",
+     "Mobile Home with Partial Tie-Downs"
+    ],
+    [
+     "194",
+     "Mobile Home with Full Tie-Downs"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ],
+    [
+     "Marine Cargo (added in version 9.0)",
+     "2701",
+     "Automobiles"
+    ],
+    [
+     "2702",
+     "Break Bulk"
+    ],
+    [
+     "2703",
+     "Dry Bulk"
+    ],
+    [
+     "2704",
+     "Liquid Bulk"
+    ],
+    [
+     "2705",
+     "Consumables"
+    ],
+    [
+     "2706",
+     "Temperature-controlled"
+    ],
+    [
+     "2707",
+     "Electronics"
+    ],
+    [
+     "2708",
+     "Chemical Products"
+    ],
+    [
+     "2709",
+     "Explosives"
+    ],
+    [
+     "2710",
+     "General Cargo"
+    ],
+    [
+     "2711",
+     "Heavy Industry"
+    ],
+    [
+     "2712",
+     "Light Industry"
+    ],
+    [
+     "2713",
+     "Petroleum Products"
+    ],
+    [
+     "2714",
+     "Pharmaceuticals"
+    ],
+    [
+     "2715",
+     "Project Cargo"
+    ],
+    [
+     "2716",
+     "Livestock"
+    ],
+    [
+     "2717",
+     "General Specie"
+    ],
+    [
+     "2718",
+     "Fine Art & Collectibles"
+    ],
+    [
+     "2719",
+     "Cash in Transit"
+    ],
+    [
+     "2720",
+     "Jewelers Blocks"
+    ]
+   ]
+  }
+ ]
+}

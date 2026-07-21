@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hawaii_fips_2.html",
+ "title": "Hawaii (HI) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Hawaii (HI) Counties\n\nFIPS codes for Hawaii.\nFIPS State Code: 15\n\nEnter the U.S. country code (01) followed by the state and county code.\n\n For example, for Maui County, enter \n01-15009.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Hawaii County |\n| 003 | Honolulu |\n| 005 | Kalawao |\n| 007 | Kauai |\n| 009 | Maui |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Hawaii County"
+    ],
+    [
+     "003",
+     "Honolulu"
+    ],
+    [
+     "005",
+     "Kalawao"
+    ],
+    [
+     "007",
+     "Kauai"
+    ],
+    [
+     "009",
+     "Maui"
+    ]
+   ]
+  }
+ ]
+}

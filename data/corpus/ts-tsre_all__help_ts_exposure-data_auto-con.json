@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_auto-con.html",
+ "title": "Automobile construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Automobile construction codes\n\nThe automobile construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nNote:\n \nTouchstone\n applies\n non-engineered building damage distributions to the following construction classes: 101,\n 102, 103, 104, 111, 112, 113, 114, 115, 173, 174, 178, 179, 261. This action occurs\n regardless of occupancy class, including the industrial facility (400-series) occupancy\n classes. This note applies to the \nVerisk Earthquake Model for Japan\n and to the\n \nVerisk Earthquake Model for Canada\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 261 | Automobiles | Typically a four-wheeled automotive vehicle designed for passenger\n transportation. For all regions outside the United States, use occupancy\n class code 300 with construction class 261. To model automobile dealerships in the United\n States using the Verisk Severe Thunderstorm Model for the United States , Verisk Severe Thunderstorm Model for Canada , or the Verisk Hurricane Model for the United States , use construction class code 261 with occupancy class codes 312\n or 313 . The Verisk Severe Thunderstorm Model for the United States , Verisk Severe Thunderstorm Model for Canada , and the Verisk Hurricane Model for the United States provide separate damage functions for\n standard automobiles and for automotive dealerships. The automotive dealer\n damage function (construction class code 261 with occupancy class code 312\n or 313) assumes that the majority of the vehicles are parked outside in the\n open. Accordingly, for a dealership with the majority of the cars outside\n and few inside, we recommend coding all this exposure with construction\n class code 261 and occupancy class code 312 or 313. However, if the majority\n of the cars are inside the dealership, for example, a dealership in a city\n in which there are a few cars in a showroom, we recommend coding the\n automobile exposure as Content Coverage C , and\n supplying the appropriate construction and occupancy class codes for the\n dealership itself. If you are also modeling the physical structure of the\n dealership, include the replacement value in the Coverage A field. |\n| 262 | Automobiles | Typically a four-wheeled automotive vehicle designed for passenger\n transportation. |\n| 263 | Automobiles | Typically a two-wheeled automotive vehicle designed for passenger\n transportation; may include a side car with a third wheel. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "261",
+     "Automobiles",
+     "Typically a four-wheeled automotive vehicle designed for passenger\n                        transportation. For all regions outside the United States, use occupancy\n                        class code 300 with construction class 261. To model automobile dealerships in the United\n                        States using the Verisk Severe Thunderstorm Model for the United States , Verisk Severe Thunderstorm Model for Canada , or the Verisk Hurricane Model for the United States , use construction class code 261 with occupancy class codes 312\n                           or 313 . The Verisk Severe Thunderstorm Model for the United States , Verisk Severe Thunderstorm Model for Canada , and the Verisk Hurricane Model for the United States provide separate damage functions for\n                        standard automobiles and for automotive dealerships. The automotive dealer\n                        damage function (construction class code 261 with occupancy class code 312\n                        or 313) assumes that the majority of the vehicles are parked outside in the\n                        open. Accordingly, for a dealership with the majority of the cars outside\n                        and few inside, we recommend coding all this exposure with construction\n                        class code 261 and occupancy class code 312 or 313. However, if the majority\n                        of the cars are inside the dealership, for example, a dealership in a city\n                        in which there are a few cars in a showroom, we recommend coding the\n                        automobile exposure as Content Coverage C , and\n                        supplying the appropriate construction and occupancy class codes for the\n                        dealership itself. If you are also modeling the physical structure of the\n                        dealership, include the replacement value in the Coverage A field."
+    ],
+    [
+     "262",
+     "Automobiles",
+     "Typically a four-wheeled automotive vehicle designed for passenger\n                        transportation."
+    ],
+    [
+     "263",
+     "Automobiles",
+     "Typically a two-wheeled automotive vehicle designed for passenger\n                        transportation; may include a side car with a third wheel."
+    ]
+   ]
+  }
+ ]
+}

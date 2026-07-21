@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_s-africa-cresta-codes.html",
+ "title": "South Africa CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "South Africa \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for South Africa.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Z01: Transvaal |\n| 2 | Z02: Cape Province |\n| 3 | Z03: Natal |\n| 4 | Oranje Free State |\n| 5 | Z05: Transvaal |\n| 6 | Johannesburg |\n| 7 | Rand East |\n| 8 | Z08: Cape Province |\n| 9 | Z09: Natal |\n| 10 | Z10: Cape Province |\n| 11 | Karoo 1 |\n| 12 | Langkloof |\n| 13 | Port Elizabeth |\n| 14 | Ciskei |\n| 15 | East London |\n| 16 | Tembu 2 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Z01: Transvaal"
+    ],
+    [
+     "2",
+     "Z02: Cape Province"
+    ],
+    [
+     "3",
+     "Z03: Natal"
+    ],
+    [
+     "4",
+     "Oranje Free State"
+    ],
+    [
+     "5",
+     "Z05: Transvaal"
+    ],
+    [
+     "6",
+     "Johannesburg"
+    ],
+    [
+     "7",
+     "Rand East"
+    ],
+    [
+     "8",
+     "Z08: Cape Province"
+    ],
+    [
+     "9",
+     "Z09: Natal"
+    ],
+    [
+     "10",
+     "Z10: Cape Province"
+    ],
+    [
+     "11",
+     "Karoo 1"
+    ],
+    [
+     "12",
+     "Langkloof"
+    ],
+    [
+     "13",
+     "Port Elizabeth"
+    ],
+    [
+     "14",
+     "Ciskei"
+    ],
+    [
+     "15",
+     "East London"
+    ],
+    [
+     "16",
+     "Tembu 2"
+    ]
+   ]
+  }
+ ]
+}

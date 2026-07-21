@@ -1,0 +1,377 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mexico-cresta-codes.html",
+ "title": "Mexico CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mexico \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Mexico.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| E1 | Z01:Aguascalientes-A |\n| E10 | Z10:Colima-D |\n| E11 | Z11:Distrito Federal-E |\n| E12 | Z12:Distrito Federal-F |\n| E13 | Z13:Distrito Federal-G |\n| E14 | Z14:Distrito Federal-H |\n| E15 | Z15:Durango-A |\n| E16 | Z16:Guanajuato-B |\n| E17 | Z17:Guerrero Norte Oriental-C |\n| E18 | Z18:Guerrero Sur Occidental-D |\n| E19 | Z19:Acapulco Resto-I |\n| E2 | Z02:Baja California Norte-B |\n| E20 | Z20:Acapulco Relleno-J |\n| E21 | Z21:Hidalgo-B |\n| E22 | Z22:Jalisco Norte Oriental-B |\n| E23 | Z23:Jalisco Central-C |\n| E24 | Z24:Jalisco Sur Occidental-D |\n| E25 | Z25:Mexico-B |\n| E26 | Z26:Mexico-B1 |\n| E27 | Z27:Michoacan Norte Oriental-B |\n| E28 | Z28:Michoacan Central-C |\n| E29 | Z29:Michoacan Sur Occidental-D |\n| E3 | Z03:Baja California Norte-C |\n| E30 | Z30:Morelos-B |\n| E31 | Z31:Nayarit-B |\n| E32 | Z32:Nuevo Leon-A |\n| E33 | Z33:Oaxaca Norte Oriental-C |\n| E34 | Z34:Oaxaca Sur Occidental-D |\n| E35 | Z35:Puebla-B |\n| E36 | Z36:Queretaro de Arteaga-B |\n| E37 | Z37:Quintana Roo-A |\n| E38 | Z38:San Luis Potosi-A |\n| E39 | Z39:Sinaloa-B |\n| E4 | Z04:Baja California Sur-B |\n| E40 | Z40:Sonora-B/C |\n| E41 | Z41:Tabasco-B |\n| E42 | Z42:Tamaulipas-A |\n| E43 | Z43:Tlaxcala-B |\n| E44 | Z44:Veracruz Norte-A |\n| E45 | Z45:Veracruz Central-B |\n| E46 | Z46:Veracruz Sur-C |\n| E47 | Z47:Yucatan-A |\n| E48 | Z48:Zacatecas-A |\n| E5 | Z05:Campeche Norte Oriental-A |\n| E6 | Z06:Campeche Sur Occidental-B |\n| E7 | Z07:Chiapas-D |\n| E8 | Z08:Chihuahua-A |\n| E9 | Z09:Coahuila De Zaragoza-A |\n| H1 | Z01:Aguascalientes (B) |\n| H10 | Z10:Distrito Federal (B) |\n| H11 | Z11:Durango (B) |\n| H12 | Z12:Guanajuato (B) |\n| H13 | Z13:Guerrero costera (A) |\n| H14 | Z14:Guerrero interior (B) |\n| H15 | Z15:Hidalgo (B) |\n| H16 | Z16:Jalisco costera (A) |\n| H17 | Z17:Jalisco interior (B) |\n| H18 | Z18:MÃ©xico (B) |\n| H19 | Z19:MichoacÃ¡n costera (A) |\n| H2 | Z02:Baja California Norte (A) |\n| H20 | Z20:MichoacÃ¡n interior (B) |\n| H21 | Z21:Morelos (B) |\n| H22 | Z22:Nayarit costera (A) |\n| H23 | Z23:Nayarit interior (B) |\n| H24 | Z24:Nuevo LeÃ³n (B) |\n| H25 | Z25:Oaxaca costera (A) |\n| H26 | Z26:Oaxaca interior (B) |\n| H27 | Z27:Puebla (B) |\n| H28 | Z28:QuerÃ©taro (B) |\n| H29 | Z29:Quintana Roo (A) |\n| H3 | Z03:Baja California Sur (A) |\n| H30 | Z30:San Luis PotosÃ­ (B) |\n| H31 | Z31:SinalÃ³a costera (A) |\n| H32 | Z32:SinalÃ³a interior (B) |\n| H33 | Z33:Sonora costera (A) |\n| H34 | Z34:Sonora interior (B) |\n| H35 | Z35:Tabasco (A) |\n| H36 | Z36:Tamaulipas costera (A) |\n| H37 | Z37:Tamaulipas interior (B) |\n| H38 | Z38:Tlaxcala (B) |\n| H39 | Z39:Veracruz costera (A) |\n| H4 | Z04:Campeche (A) |\n| H40 | Z40:Veracruz interior (B) |\n| H41 | Z41:YucatÃ¡n (A) |\n| H42 | Z42:Zacatecas (B) |\n| H5 | Z05:Chiapas costera (A) |\n| H6 | Z06:Chiapas interior (B) |\n| H7 | Z07:Chihuahua (B) |\n| H8 | Z08:Coahuila (B) |\n| H9 | Z09:Colima (A) |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "E1",
+     "Z01:Aguascalientes-A"
+    ],
+    [
+     "E10",
+     "Z10:Colima-D"
+    ],
+    [
+     "E11",
+     "Z11:Distrito Federal-E"
+    ],
+    [
+     "E12",
+     "Z12:Distrito Federal-F"
+    ],
+    [
+     "E13",
+     "Z13:Distrito Federal-G"
+    ],
+    [
+     "E14",
+     "Z14:Distrito Federal-H"
+    ],
+    [
+     "E15",
+     "Z15:Durango-A"
+    ],
+    [
+     "E16",
+     "Z16:Guanajuato-B"
+    ],
+    [
+     "E17",
+     "Z17:Guerrero Norte Oriental-C"
+    ],
+    [
+     "E18",
+     "Z18:Guerrero Sur Occidental-D"
+    ],
+    [
+     "E19",
+     "Z19:Acapulco Resto-I"
+    ],
+    [
+     "E2",
+     "Z02:Baja California Norte-B"
+    ],
+    [
+     "E20",
+     "Z20:Acapulco Relleno-J"
+    ],
+    [
+     "E21",
+     "Z21:Hidalgo-B"
+    ],
+    [
+     "E22",
+     "Z22:Jalisco Norte Oriental-B"
+    ],
+    [
+     "E23",
+     "Z23:Jalisco Central-C"
+    ],
+    [
+     "E24",
+     "Z24:Jalisco Sur Occidental-D"
+    ],
+    [
+     "E25",
+     "Z25:Mexico-B"
+    ],
+    [
+     "E26",
+     "Z26:Mexico-B1"
+    ],
+    [
+     "E27",
+     "Z27:Michoacan Norte Oriental-B"
+    ],
+    [
+     "E28",
+     "Z28:Michoacan Central-C"
+    ],
+    [
+     "E29",
+     "Z29:Michoacan Sur Occidental-D"
+    ],
+    [
+     "E3",
+     "Z03:Baja California Norte-C"
+    ],
+    [
+     "E30",
+     "Z30:Morelos-B"
+    ],
+    [
+     "E31",
+     "Z31:Nayarit-B"
+    ],
+    [
+     "E32",
+     "Z32:Nuevo Leon-A"
+    ],
+    [
+     "E33",
+     "Z33:Oaxaca Norte Oriental-C"
+    ],
+    [
+     "E34",
+     "Z34:Oaxaca Sur Occidental-D"
+    ],
+    [
+     "E35",
+     "Z35:Puebla-B"
+    ],
+    [
+     "E36",
+     "Z36:Queretaro de Arteaga-B"
+    ],
+    [
+     "E37",
+     "Z37:Quintana Roo-A"
+    ],
+    [
+     "E38",
+     "Z38:San Luis Potosi-A"
+    ],
+    [
+     "E39",
+     "Z39:Sinaloa-B"
+    ],
+    [
+     "E4",
+     "Z04:Baja California Sur-B"
+    ],
+    [
+     "E40",
+     "Z40:Sonora-B/C"
+    ],
+    [
+     "E41",
+     "Z41:Tabasco-B"
+    ],
+    [
+     "E42",
+     "Z42:Tamaulipas-A"
+    ],
+    [
+     "E43",
+     "Z43:Tlaxcala-B"
+    ],
+    [
+     "E44",
+     "Z44:Veracruz Norte-A"
+    ],
+    [
+     "E45",
+     "Z45:Veracruz Central-B"
+    ],
+    [
+     "E46",
+     "Z46:Veracruz Sur-C"
+    ],
+    [
+     "E47",
+     "Z47:Yucatan-A"
+    ],
+    [
+     "E48",
+     "Z48:Zacatecas-A"
+    ],
+    [
+     "E5",
+     "Z05:Campeche Norte Oriental-A"
+    ],
+    [
+     "E6",
+     "Z06:Campeche Sur Occidental-B"
+    ],
+    [
+     "E7",
+     "Z07:Chiapas-D"
+    ],
+    [
+     "E8",
+     "Z08:Chihuahua-A"
+    ],
+    [
+     "E9",
+     "Z09:Coahuila De Zaragoza-A"
+    ],
+    [
+     "H1",
+     "Z01:Aguascalientes (B)"
+    ],
+    [
+     "H10",
+     "Z10:Distrito Federal (B)"
+    ],
+    [
+     "H11",
+     "Z11:Durango (B)"
+    ],
+    [
+     "H12",
+     "Z12:Guanajuato (B)"
+    ],
+    [
+     "H13",
+     "Z13:Guerrero costera (A)"
+    ],
+    [
+     "H14",
+     "Z14:Guerrero interior (B)"
+    ],
+    [
+     "H15",
+     "Z15:Hidalgo (B)"
+    ],
+    [
+     "H16",
+     "Z16:Jalisco costera (A)"
+    ],
+    [
+     "H17",
+     "Z17:Jalisco interior (B)"
+    ],
+    [
+     "H18",
+     "Z18:MÃ©xico (B)"
+    ],
+    [
+     "H19",
+     "Z19:MichoacÃ¡n costera (A)"
+    ],
+    [
+     "H2",
+     "Z02:Baja California Norte (A)"
+    ],
+    [
+     "H20",
+     "Z20:MichoacÃ¡n interior (B)"
+    ],
+    [
+     "H21",
+     "Z21:Morelos (B)"
+    ],
+    [
+     "H22",
+     "Z22:Nayarit costera (A)"
+    ],
+    [
+     "H23",
+     "Z23:Nayarit interior (B)"
+    ],
+    [
+     "H24",
+     "Z24:Nuevo LeÃ³n (B)"
+    ],
+    [
+     "H25",
+     "Z25:Oaxaca costera (A)"
+    ],
+    [
+     "H26",
+     "Z26:Oaxaca interior (B)"
+    ],
+    [
+     "H27",
+     "Z27:Puebla (B)"
+    ],
+    [
+     "H28",
+     "Z28:QuerÃ©taro (B)"
+    ],
+    [
+     "H29",
+     "Z29:Quintana Roo (A)"
+    ],
+    [
+     "H3",
+     "Z03:Baja California Sur (A)"
+    ],
+    [
+     "H30",
+     "Z30:San Luis PotosÃ­ (B)"
+    ],
+    [
+     "H31",
+     "Z31:SinalÃ³a costera (A)"
+    ],
+    [
+     "H32",
+     "Z32:SinalÃ³a interior (B)"
+    ],
+    [
+     "H33",
+     "Z33:Sonora costera (A)"
+    ],
+    [
+     "H34",
+     "Z34:Sonora interior (B)"
+    ],
+    [
+     "H35",
+     "Z35:Tabasco (A)"
+    ],
+    [
+     "H36",
+     "Z36:Tamaulipas costera (A)"
+    ],
+    [
+     "H37",
+     "Z37:Tamaulipas interior (B)"
+    ],
+    [
+     "H38",
+     "Z38:Tlaxcala (B)"
+    ],
+    [
+     "H39",
+     "Z39:Veracruz costera (A)"
+    ],
+    [
+     "H4",
+     "Z04:Campeche (A)"
+    ],
+    [
+     "H40",
+     "Z40:Veracruz interior (B)"
+    ],
+    [
+     "H41",
+     "Z41:YucatÃ¡n (A)"
+    ],
+    [
+     "H42",
+     "Z42:Zacatecas (B)"
+    ],
+    [
+     "H5",
+     "Z05:Chiapas costera (A)"
+    ],
+    [
+     "H6",
+     "Z06:Chiapas interior (B)"
+    ],
+    [
+     "H7",
+     "Z07:Chihuahua (B)"
+    ],
+    [
+     "H8",
+     "Z08:Coahuila (B)"
+    ],
+    [
+     "H9",
+     "Z09:Colima (A)"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_iran_cresta_2-9.html",
+ "title": "Iran CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Iran \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Iran supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Iran (114).\n\n| Area Tag | Zone |\n| --- | --- |\n| 114-IRN_000 | Iran |\n| 114-IRN_001 | East Azabayejan |\n| 114-IRN_002 | West Azarbayejan |\n| 114-IRN_003 | Ardebil |\n| 114-IRN_004 | Esfahan |\n| 114-IRN_005 | Ilam |\n| 114-IRN_006 | Bushehr |\n| 114-IRN_007 | Tehran |\n| 114-IRN_008 | Chaharmahal & Bakhtiyari |\n| 114-IRN_010 | Khuzestan |\n| 114-IRN_011 | Zanjan |\n| 114-IRN_012 | Semnan |\n| 114-IRN_013 | Sistan & Baluchestan |\n| 114-IRN_014 | Fars |\n| 114-IRN_015 | Kerman |\n| 114-IRN_016 | Kordestan |\n| 114-IRN_017 | Kermanshah |\n| 114-IRN_018 | Kohgiluyeh & Boyerahmad |\n| 114-IRN_019 | Gilan |\n| 114-IRN_020 | Lorestan |\n| 114-IRN_021 | Mazandaran |\n| 114-IRN_022 | Central |\n| 114-IRN_023 | Hormozgan |\n| 114-IRN_024 | Hamedan |\n| 114-IRN_025 | Yazd |\n| 114-IRN_026 | Qom |\n| 114-IRN_027 | Golestan |\n| 114-IRN_028 | Qazvin |\n| 114-IRN_029 | South Khorasan |\n| 114-IRN_030 | Khorasan-e-Razavi |\n| 114-IRN_031 | North Khorasan |\n| 114-IRN_032 | Alborz |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "114-IRN_000",
+     "Iran"
+    ],
+    [
+     "114-IRN_001",
+     "East Azabayejan"
+    ],
+    [
+     "114-IRN_002",
+     "West Azarbayejan"
+    ],
+    [
+     "114-IRN_003",
+     "Ardebil"
+    ],
+    [
+     "114-IRN_004",
+     "Esfahan"
+    ],
+    [
+     "114-IRN_005",
+     "Ilam"
+    ],
+    [
+     "114-IRN_006",
+     "Bushehr"
+    ],
+    [
+     "114-IRN_007",
+     "Tehran"
+    ],
+    [
+     "114-IRN_008",
+     "Chaharmahal & Bakhtiyari"
+    ],
+    [
+     "114-IRN_010",
+     "Khuzestan"
+    ],
+    [
+     "114-IRN_011",
+     "Zanjan"
+    ],
+    [
+     "114-IRN_012",
+     "Semnan"
+    ],
+    [
+     "114-IRN_013",
+     "Sistan & Baluchestan"
+    ],
+    [
+     "114-IRN_014",
+     "Fars"
+    ],
+    [
+     "114-IRN_015",
+     "Kerman"
+    ],
+    [
+     "114-IRN_016",
+     "Kordestan"
+    ],
+    [
+     "114-IRN_017",
+     "Kermanshah"
+    ],
+    [
+     "114-IRN_018",
+     "Kohgiluyeh & Boyerahmad"
+    ],
+    [
+     "114-IRN_019",
+     "Gilan"
+    ],
+    [
+     "114-IRN_020",
+     "Lorestan"
+    ],
+    [
+     "114-IRN_021",
+     "Mazandaran"
+    ],
+    [
+     "114-IRN_022",
+     "Central"
+    ],
+    [
+     "114-IRN_023",
+     "Hormozgan"
+    ],
+    [
+     "114-IRN_024",
+     "Hamedan"
+    ],
+    [
+     "114-IRN_025",
+     "Yazd"
+    ],
+    [
+     "114-IRN_026",
+     "Qom"
+    ],
+    [
+     "114-IRN_027",
+     "Golestan"
+    ],
+    [
+     "114-IRN_028",
+     "Qazvin"
+    ],
+    [
+     "114-IRN_029",
+     "South Khorasan"
+    ],
+    [
+     "114-IRN_030",
+     "Khorasan-e-Razavi"
+    ],
+    [
+     "114-IRN_031",
+     "North Khorasan"
+    ],
+    [
+     "114-IRN_032",
+     "Alborz"
+    ]
+   ]
+  }
+ ]
+}

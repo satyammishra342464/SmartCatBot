@@ -1,0 +1,123 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_storage-tank-con.html",
+ "title": "Storage tank construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Storage tank construction codes\n\nThe storage tank construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for 2000-series codes\n to the \nVerisk Bushfire Model for Australia\n and the \nVerisk Typhoon Model for South Korea\n. For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 221 | Underground Liquid Tanks | Underground tanks that are designed to hold liquids. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n construction storage tank construction code 2211. |\n| 222 | Underground Solid Tanks | Underground storage tanks that are designed to hold solid material. For\n the Verisk Earthquake Model for the United States , we recommend using the new\n 4-digit storage tank construction code 2221. |\n| 223 | On Ground Liquid Tanks | Above ground storage tanks located on the ground surface that are\n designed to hold liquids. For the Verisk Earthquake Model for the United States ,\n we recommend using the new 4-digit storage tank construction code\n 2231. |\n| 224 | On Ground Solid Tanks | Above ground storage tanks located on the ground surface that are\n designed to hold solid material. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n storage tank construction code 2241. |\n| 225 | Elevated Liquid Tanks | Above ground storage tanks located above the ground surface that are\n designed to hold liquids. For the Verisk Earthquake Model for the United States ,\n we recommend using the new 4-digit storage tank construction code 2251. |\n| 226 | Elevated Solid Tanks | Above ground storage tanks located above the ground surface that are\n designed to hold solid material. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n storage tank construction code 2261. |\n| 2210 | Unknown Tanks | Storage tanks with an unknown material, unknown location, and unknown\n contents, or other unknowns that cannot be mapped to any of the other\n storage tank construction class codes. |\n| 2211 | Underground Liquid Tanks | Storage tanks made of steel or concrete for holding liquids. Located\n under the ground. |\n| 2221 | Underground Solid Tanks | Storage tanks made of steel or concrete for holding solid material.\n Located under the ground. |\n| 2231 | On Ground Liquid Tanks | Storage tanks for holding liquids with an unknown material of\n construction. Located on the ground surface. |\n| 2232 | On Ground Steel Liquid Tanks | Storage tanks made of steel for holding liquids. Located on the ground\n surface. |\n| 2233 | On Ground Concrete Liquid Tanks | Storage tanks made of concrete for holding liquids. Located on the\n ground surface. |\n| 2241 | On Ground Solid Tanks | Storage tanks for holding solid material with an unknown material of\n construction. Located on the ground surface. |\n| 2242 | On Ground Steel Solid Tanks | Storage tanks made of steel for holding solid material. Located on the\n ground surface. |\n| 2243 | On Ground Concrete Solid Tanks | Storage tanks made of concrete for holding solid material. Located on\n the ground surface. |\n| 2251 | Elevated Liquid Tanks | Storage tanks located above the ground surface for holding liquids with\n an unknown material of construction |\n| 2252 | Elevated Steel Liquid Tanks | Storage tanks made of steel for holding liquids. Located above the\n ground surface. |\n| 2253 | Elevated Concrete Liquid Tanks | Storage tanks made of concrete for holding liquids. Located above the\n ground surface. |\n| 2261 | Elevated Solid Tanks | Storage tanks for holding solid material with an unknown material of\n construction. Located above the ground surface. |\n| 2262 | Elevated Steel Solid Tanks | Storage tanks made of steel for holding solid material. Located above\n the ground surface. |\n| 2263 | Elevated Concrete Solid Tanks | Storage tanks made of concrete for holding solid material. Located above\n the ground surface. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "221",
+     "Underground Liquid Tanks",
+     "Underground tanks that are designed to hold liquids. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n                        construction storage tank construction code 2211."
+    ],
+    [
+     "222",
+     "Underground Solid Tanks",
+     "Underground storage tanks that are designed to hold solid material. For\n                        the Verisk Earthquake Model for the United States , we recommend using the new\n                        4-digit storage tank construction code 2221."
+    ],
+    [
+     "223",
+     "On Ground Liquid Tanks",
+     "Above ground storage tanks located on the ground surface that are\n                        designed to hold liquids. For the Verisk Earthquake Model for the United States ,\n                        we recommend using the new 4-digit storage tank construction code\n                        2231."
+    ],
+    [
+     "224",
+     "On Ground Solid Tanks",
+     "Above ground storage tanks located on the ground surface that are\n                        designed to hold solid material. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n                        storage tank construction code 2241."
+    ],
+    [
+     "225",
+     "Elevated Liquid Tanks",
+     "Above ground storage tanks located above the ground surface that are\n                        designed to hold liquids. For the Verisk Earthquake Model for the United States ,\n                        we recommend using the new 4-digit storage tank construction code 2251."
+    ],
+    [
+     "226",
+     "Elevated Solid Tanks",
+     "Above ground storage tanks located above the ground surface that are\n                        designed to hold solid material. For the Verisk Earthquake Model for the United States , we recommend using the new 4-digit\n                        storage tank construction code 2261."
+    ],
+    [
+     "2210",
+     "Unknown Tanks",
+     "Storage tanks with an unknown material, unknown location, and unknown\n                        contents, or other unknowns that cannot be mapped to any of the other\n                        storage tank construction class codes."
+    ],
+    [
+     "2211",
+     "Underground Liquid Tanks",
+     "Storage tanks made of steel or concrete for holding liquids. Located\n                        under the ground."
+    ],
+    [
+     "2221",
+     "Underground Solid Tanks",
+     "Storage tanks made of steel or concrete for holding solid material.\n                        Located under the ground."
+    ],
+    [
+     "2231",
+     "On Ground Liquid Tanks",
+     "Storage tanks for holding liquids with an unknown material of\n                        construction. Located on the ground surface."
+    ],
+    [
+     "2232",
+     "On Ground Steel Liquid Tanks",
+     "Storage tanks made of steel for holding liquids. Located on the ground\n                        surface."
+    ],
+    [
+     "2233",
+     "On Ground Concrete Liquid Tanks",
+     "Storage tanks made of concrete for holding liquids. Located on the\n                        ground surface."
+    ],
+    [
+     "2241",
+     "On Ground Solid Tanks",
+     "Storage tanks for holding solid material with an unknown material of\n                        construction. Located on the ground surface."
+    ],
+    [
+     "2242",
+     "On Ground Steel Solid Tanks",
+     "Storage tanks made of steel for holding solid material. Located on the\n                        ground surface."
+    ],
+    [
+     "2243",
+     "On Ground Concrete Solid Tanks",
+     "Storage tanks made of concrete for holding solid material. Located on\n                        the ground surface."
+    ],
+    [
+     "2251",
+     "Elevated Liquid Tanks",
+     "Storage tanks located above the ground surface for holding liquids with\n                        an unknown material of construction"
+    ],
+    [
+     "2252",
+     "Elevated Steel Liquid Tanks",
+     "Storage tanks made of steel for holding liquids. Located above the\n                        ground surface."
+    ],
+    [
+     "2253",
+     "Elevated Concrete Liquid Tanks",
+     "Storage tanks made of concrete for holding liquids. Located above the\n                        ground surface."
+    ],
+    [
+     "2261",
+     "Elevated Solid Tanks",
+     "Storage tanks for holding solid material with an unknown material of\n                        construction. Located above the ground surface."
+    ],
+    [
+     "2262",
+     "Elevated Steel Solid Tanks",
+     "Storage tanks made of steel for holding solid material. Located above\n                        the ground surface."
+    ],
+    [
+     "2263",
+     "Elevated Concrete Solid Tanks",
+     "Storage tanks made of concrete for holding solid material. Located above\n                        the ground surface."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_egypt-cresta_2-10.html",
+ "title": "Egypt CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Egypt \nCRESTA\n Codes (v2.10) \n\nCRESTA\n codes for Egypt supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Egypt (2.10).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 2.10-EGY | Egypt |\n| 2.10-EGY_ALX | Alexandria |\n| 2.10-EGY_ASN | Asswan |\n| 2.10-EGY_ASN | Assiout |\n| 2.10-EGY_BA | Red Sea |\n| 2.10-EGY_BH | Albeherah |\n| 2.10-EGY_BNS | Beni Souif |\n| 2.10-EGY_C | Cairo |\n| 2.10-EGY_DK | Aldaqhliah |\n| 2.10-EGY_DT | Damietta |\n| 2.10-EGY_FYM | Alfayoum |\n| 2.10-EGY_DK | Algarbiah |\n| 2.10-EGY_GZ | Giza |\n| 2.10-EGY_IS | Ismalia |\n| 2.10-EGY_JS | South Sinaii |\n| 2.10-EGY_KB | Alqaliobiah |\n| 2.10-EGY_KFS | Kafr Alshikh |\n| 2.10-EGY_KN | Qena |\n| 2.10-EGY_LX | Luxor |\n| 2.10-EGY_MN | Almenia |\n| 2.10-EGY_MNF | Almonofiah |\n| 2.10-EGY_MT | Matrouh |\n| 2.10-EGY_PTS | Port Said |\n| 2.10-EGY_SHG | Sohag |\n| 2.10-EGY_SHR | Alsharqiah |\n| 2.10-EGY_SIN | North Sinai |\n| 2.10-EGY_SUZ | Suez |\n| 2.10-EGY_WAD | New Valey |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "2.10-EGY",
+     "Egypt"
+    ],
+    [
+     "2.10-EGY_ALX",
+     "Alexandria"
+    ],
+    [
+     "2.10-EGY_ASN",
+     "Asswan"
+    ],
+    [
+     "2.10-EGY_ASN",
+     "Assiout"
+    ],
+    [
+     "2.10-EGY_BA",
+     "Red Sea"
+    ],
+    [
+     "2.10-EGY_BH",
+     "Albeherah"
+    ],
+    [
+     "2.10-EGY_BNS",
+     "Beni Souif"
+    ],
+    [
+     "2.10-EGY_C",
+     "Cairo"
+    ],
+    [
+     "2.10-EGY_DK",
+     "Aldaqhliah"
+    ],
+    [
+     "2.10-EGY_DT",
+     "Damietta"
+    ],
+    [
+     "2.10-EGY_FYM",
+     "Alfayoum"
+    ],
+    [
+     "2.10-EGY_DK",
+     "Algarbiah"
+    ],
+    [
+     "2.10-EGY_GZ",
+     "Giza"
+    ],
+    [
+     "2.10-EGY_IS",
+     "Ismalia"
+    ],
+    [
+     "2.10-EGY_JS",
+     "South Sinaii"
+    ],
+    [
+     "2.10-EGY_KB",
+     "Alqaliobiah"
+    ],
+    [
+     "2.10-EGY_KFS",
+     "Kafr Alshikh"
+    ],
+    [
+     "2.10-EGY_KN",
+     "Qena"
+    ],
+    [
+     "2.10-EGY_LX",
+     "Luxor"
+    ],
+    [
+     "2.10-EGY_MN",
+     "Almenia"
+    ],
+    [
+     "2.10-EGY_MNF",
+     "Almonofiah"
+    ],
+    [
+     "2.10-EGY_MT",
+     "Matrouh"
+    ],
+    [
+     "2.10-EGY_PTS",
+     "Port Said"
+    ],
+    [
+     "2.10-EGY_SHG",
+     "Sohag"
+    ],
+    [
+     "2.10-EGY_SHR",
+     "Alsharqiah"
+    ],
+    [
+     "2.10-EGY_SIN",
+     "North Sinai"
+    ],
+    [
+     "2.10-EGY_SUZ",
+     "Suez"
+    ],
+    [
+     "2.10-EGY_WAD",
+     "New Valey"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_unicede1_vs_unicede2.html",
+ "title": "UNICEDE/1 vs UNICEDE/2",
+ "section": "unicede",
+ "version": null,
+ "text": "UNICEDE\n/1 vs \nUNICEDE\n/2\n\nLegacy information associated with \nUNICEDE\n/2.\n\nA summary of the differences between the two \nUNICEDE\n data formats is presented below.\n\nNote:\n \nUNICEDE\n/1 files are not supported in \nTouchstone Re\n.\n\n| Category | UNICEDE /1 | UNICEDE /2 |\n| --- | --- | --- |\n| Countries | U.S. only | All countries currently modeled by Verisk . |\n| Perils | Single peril - not specified in file | Multiple perils can be specified in file. |\n| Data Types | Sums-Insured only | Sums insured, premiums, number of risks, payroll (Workers'\n Compensation). |\n| Lines of Business | Supports four aggregated CATRADER lines of business:\n Homeowner, Mobile Home, Commercial, Auto | Supports country-specific lines of business. |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "UNICEDE /1",
+    "UNICEDE /2"
+   ],
+   "rows": [
+    [
+     "Countries",
+     "U.S. only",
+     "All countries currently modeled by Verisk ."
+    ],
+    [
+     "Perils",
+     "Single peril - not specified in file",
+     "Multiple perils can be specified in file."
+    ],
+    [
+     "Data Types",
+     "Sums-Insured only",
+     "Sums insured, premiums, number of risks, payroll (Workers'\n                                Compensation)."
+    ],
+    [
+     "Lines of Business",
+     "Supports four aggregated CATRADER lines of business:\n                                Homeowner, Mobile Home, Commercial, Auto",
+     "Supports country-specific lines of business."
+    ]
+   ]
+  }
+ ]
+}

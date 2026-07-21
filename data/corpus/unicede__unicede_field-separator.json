@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_field-separator.html",
+ "title": "Field separator",
+ "section": "unicede",
+ "version": null,
+ "text": "Field separator\n\nField details supported by \nUNICEDE\n/2.\nA Field Separator identifies the character that separates two adjacent fields (or values) in a\n record (or a line) in the file body. Currently the comma is supported as a field\n separator.",
+ "tables": []
+}

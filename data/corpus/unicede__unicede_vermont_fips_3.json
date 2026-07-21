@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_vermont_fips_3.html",
+ "title": "Vermont (VT) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Vermont (VT) Counties\n\nFIPS codes for Vermont.\n\nFIPS State Code: 50\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Addison County, enter \n01-50001.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Addison |\n| 003 | Bennington |\n| 005 | Caledonia |\n| 007 | Chittenden |\n| 009 | Essex |\n| 011 | Franklin |\n| 013 | Grand Isle |\n| 015 | Lamoille |\n| 017 | Orange |\n| 019 | Orleans |\n| 021 | Rutland |\n| 023 | Washington |\n| 025 | Windham |\n| 027 | Windsor |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Addison"
+    ],
+    [
+     "003",
+     "Bennington"
+    ],
+    [
+     "005",
+     "Caledonia"
+    ],
+    [
+     "007",
+     "Chittenden"
+    ],
+    [
+     "009",
+     "Essex"
+    ],
+    [
+     "011",
+     "Franklin"
+    ],
+    [
+     "013",
+     "Grand Isle"
+    ],
+    [
+     "015",
+     "Lamoille"
+    ],
+    [
+     "017",
+     "Orange"
+    ],
+    [
+     "019",
+     "Orleans"
+    ],
+    [
+     "021",
+     "Rutland"
+    ],
+    [
+     "023",
+     "Washington"
+    ],
+    [
+     "025",
+     "Windham"
+    ],
+    [
+     "027",
+     "Windsor"
+    ]
+   ]
+  }
+ ]
+}

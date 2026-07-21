@@ -1,0 +1,89 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_tanzania-cresta-codes.html",
+ "title": "Tanzania CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Tanzania \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Tanzania.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Dar es Salaam |\n| 2 | Zanzibar |\n| 3 | Tanga |\n| 4 | Pwani |\n| 5 | Lindi |\n| 6 | Ruvuma |\n| 7 | Morogoro |\n| 8 | Kilimanjaro |\n| 9 | Arusha |\n| 10 | Dodoma |\n| 11 | Singida |\n| 12 | Iringa |\n| 13 | Mbeya |\n| 14 | Rukwa |\n| 15 | Tabora |\n| 16 | Shinyanga |\n| 17 | Kigoma |\n| 18 | Kagera/Mwanza/Mana |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Dar es Salaam"
+    ],
+    [
+     "2",
+     "Zanzibar"
+    ],
+    [
+     "3",
+     "Tanga"
+    ],
+    [
+     "4",
+     "Pwani"
+    ],
+    [
+     "5",
+     "Lindi"
+    ],
+    [
+     "6",
+     "Ruvuma"
+    ],
+    [
+     "7",
+     "Morogoro"
+    ],
+    [
+     "8",
+     "Kilimanjaro"
+    ],
+    [
+     "9",
+     "Arusha"
+    ],
+    [
+     "10",
+     "Dodoma"
+    ],
+    [
+     "11",
+     "Singida"
+    ],
+    [
+     "12",
+     "Iringa"
+    ],
+    [
+     "13",
+     "Mbeya"
+    ],
+    [
+     "14",
+     "Rukwa"
+    ],
+    [
+     "15",
+     "Tabora"
+    ],
+    [
+     "16",
+     "Shinyanga"
+    ],
+    [
+     "17",
+     "Kigoma"
+    ],
+    [
+     "18",
+     "Kagera/Mwanza/Mana"
+    ]
+   ]
+  }
+ ]
+}

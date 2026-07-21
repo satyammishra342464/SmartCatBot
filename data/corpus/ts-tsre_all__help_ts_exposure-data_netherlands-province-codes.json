@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_netherlands-province-codes.html",
+ "title": "Netherlands province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Netherlands province codes\n\nTouchstone\n supports the following province\n codes for the Netherlands.\n\n| Province Code | Province Name |\n| --- | --- |\n| 20 | Groningen |\n| 21 | Friesland |\n| 22 | Drenthe |\n| 23 | Overijssel |\n| 24 | Flevoland |\n| 25 | Gelderland |\n| 26 | Utrecht |\n| 27 | Noord-Holland |\n| 28 | Zuid-Holland |\n| 29 | Zeeland |\n| 30 | Noord-Brabant |\n| 31 | Limburg |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "20",
+     "Groningen"
+    ],
+    [
+     "21",
+     "Friesland"
+    ],
+    [
+     "22",
+     "Drenthe"
+    ],
+    [
+     "23",
+     "Overijssel"
+    ],
+    [
+     "24",
+     "Flevoland"
+    ],
+    [
+     "25",
+     "Gelderland"
+    ],
+    [
+     "26",
+     "Utrecht"
+    ],
+    [
+     "27",
+     "Noord-Holland"
+    ],
+    [
+     "28",
+     "Zuid-Holland"
+    ],
+    [
+     "29",
+     "Zeeland"
+    ],
+    [
+     "30",
+     "Noord-Brabant"
+    ],
+    [
+     "31",
+     "Limburg"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_marine-fields.html",
+ "title": "Location marine fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location marine fields\n\nIn version 9.0, we added validation rules for fields related to marine secondary\n building characteristics (SRC) for a location.\n\nProject Data\n > \nExposure Views\n > \n{Select an Exposure View}\n > \nContract List\n > \n{Select a Contract}\n > \nContract Details pane\n > \nLocations\n\nOur individual risk methodology follows a structured, logical approach that groups\n building characteristics according to their function to reflect the contribution of\n each characteristic to overall building performance. For information about the\n secondary risk characteristics that are supported in a specific model, refer to the\n \"Model in \nTouchstone\nâ chapter in the model\n description, which is available on the \nClient Portal\n. Documentation for some \nVerisk\n models includes a separate document that\n serves as a guide to the secondary risk characteristics (SRC) used in the model.\n\nThese fields do not affect losses in \nTouchstone\n 2021 (9.0).\n\n| Field | Perils | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- | --- |\n| Content Damageability | | Content damageability options: High Moderate Average Low Unknown/Default | | Unknown |\n| Cargo Packing | | Cargo packing options: Deficient Standard Superior Unknown | | Unknown |\n| Cargo Protection | | Cargo protection options: None Slight Well Unknown | | Unknown |\n| Specie Storage | n/a | Specie storage options Outside Vault Inside Vault Window Unknown | | Unknown |\n| Sprinkler Type | | Sprinkler type options: Wet Dry Unknown | | Unknown |\n| Salvage Potential | | Salvage potential options: Lowest (0-20%) Low (20-40%) Average (40-60%) High (60-80%) Very High (80-100%) Unknown | | Unknown |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Perils",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Content Damageability",
+     "",
+     "Content damageability options: High Moderate Average Low Unknown/Default",
+     "",
+     "Unknown"
+    ],
+    [
+     "Cargo Packing",
+     "",
+     "Cargo packing options: Deficient Standard Superior Unknown",
+     "",
+     "Unknown"
+    ],
+    [
+     "Cargo Protection",
+     "",
+     "Cargo protection options: None Slight Well Unknown",
+     "",
+     "Unknown"
+    ],
+    [
+     "Specie Storage",
+     "n/a",
+     "Specie storage options Outside Vault Inside Vault Window Unknown",
+     "",
+     "Unknown"
+    ],
+    [
+     "Sprinkler Type",
+     "",
+     "Sprinkler type options: Wet Dry Unknown",
+     "",
+     "Unknown"
+    ],
+    [
+     "Salvage Potential",
+     "",
+     "Salvage potential options: Lowest (0-20%) Low (20-40%) Average (40-60%) High (60-80%) Very High (80-100%) Unknown",
+     "",
+     "Unknown"
+    ]
+   ]
+  }
+ ]
+}

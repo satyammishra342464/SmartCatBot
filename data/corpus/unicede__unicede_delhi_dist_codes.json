@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_delhi_dist_codes.html",
+ "title": "Delhi district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Delhi district codes\n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-07000 | Delhi |\n| 113-07001 | North West |\n| 113-07002 | North |\n| 113-07003 | North East |\n| 113-07004 | East |\n| 113-07005 | New Delhi |\n| 113-07006 | Central |\n| 113-07007 | West |\n| 113-07008 | South West |\n| 113-07009 | South |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-07000",
+     "Delhi"
+    ],
+    [
+     "113-07001",
+     "North West"
+    ],
+    [
+     "113-07002",
+     "North"
+    ],
+    [
+     "113-07003",
+     "North East"
+    ],
+    [
+     "113-07004",
+     "East"
+    ],
+    [
+     "113-07005",
+     "New Delhi"
+    ],
+    [
+     "113-07006",
+     "Central"
+    ],
+    [
+     "113-07007",
+     "West"
+    ],
+    [
+     "113-07008",
+     "South West"
+    ],
+    [
+     "113-07009",
+     "South"
+    ]
+   ]
+  }
+ ]
+}

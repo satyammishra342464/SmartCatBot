@@ -1,0 +1,43 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mexico-perils.html",
+ "title": "Mexico perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mexico perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for Mexico.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PES | Earthquake shake only | |\n| PWH | Tropical cyclone only | For this region, the PWH code contains explicit modeling for\n precipitation flood. However, precipitation flood losses are included\n automatically in the wind losses. |\n| PLS (added in 2025 (13.0) | Landslide | |\n| PTS (added in 2025 (13.0) | Tsunami | |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only",
+     "For this region, the PWH code contains explicit modeling for\n                        precipitation flood. However, precipitation flood losses are included\n                        automatically in the wind losses."
+    ],
+    [
+     "PLS (added in 2025 (13.0)",
+     "Landslide",
+     ""
+    ],
+    [
+     "PTS (added in 2025 (13.0)",
+     "Tsunami",
+     ""
+    ]
+   ]
+  }
+ ]
+}

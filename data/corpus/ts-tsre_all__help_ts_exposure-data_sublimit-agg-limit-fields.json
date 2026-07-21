@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-agg-limit-fields.html",
+ "title": "Sublimit aggregate limit fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit aggregate limit fields\n\nSublimit aggregate limit fields.\nSee \nSublimit aggregate limit types\n for information about\n sublimit aggregate imit types.\n\n| Field / Aggregate limit type | AGGL |\n| --- | --- |\n| Aggregate limit | A monetary value expressed as a value greater than or equal to\n 1. |\n| Aggregate attachment point | A monetary value expressed as a value greater than or equal to\n 1. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate limit type",
+    "AGGL"
+   ],
+   "rows": [
+    [
+     "Aggregate limit",
+     "A monetary value expressed as a value greater than or equal to\n                        1."
+    ],
+    [
+     "Aggregate attachment point",
+     "A monetary value expressed as a value greater than or equal to\n                        1."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 31",
+ "section": "local-docs",
+ "version": null,
+ "text": "Combined Building & Contents \nDeductible\n• Sometimes deductibles are given as ‘combined coverage’ or ‘property \ndamage’ , this refers to the combined coverages of buildings (CV1) and \ncontents (CV2 ).\n• Combined coverage deductibles can be entered in the \n_COMBINEDDED column.\n• Remember , there may still be a BI time deductible given which must be \nentered in _CV3DED.\n• % Minimum and Maximum\n• Use the same methodology described in previous slides to apply \nminimum and maximum deductibles however, calculate resulting \nvalue with relevant % deductible applied to the sum of CV1+CV2 and \nCV3 on each location separately.",
+ "tables": []
+}

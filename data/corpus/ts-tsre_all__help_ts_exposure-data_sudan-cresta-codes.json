@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sudan-cresta-codes.html",
+ "title": "Sudan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sudan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Sudan.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Khartoum |\n| 2 | Port Sudan |\n| 3 | Kassala |\n| 4 | Central Zone (excl. Khartoum and Kassala) |\n| 5 | North Zone (excl. Port Sudan) |\n| 6 | Southern Zone |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Khartoum"
+    ],
+    [
+     "2",
+     "Port Sudan"
+    ],
+    [
+     "3",
+     "Kassala"
+    ],
+    [
+     "4",
+     "Central Zone (excl. Khartoum and Kassala)"
+    ],
+    [
+     "5",
+     "North Zone (excl. Port Sudan)"
+    ],
+    [
+     "6",
+     "Southern Zone"
+    ]
+   ]
+  }
+ ]
+}

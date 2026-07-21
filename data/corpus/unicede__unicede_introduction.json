@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_introduction.html",
+ "title": "Introduction to UNICEDE/2",
+ "section": "unicede",
+ "version": null,
+ "text": "Introduction to \nUNICEDE\n/2\n\nUNICEDE\n/2 allows primary insurers and their treaty reinsurers to exchange aggregate sums insured, risk count, payroll, premium, and other appropriate data in a format that can be easily imported. \n\nUNICEDE\n/2 files can be used to import aggregated\n exposure data into \nTouchstone Re\n. The standard\n supports country-specific lines of business and geographic detail.\n\nRefer to the following topics for more information:\n\nCountries supported by UNICEDE/2\n\nUNICEDE/2 protocol\n\nUNICEDE/2 file header\n\nFile body\n\nRefer to \nHistorical material\n for older material associated\n with \nUNICEDE\n/2.",
+ "tables": []
+}

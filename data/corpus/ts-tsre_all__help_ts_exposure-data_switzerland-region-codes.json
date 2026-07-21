@@ -1,0 +1,121 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_switzerland-region-codes.html",
+ "title": "Switzerland region codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Switzerland region codes\n\nTouchstone\n supports the following region\n codes codes for Switzerland.\n\n| Region Code | Region Name |\n| --- | --- |\n| 01 | ZÃ¼rich |\n| 02 | Bern |\n| 03 | Luzern |\n| 04 | Uri |\n| 05 | Schwyz |\n| 06 | Obwalden |\n| 07 | Nidwalden |\n| 08 | Glarus |\n| 09 | Zug |\n| 10 | Fribourg |\n| 11 | Solothurn |\n| 12 | Basel-Stadt |\n| 13 | Basel-Land |\n| 14 | Schaffhausen |\n| 15 | Appenzell A.Rh. |\n| 16 | Appenzell I.Rh. |\n| 17 | St. Gallen |\n| 18 | GraubÃ¼nden |\n| 19 | Aargau |\n| 20 | Thurgau |\n| 21 | Ticino |\n| 22 | Vaud |\n| 23 | Valais |\n| 24 | NeuchÃ¢tel |\n| 25 | GenÃ¨ve |\n| 26 | Jura |",
+ "tables": [
+  {
+   "headers": [
+    "Region Code",
+    "Region Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "ZÃ¼rich"
+    ],
+    [
+     "02",
+     "Bern"
+    ],
+    [
+     "03",
+     "Luzern"
+    ],
+    [
+     "04",
+     "Uri"
+    ],
+    [
+     "05",
+     "Schwyz"
+    ],
+    [
+     "06",
+     "Obwalden"
+    ],
+    [
+     "07",
+     "Nidwalden"
+    ],
+    [
+     "08",
+     "Glarus"
+    ],
+    [
+     "09",
+     "Zug"
+    ],
+    [
+     "10",
+     "Fribourg"
+    ],
+    [
+     "11",
+     "Solothurn"
+    ],
+    [
+     "12",
+     "Basel-Stadt"
+    ],
+    [
+     "13",
+     "Basel-Land"
+    ],
+    [
+     "14",
+     "Schaffhausen"
+    ],
+    [
+     "15",
+     "Appenzell A.Rh."
+    ],
+    [
+     "16",
+     "Appenzell I.Rh."
+    ],
+    [
+     "17",
+     "St. Gallen"
+    ],
+    [
+     "18",
+     "GraubÃ¼nden"
+    ],
+    [
+     "19",
+     "Aargau"
+    ],
+    [
+     "20",
+     "Thurgau"
+    ],
+    [
+     "21",
+     "Ticino"
+    ],
+    [
+     "22",
+     "Vaud"
+    ],
+    [
+     "23",
+     "Valais"
+    ],
+    [
+     "24",
+     "NeuchÃ¢tel"
+    ],
+    [
+     "25",
+     "GenÃ¨ve"
+    ],
+    [
+     "26",
+     "Jura"
+    ]
+   ]
+  }
+ ]
+}

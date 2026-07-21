@@ -1,0 +1,39 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_caribbean-lob_2-10_20.html",
+ "title": "Caribbean Lines of Business (v2.10)",
+ "section": "unicede",
+ "version": null,
+ "text": "Caribbean Lines of Business (v2.10) \n\nLOB codes for select Caribbean countries supported by \nUNICEDE\n/2.\n\nThese codes are valid when using \nUNICEDE\n/2 exposures in the\n following countries:\n\n| Anguilla Antigua and Barbuda Aruba Bahamas Barbados Bermuda Bonaire, St. Eustatius and Saba British Island Virgin Cayman Islands | Cuba CuraÃ§ao Dominica Dominican Republic Grenada Guadeloupe Haiti Jamaica Martinique | Montserrat Saint BarthÃ©lemy Saint Kitts and Nevis Saint Lucia Sint Maarten Saint Martin Saint Vincent and the Grenadines Trinidad and Tobago Turks and Caicos Islands |\n\nStandard & Market Shares Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential |\n| COM | Commercial |\n| AUTO | Auto |",
+ "tables": [
+  {
+   "headers": [],
+   "rows": [
+    [
+     "Anguilla Antigua and Barbuda Aruba Bahamas Barbados Bermuda Bonaire, St. Eustatius and Saba British Island Virgin Cayman Islands",
+     "Cuba CuraÃ§ao Dominica Dominican Republic Grenada Guadeloupe Haiti Jamaica Martinique",
+     "Montserrat Saint BarthÃ©lemy Saint Kitts and Nevis Saint Lucia Sint Maarten Saint Martin Saint Vincent and the Grenadines Trinidad and Tobago Turks and Caicos Islands"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  }
+ ]
+}

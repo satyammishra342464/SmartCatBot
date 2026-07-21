@@ -1,0 +1,121 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_switzerland-cresta-codes.html",
+ "title": "Switzerland CRESTA Codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Switzerland \nCRESTA\n Codes\n\nCRESTA\n codes supported by \nTouchstone\n.\nTouchstone\n supports the following \nCRESTA\n codes for Switzerland:\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| CHE_AG | Aargau |\n| CHE_AR | Appenzell Ausserrhoden |\n| CHE_AI | Appenzell Innerrhoden |\n| CHE_BL | Basel-Landschaft |\n| CHE_BS | Basel-Stadt |\n| CHE_BE | Bern / Berne |\n| CHE_FR | Fribourg / Freiburg |\n| CHE_GE | Geneve |\n| CHE_GL | Glarus |\n| CHE_GR | Graubuenden / Grigioni / Grischun |\n| CHE_JU | Jura |\n| CHE_LU | Luzern |\n| CHE_NE | Neuchatel |\n| CHE_NW | Nidwalden |\n| CHE_OW | Obwalden |\n| CHE_SH | Schaffhausen |\n| CHE_SZ | Schwyz |\n| CHE_SO | Solothurn |\n| CHE_SG | St. Gallen |\n| CHE_TG | Thurgau |\n| CHE_TI | Ticino |\n| CHE_UR | Uri |\n| CHE_VS | Valais / Wallis |\n| CHE_VD | Vaud |\n| CHE_ZH | Zuerich |\n| CHE_ZG | Zug |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "CHE_AG",
+     "Aargau"
+    ],
+    [
+     "CHE_AR",
+     "Appenzell Ausserrhoden"
+    ],
+    [
+     "CHE_AI",
+     "Appenzell Innerrhoden"
+    ],
+    [
+     "CHE_BL",
+     "Basel-Landschaft"
+    ],
+    [
+     "CHE_BS",
+     "Basel-Stadt"
+    ],
+    [
+     "CHE_BE",
+     "Bern / Berne"
+    ],
+    [
+     "CHE_FR",
+     "Fribourg / Freiburg"
+    ],
+    [
+     "CHE_GE",
+     "Geneve"
+    ],
+    [
+     "CHE_GL",
+     "Glarus"
+    ],
+    [
+     "CHE_GR",
+     "Graubuenden / Grigioni / Grischun"
+    ],
+    [
+     "CHE_JU",
+     "Jura"
+    ],
+    [
+     "CHE_LU",
+     "Luzern"
+    ],
+    [
+     "CHE_NE",
+     "Neuchatel"
+    ],
+    [
+     "CHE_NW",
+     "Nidwalden"
+    ],
+    [
+     "CHE_OW",
+     "Obwalden"
+    ],
+    [
+     "CHE_SH",
+     "Schaffhausen"
+    ],
+    [
+     "CHE_SZ",
+     "Schwyz"
+    ],
+    [
+     "CHE_SO",
+     "Solothurn"
+    ],
+    [
+     "CHE_SG",
+     "St. Gallen"
+    ],
+    [
+     "CHE_TG",
+     "Thurgau"
+    ],
+    [
+     "CHE_TI",
+     "Ticino"
+    ],
+    [
+     "CHE_UR",
+     "Uri"
+    ],
+    [
+     "CHE_VS",
+     "Valais / Wallis"
+    ],
+    [
+     "CHE_VD",
+     "Vaud"
+    ],
+    [
+     "CHE_ZH",
+     "Zuerich"
+    ],
+    [
+     "CHE_ZG",
+     "Zug"
+    ]
+   ]
+  }
+ ]
+}

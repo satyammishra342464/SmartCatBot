@@ -1,0 +1,43 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_china-perils.html",
+ "title": "China Perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "China Perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for China.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PES | Earthquake shake only | |\n| PPH | Precipitation flood | |\n| PWA | All wind perils | Winter storm sub-peril is valid for U.S. exposures only. |\n| PWH | Typhoon only | |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PPH",
+     "Precipitation flood",
+     ""
+    ],
+    [
+     "PWA",
+     "All wind perils",
+     "Winter storm sub-peril is valid for U.S. exposures only."
+    ],
+    [
+     "PWH",
+     "Typhoon only",
+     ""
+    ]
+   ]
+  }
+ ]
+}

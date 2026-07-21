@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_middle-east-peril-codes_2-9_5.html",
+ "title": "Middle East Peril Codes (v2.9)",
+ "section": "unicede",
+ "version": null,
+ "text": "Middle East Peril Codes (v2.9)\n\nUNICEDE\n/2 supports the following codes for\n Perils Covered for the risks in the Middle East supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Wind |\n| PEQ | Earthquake |\n| PFL | Flood |\n| PFO | Fire |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Wind"
+    ],
+    [
+     "PEQ",
+     "Earthquake"
+    ],
+    [
+     "PFL",
+     "Flood"
+    ],
+    [
+     "PFO",
+     "Fire"
+    ]
+   ]
+  }
+ ]
+}

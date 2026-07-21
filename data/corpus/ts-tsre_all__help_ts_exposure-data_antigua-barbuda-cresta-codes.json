@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_antigua-barbuda-cresta-codes.html",
+ "title": "Antigua and Barbuda CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Antigua and Barbuda \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Antigua and Barbuda.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Saint George |\n| 2 | Saint John |\n| 3 | Saint Mary |\n| 4 | Saint Paul |\n| 5 | Saint Peter |\n| 6 | Saint Philip |\n| 7 | Barbuda |\n| 8 | Redonda |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Saint George"
+    ],
+    [
+     "2",
+     "Saint John"
+    ],
+    [
+     "3",
+     "Saint Mary"
+    ],
+    [
+     "4",
+     "Saint Paul"
+    ],
+    [
+     "5",
+     "Saint Peter"
+    ],
+    [
+     "6",
+     "Saint Philip"
+    ],
+    [
+     "7",
+     "Barbuda"
+    ],
+    [
+     "8",
+     "Redonda"
+    ]
+   ]
+  }
+ ]
+}

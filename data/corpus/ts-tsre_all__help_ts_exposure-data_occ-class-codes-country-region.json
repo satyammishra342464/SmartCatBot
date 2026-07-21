@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_occ-class-codes-country-region.html",
+ "title": "Occupancy class codes by country/region",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Occupancy class codes by country/region\n\nTouchstone\n support for occupancy classes\n varies by country/region as well as by model.\n\nThe occupancy code topics identify any model limitations associated with the\n use of these occupancy classes.\n\nAustralia and New Zealand\n\nCaribbean\n\nCentral America\n\nChina\n\nEurope\n\nGulf of\n Mexico\n\nIndia\n\nJapan\n\nMexico\n\nMiddle East\n (Added in version 11.5.)\n\nSouth\n America\n\nSoutheast Asia\n\nSouth\n Korea\n\nUnited States and Canada\n\nNote:\n \nTouchstone\n also\n supports non-\nTouchstone\n occupancy\n class codes. For more information, see \"Non-\nTouchstone\n occupancy class codes\" in\n the Help provided in your \nTouchstone\n client.",
+ "tables": []
+}

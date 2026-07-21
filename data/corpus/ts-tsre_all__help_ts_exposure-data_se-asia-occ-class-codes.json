@@ -1,0 +1,658 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_se-asia-occ-class-codes.html",
+ "title": "Southeast Asia occupancy class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Southeast Asia occupancy class codes\n\nTouchstone\n supports the occupancy codes\n listed in this topic for Southeast Asia.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Occupancy code | Occupancy class |\n| --- | --- | --- |\n| Unknown | 300 | Unknown |\n| Residential | 301 | General Residential |\n| Residential | 302 | Permanent Dwelling: Single Family |\n| Residential | 303 | Permanent Dwelling: Multi Family |\n| Residential | 304 | Temporary Lodging |\n| Residential | 305 | Group Institutional Housing |\n| Residential | 306 | Apartments/Condominiums |\n| Commercial | 311 | General Commercial |\n| Commercial | 312 | Retail Trade |\n| Commercial | 313 | Wholesale Trade |\n| Commercial | 314 | Personal and Repair Services |\n| Commercial | 315 | Professional, Technical, and Business Services |\n| Commercial | 316 | Health Care Services |\n| Commercial | 317 | Entertainment and Recreation |\n| Commercial | 318 | Parking |\n| Commercial | 319 | Golf Courses |\n| Industrial | 321 | General Industrial |\n| Industrial | 322 | Heavy Fabrication and Assembly |\n| Industrial | 323 | Light Fabrication and Assembly |\n| Industrial | 324 | Food and Drug Processing |\n| Industrial | 325 | Chemical Processing |\n| Industrial | 326 | Metal and Minerals Processing |\n| Industrial | 327 | High Technology |\n| Industrial | 328 | Construction |\n| Industrial | 329 | Petroleum |\n| Industrial | 330 | Mining |\n| Restaurants | 331 | Restaurants |\n| Mercantile | 335 | Gasoline Stations |\n| Mercantile | 336 | Automotive Repair Shops and Car Washes |\n| Public | 341 | Religion and Non-Profit |\n| Public | 342 | Churches |\n| Public | 343 | Government - General Services |\n| Public | 344 | Government - Emergency Services |\n| Education | 345 | Universities, Colleges, and Technical Schools |\n| Education | 346 | Primary and Secondary Schools |\n| Transportation | 351 | Highway |\n| Transportation | 352 | Railroad |\n| Transportation | 353 | Air |\n| Transportation | 354 | Sea and Inland Waterways |\n| Transportation | 355 | Aircraft Hangars |\n| Utilities | 361 | Electrical Utilities |\n| Utilities | 362 | Water Utilities |\n| Utilities | 363 | Sanitary Sewer |\n| Utilities | 364 | Natural Gas |\n| Utilities | 365 | Telephone and Telegraph |\n| Commercial | 366 | Inland Transit Cargo |\n| Miscellaneous | 371 | Communication |\n| Miscellaneous | 372 | Flood Control |\n| Miscellaneous | 373 | Agriculture |\n| Miscellaneous | 374 | Greenhouses |\n| Miscellaneous | 381 | Construction/Erection Risks |\n| Residential | 382 | Construction/Erection Risks |\n| Commercial | 383 | Construction/Erection Risks |\n| Industrial | 384 | Construction/Erection Risks |\n| Industrial Facilities | 400 | Industrial Facilities |\n| Industrial Facilities | 401 | Heavy Fabrication and Assembly -- General |\n| Industrial Facilities | 402 | Automotive Manufacturing |\n| Industrial Facilities | 403 | Fabricated Metal Products |\n| Industrial Facilities | 404 | Industrial and Commercial Machinery and Equipment |\n| Industrial Facilities | 405 | Transportation Equipment Assembly |\n| Industrial Facilities | 406 | Pulp/Paper and Allied Products Manufacturing |\n| Industrial Facilities | 407 | Textile Mill Product |\n| Industrial Facilities | 408 | Lumber and Wood Products (Excluding Furniture) |\n| Industrial Facilities | 409 | Stone/Clay/Glass/Ceramics Products |\n| Industrial Facilities | 414 | Light Fabrication and Assembly -- General |\n| Industrial Facilities | 415 | Furniture and Fixtures |\n| Industrial Facilities | 416 | Apparel and Finished Products from Fabric |\n| Industrial Facilities | 417 | Print/Publishing and Allied Industries |\n| Industrial Facilities | 418 | Rubber and Miscellaneous Plastics Products |\n| Industrial Facilities | 419 | Leather and Leather Products |\n| Industrial Facilities | 420 | Electronic and Other Electrical Equipment (Except Computer Equipment) |\n| Industrial Facilities | 421 | Measuring, Analyzing, and Controlling Instruments |\n| Industrial Facilities | 422 | Photographic, Medical, and Optical Goods |\n| Industrial Facilities | 423 | Watches and Clocks |\n| Industrial Facilities | 424 | Miscellaneous Light Manufacturing Industries |\n| Industrial Facilities | 425 | Tire Manufacturers |\n| Industrial Facilities | 429 | Food and Drug Processing -- General |\n| Industrial Facilities | 430 | Food and Kindred Products |\n| Industrial Facilities | 431 | Tobacco Products |\n| Industrial Facilities | 432 | Pharmaceutical Plants |\n| Industrial Facilities | 433 | Biological Products (Except Diagnostic\n Medicinals/Botanicals/Biomedical) |\n| Industrial Facilities | 434 | Wineries |\n| Industrial Facilities | 438 | Chemical Processing -- General |\n| Industrial Facilities | 439 | Chlorine Plants |\n| Industrial Facilities | 440 | Vinyl Plants |\n| Industrial Facilities | 441 | Light Hydrocarbon or Aromatics Plant |\n| Industrial Facilities | 442 | Plastics Plants |\n| Industrial Facilities | 443 | Chlorohydrin Plants |\n| Industrial Facilities | 444 | Fertilizer Plants |\n| Industrial Facilities | 445 | Cement Plans / Cement Mills |\n| Industrial Facilities | 446 | Other Chemical and Allied Products |\n| Industrial Facilities | 449 | Metal and Minerals Processing -- General |\n| Industrial Facilities | 450 | Primary Metal Industry |\n| Industrial Facilities | 451 | Steel Mills |\n| Industrial Facilities | 452 | Smelters |\n| Industrial Facilities | 455 | High Technology -- General |\n| Industrial Facilities | 456 | Semi-conductor and Related Devices |\n| Industrial Facilities | 457 | Electronic Computer Devices |\n| Industrial Facilities | 458 | Computer Storage Devices |\n| Industrial Facilities | 459 | Electron Tubes |\n| Industrial Facilities | 460 | Printed Circuit Boards |\n| Industrial Facilities | 463 | General Building/Construction Contractors |\n| Industrial Facilities | 464 | Heavy Constructions |\n| Industrial Facilities | 465 | Special Trade Contractors |\n| Industrial Facilities | 470 | Mining -- General |\n| Industrial Facilities | 471 | Mining Operations |\n| Industrial Facilities | 472 | Metal Mining |\n| Industrial Facilities | 473 | Coal Mining |\n| Industrial Facilities | 474 | Mining/Quarrying -- Non-Metallic Mineral Except Fuels |\n| Industrial Facilities | 475 | Oil Refinery SystemsâGeneral |\n| Industrial Facilities | 476 | Hydro-Electric Power SystemsâGeneral |\n| Industrial Facilities | 477 | Thermoelectric Power SystemsâGeneral |\n| Industrial Facilities | 479 | Electric SubstationâGeneral |\n| Industrial Facilities | 480 | Potable Water SystemsâGeneral |\n| Industrial Facilities | 481 | Waste Water Treatment SystemsâGeneral |\n| Industrial Facilities | 482 | Gas Processing SystemsâGeneral |\n| Marine Cargo | 1001 | Designated Facilities / Vaults |\n| Marine Cargo | 1002 | Silo |\n| Marine Cargo | 1003 | Liquid Tanks |\n| Marine Cargo | 1004 | Gas Tanks |\n| Marine Cargo | 1005 | Inside Warehouse at Port |\n| Marine Cargo | 1006 | Containerized Inside Warehouse |\n| Marine Cargo | 1007 | Containerized Stacked Outside |\n| Marine Cargo | 1008 | Open Lot of Stockpiled Outside |\n| Marine Cargo | 1009 | At Destination in Warehousse |\n| Marine Cargo | 1010 | At Destination Rental |\n| Marine Cargo | 1011 | Museums, Institutions, Public Buildings |\n| Marine Cargo | 1012 | Retail & Private Buildings |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Occupancy code",
+    "Occupancy class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "300",
+     "Unknown"
+    ],
+    [
+     "Residential",
+     "301",
+     "General Residential"
+    ],
+    [
+     "Residential",
+     "302",
+     "Permanent Dwelling: Single Family"
+    ],
+    [
+     "Residential",
+     "303",
+     "Permanent Dwelling: Multi Family"
+    ],
+    [
+     "Residential",
+     "304",
+     "Temporary Lodging"
+    ],
+    [
+     "Residential",
+     "305",
+     "Group Institutional Housing"
+    ],
+    [
+     "Residential",
+     "306",
+     "Apartments/Condominiums"
+    ],
+    [
+     "Commercial",
+     "311",
+     "General Commercial"
+    ],
+    [
+     "Commercial",
+     "312",
+     "Retail Trade"
+    ],
+    [
+     "Commercial",
+     "313",
+     "Wholesale Trade"
+    ],
+    [
+     "Commercial",
+     "314",
+     "Personal and Repair Services"
+    ],
+    [
+     "Commercial",
+     "315",
+     "Professional, Technical, and Business Services"
+    ],
+    [
+     "Commercial",
+     "316",
+     "Health Care Services"
+    ],
+    [
+     "Commercial",
+     "317",
+     "Entertainment and Recreation"
+    ],
+    [
+     "Commercial",
+     "318",
+     "Parking"
+    ],
+    [
+     "Commercial",
+     "319",
+     "Golf Courses"
+    ],
+    [
+     "Industrial",
+     "321",
+     "General Industrial"
+    ],
+    [
+     "Industrial",
+     "322",
+     "Heavy Fabrication and Assembly"
+    ],
+    [
+     "Industrial",
+     "323",
+     "Light Fabrication and Assembly"
+    ],
+    [
+     "Industrial",
+     "324",
+     "Food and Drug Processing"
+    ],
+    [
+     "Industrial",
+     "325",
+     "Chemical Processing"
+    ],
+    [
+     "Industrial",
+     "326",
+     "Metal and Minerals Processing"
+    ],
+    [
+     "Industrial",
+     "327",
+     "High Technology"
+    ],
+    [
+     "Industrial",
+     "328",
+     "Construction"
+    ],
+    [
+     "Industrial",
+     "329",
+     "Petroleum"
+    ],
+    [
+     "Industrial",
+     "330",
+     "Mining"
+    ],
+    [
+     "Restaurants",
+     "331",
+     "Restaurants"
+    ],
+    [
+     "Mercantile",
+     "335",
+     "Gasoline Stations"
+    ],
+    [
+     "Mercantile",
+     "336",
+     "Automotive Repair Shops and Car Washes"
+    ],
+    [
+     "Public",
+     "341",
+     "Religion and Non-Profit"
+    ],
+    [
+     "Public",
+     "342",
+     "Churches"
+    ],
+    [
+     "Public",
+     "343",
+     "Government - General Services"
+    ],
+    [
+     "Public",
+     "344",
+     "Government - Emergency Services"
+    ],
+    [
+     "Education",
+     "345",
+     "Universities, Colleges, and Technical Schools"
+    ],
+    [
+     "Education",
+     "346",
+     "Primary and Secondary Schools"
+    ],
+    [
+     "Transportation",
+     "351",
+     "Highway"
+    ],
+    [
+     "Transportation",
+     "352",
+     "Railroad"
+    ],
+    [
+     "Transportation",
+     "353",
+     "Air"
+    ],
+    [
+     "Transportation",
+     "354",
+     "Sea and Inland Waterways"
+    ],
+    [
+     "Transportation",
+     "355",
+     "Aircraft Hangars"
+    ],
+    [
+     "Utilities",
+     "361",
+     "Electrical Utilities"
+    ],
+    [
+     "Utilities",
+     "362",
+     "Water Utilities"
+    ],
+    [
+     "Utilities",
+     "363",
+     "Sanitary Sewer"
+    ],
+    [
+     "Utilities",
+     "364",
+     "Natural Gas"
+    ],
+    [
+     "Utilities",
+     "365",
+     "Telephone and Telegraph"
+    ],
+    [
+     "Commercial",
+     "366",
+     "Inland Transit Cargo"
+    ],
+    [
+     "Miscellaneous",
+     "371",
+     "Communication"
+    ],
+    [
+     "Miscellaneous",
+     "372",
+     "Flood Control"
+    ],
+    [
+     "Miscellaneous",
+     "373",
+     "Agriculture"
+    ],
+    [
+     "Miscellaneous",
+     "374",
+     "Greenhouses"
+    ],
+    [
+     "Miscellaneous",
+     "381",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Residential",
+     "382",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Commercial",
+     "383",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Industrial",
+     "384",
+     "Construction/Erection Risks"
+    ],
+    [
+     "Industrial Facilities",
+     "400",
+     "Industrial Facilities"
+    ],
+    [
+     "Industrial Facilities",
+     "401",
+     "Heavy Fabrication and Assembly -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "402",
+     "Automotive Manufacturing"
+    ],
+    [
+     "Industrial Facilities",
+     "403",
+     "Fabricated Metal Products"
+    ],
+    [
+     "Industrial Facilities",
+     "404",
+     "Industrial and Commercial Machinery and Equipment"
+    ],
+    [
+     "Industrial Facilities",
+     "405",
+     "Transportation Equipment Assembly"
+    ],
+    [
+     "Industrial Facilities",
+     "406",
+     "Pulp/Paper and Allied Products Manufacturing"
+    ],
+    [
+     "Industrial Facilities",
+     "407",
+     "Textile Mill Product"
+    ],
+    [
+     "Industrial Facilities",
+     "408",
+     "Lumber and Wood Products (Excluding Furniture)"
+    ],
+    [
+     "Industrial Facilities",
+     "409",
+     "Stone/Clay/Glass/Ceramics Products"
+    ],
+    [
+     "Industrial Facilities",
+     "414",
+     "Light Fabrication and Assembly -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "415",
+     "Furniture and Fixtures"
+    ],
+    [
+     "Industrial Facilities",
+     "416",
+     "Apparel and Finished Products from Fabric"
+    ],
+    [
+     "Industrial Facilities",
+     "417",
+     "Print/Publishing and Allied Industries"
+    ],
+    [
+     "Industrial Facilities",
+     "418",
+     "Rubber and Miscellaneous Plastics Products"
+    ],
+    [
+     "Industrial Facilities",
+     "419",
+     "Leather and Leather Products"
+    ],
+    [
+     "Industrial Facilities",
+     "420",
+     "Electronic and Other Electrical Equipment (Except Computer Equipment)"
+    ],
+    [
+     "Industrial Facilities",
+     "421",
+     "Measuring, Analyzing, and Controlling Instruments"
+    ],
+    [
+     "Industrial Facilities",
+     "422",
+     "Photographic, Medical, and Optical Goods"
+    ],
+    [
+     "Industrial Facilities",
+     "423",
+     "Watches and Clocks"
+    ],
+    [
+     "Industrial Facilities",
+     "424",
+     "Miscellaneous Light Manufacturing Industries"
+    ],
+    [
+     "Industrial Facilities",
+     "425",
+     "Tire Manufacturers"
+    ],
+    [
+     "Industrial Facilities",
+     "429",
+     "Food and Drug Processing -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "430",
+     "Food and Kindred Products"
+    ],
+    [
+     "Industrial Facilities",
+     "431",
+     "Tobacco Products"
+    ],
+    [
+     "Industrial Facilities",
+     "432",
+     "Pharmaceutical Plants"
+    ],
+    [
+     "Industrial Facilities",
+     "433",
+     "Biological Products (Except Diagnostic\n                        Medicinals/Botanicals/Biomedical)"
+    ],
+    [
+     "Industrial Facilities",
+     "434",
+     "Wineries"
+    ],
+    [
+     "Industrial Facilities",
+     "438",
+     "Chemical Processing -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "439",
+     "Chlorine Plants"
+    ],
+    [
+     "Industrial Facilities",
+     "440",
+     "Vinyl Plants"
+    ],
+    [
+     "Industrial Facilities",
+     "441",
+     "Light Hydrocarbon or Aromatics Plant"
+    ],
+    [
+     "Industrial Facilities",
+     "442",
+     "Plastics Plants"
+    ],
+    [
+     "Industrial Facilities",
+     "443",
+     "Chlorohydrin Plants"
+    ],
+    [
+     "Industrial Facilities",
+     "444",
+     "Fertilizer Plants"
+    ],
+    [
+     "Industrial Facilities",
+     "445",
+     "Cement Plans / Cement Mills"
+    ],
+    [
+     "Industrial Facilities",
+     "446",
+     "Other Chemical and Allied Products"
+    ],
+    [
+     "Industrial Facilities",
+     "449",
+     "Metal and Minerals Processing -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "450",
+     "Primary Metal Industry"
+    ],
+    [
+     "Industrial Facilities",
+     "451",
+     "Steel Mills"
+    ],
+    [
+     "Industrial Facilities",
+     "452",
+     "Smelters"
+    ],
+    [
+     "Industrial Facilities",
+     "455",
+     "High Technology -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "456",
+     "Semi-conductor and Related Devices"
+    ],
+    [
+     "Industrial Facilities",
+     "457",
+     "Electronic Computer Devices"
+    ],
+    [
+     "Industrial Facilities",
+     "458",
+     "Computer Storage Devices"
+    ],
+    [
+     "Industrial Facilities",
+     "459",
+     "Electron Tubes"
+    ],
+    [
+     "Industrial Facilities",
+     "460",
+     "Printed Circuit Boards"
+    ],
+    [
+     "Industrial Facilities",
+     "463",
+     "General Building/Construction Contractors"
+    ],
+    [
+     "Industrial Facilities",
+     "464",
+     "Heavy Constructions"
+    ],
+    [
+     "Industrial Facilities",
+     "465",
+     "Special Trade Contractors"
+    ],
+    [
+     "Industrial Facilities",
+     "470",
+     "Mining -- General"
+    ],
+    [
+     "Industrial Facilities",
+     "471",
+     "Mining Operations"
+    ],
+    [
+     "Industrial Facilities",
+     "472",
+     "Metal Mining"
+    ],
+    [
+     "Industrial Facilities",
+     "473",
+     "Coal Mining"
+    ],
+    [
+     "Industrial Facilities",
+     "474",
+     "Mining/Quarrying -- Non-Metallic Mineral Except Fuels"
+    ],
+    [
+     "Industrial Facilities",
+     "475",
+     "Oil Refinery SystemsâGeneral"
+    ],
+    [
+     "Industrial Facilities",
+     "476",
+     "Hydro-Electric Power SystemsâGeneral"
+    ],
+    [
+     "Industrial Facilities",
+     "477",
+     "Thermoelectric Power SystemsâGeneral"
+    ],
+    [
+     "Industrial Facilities",
+     "479",
+     "Electric SubstationâGeneral"
+    ],
+    [
+     "Industrial Facilities",
+     "480",
+     "Potable Water SystemsâGeneral"
+    ],
+    [
+     "Industrial Facilities",
+     "481",
+     "Waste Water Treatment SystemsâGeneral"
+    ],
+    [
+     "Industrial Facilities",
+     "482",
+     "Gas Processing SystemsâGeneral"
+    ],
+    [
+     "Marine Cargo",
+     "1001",
+     "Designated Facilities / Vaults"
+    ],
+    [
+     "Marine Cargo",
+     "1002",
+     "Silo"
+    ],
+    [
+     "Marine Cargo",
+     "1003",
+     "Liquid Tanks"
+    ],
+    [
+     "Marine Cargo",
+     "1004",
+     "Gas Tanks"
+    ],
+    [
+     "Marine Cargo",
+     "1005",
+     "Inside Warehouse at Port"
+    ],
+    [
+     "Marine Cargo",
+     "1006",
+     "Containerized Inside Warehouse"
+    ],
+    [
+     "Marine Cargo",
+     "1007",
+     "Containerized Stacked Outside"
+    ],
+    [
+     "Marine Cargo",
+     "1008",
+     "Open Lot of Stockpiled Outside"
+    ],
+    [
+     "Marine Cargo",
+     "1009",
+     "At Destination in Warehousse"
+    ],
+    [
+     "Marine Cargo",
+     "1010",
+     "At Destination Rental"
+    ],
+    [
+     "Marine Cargo",
+     "1011",
+     "Museums, Institutions, Public Buildings"
+    ],
+    [
+     "Marine Cargo",
+     "1012",
+     "Retail & Private Buildings"
+    ]
+   ]
+  }
+ ]
+}

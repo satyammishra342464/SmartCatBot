@@ -1,0 +1,57 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_new-hampshire_fips_4.html",
+ "title": "New Hampshire (NH) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "New Hampshire (NH) Counties\n\nFIPS codes for New Hampshire.\n\nFIPS State Code: 33\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Grafton County, enter \n01-33009.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Belknap |\n| 003 | Carroll |\n| 005 | Cheshire |\n| 007 | Coos |\n| 009 | Grafton |\n| 011 | Hillsborough |\n| 013 | Merrimack |\n| 015 | Rockingham |\n| 017 | Strafford |\n| 019 | Sullivan |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Belknap"
+    ],
+    [
+     "003",
+     "Carroll"
+    ],
+    [
+     "005",
+     "Cheshire"
+    ],
+    [
+     "007",
+     "Coos"
+    ],
+    [
+     "009",
+     "Grafton"
+    ],
+    [
+     "011",
+     "Hillsborough"
+    ],
+    [
+     "013",
+     "Merrimack"
+    ],
+    [
+     "015",
+     "Rockingham"
+    ],
+    [
+     "017",
+     "Strafford"
+    ],
+    [
+     "019",
+     "Sullivan"
+    ]
+   ]
+  }
+ ]
+}

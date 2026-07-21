@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_norway-cresta-codes.html",
+ "title": "Norway CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Norway \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Norway.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| NOR_02 | Akershus |\n| NOR_09 | Aust-Agder |\n| NOR_06 | Buskerud |\n| NOR_20 | Finnmark (Finnmarku) |\n| NOR_04 | Hedmark |\n| NOR_12 | Hordaland |\n| NOR_15 | More og Romsdal |\n| NOR_17 | Nord-Trondelag |\n| NOR_18 | Nordland |\n| NOR_OWT | Norway Offshore Wind Turbines |\n| NOR_05 | Oppland |\n| NOR_03 | Oslo |\n| NOR_01 | Ostfold |\n| NOR_11 | Rogaland |\n| NOR_14 | Sogn og Fjordane |\n| NOR_16 | Sor-Trondelag |\n| NOR_08 | Telemark |\n| NOR_19 | Troms (Romsa) |\n| NOR_10 | Vest-Agder |\n| NOR_07 | Vestfold |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "NOR_02",
+     "Akershus"
+    ],
+    [
+     "NOR_09",
+     "Aust-Agder"
+    ],
+    [
+     "NOR_06",
+     "Buskerud"
+    ],
+    [
+     "NOR_20",
+     "Finnmark (Finnmarku)"
+    ],
+    [
+     "NOR_04",
+     "Hedmark"
+    ],
+    [
+     "NOR_12",
+     "Hordaland"
+    ],
+    [
+     "NOR_15",
+     "More og Romsdal"
+    ],
+    [
+     "NOR_17",
+     "Nord-Trondelag"
+    ],
+    [
+     "NOR_18",
+     "Nordland"
+    ],
+    [
+     "NOR_OWT",
+     "Norway Offshore Wind Turbines"
+    ],
+    [
+     "NOR_05",
+     "Oppland"
+    ],
+    [
+     "NOR_03",
+     "Oslo"
+    ],
+    [
+     "NOR_01",
+     "Ostfold"
+    ],
+    [
+     "NOR_11",
+     "Rogaland"
+    ],
+    [
+     "NOR_14",
+     "Sogn og Fjordane"
+    ],
+    [
+     "NOR_16",
+     "Sor-Trondelag"
+    ],
+    [
+     "NOR_08",
+     "Telemark"
+    ],
+    [
+     "NOR_19",
+     "Troms (Romsa)"
+    ],
+    [
+     "NOR_10",
+     "Vest-Agder"
+    ],
+    [
+     "NOR_07",
+     "Vestfold"
+    ]
+   ]
+  }
+ ]
+}

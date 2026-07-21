@@ -1,0 +1,161 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_india_state_codes.html",
+ "title": "India State Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "India State Codes\n\nState codes for India supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for India (113). \n\nNote:\n\n The new state Telangana was split from the existing state Andhra Pradesh. As a\n result, the underlying districts have been split between the two states.\n\n| Area Tag | State Name |\n| --- | --- |\n| 113-01000 | Jammu and Kashmir |\n| 113-02000 | Himachal Pradesh |\n| 113-03000 | Punjab |\n| 113-04000 | Chandigarh |\n| 113-05000 | Uttaranchal |\n| 113-06000 | Haryana |\n| 113-07000 | Delhi |\n| 113-08000 | Rajasthan |\n| 113-09000 | Uttar Pradesh |\n| 113-10000 | Bihar |\n| 113-11000 | Sikkim |\n| 113-12000 | Arunachal Pradesh |\n| 113-13000 | Nagaland |\n| 113-14000 | Manipur |\n| 113-15000 | Mizoram |\n| 113-16000 | Tripura |\n| 113-17000 | Meghalaya |\n| 113-18000 | Assam |\n| 113-19000 | West Bengal |\n| 113-20000 | Jharkhand |\n| 113-21000 | Orissa |\n| 113-22000 | Chhattisgarh |\n| 113-23000 | Madhya Pradesh |\n| 113-24000 | Gujarat |\n| 113-25000 | Daman and Diu |\n| 113-26000 | Dadra and Nagar Haveli |\n| 113-27000 | Maharashtra |\n| 113-28000 | Andhra Pradesh |\n| 113-29000 | Karnataka |\n| 113-30000 | Goa |\n| 113-31000 | Lakshadweep |\n| 113-32000 | Kerala |\n| 113-33000 | Tamil Nadu |\n| 113-34000 | Pondicherry |\n| 113-35000 | Andaman and Nicobar Islands |\n| 113-36000 | Telangana |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "State Name"
+   ],
+   "rows": [
+    [
+     "113-01000",
+     "Jammu and Kashmir"
+    ],
+    [
+     "113-02000",
+     "Himachal Pradesh"
+    ],
+    [
+     "113-03000",
+     "Punjab"
+    ],
+    [
+     "113-04000",
+     "Chandigarh"
+    ],
+    [
+     "113-05000",
+     "Uttaranchal"
+    ],
+    [
+     "113-06000",
+     "Haryana"
+    ],
+    [
+     "113-07000",
+     "Delhi"
+    ],
+    [
+     "113-08000",
+     "Rajasthan"
+    ],
+    [
+     "113-09000",
+     "Uttar Pradesh"
+    ],
+    [
+     "113-10000",
+     "Bihar"
+    ],
+    [
+     "113-11000",
+     "Sikkim"
+    ],
+    [
+     "113-12000",
+     "Arunachal Pradesh"
+    ],
+    [
+     "113-13000",
+     "Nagaland"
+    ],
+    [
+     "113-14000",
+     "Manipur"
+    ],
+    [
+     "113-15000",
+     "Mizoram"
+    ],
+    [
+     "113-16000",
+     "Tripura"
+    ],
+    [
+     "113-17000",
+     "Meghalaya"
+    ],
+    [
+     "113-18000",
+     "Assam"
+    ],
+    [
+     "113-19000",
+     "West Bengal"
+    ],
+    [
+     "113-20000",
+     "Jharkhand"
+    ],
+    [
+     "113-21000",
+     "Orissa"
+    ],
+    [
+     "113-22000",
+     "Chhattisgarh"
+    ],
+    [
+     "113-23000",
+     "Madhya Pradesh"
+    ],
+    [
+     "113-24000",
+     "Gujarat"
+    ],
+    [
+     "113-25000",
+     "Daman and Diu"
+    ],
+    [
+     "113-26000",
+     "Dadra and Nagar Haveli"
+    ],
+    [
+     "113-27000",
+     "Maharashtra"
+    ],
+    [
+     "113-28000",
+     "Andhra Pradesh"
+    ],
+    [
+     "113-29000",
+     "Karnataka"
+    ],
+    [
+     "113-30000",
+     "Goa"
+    ],
+    [
+     "113-31000",
+     "Lakshadweep"
+    ],
+    [
+     "113-32000",
+     "Kerala"
+    ],
+    [
+     "113-33000",
+     "Tamil Nadu"
+    ],
+    [
+     "113-34000",
+     "Pondicherry"
+    ],
+    [
+     "113-35000",
+     "Andaman and Nicobar Islands"
+    ],
+    [
+     "113-36000",
+     "Telangana"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_dominican-republic_subarea_2-7.html",
+ "title": "Dominican Republic CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Dominican Republic \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Dominican Republic supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Dominican Republic (41).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 41-000 | DOMINICAN REPUBLIC |\n| 41-001 | Zone A |\n| 41-002 | Zone B |\n| 41-003 | Zone C |\n| 41-004 | Zone D |\n| 41-005 | Zone E |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "41-000",
+     "DOMINICAN REPUBLIC"
+    ],
+    [
+     "41-001",
+     "Zone A"
+    ],
+    [
+     "41-002",
+     "Zone B"
+    ],
+    [
+     "41-003",
+     "Zone C"
+    ],
+    [
+     "41-004",
+     "Zone D"
+    ],
+    [
+     "41-005",
+     "Zone E"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_yukon-fsa_4.html",
+ "title": "Yukon FSA Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Yukon FSA Codes\n \n\nFSA codes for Yukon.\nThe codes below include the country code for Canada (18).\n\n| Area Tag | Name |\n| --- | --- |\n| 18-Y00 | Yukon |\n| 18-Y0A | Y0A |\n| 18-Y0B | Y0B |\n| 18-Y1A | Y1A |\n| 18-Y?? | Unallocated |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "18-Y00",
+     "Yukon"
+    ],
+    [
+     "18-Y0A",
+     "Y0A"
+    ],
+    [
+     "18-Y0B",
+     "Y0B"
+    ],
+    [
+     "18-Y1A",
+     "Y1A"
+    ],
+    [
+     "18-Y??",
+     "Unallocated"
+    ]
+   ]
+  }
+ ]
+}

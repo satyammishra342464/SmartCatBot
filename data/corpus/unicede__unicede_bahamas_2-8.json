@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_bahamas_2-8.html",
+ "title": "Bahamas district codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Bahamas district codes (v2.8)\n \n\nDistrict codes for the Bahamas supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for the Bahamas (12).\n\n| Area Tag | District Name |\n| --- | --- |\n| 12-000 | BAHAMAS |\n| 12-001 | New Providence |\n| 12-002 | Grand Bahama |\n| 12-003 | Abaco |\n| 12-004 | Acklins |\n| 12-005 | Andros |\n| 12-006 | Berry Islands |\n| 12-007 | Bimini |\n| 12-008 | Cat Island |\n| 12-009 | Crooked Island |\n| 12-010 | Eleuthra |\n| 12-011 | Exuma and Cays |\n| 12-012 | Long Island |\n| 12-013 | Harbour Island |\n| 12-014 | Inagua |\n| 12-015 | Mayaguana |\n| 12-016 | Ragged Island |\n| 12-017 | Rum Cay |\n| 12-018 | San Salvador |\n| 12-019 | Spanish Wells |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "12-000",
+     "BAHAMAS"
+    ],
+    [
+     "12-001",
+     "New Providence"
+    ],
+    [
+     "12-002",
+     "Grand Bahama"
+    ],
+    [
+     "12-003",
+     "Abaco"
+    ],
+    [
+     "12-004",
+     "Acklins"
+    ],
+    [
+     "12-005",
+     "Andros"
+    ],
+    [
+     "12-006",
+     "Berry Islands"
+    ],
+    [
+     "12-007",
+     "Bimini"
+    ],
+    [
+     "12-008",
+     "Cat Island"
+    ],
+    [
+     "12-009",
+     "Crooked Island"
+    ],
+    [
+     "12-010",
+     "Eleuthra"
+    ],
+    [
+     "12-011",
+     "Exuma and Cays"
+    ],
+    [
+     "12-012",
+     "Long Island"
+    ],
+    [
+     "12-013",
+     "Harbour Island"
+    ],
+    [
+     "12-014",
+     "Inagua"
+    ],
+    [
+     "12-015",
+     "Mayaguana"
+    ],
+    [
+     "12-016",
+     "Ragged Island"
+    ],
+    [
+     "12-017",
+     "Rum Cay"
+    ],
+    [
+     "12-018",
+     "San Salvador"
+    ],
+    [
+     "12-019",
+     "Spanish Wells"
+    ]
+   ]
+  }
+ ]
+}

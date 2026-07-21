@@ -1,0 +1,125 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_chile_cresta_2-10.html",
+ "title": "Chile CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Chile \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for Chile supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Chile (30).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 30-000 | Chile |\n| 30-101 | Z1.1:Tarapaca |\n| 30-102 | Z1.2:Antofagasta |\n| 30-103 | Z1.3:Atacama |\n| 30-104 | Z1.4:Coquimbo |\n| 30-200 | Z2.0:Valparaiso/Aconcagua |\n| 30-300 | Z3.0:Santiago |\n| 30-401 | Z4.1:O'Higgins |\n| 30-402 | Z4.2:Colchagua |\n| 30-403 | Z4.3:Curico |\n| 30-404 | Z4.4:Talca |\n| 30-405 | Z4.5:Maule |\n| 30-406 | Z4.6:Linares |\n| 30-407 | Z4.7:Nuble |\n| 30-408 | Z4.8:Concepcion |\n| 30-409 | Z4.9:Bio-Bio |\n| 30-410 | Z4.10:Arauco |\n| 30-501 | Z5.1:Malleco |\n| 30-502 | Z5.2:Cautin |\n| 30-503 | Z5.3:Valdivia |\n| 30-504 | Z5.4:Osorno |\n| 30-505 | Z5.5:Llanquihue |\n| 30-506 | Z5.6:Chiloe |\n| 30-507 | Z5.7:Aisen |\n| 30-508 | Z5.8:Magallanes |\n| 30-509 | Z5.9:Tierra del Fuego |\n| 30-510 | Z5.10:Antarctica Chilena |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "30-000",
+     "Chile"
+    ],
+    [
+     "30-101",
+     "Z1.1:Tarapaca"
+    ],
+    [
+     "30-102",
+     "Z1.2:Antofagasta"
+    ],
+    [
+     "30-103",
+     "Z1.3:Atacama"
+    ],
+    [
+     "30-104",
+     "Z1.4:Coquimbo"
+    ],
+    [
+     "30-200",
+     "Z2.0:Valparaiso/Aconcagua"
+    ],
+    [
+     "30-300",
+     "Z3.0:Santiago"
+    ],
+    [
+     "30-401",
+     "Z4.1:O'Higgins"
+    ],
+    [
+     "30-402",
+     "Z4.2:Colchagua"
+    ],
+    [
+     "30-403",
+     "Z4.3:Curico"
+    ],
+    [
+     "30-404",
+     "Z4.4:Talca"
+    ],
+    [
+     "30-405",
+     "Z4.5:Maule"
+    ],
+    [
+     "30-406",
+     "Z4.6:Linares"
+    ],
+    [
+     "30-407",
+     "Z4.7:Nuble"
+    ],
+    [
+     "30-408",
+     "Z4.8:Concepcion"
+    ],
+    [
+     "30-409",
+     "Z4.9:Bio-Bio"
+    ],
+    [
+     "30-410",
+     "Z4.10:Arauco"
+    ],
+    [
+     "30-501",
+     "Z5.1:Malleco"
+    ],
+    [
+     "30-502",
+     "Z5.2:Cautin"
+    ],
+    [
+     "30-503",
+     "Z5.3:Valdivia"
+    ],
+    [
+     "30-504",
+     "Z5.4:Osorno"
+    ],
+    [
+     "30-505",
+     "Z5.5:Llanquihue"
+    ],
+    [
+     "30-506",
+     "Z5.6:Chiloe"
+    ],
+    [
+     "30-507",
+     "Z5.7:Aisen"
+    ],
+    [
+     "30-508",
+     "Z5.8:Magallanes"
+    ],
+    [
+     "30-509",
+     "Z5.9:Tierra del Fuego"
+    ],
+    [
+     "30-510",
+     "Z5.10:Antarctica Chilena"
+    ]
+   ]
+  }
+ ]
+}

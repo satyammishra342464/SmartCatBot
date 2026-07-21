@@ -1,0 +1,28 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-agg-limit-types.html",
+ "title": "Sublimit aggregate limit types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit aggregate limit types\n\nNGM\n financial engine policy\n terms: sublimit aggregate limit types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| AGGL | Annual aggregate limit | Total |\n| N | No limit | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "AGGL",
+     "Annual aggregate limit",
+     "Total"
+    ],
+    [
+     "N",
+     "No limit",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

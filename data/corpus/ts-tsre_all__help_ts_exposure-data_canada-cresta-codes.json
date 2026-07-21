@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_canada-cresta-codes.html",
+ "title": "Canada CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Canada \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Canada.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 11 | West very low (British Columbia ex zones W1-W5) |\n| 12 | Alberta |\n| 13 | Saskatchewan |\n| 14 | Manitoba |\n| 15 | Ontario very low |\n| 16 | Quebec very low (excluding zones E1 - E5) |\n| 17 | Maritime provinces |\n| 18 | Newfoundland |\n| 19 | Yukon Territories |\n| 20 | North West Territories and Nunavut |\n| E1 | East extreme |\n| E2 | East very high |\n| E3 | East high |\n| E4 | East moderate |\n| E5 | East low |\n| W1 | West extreme |\n| W2 | West very high |\n| W3 | West high |\n| W4 | West moderate |\n| W5 | West low |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "11",
+     "West very low (British Columbia ex zones W1-W5)"
+    ],
+    [
+     "12",
+     "Alberta"
+    ],
+    [
+     "13",
+     "Saskatchewan"
+    ],
+    [
+     "14",
+     "Manitoba"
+    ],
+    [
+     "15",
+     "Ontario very low"
+    ],
+    [
+     "16",
+     "Quebec very low (excluding zones E1 - E5)"
+    ],
+    [
+     "17",
+     "Maritime provinces"
+    ],
+    [
+     "18",
+     "Newfoundland"
+    ],
+    [
+     "19",
+     "Yukon Territories"
+    ],
+    [
+     "20",
+     "North West Territories and Nunavut"
+    ],
+    [
+     "E1",
+     "East extreme"
+    ],
+    [
+     "E2",
+     "East very high"
+    ],
+    [
+     "E3",
+     "East high"
+    ],
+    [
+     "E4",
+     "East moderate"
+    ],
+    [
+     "E5",
+     "East low"
+    ],
+    [
+     "W1",
+     "West extreme"
+    ],
+    [
+     "W2",
+     "West very high"
+    ],
+    [
+     "W3",
+     "West high"
+    ],
+    [
+     "W4",
+     "West moderate"
+    ],
+    [
+     "W5",
+     "West low"
+    ]
+   ]
+  }
+ ]
+}

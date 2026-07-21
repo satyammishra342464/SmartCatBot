@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hong_kong_cresta_4.html",
+ "title": "Hong Kong CRESTA Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Hong Kong \nCRESTA\n Codes\n\nCRESTA\n codes for Hong Kong supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Hong Kong (52).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 52-0000 | Hong Kong |\n| 52-0001 | Z1 Hong Kong |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "52-0000",
+     "Hong Kong"
+    ],
+    [
+     "52-0001",
+     "Z1 Hong Kong"
+    ]
+   ]
+  }
+ ]
+}

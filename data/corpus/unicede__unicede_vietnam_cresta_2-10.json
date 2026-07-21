@@ -1,0 +1,273 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_vietnam_cresta_2-10.html",
+ "title": "Vietnam CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Vietnam \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Vietnam supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Vietnam (194).\n\n| Area Tag | Zone |\n| --- | --- |\n| 194-01 | Z01:Lai Chau |\n| 194-02 | Z02:Lao Cai |\n| 194-03 | Z03:Ha Giang |\n| 194-04 | Z04:Cao Bang |\n| 194-05 | Z05:Son La |\n| 194-06 | Z06:Yen Bai |\n| 194-07 | Z07:Tuyen Quang |\n| 194-09 | Z09:Lang Son |\n| 194-13 | Z13:Quang Ninh |\n| 194-14 | Z14:Hoa Binh |\n| 194-15 | Z15:Ha Tay |\n| 194-18 | Z18:Ninh Binh |\n| 194-20 | Z20:Thai Binh |\n| 194-21 | Z21:Thanh Hoa |\n| 194-22 | 22:Nghe An |\n| 194-23 | Z23:Ha Tinh |\n| 194-24 | Z24:Quang Binh |\n| 194-25 | Z25:Quang Tri |\n| 194-26 | Z26:Thua Thien - Hue |\n| 194-27 | Z27:Quang Nam |\n| 194-28 | Z28:Kon Tum |\n| 194-29 | Z29:Quang Ngai |\n| 194-30 | Z30:Gia Lai |\n| 194-31 | Z31:Binh Dinh |\n| 194-32 | Z32:Phu Yen |\n| 194-33 | Z33:Dak Lak |\n| 194-34 | Z34:Khanh Hoa |\n| 194-35 | Z35:Lam Dong |\n| 194-36 | Z36:Ninh Thuan |\n| 194-37 | Z37:Tay Ninh |\n| 194-39 | Z39:Dong Nai |\n| 194-40 | Z40:Binh Thuan |\n| 194-41 | Z41:Long An |\n| 194-43 | Z43:Ba Ria - Vung Tau |\n| 194-44 | Z44:An Giang |\n| 194-45 | Z45:Dong Thap |\n| 194-46 | Z46:Tien Giang |\n| 194-47 | Z47:Kien Giang |\n| 194-49 | Z49:Vinh Long |\n| 194-50 | Z50:Ben Tre |\n| 194-51 | Z51:Tra Vinh |\n| 194-52 | Z52:Soc Trang |\n| 194-53 | Z53:Bac Kan |\n| 194-54 | Z54:Bac Giang |\n| 194-55 | Z55:Bac Lieu |\n| 194-56 | Z56:Bac Ninh |\n| 194-57 | Z57:Binh Duong |\n| 194-58 | Z58:Binh Phuoc |\n| 194-59 | Z59:Ca Mau |\n| 194-61 | Z61:Hai Duong |\n| 194-63 | Z63:Ha Nam |\n| 194-66 | Z66:Hung Yen |\n| 194-67 | Z67:Nam Dinh |\n| 194-68 | Z68:Phu Tho |\n| 194-69 | Z69:Thai Nguyen |\n| 194-70 | Z70:Vinh Phuc |\n| 194-71 | Z71:Dien Bien |\n| 194-72 | Z72:Dak Nong |\n| 194-73 | Z73:Hau Giang |\n| 194-CT | ZCT:Can Tho |\n| 194-DN | ZDN:Da Nang |\n| 194-HN | ZHN:Ha Noi |\n| 194-HP | ZHP:Hai Phong |\n| 194-SG | ZSG:Ho Chi Minh City |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "194-01",
+     "Z01:Lai Chau"
+    ],
+    [
+     "194-02",
+     "Z02:Lao Cai"
+    ],
+    [
+     "194-03",
+     "Z03:Ha Giang"
+    ],
+    [
+     "194-04",
+     "Z04:Cao Bang"
+    ],
+    [
+     "194-05",
+     "Z05:Son La"
+    ],
+    [
+     "194-06",
+     "Z06:Yen Bai"
+    ],
+    [
+     "194-07",
+     "Z07:Tuyen Quang"
+    ],
+    [
+     "194-09",
+     "Z09:Lang Son"
+    ],
+    [
+     "194-13",
+     "Z13:Quang Ninh"
+    ],
+    [
+     "194-14",
+     "Z14:Hoa Binh"
+    ],
+    [
+     "194-15",
+     "Z15:Ha Tay"
+    ],
+    [
+     "194-18",
+     "Z18:Ninh Binh"
+    ],
+    [
+     "194-20",
+     "Z20:Thai Binh"
+    ],
+    [
+     "194-21",
+     "Z21:Thanh Hoa"
+    ],
+    [
+     "194-22",
+     "22:Nghe An"
+    ],
+    [
+     "194-23",
+     "Z23:Ha Tinh"
+    ],
+    [
+     "194-24",
+     "Z24:Quang Binh"
+    ],
+    [
+     "194-25",
+     "Z25:Quang Tri"
+    ],
+    [
+     "194-26",
+     "Z26:Thua Thien - Hue"
+    ],
+    [
+     "194-27",
+     "Z27:Quang Nam"
+    ],
+    [
+     "194-28",
+     "Z28:Kon Tum"
+    ],
+    [
+     "194-29",
+     "Z29:Quang Ngai"
+    ],
+    [
+     "194-30",
+     "Z30:Gia Lai"
+    ],
+    [
+     "194-31",
+     "Z31:Binh Dinh"
+    ],
+    [
+     "194-32",
+     "Z32:Phu Yen"
+    ],
+    [
+     "194-33",
+     "Z33:Dak Lak"
+    ],
+    [
+     "194-34",
+     "Z34:Khanh Hoa"
+    ],
+    [
+     "194-35",
+     "Z35:Lam Dong"
+    ],
+    [
+     "194-36",
+     "Z36:Ninh Thuan"
+    ],
+    [
+     "194-37",
+     "Z37:Tay Ninh"
+    ],
+    [
+     "194-39",
+     "Z39:Dong Nai"
+    ],
+    [
+     "194-40",
+     "Z40:Binh Thuan"
+    ],
+    [
+     "194-41",
+     "Z41:Long An"
+    ],
+    [
+     "194-43",
+     "Z43:Ba Ria - Vung Tau"
+    ],
+    [
+     "194-44",
+     "Z44:An Giang"
+    ],
+    [
+     "194-45",
+     "Z45:Dong Thap"
+    ],
+    [
+     "194-46",
+     "Z46:Tien Giang"
+    ],
+    [
+     "194-47",
+     "Z47:Kien Giang"
+    ],
+    [
+     "194-49",
+     "Z49:Vinh Long"
+    ],
+    [
+     "194-50",
+     "Z50:Ben Tre"
+    ],
+    [
+     "194-51",
+     "Z51:Tra Vinh"
+    ],
+    [
+     "194-52",
+     "Z52:Soc Trang"
+    ],
+    [
+     "194-53",
+     "Z53:Bac Kan"
+    ],
+    [
+     "194-54",
+     "Z54:Bac Giang"
+    ],
+    [
+     "194-55",
+     "Z55:Bac Lieu"
+    ],
+    [
+     "194-56",
+     "Z56:Bac Ninh"
+    ],
+    [
+     "194-57",
+     "Z57:Binh Duong"
+    ],
+    [
+     "194-58",
+     "Z58:Binh Phuoc"
+    ],
+    [
+     "194-59",
+     "Z59:Ca Mau"
+    ],
+    [
+     "194-61",
+     "Z61:Hai Duong"
+    ],
+    [
+     "194-63",
+     "Z63:Ha Nam"
+    ],
+    [
+     "194-66",
+     "Z66:Hung Yen"
+    ],
+    [
+     "194-67",
+     "Z67:Nam Dinh"
+    ],
+    [
+     "194-68",
+     "Z68:Phu Tho"
+    ],
+    [
+     "194-69",
+     "Z69:Thai Nguyen"
+    ],
+    [
+     "194-70",
+     "Z70:Vinh Phuc"
+    ],
+    [
+     "194-71",
+     "Z71:Dien Bien"
+    ],
+    [
+     "194-72",
+     "Z72:Dak Nong"
+    ],
+    [
+     "194-73",
+     "Z73:Hau Giang"
+    ],
+    [
+     "194-CT",
+     "ZCT:Can Tho"
+    ],
+    [
+     "194-DN",
+     "ZDN:Da Nang"
+    ],
+    [
+     "194-HN",
+     "ZHN:Ha Noi"
+    ],
+    [
+     "194-HP",
+     "ZHP:Hai Phong"
+    ],
+    [
+     "194-SG",
+     "ZSG:Ho Chi Minh City"
+    ]
+   ]
+  }
+ ]
+}

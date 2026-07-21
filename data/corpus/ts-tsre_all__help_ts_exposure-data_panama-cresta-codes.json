@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_panama-cresta-codes.html",
+ "title": "Panama CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Panama \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Panama.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Provincia de Panama |\n| 2 | Colon Zona Libre |\n| 3 | Colon Zona Libra Nueva |\n| 4 | Resto de la Provincia de Colon |\n| 5 | Archipielago de las Perlas y Otras Islas |\n| 6 | Provincias Oeste |\n| 7 | Provincias Esta |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Provincia de Panama"
+    ],
+    [
+     "2",
+     "Colon Zona Libre"
+    ],
+    [
+     "3",
+     "Colon Zona Libra Nueva"
+    ],
+    [
+     "4",
+     "Resto de la Provincia de Colon"
+    ],
+    [
+     "5",
+     "Archipielago de las Perlas y Otras Islas"
+    ],
+    [
+     "6",
+     "Provincias Oeste"
+    ],
+    [
+     "7",
+     "Provincias Esta"
+    ]
+   ]
+  }
+ ]
+}

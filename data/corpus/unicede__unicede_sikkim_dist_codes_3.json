@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_sikkim_dist_codes_3.html",
+ "title": "Sikkim district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Sikkim district codes\n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-11000 | Sikkim |\n| 113-11001 | North District |\n| 113-11002 | West District |\n| 113-11003 | South District |\n| 113-11004 | East District |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-11000",
+     "Sikkim"
+    ],
+    [
+     "113-11001",
+     "North District"
+    ],
+    [
+     "113-11002",
+     "West District"
+    ],
+    [
+     "113-11003",
+     "South District"
+    ],
+    [
+     "113-11004",
+     "East District"
+    ]
+   ]
+  }
+ ]
+}

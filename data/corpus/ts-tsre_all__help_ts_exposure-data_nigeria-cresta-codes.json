@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_nigeria-cresta-codes.html",
+ "title": "Nigeria CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Nigeria \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Nigeria.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Lagos |\n| 2 | Southern States (excluding Lagos) |\n| 3 | Central States |\n| 4 | Northwestern States |\n| 5 | Northeastern States |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Lagos"
+    ],
+    [
+     "2",
+     "Southern States (excluding Lagos)"
+    ],
+    [
+     "3",
+     "Central States"
+    ],
+    [
+     "4",
+     "Northwestern States"
+    ],
+    [
+     "5",
+     "Northeastern States"
+    ]
+   ]
+  }
+ ]
+}

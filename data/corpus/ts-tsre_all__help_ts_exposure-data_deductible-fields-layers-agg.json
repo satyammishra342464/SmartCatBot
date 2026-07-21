@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_deductible-fields-layers-agg.html",
+ "title": "Layer aggregate deductible fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer aggregate deductible fields\n\nLayer aggregate deductible fields.\nSee \nLayer aggregate deductible types\n for information\n about layer aggregate deductible types.\n\n| Field / Aggregate deductible type | AGGD |\n| --- | --- |\n| Aggregate deductible | Field represents a monetary value, expressed as a value greater than or\n equal to 1. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate deductible type",
+    "AGGD"
+   ],
+   "rows": [
+    [
+     "Aggregate deductible",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1."
+    ]
+   ]
+  }
+ ]
+}

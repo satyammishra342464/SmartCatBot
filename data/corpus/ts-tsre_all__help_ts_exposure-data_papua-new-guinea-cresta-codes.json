@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_papua-new-guinea-cresta-codes.html",
+ "title": "Papua New Guinea CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Papua New Guinea \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Papua New Guinea.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | National Capital District |\n| 2 | Central Prov. (excluding Zone 1) |\n| 3 | Chimbu Prov. |\n| 4 | Enga Prov. |\n| 5 | Gulf Prov. |\n| 6 | Eastern Highlands Prov. |\n| 7 | Southern Highlands Prov. |\n| 8 | Western Highlands Prov. |\n| 9 | Madang Prov. |\n| 10 | Manus Prov. |\n| 11 | Milne Bay Prov. |\n| 12 | Morobe Prov. |\n| 13 | New Ireland Prov. |\n| 14 | East New Britain Prov. |\n| 15 | West New Britain Prov. |\n| 16 | Northern Prov. |\n| 17 | East Sepik Prov. |\n| 18 | West Sepik Prov. |\n| 19 | North Solomons |\n| 20 | Western Prov. |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "National Capital District"
+    ],
+    [
+     "2",
+     "Central Prov. (excluding Zone 1)"
+    ],
+    [
+     "3",
+     "Chimbu Prov."
+    ],
+    [
+     "4",
+     "Enga Prov."
+    ],
+    [
+     "5",
+     "Gulf Prov."
+    ],
+    [
+     "6",
+     "Eastern Highlands Prov."
+    ],
+    [
+     "7",
+     "Southern Highlands Prov."
+    ],
+    [
+     "8",
+     "Western Highlands Prov."
+    ],
+    [
+     "9",
+     "Madang Prov."
+    ],
+    [
+     "10",
+     "Manus Prov."
+    ],
+    [
+     "11",
+     "Milne Bay Prov."
+    ],
+    [
+     "12",
+     "Morobe Prov."
+    ],
+    [
+     "13",
+     "New Ireland Prov."
+    ],
+    [
+     "14",
+     "East New Britain Prov."
+    ],
+    [
+     "15",
+     "West New Britain Prov."
+    ],
+    [
+     "16",
+     "Northern Prov."
+    ],
+    [
+     "17",
+     "East Sepik Prov."
+    ],
+    [
+     "18",
+     "West Sepik Prov."
+    ],
+    [
+     "19",
+     "North Solomons"
+    ],
+    [
+     "20",
+     "Western Prov."
+    ]
+   ]
+  }
+ ]
+}

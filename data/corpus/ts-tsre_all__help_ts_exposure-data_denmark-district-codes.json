@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_denmark-district-codes.html",
+ "title": "Denmark district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Denmark district codes\n\nTouchstone\n supports the following district\n codes for Denmark.\n\n| District Code | District Name |\n| --- | --- |\n| 101 | KÃ¸benhavn |\n| 102 | Frederiksberg |\n| 150 | KÃ¸benhavns Amt |\n| 200 | Frederiksborg Amt |\n| 250 | Roskilde Amt |\n| 300 | VestsjÃ¦llands Amt |\n| 350 | StorstrÃ¸ms Amt |\n| 400 | Bornholms Amt |\n| 420 | Fyns Amt |\n| 500 | SÃ¸nderjyllands Amt |\n| 550 | Ribe Amt |\n| 600 | Vejle Amt |\n| 650 | RingkÃ¸bing Amt |\n| 700 | Ãrhus Amt |\n| 760 | Viborg Amt |\n| 800 | Nordjyllands Amt |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "101",
+     "KÃ¸benhavn"
+    ],
+    [
+     "102",
+     "Frederiksberg"
+    ],
+    [
+     "150",
+     "KÃ¸benhavns Amt"
+    ],
+    [
+     "200",
+     "Frederiksborg Amt"
+    ],
+    [
+     "250",
+     "Roskilde Amt"
+    ],
+    [
+     "300",
+     "VestsjÃ¦llands Amt"
+    ],
+    [
+     "350",
+     "StorstrÃ¸ms Amt"
+    ],
+    [
+     "400",
+     "Bornholms Amt"
+    ],
+    [
+     "420",
+     "Fyns Amt"
+    ],
+    [
+     "500",
+     "SÃ¸nderjyllands Amt"
+    ],
+    [
+     "550",
+     "Ribe Amt"
+    ],
+    [
+     "600",
+     "Vejle Amt"
+    ],
+    [
+     "650",
+     "RingkÃ¸bing Amt"
+    ],
+    [
+     "700",
+     "Ãrhus Amt"
+    ],
+    [
+     "760",
+     "Viborg Amt"
+    ],
+    [
+     "800",
+     "Nordjyllands Amt"
+    ]
+   ]
+  }
+ ]
+}

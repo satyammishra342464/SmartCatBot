@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_barbados-cresta_2-8.html",
+ "title": "Barbados parish codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Barbados parish codes (v2.8)\n\nParish codes for Barbados supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Barbados (39).\n\n| Area Tag | Parish Name |\n| --- | --- |\n| 39-000 | BARBADOS |\n| 39-001 | Christ Church |\n| 39-002 | St. Andrew |\n| 39-003 | St. George |\n| 39-004 | St. James |\n| 39-005 | St. John |\n| 39-006 | St. Joseph |\n| 39-007 | St. Lucy |\n| 39-008 | St. Michael |\n| 39-009 | St. Peter |\n| 39-010 | St. Philip |\n| 39-011 | St. Thomas |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Parish Name"
+   ],
+   "rows": [
+    [
+     "39-000",
+     "BARBADOS"
+    ],
+    [
+     "39-001",
+     "Christ Church"
+    ],
+    [
+     "39-002",
+     "St. Andrew"
+    ],
+    [
+     "39-003",
+     "St. George"
+    ],
+    [
+     "39-004",
+     "St. James"
+    ],
+    [
+     "39-005",
+     "St. John"
+    ],
+    [
+     "39-006",
+     "St. Joseph"
+    ],
+    [
+     "39-007",
+     "St. Lucy"
+    ],
+    [
+     "39-008",
+     "St. Michael"
+    ],
+    [
+     "39-009",
+     "St. Peter"
+    ],
+    [
+     "39-010",
+     "St. Philip"
+    ],
+    [
+     "39-011",
+     "St. Thomas"
+    ]
+   ]
+  }
+ ]
+}

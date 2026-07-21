@@ -1,0 +1,75 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_caribbean-lob_2-8_10.html",
+ "title": "Caribbean Lines Of Business (v2.8)",
+ "section": "unicede",
+ "version": null,
+ "text": "Caribbean Lines Of Business (v2.8)\n \n\nLOB codes for select countries in the Caribbean supported by \nUNICEDE\n/2.\n\nThese codes are valid when using \nUNICEDE\n/2 exposures in the\n following countries:\n\n| Anguilla Antigua & Barbuda Aruba Bahamas Barbados Bermuda British Virgin Islands Cayman Islands Cuba | Dominica Dominican Republic Grenada Guadeloupe Haiti Jamaica Martinique Montserrat Netherlands Antilles | Saint Barts Saint Kitts & Nevis Sint Maarten Saint Martin Saint Vincent & the Grenadines Trinidad and Tobago Turks & Caicos Islands |\n\nStandard Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential Building |\n| APT | Residential Apartments |\n| COM | Commercial |\n| IND | Industrial |\n| HTL | Hotels |\n| GH | Guest Houses |\n| AUTO | Automobile |\n\nMarket Share Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential Building |\n| COM | Commercial |\n| AUTO | Automobile |",
+ "tables": [
+  {
+   "headers": [],
+   "rows": [
+    [
+     "Anguilla Antigua & Barbuda Aruba Bahamas Barbados Bermuda British Virgin Islands Cayman Islands Cuba",
+     "Dominica Dominican Republic Grenada Guadeloupe Haiti Jamaica Martinique Montserrat Netherlands Antilles",
+     "Saint Barts Saint Kitts & Nevis Sint Maarten Saint Martin Saint Vincent & the Grenadines Trinidad and Tobago Turks & Caicos Islands"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "APT",
+     "Residential Apartments"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "HTL",
+     "Hotels"
+    ],
+    [
+     "GH",
+     "Guest Houses"
+    ],
+    [
+     "AUTO",
+     "Automobile"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "AUTO",
+     "Automobile"
+    ]
+   ]
+  }
+ ]
+}

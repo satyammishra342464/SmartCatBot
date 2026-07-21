@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_macau_lob_2-8.html",
+ "title": "Macau Lines of Business (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Macau Lines of Business (v2.8)\n\nLOB codes for Macau supported by \nUNICEDE\n/2.\n\nThese codes are valid for Macau.\n\n| Code | Lines of Business |\n| --- | --- |\n| RB | Residential Buildings |\n| RC | Residential Contents |\n| RBC | Residential Buildings & Contents |\n| COMB | Commercial & Industrial Buildings |\n| COMC | Commercial & Industrial Contents |\n| CAI | Commercial & Industrial |\n| AUTO | Auto |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "RB",
+     "Residential Buildings"
+    ],
+    [
+     "RC",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Buildings & Contents"
+    ],
+    [
+     "COMB",
+     "Commercial & Industrial Buildings"
+    ],
+    [
+     "COMC",
+     "Commercial & Industrial Contents"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AUTO",
+     "Auto"
+    ]
+   ]
+  }
+ ]
+}

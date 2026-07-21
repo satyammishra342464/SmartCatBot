@@ -1,0 +1,67 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-loc-limit-type-combos.html",
+ "title": "Location/sublimit limit type combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location/sublimit limit type combinations\n\nLocation/sublimit limit type combinations.\n\n| Location / Sublimit | B | E | C | C100 | CAI | N |\n| --- | --- | --- | --- | --- | --- | --- |\n| Site | Valid | Valid | Valid | | | |\n| EF | Valid | Valid | Valid | | | Valid |\n| C | Valid | Valid | Valid | Valid | Valid | Valid |\n| EE | Valid | Valid | Valid | Valid | Valid | Valid |\n| N | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Location / Sublimit",
+    "B",
+    "E",
+    "C",
+    "C100",
+    "CAI",
+    "N"
+   ],
+   "rows": [
+    [
+     "Site",
+     "Valid",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     ""
+    ],
+    [
+     "EF",
+     "Valid",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "C",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "EE",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

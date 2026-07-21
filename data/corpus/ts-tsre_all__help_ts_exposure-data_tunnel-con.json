@@ -1,0 +1,68 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_tunnel-con.html",
+ "title": "Tunnel construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Tunnel construction codes\n\nThe tunnel construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for 2000-series codes\n to the \nVerisk Bushfire Model for Australia\n and the \nVerisk Typhoon Model for South Korea\n. For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 213 | Alluvium Tunnels | Tunnels that were drilled through unconsolidated sedimentary deposits\n and then typically lined with concrete For exposures in South America, use\n code 2131. |\n| 214 | Rock Tunnels | Rock tunnels are lined or unlined tunnels that were drilled through\n rock. For exposures in South America, use 2141. |\n| 215 | Cut and Cover Tunnels | Tunnels that were constructed by cutting a trench, installing a liner,\n and then covering the liner with earth. |\n| 2131 | Alluvium Tunnels | Lined or unlined alluvium tunnels with unknown method of\n construction. |\n| 2132 | Alluvial Bored Tunnels | Lined or unlined tunnels constructed through alluvium soil using a\n boring machine. |\n| 2141 | Rock Tunnels | Lined or unlined rock tunnels with unknown method of\n construction |\n| 2142 | Rock Bored Tunnels | Lined or unlined tunnels drilled through rock using a boring\n machine. |\n| 2150 | Unknown Tunnel | Lined or unlined tunnels with unknown material and unknown method of\n construction, or other tunnels that cannot be mapped to any of the other\n tunnel construction class codes. |\n| 2151 | Rock Cut and Cover Tunnels | Lined or unlined rock tunnels constructed after excavating a trench and\n roofing over with an overhead support system. |\n| 2152 | Alluvial Cut and Cover Tunnels | Lined or unlined alluvium tunnels constructed after excavating a trench\n and roofing over with an overhead support system. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "213",
+     "Alluvium Tunnels",
+     "Tunnels that were drilled through unconsolidated sedimentary deposits\n                        and then typically lined with concrete For exposures in South America, use\n                        code 2131."
+    ],
+    [
+     "214",
+     "Rock Tunnels",
+     "Rock tunnels are lined or unlined tunnels that were drilled through\n                        rock. For exposures in South America, use 2141."
+    ],
+    [
+     "215",
+     "Cut and Cover Tunnels",
+     "Tunnels that were constructed by cutting a trench, installing a liner,\n                        and then covering the liner with earth."
+    ],
+    [
+     "2131",
+     "Alluvium Tunnels",
+     "Lined or unlined alluvium tunnels with unknown method of\n                        construction."
+    ],
+    [
+     "2132",
+     "Alluvial Bored Tunnels",
+     "Lined or unlined tunnels constructed through alluvium soil using a\n                        boring machine."
+    ],
+    [
+     "2141",
+     "Rock Tunnels",
+     "Lined or unlined rock tunnels with unknown method of\n                        construction"
+    ],
+    [
+     "2142",
+     "Rock Bored Tunnels",
+     "Lined or unlined tunnels drilled through rock using a boring\n                        machine."
+    ],
+    [
+     "2150",
+     "Unknown Tunnel",
+     "Lined or unlined tunnels with unknown material and unknown method of\n                        construction, or other tunnels that cannot be mapped to any of the other\n                        tunnel construction class codes."
+    ],
+    [
+     "2151",
+     "Rock Cut and Cover Tunnels",
+     "Lined or unlined rock tunnels constructed after excavating a trench and\n                        roofing over with an overhead support system."
+    ],
+    [
+     "2152",
+     "Alluvial Cut and Cover Tunnels",
+     "Lined or unlined alluvium tunnels constructed after excavating a trench\n                        and roofing over with an overhead support system."
+    ]
+   ]
+  }
+ ]
+}

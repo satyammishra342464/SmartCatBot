@@ -1,0 +1,105 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_croatia_cresta_2-7.html",
+ "title": "Croatia CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Croatia \nCRESTA\n Codes (v2.7)\n\nCRESTA\n codes for Croatia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Croatia (74).\n\n| Area Tag | Zone |\n| --- | --- |\n| 74-000 | CROATIA |\n| 74-001 | Z01: Medimurska |\n| 74-002 | Z02: Krapinsko-zagorska |\n| 74-003 | Z03: Varazdinska |\n| 74-004 | Z04: Koprivnicko-krizevacka |\n| 74-005 | Z05: Zagrebacka |\n| 74-006 | Z06: Grad Zagreb |\n| 74-007 | Z07: Bjelovarsko-bilogorska |\n| 74-008 | Z08: Viroviticko-podravska |\n| 74-009 | Z09: Osjecko-baranjska |\n| 74-010 | Z10: Istarska |\n| 74-011 | Z11: Primorsko-goranska |\n| 74-012 | Z12: Karlovacka |\n| 74-013 | Z13: Sisacko-moslavacka |\n| 74-014 | Z14: Pozesko-slavonska |\n| 74-015 | Z15: Brodsko-posavska |\n| 74-016 | Z16: Vukovarsko-srijemska |\n| 74-017 | Z17: Licko-senjska |\n| 74-018 | Z18: Zadarska |\n| 74-019 | Z19: Sibensko-Kninska |\n| 74-020 | Z20: Splitsko-dalmatinska |\n| 74-021 | Z21: Dubrovacko-neretvanska |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "74-000",
+     "CROATIA"
+    ],
+    [
+     "74-001",
+     "Z01: Medimurska"
+    ],
+    [
+     "74-002",
+     "Z02: Krapinsko-zagorska"
+    ],
+    [
+     "74-003",
+     "Z03: Varazdinska"
+    ],
+    [
+     "74-004",
+     "Z04: Koprivnicko-krizevacka"
+    ],
+    [
+     "74-005",
+     "Z05: Zagrebacka"
+    ],
+    [
+     "74-006",
+     "Z06: Grad Zagreb"
+    ],
+    [
+     "74-007",
+     "Z07: Bjelovarsko-bilogorska"
+    ],
+    [
+     "74-008",
+     "Z08: Viroviticko-podravska"
+    ],
+    [
+     "74-009",
+     "Z09: Osjecko-baranjska"
+    ],
+    [
+     "74-010",
+     "Z10: Istarska"
+    ],
+    [
+     "74-011",
+     "Z11: Primorsko-goranska"
+    ],
+    [
+     "74-012",
+     "Z12: Karlovacka"
+    ],
+    [
+     "74-013",
+     "Z13: Sisacko-moslavacka"
+    ],
+    [
+     "74-014",
+     "Z14: Pozesko-slavonska"
+    ],
+    [
+     "74-015",
+     "Z15: Brodsko-posavska"
+    ],
+    [
+     "74-016",
+     "Z16: Vukovarsko-srijemska"
+    ],
+    [
+     "74-017",
+     "Z17: Licko-senjska"
+    ],
+    [
+     "74-018",
+     "Z18: Zadarska"
+    ],
+    [
+     "74-019",
+     "Z19: Sibensko-Kninska"
+    ],
+    [
+     "74-020",
+     "Z20: Splitsko-dalmatinska"
+    ],
+    [
+     "74-021",
+     "Z21: Dubrovacko-neretvanska"
+    ]
+   ]
+  }
+ ]
+}

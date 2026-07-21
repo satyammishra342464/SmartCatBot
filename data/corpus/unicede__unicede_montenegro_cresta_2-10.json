@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_montenegro_cresta_2-10.html",
+ "title": "Montenegro CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Montenegro \nCRESTA\n Codes (v2.10) \n\nCRESTA\n codes for Montenegro supported by\n \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Montenegro (145).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 145-MNE | Montenegro |\n| 145-MNE_01 | Andrijevica |\n| 145-MNE_02 | Bar |\n| 145-MNE_03 | Berane |\n| 145-MNE_04 | Bijelo Polje |\n| 145-MNE_05 | Budva |\n| 145-MNE_06 | Cetinje |\n| 145-MNE_07 | Danilovgrad |\n| 145-MNE_08 | Herceg Novi |\n| 145-MNE_09 | Kolasin |\n| 145-MNE_10 | Kotor |\n| 145-MNE_11 | Mojkovac |\n| 145-MNE_12 | Niksic |\n| 145-MNE_13 | Plav |\n| 145-MNE_14 | Pljevlja |\n| 145-MNE_15 | Pluzine |\n| 145-MNE_16 | Podgorica |\n| 145-MNE_17 | Rozaje |\n| 145-MNE_18 | Savnik |\n| 145-MNE_19 | Tivat |\n| 145-MNE_20 | Ulcinj |\n| 145-MNE_21 | Zabljak |\n| 145-MNE_22 | Gusinje |\n| 145-MNE_23 | Petnjica |\n| 145-MNE_24 | Tuzi |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "145-MNE",
+     "Montenegro"
+    ],
+    [
+     "145-MNE_01",
+     "Andrijevica"
+    ],
+    [
+     "145-MNE_02",
+     "Bar"
+    ],
+    [
+     "145-MNE_03",
+     "Berane"
+    ],
+    [
+     "145-MNE_04",
+     "Bijelo Polje"
+    ],
+    [
+     "145-MNE_05",
+     "Budva"
+    ],
+    [
+     "145-MNE_06",
+     "Cetinje"
+    ],
+    [
+     "145-MNE_07",
+     "Danilovgrad"
+    ],
+    [
+     "145-MNE_08",
+     "Herceg Novi"
+    ],
+    [
+     "145-MNE_09",
+     "Kolasin"
+    ],
+    [
+     "145-MNE_10",
+     "Kotor"
+    ],
+    [
+     "145-MNE_11",
+     "Mojkovac"
+    ],
+    [
+     "145-MNE_12",
+     "Niksic"
+    ],
+    [
+     "145-MNE_13",
+     "Plav"
+    ],
+    [
+     "145-MNE_14",
+     "Pljevlja"
+    ],
+    [
+     "145-MNE_15",
+     "Pluzine"
+    ],
+    [
+     "145-MNE_16",
+     "Podgorica"
+    ],
+    [
+     "145-MNE_17",
+     "Rozaje"
+    ],
+    [
+     "145-MNE_18",
+     "Savnik"
+    ],
+    [
+     "145-MNE_19",
+     "Tivat"
+    ],
+    [
+     "145-MNE_20",
+     "Ulcinj"
+    ],
+    [
+     "145-MNE_21",
+     "Zabljak"
+    ],
+    [
+     "145-MNE_22",
+     "Gusinje"
+    ],
+    [
+     "145-MNE_23",
+     "Petnjica"
+    ],
+    [
+     "145-MNE_24",
+     "Tuzi"
+    ]
+   ]
+  }
+ ]
+}

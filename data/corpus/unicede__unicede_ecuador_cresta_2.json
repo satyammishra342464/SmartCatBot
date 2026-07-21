@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_ecuador_cresta_2.html",
+ "title": "Ecuador CRESTA Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Ecuador \nCRESTA\n Codes\n\nCRESTA\n codes for Ecuador supported by \nUNICEDE\n/2 supported by \nUNICEDE\n/2 supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Ecuador (34).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 34-026 | Z01: Guayas |\n| 34-027 | Z02: Pichincha |\n| 34-028 | Z03: Restor del Pais (incl. Galapagos Islands) |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "34-026",
+     "Z01: Guayas"
+    ],
+    [
+     "34-027",
+     "Z02: Pichincha"
+    ],
+    [
+     "34-028",
+     "Z03: Restor del Pais (incl. Galapagos Islands)"
+    ]
+   ]
+  }
+ ]
+}

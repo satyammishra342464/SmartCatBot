@@ -1,0 +1,161 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_india-cresta-codes.html",
+ "title": "India CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "India \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for India.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Jammu & Kashmir |\n| 2 | Himachal Pradesh |\n| 3 | Punjab |\n| 4 | Chandigarh |\n| 5 | Uttarakhand |\n| 6 | Haryana |\n| 7 | Delhi |\n| 8 | Rajasthan |\n| 9 | Uttar Pradesh |\n| 10 | Bihar |\n| 11 | Sikkim |\n| 12 | Arunachal Pradesh |\n| 13 | Nagaland |\n| 14 | Manipur |\n| 15 | Mizoram |\n| 16 | Tripura |\n| 17 | Meghalaya |\n| 18 | Assam |\n| 19 | West Bengal |\n| 20 | Jharkhand |\n| 21 | Orissa |\n| 22 | Chhattisgarh |\n| 23 | Madhya Pradesh |\n| 24 | Gujarat |\n| 25 | Daman and Diu |\n| 26 | Dadra and Nagar Haveli |\n| 27 | Maharashtra |\n| 28 | Andhra Pradesh |\n| 29 | Karnataka |\n| 30 | Goa |\n| 31 | Lakshadweep |\n| 32 | Kerala |\n| 33 | Tamil Nadu |\n| 34 | Puducherry |\n| 35 | Andaman and Nicobar Islands |\n| 36 | Telangana |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Jammu & Kashmir"
+    ],
+    [
+     "2",
+     "Himachal Pradesh"
+    ],
+    [
+     "3",
+     "Punjab"
+    ],
+    [
+     "4",
+     "Chandigarh"
+    ],
+    [
+     "5",
+     "Uttarakhand"
+    ],
+    [
+     "6",
+     "Haryana"
+    ],
+    [
+     "7",
+     "Delhi"
+    ],
+    [
+     "8",
+     "Rajasthan"
+    ],
+    [
+     "9",
+     "Uttar Pradesh"
+    ],
+    [
+     "10",
+     "Bihar"
+    ],
+    [
+     "11",
+     "Sikkim"
+    ],
+    [
+     "12",
+     "Arunachal Pradesh"
+    ],
+    [
+     "13",
+     "Nagaland"
+    ],
+    [
+     "14",
+     "Manipur"
+    ],
+    [
+     "15",
+     "Mizoram"
+    ],
+    [
+     "16",
+     "Tripura"
+    ],
+    [
+     "17",
+     "Meghalaya"
+    ],
+    [
+     "18",
+     "Assam"
+    ],
+    [
+     "19",
+     "West Bengal"
+    ],
+    [
+     "20",
+     "Jharkhand"
+    ],
+    [
+     "21",
+     "Orissa"
+    ],
+    [
+     "22",
+     "Chhattisgarh"
+    ],
+    [
+     "23",
+     "Madhya Pradesh"
+    ],
+    [
+     "24",
+     "Gujarat"
+    ],
+    [
+     "25",
+     "Daman and Diu"
+    ],
+    [
+     "26",
+     "Dadra and Nagar Haveli"
+    ],
+    [
+     "27",
+     "Maharashtra"
+    ],
+    [
+     "28",
+     "Andhra Pradesh"
+    ],
+    [
+     "29",
+     "Karnataka"
+    ],
+    [
+     "30",
+     "Goa"
+    ],
+    [
+     "31",
+     "Lakshadweep"
+    ],
+    [
+     "32",
+     "Kerala"
+    ],
+    [
+     "33",
+     "Tamil Nadu"
+    ],
+    [
+     "34",
+     "Puducherry"
+    ],
+    [
+     "35",
+     "Andaman and Nicobar Islands"
+    ],
+    [
+     "36",
+     "Telangana"
+    ]
+   ]
+  }
+ ]
+}

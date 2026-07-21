@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_liechtenstein_cresta_2-10.html",
+ "title": "Liechtenstein CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Liechtenstein \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Liechtenstein supported by \nUNICEDE\n/2.\n\nThe code listed below includes the country code for Liechtenstein (130).\n\n| Area Tag | Country Name |\n| --- | --- |\n| 130-LIE | Liechtenstein |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Country Name"
+   ],
+   "rows": [
+    [
+     "130-LIE",
+     "Liechtenstein"
+    ]
+   ]
+  }
+ ]
+}

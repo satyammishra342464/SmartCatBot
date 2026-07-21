@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_singapore-cresta-codes.html",
+ "title": "Singapore CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Singapore \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Singapore.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Singapore |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Singapore"
+    ]
+   ]
+  }
+ ]
+}

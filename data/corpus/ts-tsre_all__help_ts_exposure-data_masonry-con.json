@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_masonry-con.html",
+ "title": "Masonry construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Masonry construction codes\n\nThe masonry construction codes supported by \nTouchstone\n.\n\nNote:\n \nTouchstone\n applies\n non-engineered building damage distributions to the following construction classes: 101,\n 102, 103, 104, 111, 112, 113, 114, 115, 173, 174, 178, 179, 261. This action occurs\n regardless of occupancy class, including the industrial facility (400-series) occupancy\n classes. This note applies to the \nVerisk Earthquake Model for Japan\n, the\n \nVerisk Earthquake Model for Canada\n, and the \nVerisk Typhoon Model for South Korea\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 111 | Masonry | Use this option when the exterior walls are constructed of masonry\n materials, but detailed construction information is unavailable or\n unknown. |\n| 112 | Adobe | Adobe construction uses adobe (clay) blocks with cement or cement-clay\n mixture as mortar. The roof consists of a timber frame with clay tiles or, in\n some cases, metal roofing. |\n| 113 | Rubble Stone Masonry | Rubble stone masonry consists of low-rise perimeter load-bearing walls composed of irregular\n stones laid as coursed or uncoursed rubble in a cement mortar bed, with\n floor and roof joists constructed with wood framing. |\n| 114 | Unreinforced Masonry - Bearing Wall | Unreinforced masonry buildings consist of structures in which there is no steel reinforcing\n within a load-bearing masonry wall. Floors, roofs, and internal\n partitions in these bearing wall buildings are usually of wood. |\n| 115 | Unreinforced Masonry - Bearing Frame | Unreinforced masonry is used for infill walls of buildings with a bearing\n frame. In this structure type, the masonry is intended to be used not to\n support gravity loads, but to assist with lateral loads. |\n| 116 | Reinforced Masonry | Reinforced masonry construction consists of load bearing walls of\n reinforced brick or concrete-block masonry. Floor and roof joists constructed\n with wood framing are common. |\n| 117 | Reinforced Masonry Shear Wall (with MRF) | Reinforced masonry construction consists of load-bearing walls of reinforced brick or\n concrete-block masonry. Reinforced masonry buildings with \"Moment\n Resisting Frames\" carry lateral loads by bending. \"Shear Walls\" are\n continuous reinforced brick or reinforced hollow concrete block walls\n extending from the foundation to the roof and can be exterior walls or\n interior walls. |\n| 118 | Reinforced Masonry Shear Wall (without MRF) | Reinforced masonry construction consists of load-bearing walls of reinforced brick or\n concrete-block masonry. \"Shear Walls\" are continuous reinforced brick or\n reinforced hollow concrete block walls extending from the foundation to\n the roof and can be exterior walls or interior walls. |\n| 119 | Joisted Masonry | Masonry exterior walls with roof of combustible materials on\n non-combustible supports. |\n| 120 | Confined Masonry | Confined masonry is a construction system in which plain masonry walls are confined on all four\n sides by reinforced concrete or reinforced masonry members. The walls\n themselves, however, carry all the gravity and lateral loads.\n Currently supported for locations in Australia, the Caribbean, Central\n America, China, Mexico, New Zealand, South America, South Korea, and\n Taiwan, for some locations in Europe ,\n including Central Europe. |\n| 121 | Cavity Double Brick | An unreinforced masonry construction type composed of two layers of bricks,\n common in many cities in Australia. Currently supported only for some\n locations in Australia and New Zealand. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "111",
+     "Masonry",
+     "Use this option when the exterior walls are constructed of masonry\n                     materials, but detailed construction information is unavailable or\n                     unknown."
+    ],
+    [
+     "112",
+     "Adobe",
+     "Adobe construction uses adobe (clay) blocks with cement or cement-clay\n                     mixture as mortar. The roof consists of a timber frame with clay tiles or, in\n                     some cases, metal roofing."
+    ],
+    [
+     "113",
+     "Rubble Stone Masonry",
+     "Rubble stone masonry consists of low-rise perimeter load-bearing walls composed of irregular\n                           stones laid as coursed or uncoursed rubble in a cement mortar bed, with\n                           floor and roof joists constructed with wood framing."
+    ],
+    [
+     "114",
+     "Unreinforced Masonry - Bearing Wall",
+     "Unreinforced masonry buildings consist of structures in which there is no steel reinforcing\n                           within a load-bearing masonry wall. Floors, roofs, and internal\n                           partitions in these bearing wall buildings are usually of wood."
+    ],
+    [
+     "115",
+     "Unreinforced Masonry - Bearing Frame",
+     "Unreinforced masonry is used for infill walls of buildings with a bearing\n                     frame. In this structure type, the masonry is intended to be used not to\n                     support gravity loads, but to assist with lateral loads."
+    ],
+    [
+     "116",
+     "Reinforced Masonry",
+     "Reinforced masonry construction consists of load bearing walls of\n                     reinforced brick or concrete-block masonry. Floor and roof joists constructed\n                     with wood framing are common."
+    ],
+    [
+     "117",
+     "Reinforced Masonry Shear Wall (with MRF)",
+     "Reinforced masonry construction consists of load-bearing walls of reinforced brick or\n                           concrete-block masonry. Reinforced masonry buildings with \"Moment\n                           Resisting Frames\" carry lateral loads by bending. \"Shear Walls\" are\n                           continuous reinforced brick or reinforced hollow concrete block walls\n                           extending from the foundation to the roof and can be exterior walls or\n                           interior walls."
+    ],
+    [
+     "118",
+     "Reinforced Masonry Shear Wall (without MRF)",
+     "Reinforced masonry construction consists of load-bearing walls of reinforced brick or\n                           concrete-block masonry. \"Shear Walls\" are continuous reinforced brick or\n                           reinforced hollow concrete block walls extending from the foundation to\n                           the roof and can be exterior walls or interior walls."
+    ],
+    [
+     "119",
+     "Joisted Masonry",
+     "Masonry exterior walls with roof of combustible materials on\n                     non-combustible supports."
+    ],
+    [
+     "120",
+     "Confined Masonry",
+     "Confined masonry is a construction system in which plain masonry walls are confined on all four\n                           sides by reinforced concrete or reinforced masonry members. The walls\n                           themselves, however, carry all  the gravity and lateral loads.\n                        Currently supported for locations in Australia, the Caribbean, Central\n                           America, China, Mexico, New Zealand, South America, South Korea, and\n                           Taiwan, for some locations in Europe ,\n                           including Central Europe."
+    ],
+    [
+     "121",
+     "Cavity Double Brick",
+     "An unreinforced masonry construction type composed of two layers of bricks,\n                        common in many cities in Australia. Currently supported only for some\n                        locations in Australia and New Zealand."
+    ]
+   ]
+  }
+ ]
+}

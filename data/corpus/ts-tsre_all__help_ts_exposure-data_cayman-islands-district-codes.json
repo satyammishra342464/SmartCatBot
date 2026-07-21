@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_cayman-islands-district-codes.html",
+ "title": "Cayman Islands district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Cayman Islands district codes\n\nTouchstone\n supports the following district\n codes for Cayman Islands.\n\n| District Code | District Name |\n| --- | --- |\n| 1 | Bodden Town |\n| 2 | East End |\n| 3 | George Town |\n| 4 | North Side |\n| 5 | West Bay |\n| 6 | Little Cayman |\n| 7 | Cayman Brac |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Bodden Town"
+    ],
+    [
+     "2",
+     "East End"
+    ],
+    [
+     "3",
+     "George Town"
+    ],
+    [
+     "4",
+     "North Side"
+    ],
+    [
+     "5",
+     "West Bay"
+    ],
+    [
+     "6",
+     "Little Cayman"
+    ],
+    [
+     "7",
+     "Cayman Brac"
+    ]
+   ]
+  }
+ ]
+}

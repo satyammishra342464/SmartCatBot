@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_financial-term-types.html",
+ "title": "Term types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Term types\n\nEach of the financial terms (that is, limits and deductibles) that \nTouchstone\n supports for layers, sublimits, and locations\n fall into one of the categories indicated below.\n\n| Type | Description |\n| --- | --- |\n| ABCD | This category refers to financial terms that are split by coverage type\n (Limit A, Limit B, Limit C, Limit D). In very general terms, property exposure\n data treats these coverages as follows: A - Building B - Other Structures C - Contents D - Time For this financial term type, you import a separate replacement value for\n each of the coverage types and a separate limit to the amount of financial\n relief the insurance company provides for each of these coverage types. |\n| ABC-D | This category refers to insurance coverage that is split only between\n Building and Time coverage, where the Building accounts for the Other\n Structures and Contents together (Limit A, B, C, - then Limit D). This means that only a replacement value and a limit will be specified for A\n and for D separately, because B and C are being aggregated into A. |\n| Total | This category refers to insurance coverage that combines all exposure into\n a single replacement value and a single limit to the financial relief that the\n insurance company will provide. |",
+ "tables": [
+  {
+   "headers": [
+    "Type",
+    "Description"
+   ],
+   "rows": [
+    [
+     "ABCD",
+     "This category refers to financial terms that are split by coverage type\n                     (Limit A, Limit B, Limit C, Limit D). In very general terms, property exposure\n                     data treats these coverages as follows: A - Building B - Other Structures C - Contents D - Time For this financial term type, you import a separate replacement value for\n                     each of the coverage types and a separate limit to the amount of financial\n                     relief the insurance company provides for each of these coverage types."
+    ],
+    [
+     "ABC-D",
+     "This category refers to insurance coverage that is split only between\n                        Building and Time coverage, where the Building accounts for the Other\n                        Structures and Contents together (Limit A, B, C, - then Limit D). This means that only a replacement value and a limit will be specified for A\n                        and for D separately, because B and C are being aggregated into A."
+    ],
+    [
+     "Total",
+     "This category refers to insurance coverage that combines all exposure into\n                     a single replacement value and a single limit to the financial relief that the\n                     insurance company will provide."
+    ]
+   ]
+  }
+ ]
+}

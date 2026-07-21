@@ -1,0 +1,133 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_bulgaria-cresta_2-7.html",
+ "title": "Bulgaria CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Bulgaria \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Bulgaria supported by\n \nUNICEDE\n/2.\nThe codes listed below include the country code for Bulgaria (220).\n\n| Area Tag | Zone |\n| --- | --- |\n| 220-000 | Bulgaria |\n| 220-001 | Sofiya Grad |\n| 220-002 | Sofiya |\n| 220-003 | Pernik |\n| 220-004 | Kyustendil |\n| 220-005 | Blagoevgrad |\n| 220-006 | Pazardzhik |\n| 220-007 | Smolyan |\n| 220-008 | Plovdiv |\n| 220-009 | Kyrdzhali |\n| 220-010 | Haskovo |\n| 220-011 | Stara Zagora |\n| 220-012 | Sliven |\n| 220-013 | Yambol |\n| 220-014 | Burgas |\n| 220-015 | Varna |\n| 220-016 | Dobrich |\n| 220-017 | Shumen |\n| 220-018 | Silistra |\n| 220-019 | Razgrad |\n| 220-020 | Tyrgovische |\n| 220-021 | Ruse |\n| 220-022 | Veliko Tyrnovo |\n| 220-023 | Gabrovo |\n| 220-024 | Lovech |\n| 220-025 | Pleven |\n| 220-026 | Vraca |\n| 220-027 | Montana |\n| 220-028 | Vidin |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "220-000",
+     "Bulgaria"
+    ],
+    [
+     "220-001",
+     "Sofiya Grad"
+    ],
+    [
+     "220-002",
+     "Sofiya"
+    ],
+    [
+     "220-003",
+     "Pernik"
+    ],
+    [
+     "220-004",
+     "Kyustendil"
+    ],
+    [
+     "220-005",
+     "Blagoevgrad"
+    ],
+    [
+     "220-006",
+     "Pazardzhik"
+    ],
+    [
+     "220-007",
+     "Smolyan"
+    ],
+    [
+     "220-008",
+     "Plovdiv"
+    ],
+    [
+     "220-009",
+     "Kyrdzhali"
+    ],
+    [
+     "220-010",
+     "Haskovo"
+    ],
+    [
+     "220-011",
+     "Stara Zagora"
+    ],
+    [
+     "220-012",
+     "Sliven"
+    ],
+    [
+     "220-013",
+     "Yambol"
+    ],
+    [
+     "220-014",
+     "Burgas"
+    ],
+    [
+     "220-015",
+     "Varna"
+    ],
+    [
+     "220-016",
+     "Dobrich"
+    ],
+    [
+     "220-017",
+     "Shumen"
+    ],
+    [
+     "220-018",
+     "Silistra"
+    ],
+    [
+     "220-019",
+     "Razgrad"
+    ],
+    [
+     "220-020",
+     "Tyrgovische"
+    ],
+    [
+     "220-021",
+     "Ruse"
+    ],
+    [
+     "220-022",
+     "Veliko Tyrnovo"
+    ],
+    [
+     "220-023",
+     "Gabrovo"
+    ],
+    [
+     "220-024",
+     "Lovech"
+    ],
+    [
+     "220-025",
+     "Pleven"
+    ],
+    [
+     "220-026",
+     "Vraca"
+    ],
+    [
+     "220-027",
+     "Montana"
+    ],
+    [
+     "220-028",
+     "Vidin"
+    ]
+   ]
+  }
+ ]
+}

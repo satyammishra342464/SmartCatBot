@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_taiwan_peril_codes_2-9.html",
+ "title": "Taiwan Peril Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Taiwan Peril Codes (v2.9)\n\nPeril codes for Taiwan supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWS | Windstorm only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ]
+   ]
+  }
+ ]
+}

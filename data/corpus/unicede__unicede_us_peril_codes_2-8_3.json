@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_us_peril_codes_2-8_3.html",
+ "title": "United States Peril Codes (v2.8)",
+ "section": "unicede",
+ "version": null,
+ "text": "United States Peril Codes (v2.8)\n \n\nPeril codes for U.S supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following\n codes for Perils Covered for risks in the United States.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWF | Wind and Fire |\n| PWS | Windstorm only |\n| PTR | Terrorism |\n| PMPCI | Multi-Peril Crop Insurance |\n| PAN | Pandemic |\n| PCH | Crop Hail |\n| PFL | Flood |\n\nNote:\n\nJust as wind and earthquake exposures need to be entered as separate records in\n \nUNICEDE\n/2 files, terrorism and pandemic\n exposures should also be entered as a separate record.\n\nUse \nW\n as the coverage for the pandemic peril.",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWF",
+     "Wind and Fire"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PTR",
+     "Terrorism"
+    ],
+    [
+     "PMPCI",
+     "Multi-Peril Crop Insurance"
+    ],
+    [
+     "PAN",
+     "Pandemic"
+    ],
+    [
+     "PCH",
+     "Crop Hail"
+    ],
+    [
+     "PFL",
+     "Flood"
+    ]
+   ]
+  }
+ ]
+}

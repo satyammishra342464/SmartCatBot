@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hong_kong_subcresta.html",
+ "title": "Hong Kong Sub-CRESTA Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Hong Kong Sub-\nCRESTA\n Codes\n\nSub-\nCRESTA\n codes for Hong Kong supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Hong Kong (52).\n\n| Area Tag | Sub- CRESTA Zone |\n| --- | --- |\n| 52-000 | Hong Kong |\n| 52-001 | Z1.1: Hong Kong Island |\n| 52-002 | Z1.2: Kowloon |\n| 52-003 | Z1.3:New Territories |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Sub- CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "52-000",
+     "Hong Kong"
+    ],
+    [
+     "52-001",
+     "Z1.1: Hong Kong Island"
+    ],
+    [
+     "52-002",
+     "Z1.2: Kowloon"
+    ],
+    [
+     "52-003",
+     "Z1.3:New Territories"
+    ]
+   ]
+  }
+ ]
+}

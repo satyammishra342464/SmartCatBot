@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_australia-perils.html",
+ "title": "Australia perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Australia perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for Australia.\n\n| Import peril code | Peril |\n| --- | --- |\n| PAL | All licensed perils |\n| PWB | Bushfire (Australia Bushfire Model). Use PWB instead of the older PEF code that groups together PFF and PWB. |\n| PES | Earthquake shake only |\n| PPH | Precipitation flood |\n| PSH | Hurricane storm surge |\n| PWH | Tropical cyclone only |\n| PWT | Severe Thunderstorm |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils"
+    ],
+    [
+     "PWB",
+     "Bushfire (Australia Bushfire Model). Use PWB instead of the older PEF code that groups together PFF and PWB."
+    ],
+    [
+     "PES",
+     "Earthquake shake only"
+    ],
+    [
+     "PPH",
+     "Precipitation flood"
+    ],
+    [
+     "PSH",
+     "Hurricane storm surge"
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only"
+    ],
+    [
+     "PWT",
+     "Severe Thunderstorm"
+    ]
+   ]
+  }
+ ]
+}

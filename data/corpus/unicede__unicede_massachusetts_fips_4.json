@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_massachusetts_fips_4.html",
+ "title": "Massachusetts (MA) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Massachusetts (MA) Counties\n \n\nFIPS codes for Massachusetts.\n\nFIPS State Code: 25\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Dukes County, enter \n01-25007.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Barnstable |\n| 003 | Berkshire |\n| 005 | Bristol |\n| 007 | Dukes |\n| 009 | Essex |\n| 011 | Franklin |\n| 013 | Hampden |\n| 015 | Hampshire |\n| 017 | Middlesex |\n| 019 | Nantucket |\n| 021 | Norfolk |\n| 023 | Plymouth |\n| 025 | Suffolk |\n| 027 | Worcester |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Barnstable"
+    ],
+    [
+     "003",
+     "Berkshire"
+    ],
+    [
+     "005",
+     "Bristol"
+    ],
+    [
+     "007",
+     "Dukes"
+    ],
+    [
+     "009",
+     "Essex"
+    ],
+    [
+     "011",
+     "Franklin"
+    ],
+    [
+     "013",
+     "Hampden"
+    ],
+    [
+     "015",
+     "Hampshire"
+    ],
+    [
+     "017",
+     "Middlesex"
+    ],
+    [
+     "019",
+     "Nantucket"
+    ],
+    [
+     "021",
+     "Norfolk"
+    ],
+    [
+     "023",
+     "Plymouth"
+    ],
+    [
+     "025",
+     "Suffolk"
+    ],
+    [
+     "027",
+     "Worcester"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_lebanon-cresta-codes.html",
+ "title": "Lebanon CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Lebanon \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Lebanon.\nThe first table applies to versions 11.0 and later.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| LBN_AK | Akkar |\n| LBN_AS | North Lebanon |\n| LBN_BA | Beirut |\n| LBN_BH | Baalbek |\n| LBN_BI | Bekaa |\n| LBN_JA | South Lebanon |\n| LBN_JL | Jabal Lubnan |\n| LBN_NA | Al Nabatiyeh |\n\nThe following table applies to versions 10.0 and earlier.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Beirut |\n| 2 | Tripoli |\n| 3 | Ash-Shamal (excludes Tripoli) |\n| 4 | Jabal Lubnan (excludes Beirut) |\n| 5 | Al-Janub |\n| 6 | Al-Biga |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "LBN_AK",
+     "Akkar"
+    ],
+    [
+     "LBN_AS",
+     "North Lebanon"
+    ],
+    [
+     "LBN_BA",
+     "Beirut"
+    ],
+    [
+     "LBN_BH",
+     "Baalbek"
+    ],
+    [
+     "LBN_BI",
+     "Bekaa"
+    ],
+    [
+     "LBN_JA",
+     "South Lebanon"
+    ],
+    [
+     "LBN_JL",
+     "Jabal Lubnan"
+    ],
+    [
+     "LBN_NA",
+     "Al Nabatiyeh"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Beirut"
+    ],
+    [
+     "2",
+     "Tripoli"
+    ],
+    [
+     "3",
+     "Ash-Shamal (excludes Tripoli)"
+    ],
+    [
+     "4",
+     "Jabal Lubnan (excludes Beirut)"
+    ],
+    [
+     "5",
+     "Al-Janub"
+    ],
+    [
+     "6",
+     "Al-Biga"
+    ]
+   ]
+  }
+ ]
+}

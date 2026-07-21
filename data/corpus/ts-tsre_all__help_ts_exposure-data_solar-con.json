@@ -1,0 +1,58 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_solar-con.html",
+ "title": "Solar construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Solar construction codes\n\nSolar construction codes supported in \nTouchstone 2025\n for\n the \nVerisk Severe Thunderstorm Model for the United States\n.\n\nFor information about supported codes and limitations for this model, refer to the model\n documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 500 | Solar, rooftop (unknown anchorage) | Panels on flat or pitched roof, unknown mount. |\n| 501 | Solar, rooftop, anchored | Panels attached to the roof using anchors. Typically these are mounted\n on a pitched roof at the same angle as the pitch of the roof. |\n| 502 | Solar, rooftop, ballasted | Panels mounted on flat roof using ballasts. Typically these are mounted\n at a fixed angle. |\n| 510 | Solar ground mounted (on tracker or fixed) | Panels on unknown mount type. |\n| 511 | Solar ground mounted, single axis | Panels move on one axis, typically to track sun east to west. |\n| 512 | Solar ground mounted, dual axis | Panels move on two axes, typically to track sun east to west at a range\n of altitudes. |\n| 513 | Solar ground mounted, fixed tilt | Panels on a ground-level racking system at a fixed angle. |\n| 514 | BESS (battery energy storage system) | Battery system for ground-mounted solar installations,\n any\n occupancy. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "500",
+     "Solar, rooftop (unknown anchorage)",
+     "Panels on flat or pitched roof, unknown mount."
+    ],
+    [
+     "501",
+     "Solar, rooftop, anchored",
+     "Panels attached to the roof using anchors. Typically these are mounted\n                        on a pitched roof at the same angle as the pitch of the roof."
+    ],
+    [
+     "502",
+     "Solar, rooftop, ballasted",
+     "Panels mounted on flat roof using ballasts. Typically these are mounted\n                        at a fixed angle."
+    ],
+    [
+     "510",
+     "Solar ground mounted (on tracker or fixed)",
+     "Panels on unknown mount type."
+    ],
+    [
+     "511",
+     "Solar ground mounted, single axis",
+     "Panels move on one axis, typically to track sun east to west."
+    ],
+    [
+     "512",
+     "Solar ground mounted, dual axis",
+     "Panels move on two axes, typically to track sun east to west at a range\n                        of altitudes."
+    ],
+    [
+     "513",
+     "Solar ground mounted, fixed tilt",
+     "Panels on a ground-level racking system at a fixed angle."
+    ],
+    [
+     "514",
+     "BESS (battery energy storage system)",
+     "Battery system for ground-mounted solar installations,\n                        any\n                        occupancy."
+    ]
+   ]
+  }
+ ]
+}

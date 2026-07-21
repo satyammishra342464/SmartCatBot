@@ -1,0 +1,197 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_peru_subcresta_2-9.html",
+ "title": "Peru Sub-CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Peru Sub-\nCRESTA\n Codes (v2.9)\n\nSub-\nCRESTA\n codes for Peru supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Peru (33).\n\n| Area Tag | Sub-Zone |\n| --- | --- |\n| 33-000 | Peru |\n| 33-001 | Z01.1:Ventanilla |\n| 33-002 | Z01.2:Callao |\n| 33-003 | Z01.3:Carmen de la Legua |\n| 33-004 | Z01.4:Bellavista |\n| 33-005 | Z01.5:La Perla |\n| 33-006 | Z01.6:La Punta |\n| 33-007 | Z02.1:San Martin de Porras |\n| 33-008 | Z02.2:Lima |\n| 33-009 | Z02.3:San Miguel |\n| 33-010 | Z02.4:Magdalena del Mar |\n| 33-011 | Z02.5:Jesus Maria |\n| 33-012 | Z02.6:Pueblo Libre |\n| 33-013 | Z02.7:Brena |\n| 33-014 | Z02.8:La Victoria |\n| 33-015 | Z02.9:San Luis |\n| 33-016 | Z03.1:Lince |\n| 33-017 | Z03.2:San Isidro |\n| 33-018 | Z03.3:Miraflores |\n| 33-019 | Z04.1:El Agustino |\n| 33-020 | Z04.2:Ate |\n| 33-021 | Z05.0:Barranco, Chorrillos, rest of Lima |\n| 33-022 | Z06.1:Tumbes |\n| 33-023 | Z06.2:Piura |\n| 33-024 | Z06.3:Lambayeque |\n| 33-025 | Z07.1:Cajamarca |\n| 33-026 | Z07.2:La Libertad |\n| 33-027 | Z08.1:Loreto |\n| 33-028 | Z08.2:Amazonas |\n| 33-029 | Z08.3:San Martin |\n| 33-030 | Z08.4:Huanuco |\n| 33-031 | Z08.5:Ucayali |\n| 33-032 | Z08.6:Madre de Dios |\n| 33-033 | Z08.7:Cuzco |\n| 33-034 | Z08.8:Puno |\n| 33-035 | Z09.0:Ancash |\n| 33-036 | Z10.1:Pasco |\n| 33-037 | Z10.2:Junin |\n| 33-038 | Z10.3:Huancavelica |\n| 33-039 | Z10.4:Ayacucho |\n| 33-040 | Z10.5:Apurimac |\n| 33-041 | Z11.0:Ica |\n| 33-042 | Z12.1:Arequipa |\n| 33-043 | Z12.2:Moquegua |\n| 33-044 | Z12.3:Tacna |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Sub-Zone"
+   ],
+   "rows": [
+    [
+     "33-000",
+     "Peru"
+    ],
+    [
+     "33-001",
+     "Z01.1:Ventanilla"
+    ],
+    [
+     "33-002",
+     "Z01.2:Callao"
+    ],
+    [
+     "33-003",
+     "Z01.3:Carmen de la Legua"
+    ],
+    [
+     "33-004",
+     "Z01.4:Bellavista"
+    ],
+    [
+     "33-005",
+     "Z01.5:La Perla"
+    ],
+    [
+     "33-006",
+     "Z01.6:La Punta"
+    ],
+    [
+     "33-007",
+     "Z02.1:San Martin de Porras"
+    ],
+    [
+     "33-008",
+     "Z02.2:Lima"
+    ],
+    [
+     "33-009",
+     "Z02.3:San Miguel"
+    ],
+    [
+     "33-010",
+     "Z02.4:Magdalena del Mar"
+    ],
+    [
+     "33-011",
+     "Z02.5:Jesus Maria"
+    ],
+    [
+     "33-012",
+     "Z02.6:Pueblo Libre"
+    ],
+    [
+     "33-013",
+     "Z02.7:Brena"
+    ],
+    [
+     "33-014",
+     "Z02.8:La Victoria"
+    ],
+    [
+     "33-015",
+     "Z02.9:San Luis"
+    ],
+    [
+     "33-016",
+     "Z03.1:Lince"
+    ],
+    [
+     "33-017",
+     "Z03.2:San Isidro"
+    ],
+    [
+     "33-018",
+     "Z03.3:Miraflores"
+    ],
+    [
+     "33-019",
+     "Z04.1:El Agustino"
+    ],
+    [
+     "33-020",
+     "Z04.2:Ate"
+    ],
+    [
+     "33-021",
+     "Z05.0:Barranco, Chorrillos, rest of Lima"
+    ],
+    [
+     "33-022",
+     "Z06.1:Tumbes"
+    ],
+    [
+     "33-023",
+     "Z06.2:Piura"
+    ],
+    [
+     "33-024",
+     "Z06.3:Lambayeque"
+    ],
+    [
+     "33-025",
+     "Z07.1:Cajamarca"
+    ],
+    [
+     "33-026",
+     "Z07.2:La Libertad"
+    ],
+    [
+     "33-027",
+     "Z08.1:Loreto"
+    ],
+    [
+     "33-028",
+     "Z08.2:Amazonas"
+    ],
+    [
+     "33-029",
+     "Z08.3:San Martin"
+    ],
+    [
+     "33-030",
+     "Z08.4:Huanuco"
+    ],
+    [
+     "33-031",
+     "Z08.5:Ucayali"
+    ],
+    [
+     "33-032",
+     "Z08.6:Madre de Dios"
+    ],
+    [
+     "33-033",
+     "Z08.7:Cuzco"
+    ],
+    [
+     "33-034",
+     "Z08.8:Puno"
+    ],
+    [
+     "33-035",
+     "Z09.0:Ancash"
+    ],
+    [
+     "33-036",
+     "Z10.1:Pasco"
+    ],
+    [
+     "33-037",
+     "Z10.2:Junin"
+    ],
+    [
+     "33-038",
+     "Z10.3:Huancavelica"
+    ],
+    [
+     "33-039",
+     "Z10.4:Ayacucho"
+    ],
+    [
+     "33-040",
+     "Z10.5:Apurimac"
+    ],
+    [
+     "33-041",
+     "Z11.0:Ica"
+    ],
+    [
+     "33-042",
+     "Z12.1:Arequipa"
+    ],
+    [
+     "33-043",
+     "Z12.2:Moquegua"
+    ],
+    [
+     "33-044",
+     "Z12.3:Tacna"
+    ]
+   ]
+  }
+ ]
+}

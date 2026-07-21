@@ -1,0 +1,89 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_china_lob_2-7.html",
+ "title": "China Lines of Business (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "China Lines of Business (v2.7)\n\nLOB codes for China supported by \nUNICEDE\n/2.\n\nStandard Share Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| CAI | Commercial & Industrial |\n| ENG | CAR/EAR |\n\nMarket Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| COM | Commercial |\n| ENG | CAR/EAR |\n\nMulti-Peril Crop Insurance (MPCI) Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| CORN | Corn |\n| COTT | Cotton |\n| RAPS | Rapeseed |\n| RICE | Rice |\n| SOYB | Soybean |\n| WHEA | Wheat |\n| COMBND | Crop Combined |\n| FOR | Forestry |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "ENG",
+     "CAR/EAR"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "ENG",
+     "CAR/EAR"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "CORN",
+     "Corn"
+    ],
+    [
+     "COTT",
+     "Cotton"
+    ],
+    [
+     "RAPS",
+     "Rapeseed"
+    ],
+    [
+     "RICE",
+     "Rice"
+    ],
+    [
+     "SOYB",
+     "Soybean"
+    ],
+    [
+     "WHEA",
+     "Wheat"
+    ],
+    [
+     "COMBND",
+     "Crop Combined"
+    ],
+    [
+     "FOR",
+     "Forestry"
+    ]
+   ]
+  }
+ ]
+}

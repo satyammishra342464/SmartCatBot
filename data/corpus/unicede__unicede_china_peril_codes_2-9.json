@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_china_peril_codes_2-9.html",
+ "title": "China Peril Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "China Peril Codes (v2.9)\n\nLOB codes for China supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PMPCI | Multi-Peril Crop Insurance |\n| PEQ | Earthquake only |\n| PWS | Windstorm only |\n| FOR | Forestry only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PMPCI",
+     "Multi-Peril Crop Insurance"
+    ],
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "FOR",
+     "Forestry only"
+    ]
+   ]
+  }
+ ]
+}

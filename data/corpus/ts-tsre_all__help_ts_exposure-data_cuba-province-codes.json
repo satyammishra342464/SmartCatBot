@@ -1,0 +1,137 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_cuba-province-codes.html",
+ "title": "Cuba province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Cuba province codes\n\nTouchstone\n supports the following province\n codes for Cuba.\n\n| Province Code | Province Name |\n| --- | --- |\n| 22 | Artemisa |\n| 30 | CamagÃ¼ey |\n| 29 | Ciego De Ãvila |\n| 27 | Cienfuegos |\n| 33 | Granma |\n| 35 | GuantÃ¡namo |\n| 32 | HolguÃ­n |\n| 40 | Isla de la Juventud |\n| 23 | La Habana |\n| 31 | Las Tunas |\n| 25 | Matanzas |\n| 24 | Mayabeque |\n| 21 | Pinar Del RÃ­o |\n| 28 | Sancti SpÃ­ritus |\n| 34 | Santiago De Cuba |\n| 26 | Villa Clara |\n| 1 | CamagÃ¼ey |\n| 2 | Ciego de Avila |\n| 3 | Cienfuegos |\n| 4 | Granma |\n| 5 | GuantÃ¡namo |\n| 6 | Holguin |\n| 7 | Isla de la Juventud |\n| 8 | La Habana |\n| 9 | Las Tunas |\n| 10 | Matanzas |\n| 11 | Pinar del Rio |\n| 12 | Sancti SpÃ­ritus |\n| 13 | Santiago de Cuba |\n| 14 | Villa Clara |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "22",
+     "Artemisa"
+    ],
+    [
+     "30",
+     "CamagÃ¼ey"
+    ],
+    [
+     "29",
+     "Ciego De Ãvila"
+    ],
+    [
+     "27",
+     "Cienfuegos"
+    ],
+    [
+     "33",
+     "Granma"
+    ],
+    [
+     "35",
+     "GuantÃ¡namo"
+    ],
+    [
+     "32",
+     "HolguÃ­n"
+    ],
+    [
+     "40",
+     "Isla de la Juventud"
+    ],
+    [
+     "23",
+     "La Habana"
+    ],
+    [
+     "31",
+     "Las Tunas"
+    ],
+    [
+     "25",
+     "Matanzas"
+    ],
+    [
+     "24",
+     "Mayabeque"
+    ],
+    [
+     "21",
+     "Pinar Del RÃ­o"
+    ],
+    [
+     "28",
+     "Sancti SpÃ­ritus"
+    ],
+    [
+     "34",
+     "Santiago De Cuba"
+    ],
+    [
+     "26",
+     "Villa Clara"
+    ],
+    [
+     "1",
+     "CamagÃ¼ey"
+    ],
+    [
+     "2",
+     "Ciego de Avila"
+    ],
+    [
+     "3",
+     "Cienfuegos"
+    ],
+    [
+     "4",
+     "Granma"
+    ],
+    [
+     "5",
+     "GuantÃ¡namo"
+    ],
+    [
+     "6",
+     "Holguin"
+    ],
+    [
+     "7",
+     "Isla de la Juventud"
+    ],
+    [
+     "8",
+     "La Habana"
+    ],
+    [
+     "9",
+     "Las Tunas"
+    ],
+    [
+     "10",
+     "Matanzas"
+    ],
+    [
+     "11",
+     "Pinar del Rio"
+    ],
+    [
+     "12",
+     "Sancti SpÃ­ritus"
+    ],
+    [
+     "13",
+     "Santiago de Cuba"
+    ],
+    [
+     "14",
+     "Villa Clara"
+    ]
+   ]
+  }
+ ]
+}

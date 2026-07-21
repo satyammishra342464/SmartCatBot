@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_aruba-cresta_2-10.html",
+ "title": "Aruba CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Aruba \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for Aruba supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Aruba (154).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 154-000 | Aruba |\n| 154-001 | Aruba |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "154-000",
+     "Aruba"
+    ],
+    [
+     "154-001",
+     "Aruba"
+    ]
+   ]
+  }
+ ]
+}

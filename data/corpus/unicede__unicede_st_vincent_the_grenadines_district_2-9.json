@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_st_vincent_the_grenadines_district_2-9.html",
+ "title": "St. Vincent and the Grenadines district codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "St. Vincent and the Grenadines district codes (v2.9)\n\nDistrict codes for St. Vincent and the Grenadines supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for St. Vincent & Grenadines (184).\n\n| Area Tag | District |\n| --- | --- |\n| 184-000 | St. Vincent and the Grenadines |\n| 184-001 | St. Vincent |\n| 184-002 | Grenadines |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District"
+   ],
+   "rows": [
+    [
+     "184-000",
+     "St. Vincent and the Grenadines"
+    ],
+    [
+     "184-001",
+     "St. Vincent"
+    ],
+    [
+     "184-002",
+     "Grenadines"
+    ]
+   ]
+  }
+ ]
+}

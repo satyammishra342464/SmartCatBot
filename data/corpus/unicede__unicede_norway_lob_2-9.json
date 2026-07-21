@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_norway_lob_2-9.html",
+ "title": "Norway Lines Of Business (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Norway Lines Of Business (v2.9)\n \n\nLOB codes for Norway supported by \nUNICEDE\n/2.\n\n| Code | Lines of Business |\n| --- | --- |\n| RB | Residential Building |\n| RC | Residential Contents |\n| RBC | Residential Building & Contents |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |\n| AG | Agriculture |\n| AUTO | Automotive |\n| FOR | Forestry |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "RB",
+     "Residential Building"
+    ],
+    [
+     "RC",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Building & Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AG",
+     "Agriculture"
+    ],
+    [
+     "AUTO",
+     "Automotive"
+    ],
+    [
+     "FOR",
+     "Forestry"
+    ]
+   ]
+  }
+ ]
+}

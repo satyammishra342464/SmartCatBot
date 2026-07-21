@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_hong-kong-cresta-codes.html",
+ "title": "Hong Kong CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Hong Kong \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Hong Kong.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 100 | Hong Kong |\n| 101 | Hong Kong Island |\n| 102 | Kowloon |\n| 103 | New Territories |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "100",
+     "Hong Kong"
+    ],
+    [
+     "101",
+     "Hong Kong Island"
+    ],
+    [
+     "102",
+     "Kowloon"
+    ],
+    [
+     "103",
+     "New Territories"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_papua_new_guinea_cresta_2-8.html",
+ "title": "Papua New Guinea CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Papua New Guinea \nCRESTA\n Codes (v2.8)\n\nCRESTA\n codes for Papua New Guinea supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Papua New Guinea (167).\n\n| Area Tag | Zone |\n| --- | --- |\n| 167-000 | PAPUA NEW GUINEA |\n| 167-001 | Z01: National Capital District |\n| 167-002 | Z02: Central Province (excl. Zone 1) |\n| 167-003 | Z03: Chimbu Province |\n| 167-004 | Z04: Enga Province |\n| 167-005 | Z05: Gulf Province |\n| 167-006 | Z06: Eastern Highlands Province |\n| 167-007 | Z07: Southern Highlands Province |\n| 167-008 | Z08: Western Highlands Province |\n| 167-009 | Z09: Madang Province |\n| 167-010 | Z10: Manus Province |\n| 167-011 | Z11: Milne Bay Province |\n| 167-012 | Z12: Morobe Province |\n| 167-013 | Z13: New Ireland Province |\n| 167-014 | Z14: East New Britain Province |\n| 167-015 | Z15: West New Britain Province |\n| 167-016 | Z16: Northern Province. |\n| 167-017 | Z17: East Sepik Province |\n| 167-018 | Z18: West Sepik Province |\n| 167-019 | Z19: North Solomons |\n| 167-020 | Z20: Western Province |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "167-000",
+     "PAPUA NEW GUINEA"
+    ],
+    [
+     "167-001",
+     "Z01: National Capital District"
+    ],
+    [
+     "167-002",
+     "Z02: Central Province (excl. Zone 1)"
+    ],
+    [
+     "167-003",
+     "Z03: Chimbu Province"
+    ],
+    [
+     "167-004",
+     "Z04: Enga Province"
+    ],
+    [
+     "167-005",
+     "Z05: Gulf Province"
+    ],
+    [
+     "167-006",
+     "Z06: Eastern Highlands Province"
+    ],
+    [
+     "167-007",
+     "Z07: Southern Highlands Province"
+    ],
+    [
+     "167-008",
+     "Z08: Western Highlands Province"
+    ],
+    [
+     "167-009",
+     "Z09: Madang Province"
+    ],
+    [
+     "167-010",
+     "Z10: Manus Province"
+    ],
+    [
+     "167-011",
+     "Z11: Milne Bay Province"
+    ],
+    [
+     "167-012",
+     "Z12: Morobe Province"
+    ],
+    [
+     "167-013",
+     "Z13: New Ireland Province"
+    ],
+    [
+     "167-014",
+     "Z14: East New Britain Province"
+    ],
+    [
+     "167-015",
+     "Z15: West New Britain Province"
+    ],
+    [
+     "167-016",
+     "Z16: Northern Province."
+    ],
+    [
+     "167-017",
+     "Z17: East Sepik Province"
+    ],
+    [
+     "167-018",
+     "Z18: West Sepik Province"
+    ],
+    [
+     "167-019",
+     "Z19: North Solomons"
+    ],
+    [
+     "167-020",
+     "Z20: Western Province"
+    ]
+   ]
+  }
+ ]
+}

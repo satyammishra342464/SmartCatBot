@@ -1,0 +1,223 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_marine-cargo-con.html",
+ "title": "Marine cargo construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Marine cargo construction codes\n\nThe marine cargo construction codes supported by \nTouchstone\n. \n\nStarting with version 9.0, the\n marine\n cargo construction codes 2701-2720 are paired with marine cargo\n occupancy codes 1001-1012. Also, 2701 to 2720 were added to version 9.0. The 3-digit\n marine cargo construction codes (270-276) are not paired with occupancy codes\n 1001-1012.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn\n \nTouchstone 2025\n, we added support for \nVerisk Bushfire Model for Australia\n and \nVerisk Typhoon Model for South Korea\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\nFor information about models supporting the marine codes in \nTouchstone\n, refer to \nMarine Modeling in Touchstone\n, which is\n available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 270 | Carpool | Open areas close to harbors where\n thousands of cars are gridded before being shipped on Personal Car Carriers\n (PCCs). 1 |\n| 271 | General and Containerized Cargo | Cubicles 8 feet in width, 8.5 feet in height, and 20 or 40 feet in\n length in which commodities are packed. Cubicles are usually stacked on\n ships, trains, or airplanes for long-distance transportation. 1 |\n| 272 | Heavy Cargo | Heavy cargoes are usually heavy machinery that cannot fit into a\n standard container, such as jack-up and semi-submersible rigs, dredging\n equipment, luxury yachts, offshore production modules and sub-sea\n structures, construction machinery, container cranes and harbor equipment,\n and complete factories. Vessels used for this type of cargo are usually\n semi-submersible heavy lift ships, conventional heavy lift ships, tow barges\n and dock ships. Heavy cargo is sometimes containerized. 1 |\n| 273 | Refrigerated Cargo | Refrigerated cargo is similar to general containerized cargo, but with\n additional cooling equipment to keep commodities fresh. Commodities are\n commonly fruits and frozen goods. This type of containerized cargo requires\n an external source of power to maintain a temperature-controlled\n environment. 1 |\n| 274 | Dry Bulk Cargo | Bare solid materials, such as coal, metal ore, lumber, and grains. 1 |\n| 275 | Liquid Bulk Cargo | Bare liquid material, such as oil, liquefied natural gas, and liquid\n chemicals. Liquid bulk cargo is generally stored in tank farms on\n shore. 1 |\n| 276 | General/Unknown | Supported for both the Verisk Earthquake Model for Japan and the Verisk Typhoon Model for Japan , and for some locations in\n Europe , including Central Europe. It is also supported in the Verisk Earthquake Model for New Zealand and the Verisk Hurricane Model for the United States . 1 |\n| 280 | Combustible: Carpool | Open areas close to harbors where thousands of cars are gridded before\n being shipped on Personal Car Carriers (PCCs). |\n| 281 | Combustible: General and Containerized Cargo | Cubicles 8 feet in width, 8.5 feet in height, and 20 or 40 feet in\n length in which commodities are packed. Cubicles are usually stacked on\n ships, trains, or airplanes for long-distance transportation. |\n| 282 | Combustible: Heavy Cargo | Heavy cargoes are usually heavy machinery that cannot fit into a\n standard container, such as jack-up and semi-submersible rigs, dredging\n equipment, luxury yachts, offshore production modules and sub-sea\n structures, construction machinery, container cranes and harbor equipment,\n and complete factories. Vessels used for this type of cargo are usually\n semi-submersible heavy lift ships, conventional heavy lift ships, tow\n barges, and dock ships. Heavy cargo is sometimes containerized. |\n| 283 | Combustible: Refrigerated Cargo | Refrigerated cargo is similar to general containerized cargo, but with\n additional cooling equipment to keep commodities fresh. Commodities are\n commonly fruits and frozen goods. This type of containerized cargo requires\n an external source of power to maintain a temperature-controlled\n environment. |\n| 284 | Combustible: Dry Bulk Cargo | Bare solid materials, such as coal, metal ore, lumber, and\n grains. |\n| 285 | Combustible: Liquid Bulk Cargo | Bare liquid material, such as oil, liquefied natural gas, and liquid\n chemicals. Liquid bulk cargo is generally stored in tank farms on\n shore. |\n| 286 | Unknown Marine Cargo, Combustible | Supported for the Verisk Earthquake Model for Japan . |\n| 290 | Non-Combustible: Carpool | Open areas close to harbors where thousands of cars are gridded before\n being shipped on Personal Car Carriers (PCCs). |\n| 291 | Non-Combustible: General and Containerized Cargo | Cubicles 8 feet in width, 8.5 feet in height, and 20 or 40 feet in\n length in which commodities are packed. Cubicles are usually stacked on\n ships, trains, or airplanes for long-distance transportation. |\n| 292 | Non-Combustible: Heavy Cargo | Heavy cargoes are usually heavy machinery that cannot fit into a\n standard container, such as jack-up and semi-submersible rigs, dredging\n equipment, luxury yachts, offshore production modules and sub-sea\n structures, construction machinery, container cranes and harbor equipment,\n and complete factories. Vessels used for this type of cargo are usually\n semi-submersible heavy lift ships, conventional heavy lift ships, tow\n barges, and dock ships. Heavy cargo is sometimes containerized. |\n| 293 | Non-Combustible: Refrigerated Cargo | Refrigerated cargo is similar to general containerized cargo, but with\n additional cooling equipment to keep commodities fresh. Commodities are\n commonly fruits and frozen goods. This type of containerized cargo requires\n an external source of power to maintain a temperature-controlled\n environment. |\n| 294 | Non-Combustible: Dry Bulk Cargo | Bare solid materials, such as coal, metal ore, lumber, and\n grains. |\n| 295 | Non-Combustible: Liquid Bulk Cargo | Bare liquid material, such as oil, liquefied natural gas, and liquid\n chemicals. Liquid bulk cargo is generally stored in tank farms on\n shore. |\n| 296 | Unknown Marine Cargo, Non-Combustible | Use this code when no information on cargo type is available. It is\n mapped to general cargo. Supported only for the Verisk Earthquake Model for Japan and the Verisk Typhoon Model for Japan . |\n| 2701 | Automobiles | Motor vehicles being transported. Automobile cargoes can be in different\n storage conditions. |\n| 2702 | Break Bulk | Loose, non-containerized cargo that is loaded directly on a ship in\n bags, boxes, crates, etc. Examples of break bulk are paper rolls, barrels,\n plywood, and pipes. |\n| 2703 | Dry Bulk | Bare solid materials, such as coal, metal ore, wood pulp, and grains |\n| 2704 | Liquid Bulk | Bare liquid material, such as oil, liquefied natural gas, and liquid\n chemicals. Liquid bulk cargo is generally stored in tank farms on shore. |\n| 2705 | Consumables | Food and beverage cargo. Can be in different storage conditions. |\n| 2706 | Temperature-controlled | Cargo that needs to be transported under specific temperature\n conditions, often refrigerated. |\n| 2707 | Electronics | Cargo that includes electronic devices such as computers, TVs, cell\n phones, circuits, etc. Can be in different storage conditions. |\n| 2708 | Chemical Products | Cargo that includes products of basic chemical manufacturing such as\n acids, alkalis, salts, and organic chemicals, as well as chemical products\n that are to be used in further manufacturing, including synthetic fibers,\n plastic materials, dry colors, and pigments. Can be stored in special\n conditions. |\n| 2709 | Explosives | Cargo that includes explosive material such as chemicals, fireworks,\n arms, etc. Can be stored in special conditions. |\n| 2710 | General Cargo | Cargoes that are not categorized under any other specific type, for\n example, clothing, staples, sport goods, etc. |\n| 2711 | Heavy Industry | Heavy machinery that cannot fit into a standard container, such as\n jack-up and semi-submersible rigs, dredging equipment, luxury yachts,\n offshore production modules and sub-sea structures, construction machinery,\n container cranes and harbor equipment, etc. |\n| 2712 | Light Industry | Cargo that includes the product of light fabrication industry. This can\n include household and office manufactured products such as fabrics, carpets,\n rugs, furniture, etc. |\n| 2713 | Petroleum Products | Cargo that contains petrochemical products such as oil, gas, and LNG.\n Can be stored in special conditions. |\n| 2714 | Pharmaceuticals | Cargo that contains pharmaceutical products. Can be in different storage\n conditions. |\n| 2715 | Project Cargo | Heavy cargo that includes components of special projects such as\n turbines for wind farms, railway cars, etc. |\n| 2716 | Livestock | Livestock being shipped. |\n| 2717 | General Specie | Statuettes, ornamental articles, fibers, arts and crafts, etc. that can\n be stored in different places such as in museums, in a house, or in\n warehouses. In each storage condition they can be stored under various\n degrees of protection. |\n| 2718 | Fine Art & Collectibles | Fine arts in the form of paintings, frames, sculpture, etc. that can be\n stored in different places such as in museums, in a house, or in warehouses.\n In each storage condition they can be stored under various degrees of\n protection. |\n| 2719 | Cash In Transit | Cash being transferred in various storage conditions. |\n| 2720 | Jewelers Blocks | Jewels, engravings, and valuable metals and stones stored in various\n conditions. |\n\n1\n If you know that a particular exposure is combustible\n or non-combustible, you should use the combustible or non-combustible\n versions of these codes instead. See construction codes 280-285 and\n 290-295 in this topic. However, be aware that models that support 270-276\n do not necessarily support 280-286 or 290-296. Refer to the supplement\n for your model for the list of supported construction and occupancy\n classes and combinations.",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "270",
+     "Carpool",
+     "Open areas close to harbors where\n                        thousands of cars are gridded before being shipped on Personal Car Carriers\n                           (PCCs). 1"
+    ],
+    [
+     "271",
+     "General and Containerized Cargo",
+     "Cubicles 8 feet in width, 8.5 feet in height, and 20 or 40 feet in\n                        length in which commodities are packed. Cubicles are usually stacked on\n                        ships, trains, or airplanes for long-distance transportation. 1"
+    ],
+    [
+     "272",
+     "Heavy Cargo",
+     "Heavy cargoes are usually heavy machinery that cannot fit into a\n                        standard container, such as jack-up and semi-submersible rigs, dredging\n                        equipment, luxury yachts, offshore production modules and sub-sea\n                        structures, construction machinery, container cranes and harbor equipment,\n                        and complete factories. Vessels used for this type of cargo are usually\n                        semi-submersible heavy lift ships, conventional heavy lift ships, tow barges\n                        and dock ships. Heavy cargo is sometimes containerized. 1"
+    ],
+    [
+     "273",
+     "Refrigerated Cargo",
+     "Refrigerated cargo is similar to general containerized cargo, but with\n                        additional cooling equipment to keep commodities fresh. Commodities are\n                        commonly fruits and frozen goods. This type of containerized cargo requires\n                        an external source of power to maintain a temperature-controlled\n                           environment. 1"
+    ],
+    [
+     "274",
+     "Dry Bulk Cargo",
+     "Bare solid materials, such as coal, metal ore, lumber, and grains. 1"
+    ],
+    [
+     "275",
+     "Liquid Bulk Cargo",
+     "Bare liquid material, such as oil, liquefied natural gas, and liquid\n                        chemicals. Liquid bulk cargo is generally stored in tank farms on\n                           shore. 1"
+    ],
+    [
+     "276",
+     "General/Unknown",
+     "Supported for both the Verisk Earthquake Model for Japan and the Verisk Typhoon Model for Japan , and for some locations in\n                           Europe , including Central Europe. It is also supported in the Verisk Earthquake Model for New Zealand and the Verisk Hurricane Model for the United States . 1"
+    ],
+    [
+     "280",
+     "Combustible: Carpool",
+     "Open areas close to harbors where thousands of cars are gridded before\n                        being shipped on Personal Car Carriers (PCCs)."
+    ],
+    [
+     "281",
+     "Combustible: General and Containerized Cargo",
+     "Cubicles 8 feet in width, 8.5 feet in height, and 20 or 40 feet in\n                        length in which commodities are packed. Cubicles are usually stacked on\n                        ships, trains, or airplanes for long-distance transportation."
+    ],
+    [
+     "282",
+     "Combustible: Heavy Cargo",
+     "Heavy cargoes are usually heavy machinery that cannot fit into a\n                        standard container, such as jack-up and semi-submersible rigs, dredging\n                        equipment, luxury yachts, offshore production modules and sub-sea\n                        structures, construction machinery, container cranes and harbor equipment,\n                        and complete factories. Vessels used for this type of cargo are usually\n                        semi-submersible heavy lift ships, conventional heavy lift ships, tow\n                        barges, and dock ships. Heavy cargo is sometimes containerized."
+    ],
+    [
+     "283",
+     "Combustible: Refrigerated Cargo",
+     "Refrigerated cargo is similar to general containerized cargo, but with\n                        additional cooling equipment to keep commodities fresh. Commodities are\n                        commonly fruits and frozen goods. This type of containerized cargo requires\n                        an external source of power to maintain a temperature-controlled\n                        environment."
+    ],
+    [
+     "284",
+     "Combustible: Dry Bulk Cargo",
+     "Bare solid materials, such as coal, metal ore, lumber, and\n                        grains."
+    ],
+    [
+     "285",
+     "Combustible: Liquid Bulk Cargo",
+     "Bare liquid material, such as oil, liquefied natural gas, and liquid\n                        chemicals. Liquid bulk cargo is generally stored in tank farms on\n                        shore."
+    ],
+    [
+     "286",
+     "Unknown Marine Cargo, Combustible",
+     "Supported for the Verisk Earthquake Model for Japan ."
+    ],
+    [
+     "290",
+     "Non-Combustible: Carpool",
+     "Open areas close to harbors where thousands of cars are gridded before\n                        being shipped on Personal Car Carriers (PCCs)."
+    ],
+    [
+     "291",
+     "Non-Combustible: General and Containerized Cargo",
+     "Cubicles 8 feet in width, 8.5 feet in height, and 20 or 40 feet in\n                        length in which commodities are packed. Cubicles are usually stacked on\n                        ships, trains, or airplanes for long-distance transportation."
+    ],
+    [
+     "292",
+     "Non-Combustible: Heavy Cargo",
+     "Heavy cargoes are usually heavy machinery that cannot fit into a\n                        standard container, such as jack-up and semi-submersible rigs, dredging\n                        equipment, luxury yachts, offshore production modules and sub-sea\n                        structures, construction machinery, container cranes and harbor equipment,\n                        and complete factories. Vessels used for this type of cargo are usually\n                        semi-submersible heavy lift ships, conventional heavy lift ships, tow\n                        barges, and dock ships. Heavy cargo is sometimes containerized."
+    ],
+    [
+     "293",
+     "Non-Combustible: Refrigerated Cargo",
+     "Refrigerated cargo is similar to general containerized cargo, but with\n                        additional cooling equipment to keep commodities fresh. Commodities are\n                        commonly fruits and frozen goods. This type of containerized cargo requires\n                        an external source of power to maintain a temperature-controlled\n                        environment."
+    ],
+    [
+     "294",
+     "Non-Combustible: Dry Bulk Cargo",
+     "Bare solid materials, such as coal, metal ore, lumber, and\n                        grains."
+    ],
+    [
+     "295",
+     "Non-Combustible: Liquid Bulk Cargo",
+     "Bare liquid material, such as oil, liquefied natural gas, and liquid\n                        chemicals. Liquid bulk cargo is generally stored in tank farms on\n                        shore."
+    ],
+    [
+     "296",
+     "Unknown Marine Cargo, Non-Combustible",
+     "Use this code when no information on cargo type is available. It is\n                        mapped to general cargo. Supported only for the Verisk Earthquake Model for Japan and the Verisk Typhoon Model for Japan ."
+    ],
+    [
+     "2701",
+     "Automobiles",
+     "Motor vehicles being transported. Automobile cargoes can be in different\n                        storage conditions."
+    ],
+    [
+     "2702",
+     "Break Bulk",
+     "Loose, non-containerized cargo that is loaded directly on a ship in\n                        bags, boxes, crates, etc. Examples of break bulk are paper rolls, barrels,\n                        plywood, and pipes."
+    ],
+    [
+     "2703",
+     "Dry Bulk",
+     "Bare solid materials, such as coal, metal ore, wood pulp, and grains"
+    ],
+    [
+     "2704",
+     "Liquid Bulk",
+     "Bare liquid material, such as oil, liquefied natural gas, and liquid\n                        chemicals. Liquid bulk cargo is generally stored in tank farms on shore."
+    ],
+    [
+     "2705",
+     "Consumables",
+     "Food and beverage cargo. Can be in different storage conditions."
+    ],
+    [
+     "2706",
+     "Temperature-controlled",
+     "Cargo that needs to be transported under specific temperature\n                        conditions, often refrigerated."
+    ],
+    [
+     "2707",
+     "Electronics",
+     "Cargo that includes electronic devices such as computers, TVs, cell\n                        phones, circuits, etc. Can be in different storage conditions."
+    ],
+    [
+     "2708",
+     "Chemical Products",
+     "Cargo that includes products of basic chemical manufacturing such as\n                        acids, alkalis, salts, and organic chemicals, as well as chemical products\n                        that are to be used in further manufacturing, including synthetic fibers,\n                        plastic materials, dry colors, and pigments. Can be stored in special\n                        conditions."
+    ],
+    [
+     "2709",
+     "Explosives",
+     "Cargo that includes explosive material such as chemicals, fireworks,\n                        arms, etc. Can be stored in special conditions."
+    ],
+    [
+     "2710",
+     "General Cargo",
+     "Cargoes that are not categorized under any other specific type, for\n                        example, clothing, staples, sport goods, etc."
+    ],
+    [
+     "2711",
+     "Heavy Industry",
+     "Heavy machinery that cannot fit into a standard container, such as\n                        jack-up and semi-submersible rigs, dredging equipment, luxury yachts,\n                        offshore production modules and sub-sea structures, construction machinery,\n                        container cranes and harbor equipment, etc."
+    ],
+    [
+     "2712",
+     "Light Industry",
+     "Cargo that includes the product of light fabrication industry. This can\n                        include household and office manufactured products such as fabrics, carpets,\n                        rugs, furniture, etc."
+    ],
+    [
+     "2713",
+     "Petroleum Products",
+     "Cargo that contains petrochemical products such as oil, gas, and LNG.\n                        Can be stored in special conditions."
+    ],
+    [
+     "2714",
+     "Pharmaceuticals",
+     "Cargo that contains pharmaceutical products. Can be in different storage\n                        conditions."
+    ],
+    [
+     "2715",
+     "Project Cargo",
+     "Heavy cargo that includes components of special projects such as\n                        turbines for wind farms, railway cars, etc."
+    ],
+    [
+     "2716",
+     "Livestock",
+     "Livestock being shipped."
+    ],
+    [
+     "2717",
+     "General Specie",
+     "Statuettes, ornamental articles, fibers, arts and crafts, etc. that can\n                        be stored in different places such as in museums, in a house, or in\n                        warehouses. In each storage condition they can be stored under various\n                        degrees of protection."
+    ],
+    [
+     "2718",
+     "Fine Art & Collectibles",
+     "Fine arts in the form of paintings, frames, sculpture, etc. that can be\n                        stored in different places such as in museums, in a house, or in warehouses.\n                        In each storage condition they can be stored under various degrees of\n                        protection."
+    ],
+    [
+     "2719",
+     "Cash In Transit",
+     "Cash being transferred in various storage conditions."
+    ],
+    [
+     "2720",
+     "Jewelers Blocks",
+     "Jewels, engravings, and valuable metals and stones stored in various\n                        conditions."
+    ]
+   ]
+  }
+ ]
+}

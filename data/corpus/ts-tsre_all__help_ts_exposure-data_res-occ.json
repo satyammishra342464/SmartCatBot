@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_res-occ.html",
+ "title": "Residential occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Residential occupancy codes\n\nTouchstone\n supports the following\n residential occupancy class codes.\n\nSince SIC codes are not mapped to residential occupancies, \"n/a\" indicates that the\n column is not applicable.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 301 | General Residential | n/a | General Residential is a composite of all other Residential\n Occupancies. You can select this occupancy class code if you have no\n specific information about the risk. |\n| 302 | Permanent Dwelling: Single Family | n/a | Single-unit detached dwellings usually occupied by a single family. |\n| 303 | Permanent Dwelling: Multi Family | n/a | Multiple-unit dwellings usually occupied by more than one family.\n Typically, multi-family dwellings consist of four units or less. |\n| 304 | Temporary Lodging | 70 | Commercial establishments known to the public as hotels, motels, motor\n hotels, or tourist courts primarily engaged in providing lodging or lodging\n and meals to the general public. This category includes hotels that are\n operated by organizations for members only. Also, establishments primarily\n engaged in renting, such as boarding houses, lodging houses, or rooming\n houses. |\n| 305 | Group Institutional Housing | n/a | Residential units under institutional control. Examples include college\n dormitories, nursing homes, and retirement centers where medical care is\n incidental. |\n| 306 | Apartments/Condominiums | n/a | Attached, multi-unit housing with more than four units. |\n| 307 | Terraced Housing | n/a | Attached residential unit. Commonly found in Europe, e.g., in the United\n Kingdom. |\n| 367 | Residential | | Land within residential property boundary. Includes land: Under a residential structure and outbuildings (e.g. shed or\n garage). Within eight meters of that residential structure and\n outbuilding. Under or supporting the main access way, up to 60 meters from the\n residential structure. Currently supported only for Verisk Earthquake Model for New Zealand |\n| 382 | Construction/Erection Risks | n/a | Residential construction/erection risk is an under-construction\n building that is intended for a general residential occupancy. Currently\n supported for locations in China, India, South Korea, Southeast Asia\n (earthquake and typhoon), South America, Japan (earthquake and typhoon), the\n Middle East (earthquake) (added in version 11.0), and for some locations in\n Europe , including Central Europe. Also valid for Verisk Earthquake Model for New Zealand and Verisk Earthquake Model for Australia . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "301",
+     "General Residential",
+     "n/a",
+     "General Residential is a composite of all other Residential\n                        Occupancies. You can select this occupancy class code if you have no\n                        specific information about the risk."
+    ],
+    [
+     "302",
+     "Permanent Dwelling: Single Family",
+     "n/a",
+     "Single-unit detached dwellings usually occupied by a single family."
+    ],
+    [
+     "303",
+     "Permanent Dwelling: Multi Family",
+     "n/a",
+     "Multiple-unit dwellings usually occupied by more than one family.\n                        Typically, multi-family dwellings consist of four units or less."
+    ],
+    [
+     "304",
+     "Temporary Lodging",
+     "70",
+     "Commercial establishments known to the public as hotels, motels, motor\n                        hotels, or tourist courts primarily engaged in providing lodging or lodging\n                        and meals to the general public. This category includes hotels that are\n                        operated by organizations for members only. Also, establishments primarily\n                        engaged in renting, such as boarding houses, lodging houses, or rooming\n                        houses."
+    ],
+    [
+     "305",
+     "Group Institutional Housing",
+     "n/a",
+     "Residential units under institutional control. Examples include college\n                        dormitories, nursing homes, and retirement centers where medical care is\n                        incidental."
+    ],
+    [
+     "306",
+     "Apartments/Condominiums",
+     "n/a",
+     "Attached, multi-unit housing with more than four units."
+    ],
+    [
+     "307",
+     "Terraced Housing",
+     "n/a",
+     "Attached residential unit. Commonly found in Europe, e.g., in the United\n                        Kingdom."
+    ],
+    [
+     "367",
+     "Residential",
+     "",
+     "Land within residential property boundary. Includes land: Under a residential structure and outbuildings (e.g. shed or\n                              garage). Within eight meters of that residential structure and\n                              outbuilding. Under or supporting the main access way, up to 60 meters from the\n                              residential structure. Currently supported only for Verisk Earthquake Model for New Zealand"
+    ],
+    [
+     "382",
+     "Construction/Erection Risks",
+     "n/a",
+     "Residential construction/erection risk is an under-construction\n                        building that is intended for a general residential occupancy. Currently\n                        supported for locations in China, India, South Korea, Southeast Asia\n                        (earthquake and typhoon), South America, Japan (earthquake and typhoon), the\n                        Middle East (earthquake) (added in version 11.0), and for some locations in\n                           Europe , including Central Europe. Also valid for Verisk Earthquake Model for New Zealand and Verisk Earthquake Model for Australia ."
+    ]
+   ]
+  }
+ ]
+}

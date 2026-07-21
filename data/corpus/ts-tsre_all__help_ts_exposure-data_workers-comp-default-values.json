@@ -1,0 +1,72 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_workers-comp-default-values.html",
+ "title": "Workers' compensation default values",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Workers' compensation default values\n\nDefault values for workers' compensation:\nThe following table lists \nTouchstone\n default occupancy\n rates for the percentage of covered employees at a location during specified times.\n Occupancy rates vary with the day of the week. Assumed occupancy times are Monday\n through Saturday. Assumed occupancy rates for Sunday are the same as the nighttime rates\n shown. Holidays are handled like any other day.\n\n| Occupancy Category | Night\n (7 pm - 6:59 am) | Day\n (9 am - 4:59 pm) | Commute\n (7 am - 8:59 am,\n 5 pm - 6:59 pm) |\n| --- | --- | --- | --- |\n| Residential (codes\n 301-310) | 0.99 | 0.80 | 0.95 |\n| Commercial (codes\n 311-320) | 0.02 | 0.98 | 0.50 |\n| Industrial (codes 321-330, Industrial\n Facilities (400-series codes) | 0.10 | 0.80 | 0.50 |\n| Other (including unknown ) | 0.02 | 0.98 | 0.50 |\n\nPersonal accident default values\n\nThe following table lists \nTouchstone\n personal\n accident default values for the percentage of covered employees who will be at the\n location during the specified times:\n\n| Occupancy Category | Morning\n (6 am - 5:59 pm) | Night\n (6 pm - 5:59 am) |\n| --- | --- | --- |\n| Residential (codes\n 301-310) | 0.80 | 0.99 |\n| Industrial (codes 321-330, Industrial\n Facilities (400-series codes) | 0.98 | 0.02 |\n| Industrial (codes 321-330, Industrial\n Facilities (400-series codes) | 0.80 | 0.10 |\n| Other (including unknown ) | 0.98 | 0.02 |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy Category",
+    "Night\n                        (7 pm - 6:59 am)",
+    "Day\n                        (9 am - 4:59 pm)",
+    "Commute\n                        (7 am - 8:59 am,\n                        5 pm - 6:59 pm)"
+   ],
+   "rows": [
+    [
+     "Residential (codes\n                           301-310)",
+     "0.99",
+     "0.80",
+     "0.95"
+    ],
+    [
+     "Commercial (codes\n                           311-320)",
+     "0.02",
+     "0.98",
+     "0.50"
+    ],
+    [
+     "Industrial (codes 321-330, Industrial\n                              Facilities (400-series codes)",
+     "0.10",
+     "0.80",
+     "0.50"
+    ],
+    [
+     "Other (including unknown )",
+     "0.02",
+     "0.98",
+     "0.50"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Occupancy Category",
+    "Morning\n                        (6 am - 5:59 pm)",
+    "Night\n                        (6 pm - 5:59 am)"
+   ],
+   "rows": [
+    [
+     "Residential (codes\n                           301-310)",
+     "0.80",
+     "0.99"
+    ],
+    [
+     "Industrial (codes 321-330, Industrial\n                              Facilities (400-series codes)",
+     "0.98",
+     "0.02"
+    ],
+    [
+     "Industrial (codes 321-330, Industrial\n                              Facilities (400-series codes)",
+     "0.80",
+     "0.10"
+    ],
+    [
+     "Other (including unknown )",
+     "0.98",
+     "0.02"
+    ]
+   ]
+  }
+ ]
+}

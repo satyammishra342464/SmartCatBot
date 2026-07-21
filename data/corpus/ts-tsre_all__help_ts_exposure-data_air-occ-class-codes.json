@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_air-occ-class-codes.html",
+ "title": "Touchstone occupancy class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Touchstone\n occupancy class codes\n\nThe primary codes for occupancy classes define the type of activity carried out in the\n risks included in a record. \nTouchstone\n support for\n occupancy classes varies by country/region. Use the best possible occupancy class code from\n the appropriate list of occupancy class codes for a particular country or region.\n\nThe related information links provide information about the \nTouchstone\n occupancy class codes and about which\n occupancy class codes are valid for each supported country/region. There is also a link\n to validation information for unknown construction / unknown occupancy combinations.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.",
+ "tables": []
+}

@@ -1,0 +1,329 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_austria-cresta_2-10.html",
+ "title": "Austria CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Austria \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Austria supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Austria (26).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 26-AUT | Austria |\n| 26-AUT_10 | Z10: Wien |\n| 26-AUT_11 | Z11: Wien |\n| 26-AUT_12 | Z12: Wien |\n| 26-AUT_13 | Z13: Wien-Flughafen |\n| 26-AUT_20 | Z20: Hollabrunn |\n| 26-AUT_21 | Z21: Mistelbach an der Zaya |\n| 26-AUT_22 | Z23: Zistersdorf |\n| 26-AUT_23 | Z23: GroÃ-Enzersdorf |\n| 26-AUT_24 | Z24: Nickelsdorf |\n| 26-AUT_25 | Z25: Alland |\n| 26-AUT_26 | Z26: Schwarzau im Gebirge |\n| 26-AUT_27 | Z27: Gutenstein |\n| 26-AUT_28 | Z28: Aspang |\n| 26-AUT_30 | Z30: BÃ¶heimkirchen |\n| 26-AUT_31 | Z31: Kernhof |\n| 26-AUT_32 | Z32: Langau bei Gaming |\n| 26-AUT_33 | Z33: GÃ¶stling an der Ybbs |\n| 26-AUT_34 | Z34: Hausleiten |\n| 26-AUT_35 | Z35: GfÃ¶hl |\n| 26-AUT_36 | Z36: Yspertal |\n| 26-AUT_37 | Z37: Sitzendorf an der Schmida |\n| 26-AUT_38 | Z38: Litschau |\n| 26-AUT_39 | Z39: Zwettl |\n| 26-AUT_40 | Z40: Linz |\n| 26-AUT_41 | Z41: Vorderweissenbach |\n| 26-AUT_42 | Z42: Liebenau |\n| 26-AUT_43 | Z43: St. Georgen am Walde |\n| 26-AUT_44 | Z44: Kleinreifling |\n| 26-AUT_45 | Z45: Molln |\n| 26-AUT_46 | Z46: GrÃ¼nau im Almtal |\n| 26-AUT_47 | Z47: Grieskirchen |\n| 26-AUT_48 | Z48: Ebensee |\n| 26-AUT_49 | Z49: Obernberg am Inn |\n| 26-AUT_50 | Z50: Unken |\n| 26-AUT_51 | Z51: Ostermiething |\n| 26-AUT_52 | Z52: Munderfing |\n| 26-AUT_53 | Z53: St. Gilgen |\n| 26-AUT_54 | Z54: Abtenau |\n| 26-AUT_55 | Z55: Tamsweg |\n| 26-AUT_56 | Z56: Rauris |\n| 26-AUT_57 | Z57: Krimml |\n| 26-AUT_60 | Z60: Innsbruck |\n| 26-AUT_61 | Z61: Neustift im Stubaital |\n| 26-AUT_62 | Z62: Mayrhofen |\n| 26-AUT_63 | Z63: Hopfgarten im Brixental |\n| 26-AUT_64 | Z64: St. Leonhard im Pitztal |\n| 26-AUT_65 | Z65: Feichten im Kaunertal |\n| 26-AUT_66 | Z66: Reutte |\n| 26-AUT_67 | Z67: Schruns |\n| 26-AUT_68 | Z68: Dornbirn |\n| 26-AUT_69 | Z69: Hittisau |\n| 26-AUT_70 | Z70: Oggau |\n| 26-AUT_71 | Z71: Illmitz |\n| 26-AUT_72 | Z72: Mattersburg |\n| 26-AUT_73 | Z73: Nikitsch |\n| 26-AUT_74 | Z74: Pinkafeld |\n| 26-AUT_75 | Z75: GÃ¼ssing |\n| 26-AUT_80 | Z80: Heiligenkreuz am Waasen |\n| 26-AUT_81 | Z81: Frohnleiten |\n| 26-AUT_82 | Z82: PÃ¶llau bei Hartberg |\n| 26-AUT_83 | Z83: Gnas |\n| 26-AUT_84 | Z84: Leutschach |\n| 26-AUT_85 | Z85: Deutschlandsberg |\n| 26-AUT_86 | Z86: ThÃ¶rl |\n| 26-AUT_87 | Z87: Rottenmann |\n| 26-AUT_88 | Z88: OberwÃ¶lz |\n| 26-AUT_89 | Z89: Stein an der Enns |\n| 26-AUT_90 | Z90: Klagenfurt |\n| 26-AUT_91 | Z91: Eisenkappel |\n| 26-AUT_92 | Z92: Portschach am Worther See |\n| 26-AUT_93 | Z93: Metnitz |\n| 26-AUT_94 | Z94: St. Gertraud |\n| 26-AUT_95 | Z95: Feldkirchen in Kernten |\n| 26-AUT_96 | Z96: Hermagor |\n| 26-AUT_97 | Z97: Feistritz an der Drau |\n| 26-AUT_98 | Z98: Malta |\n| 26_AUT_99 | Z99: Matrei in Osttirol |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "26-AUT",
+     "Austria"
+    ],
+    [
+     "26-AUT_10",
+     "Z10: Wien"
+    ],
+    [
+     "26-AUT_11",
+     "Z11: Wien"
+    ],
+    [
+     "26-AUT_12",
+     "Z12: Wien"
+    ],
+    [
+     "26-AUT_13",
+     "Z13: Wien-Flughafen"
+    ],
+    [
+     "26-AUT_20",
+     "Z20: Hollabrunn"
+    ],
+    [
+     "26-AUT_21",
+     "Z21: Mistelbach an der Zaya"
+    ],
+    [
+     "26-AUT_22",
+     "Z23: Zistersdorf"
+    ],
+    [
+     "26-AUT_23",
+     "Z23: GroÃ-Enzersdorf"
+    ],
+    [
+     "26-AUT_24",
+     "Z24: Nickelsdorf"
+    ],
+    [
+     "26-AUT_25",
+     "Z25: Alland"
+    ],
+    [
+     "26-AUT_26",
+     "Z26: Schwarzau im Gebirge"
+    ],
+    [
+     "26-AUT_27",
+     "Z27: Gutenstein"
+    ],
+    [
+     "26-AUT_28",
+     "Z28: Aspang"
+    ],
+    [
+     "26-AUT_30",
+     "Z30: BÃ¶heimkirchen"
+    ],
+    [
+     "26-AUT_31",
+     "Z31: Kernhof"
+    ],
+    [
+     "26-AUT_32",
+     "Z32: Langau bei Gaming"
+    ],
+    [
+     "26-AUT_33",
+     "Z33: GÃ¶stling an der Ybbs"
+    ],
+    [
+     "26-AUT_34",
+     "Z34: Hausleiten"
+    ],
+    [
+     "26-AUT_35",
+     "Z35: GfÃ¶hl"
+    ],
+    [
+     "26-AUT_36",
+     "Z36: Yspertal"
+    ],
+    [
+     "26-AUT_37",
+     "Z37: Sitzendorf an der Schmida"
+    ],
+    [
+     "26-AUT_38",
+     "Z38: Litschau"
+    ],
+    [
+     "26-AUT_39",
+     "Z39: Zwettl"
+    ],
+    [
+     "26-AUT_40",
+     "Z40: Linz"
+    ],
+    [
+     "26-AUT_41",
+     "Z41: Vorderweissenbach"
+    ],
+    [
+     "26-AUT_42",
+     "Z42: Liebenau"
+    ],
+    [
+     "26-AUT_43",
+     "Z43: St. Georgen am Walde"
+    ],
+    [
+     "26-AUT_44",
+     "Z44: Kleinreifling"
+    ],
+    [
+     "26-AUT_45",
+     "Z45: Molln"
+    ],
+    [
+     "26-AUT_46",
+     "Z46: GrÃ¼nau im Almtal"
+    ],
+    [
+     "26-AUT_47",
+     "Z47: Grieskirchen"
+    ],
+    [
+     "26-AUT_48",
+     "Z48: Ebensee"
+    ],
+    [
+     "26-AUT_49",
+     "Z49: Obernberg am Inn"
+    ],
+    [
+     "26-AUT_50",
+     "Z50: Unken"
+    ],
+    [
+     "26-AUT_51",
+     "Z51: Ostermiething"
+    ],
+    [
+     "26-AUT_52",
+     "Z52: Munderfing"
+    ],
+    [
+     "26-AUT_53",
+     "Z53: St. Gilgen"
+    ],
+    [
+     "26-AUT_54",
+     "Z54: Abtenau"
+    ],
+    [
+     "26-AUT_55",
+     "Z55: Tamsweg"
+    ],
+    [
+     "26-AUT_56",
+     "Z56: Rauris"
+    ],
+    [
+     "26-AUT_57",
+     "Z57: Krimml"
+    ],
+    [
+     "26-AUT_60",
+     "Z60: Innsbruck"
+    ],
+    [
+     "26-AUT_61",
+     "Z61: Neustift im Stubaital"
+    ],
+    [
+     "26-AUT_62",
+     "Z62: Mayrhofen"
+    ],
+    [
+     "26-AUT_63",
+     "Z63: Hopfgarten im Brixental"
+    ],
+    [
+     "26-AUT_64",
+     "Z64: St. Leonhard im Pitztal"
+    ],
+    [
+     "26-AUT_65",
+     "Z65: Feichten im Kaunertal"
+    ],
+    [
+     "26-AUT_66",
+     "Z66: Reutte"
+    ],
+    [
+     "26-AUT_67",
+     "Z67: Schruns"
+    ],
+    [
+     "26-AUT_68",
+     "Z68: Dornbirn"
+    ],
+    [
+     "26-AUT_69",
+     "Z69: Hittisau"
+    ],
+    [
+     "26-AUT_70",
+     "Z70: Oggau"
+    ],
+    [
+     "26-AUT_71",
+     "Z71: Illmitz"
+    ],
+    [
+     "26-AUT_72",
+     "Z72: Mattersburg"
+    ],
+    [
+     "26-AUT_73",
+     "Z73: Nikitsch"
+    ],
+    [
+     "26-AUT_74",
+     "Z74: Pinkafeld"
+    ],
+    [
+     "26-AUT_75",
+     "Z75: GÃ¼ssing"
+    ],
+    [
+     "26-AUT_80",
+     "Z80: Heiligenkreuz am Waasen"
+    ],
+    [
+     "26-AUT_81",
+     "Z81: Frohnleiten"
+    ],
+    [
+     "26-AUT_82",
+     "Z82: PÃ¶llau bei Hartberg"
+    ],
+    [
+     "26-AUT_83",
+     "Z83: Gnas"
+    ],
+    [
+     "26-AUT_84",
+     "Z84: Leutschach"
+    ],
+    [
+     "26-AUT_85",
+     "Z85: Deutschlandsberg"
+    ],
+    [
+     "26-AUT_86",
+     "Z86: ThÃ¶rl"
+    ],
+    [
+     "26-AUT_87",
+     "Z87: Rottenmann"
+    ],
+    [
+     "26-AUT_88",
+     "Z88: OberwÃ¶lz"
+    ],
+    [
+     "26-AUT_89",
+     "Z89: Stein an der Enns"
+    ],
+    [
+     "26-AUT_90",
+     "Z90: Klagenfurt"
+    ],
+    [
+     "26-AUT_91",
+     "Z91: Eisenkappel"
+    ],
+    [
+     "26-AUT_92",
+     "Z92: Portschach am Worther See"
+    ],
+    [
+     "26-AUT_93",
+     "Z93: Metnitz"
+    ],
+    [
+     "26-AUT_94",
+     "Z94: St. Gertraud"
+    ],
+    [
+     "26-AUT_95",
+     "Z95: Feldkirchen in Kernten"
+    ],
+    [
+     "26-AUT_96",
+     "Z96: Hermagor"
+    ],
+    [
+     "26-AUT_97",
+     "Z97: Feistritz an der Drau"
+    ],
+    [
+     "26-AUT_98",
+     "Z98: Malta"
+    ],
+    [
+     "26_AUT_99",
+     "Z99: Matrei in Osttirol"
+    ]
+   ]
+  }
+ ]
+}

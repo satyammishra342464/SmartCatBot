@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_norway_cresta_2-10.html",
+ "title": "Norway CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Norway \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Norway supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Norway (08).\n\n| Area Tag | Zone |\n| --- | --- |\n| 08-NOR | Norway |\n| 08-NOR_01 | Z01: Ostfold |\n| 08-NOR_02 | Z02: Akershus |\n| 08-NOR_03 | Z03: Oslo |\n| 08-NOR_04 | Z04: Hedmark |\n| 08-NOR_05 | Z05: Oppland |\n| 08-NOR_06 | Z06: Buskerud |\n| 08-NOR_07 | Z07: Vestfold |\n| 08-NOR_08 | Z08: Telemark |\n| 08-NOR_09 | Z09: Aust-Agder |\n| 08-NOR_10 | Z10: Vest-Agder |\n| 08-NOR_11 | Z11: Rogaland |\n| 08-NOR_12 | Z12: Hordaland |\n| 08-NOR_14 | Z14: Sogn og Fjordane |\n| 08-NOR_15 | Z15: More og Romsdal |\n| 08-NOR_16 | Z16: Sor-Trondelag |\n| 08-NOR_17 | Z17: Nord-Trondelag |\n| 08-NOR_18 | Z18: Nordland |\n| 08-NOR_19 | Z19: Troms (Romsa) |\n| 08-NOR_20 | Z20: Finnmark (Finnmarku) |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "08-NOR",
+     "Norway"
+    ],
+    [
+     "08-NOR_01",
+     "Z01: Ostfold"
+    ],
+    [
+     "08-NOR_02",
+     "Z02: Akershus"
+    ],
+    [
+     "08-NOR_03",
+     "Z03: Oslo"
+    ],
+    [
+     "08-NOR_04",
+     "Z04: Hedmark"
+    ],
+    [
+     "08-NOR_05",
+     "Z05: Oppland"
+    ],
+    [
+     "08-NOR_06",
+     "Z06: Buskerud"
+    ],
+    [
+     "08-NOR_07",
+     "Z07: Vestfold"
+    ],
+    [
+     "08-NOR_08",
+     "Z08: Telemark"
+    ],
+    [
+     "08-NOR_09",
+     "Z09: Aust-Agder"
+    ],
+    [
+     "08-NOR_10",
+     "Z10: Vest-Agder"
+    ],
+    [
+     "08-NOR_11",
+     "Z11: Rogaland"
+    ],
+    [
+     "08-NOR_12",
+     "Z12: Hordaland"
+    ],
+    [
+     "08-NOR_14",
+     "Z14: Sogn og Fjordane"
+    ],
+    [
+     "08-NOR_15",
+     "Z15: More og Romsdal"
+    ],
+    [
+     "08-NOR_16",
+     "Z16: Sor-Trondelag"
+    ],
+    [
+     "08-NOR_17",
+     "Z17: Nord-Trondelag"
+    ],
+    [
+     "08-NOR_18",
+     "Z18: Nordland"
+    ],
+    [
+     "08-NOR_19",
+     "Z19: Troms (Romsa)"
+    ],
+    [
+     "08-NOR_20",
+     "Z20: Finnmark (Finnmarku)"
+    ]
+   ]
+  }
+ ]
+}

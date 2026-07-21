@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_con-class-desc.html",
+ "title": "Construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Construction class codes\n\nThe range of \nTouchstone\n construction\n class codes/\n\nNote:\n \nTouchstone\n applies\n non-engineered building damage distributions to the following construction classes: 101,\n 102, 103, 104, 111, 112, 113, 114, 115, 173, 174, 178, 179, 261. This action occurs\n regardless of occupancy class, including the industrial facility (400-series) occupancy\n classes. This note applies to the \nVerisk Earthquake Model for Japan\n. to the\n \nVerisk Earthquake Model for Canada\n, and the \nVerisk Typhoon Model for South Korea\n.\n\nNote:\n We implemented solar codes across all regions. They\n are initially available for the \nVerisk Severe Thunderstorm Model for the United States\n\n| Code range | Category |\n| --- | --- |\n| 100 | Unknown\n construction |\n| 101-108 | Wood\n construction |\n| 111-121 | Masonry\n construction |\n| 131-141 | Concrete\n construction |\n| 151-160 | Steel\n construction |\n| 161-179 | Japan\n composite construction |\n| 181-187 | Special\n construction |\n| 191-194 | Mobile home\n construction |\n| 201-203, 2010-2031 | Bridge\n construction |\n| 204-206 | Pavement\n construction |\n| 211-212 | Dam\n construction |\n| 213-215, 2131-2152 | Tunnel\n construction |\n| 221-226, 2210-2263 | Storage tank\n construction |\n| 227-228, 2270-2286 | Pipeline\n construction |\n| 231-233 | Chimney\n construction |\n| 234-238 | Tower\n construction |\n| 239 | Onshore asset |\n| 240 | Offshore asset |\n| 241-247 | Equipment\n construction |\n| 250-260 | Miscellaneous\n construction |\n| 261-263 | Automobile\n construction |\n| 265-267 | Marine craft\n construction |\n| 270-296, 2701-2720 (added in version 9.0) | Marine cargo\n construction |\n| 500-514 (added in version 13.0) | Solar construction |\n| 800-813 | Offshore asset\n construction |\n\nNote:\n \nTouchstone\n also\n supports non-\nTouchstone\n construction and\n occupancy class codes, although we always recommend translating non-\nTouchstone\n codes to \nTouchstone\n codes wherever possible before importing\n your data. For more information, see the topics about non-\nTouchstone\n codes in the Help provided with your\n \nTouchstone\n Client.",
+ "tables": [
+  {
+   "headers": [
+    "Code range",
+    "Category"
+   ],
+   "rows": [
+    [
+     "100",
+     "Unknown\n                           construction"
+    ],
+    [
+     "101-108",
+     "Wood\n                        construction"
+    ],
+    [
+     "111-121",
+     "Masonry\n                           construction"
+    ],
+    [
+     "131-141",
+     "Concrete\n                           construction"
+    ],
+    [
+     "151-160",
+     "Steel\n                           construction"
+    ],
+    [
+     "161-179",
+     "Japan\n                           composite construction"
+    ],
+    [
+     "181-187",
+     "Special\n                           construction"
+    ],
+    [
+     "191-194",
+     "Mobile home\n                           construction"
+    ],
+    [
+     "201-203, 2010-2031",
+     "Bridge\n                           construction"
+    ],
+    [
+     "204-206",
+     "Pavement\n                           construction"
+    ],
+    [
+     "211-212",
+     "Dam\n                        construction"
+    ],
+    [
+     "213-215, 2131-2152",
+     "Tunnel\n                           construction"
+    ],
+    [
+     "221-226, 2210-2263",
+     "Storage tank\n                           construction"
+    ],
+    [
+     "227-228, 2270-2286",
+     "Pipeline\n                           construction"
+    ],
+    [
+     "231-233",
+     "Chimney\n                           construction"
+    ],
+    [
+     "234-238",
+     "Tower\n                           construction"
+    ],
+    [
+     "239",
+     "Onshore asset"
+    ],
+    [
+     "240",
+     "Offshore asset"
+    ],
+    [
+     "241-247",
+     "Equipment\n                           construction"
+    ],
+    [
+     "250-260",
+     "Miscellaneous\n                           construction"
+    ],
+    [
+     "261-263",
+     "Automobile\n                           construction"
+    ],
+    [
+     "265-267",
+     "Marine craft\n                           construction"
+    ],
+    [
+     "270-296,  2701-2720 (added in version 9.0)",
+     "Marine cargo\n                           construction"
+    ],
+    [
+     "500-514 (added in version 13.0)",
+     "Solar construction"
+    ],
+    [
+     "800-813",
+     "Offshore asset\n                           construction"
+    ]
+   ]
+  }
+ ]
+}

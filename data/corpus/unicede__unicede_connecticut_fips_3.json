@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_connecticut_fips_3.html",
+ "title": "Connecticut (CT) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Connecticut (CT) Counties\n\nFIPS codes for Connecticut.\nFIPS State Code: 09\n \n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Tolland County, enter \n01-09013\n.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Fairfield |\n| 003 | Hartford |\n| 005 | Litchfield |\n| 007 | Middlesex |\n| 009 | New Haven |\n| 011 | New London |\n| 013 | Tolland |\n| 015 | Windham |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Fairfield"
+    ],
+    [
+     "003",
+     "Hartford"
+    ],
+    [
+     "005",
+     "Litchfield"
+    ],
+    [
+     "007",
+     "Middlesex"
+    ],
+    [
+     "009",
+     "New Haven"
+    ],
+    [
+     "011",
+     "New London"
+    ],
+    [
+     "013",
+     "Tolland"
+    ],
+    [
+     "015",
+     "Windham"
+    ]
+   ]
+  }
+ ]
+}

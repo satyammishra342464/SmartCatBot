@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_argentina-cresta_2-7.html",
+ "title": "Argentina CRESTA codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Argentina \nCRESTA\n codes (v2.7) \n\nCRESTA\n codes for Argentina supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Argentina (32).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 32-0 | ARGENTINA |\n| 32-B | Buenos Aries |\n| 32-K | Catamarca |\n| 32-H | Chaco |\n| 32-U | Chubut |\n| 32-C | Ciudad AutÃ³noma de Buenos Aires |\n| 32-X | CÃ³rdoba |\n| 32-W | Corrientes |\n| 32-E | Entre RÃ­os |\n| 32-P | Formosa |\n| 32-Y | Jujuy |\n| 32-L | La Pampa |\n| 32-F | La Rioja |\n| 32-M | Mendoza |\n| 32-N | Misiones |\n| 32-Q | NeuquÃ©n |\n| 32-R | RÃ­o Negro |\n| 32-A | Salta |\n| 32-J | San Juan |\n| 32-D | San Luis |\n| 32-Z | Santa Cruz |\n| 32-S | Santa Fe |\n| 32-G | Santiago del Estero |\n| 32-V | Tierra del Fuego |\n| 32-T | TucumÃ¡n |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "32-0",
+     "ARGENTINA"
+    ],
+    [
+     "32-B",
+     "Buenos Aries"
+    ],
+    [
+     "32-K",
+     "Catamarca"
+    ],
+    [
+     "32-H",
+     "Chaco"
+    ],
+    [
+     "32-U",
+     "Chubut"
+    ],
+    [
+     "32-C",
+     "Ciudad AutÃ³noma de Buenos Aires"
+    ],
+    [
+     "32-X",
+     "CÃ³rdoba"
+    ],
+    [
+     "32-W",
+     "Corrientes"
+    ],
+    [
+     "32-E",
+     "Entre RÃ­os"
+    ],
+    [
+     "32-P",
+     "Formosa"
+    ],
+    [
+     "32-Y",
+     "Jujuy"
+    ],
+    [
+     "32-L",
+     "La Pampa"
+    ],
+    [
+     "32-F",
+     "La Rioja"
+    ],
+    [
+     "32-M",
+     "Mendoza"
+    ],
+    [
+     "32-N",
+     "Misiones"
+    ],
+    [
+     "32-Q",
+     "NeuquÃ©n"
+    ],
+    [
+     "32-R",
+     "RÃ­o Negro"
+    ],
+    [
+     "32-A",
+     "Salta"
+    ],
+    [
+     "32-J",
+     "San Juan"
+    ],
+    [
+     "32-D",
+     "San Luis"
+    ],
+    [
+     "32-Z",
+     "Santa Cruz"
+    ],
+    [
+     "32-S",
+     "Santa Fe"
+    ],
+    [
+     "32-G",
+     "Santiago del Estero"
+    ],
+    [
+     "32-V",
+     "Tierra del Fuego"
+    ],
+    [
+     "32-T",
+     "TucumÃ¡n"
+    ]
+   ]
+  }
+ ]
+}

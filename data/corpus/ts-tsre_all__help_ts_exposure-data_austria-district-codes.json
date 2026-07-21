@@ -1,0 +1,501 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_austria-district-codes.html",
+ "title": "Austria district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Austria district codes\n\nTouchstone\n supports the following district\n codes for Austria.\n\n| District Code | District Name |\n| --- | --- |\n| 101 | Eisenstadt (Stadt) |\n| 102 | Rust |\n| 103 | Eisenstadt (Land) |\n| 104 | GÃ¼ssing |\n| 105 | Jennersdorf |\n| 106 | Mattersburg |\n| 107 | Neusiedl am See |\n| 108 | Oberpullendorf |\n| 109 | Oberwart |\n| 201 | Klagenfurt (Stadt) |\n| 202 | Villach (Stadt) |\n| 203 | Hermagor |\n| 204 | Klagenfurt Land |\n| 205 | Sankt Veit an der Glan |\n| 206 | Spittal an der Drau |\n| 207 | Villach Land |\n| 208 | VÃ¶lkermarkt |\n| 209 | Wolfsberg |\n| 210 | Feldkirchen |\n| 301 | Krems an der Donau (Stadt) |\n| 302 | St. PÃ¶lten (Stadt) |\n| 303 | Waidhofen an der Ybbs |\n| 304 | Wiener Neustadt (Stadt) |\n| 305 | Amstetten |\n| 306 | Baden |\n| 307 | Bruck an der Leitha |\n| 308 | GÃ¤nserndorf |\n| 309 | GmÃ¼nd |\n| 310 | Hollabrunn |\n| 311 | Horn |\n| 312 | Korneuburg |\n| 313 | Krems an der Donau (Land) |\n| 314 | Lilienfeld |\n| 315 | Melk |\n| 316 | Mistelbach |\n| 317 | MÃ¶dling |\n| 318 | Neunkirchen |\n| 319 | St. PÃ¶lten (Land) |\n| 320 | Scheibbs |\n| 321 | Tulln |\n| 322 | Waidhofen an der Thaya |\n| 323 | Wiener Neustadt (Land) |\n| 324 | Wien-Umgebung |\n| 325 | Zwettl |\n| 401 | Linz |\n| 402 | Steyr |\n| 403 | Wels |\n| 404 | Braunau am Inn |\n| 405 | Eferding |\n| 406 | Freistadt |\n| 407 | Gmunden |\n| 408 | Grieskirchen |\n| 409 | Kirchdorf an der Krems |\n| 410 | Linz-Land |\n| 411 | Perg |\n| 412 | Ried im Innkreis |\n| 413 | Rohrbach |\n| 414 | SchÃ¤rding |\n| 415 | Steyr-Land |\n| 416 | Urfahr-Umgebung |\n| 417 | VÃ¶cklabruck |\n| 418 | Wels-Land |\n| 501 | Salzburg |\n| 502 | Hallein |\n| 503 | Salzburg-Umgebung |\n| 504 | Sankt Johann im Pongau |\n| 505 | Tamsweg |\n| 506 | Zell am See |\n| 601 | Graz |\n| 602 | Bruck an der Mur |\n| 603 | Deutschlandsberg |\n| 604 | Feldbach |\n| 605 | FÃ¼rstenfeld |\n| 606 | Graz-Umgebung |\n| 607 | Hartberg |\n| 608 | Judenburg |\n| 609 | Knittelfeld |\n| 610 | Leibnitz |\n| 611 | Leoben |\n| 612 | Liezen |\n| 613 | MÃ¼rzzuschlag |\n| 614 | Murau |\n| 615 | Bad Radkersburg |\n| 616 | Voitsberg |\n| 617 | Weiz |\n| 701 | Innsbruck-Stadt |\n| 702 | Imst |\n| 703 | Innsbruck-Land |\n| 704 | KitzbÃ¼hel |\n| 705 | Kufstein |\n| 706 | Landeck |\n| 707 | Lienz |\n| 708 | Reutte |\n| 709 | Schwaz |\n| 801 | Bludenz |\n| 802 | Bregenz |\n| 803 | Dornbirn |\n| 804 | Feldkirch |\n| 901 | Wien I Innere Stadt |\n| 902 | Wien II Leopoldstadt |\n| 903 | Wien III LandstraÃe |\n| 904 | Wien IV Wieden |\n| 905 | Wien V Margareten |\n| 906 | Wien VI Mariahilf |\n| 907 | Wien VII Neubau |\n| 908 | Wien VIII Josefstadt |\n| 909 | Wien IX Alsergrund |\n| 910 | Wien X Favoriten |\n| 911 | Wien XI Simmering |\n| 912 | Wien XII Meidling |\n| 913 | Wien XIII Hietzing |\n| 914 | Wien XIV Penzing |\n| 915 | Wien XV Rudolfsheim-FÃ¼nfhaus |\n| 916 | Wien XVI Ottakring |\n| 917 | Wien XVII Hernals |\n| 918 | Wien XVIII WÃ¤hring |\n| 919 | Wien XIX DÃ¶bling |\n| 920 | Wien XX Brigittenau |\n| 921 | Wien XXI Floridsdorf |\n| 922 | Wien XXII Dounaustadt |\n| 923 | Wien XXIII Liesing |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "101",
+     "Eisenstadt (Stadt)"
+    ],
+    [
+     "102",
+     "Rust"
+    ],
+    [
+     "103",
+     "Eisenstadt (Land)"
+    ],
+    [
+     "104",
+     "GÃ¼ssing"
+    ],
+    [
+     "105",
+     "Jennersdorf"
+    ],
+    [
+     "106",
+     "Mattersburg"
+    ],
+    [
+     "107",
+     "Neusiedl am See"
+    ],
+    [
+     "108",
+     "Oberpullendorf"
+    ],
+    [
+     "109",
+     "Oberwart"
+    ],
+    [
+     "201",
+     "Klagenfurt (Stadt)"
+    ],
+    [
+     "202",
+     "Villach (Stadt)"
+    ],
+    [
+     "203",
+     "Hermagor"
+    ],
+    [
+     "204",
+     "Klagenfurt Land"
+    ],
+    [
+     "205",
+     "Sankt Veit an der Glan"
+    ],
+    [
+     "206",
+     "Spittal an der Drau"
+    ],
+    [
+     "207",
+     "Villach Land"
+    ],
+    [
+     "208",
+     "VÃ¶lkermarkt"
+    ],
+    [
+     "209",
+     "Wolfsberg"
+    ],
+    [
+     "210",
+     "Feldkirchen"
+    ],
+    [
+     "301",
+     "Krems an der Donau (Stadt)"
+    ],
+    [
+     "302",
+     "St. PÃ¶lten (Stadt)"
+    ],
+    [
+     "303",
+     "Waidhofen an der Ybbs"
+    ],
+    [
+     "304",
+     "Wiener Neustadt (Stadt)"
+    ],
+    [
+     "305",
+     "Amstetten"
+    ],
+    [
+     "306",
+     "Baden"
+    ],
+    [
+     "307",
+     "Bruck an der Leitha"
+    ],
+    [
+     "308",
+     "GÃ¤nserndorf"
+    ],
+    [
+     "309",
+     "GmÃ¼nd"
+    ],
+    [
+     "310",
+     "Hollabrunn"
+    ],
+    [
+     "311",
+     "Horn"
+    ],
+    [
+     "312",
+     "Korneuburg"
+    ],
+    [
+     "313",
+     "Krems an der Donau (Land)"
+    ],
+    [
+     "314",
+     "Lilienfeld"
+    ],
+    [
+     "315",
+     "Melk"
+    ],
+    [
+     "316",
+     "Mistelbach"
+    ],
+    [
+     "317",
+     "MÃ¶dling"
+    ],
+    [
+     "318",
+     "Neunkirchen"
+    ],
+    [
+     "319",
+     "St. PÃ¶lten (Land)"
+    ],
+    [
+     "320",
+     "Scheibbs"
+    ],
+    [
+     "321",
+     "Tulln"
+    ],
+    [
+     "322",
+     "Waidhofen an der Thaya"
+    ],
+    [
+     "323",
+     "Wiener Neustadt (Land)"
+    ],
+    [
+     "324",
+     "Wien-Umgebung"
+    ],
+    [
+     "325",
+     "Zwettl"
+    ],
+    [
+     "401",
+     "Linz"
+    ],
+    [
+     "402",
+     "Steyr"
+    ],
+    [
+     "403",
+     "Wels"
+    ],
+    [
+     "404",
+     "Braunau am Inn"
+    ],
+    [
+     "405",
+     "Eferding"
+    ],
+    [
+     "406",
+     "Freistadt"
+    ],
+    [
+     "407",
+     "Gmunden"
+    ],
+    [
+     "408",
+     "Grieskirchen"
+    ],
+    [
+     "409",
+     "Kirchdorf an der Krems"
+    ],
+    [
+     "410",
+     "Linz-Land"
+    ],
+    [
+     "411",
+     "Perg"
+    ],
+    [
+     "412",
+     "Ried im Innkreis"
+    ],
+    [
+     "413",
+     "Rohrbach"
+    ],
+    [
+     "414",
+     "SchÃ¤rding"
+    ],
+    [
+     "415",
+     "Steyr-Land"
+    ],
+    [
+     "416",
+     "Urfahr-Umgebung"
+    ],
+    [
+     "417",
+     "VÃ¶cklabruck"
+    ],
+    [
+     "418",
+     "Wels-Land"
+    ],
+    [
+     "501",
+     "Salzburg"
+    ],
+    [
+     "502",
+     "Hallein"
+    ],
+    [
+     "503",
+     "Salzburg-Umgebung"
+    ],
+    [
+     "504",
+     "Sankt Johann im Pongau"
+    ],
+    [
+     "505",
+     "Tamsweg"
+    ],
+    [
+     "506",
+     "Zell am See"
+    ],
+    [
+     "601",
+     "Graz"
+    ],
+    [
+     "602",
+     "Bruck an der Mur"
+    ],
+    [
+     "603",
+     "Deutschlandsberg"
+    ],
+    [
+     "604",
+     "Feldbach"
+    ],
+    [
+     "605",
+     "FÃ¼rstenfeld"
+    ],
+    [
+     "606",
+     "Graz-Umgebung"
+    ],
+    [
+     "607",
+     "Hartberg"
+    ],
+    [
+     "608",
+     "Judenburg"
+    ],
+    [
+     "609",
+     "Knittelfeld"
+    ],
+    [
+     "610",
+     "Leibnitz"
+    ],
+    [
+     "611",
+     "Leoben"
+    ],
+    [
+     "612",
+     "Liezen"
+    ],
+    [
+     "613",
+     "MÃ¼rzzuschlag"
+    ],
+    [
+     "614",
+     "Murau"
+    ],
+    [
+     "615",
+     "Bad Radkersburg"
+    ],
+    [
+     "616",
+     "Voitsberg"
+    ],
+    [
+     "617",
+     "Weiz"
+    ],
+    [
+     "701",
+     "Innsbruck-Stadt"
+    ],
+    [
+     "702",
+     "Imst"
+    ],
+    [
+     "703",
+     "Innsbruck-Land"
+    ],
+    [
+     "704",
+     "KitzbÃ¼hel"
+    ],
+    [
+     "705",
+     "Kufstein"
+    ],
+    [
+     "706",
+     "Landeck"
+    ],
+    [
+     "707",
+     "Lienz"
+    ],
+    [
+     "708",
+     "Reutte"
+    ],
+    [
+     "709",
+     "Schwaz"
+    ],
+    [
+     "801",
+     "Bludenz"
+    ],
+    [
+     "802",
+     "Bregenz"
+    ],
+    [
+     "803",
+     "Dornbirn"
+    ],
+    [
+     "804",
+     "Feldkirch"
+    ],
+    [
+     "901",
+     "Wien I Innere Stadt"
+    ],
+    [
+     "902",
+     "Wien II Leopoldstadt"
+    ],
+    [
+     "903",
+     "Wien III LandstraÃe"
+    ],
+    [
+     "904",
+     "Wien IV Wieden"
+    ],
+    [
+     "905",
+     "Wien V Margareten"
+    ],
+    [
+     "906",
+     "Wien VI Mariahilf"
+    ],
+    [
+     "907",
+     "Wien VII Neubau"
+    ],
+    [
+     "908",
+     "Wien VIII Josefstadt"
+    ],
+    [
+     "909",
+     "Wien IX Alsergrund"
+    ],
+    [
+     "910",
+     "Wien X Favoriten"
+    ],
+    [
+     "911",
+     "Wien XI Simmering"
+    ],
+    [
+     "912",
+     "Wien XII Meidling"
+    ],
+    [
+     "913",
+     "Wien XIII Hietzing"
+    ],
+    [
+     "914",
+     "Wien XIV Penzing"
+    ],
+    [
+     "915",
+     "Wien XV Rudolfsheim-FÃ¼nfhaus"
+    ],
+    [
+     "916",
+     "Wien XVI Ottakring"
+    ],
+    [
+     "917",
+     "Wien XVII Hernals"
+    ],
+    [
+     "918",
+     "Wien XVIII WÃ¤hring"
+    ],
+    [
+     "919",
+     "Wien XIX DÃ¶bling"
+    ],
+    [
+     "920",
+     "Wien XX Brigittenau"
+    ],
+    [
+     "921",
+     "Wien XXI Floridsdorf"
+    ],
+    [
+     "922",
+     "Wien XXII Dounaustadt"
+    ],
+    [
+     "923",
+     "Wien XXIII Liesing"
+    ]
+   ]
+  }
+ ]
+}

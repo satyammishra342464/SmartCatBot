@@ -1,0 +1,28 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-agg-deductible-types.html",
+ "title": "Sublimit aggregate deductible types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit aggregate deductible types\n\nNGM\n financial engine policy\n terms: sublimit aggregate deductible types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| AGGD | Annual aggregate limit | Total |\n| N | No deductible | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "AGGD",
+     "Annual aggregate limit",
+     "Total"
+    ],
+    [
+     "N",
+     "No deductible",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

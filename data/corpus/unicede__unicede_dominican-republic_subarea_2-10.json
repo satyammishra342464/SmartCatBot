@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_dominican-republic_subarea_2-10.html",
+ "title": "Dominican Republic CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Dominican Republic \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for Dominican Republic supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Dominican Republic (41).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 41-000 | Dominican Republic |\n| 41-001 | Distrito Nacional |\n| 41-002 | Azua |\n| 41-003 | Baoruco |\n| 41-004 | Barahona |\n| 41-005 | Dajabon |\n| 41-006 | Duarte |\n| 41-007 | Elias PiÃ±a |\n| 41-008 | El Seibo |\n| 41-009 | Espaillat |\n| 41-010 | Independencia |\n| 41-011 | La Altagracia |\n| 41-012 | La Romana |\n| 41-013 | La Vega |\n| 41-014 | Maria Trinidad SÃ¡nchez |\n| 41-015 | Monte Cristi |\n| 41-016 | Pedernales |\n| 41-017 | Peravia |\n| 41-018 | Puerto Plata |\n| 41-019 | Hermanas Mirabal |\n| 41-020 | SamanÃ¡ |\n| 41-021 | San CristÃ³bal |\n| 41-022 | San Juan |\n| 41-023 | San Pedro De MÃ²crÃ­s |\n| 41-024 | SÃ¡nchez RamÃ­rez |\n| 41-025 | Santiago |\n| 41-026 | Santiago RodrÃ­guez |\n| 41-027 | Valverde |\n| 41-028 | MonseÃ±or Nouel |\n| 41-029 | Monte Plata |\n| 41-030 | Hato Mayor |\n| 41-031 | San JosÃ© De Ocoa |\n| 41-032 | Santo Domingo |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "41-000",
+     "Dominican Republic"
+    ],
+    [
+     "41-001",
+     "Distrito Nacional"
+    ],
+    [
+     "41-002",
+     "Azua"
+    ],
+    [
+     "41-003",
+     "Baoruco"
+    ],
+    [
+     "41-004",
+     "Barahona"
+    ],
+    [
+     "41-005",
+     "Dajabon"
+    ],
+    [
+     "41-006",
+     "Duarte"
+    ],
+    [
+     "41-007",
+     "Elias PiÃ±a"
+    ],
+    [
+     "41-008",
+     "El Seibo"
+    ],
+    [
+     "41-009",
+     "Espaillat"
+    ],
+    [
+     "41-010",
+     "Independencia"
+    ],
+    [
+     "41-011",
+     "La Altagracia"
+    ],
+    [
+     "41-012",
+     "La Romana"
+    ],
+    [
+     "41-013",
+     "La Vega"
+    ],
+    [
+     "41-014",
+     "Maria Trinidad SÃ¡nchez"
+    ],
+    [
+     "41-015",
+     "Monte Cristi"
+    ],
+    [
+     "41-016",
+     "Pedernales"
+    ],
+    [
+     "41-017",
+     "Peravia"
+    ],
+    [
+     "41-018",
+     "Puerto Plata"
+    ],
+    [
+     "41-019",
+     "Hermanas Mirabal"
+    ],
+    [
+     "41-020",
+     "SamanÃ¡"
+    ],
+    [
+     "41-021",
+     "San CristÃ³bal"
+    ],
+    [
+     "41-022",
+     "San Juan"
+    ],
+    [
+     "41-023",
+     "San Pedro De MÃ²crÃ­s"
+    ],
+    [
+     "41-024",
+     "SÃ¡nchez RamÃ­rez"
+    ],
+    [
+     "41-025",
+     "Santiago"
+    ],
+    [
+     "41-026",
+     "Santiago RodrÃ­guez"
+    ],
+    [
+     "41-027",
+     "Valverde"
+    ],
+    [
+     "41-028",
+     "MonseÃ±or Nouel"
+    ],
+    [
+     "41-029",
+     "Monte Plata"
+    ],
+    [
+     "41-030",
+     "Hato Mayor"
+    ],
+    [
+     "41-031",
+     "San JosÃ© De Ocoa"
+    ],
+    [
+     "41-032",
+     "Santo Domingo"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_market-shares.html",
+ "title": "Market shares",
+ "section": "unicede",
+ "version": null,
+ "text": "Market shares\n\nMarket share details supported by \nUNICEDE\n/2.\n\nThe format of the \nUNICEDE\n/2 file is slightly different to permit the importing of market\n shares. Sums insured, number of risks, and premiums must be imported separately using the\n standard \nFile body\n format.\n\nNote:\n\n You can include records from multiple supported countries in one file by\n using \nData levels\n and \nArea tag type\n 98 or 99 in the \nUNICEDE/2 file header\n.\n\n| Field | Name | Description | Notes |\n| --- | --- | --- | --- |\n| 1 | AreaTag | Identifies the area (i.e., country) and the subarea (e.g., county or CRESTA zone) in which the risks represented in this record are located. | The AreaTag value used must be consistent with the AreaTagType from the UNICEDE/2 file header . |\n| 2 | PerilCode | Identifies the peril covered for the risks in this record. | Note: The data in the fields that follow should represent this peril. Data\n for different perils should be reported separately in different\n records. |\n| 3 | LOBCode | Identifies the line of business under which the risks covered in this\n record are reported. | The valid Line Of Business codes vary by country. When reviewing the codes\n for a specific country, please note that the available lines of business are\n sometimes different for Market Share imports. |\n| 4 | Coverage | Identifies the coverages included for the risks in this record. | When importing market share data, the coverage code should be set to MS . |\n| 5 | NumRisks | When importing market shares, this field displays the market share value. | This value must be entered in whole units (i.e., not in thousands or\n millions). |\n| 6 | SumsIns | N/A | When importing market share data, this will be 0 . |\n| 7 | AvgDed | N/A | When importing market share data, this will be 0 . |\n| 8 | Prem | N/A | When importing market share data, this will be 0 . |\n| 9 | PremRate | N/A | When importing market share data, this will be 0 . |\n| 10 | SubareaName | This is the name of the area (i.e., country) or subarea. | This is an optional field. Including this field improves the chances of\n detecting and fixing errors in the AreaTag field. |\n\nNote:\n \nUpdated market share \nUNICEDE\n2 files can be found on the\n \nVerisk\n\nClient Support\n website at \nwww.air-worldwide.com\n. Prior to \nCATRADER\n version 8.0, Market Share imports were\n supported ONLY for the U.S. and Canada.\n\nFor example, a \nUNICEDE\n2 file importing market shares for the U.S. could contain rows that\n look like this:\n\n 01-02000,PWS,RES,MS,100,0,0,0,0,Florida\n\n 01-02000,PWS,MO,MS,100,0,0,0,0,Florida\n\n 01-02000,PWS,COM,MS,100,0,0,0,0,Florida\n\n 01-02000,PWS,AUTO,MS,100,0,0,0,0,Florida\n\n \n\nIn Turkey, the data could look like this:\n\n 38-1,PEQ,BLD,MS,10,0,0,0,0,0,Adana\n\n 38-1,PEQ,CNT,MS,10,0,0,0,0,0,Adana \n\n 38-2,PEQ,COM,MS,10,0,0,0,0,0,Adiyaman\n\n 38-2,PEQ,CNT,MS,10,0,0,0,0,0,Adiyaman",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Name",
+    "Description",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "1",
+     "AreaTag",
+     "Identifies the area (i.e., country) and the subarea (e.g., county or CRESTA zone) in which the risks represented in this record are located.",
+     "The AreaTag value used must be consistent with the AreaTagType from the UNICEDE/2 file header ."
+    ],
+    [
+     "2",
+     "PerilCode",
+     "Identifies the peril covered for the risks in this record.",
+     "Note: The data in the fields that follow should represent this peril. Data\n                     for different perils should be reported separately in different\n                     records."
+    ],
+    [
+     "3",
+     "LOBCode",
+     "Identifies the line of business under which the risks covered in this\n                     record are reported.",
+     "The valid Line Of Business codes vary by country. When reviewing the codes\n                     for a specific country, please note that the available lines of business are\n                     sometimes different for Market Share imports."
+    ],
+    [
+     "4",
+     "Coverage",
+     "Identifies the coverages included for the risks in this record.",
+     "When importing market share data, the coverage code should be set to MS ."
+    ],
+    [
+     "5",
+     "NumRisks",
+     "When importing market shares, this field displays the market share value.",
+     "This value must be entered in whole units (i.e., not in thousands or\n                     millions)."
+    ],
+    [
+     "6",
+     "SumsIns",
+     "N/A",
+     "When importing market share data, this will be 0 ."
+    ],
+    [
+     "7",
+     "AvgDed",
+     "N/A",
+     "When importing market share data, this will be 0 ."
+    ],
+    [
+     "8",
+     "Prem",
+     "N/A",
+     "When importing market share data, this will be 0 ."
+    ],
+    [
+     "9",
+     "PremRate",
+     "N/A",
+     "When importing market share data, this will be 0 ."
+    ],
+    [
+     "10",
+     "SubareaName",
+     "This is the name of the area (i.e., country) or subarea.",
+     "This is an optional field. Including this field improves the chances of\n                     detecting and fixing errors in the AreaTag field."
+    ]
+   ]
+  }
+ ]
+}

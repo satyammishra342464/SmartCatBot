@@ -1,0 +1,125 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_ireland_counties_2-9.html",
+ "title": "Ireland Counties (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Ireland Counties (v2.9)\n\nCounty codes for the Republic of Ireland supported by \nUNICEDE\n/2.\nThe codes listed below include the country code for the Republic of Ireland (27).\n\n| Area Tag | County Name |\n| --- | --- |\n| 27-IRL | Republic of Ireland |\n| 27-IRL_CW | Carlow |\n| 27-IRL_CN | Cavan |\n| 27-IRL_CE | Clare |\n| 27-IRL_CO | Cork |\n| 27-IRL_DL | Donegal |\n| 27-IRL_D | Dublin |\n| 27-IRL_G | Galway |\n| 27-IRL_KY | Kerry |\n| 27-IRL_KE | Kildare |\n| 27-IRL_KK | Kilkenny |\n| 27-IRL_LS | Laoighis |\n| 27-IRL_LM | Leitrim |\n| 27-IRL_LK | Limerick |\n| 27-IRL_LD | Longford |\n| 27-IRL_LH | Louth |\n| 27-IRL_MO | Mayo |\n| 27-IRL_MH | Meath |\n| 27-IRL_MN | Monaghan |\n| 27-IRL_OY | Offaly |\n| 27-IRL_RN | Roscommon |\n| 27-IRL_SO | Sligo |\n| 27-IRL_TA | Tipperary |\n| 27-IRL_WD | Waterford |\n| 27-IRL_WH | Westmeath |\n| 27-IRL_WX | Wexford |\n| 27-IRL_WW | Wicklow |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "27-IRL",
+     "Republic of Ireland"
+    ],
+    [
+     "27-IRL_CW",
+     "Carlow"
+    ],
+    [
+     "27-IRL_CN",
+     "Cavan"
+    ],
+    [
+     "27-IRL_CE",
+     "Clare"
+    ],
+    [
+     "27-IRL_CO",
+     "Cork"
+    ],
+    [
+     "27-IRL_DL",
+     "Donegal"
+    ],
+    [
+     "27-IRL_D",
+     "Dublin"
+    ],
+    [
+     "27-IRL_G",
+     "Galway"
+    ],
+    [
+     "27-IRL_KY",
+     "Kerry"
+    ],
+    [
+     "27-IRL_KE",
+     "Kildare"
+    ],
+    [
+     "27-IRL_KK",
+     "Kilkenny"
+    ],
+    [
+     "27-IRL_LS",
+     "Laoighis"
+    ],
+    [
+     "27-IRL_LM",
+     "Leitrim"
+    ],
+    [
+     "27-IRL_LK",
+     "Limerick"
+    ],
+    [
+     "27-IRL_LD",
+     "Longford"
+    ],
+    [
+     "27-IRL_LH",
+     "Louth"
+    ],
+    [
+     "27-IRL_MO",
+     "Mayo"
+    ],
+    [
+     "27-IRL_MH",
+     "Meath"
+    ],
+    [
+     "27-IRL_MN",
+     "Monaghan"
+    ],
+    [
+     "27-IRL_OY",
+     "Offaly"
+    ],
+    [
+     "27-IRL_RN",
+     "Roscommon"
+    ],
+    [
+     "27-IRL_SO",
+     "Sligo"
+    ],
+    [
+     "27-IRL_TA",
+     "Tipperary"
+    ],
+    [
+     "27-IRL_WD",
+     "Waterford"
+    ],
+    [
+     "27-IRL_WH",
+     "Westmeath"
+    ],
+    [
+     "27-IRL_WX",
+     "Wexford"
+    ],
+    [
+     "27-IRL_WW",
+     "Wicklow"
+    ]
+   ]
+  }
+ ]
+}

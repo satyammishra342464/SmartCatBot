@@ -1,0 +1,217 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_australia-cresta_2-10.html",
+ "title": "Australia CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Australia \nCRESTA\n Codes (v2.10)\n \n\nCRESTA\n codes for Australia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Australia (23).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 23-0000 | Australia |\n| 23-0100 | Gold Coast |\n| 23-0200 | Brisbane |\n| 23-0300 | Caloundra |\n| 23-0400 | Bundaberg |\n| 23-0500 | Gladstone |\n| 23-0600 | Rockhampton |\n| 23-0700 | Mackay |\n| 23-0800 | Bowen |\n| 23-0900 | Townsville |\n| 23-1000 | Halifax |\n| 23-1100 | Cairns |\n| 23-1200 | N. Queensland |\n| 23-1300 | Cape York Peninsula |\n| 23-1400 | Burketown |\n| 23-1500 | Queensland Center/NSW Center |\n| 23-1600 | N. Northern Territory |\n| 23-1700 | Darwin |\n| 23-1800 | Northern Territory Remainder |\n| 23-1900 | Broome/Wyndham |\n| 23-2000 | Dampier/Port Headland |\n| 23-2100 | Carnarvon/Geraldton |\n| 23-2200 | Perth |\n| 23-2300 | Bunbury/Albany |\n| 23-2400 | WA Remainder/SA Remainder |\n| 23-2500 | Port Lincoln/Whyalla |\n| 23-2600 | Gulf St.Vincent/Kangaroo Isle |\n| 23-2700 | Adelaide and Surroundings |\n| 23-2800 | Adelaide Remainder |\n| 23-2900 | Tasmania |\n| 23-3000 | Vict Center/lower S.E. SA |\n| 23-3100 | Geelong/Warrnambool/Gambier |\n| 23-3200 | Wontaggi/Foster |\n| 23-3300 | Melbourne and Surroundings |\n| 23-3400 | Emerald |\n| 23-3500 | Mallacata and Bega |\n| 23-3600 | E. Vict/S.E. NSW |\n| 23-3700 | N. Vict/S. NSW/upper S.E. SA |\n| 23-3800 | Wagga Wagga/Griffith |\n| 23-3900 | Canberra/ACT/etc. |\n| 23-4000 | Wollongong |\n| 23-4100 | S. and Central Sydney |\n| 23-4200 | W. Sydney |\n| 23-4300 | N. Sydney |\n| 23-4400 | Central Coast/Gosford |\n| 23-4500 | Blue Mountains |\n| 23-4600 | Newcastle |\n| 23-4700 | Dubbo/Armidale |\n| 23-4800 | Port Macquarie |\n| 23-4900 | Coffs Harbour |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "23-0000",
+     "Australia"
+    ],
+    [
+     "23-0100",
+     "Gold Coast"
+    ],
+    [
+     "23-0200",
+     "Brisbane"
+    ],
+    [
+     "23-0300",
+     "Caloundra"
+    ],
+    [
+     "23-0400",
+     "Bundaberg"
+    ],
+    [
+     "23-0500",
+     "Gladstone"
+    ],
+    [
+     "23-0600",
+     "Rockhampton"
+    ],
+    [
+     "23-0700",
+     "Mackay"
+    ],
+    [
+     "23-0800",
+     "Bowen"
+    ],
+    [
+     "23-0900",
+     "Townsville"
+    ],
+    [
+     "23-1000",
+     "Halifax"
+    ],
+    [
+     "23-1100",
+     "Cairns"
+    ],
+    [
+     "23-1200",
+     "N. Queensland"
+    ],
+    [
+     "23-1300",
+     "Cape York Peninsula"
+    ],
+    [
+     "23-1400",
+     "Burketown"
+    ],
+    [
+     "23-1500",
+     "Queensland Center/NSW Center"
+    ],
+    [
+     "23-1600",
+     "N. Northern Territory"
+    ],
+    [
+     "23-1700",
+     "Darwin"
+    ],
+    [
+     "23-1800",
+     "Northern Territory Remainder"
+    ],
+    [
+     "23-1900",
+     "Broome/Wyndham"
+    ],
+    [
+     "23-2000",
+     "Dampier/Port Headland"
+    ],
+    [
+     "23-2100",
+     "Carnarvon/Geraldton"
+    ],
+    [
+     "23-2200",
+     "Perth"
+    ],
+    [
+     "23-2300",
+     "Bunbury/Albany"
+    ],
+    [
+     "23-2400",
+     "WA Remainder/SA Remainder"
+    ],
+    [
+     "23-2500",
+     "Port Lincoln/Whyalla"
+    ],
+    [
+     "23-2600",
+     "Gulf St.Vincent/Kangaroo Isle"
+    ],
+    [
+     "23-2700",
+     "Adelaide and Surroundings"
+    ],
+    [
+     "23-2800",
+     "Adelaide Remainder"
+    ],
+    [
+     "23-2900",
+     "Tasmania"
+    ],
+    [
+     "23-3000",
+     "Vict Center/lower S.E. SA"
+    ],
+    [
+     "23-3100",
+     "Geelong/Warrnambool/Gambier"
+    ],
+    [
+     "23-3200",
+     "Wontaggi/Foster"
+    ],
+    [
+     "23-3300",
+     "Melbourne and Surroundings"
+    ],
+    [
+     "23-3400",
+     "Emerald"
+    ],
+    [
+     "23-3500",
+     "Mallacata and Bega"
+    ],
+    [
+     "23-3600",
+     "E. Vict/S.E. NSW"
+    ],
+    [
+     "23-3700",
+     "N. Vict/S. NSW/upper S.E. SA"
+    ],
+    [
+     "23-3800",
+     "Wagga Wagga/Griffith"
+    ],
+    [
+     "23-3900",
+     "Canberra/ACT/etc."
+    ],
+    [
+     "23-4000",
+     "Wollongong"
+    ],
+    [
+     "23-4100",
+     "S. and Central Sydney"
+    ],
+    [
+     "23-4200",
+     "W. Sydney"
+    ],
+    [
+     "23-4300",
+     "N. Sydney"
+    ],
+    [
+     "23-4400",
+     "Central Coast/Gosford"
+    ],
+    [
+     "23-4500",
+     "Blue Mountains"
+    ],
+    [
+     "23-4600",
+     "Newcastle"
+    ],
+    [
+     "23-4700",
+     "Dubbo/Armidale"
+    ],
+    [
+     "23-4800",
+     "Port Macquarie"
+    ],
+    [
+     "23-4900",
+     "Coffs Harbour"
+    ]
+   ]
+  }
+ ]
+}

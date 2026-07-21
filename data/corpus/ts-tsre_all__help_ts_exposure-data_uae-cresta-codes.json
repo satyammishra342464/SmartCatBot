@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_uae-cresta-codes.html",
+ "title": "United Arab Emirates CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "United Arab Emirates \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for United Arab Emirates (UAE).\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| ARE_AJ | Ajman |\n| ARE_AZ | Abu Dhabi |\n| ARE_DU | Dubai |\n| ARE_FU | Fujairah |\n| ARE_RK | Ras-al-Khaimah |\n| ARE_SH | Sharjah |\n| ARE_UQ | Umm al-Quwain |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "ARE_AJ",
+     "Ajman"
+    ],
+    [
+     "ARE_AZ",
+     "Abu Dhabi"
+    ],
+    [
+     "ARE_DU",
+     "Dubai"
+    ],
+    [
+     "ARE_FU",
+     "Fujairah"
+    ],
+    [
+     "ARE_RK",
+     "Ras-al-Khaimah"
+    ],
+    [
+     "ARE_SH",
+     "Sharjah"
+    ],
+    [
+     "ARE_UQ",
+     "Umm al-Quwain"
+    ]
+   ]
+  }
+ ]
+}

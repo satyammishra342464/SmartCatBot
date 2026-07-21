@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_misc-con.html",
+ "title": "Miscellaneous construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Miscellaneous construction codes\n\nThe miscellaneous construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for codes 250-259 for\n \nVerisk Bushfire Model for Australia\n and for 250-260 \nVerisk Typhoon Model for South Korea\n. For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 250 | Railway Property | Warning: This code is not valid for any peril in the United\n States, for the Verisk Typhoon Model for South Korea , Verisk Inland Flood Model for Malaysia and Indonesia ,\n or for the Verisk Bushfire Model for Australia . Railway properties are composed of major components of railway\n systems, which include railway stations, railway tunnels, railway bridges,\n railway tracks, and cables along the tracks but excluding trains. |\n| 251 | Pumping Stations | Structures with mechanical devices that are typically used when a fluid\n material must be raised from a low point to a point of higher elevation, or\n where the topography prevents downhill gravity flow |\n| 252 | Compressor Stations | Structures with mechanical devices that are used for increasing the\n pressure of a gas by mechanically decreasing its volume |\n| 253 | Cranes | Machines used for raising, shifting, and lowering heavy weights by means\n of a projecting swinging arm or by means of a hoisting apparatus supported\n on an overhead track |\n| 254 | Conveyor Systems | Devices used for moving loose material (typically on a belt, on rollers,\n or in an auger) |\n| 255 | Canals | An artificial waterway of any depth used for draining or irrigating land\n or for navigation |\n| 256 | Earth Retaining Structures | Earth retaining structures taller than 20 feet high |\n| 257 | Waterfront Structures | Wharves or docks built next to the shore of navigable waters so that\n ships can receive and discharge cargo and passengers, or walls of\n artificially enclosed basins into which vessels are brought for inspection\n and repair |\n| 258 | Offshore Structures | A structure that is anchored to the ground under the ocean |\n| 259 | Transit Warehouse | Often refers to distribution centers that temporarily store various\n commodities for further distribution, including wholesale stores. The\n commodities can be light (e.g., food, drug, light fabrication of clothing,\n high-technology electrical items) or heavy (e.g., heavy construction\n machineries). Warehouses are typically one-story steel frame or SRC\n (steel-reinforced concrete) construction with high ceilings. Most of the\n commodities are well packed and can be stacked during storage. |\n| 260 | Marine Hull | Marine hull insurance covers the hull and machinery of a vessel.\n Specific ports or docks include loading or unloading (port risk), under\n construction (builders' risk), and repair (repairing risk). When paired with\n a particular occupancy code, reflects the vulnerability of the hull: 300âreflects the vulnerability of the hull in unknown\n conditions. 314âreflects the vulnerability of the hull under repair. 354âreflects the vulnerability of the hull at port. 381âreflects the vulnerability of the hull under construction. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "250",
+     "Railway Property",
+     "Warning: This code is not valid for any peril in the United\n                           States, for the Verisk Typhoon Model for South Korea , Verisk Inland Flood Model for Malaysia and Indonesia ,\n                           or for the Verisk Bushfire Model for Australia . Railway properties are composed of major components of railway\n                        systems, which include railway stations, railway tunnels, railway bridges,\n                        railway tracks, and cables along the tracks but excluding trains."
+    ],
+    [
+     "251",
+     "Pumping Stations",
+     "Structures with mechanical devices that are typically used when a fluid\n                        material must be raised from a low point to a point of higher elevation, or\n                        where the topography prevents downhill gravity flow"
+    ],
+    [
+     "252",
+     "Compressor Stations",
+     "Structures with mechanical devices that are used for increasing the\n                        pressure of a gas by mechanically decreasing its volume"
+    ],
+    [
+     "253",
+     "Cranes",
+     "Machines used for raising, shifting, and lowering heavy weights by means\n                        of a projecting swinging arm or by means of a hoisting apparatus supported\n                        on an overhead track"
+    ],
+    [
+     "254",
+     "Conveyor Systems",
+     "Devices used for moving loose material (typically on a belt, on rollers,\n                        or in an auger)"
+    ],
+    [
+     "255",
+     "Canals",
+     "An artificial waterway of any depth used for draining or irrigating land\n                        or for navigation"
+    ],
+    [
+     "256",
+     "Earth Retaining Structures",
+     "Earth retaining structures taller than 20 feet high"
+    ],
+    [
+     "257",
+     "Waterfront Structures",
+     "Wharves or docks built next to the shore of navigable waters so that\n                        ships can receive and discharge cargo and passengers, or walls of\n                        artificially enclosed basins into which vessels are brought for inspection\n                        and repair"
+    ],
+    [
+     "258",
+     "Offshore Structures",
+     "A structure that is anchored to the ground under the ocean"
+    ],
+    [
+     "259",
+     "Transit Warehouse",
+     "Often refers to distribution centers that temporarily store various\n                        commodities for further distribution, including wholesale stores. The\n                        commodities can be light (e.g., food, drug, light fabrication of clothing,\n                        high-technology electrical items) or heavy (e.g., heavy construction\n                        machineries). Warehouses are typically one-story steel frame or SRC\n                        (steel-reinforced concrete) construction with high ceilings. Most of the\n                        commodities are well packed and can be stacked during storage."
+    ],
+    [
+     "260",
+     "Marine Hull",
+     "Marine hull insurance covers the hull and machinery of a vessel.\n                        Specific ports or docks include loading or unloading (port risk), under\n                        construction (builders' risk), and repair (repairing risk). When paired with\n                        a particular occupancy code, reflects the vulnerability of the hull: 300âreflects the vulnerability of the hull in unknown\n                              conditions. 314âreflects the vulnerability of the hull under repair. 354âreflects the vulnerability of the hull at port. 381âreflects the vulnerability of the hull under construction."
+    ]
+   ]
+  }
+ ]
+}

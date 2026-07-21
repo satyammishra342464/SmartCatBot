@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_hungary-cresta_2-7.html",
+ "title": "Hungary CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Hungary \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Hungary supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Hungary (111).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 111-000 | Hungary |\n| 111-001 | Budapest |\n| 111-002 | GyÃµr-Moson-Sopron |\n| 111-003 | GyÃ¶r |\n| 111-004 | Vas |\n| 111-005 | Zala |\n| 111-006 | VeszprÃ©m |\n| 111-007 | Somogy |\n| 111-008 | KomÃ¡rom-Esztergom |\n| 111-009 | FejÃ©r |\n| 111-010 | Tolna |\n| 111-012 | Baranya |\n| 111-013 | PÃ©cs |\n| 111-014 | Pest |\n| 111-015 | BÃ¡cs-Kiskun |\n| 111-016 | Borsod-AbaÃºj-ZemplÃ©n |\n| 111-017 | Miskolc |\n| 111-018 | Heves |\n| 111-019 | JÃ¡sz-Nagykun-Szolnok |\n| 111-020 | CsongrÃ¡d |\n| 111-021 | Szabolcs-SzatmÃ¡r-Bereg |\n| 111-022 | HajdÃº-Bihar |\n| 111-023 | Debrecen |\n| 111-024 | BÃ©kÃ©s |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "111-000",
+     "Hungary"
+    ],
+    [
+     "111-001",
+     "Budapest"
+    ],
+    [
+     "111-002",
+     "GyÃµr-Moson-Sopron"
+    ],
+    [
+     "111-003",
+     "GyÃ¶r"
+    ],
+    [
+     "111-004",
+     "Vas"
+    ],
+    [
+     "111-005",
+     "Zala"
+    ],
+    [
+     "111-006",
+     "VeszprÃ©m"
+    ],
+    [
+     "111-007",
+     "Somogy"
+    ],
+    [
+     "111-008",
+     "KomÃ¡rom-Esztergom"
+    ],
+    [
+     "111-009",
+     "FejÃ©r"
+    ],
+    [
+     "111-010",
+     "Tolna"
+    ],
+    [
+     "111-012",
+     "Baranya"
+    ],
+    [
+     "111-013",
+     "PÃ©cs"
+    ],
+    [
+     "111-014",
+     "Pest"
+    ],
+    [
+     "111-015",
+     "BÃ¡cs-Kiskun"
+    ],
+    [
+     "111-016",
+     "Borsod-AbaÃºj-ZemplÃ©n"
+    ],
+    [
+     "111-017",
+     "Miskolc"
+    ],
+    [
+     "111-018",
+     "Heves"
+    ],
+    [
+     "111-019",
+     "JÃ¡sz-Nagykun-Szolnok"
+    ],
+    [
+     "111-020",
+     "CsongrÃ¡d"
+    ],
+    [
+     "111-021",
+     "Szabolcs-SzatmÃ¡r-Bereg"
+    ],
+    [
+     "111-022",
+     "HajdÃº-Bihar"
+    ],
+    [
+     "111-023",
+     "Debrecen"
+    ],
+    [
+     "111-024",
+     "BÃ©kÃ©s"
+    ]
+   ]
+  }
+ ]
+}

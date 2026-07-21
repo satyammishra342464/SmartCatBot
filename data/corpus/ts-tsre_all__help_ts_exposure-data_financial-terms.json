@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_financial-terms.html",
+ "title": "Financial terms",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Financial terms\n\n When working with policy terms in \nTouchstone\n, it is important to understand the\n financial terms that are supported and the combinations of the financial terms that are\n valid for running detailed loss analyses.\n\nThe topics in these sections explain the financial terms, the criteria for\n specifying fields, and the valid combinations of supported terms and term\n types for layers, sublimits, and locations.\n\nNotes on \nTouchstone\n terms:\n\nOnly one level of the Min/Max deductible is supported in a policy.\n\nIf you import an exposure that has a sublimit within a layer, with both\n coded for MM (minimum and maximum), \nTouchstone\n converts the sublimit MM\n deductible into a blanket deductible.\n\nIf multiple tiers of sublimits have MM deductibles, \nTouchstone\n converts the deductible on\n the lower tier to a blanket deductible.\n\nTouchstone\n supports multiple levels of\n aggregate terms.\n\n.",
+ "tables": []
+}

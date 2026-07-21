@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_oman_governorates_2-8.html",
+ "title": "Oman Governorates (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Oman Governorates (v2.8)\n\nGovernorate codes for Oman supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Oman (149).\n\n| Area Tag | Governorates |\n| --- | --- |\n| 149-000 | Oman |\n| 149-001 | Al Batinah North |\n| 149-002 | Al Batinah South |\n| 149-003 | Al Buraymi |\n| 149-004 | Al Dakhliyah |\n| 149-005 | Al Dhahirah |\n| 149-006 | Al Sharqiyah North |\n| 149-007 | Al Sharqiyah South |\n| 149-008 | Al Wusta |\n| 149-009 | Dhofar |\n| 149-010 | Musandam |\n| 149-011 | Muscat |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Governorates"
+   ],
+   "rows": [
+    [
+     "149-000",
+     "Oman"
+    ],
+    [
+     "149-001",
+     "Al Batinah North"
+    ],
+    [
+     "149-002",
+     "Al Batinah South"
+    ],
+    [
+     "149-003",
+     "Al Buraymi"
+    ],
+    [
+     "149-004",
+     "Al Dakhliyah"
+    ],
+    [
+     "149-005",
+     "Al Dhahirah"
+    ],
+    [
+     "149-006",
+     "Al Sharqiyah North"
+    ],
+    [
+     "149-007",
+     "Al Sharqiyah South"
+    ],
+    [
+     "149-008",
+     "Al Wusta"
+    ],
+    [
+     "149-009",
+     "Dhofar"
+    ],
+    [
+     "149-010",
+     "Musandam"
+    ],
+    [
+     "149-011",
+     "Muscat"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_venezuela-state-codes.html",
+ "title": "Venezuela state codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Venezuela state codes\n\nTouchstone\n supports the following state\n codes for Venezuela.\n\n| State Code | State Name |\n| --- | --- |\n| 01 | Distrito Capital |\n| 02 | Amazonas |\n| 03 | AnzoÃ¡tegui |\n| 04 | Apure |\n| 05 | Aragua |\n| 06 | Barinas |\n| 07 | BolÃ­var |\n| 08 | Carabobo |\n| 09 | Cojedes |\n| 10 | Delta Amacuro |\n| 11 | FalcÃ³n |\n| 12 | GuÃ¡rico |\n| 13 | Lara |\n| 14 | MÃ©rida |\n| 15 | Miranda |\n| 16 | Monagas |\n| 17 | Nueva Esparta |\n| 18 | Portuguesa |\n| 19 | Sucre |\n| 20 | TÃ¡chira |\n| 21 | Trujillo |\n| 22 | Yaracuy |\n| 23 | Zulia |\n| 24 | Vargas |",
+ "tables": [
+  {
+   "headers": [
+    "State Code",
+    "State Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Distrito Capital"
+    ],
+    [
+     "02",
+     "Amazonas"
+    ],
+    [
+     "03",
+     "AnzoÃ¡tegui"
+    ],
+    [
+     "04",
+     "Apure"
+    ],
+    [
+     "05",
+     "Aragua"
+    ],
+    [
+     "06",
+     "Barinas"
+    ],
+    [
+     "07",
+     "BolÃ­var"
+    ],
+    [
+     "08",
+     "Carabobo"
+    ],
+    [
+     "09",
+     "Cojedes"
+    ],
+    [
+     "10",
+     "Delta Amacuro"
+    ],
+    [
+     "11",
+     "FalcÃ³n"
+    ],
+    [
+     "12",
+     "GuÃ¡rico"
+    ],
+    [
+     "13",
+     "Lara"
+    ],
+    [
+     "14",
+     "MÃ©rida"
+    ],
+    [
+     "15",
+     "Miranda"
+    ],
+    [
+     "16",
+     "Monagas"
+    ],
+    [
+     "17",
+     "Nueva Esparta"
+    ],
+    [
+     "18",
+     "Portuguesa"
+    ],
+    [
+     "19",
+     "Sucre"
+    ],
+    [
+     "20",
+     "TÃ¡chira"
+    ],
+    [
+     "21",
+     "Trujillo"
+    ],
+    [
+     "22",
+     "Yaracuy"
+    ],
+    [
+     "23",
+     "Zulia"
+    ],
+    [
+     "24",
+     "Vargas"
+    ]
+   ]
+  }
+ ]
+}

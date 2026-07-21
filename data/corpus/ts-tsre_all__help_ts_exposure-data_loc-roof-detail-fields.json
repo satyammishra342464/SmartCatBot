@@ -1,0 +1,139 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-roof-detail-fields.html",
+ "title": "Location roof detail fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location roof detail fields\n\nTouchstone\n validation rules for fields\n related to roof details for a location.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the locations.\n\nOur individual risk methodology follows a structured, logical approach that groups\n building characteristics according to their function to reflect the contribution of each\n characteristic to overall building performance. For information about the secondary risk\n characteristics that are supported in a specific model, refer to the \"Model in \nTouchstone\nâ chapter in the model description, which\n is available on the \nClient Portal\n. Documentation\n for some \nVerisk\n models includes a separate\n document that serves as a guide to the secondary risk characteristics (SRC) used in the\n model.\n\n| Secondary risk characteristic | Supported country / peril | Description | Validation rules | Default value |\n| --- | --- | --- | --- | --- |\n| Roof Geometry | HI TC US HU US STâ straight-line winds, tornadoes (added in version 10.0) US WF | One of the following values to describe the shape of the roof of the\n building at this location: Unknown/default (0) Flat (1) Gable end without bracing (2) Hip (3) Complex (4) Stepped (5) Shed (6) Mansard (7) Gable end with bracing (8) Pyramid (9) Gambrel (10) The geometry of the roof affects the intensity of wind pressures and\n the resulting uplift resistance. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Pitch | HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail | One of the following values to describe the slope of the roof of the\n building at this location: Unknown/default (0) Low (less than 10Â°) (1) Medium (10Â° to 30Â°) (2) High (more than 30Â°) (3) Low-pitch roofs have greater uplift forces acting on the roof as\n compared to high-pitch roofs. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Covering | AU WF (added in Touchstone 2025) HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail US WF | One of the following values to describe the material used to cover the\n roof of the building at this location: Unknown/default (0) Asphalt shingles (1) Wooden shingles (2) Clay/concrete tiles (3) Light metal panels (4) Slate (5) Built-up roof with gravel (6) Single-ply membrane (7) Standing seam metal roofs (8) Built-up roof without gravel (9) Single-ply membrane ballasted (10) Hurricane Wind-Rated Roof Coverings (11) Photovoltaic (12) (added in June 2024 for US WF) The Hurricane Wind-Rated Roof Coverings (11) option is not\n applicable with the Verisk Wildfire Model for the United States . Damage to\n the roof covering can result in significant water damage to the interior\n of the building and contents. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Deck | CA EQ HI EQ HI TC JP EQ NZ EQ US EQ US HU US STâ straight-line winds, tornadoes (added in version 10.0) | One of the following values to describe the material used and the\n construction type of the roof deck of the building at this location: Unknown/default (0) Plywood (1) Wood planks (2) Particle board/OSB (3) Metal deck with insulation board (4) Metal deck with concrete (5) Pre-cast concrete slabs (6) Reinforced concrete slabs (7) Light metal (8) Roof decks transfer the roof loads to the underlying joists and\n purlins. Damage to the roof deck results in the breach of the building\n envelope, resulting in significant building and interior\n damage. With respect to seismic performance, the weight of the roof\n can be critical. It is not desirable to make the roof heavy because it\n induces higher lateral forces in the structure during\n shaking. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Covering Attachment | HI TC US HU US ST - Straight-Line Winds, Tornadoes | One of the following values to describe the type of connections used to\n secure the roof covering to the roof deck of the building at this location: Unknown/default (0) Screws (1) Nails/staples (2) Adhesive/epoxy () Mortar (4) Damage to the roof can result due to the improper attachment of the\n roof covering to the underlying roof deck. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Deck Attachment | US HU US ST - Straight-Line Winds, Tornadoes | One of the following values to describe the type of connections used to\n secure the roof deck to the underlying roof support system of the building\n at this location: Unknown/default (0) Screws/bolts (1) Nails (2) Adhesive/epoxy (3) Structurally connected (4) 6d nails @ 6 spacing, 12 on center (5) 8d nails @ 6 spacing, 12 on center (6) 8d nails @ 6 spacing, 6 on center (7) Damage to the roof can result as a result of improper attachment of\n the roof deck to the underlying roof support system. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Anchorage | HI TC US HU US ST - Straight-Line Winds, Tornadoes | One of the following values to describe the type of connections used to\n secure the roof support system to the walls of the building at this location: Unknown/default (0) Hurricane Ties (1) Nails/Screws (2) Anchor bolts (3) Gravity/friction (4) Adhesive epoxy (5) Structurally Connected (6) Clips (7) Roof anchorage establishes a load path to transfer wind loads from\n the roof to the walls. Hurricane straps provide such an\n anchorage. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Roof Hail Impact Resistance | US ST - Hail | One of the following values to describe the class of the hail\n impact-resistant roof covering material for the building at this location,\n based on UL2218, Impact Resistance of Prepared Roof Covering Materials : Unknown/Non-impact-resistant (0) Impact-resistant A (1) (least impact-resistant) Impact-resistant B (2) Impact-resistant C (3) Impact-resistant D (4) (most impact-resistant) This field only applies to the hail sub-peril. UL2218 defines\n four classes of prepared sheets of panels installed in overlapping rows\n on roofs. | Optional | |\n| Roof Year Built | HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail | Year in which the roof of the building at this location was built A\n value of 0 for this field in your import data represents\n Unknown/default. With age, roofs lose their strength to resist wind\n loads and hence are more vulnerable. | Optional Defaults to a value in the Touchstone user interface Can be a numeric value between 1000 and the current year, inclusive\n (with a maximum year of 2100) | Blank |\n| Tank | CA EQ HI EQ JP EQ US EQ | One of the following values to indicate whether there are rooftop tanks\n on the higher buildings adjoining the building at this location: Unknown/default (0) No (1) Yes (2) Rooftop tanks on adjoining, higher buildings are a falling hazard\n during earthquakes. | Optional | |\n| Chimney | CA EQ HI EQ JP EQ US EQ | One of the following values to indicate whether the building at this\n location has a chimney and, if so, to describe the height of the chimney: Unknown/default (0) No (1) Yes, height less than 2 feet. (2) Yes, height 2-5 feet. (3) Yes, height more than 5 feet. (4) | Optional | |\n| Skylight (added in June 2024) | US WF | Unknown/Default - Fixed (0) No Skylights (1) Operable (2) | | Unknown/Default (0) |\n| Fire Rating for Roof Covering (added in June 2024) | US WF | Unknown/No Rating (0) Fire Rated Class A (1) Fire Rated Class B (2) Fire Rated Class C (3) | | Unknown/No Rating (0) |\n| Soffits (added in June 2024) | US WF | Unknown/Default (0) No Soffit (1) Soffit, Aluminum/Vinyl, Designed for Wind Loads (2) Soffit, Aluminum/Vinyl, Not Designed for Wind Loads (3) Soffit, Other, Designed for Wind Loads (4) Soffit, Other, Not Designed for Wind Loads (5) | | Unknown/Default (0) |\n| Roof Overhang (added in June 2024) | US WF | Unknown/Default (0) No Overhang (1) Overhang/Rake (8-36 in. (2) Overhang/Rake (<8 in. (3) Overhang/Rake (>36 in. (4) | | Unknown/Default (0) |\n| Roof Vents (added in June 2024) | AU WF (added support in ) US WF | Unknown/Default (0) No Roof Vents (1) Roof Vents (Turbines, Goose Neck, Ridge Vents, Etc. (2) | | Unknown/Default (0) |\n| Roof Vent Size (added in June 2024) | AU WF (added support in ) US WF | Unknown/Default (0) â \" or Smaller Mesh or Wildfire Resistant (1) Â¼\" or No Mesh (2) | | Unknown/Default (0) |",
+ "tables": [
+  {
+   "headers": [
+    "Secondary risk characteristic",
+    "Supported country / peril",
+    "Description",
+    "Validation rules",
+    "Default value"
+   ],
+   "rows": [
+    [
+     "Roof Geometry",
+     "HI TC US HU US STâ straight-line winds, tornadoes (added in version 10.0) US WF",
+     "One of the following values to describe the shape of the roof of the\n                        building at this location: Unknown/default (0) Flat (1) Gable end without bracing (2) Hip (3) Complex (4) Stepped (5) Shed (6) Mansard (7) Gable end with bracing (8) Pyramid (9) Gambrel (10) The geometry of the roof affects the intensity of wind pressures and\n                           the resulting uplift resistance.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Pitch",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail",
+     "One of the following values to describe the slope of the roof of the\n                        building at this location: Unknown/default (0) Low (less than 10Â°) (1) Medium (10Â° to 30Â°) (2) High (more than 30Â°) (3) Low-pitch roofs have greater uplift forces acting on the roof as\n                           compared to high-pitch roofs.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Covering",
+     "AU WF (added in Touchstone 2025) HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail US WF",
+     "One of the following values to describe the material used to cover the\n                        roof of the building at this location: Unknown/default (0) Asphalt shingles (1) Wooden shingles (2) Clay/concrete tiles (3) Light metal panels (4) Slate (5) Built-up roof with gravel (6) Single-ply membrane (7) Standing seam metal roofs (8) Built-up roof without gravel (9) Single-ply membrane ballasted (10) Hurricane Wind-Rated Roof Coverings (11) Photovoltaic (12) (added in June 2024 for US WF) The Hurricane Wind-Rated Roof Coverings (11) option is not\n                           applicable with the Verisk Wildfire Model for the United States . Damage to\n                           the roof covering can result in significant water damage to the interior\n                           of the building and contents.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Deck",
+     "CA EQ HI EQ HI TC JP EQ NZ EQ US EQ US HU US STâ straight-line winds, tornadoes (added in version 10.0)",
+     "One of the following values to describe the material used and the\n                        construction type of the roof deck of the building at this location: Unknown/default (0) Plywood (1) Wood planks (2) Particle board/OSB (3) Metal deck with insulation board (4) Metal deck with concrete (5) Pre-cast concrete slabs (6) Reinforced concrete slabs (7) Light metal (8) Roof decks transfer the roof loads to the underlying joists and\n                           purlins. Damage to the roof deck results in the breach of the building\n                           envelope, resulting in significant building and interior\n                           damage. With respect to seismic performance, the weight of the roof\n                           can be critical. It is not desirable to make the roof heavy because it\n                           induces higher lateral forces in the structure during\n                        shaking.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Covering Attachment",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes",
+     "One of the following values to describe the type of connections used to\n                        secure the roof covering to the roof deck of the building at this location: Unknown/default (0) Screws (1) Nails/staples (2) Adhesive/epoxy () Mortar (4) Damage to the roof can result due to the improper attachment of the\n                           roof covering to the underlying roof deck.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Deck Attachment",
+     "US HU US ST - Straight-Line Winds, Tornadoes",
+     "One of the following values to describe the type of connections used to\n                        secure the roof deck to the underlying roof support system of the building\n                        at this location: Unknown/default (0) Screws/bolts (1) Nails (2) Adhesive/epoxy (3) Structurally connected (4) 6d nails @ 6 spacing, 12 on center (5) 8d nails @ 6 spacing, 12 on center (6) 8d nails @ 6 spacing, 6 on center (7) Damage to the roof can result as a result of improper attachment of\n                           the roof deck to the underlying roof support system.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Anchorage",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes",
+     "One of the following values to describe the type of connections used to\n                        secure the roof support system to the walls of the building at this location: Unknown/default (0) Hurricane Ties (1) Nails/Screws (2) Anchor bolts (3) Gravity/friction (4) Adhesive epoxy (5) Structurally Connected (6) Clips (7) Roof anchorage establishes a load path to transfer wind loads from\n                           the roof to the walls. Hurricane straps provide such an\n                        anchorage.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Roof Hail Impact Resistance",
+     "US ST - Hail",
+     "One of the following values to describe the class of the hail\n                        impact-resistant roof covering material for the building at this location,\n                        based on UL2218, Impact Resistance of Prepared Roof Covering Materials : Unknown/Non-impact-resistant (0) Impact-resistant A (1) (least impact-resistant) Impact-resistant B (2) Impact-resistant C (3) Impact-resistant D (4) (most impact-resistant) This field only applies to the hail sub-peril. UL2218 defines\n                           four classes of prepared sheets of panels installed in overlapping rows\n                           on roofs.",
+     "Optional",
+     ""
+    ],
+    [
+     "Roof Year Built",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail",
+     "Year in which the roof of the building at this location was built A\n                           value of 0 for this field in your import data represents\n                           Unknown/default. With age, roofs lose their strength to resist wind\n                           loads and hence are more vulnerable.",
+     "Optional Defaults to a value in the Touchstone user interface Can be a numeric value between 1000 and the current year, inclusive\n                              (with a maximum year of 2100)",
+     "Blank"
+    ],
+    [
+     "Tank",
+     "CA EQ HI EQ JP EQ US EQ",
+     "One of the following values to indicate whether there are rooftop tanks\n                        on the higher buildings adjoining the building at this location: Unknown/default (0) No (1) Yes (2) Rooftop tanks on adjoining, higher buildings are a falling hazard\n                           during earthquakes.",
+     "Optional",
+     ""
+    ],
+    [
+     "Chimney",
+     "CA EQ HI EQ JP EQ US EQ",
+     "One of the following values to indicate whether the building at this\n                        location has a chimney and, if so, to describe the height of the chimney: Unknown/default (0) No (1) Yes, height less than 2 feet. (2) Yes, height 2-5 feet. (3) Yes, height more than 5 feet. (4)",
+     "Optional",
+     ""
+    ],
+    [
+     "Skylight (added in June 2024)",
+     "US WF",
+     "Unknown/Default - Fixed (0) No Skylights (1) Operable (2)",
+     "",
+     "Unknown/Default (0)"
+    ],
+    [
+     "Fire Rating for Roof Covering (added in June 2024)",
+     "US WF",
+     "Unknown/No Rating (0) Fire Rated Class A (1) Fire Rated Class B (2) Fire Rated Class C (3)",
+     "",
+     "Unknown/No Rating (0)"
+    ],
+    [
+     "Soffits (added in June 2024)",
+     "US WF",
+     "Unknown/Default (0) No Soffit (1) Soffit, Aluminum/Vinyl, Designed for Wind Loads (2) Soffit, Aluminum/Vinyl, Not Designed for Wind Loads (3) Soffit, Other, Designed for Wind Loads (4) Soffit, Other, Not Designed for Wind Loads (5)",
+     "",
+     "Unknown/Default (0)"
+    ],
+    [
+     "Roof Overhang (added in June 2024)",
+     "US WF",
+     "Unknown/Default (0) No Overhang (1) Overhang/Rake (8-36 in. (2) Overhang/Rake (<8 in. (3) Overhang/Rake (>36 in. (4)",
+     "",
+     "Unknown/Default (0)"
+    ],
+    [
+     "Roof Vents (added in June 2024)",
+     "AU WF (added support in ) US WF",
+     "Unknown/Default (0) No Roof Vents (1) Roof Vents (Turbines, Goose Neck, Ridge Vents, Etc. (2)",
+     "",
+     "Unknown/Default (0)"
+    ],
+    [
+     "Roof Vent Size (added in June 2024)",
+     "AU WF (added support in ) US WF",
+     "Unknown/Default (0) â \" or Smaller Mesh or Wildfire Resistant (1) Â¼\" or No Mesh (2)",
+     "",
+     "Unknown/Default (0)"
+    ]
+   ]
+  }
+ ]
+}

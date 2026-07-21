@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_peril-options_ui.html",
+ "title": "Peril options in the user interface",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Peril options in the user interface\n\nEach peril has different options in the user interface.\nThe perils and sub-perils that are available depend on the models you have licensed and on\n the version of \nTouchstone\n.\n\nEarthquake\n: Earthquake Shake (ES), Fire Following (FF), Sprinkler Leakage\n (SL), Landslide (LS), Tsunami (TS) Liquefaction (LQ)\n\nTropical Cyclone\n: Wind (TC), Storm Surge (AIR) (SU), Precipitation Flood\n (PF)\n\nSevere Storm\n: Severe Thunderstorm (ST) [sub-perils: Hail (HL), Straight-Line\n Winds (SW), Tornado (TD)], Winter Storm (WS)\n\nInland Flood\n\nWildfire/Bushfire:\n Sub-perils: Wildfire and Smoke).\n\nTerrorism\n\nCoastal flood\n\nNote:\n Non-catastrophe (NC): We retired non-catastrophe loss analyses in\n \nTouchstone\n 2021 (9.0). Therefore, these\n fields do not affect losses.",
+ "tables": []
+}

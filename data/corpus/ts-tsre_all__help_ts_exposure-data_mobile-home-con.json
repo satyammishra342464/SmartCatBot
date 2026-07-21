@@ -1,0 +1,38 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mobile-home-con.html",
+ "title": "Mobile home construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mobile home construction codes\n\nThe mobile home construction codes supported by \nTouchstone\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 191 | Mobile Homes | Represents a weighted average of tie-down types, including no tie-downs.\n Use this code for a mobile home (manufactured home) when the tie-down\n information is unknown. |\n| 192 | Mobile Home with No Tie-Downs | Use this code for a mobile home (manufactured home) with no anchoring\n systems present. |\n| 193 | Mobile Home with Partial Tie-Downs | Use this code for a mobile home (manufactured home) when the tie-downs\n are either over-the-top ties or frame ties, but not both, or with fewer ties\n than recommended by the manufacturer. |\n| 194 | Mobile Home with Full Tie-Downs | Use this code for a mobile home (manufactured home) when the anchoring\n system uses both over-the-top ties and frame ties. Typically, ten frame ties\n and seven over-the-top ties are required for full tie-down in single-wide\n mobile homes. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "191",
+     "Mobile Homes",
+     "Represents a weighted average of tie-down types, including no tie-downs.\n                        Use this code for a mobile home (manufactured home) when the tie-down\n                        information is unknown."
+    ],
+    [
+     "192",
+     "Mobile Home with No Tie-Downs",
+     "Use this code for a mobile home (manufactured home) with no anchoring\n                        systems present."
+    ],
+    [
+     "193",
+     "Mobile Home with Partial Tie-Downs",
+     "Use this code for a mobile home (manufactured home) when the tie-downs\n                        are either over-the-top ties or frame ties, but not both, or with fewer ties\n                        than recommended by the manufacturer."
+    ],
+    [
+     "194",
+     "Mobile Home with Full Tie-Downs",
+     "Use this code for a mobile home (manufactured home) when the anchoring\n                        system uses both over-the-top ties and frame ties. Typically, ten frame ties\n                        and seven over-the-top ties are required for full tie-down in single-wide\n                        mobile homes."
+    ]
+   ]
+  }
+ ]
+}

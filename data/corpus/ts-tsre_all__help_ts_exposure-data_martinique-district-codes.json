@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_martinique-district-codes.html",
+ "title": "Martinique district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Martinique district codes\n\nTouchstone\n supports the following district\n codes for Martinique.\n\n| District Code | District Name |\n| --- | --- |\n| 1 | Martinique |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Martinique"
+    ]
+   ]
+  }
+ ]
+}

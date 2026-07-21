@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_caribbean-peril-codes_2-10_11.html",
+ "title": "Caribbean Peril Codes (v2.10)",
+ "section": "unicede",
+ "version": null,
+ "text": "Caribbean Peril Codes (v2.10)\n\nPeril codes for select Caribbean countries supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for\n Perils Covered for risks in Caribbean countries listed in \nCaribbean Lines of Business (v2.10)\n.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Wind |\n| PEQ | Earthquake |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Wind"
+    ],
+    [
+     "PEQ",
+     "Earthquake"
+    ]
+   ]
+  }
+ ]
+}

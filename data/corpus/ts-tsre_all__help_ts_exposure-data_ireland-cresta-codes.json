@@ -1,0 +1,121 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_ireland-cresta-codes.html",
+ "title": "Ireland CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Ireland \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Ireland.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| IRL_CW | Carlow County |\n| IRL_CN | Cavan County |\n| IRL_CE | Clare County |\n| IRL_CO | Cork County |\n| IRL_DL | Donegal County |\n| IRL_D | Dublin City |\n| IRL_G | Galway County |\n| IRL_KY | Kerry County |\n| IRL_KE | Kildare County |\n| IRL_KK | Kilkenny County |\n| IRL_LS | Laoighis County |\n| IRL_LM | Leitrim County |\n| IRL_LK | Limerick County |\n| IRL_LD | Longford County |\n| IRL_LH | Louth County |\n| IRL_MO | Mayo County |\n| IRL_MH | Meath County |\n| IRL_MN | Monaghan County |\n| IRL_OY | Offaly County |\n| IRL_RN | Roscommon County |\n| IRL_SO | Sligo County |\n| IRL_TA | Tipperary County |\n| IRL_WD | Waterford County |\n| IRL_WH | Westmeath County |\n| IRL_WX | Wexford County |\n| IRL_WW | Wicklow County |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "IRL_CW",
+     "Carlow County"
+    ],
+    [
+     "IRL_CN",
+     "Cavan County"
+    ],
+    [
+     "IRL_CE",
+     "Clare County"
+    ],
+    [
+     "IRL_CO",
+     "Cork County"
+    ],
+    [
+     "IRL_DL",
+     "Donegal County"
+    ],
+    [
+     "IRL_D",
+     "Dublin City"
+    ],
+    [
+     "IRL_G",
+     "Galway County"
+    ],
+    [
+     "IRL_KY",
+     "Kerry County"
+    ],
+    [
+     "IRL_KE",
+     "Kildare County"
+    ],
+    [
+     "IRL_KK",
+     "Kilkenny County"
+    ],
+    [
+     "IRL_LS",
+     "Laoighis County"
+    ],
+    [
+     "IRL_LM",
+     "Leitrim County"
+    ],
+    [
+     "IRL_LK",
+     "Limerick County"
+    ],
+    [
+     "IRL_LD",
+     "Longford County"
+    ],
+    [
+     "IRL_LH",
+     "Louth County"
+    ],
+    [
+     "IRL_MO",
+     "Mayo County"
+    ],
+    [
+     "IRL_MH",
+     "Meath County"
+    ],
+    [
+     "IRL_MN",
+     "Monaghan County"
+    ],
+    [
+     "IRL_OY",
+     "Offaly County"
+    ],
+    [
+     "IRL_RN",
+     "Roscommon County"
+    ],
+    [
+     "IRL_SO",
+     "Sligo County"
+    ],
+    [
+     "IRL_TA",
+     "Tipperary County"
+    ],
+    [
+     "IRL_WD",
+     "Waterford County"
+    ],
+    [
+     "IRL_WH",
+     "Westmeath County"
+    ],
+    [
+     "IRL_WX",
+     "Wexford County"
+    ],
+    [
+     "IRL_WW",
+     "Wicklow County"
+    ]
+   ]
+  }
+ ]
+}

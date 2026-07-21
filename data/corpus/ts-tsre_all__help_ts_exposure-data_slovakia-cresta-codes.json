@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_slovakia-cresta-codes.html",
+ "title": "Slovakia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Slovakia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Slovakia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| SVK_01 | SVK_01 |\n| SVK_02 | SVK_02 |\n| SVK_03 | SVK_03 |\n| SVK_04 | SVK_04 |\n| SVK_05 | SVK_05 |\n| SVK_06 | SVK_06 |\n| SVK_07 | SVK_07 |\n| SVK_08 | SVK_08 |\n| SVK_09 | SVK_09 |\n| SVK_81 | SVK_81 |\n| SVK_82 | SVK_82 |\n| SVK_83 | SVK_83 |\n| SVK_84 | SVK_84 |\n| SVK_85 | SVK_85 |\n| SVK_90 | SVK_90 |\n| SVK_91 | SVK_91 |\n| SVK_92 | SVK_92 |\n| SVK_93 | SVK_93 |\n| SVK_94 | SVK_94 |\n| SVK_95 | SVK_95 |\n| SVK_96 | SVK_96 |\n| SVK_97 | SVK_97 |\n| SVK_98 | SVK_98 |\n| SVK_99 | SVK_99 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "SVK_01",
+     "SVK_01"
+    ],
+    [
+     "SVK_02",
+     "SVK_02"
+    ],
+    [
+     "SVK_03",
+     "SVK_03"
+    ],
+    [
+     "SVK_04",
+     "SVK_04"
+    ],
+    [
+     "SVK_05",
+     "SVK_05"
+    ],
+    [
+     "SVK_06",
+     "SVK_06"
+    ],
+    [
+     "SVK_07",
+     "SVK_07"
+    ],
+    [
+     "SVK_08",
+     "SVK_08"
+    ],
+    [
+     "SVK_09",
+     "SVK_09"
+    ],
+    [
+     "SVK_81",
+     "SVK_81"
+    ],
+    [
+     "SVK_82",
+     "SVK_82"
+    ],
+    [
+     "SVK_83",
+     "SVK_83"
+    ],
+    [
+     "SVK_84",
+     "SVK_84"
+    ],
+    [
+     "SVK_85",
+     "SVK_85"
+    ],
+    [
+     "SVK_90",
+     "SVK_90"
+    ],
+    [
+     "SVK_91",
+     "SVK_91"
+    ],
+    [
+     "SVK_92",
+     "SVK_92"
+    ],
+    [
+     "SVK_93",
+     "SVK_93"
+    ],
+    [
+     "SVK_94",
+     "SVK_94"
+    ],
+    [
+     "SVK_95",
+     "SVK_95"
+    ],
+    [
+     "SVK_96",
+     "SVK_96"
+    ],
+    [
+     "SVK_97",
+     "SVK_97"
+    ],
+    [
+     "SVK_98",
+     "SVK_98"
+    ],
+    [
+     "SVK_99",
+     "SVK_99"
+    ]
+   ]
+  }
+ ]
+}

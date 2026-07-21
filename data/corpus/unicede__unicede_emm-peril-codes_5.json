@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_emm-peril-codes_5.html",
+ "title": "EMM Peril Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "EMM Peril Codes\n\nPeril codes for custom models supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following perils for risks\n associated with custom models in \nTouchstone Re\n's\n Advanced Loss Modification (ALM) and \nCATRADER\n's\n Exposure Management Module (EMM).\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWS | Windstorm only |\n| PFL | Flood only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PFL",
+     "Flood only"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_costa-rica-cresta-codes.html",
+ "title": "Costa Rica CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Costa Rica \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Costa Rica.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | 1 |\n| 2 | 2 |\n| 3 | 3 |\n| 4 | 4 |\n| 5 | 5 |\n| 6 | 6 |\n| 7 | 7 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ],
+    [
+     "4",
+     "4"
+    ],
+    [
+     "5",
+     "5"
+    ],
+    [
+     "6",
+     "6"
+    ],
+    [
+     "7",
+     "7"
+    ]
+   ]
+  }
+ ]
+}

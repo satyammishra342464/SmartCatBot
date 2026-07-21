@@ -1,0 +1,45 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_new-zealand-perils.html",
+ "title": "New Zealand perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "New Zealand perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for New Zealand.\n\n| Import peril code | Peril |\n| --- | --- |\n| PAL | All licensed perils |\n| PEA | All earthquake perils |\n| PES | Earthquake shake only |\n| PFF | Fire following only |\n| PLQ | Liquefaction |\n| PLS | Landslide |\n| PTS | Tsunami |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils"
+    ],
+    [
+     "PEA",
+     "All earthquake perils"
+    ],
+    [
+     "PES",
+     "Earthquake shake only"
+    ],
+    [
+     "PFF",
+     "Fire following only"
+    ],
+    [
+     "PLQ",
+     "Liquefaction"
+    ],
+    [
+     "PLS",
+     "Landslide"
+    ],
+    [
+     "PTS",
+     "Tsunami"
+    ]
+   ]
+  }
+ ]
+}

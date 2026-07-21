@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_air-con-class-codes.html",
+ "title": "Touchstone construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Touchstone\n construction class codes\n\nConstruction class codes help to determine the vulnerability of your risks to various\n perils. \nTouchstone\n provides a set of construction\n class codes that you use to describe the building material and/or type of construction used in\n your risks. Support for construction classes varies by country/region.\nSee the related information links to learn about \nTouchstone\n construction class codes and to find out\n which construction class codes are valid for each supported country/region. Also, see\n the link for validation information for unknown construction / unknown occupancy\n combinations.\nFor information about supported codes and limitations for specific models, refer to the model\n documentation that is available on the \nClient Portal\n.\n\nNote:\n \nTouchstone\n also supports\n non-\nTouchstone\n construction and occupancy\n class codes, although we always recommend translating non-\nTouchstone\n codes to \nTouchstone\n codes wherever possible before importing\n your data. For more information, see the topics about non-\nTouchstone\n codes in the Help provided with your\n \nTouchstone\n Client.",
+ "tables": []
+}

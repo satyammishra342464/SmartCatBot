@@ -1,0 +1,107 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_cen-s-america-perils.html",
+ "title": "Central and South America Perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Central and South America Perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for Central and South\n America.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PES | Earthquake shake only | |\n| PWH | Tropical cyclone only | For this region, the PWH code contains explicit modeling for\n precipitation flood. However, precipitation flood losses are included\n automatically in the Wind losses. |\n| PTS | Tsunami | |\n\nPeril support by country\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for each country within the\n Central and South American region:\n\n| Country | Peril codes | Perils |\n| --- | --- | --- |\n| Belize | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| Costa Rica | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| El Salvador | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| Guatemala | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| Honduras | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| Nicaragua | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| Panama | PAL PES PWH | All licensed perils Earthquake shake only Tropical cyclone only |\n| Chile | PAL PES PTS | All licensed perils Earthquake shake only Tsunami |\n| Colombia | PAL PES PTS | All licensed perils Earthquake shake only Tsunami |\n| Ecuador | PAL PES PTS | All licensed perils Earthquake shake only Tsunami |\n| Peru | PAL PES PTS | All licensed perils Earthquake shake only Tsunami |\n| Venezuela | PAL PES PTS | All licensed perils Earthquake shake only Tsunami |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only",
+     "For this region, the PWH code contains explicit modeling for\n                        precipitation flood. However, precipitation flood losses are included\n                        automatically in the Wind losses."
+    ],
+    [
+     "PTS",
+     "Tsunami",
+     ""
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Country",
+    "Peril codes",
+    "Perils"
+   ],
+   "rows": [
+    [
+     "Belize",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "Costa Rica",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "El Salvador",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "Guatemala",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "Honduras",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "Nicaragua",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "Panama",
+     "PAL PES PWH",
+     "All licensed perils Earthquake shake only Tropical cyclone only"
+    ],
+    [
+     "Chile",
+     "PAL PES PTS",
+     "All licensed perils Earthquake shake only Tsunami"
+    ],
+    [
+     "Colombia",
+     "PAL PES PTS",
+     "All licensed perils Earthquake shake only Tsunami"
+    ],
+    [
+     "Ecuador",
+     "PAL PES PTS",
+     "All licensed perils Earthquake shake only Tsunami"
+    ],
+    [
+     "Peru",
+     "PAL PES PTS",
+     "All licensed perils Earthquake shake only Tsunami"
+    ],
+    [
+     "Venezuela",
+     "PAL PES PTS",
+     "All licensed perils Earthquake shake only Tsunami"
+    ]
+   ]
+  }
+ ]
+}

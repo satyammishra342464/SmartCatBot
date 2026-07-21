@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_new-zealand-cresta-codes.html",
+ "title": "New Zealand CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "New Zealand \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for New Zealand.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Z01:Northland |\n| 2 | Z02:Auckland |\n| 3 | Z03:Waikato |\n| 4 | Z04:Bay of Plenty |\n| 5 | Z05:Taranaki |\n| 6 | Z06:East Coast |\n| 7 | Z07:Manawatu |\n| 8 | Z08:Hawkes Bay |\n| 9 | Z09:Wairarapa |\n| 10 | Z10:Wellington |\n| 11 | Z11:Nelson |\n| 12 | Z12:Marlborough |\n| 13 | Z13:Canterbury |\n| 14 | Z14:Westland |\n| 15 | Z15:Otago |\n| 16 | Z16:Southland |\n| 17 | Z17: Campbell and Auckland Islands |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Z01:Northland"
+    ],
+    [
+     "2",
+     "Z02:Auckland"
+    ],
+    [
+     "3",
+     "Z03:Waikato"
+    ],
+    [
+     "4",
+     "Z04:Bay of Plenty"
+    ],
+    [
+     "5",
+     "Z05:Taranaki"
+    ],
+    [
+     "6",
+     "Z06:East Coast"
+    ],
+    [
+     "7",
+     "Z07:Manawatu"
+    ],
+    [
+     "8",
+     "Z08:Hawkes Bay"
+    ],
+    [
+     "9",
+     "Z09:Wairarapa"
+    ],
+    [
+     "10",
+     "Z10:Wellington"
+    ],
+    [
+     "11",
+     "Z11:Nelson"
+    ],
+    [
+     "12",
+     "Z12:Marlborough"
+    ],
+    [
+     "13",
+     "Z13:Canterbury"
+    ],
+    [
+     "14",
+     "Z14:Westland"
+    ],
+    [
+     "15",
+     "Z15:Otago"
+    ],
+    [
+     "16",
+     "Z16:Southland"
+    ],
+    [
+     "17",
+     "Z17: Campbell and Auckland Islands"
+    ]
+   ]
+  }
+ ]
+}

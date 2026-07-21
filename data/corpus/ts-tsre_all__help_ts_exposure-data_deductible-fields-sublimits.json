@@ -1,0 +1,78 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_deductible-fields-sublimits.html",
+ "title": "Sublimit deductible fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit deductible fields\n\nSublimit deductible fields.\nYou specify sublimits on the \nLayers\n tab.\nSee \nSublimit occurrence deductible types\n for information about\n sublimit occurrence deductible types.\n\n| Field / Deductible | B | FR | PL | MA | MI | MM | CB | CT | C | N |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Deductible 1 | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | % | Not required. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. This value must be less than Deductible 2. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Not required. |\n| Deductible 2 | Not required. | Not required. | Not required. | Field represents a monetary value, expressed as a value greater than\n 1. | Not required. | Field represents a monetary value, expressed as a value greater than 1.\n This value must be greater than Deductible 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Not required. |\n| Deductible 3 | Not required. | Not required. | Not required. | Not required. | Not required. | Not required. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Not required. |\n| Deductible 4 | Not required. | Not required. | Not required. | Not required. | Not required. | Not required. | Field is not required. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Not required. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Deductible",
+    "B",
+    "FR",
+    "PL",
+    "MA",
+    "MI",
+    "MM",
+    "CB",
+    "CT",
+    "C",
+    "N"
+   ],
+   "rows": [
+    [
+     "Deductible 1",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "%",
+     "Not required.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1. This value must be less than Deductible 2.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Not required."
+    ],
+    [
+     "Deductible 2",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Field represents a monetary value, expressed as a value greater than\n                        1.",
+     "Not required.",
+     "Field represents a monetary value, expressed as a value greater than 1.\n                        This value must be greater than Deductible 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Not required."
+    ],
+    [
+     "Deductible 3",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Not required."
+    ],
+    [
+     "Deductible 4",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Not required.",
+     "Field is not required.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Not required."
+    ]
+   ]
+  }
+ ]
+}

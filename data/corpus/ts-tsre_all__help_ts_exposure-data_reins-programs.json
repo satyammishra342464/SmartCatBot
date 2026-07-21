@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_reins-programs.html",
+ "title": "Reinsurance programs",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Reinsurance programs\n\nValidation rules for fields related to reinsurance programs.\n\n{Open Project}\n > \nReinsurance\n > \nReinsurance Programs\n\nDetailed Loss Analysis\n > \nDetailed Loss Analysis\n > \nReinsurance Diagnostic\n > \nApply Reinsurance Programs Pane\n > \nReinsurance Program Manager\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Program Name | Name of this reinsurance program | Required if you are creating a new record or editing an existing\n record Can contain up to 100 characters | |\n| Associated Exposures | Exposure view or views associated with this reinsurance program | Can contain one or more existing exposure views | |\n| Number of Treaties | Number of treaties in this reinsurance program | Read-only | |\n| Surplus Share Count | Number of surplus share treaties in this reinsurance program | Read-only | |\n| Quota Share Count | Number of quota share treaties in this reinsurance program | Read-only | |\n| Per Risk XOL Count | Number of per risk XOL treaties in this reinsurance program | Read only | |\n| CAT XOL Count | Number of CAT XOL treaties in this reinsurance program | Read-only | |\n| Modified Date | Date on which this reinsurance program was last modified | Read-only | |\n| Description | Description of this reinsurance program, such as the import path for this\n program | Optional Can contain up to 1024 characters | |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Program Name",
+     "Name of this reinsurance program",
+     "Required if you are creating a new record or editing an existing\n                                 record Can contain up to 100 characters",
+     ""
+    ],
+    [
+     "Associated Exposures",
+     "Exposure view or views associated with this reinsurance program",
+     "Can contain one or more existing exposure views",
+     ""
+    ],
+    [
+     "Number of Treaties",
+     "Number of treaties in this reinsurance program",
+     "Read-only",
+     ""
+    ],
+    [
+     "Surplus Share Count",
+     "Number of surplus share treaties in this reinsurance program",
+     "Read-only",
+     ""
+    ],
+    [
+     "Quota Share Count",
+     "Number of quota share treaties in this reinsurance program",
+     "Read-only",
+     ""
+    ],
+    [
+     "Per Risk XOL Count",
+     "Number of per risk XOL treaties in this reinsurance program",
+     "Read only",
+     ""
+    ],
+    [
+     "CAT XOL Count",
+     "Number of CAT XOL treaties in this reinsurance program",
+     "Read-only",
+     ""
+    ],
+    [
+     "Modified Date",
+     "Date on which this reinsurance program was last modified",
+     "Read-only",
+     ""
+    ],
+    [
+     "Description",
+     "Description of this reinsurance program, such as the import path for this\n                           program",
+     "Optional Can contain up to 1024 characters",
+     ""
+    ]
+   ]
+  }
+ ]
+}

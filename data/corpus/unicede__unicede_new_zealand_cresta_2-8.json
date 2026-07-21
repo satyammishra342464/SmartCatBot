@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_new_zealand_cresta_2-8.html",
+ "title": "New Zealand CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "New Zealand \nCRESTA\n Codes (v2.8)\n \n\nCRESTA\n codes for New Zealand supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for New Zealand (24).\n\n| Area Tag | Name |\n| --- | --- |\n| 24-0000 | NEW ZEALAND |\n| 24-0100 | Northland |\n| 24-0200 | Auckland |\n| 24-0300 | Waikato |\n| 24-0400 | Bay of Plenty |\n| 24-0500 | Taranaki |\n| 24-0600 | East Coast |\n| 24-0700 | Manawatu |\n| 24-0800 | Hawkes Bay |\n| 24-0900 | Wairarapa |\n| 24-1000 | Wellington |\n| 24-1100 | Nelson |\n| 24-1200 | Marlborough |\n| 24-1300 | Canterbury |\n| 24-1400 | Westland |\n| 24-1500 | Otago |\n| 24-1600 | Southland |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "24-0000",
+     "NEW ZEALAND"
+    ],
+    [
+     "24-0100",
+     "Northland"
+    ],
+    [
+     "24-0200",
+     "Auckland"
+    ],
+    [
+     "24-0300",
+     "Waikato"
+    ],
+    [
+     "24-0400",
+     "Bay of Plenty"
+    ],
+    [
+     "24-0500",
+     "Taranaki"
+    ],
+    [
+     "24-0600",
+     "East Coast"
+    ],
+    [
+     "24-0700",
+     "Manawatu"
+    ],
+    [
+     "24-0800",
+     "Hawkes Bay"
+    ],
+    [
+     "24-0900",
+     "Wairarapa"
+    ],
+    [
+     "24-1000",
+     "Wellington"
+    ],
+    [
+     "24-1100",
+     "Nelson"
+    ],
+    [
+     "24-1200",
+     "Marlborough"
+    ],
+    [
+     "24-1300",
+     "Canterbury"
+    ],
+    [
+     "24-1400",
+     "Westland"
+    ],
+    [
+     "24-1500",
+     "Otago"
+    ],
+    [
+     "24-1600",
+     "Southland"
+    ]
+   ]
+  }
+ ]
+}

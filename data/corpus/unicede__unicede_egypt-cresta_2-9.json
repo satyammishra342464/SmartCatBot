@@ -1,0 +1,129 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_egypt-cresta_2-9.html",
+ "title": "Egypt CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Egypt \nCRESTA\n Codes (v2.9) \n\nCRESTA\n codes for Egypt supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Egypt (219).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 219-EGY | Egypt |\n| 219-EGY_ALX | Alexandria |\n| 219-EGY_ASN | Asswan |\n| 219-EGY_ASN | Assiout |\n| 219-EGY_BA | Red Sea |\n| 219-EGY_BH | Albeherah |\n| 219-EGY_BNS | Beni Souif |\n| 219-EGY_C | Cairo |\n| 219-EGY_DK | Aldaqhliah |\n| 219-EGY_DT | Damietta |\n| 219-EGY_FYM | Alfayoum |\n| 219-EGY_DK | Algarbiah |\n| 219-EGY_GZ | Giza |\n| 219-EGY_IS | Ismalia |\n| 219-EGY_JS | South Sinaii |\n| 219-EGY_KB | Alqaliobiah |\n| 219-EGY_KFS | Kafr Alshikh |\n| 219-EGY_KN | Qena |\n| 219-EGY_LX | Luxor |\n| 219-EGY_MN | Almenia |\n| 219-EGY_MNF | Almonofiah |\n| 219-EGY_MT | Matrouh |\n| 219-EGY_PTS | Port Said |\n| 219-EGY_SHG | Sohag |\n| 219-EGY_SHR | Alsharqiah |\n| 219-EGY_SIN | North Sinai |\n| 219-EGY_SUZ | Suez |\n| 219-EGY_WAD | New Valey |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "219-EGY",
+     "Egypt"
+    ],
+    [
+     "219-EGY_ALX",
+     "Alexandria"
+    ],
+    [
+     "219-EGY_ASN",
+     "Asswan"
+    ],
+    [
+     "219-EGY_ASN",
+     "Assiout"
+    ],
+    [
+     "219-EGY_BA",
+     "Red Sea"
+    ],
+    [
+     "219-EGY_BH",
+     "Albeherah"
+    ],
+    [
+     "219-EGY_BNS",
+     "Beni Souif"
+    ],
+    [
+     "219-EGY_C",
+     "Cairo"
+    ],
+    [
+     "219-EGY_DK",
+     "Aldaqhliah"
+    ],
+    [
+     "219-EGY_DT",
+     "Damietta"
+    ],
+    [
+     "219-EGY_FYM",
+     "Alfayoum"
+    ],
+    [
+     "219-EGY_DK",
+     "Algarbiah"
+    ],
+    [
+     "219-EGY_GZ",
+     "Giza"
+    ],
+    [
+     "219-EGY_IS",
+     "Ismalia"
+    ],
+    [
+     "219-EGY_JS",
+     "South Sinaii"
+    ],
+    [
+     "219-EGY_KB",
+     "Alqaliobiah"
+    ],
+    [
+     "219-EGY_KFS",
+     "Kafr Alshikh"
+    ],
+    [
+     "219-EGY_KN",
+     "Qena"
+    ],
+    [
+     "219-EGY_LX",
+     "Luxor"
+    ],
+    [
+     "219-EGY_MN",
+     "Almenia"
+    ],
+    [
+     "219-EGY_MNF",
+     "Almonofiah"
+    ],
+    [
+     "219-EGY_MT",
+     "Matrouh"
+    ],
+    [
+     "219-EGY_PTS",
+     "Port Said"
+    ],
+    [
+     "219-EGY_SHG",
+     "Sohag"
+    ],
+    [
+     "219-EGY_SHR",
+     "Alsharqiah"
+    ],
+    [
+     "219-EGY_SIN",
+     "North Sinai"
+    ],
+    [
+     "219-EGY_SUZ",
+     "Suez"
+    ],
+    [
+     "219-EGY_WAD",
+     "New Valey"
+    ]
+   ]
+  }
+ ]
+}

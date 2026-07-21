@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_central-american-peril-codes_2-7_7.html",
+ "title": "Central American Peril Codes (v2.7)",
+ "section": "unicede",
+ "version": null,
+ "text": "Central American Peril Codes (v2.7)\n\nPeril codes for Central America supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for\n Perils Covered for risks in Belize, Costa Rica, El Salvador, Guatemala, Honduras,\n Nicaragua, and Panama. \n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PWS | Wind only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PWS",
+     "Wind only"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_us-state-codes.html",
+ "title": "United States state codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "United States state codes\n\nTouchstone\n supports the following state\n codes for the United States.\n\n| State Code | State Name |\n| --- | --- |\n| AK | Alaska |\n| AL | Alabama |\n| AR | Arkansas |\n| AZ | Arizona |\n| CA | California |\n| CO | Colorado |\n| CT | Connecticut |\n| DC | Dist of Columbia |\n| DE | Delaware |\n| FL | Florida |\n| GA | Georgia |\n| HI | Hawaii |\n| IA | Iowa |\n| ID | Idaho |\n| IL | Illinois |\n| IN | Indiana |\n| KS | Kansas |\n| KY | Kentucky |\n| LA | Louisiana |\n| MA | Massachusetts |\n| MD | Maryland |\n| ME | Maine |\n| MI | Michigan |\n| MN | Minnesota |\n| MO | Missouri |\n| MS | Mississippi |\n| MT | Montana |\n| NC | North Carolina |\n| ND | North Dakota |\n| NE | Nebraska |\n| NH | New Hampshire |\n| NJ | New Jersey |\n| NM | New Mexico |\n| NV | Nevada |\n| NY | New York |\n| OH | Ohio |\n| OK | Oklahoma |\n| OR | Oregon |\n| PA | Pennsylvania |\n| RI | Rhode Island |\n| SC | South Carolina |\n| SD | South Dakota |\n| TN | Tennessee |\n| TX | Texas |\n| UT | Utah |\n| VA | Virginia |\n| VT | Vermont |\n| WA | Washington |\n| WI | Wisconsin |\n| WV | West Virginia |\n| WY | Wyoming |",
+ "tables": [
+  {
+   "headers": [
+    "State Code",
+    "State Name"
+   ],
+   "rows": [
+    [
+     "AK",
+     "Alaska"
+    ],
+    [
+     "AL",
+     "Alabama"
+    ],
+    [
+     "AR",
+     "Arkansas"
+    ],
+    [
+     "AZ",
+     "Arizona"
+    ],
+    [
+     "CA",
+     "California"
+    ],
+    [
+     "CO",
+     "Colorado"
+    ],
+    [
+     "CT",
+     "Connecticut"
+    ],
+    [
+     "DC",
+     "Dist of Columbia"
+    ],
+    [
+     "DE",
+     "Delaware"
+    ],
+    [
+     "FL",
+     "Florida"
+    ],
+    [
+     "GA",
+     "Georgia"
+    ],
+    [
+     "HI",
+     "Hawaii"
+    ],
+    [
+     "IA",
+     "Iowa"
+    ],
+    [
+     "ID",
+     "Idaho"
+    ],
+    [
+     "IL",
+     "Illinois"
+    ],
+    [
+     "IN",
+     "Indiana"
+    ],
+    [
+     "KS",
+     "Kansas"
+    ],
+    [
+     "KY",
+     "Kentucky"
+    ],
+    [
+     "LA",
+     "Louisiana"
+    ],
+    [
+     "MA",
+     "Massachusetts"
+    ],
+    [
+     "MD",
+     "Maryland"
+    ],
+    [
+     "ME",
+     "Maine"
+    ],
+    [
+     "MI",
+     "Michigan"
+    ],
+    [
+     "MN",
+     "Minnesota"
+    ],
+    [
+     "MO",
+     "Missouri"
+    ],
+    [
+     "MS",
+     "Mississippi"
+    ],
+    [
+     "MT",
+     "Montana"
+    ],
+    [
+     "NC",
+     "North Carolina"
+    ],
+    [
+     "ND",
+     "North Dakota"
+    ],
+    [
+     "NE",
+     "Nebraska"
+    ],
+    [
+     "NH",
+     "New Hampshire"
+    ],
+    [
+     "NJ",
+     "New Jersey"
+    ],
+    [
+     "NM",
+     "New Mexico"
+    ],
+    [
+     "NV",
+     "Nevada"
+    ],
+    [
+     "NY",
+     "New York"
+    ],
+    [
+     "OH",
+     "Ohio"
+    ],
+    [
+     "OK",
+     "Oklahoma"
+    ],
+    [
+     "OR",
+     "Oregon"
+    ],
+    [
+     "PA",
+     "Pennsylvania"
+    ],
+    [
+     "RI",
+     "Rhode Island"
+    ],
+    [
+     "SC",
+     "South Carolina"
+    ],
+    [
+     "SD",
+     "South Dakota"
+    ],
+    [
+     "TN",
+     "Tennessee"
+    ],
+    [
+     "TX",
+     "Texas"
+    ],
+    [
+     "UT",
+     "Utah"
+    ],
+    [
+     "VA",
+     "Virginia"
+    ],
+    [
+     "VT",
+     "Vermont"
+    ],
+    [
+     "WA",
+     "Washington"
+    ],
+    [
+     "WI",
+     "Wisconsin"
+    ],
+    [
+     "WV",
+     "West Virginia"
+    ],
+    [
+     "WY",
+     "Wyoming"
+    ]
+   ]
+  }
+ ]
+}

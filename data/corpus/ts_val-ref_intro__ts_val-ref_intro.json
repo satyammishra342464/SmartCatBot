@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts_val-ref_intro/ts_val-ref_intro.html",
+ "title": "Touchstone and UNICEDE",
+ "section": "ts_val-ref_intro",
+ "version": null,
+ "text": "Touchstone\n and \nUNICEDE\n\nVerisk\n provides a public reference to support\n the validation of \nUNICEDE\n-format exposure data in\n \nTouchstone\n.\n\nUNICEDE\n, is just one (open format) exposure data\n formats used by \nVerisk\n for analyzing insurance\n contracts and insurance-linked securities. \n\nRefer to the model documentation on the \nClient Portal\n for detailed information\n about modeled perils, construction classes, and occupancy classes, for each model.\n\nDocumentation for some \nVerisk\n models includes a\n document that serves as a guide to the secondary risk characteristics (SRCs) used in the\n model. SRCs are features of a building and its environment that have a significant impact on\n the buildingâs vulnerability to damage during an event. The SRCs are important contributing\n factors to losses sustained by residential, commercial, and industrial properties. You can\n search the \nClient Portal\n for SRC documents by typing \nsecondary risk characteristics\n in the\n \n field.",
+ "tables": []
+}

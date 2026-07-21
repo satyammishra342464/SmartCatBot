@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_honduras-cresta-codes.html",
+ "title": "Honduras CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Honduras \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Honduras.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | 1 |\n| 2 | 2 |\n| 3 | 3 |\n| 4 | 4 |\n| 5 | 5 |\n| 6 | 6 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ],
+    [
+     "3",
+     "3"
+    ],
+    [
+     "4",
+     "4"
+    ],
+    [
+     "5",
+     "5"
+    ],
+    [
+     "6",
+     "6"
+    ]
+   ]
+  }
+ ]
+}

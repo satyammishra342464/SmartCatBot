@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_finland_lob_2-8.html",
+ "title": "Finland Lines Of Business (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Finland Lines Of Business (v2.8)\n \n\nLOB codes for Finland supported by \nUNICEDE\n/2.\n\nThese codes are valid for Finland.\n\n| Code | Line of Business |\n| --- | --- |\n| RB | Residential Building |\n| RC | Residential Contents |\n| RBC | Residential Building & Contents |\n| COM | Commercial |\n| IND | Industrial |\n| CAI | Commercial & Industrial |\n| AG | Agriculture |\n| AUTO | Automotive |\n| FOR | Forestry |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RB",
+     "Residential Building"
+    ],
+    [
+     "RC",
+     "Residential Contents"
+    ],
+    [
+     "RBC",
+     "Residential Building & Contents"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "AG",
+     "Agriculture"
+    ],
+    [
+     "AUTO",
+     "Automotive"
+    ],
+    [
+     "FOR",
+     "Forestry"
+    ]
+   ]
+  }
+ ]
+}

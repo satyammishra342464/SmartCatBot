@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_peru-state-codes.html",
+ "title": "Peru state codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Peru state codes\n\nTouchstone\n supports the following state\n codes codes for Peru.\n\n| State Code | State Name |\n| --- | --- |\n| 01 | Amazonas |\n| 02 | Ancash |\n| 03 | ApurÃ­mac |\n| 04 | Arequipa |\n| 05 | Ayacucho |\n| 06 | Cajamarca |\n| 07 | Callao |\n| 08 | Cusco |\n| 09 | Huancavelica |\n| 10 | HuÃ¡nuco |\n| 11 | Ica |\n| 12 | JunÃ­n |\n| 13 | La Libertad |\n| 14 | Lambayeque |\n| 15 | Lima |\n| 16 | Loreto |\n| 17 | Madre de Dios |\n| 18 | Moquegua |\n| 19 | Pasco |\n| 20 | Piura |\n| 21 | Puno |\n| 22 | San MartÃ­n |\n| 23 | Tacna |\n| 24 | Tumbes |\n| 25 | Ucayali |",
+ "tables": [
+  {
+   "headers": [
+    "State Code",
+    "State Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Amazonas"
+    ],
+    [
+     "02",
+     "Ancash"
+    ],
+    [
+     "03",
+     "ApurÃ­mac"
+    ],
+    [
+     "04",
+     "Arequipa"
+    ],
+    [
+     "05",
+     "Ayacucho"
+    ],
+    [
+     "06",
+     "Cajamarca"
+    ],
+    [
+     "07",
+     "Callao"
+    ],
+    [
+     "08",
+     "Cusco"
+    ],
+    [
+     "09",
+     "Huancavelica"
+    ],
+    [
+     "10",
+     "HuÃ¡nuco"
+    ],
+    [
+     "11",
+     "Ica"
+    ],
+    [
+     "12",
+     "JunÃ­n"
+    ],
+    [
+     "13",
+     "La Libertad"
+    ],
+    [
+     "14",
+     "Lambayeque"
+    ],
+    [
+     "15",
+     "Lima"
+    ],
+    [
+     "16",
+     "Loreto"
+    ],
+    [
+     "17",
+     "Madre de Dios"
+    ],
+    [
+     "18",
+     "Moquegua"
+    ],
+    [
+     "19",
+     "Pasco"
+    ],
+    [
+     "20",
+     "Piura"
+    ],
+    [
+     "21",
+     "Puno"
+    ],
+    [
+     "22",
+     "San MartÃ­n"
+    ],
+    [
+     "23",
+     "Tacna"
+    ],
+    [
+     "24",
+     "Tumbes"
+    ],
+    [
+     "25",
+     "Ucayali"
+    ]
+   ]
+  }
+ ]
+}

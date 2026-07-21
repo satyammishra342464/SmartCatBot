@@ -1,0 +1,486 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_china-con-class-codes.html",
+ "title": "China construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "China construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for China.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction code | Construction class |\n| --- | --- | --- |\n| Unknown | 100 | Unknown |\n| Wood | 101 | Wood Frame (Modern) |\n| 102 | Wood Frame (Light) |\n| 103 | Masonry Veneer |\n| 104 | Heavy timber |\n| Masonry | 111 | Masonry |\n| 112 | Adobe |\n| 113 | Rubble Stone Masonry |\n| 114 | Unreinforced Masonry - Bearing Wall |\n| 115 | Unreinforced Masonry - Bearing Frame |\n| 116 | Reinforced Masonry |\n| 117 | Reinforced Masonry Shear Wall (with MRF) |\n| 118 | Reinforced Masonry Shear Wall (without MRF) |\n| 119 | Joisted Masonry |\n| 120 | Confined Masonry |\n| Concrete | 131 | Reinforced Concrete |\n| 132 | Reinforced Concrete Shear Wall (with MRF) |\n| 133 | Reinforced Concrete Shear Wall (without MRF) |\n| 134 | Reinforced Concrete MRF Ductile |\n| 135 | Reinforced Concrete MRF Non-Ductile |\n| 136 | Tilt-up |\n| 137 | Pre-Cast Concrete |\n| 138 | Pre-Cast Concrete with Shear Wall |\n| 139 | Reinforced Concrete MRF |\n| 140 | Reinforced Concrete MRF with URM |\n| Steel | 151 | Steel |\n| 152 | Light Metal |\n| 153 | Braced Steel Frame |\n| 154 | Steel MRF Perimeter |\n| 155 | Steel MRF Distributed |\n| 156 | Steel MRF |\n| 157 | Steel Frame with URM |\n| 158 | Steel Frame with Concrete Shear Wall |\n| 159 | Steel Reinforced Concrete |\n| Pavements | 204 | Railroads |\n| 205 | Highways |\n| 206 | Runways |\n| Chimneys | 231 | Masonry Chimneys |\n| 232 | Concrete Chimneys |\n| 233 | Steel Chimneys |\n| Towers | 234 | Electrical Transmission Conventional |\n| 235 | Electrical Transmission Major |\n| 236 | Broadcast Towers |\n| 237 | Observation Towers |\n| 238 | Offshore Towers |\n| Equipment | 241 | Residential Equipment |\n| 242 | Office Equipment |\n| 243 | Electrical Equipment |\n| 244 | Mechanical Equipment |\n| 245 | High-Technology Equipment |\n| 246 | Trains, Trucks, Airplanes, etc. |\n| Miscellaneous | 251 | Pumping Station |\n| 252 | Compressor Stations |\n| 253 | Cranes |\n| 254 | Conveyor Systems |\n| 257 | Waterfront Structures |\n| 258 | Offshore Structures |\n| 259 | Transit Warehouse |\n| 260 | Marine Hull |\n| Automobiles | 261 | Automobiles |\n| 262 | 4-Wheeler |\n| 263 | 2-Wheeler |\n| Marine Cargo | 270 | Carpool |\n| 271 | General and Containerized Cargo |\n| 272 | Heavy Cargo |\n| 273 | Refrigerated Cargo |\n| 274 | Dry Bulk Cargo |\n| 275 | Liquid Bulk Cargo |\n| 276 | New Unknown Marine Cargo Code |\n| Bridges | 2010 | Unknown Bridge |\n| 2011 | Multi-Span Simply Supported Concrete |\n| 2012 | Multi-Span Simply Supported Steel |\n| 2013 | Single-Span Bridge |\n| 2015 | General Concrete |\n| 2016 | General Steel |\n| 2021 | Multi-Span Continuous Concrete |\n| 2022 | Multi-Span Continuous Steel |\n| 2031 | Major Bridge |\n| Tunnels | 2131 | Alluvium Tunnels |\n| 2132 | Alluvial Bored Tunnels |\n| 2141 | Rock Tunnels |\n| 2142 | Rock Bored Tunnels |\n| 2150 | Unknown Tunnel |\n| 2151 | Rock Cut and Cover Tunnels |\n| 2152 | Alluvial Cut and Cover Tunnels |\n| Storage Tanks | 2210 | Unknown Tanks |\n| 2211 | Underground Liquid Tanks |\n| 2221 | Underground Solid Tanks |\n| 2231 | On Ground Liquid Tanks |\n| 2232 | On Ground Steel Liquid Tanks |\n| 2233 | On Ground Concrete Liquid Tanks |\n| 2241 | On Ground Solid Tanks |\n| 2242 | On Ground Steel Solid Tanks |\n| 2243 | On Ground Concrete Solid Tanks |\n| 2251 | Elevated Liquid Tanks |\n| 2252 | Elevated Steel Liquid Tanks |\n| 2253 | Elevated Concrete Liquid Tanks |\n| 2261 | Elevated Solid Tanks |\n| 2262 | Elevated Steel Solid Tanks |\n| 2263 | Elevated Concrete Solid Tanks |\n| Pipelines | 2270 | Unknown Pipeline |\n| 2271 | General Underground Pipelines |\n| 2272 | Underground Cast Iron Pipelines |\n| 2273 | Underground Asbestos Cement Pipelines |\n| 2274 | Underground Concrete Pipelines |\n| 2275 | Underground PVC Pipelines |\n| 2276 | Underground Ductile Iron Pipelines |\n| 2281 | General At Grade Pipelines |\n| 2282 | At Grade Cast Iron Pipelines |\n| 2283 | At Grade Asbestos Cement Pipelines |\n| 2284 | At Grade Asbestos Concrete Pipelines |\n| 2285 | At Grade PVC Pipelines |\n| 2286 | At Grade Ductile Iron Pipelines |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction code",
+    "Construction class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "100",
+     "Unknown"
+    ],
+    [
+     "Wood",
+     "101",
+     "Wood Frame (Modern)"
+    ],
+    [
+     "102",
+     "Wood Frame (Light)"
+    ],
+    [
+     "103",
+     "Masonry Veneer"
+    ],
+    [
+     "104",
+     "Heavy timber"
+    ],
+    [
+     "Masonry",
+     "111",
+     "Masonry"
+    ],
+    [
+     "112",
+     "Adobe"
+    ],
+    [
+     "113",
+     "Rubble Stone Masonry"
+    ],
+    [
+     "114",
+     "Unreinforced Masonry - Bearing Wall"
+    ],
+    [
+     "115",
+     "Unreinforced Masonry - Bearing Frame"
+    ],
+    [
+     "116",
+     "Reinforced Masonry"
+    ],
+    [
+     "117",
+     "Reinforced Masonry Shear Wall (with MRF)"
+    ],
+    [
+     "118",
+     "Reinforced Masonry Shear Wall (without MRF)"
+    ],
+    [
+     "119",
+     "Joisted Masonry"
+    ],
+    [
+     "120",
+     "Confined Masonry"
+    ],
+    [
+     "Concrete",
+     "131",
+     "Reinforced Concrete"
+    ],
+    [
+     "132",
+     "Reinforced Concrete Shear Wall (with MRF)"
+    ],
+    [
+     "133",
+     "Reinforced Concrete Shear Wall (without MRF)"
+    ],
+    [
+     "134",
+     "Reinforced Concrete MRF Ductile"
+    ],
+    [
+     "135",
+     "Reinforced Concrete MRF Non-Ductile"
+    ],
+    [
+     "136",
+     "Tilt-up"
+    ],
+    [
+     "137",
+     "Pre-Cast Concrete"
+    ],
+    [
+     "138",
+     "Pre-Cast Concrete with Shear Wall"
+    ],
+    [
+     "139",
+     "Reinforced Concrete MRF"
+    ],
+    [
+     "140",
+     "Reinforced Concrete MRF with URM"
+    ],
+    [
+     "Steel",
+     "151",
+     "Steel"
+    ],
+    [
+     "152",
+     "Light Metal"
+    ],
+    [
+     "153",
+     "Braced Steel Frame"
+    ],
+    [
+     "154",
+     "Steel MRF Perimeter"
+    ],
+    [
+     "155",
+     "Steel MRF Distributed"
+    ],
+    [
+     "156",
+     "Steel MRF"
+    ],
+    [
+     "157",
+     "Steel Frame with URM"
+    ],
+    [
+     "158",
+     "Steel Frame with Concrete Shear Wall"
+    ],
+    [
+     "159",
+     "Steel Reinforced Concrete"
+    ],
+    [
+     "Pavements",
+     "204",
+     "Railroads"
+    ],
+    [
+     "205",
+     "Highways"
+    ],
+    [
+     "206",
+     "Runways"
+    ],
+    [
+     "Chimneys",
+     "231",
+     "Masonry Chimneys"
+    ],
+    [
+     "232",
+     "Concrete Chimneys"
+    ],
+    [
+     "233",
+     "Steel Chimneys"
+    ],
+    [
+     "Towers",
+     "234",
+     "Electrical Transmission Conventional"
+    ],
+    [
+     "235",
+     "Electrical Transmission Major"
+    ],
+    [
+     "236",
+     "Broadcast Towers"
+    ],
+    [
+     "237",
+     "Observation Towers"
+    ],
+    [
+     "238",
+     "Offshore Towers"
+    ],
+    [
+     "Equipment",
+     "241",
+     "Residential Equipment"
+    ],
+    [
+     "242",
+     "Office Equipment"
+    ],
+    [
+     "243",
+     "Electrical Equipment"
+    ],
+    [
+     "244",
+     "Mechanical Equipment"
+    ],
+    [
+     "245",
+     "High-Technology Equipment"
+    ],
+    [
+     "246",
+     "Trains, Trucks, Airplanes, etc."
+    ],
+    [
+     "Miscellaneous",
+     "251",
+     "Pumping Station"
+    ],
+    [
+     "252",
+     "Compressor Stations"
+    ],
+    [
+     "253",
+     "Cranes"
+    ],
+    [
+     "254",
+     "Conveyor Systems"
+    ],
+    [
+     "257",
+     "Waterfront Structures"
+    ],
+    [
+     "258",
+     "Offshore Structures"
+    ],
+    [
+     "259",
+     "Transit Warehouse"
+    ],
+    [
+     "260",
+     "Marine Hull"
+    ],
+    [
+     "Automobiles",
+     "261",
+     "Automobiles"
+    ],
+    [
+     "262",
+     "4-Wheeler"
+    ],
+    [
+     "263",
+     "2-Wheeler"
+    ],
+    [
+     "Marine Cargo",
+     "270",
+     "Carpool"
+    ],
+    [
+     "271",
+     "General and Containerized Cargo"
+    ],
+    [
+     "272",
+     "Heavy Cargo"
+    ],
+    [
+     "273",
+     "Refrigerated Cargo"
+    ],
+    [
+     "274",
+     "Dry Bulk Cargo"
+    ],
+    [
+     "275",
+     "Liquid Bulk Cargo"
+    ],
+    [
+     "276",
+     "New Unknown Marine Cargo Code"
+    ],
+    [
+     "Bridges",
+     "2010",
+     "Unknown Bridge"
+    ],
+    [
+     "2011",
+     "Multi-Span Simply Supported Concrete"
+    ],
+    [
+     "2012",
+     "Multi-Span Simply Supported Steel"
+    ],
+    [
+     "2013",
+     "Single-Span Bridge"
+    ],
+    [
+     "2015",
+     "General Concrete"
+    ],
+    [
+     "2016",
+     "General Steel"
+    ],
+    [
+     "2021",
+     "Multi-Span Continuous Concrete"
+    ],
+    [
+     "2022",
+     "Multi-Span Continuous Steel"
+    ],
+    [
+     "2031",
+     "Major Bridge"
+    ],
+    [
+     "Tunnels",
+     "2131",
+     "Alluvium Tunnels"
+    ],
+    [
+     "2132",
+     "Alluvial Bored Tunnels"
+    ],
+    [
+     "2141",
+     "Rock Tunnels"
+    ],
+    [
+     "2142",
+     "Rock Bored Tunnels"
+    ],
+    [
+     "2150",
+     "Unknown Tunnel"
+    ],
+    [
+     "2151",
+     "Rock Cut and Cover Tunnels"
+    ],
+    [
+     "2152",
+     "Alluvial Cut and Cover Tunnels"
+    ],
+    [
+     "Storage Tanks",
+     "2210",
+     "Unknown Tanks"
+    ],
+    [
+     "2211",
+     "Underground Liquid Tanks"
+    ],
+    [
+     "2221",
+     "Underground Solid Tanks"
+    ],
+    [
+     "2231",
+     "On Ground Liquid Tanks"
+    ],
+    [
+     "2232",
+     "On Ground Steel Liquid Tanks"
+    ],
+    [
+     "2233",
+     "On Ground Concrete Liquid Tanks"
+    ],
+    [
+     "2241",
+     "On Ground Solid Tanks"
+    ],
+    [
+     "2242",
+     "On Ground Steel Solid Tanks"
+    ],
+    [
+     "2243",
+     "On Ground Concrete Solid Tanks"
+    ],
+    [
+     "2251",
+     "Elevated Liquid Tanks"
+    ],
+    [
+     "2252",
+     "Elevated Steel Liquid Tanks"
+    ],
+    [
+     "2253",
+     "Elevated Concrete Liquid Tanks"
+    ],
+    [
+     "2261",
+     "Elevated Solid Tanks"
+    ],
+    [
+     "2262",
+     "Elevated Steel Solid Tanks"
+    ],
+    [
+     "2263",
+     "Elevated Concrete Solid Tanks"
+    ],
+    [
+     "Pipelines",
+     "2270",
+     "Unknown Pipeline"
+    ],
+    [
+     "2271",
+     "General Underground Pipelines"
+    ],
+    [
+     "2272",
+     "Underground Cast Iron Pipelines"
+    ],
+    [
+     "2273",
+     "Underground Asbestos Cement Pipelines"
+    ],
+    [
+     "2274",
+     "Underground Concrete Pipelines"
+    ],
+    [
+     "2275",
+     "Underground PVC Pipelines"
+    ],
+    [
+     "2276",
+     "Underground Ductile Iron Pipelines"
+    ],
+    [
+     "2281",
+     "General At Grade Pipelines"
+    ],
+    [
+     "2282",
+     "At Grade Cast Iron Pipelines"
+    ],
+    [
+     "2283",
+     "At Grade Asbestos Cement Pipelines"
+    ],
+    [
+     "2284",
+     "At Grade Asbestos Concrete Pipelines"
+    ],
+    [
+     "2285",
+     "At Grade PVC Pipelines"
+    ],
+    [
+     "2286",
+     "At Grade Ductile Iron Pipelines"
+    ]
+   ]
+  }
+ ]
+}

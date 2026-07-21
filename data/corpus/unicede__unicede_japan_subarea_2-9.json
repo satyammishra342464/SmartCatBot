@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_japan_subarea_2-9.html",
+ "title": "Japan CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Japan \nCRESTA\n Codes (v2.9)\n \n\nCRESTA\n codes for Japan supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Japan (21).\n\n| Area Tag | Zone |\n| --- | --- |\n| 21-0000 | Japan |\n| 21-0001 | Zone 1 |\n| 21-0002 | Zone 2 |\n| 21-0003 | Zone 3 |\n| 21-0004 | Zone 4 |\n| 21-0005 | Zone 5 |\n| 21-0006 | Zone 6 |\n| 21-0007 | Zone 7 |\n| 21-0008 | Zone 8 |\n| 21-0009 | Zone 9 |\n| 21-0010 | Zone 10 |\n| 21-0011 | Zone 11 |\n| 21-0012 | Zone 12 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "21-0000",
+     "Japan"
+    ],
+    [
+     "21-0001",
+     "Zone 1"
+    ],
+    [
+     "21-0002",
+     "Zone 2"
+    ],
+    [
+     "21-0003",
+     "Zone 3"
+    ],
+    [
+     "21-0004",
+     "Zone 4"
+    ],
+    [
+     "21-0005",
+     "Zone 5"
+    ],
+    [
+     "21-0006",
+     "Zone 6"
+    ],
+    [
+     "21-0007",
+     "Zone 7"
+    ],
+    [
+     "21-0008",
+     "Zone 8"
+    ],
+    [
+     "21-0009",
+     "Zone 9"
+    ],
+    [
+     "21-0010",
+     "Zone 10"
+    ],
+    [
+     "21-0011",
+     "Zone 11"
+    ],
+    [
+     "21-0012",
+     "Zone 12"
+    ]
+   ]
+  }
+ ]
+}

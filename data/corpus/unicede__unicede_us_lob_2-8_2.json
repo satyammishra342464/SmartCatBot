@@ -1,0 +1,237 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_us_lob_2-8_2.html",
+ "title": "United States Lines Of Business (v2.8)",
+ "section": "unicede",
+ "version": null,
+ "text": "United States Lines Of Business (v2.8)\n \n\nLOB codes for U.S supported by \nUNICEDE\n/2.\n\nThese lines of business are valid for Puerto Rico and the U.S. Virgin Islands as well as\n for U.S. states, when using \nUNICEDE\n/2.\n\nNote:\n\nCATRADER\n uses Standard LOB assignments for Sums Insured, Risks, and Premiums. Refer to the Standard Lines of Business table below.\n\nTouchstone Re\n uses Market Share LOB assignments for Market Shares and also for Sums Insured, Risks, and Premiums. Refer to the Market Shares Lines of Business table below.\n\n| Code | Line of Business |\n| --- | --- |\n| PAL | Personal Allied Lines |\n| PFR | Personal Fire |\n| PHO | Homeowners |\n| PFO | Farmowners |\n| PIM | Personal Inland Marine |\n| PEQ | Personal Earthquake |\n| PAU | Personal Automobile |\n| MHO | Mobile Homeowners |\n| CAL | Commercial Allied Lines |\n| CFR | Commercial Fire |\n| CMP | Commercial Multiperil |\n| CIM | Commercial Inland Marine |\n| CEQ | Commercial Earthquake |\n| CAU | Commercial Automobile |\n| CWC | Workers' Compensation |\n\n| Code | Description |\n| --- | --- |\n| HAIL | Crop Hail |\n| PRPL | Production Plan |\n\n| Code | Description |\n| --- | --- |\n| RES | Residential |\n| MO | Mobile Home |\n| COM | Commercial |\n| AUTO | Automobile |\n| CWC | Workers' Comp. |\n\n| Code | Description |\n| --- | --- |\n| M0_14 | Age 0-14, Male |\n| F0_14 | Age 0-14, Female |\n| M15_24 | Age 15-24, Male |\n| F15_24 | Age 15-24, Female |\n| M25_34 | Age 25-34, Male |\n| F25_34 | Age 25-34, Female |\n| M35_44 | Age 35-44, Male |\n| F35_44 | Age 35-44, Female |\n| M45_54 | Age 45-54, Male |\n| F45_54 | Age 45-54, Female |\n| M55_64 | Age 55-64, Male |\n| F55_64 | Age 55-64, Female |\n| M65 | Age 65+, Male |\n| F65 | Age 65+, Female |\n| M_ALL | Total Male |\n| F_All | Total Female |\n| ALL | Total ALL |\n\n| Code | Description |\n| --- | --- |\n| ASRGR | Assigned Gross |\n| COMBGR | Com B Gross |\n| COMCGR | Com C Gross |\n| COMRGR | Com R Gross |\n| ASRRT | Assigned Retained |\n| COMBRT | Com B Retained |\n| COMCRT | Com C Retained |\n| COMRRT | Com R Retained |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "Personal Allied Lines"
+    ],
+    [
+     "PFR",
+     "Personal Fire"
+    ],
+    [
+     "PHO",
+     "Homeowners"
+    ],
+    [
+     "PFO",
+     "Farmowners"
+    ],
+    [
+     "PIM",
+     "Personal Inland Marine"
+    ],
+    [
+     "PEQ",
+     "Personal Earthquake"
+    ],
+    [
+     "PAU",
+     "Personal Automobile"
+    ],
+    [
+     "MHO",
+     "Mobile Homeowners"
+    ],
+    [
+     "CAL",
+     "Commercial Allied Lines"
+    ],
+    [
+     "CFR",
+     "Commercial Fire"
+    ],
+    [
+     "CMP",
+     "Commercial Multiperil"
+    ],
+    [
+     "CIM",
+     "Commercial Inland Marine"
+    ],
+    [
+     "CEQ",
+     "Commercial Earthquake"
+    ],
+    [
+     "CAU",
+     "Commercial Automobile"
+    ],
+    [
+     "CWC",
+     "Workers' Compensation"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Description"
+   ],
+   "rows": [
+    [
+     "HAIL",
+     "Crop Hail"
+    ],
+    [
+     "PRPL",
+     "Production Plan"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Description"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "MO",
+     "Mobile Home"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "AUTO",
+     "Automobile"
+    ],
+    [
+     "CWC",
+     "Workers' Comp."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Description"
+   ],
+   "rows": [
+    [
+     "M0_14",
+     "Age 0-14, Male"
+    ],
+    [
+     "F0_14",
+     "Age 0-14, Female"
+    ],
+    [
+     "M15_24",
+     "Age 15-24, Male"
+    ],
+    [
+     "F15_24",
+     "Age 15-24, Female"
+    ],
+    [
+     "M25_34",
+     "Age 25-34, Male"
+    ],
+    [
+     "F25_34",
+     "Age 25-34, Female"
+    ],
+    [
+     "M35_44",
+     "Age 35-44, Male"
+    ],
+    [
+     "F35_44",
+     "Age 35-44, Female"
+    ],
+    [
+     "M45_54",
+     "Age 45-54, Male"
+    ],
+    [
+     "F45_54",
+     "Age 45-54, Female"
+    ],
+    [
+     "M55_64",
+     "Age 55-64, Male"
+    ],
+    [
+     "F55_64",
+     "Age 55-64, Female"
+    ],
+    [
+     "M65",
+     "Age 65+, Male"
+    ],
+    [
+     "F65",
+     "Age 65+, Female"
+    ],
+    [
+     "M_ALL",
+     "Total Male"
+    ],
+    [
+     "F_All",
+     "Total Female"
+    ],
+    [
+     "ALL",
+     "Total ALL"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Description"
+   ],
+   "rows": [
+    [
+     "ASRGR",
+     "Assigned Gross"
+    ],
+    [
+     "COMBGR",
+     "Com B Gross"
+    ],
+    [
+     "COMCGR",
+     "Com C Gross"
+    ],
+    [
+     "COMRGR",
+     "Com R Gross"
+    ],
+    [
+     "ASRRT",
+     "Assigned Retained"
+    ],
+    [
+     "COMBRT",
+     "Com B Retained"
+    ],
+    [
+     "COMCRT",
+     "Com C Retained"
+    ],
+    [
+     "COMRRT",
+     "Com R Retained"
+    ]
+   ]
+  }
+ ]
+}

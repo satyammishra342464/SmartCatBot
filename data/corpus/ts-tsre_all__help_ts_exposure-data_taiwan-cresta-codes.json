@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_taiwan-cresta-codes.html",
+ "title": "Taiwan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Taiwan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Taiwan.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | City of Taipei |\n| 1.1 | Rest of Taipei Keelung |\n| 2 | Taoyuan |\n| 3 | Hsinchu |\n| 4 | Maioli |\n| 5 | Taichung |\n| 6 | Nantou |\n| 7 | Changhua |\n| 8 | Yuanlin |\n| 9 | Chiai Tainan Penghu Islands |\n| 10 | Kaohsiung Pingtung |\n| 11 | Hualien Taitung |\n| 12 | Ilan |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "City of Taipei"
+    ],
+    [
+     "1.1",
+     "Rest of Taipei Keelung"
+    ],
+    [
+     "2",
+     "Taoyuan"
+    ],
+    [
+     "3",
+     "Hsinchu"
+    ],
+    [
+     "4",
+     "Maioli"
+    ],
+    [
+     "5",
+     "Taichung"
+    ],
+    [
+     "6",
+     "Nantou"
+    ],
+    [
+     "7",
+     "Changhua"
+    ],
+    [
+     "8",
+     "Yuanlin"
+    ],
+    [
+     "9",
+     "Chiai Tainan Penghu Islands"
+    ],
+    [
+     "10",
+     "Kaohsiung Pingtung"
+    ],
+    [
+     "11",
+     "Hualien Taitung"
+    ],
+    [
+     "12",
+     "Ilan"
+    ]
+   ]
+  }
+ ]
+}

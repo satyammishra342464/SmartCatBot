@@ -1,0 +1,141 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_china-province-codes.html",
+ "title": "China province codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "China province codes\n\nTouchstone\n supports the following province\n codes for China.\n\n| Province Code | Province Name |\n| --- | --- |\n| 11 | Beijing |\n| 12 | Tianjin |\n| 13 | Hebei |\n| 14 | Shanxi |\n| 15 | Inner Mongolia |\n| 21 | Liaoning |\n| 22 | Jilin |\n| 23 | Heilongjiang |\n| 31 | Shanghai |\n| 32 | Jiangsu |\n| 33 | Zhejiang |\n| 34 | Anhui |\n| 35 | Fujian |\n| 36 | Jiangxi |\n| 37 | Shandong |\n| 41 | Henan |\n| 42 | Hubei |\n| 43 | Hunan |\n| 44 | Guangdong |\n| 45 | Guangxi |\n| 46 | Hainan |\n| 50 | Chongqing |\n| 51 | Sichuan |\n| 52 | Guizhou |\n| 53 | Yunnan |\n| 54 | Xizang |\n| 61 | Shaanxi |\n| 62 | Gansu |\n| 63 | Qinghai |\n| 64 | Ningxia |\n| 65 | Xinjiang |",
+ "tables": [
+  {
+   "headers": [
+    "Province Code",
+    "Province Name"
+   ],
+   "rows": [
+    [
+     "11",
+     "Beijing"
+    ],
+    [
+     "12",
+     "Tianjin"
+    ],
+    [
+     "13",
+     "Hebei"
+    ],
+    [
+     "14",
+     "Shanxi"
+    ],
+    [
+     "15",
+     "Inner Mongolia"
+    ],
+    [
+     "21",
+     "Liaoning"
+    ],
+    [
+     "22",
+     "Jilin"
+    ],
+    [
+     "23",
+     "Heilongjiang"
+    ],
+    [
+     "31",
+     "Shanghai"
+    ],
+    [
+     "32",
+     "Jiangsu"
+    ],
+    [
+     "33",
+     "Zhejiang"
+    ],
+    [
+     "34",
+     "Anhui"
+    ],
+    [
+     "35",
+     "Fujian"
+    ],
+    [
+     "36",
+     "Jiangxi"
+    ],
+    [
+     "37",
+     "Shandong"
+    ],
+    [
+     "41",
+     "Henan"
+    ],
+    [
+     "42",
+     "Hubei"
+    ],
+    [
+     "43",
+     "Hunan"
+    ],
+    [
+     "44",
+     "Guangdong"
+    ],
+    [
+     "45",
+     "Guangxi"
+    ],
+    [
+     "46",
+     "Hainan"
+    ],
+    [
+     "50",
+     "Chongqing"
+    ],
+    [
+     "51",
+     "Sichuan"
+    ],
+    [
+     "52",
+     "Guizhou"
+    ],
+    [
+     "53",
+     "Yunnan"
+    ],
+    [
+     "54",
+     "Xizang"
+    ],
+    [
+     "61",
+     "Shaanxi"
+    ],
+    [
+     "62",
+     "Gansu"
+    ],
+    [
+     "63",
+     "Qinghai"
+    ],
+    [
+     "64",
+     "Ningxia"
+    ],
+    [
+     "65",
+     "Xinjiang"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_switzerland_cresta_2-9.html",
+ "title": "Switzerland CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Switzerland \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Switzerland supported by \nUNICEDE\n/2.\n\nThese codes include the country code for Switzerland (10).\n\n| Area Tag | Zone |\n| --- | --- |\n| 10-CHE | Switzerland |\n| 10-CHE_AG | Aargau |\n| 10-CHE_AR | Appenzell-Ausser Rhoden |\n| 10-CHE_AI | Appenzell-Inner Rhoden |\n| 10-CHE_BL | Basel-Landschaft |\n| 10-CHE_BS | Basel-Stadt |\n| 10-CHE_BE | Bern/Berne |\n| 10-CHE_FR | Freiburg/Fribourg |\n| 10-CHE_GE | GenÃ¨ve |\n| 10-CHE_GL | Glarus |\n| 10-CHE_GR | Graubuenden/Grigioni/Grischun |\n| 10-CHE_JU | Jura |\n| 10-CHE_LU | Luzern |\n| 10-CHE_NE | Neuchatel |\n| 10-CHE_NW | Nidwalden |\n| 10-CHE_OW | Obwalden |\n| 10-CHE_SH | Schaffhausen |\n| 10-CHE_SZ | Schwyz |\n| 10-CHE_SO | Solothurn |\n| 10-CHE_SG | St. Gallen |\n| 10-CHE_TI | Ticino |\n| 10-CHE_TG | Thurgau |\n| 10-CHE_UR | Uri |\n| 10-CHE_VD | Vaud |\n| 10-CHE_VS | Valais/Wallis |\n| 10-CHE_ZH | Zuerich |\n| 10-CHE_ZG | Zug |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "10-CHE",
+     "Switzerland"
+    ],
+    [
+     "10-CHE_AG",
+     "Aargau"
+    ],
+    [
+     "10-CHE_AR",
+     "Appenzell-Ausser Rhoden"
+    ],
+    [
+     "10-CHE_AI",
+     "Appenzell-Inner Rhoden"
+    ],
+    [
+     "10-CHE_BL",
+     "Basel-Landschaft"
+    ],
+    [
+     "10-CHE_BS",
+     "Basel-Stadt"
+    ],
+    [
+     "10-CHE_BE",
+     "Bern/Berne"
+    ],
+    [
+     "10-CHE_FR",
+     "Freiburg/Fribourg"
+    ],
+    [
+     "10-CHE_GE",
+     "GenÃ¨ve"
+    ],
+    [
+     "10-CHE_GL",
+     "Glarus"
+    ],
+    [
+     "10-CHE_GR",
+     "Graubuenden/Grigioni/Grischun"
+    ],
+    [
+     "10-CHE_JU",
+     "Jura"
+    ],
+    [
+     "10-CHE_LU",
+     "Luzern"
+    ],
+    [
+     "10-CHE_NE",
+     "Neuchatel"
+    ],
+    [
+     "10-CHE_NW",
+     "Nidwalden"
+    ],
+    [
+     "10-CHE_OW",
+     "Obwalden"
+    ],
+    [
+     "10-CHE_SH",
+     "Schaffhausen"
+    ],
+    [
+     "10-CHE_SZ",
+     "Schwyz"
+    ],
+    [
+     "10-CHE_SO",
+     "Solothurn"
+    ],
+    [
+     "10-CHE_SG",
+     "St. Gallen"
+    ],
+    [
+     "10-CHE_TI",
+     "Ticino"
+    ],
+    [
+     "10-CHE_TG",
+     "Thurgau"
+    ],
+    [
+     "10-CHE_UR",
+     "Uri"
+    ],
+    [
+     "10-CHE_VD",
+     "Vaud"
+    ],
+    [
+     "10-CHE_VS",
+     "Valais/Wallis"
+    ],
+    [
+     "10-CHE_ZH",
+     "Zuerich"
+    ],
+    [
+     "10-CHE_ZG",
+     "Zug"
+    ]
+   ]
+  }
+ ]
+}

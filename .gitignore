@@ -1,11 +1,13 @@
 .venv/
 .env
-data/
 __pycache__/
 *.pyc
 
 # Local Claude Code settings
 .claude/
 
-# Stray / unrelated files (not part of the project)
-Slip Coding.pdf
+# Stray file at project root (not part of the project)
+/Slip Coding.pdf
+
+# Confidential uploaded document — do NOT publish
+data/tmp_uploads/IGO $50M XS $50M FLAKE.pdf

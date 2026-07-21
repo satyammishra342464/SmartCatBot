@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 21",
+ "section": "local-docs",
+ "version": null,
+ "text": "Sublimits\nSublimits give lower limits for certain perils, regions, occupancies, or specific locations.\n• Example: California EQ may have a lower limit than EQ in other states.\nIf the sublimit is higher than (policy limit + excess), then we don’t need to capture it.\nIf the sublimit applies to the entire peril (e.g., all Flood) or to all locations in that region (e.g., all CA properties for CA EQ), then enter it as \na blanket limit in the P ARTOF column.\nIf the sublimit is very specific (only some regions/occupancies/addresses), it must be added later using RiskLink Special Conditions.\nNot all sublimits can be modelled. Avoid things like boiler damage. Only capture:\n• Nat Cat perils (EQ, Flood, Wind, etc.)\n• Defined regions/countries. See the Zone and Tier Definitions folder in the inhouse guides folder documentation defining common \nperil regions\n• Defined occupancies (schools, warehouses, etc.)\n• Vehicles or fine art only if they represent 100% of the value at that location\n• Specific addresses/locations clearly mentioned",
+ "tables": []
+}

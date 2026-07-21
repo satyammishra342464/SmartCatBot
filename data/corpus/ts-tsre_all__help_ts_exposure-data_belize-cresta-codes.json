@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_belize-cresta-codes.html",
+ "title": "Belize CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Belize \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Belize.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | 1 |\n| 2 | 2 |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "1"
+    ],
+    [
+     "2",
+     "2"
+    ]
+   ]
+  }
+ ]
+}

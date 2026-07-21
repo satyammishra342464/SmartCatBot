@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 46",
+ "section": "local-docs",
+ "version": null,
+ "text": "Financial Flow Example\nLevel of Payment Which Condition \nApplies? Limit Used\nHow the Loss Is \nDetermined (Same \nLogic as Screenshot)\n1. Loss paid by \nSub-condition LA County Sublimit $10M\nPaid amount = Loss (for \nLA County) or $10M \n(whichever is smaller). \nThis is the first cap \napplied.\n2. Loss paid by Primary \nSublimit California Sublimit $50M\nPaid amount = Loss \n(California) + (amount \npaid under LA \nsub-condition), but \ncapped at $50M, or \nwhichever is smaller.\n3. Loss paid by Policy \nLimit Full EQ Policy $250M × 50% = $125M \nparticipation\nPaid amount = Loss (all \nother CA + non-CA) + \n(amount paid under \nPrimary Sublimit), but \nlimited by policy’s share.\n4. Loss not covered Outside all conditions —\nAny loss beyond the \napplied limits is not \ncovered and is passed \nback to the insured.",
+ "tables": []
+}

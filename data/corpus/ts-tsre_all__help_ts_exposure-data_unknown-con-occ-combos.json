@@ -1,0 +1,67 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_unknown-con-occ-combos.html",
+ "title": "Unknown construction / unknown occupancy combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Unknown construction / unknown occupancy combinations\n\nConstruction and occupancy codes to used to represent cases in which the construction\n class and/or unknown occupancy type are unknown.\nFor onshore locations, construction class code 100 represents unknown construction, while\n occupancy class code 300 represents unknown occupancy. For offshore locations,\n construction class code 800 represents unknown construction, while occupancy class code\n 900 represents unknown occupancy.\n\nIf you try to import a location with a blank construction or occupancy code, \nImportExpress\n rejects the location. However, you\n can specify default construction and occupancy class codes for\n \n*.csv\n imports. See the \"Defaults tab\" topic in the main \nTouchstone\n Help.\n See \"Location Basic Building Fields\" for information about the basic building characteristics of\n locations.\n\n| Construction class code A | Construction class code B | Occupancy class code | Result |\n| --- | --- | --- | --- |\n| Unknown | Unknown | Unknown | Imports successfully. During analysis, Touchstone assigns General Commercial (311) or Unknown Offshore Asset Occupancy\n (900) as the occupancy code. For more information related to a specific\n model, refer to the model documentation on the . Client Portal . |\n| Known | Unknown | Unknown | Imports successfully. During analysis, Touchstone assigns construction class code A to construction class code B. |\n| Unknown | Known | Unknown | Imports successfully. During analysis, Touchstone assigns construction class code B to construction class code A. |\n| Known | Known | Unknown | Imports successfully. |\n| Unknown | Unknown | Known | Imports successfully. |\n| Known | Unknown | Known | Imports successfully. |\n| Unknown | Known | Known | Imports successfully. |\n| Known | Known | Known | Imports successfully. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction class code A",
+    "Construction class code B",
+    "Occupancy class code",
+    "Result"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "Unknown",
+     "Unknown",
+     "Imports successfully. During analysis, Touchstone assigns General Commercial (311) or Unknown Offshore Asset Occupancy\n                           (900) as the occupancy code. For more information related to a specific\n                           model, refer to the model documentation on the . Client Portal ."
+    ],
+    [
+     "Known",
+     "Unknown",
+     "Unknown",
+     "Imports successfully. During analysis, Touchstone assigns construction class code A to construction class code B."
+    ],
+    [
+     "Unknown",
+     "Known",
+     "Unknown",
+     "Imports successfully. During analysis, Touchstone assigns construction class code B to construction class code A."
+    ],
+    [
+     "Known",
+     "Known",
+     "Unknown",
+     "Imports successfully."
+    ],
+    [
+     "Unknown",
+     "Unknown",
+     "Known",
+     "Imports successfully."
+    ],
+    [
+     "Known",
+     "Unknown",
+     "Known",
+     "Imports successfully."
+    ],
+    [
+     "Unknown",
+     "Known",
+     "Known",
+     "Imports successfully."
+    ],
+    [
+     "Known",
+     "Known",
+     "Known",
+     "Imports successfully."
+    ]
+   ]
+  }
+ ]
+}

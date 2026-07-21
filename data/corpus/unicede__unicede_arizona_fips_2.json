@@ -1,0 +1,77 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_arizona_fips_2.html",
+ "title": "Arizona (AZ) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Arizona (AZ) Counties\n\nFIPS codes for Arizona.\n\nFIPS State Code: 04\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Apache County, enter \n01-04001\n.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Apache |\n| 003 | Cochise |\n| 005 | Coconino |\n| 007 | Gila |\n| 009 | Graham |\n| 011 | Greenlee |\n| 012 | LaPaz |\n| 013 | Maricopa |\n| 015 | Mohave |\n| 017 | Navajo |\n| 019 | Pima |\n| 021 | Pinal |\n| 023 | Santa Cruz |\n| 025 | Yavapai |\n| 027 | Yuma |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Apache"
+    ],
+    [
+     "003",
+     "Cochise"
+    ],
+    [
+     "005",
+     "Coconino"
+    ],
+    [
+     "007",
+     "Gila"
+    ],
+    [
+     "009",
+     "Graham"
+    ],
+    [
+     "011",
+     "Greenlee"
+    ],
+    [
+     "012",
+     "LaPaz"
+    ],
+    [
+     "013",
+     "Maricopa"
+    ],
+    [
+     "015",
+     "Mohave"
+    ],
+    [
+     "017",
+     "Navajo"
+    ],
+    [
+     "019",
+     "Pima"
+    ],
+    [
+     "021",
+     "Pinal"
+    ],
+    [
+     "023",
+     "Santa Cruz"
+    ],
+    [
+     "025",
+     "Yavapai"
+    ],
+    [
+     "027",
+     "Yuma"
+    ]
+   ]
+  }
+ ]
+}

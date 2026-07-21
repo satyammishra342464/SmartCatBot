@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_area-tag-type.html",
+ "title": "Area tag type",
+ "section": "unicede",
+ "version": null,
+ "text": "Area tag type \n\nArea details supported by \nUNICEDE\n/2.\nThe Area Tag Type defines the format of the \nArea Tag (area and subarea)\n field value in the Body records. \n \nAreaTagType\n and \nDataLevel\n\n must match. For example, if you are creating a file containing \nCRESTA\n-level exposure\n data for Austria, the Data Level and Area Tag Type must both be '10' and the \nCRESTA\n codes\n in the file must be in the list of Austrian \nCRESTA\n codes.\n\nLocate the Area Tag and Area Tag format for the country in question, then search country by\n \nUNICEDE\n/2 version to view country/data level information:\n\nUNICEDE/2 v2.9\n\nUNICEDE/2 v2.8\n\nUNICEDE/2 v2.7\n\n| Area Tag | Area Tag Format | Format Details | Country/Data Level |\n| --- | --- | --- | --- |\n| 9 | NN-CCC | NN is the 2-digit country code CCC is the 3-digit CRESTA code | Canada CRESTA |\n| 10 | NN-CCC(C) | NN is the 2-digit country code CCC(C) is the 3-digit or 4-digit CRESTA code | Albania CRESTA Anguilla CRESTA Antigua & Barbuda CRESTA Argentina CRESTA Aruba CRESTA Australia CRESTA Austria CRESTA Barbados CRESTA Belgium CRESTA Belize CRESTA Bonaire, St. Eustatius, Saba CRESTA Brazil CRESTA Bulgaria CRESTA Chile CRESTA China CRESTA Colombia CRESTA Costa Rica CRESTA Croatia CRESTA Curacao CRESTA Cyprus CRESTA Denmark CRESTA Dominican Republic CRESTA Ecuador CRESTA El Salvador CRESTA Finland CRESTA France CRESTA Germany CRESTA Greece CRESTA Guatemala CRESTA Honduras CRESTA Hong Kong CRESTA Hungary CRESTA Indonesia CRESTA Iran CRESTA Israel CRESTA Italy CRESTA Jamaica CRESTA Japan CRESTA Kazakhstan CRESTA Liechtenstein CRESTA Luxembourg CRESTA Macedonia CRESTA Malaysia CRESTA Mexico CRESTA Netherlands CRESTA New Zealand CRESTA Nicaragua CRESTA Norway CRESTA Panama CRESTA Papua New Guinea CRESTA Peru CRESTA Philippines CRESTA Portugal CRESTA Puerto Rico CRESTA Qatar CRESTA Romania CRESTA Saudi Arabia CRESTA Serbia CRESTA Slovakia CRESTA Slovenia CRESTA South Africa CRESTA South Korea CRESTA St. Kitts & Nevis CRESTA St. Maarten CRESTA Sweden CRESTA Switzerland CRESTA Taiwan CRESTA Thailand CRESTA Trinidad and Tobago CRESTA Turkey CRESTA Ukraine CRESTA United Arab Emirates CRESTA United Kingdom Postal Code Venezuela CRESTA Vietnam CRESTA |\n| 11 | NN-SSTTT | NN is the 2-digit country code SS is the 2-digit state code TTT is the 3-digit county code | United States FIPS Codes |\n| 13 | NN-FF(F) | NN is the 2-digit country code FF(F) is the 2-digit province code or the 3-digit district/FSAcode | Canada FSA Codes |\n| 14 | NN-YYY | NN is the 2-digit country code YYY is the 3-digit subarea code | Bahamas Districts BermudaParishes Dominica Grenada Guadeloupe Guam Gulf of Mexico Protractions Macau Martinique Montserrat Saipan Singapore St. Barts St. Lucia St. Martin Subareas |\n| 15 | NN-YY(YY) | NN is the 2-digit country code YY(YY) is the 2-digit postal code or the 4-digit lander code | United Kingdom Postal Areas United Kingdom Postal Sectors |\n| 17 | NN-YYYYYY | >NN is the 2-digit country code YYYYYY is the 6-digit province code | China Provinces |\n| 18 | NNN-SSDDD | NNN is the 3-digit country code SS is the 2-digit State/ CRESTA code DDD is the 3-digit District code | India Districts |\n| 27 | NN-YYY | NN is the 2-digit country code YYY is the 3-digit subarea code | Bahrain Governorates British Virgin Islands Cayman Islands Districts Cuba Provinces Czech Republic Postal Ecuador Provinces Estonia Postal Guatemala Sub- CRESTA Haiti Department Hong Kong Sub- CRESTA Indonesia Sub- CRESTA Ireland Counties Israel Districts Japan Prefectures Kuwait Governorates Latvia Postal Lithuania Postal Mexico CRESTA Oman Governorates Peru Sub- CRESTA Philippines Sub- CRESTA Poland Postal Russia District St. Vincent/Grenadines Districts Turkey Provinces Turks & Caicos CRESTA U.S. Virgin Islands Districts Yemen Governorates |\n| 98 | Valid only when importing CRESTA -level market shares ( Coverage = MS )\n for multiple supported countries. The Area Tag value and format must be valid\n for any of those countries. | | Valid CRESTA codes for countries supported at this level for market share\n imports. |\n| 99 | Valid only when importing subarea-level market shares ( Coverage = MS )\n for multiple supported countries. The Area Tag value and format must be valid\n for any of those countries. | | Valid, non- CRESTA area/subarea codes for countries supported at this level\n for market share imports. |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Area Tag Format",
+    "Format Details",
+    "Country/Data Level"
+   ],
+   "rows": [
+    [
+     "9",
+     "NN-CCC",
+     "NN is the 2-digit country code CCC is the 3-digit CRESTA code",
+     "Canada CRESTA"
+    ],
+    [
+     "10",
+     "NN-CCC(C)",
+     "NN is the 2-digit country code CCC(C) is the 3-digit or 4-digit CRESTA code",
+     "Albania CRESTA Anguilla CRESTA Antigua & Barbuda CRESTA Argentina CRESTA Aruba CRESTA Australia CRESTA Austria CRESTA Barbados CRESTA Belgium CRESTA Belize CRESTA Bonaire, St. Eustatius, Saba CRESTA Brazil CRESTA Bulgaria CRESTA Chile CRESTA China CRESTA Colombia CRESTA Costa Rica CRESTA Croatia CRESTA Curacao CRESTA Cyprus CRESTA Denmark CRESTA Dominican Republic CRESTA Ecuador CRESTA El Salvador CRESTA Finland CRESTA France CRESTA Germany CRESTA Greece CRESTA Guatemala CRESTA Honduras CRESTA Hong Kong CRESTA Hungary CRESTA Indonesia CRESTA Iran CRESTA Israel CRESTA Italy CRESTA Jamaica CRESTA Japan CRESTA Kazakhstan CRESTA Liechtenstein CRESTA Luxembourg CRESTA Macedonia CRESTA Malaysia CRESTA Mexico CRESTA Netherlands CRESTA New Zealand CRESTA Nicaragua CRESTA Norway CRESTA Panama CRESTA Papua New Guinea CRESTA Peru CRESTA Philippines CRESTA Portugal CRESTA Puerto Rico CRESTA Qatar CRESTA Romania CRESTA Saudi Arabia CRESTA Serbia CRESTA Slovakia CRESTA Slovenia CRESTA South Africa CRESTA South Korea CRESTA St. Kitts & Nevis CRESTA St. Maarten CRESTA Sweden CRESTA Switzerland CRESTA Taiwan CRESTA Thailand CRESTA Trinidad and Tobago CRESTA Turkey CRESTA Ukraine CRESTA United Arab Emirates CRESTA United Kingdom Postal Code Venezuela CRESTA Vietnam CRESTA"
+    ],
+    [
+     "11",
+     "NN-SSTTT",
+     "NN is the 2-digit country code SS is the 2-digit state code TTT is the 3-digit county code",
+     "United States FIPS Codes"
+    ],
+    [
+     "13",
+     "NN-FF(F)",
+     "NN is the 2-digit country code FF(F) is the 2-digit province code or the 3-digit district/FSAcode",
+     "Canada FSA Codes"
+    ],
+    [
+     "14",
+     "NN-YYY",
+     "NN is the 2-digit country code YYY is the 3-digit subarea code",
+     "Bahamas Districts BermudaParishes Dominica Grenada Guadeloupe Guam Gulf of Mexico Protractions Macau Martinique Montserrat Saipan Singapore St. Barts St. Lucia St. Martin Subareas"
+    ],
+    [
+     "15",
+     "NN-YY(YY)",
+     "NN is the 2-digit country code YY(YY) is the 2-digit postal code or the 4-digit lander code",
+     "United Kingdom Postal Areas United Kingdom Postal Sectors"
+    ],
+    [
+     "17",
+     "NN-YYYYYY",
+     ">NN is the 2-digit country code YYYYYY is the 6-digit province code",
+     "China Provinces"
+    ],
+    [
+     "18",
+     "NNN-SSDDD",
+     "NNN is the 3-digit country code SS is the 2-digit State/ CRESTA code DDD is the 3-digit District code",
+     "India Districts"
+    ],
+    [
+     "27",
+     "NN-YYY",
+     "NN is the 2-digit country code YYY is the 3-digit subarea code",
+     "Bahrain Governorates British Virgin Islands Cayman Islands Districts Cuba Provinces Czech Republic Postal Ecuador Provinces Estonia Postal Guatemala Sub- CRESTA Haiti Department Hong Kong Sub- CRESTA Indonesia Sub- CRESTA Ireland Counties Israel Districts Japan Prefectures Kuwait Governorates Latvia Postal Lithuania Postal Mexico CRESTA Oman Governorates Peru Sub- CRESTA Philippines Sub- CRESTA Poland Postal Russia District St. Vincent/Grenadines Districts Turkey Provinces Turks & Caicos CRESTA U.S. Virgin Islands Districts Yemen Governorates"
+    ],
+    [
+     "98",
+     "Valid only when importing CRESTA -level market shares ( Coverage = MS )\n                     for multiple supported countries. The Area Tag value and format must be valid\n                     for any of those countries.",
+     "",
+     "Valid CRESTA codes for countries supported at this level for market share\n                     imports."
+    ],
+    [
+     "99",
+     "Valid only when importing subarea-level market shares ( Coverage = MS )\n                     for multiple supported countries. The Area Tag value and format must be valid\n                     for any of those countries.",
+     "",
+     "Valid, non- CRESTA area/subarea codes for countries supported at this level\n                     for market share imports."
+    ]
+   ]
+  }
+ ]
+}

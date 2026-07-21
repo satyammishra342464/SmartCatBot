@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 24",
+ "section": "local-docs",
+ "version": null,
+ "text": "Blanket Deductibles\n• The deductible section usually describes a blanket deductible that \napplies in the absence of specific special conditions. This blanket \ndeductible is applied to any peril not implicated in special conditions.\n• This deductible may be phrased as “USD100,000 any one loss occurrence \nEXCEPT:” or “USD100,000 all other losses” .\n• Enter the deductible in BLANDEDAMT in the acc file.\n• Monetary blanket deductibles (i.e. not a % deductible) entered in \nBLANDEDAMT are applied to locations covered by a policy.\n• NOTE: % blanket deductibles applied in the BLANDEDAMT column of the \nacc file will be based on all location values, not just locations damaged. \nThis is rarely used.\nBLANDEDAMT\n0\n0\n0\n0\n150000\n150000",
+ "tables": []
+}

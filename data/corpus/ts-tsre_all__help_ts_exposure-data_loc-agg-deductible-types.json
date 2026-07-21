@@ -1,0 +1,28 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-agg-deductible-types.html",
+ "title": "Location aggregate deductible types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location aggregate deductible types\n\nNGM\n financial engine policy\n terms: location aggregate deductible types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| AGGD | Annual aggregate deductible | Total |\n| N | No limit | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "AGGD",
+     "Annual aggregate deductible",
+     "Total"
+    ],
+    [
+     "N",
+     "No limit",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

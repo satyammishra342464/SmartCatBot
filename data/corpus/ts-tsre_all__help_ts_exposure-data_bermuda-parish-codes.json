@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_bermuda-parish-codes.html",
+ "title": "Bermuda parish codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Bermuda parish codes\n\nTouchstone\n supports the following district\n codes for Bermuda.\n\n| Parish Code | Parish Name |\n| --- | --- |\n| 1 | Sandys |\n| 2 | Southampton |\n| 3 | Warwick |\n| 4 | Paget |\n| 5 | Pembroke |\n| 6 | Devonshire |\n| 7 | Smith's |\n| 8 | Hamilton |\n| 9 | St.George's |",
+ "tables": [
+  {
+   "headers": [
+    "Parish Code",
+    "Parish Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Sandys"
+    ],
+    [
+     "2",
+     "Southampton"
+    ],
+    [
+     "3",
+     "Warwick"
+    ],
+    [
+     "4",
+     "Paget"
+    ],
+    [
+     "5",
+     "Pembroke"
+    ],
+    [
+     "6",
+     "Devonshire"
+    ],
+    [
+     "7",
+     "Smith's"
+    ],
+    [
+     "8",
+     "Hamilton"
+    ],
+    [
+     "9",
+     "St.George's"
+    ]
+   ]
+  }
+ ]
+}

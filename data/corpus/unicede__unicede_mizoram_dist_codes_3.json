@@ -1,0 +1,53 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_mizoram_dist_codes_3.html",
+ "title": "Mizoram district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Mizoram district codes\n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-15000 | Mizoram |\n| 113-15001 | Mamit |\n| 113-15002 | Kolasib |\n| 113-15003 | Aizawl |\n| 113-15004 | Champhai |\n| 113-15005 | Sercchip |\n| 113-15006 | Lunglei |\n| 113-15007 | Lawngtlai |\n| 113-15008 | Saiha |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-15000",
+     "Mizoram"
+    ],
+    [
+     "113-15001",
+     "Mamit"
+    ],
+    [
+     "113-15002",
+     "Kolasib"
+    ],
+    [
+     "113-15003",
+     "Aizawl"
+    ],
+    [
+     "113-15004",
+     "Champhai"
+    ],
+    [
+     "113-15005",
+     "Sercchip"
+    ],
+    [
+     "113-15006",
+     "Lunglei"
+    ],
+    [
+     "113-15007",
+     "Lawngtlai"
+    ],
+    [
+     "113-15008",
+     "Saiha"
+    ]
+   ]
+  }
+ ]
+}

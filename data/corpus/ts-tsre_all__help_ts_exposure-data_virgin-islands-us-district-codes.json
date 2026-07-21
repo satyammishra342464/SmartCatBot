@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_virgin-islands-us-district-codes.html",
+ "title": "Virgin Islands (U.S.) district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Virgin Islands (U.S.) district codes\n\nTouchstone\n supports the following district\n codes for the U.S. Virgin Islands.\n\n| District Code | District Name |\n| --- | --- |\n| 10 | St. Croix |\n| 20 | St. John |\n| 30 | St. Thomas |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "10",
+     "St. Croix"
+    ],
+    [
+     "20",
+     "St. John"
+    ],
+    [
+     "30",
+     "St. Thomas"
+    ]
+   ]
+  }
+ ]
+}

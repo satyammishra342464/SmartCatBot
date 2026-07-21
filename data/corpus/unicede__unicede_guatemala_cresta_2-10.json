@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_guatemala_cresta_2-10.html",
+ "title": "Guatemala CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Guatemala \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Guatemala supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Guatemala (46).\n\n| Area Tag | Zone |\n| --- | --- |\n| 46-000 | Guatemala |\n| 46-001 | Zone 01 |\n| 46-002 | Zone 02 |\n| 46-003 | Zone 03 |\n| 46-004 | Zone 04 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "46-000",
+     "Guatemala"
+    ],
+    [
+     "46-001",
+     "Zone 01"
+    ],
+    [
+     "46-002",
+     "Zone 02"
+    ],
+    [
+     "46-003",
+     "Zone 03"
+    ],
+    [
+     "46-004",
+     "Zone 04"
+    ]
+   ]
+  }
+ ]
+}

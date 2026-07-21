@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_st-maarten-cresta-codes.html",
+ "title": "Sint Maarten CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sint Maarten \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Sint Maarten.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 6 | Sint Maarten |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "6",
+     "Sint Maarten"
+    ]
+   ]
+  }
+ ]
+}

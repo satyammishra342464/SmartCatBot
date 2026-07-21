@@ -1,0 +1,78 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_canada-perils.html",
+ "title": "Canada perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Canada perils\n\nThe following table lists the\n perils\n and peril codes that \nTouchstone\n supports for\n Canada.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PEA | All earthquake perils | |\n| PFF | Fire (fire following earthquake) | |\n| PES | Earthquake shake only | |\n| PFL 1 | Inland flood | |\n| PTS | Tsunami | |\n| PWA | All wind perils (tropical cyclone and severe storm) | |\n| PWW | Winter storm | |\n| PWF | All wind plus fire | |\n| PWH | Tropical cyclone | |\n| PWT | Severe thunderstorm | |\n| PWX | Severe storm (wind excluding tropical cyclone) | |\n\n1\n Added in v12.0",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PEA",
+     "All earthquake perils",
+     ""
+    ],
+    [
+     "PFF",
+     "Fire (fire following earthquake)",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PFL 1",
+     "Inland flood",
+     ""
+    ],
+    [
+     "PTS",
+     "Tsunami",
+     ""
+    ],
+    [
+     "PWA",
+     "All wind perils (tropical cyclone and severe storm)",
+     ""
+    ],
+    [
+     "PWW",
+     "Winter storm",
+     ""
+    ],
+    [
+     "PWF",
+     "All wind plus fire",
+     ""
+    ],
+    [
+     "PWH",
+     "Tropical cyclone",
+     ""
+    ],
+    [
+     "PWT",
+     "Severe thunderstorm",
+     ""
+    ],
+    [
+     "PWX",
+     "Severe storm (wind excluding tropical cyclone)",
+     ""
+    ]
+   ]
+  }
+ ]
+}

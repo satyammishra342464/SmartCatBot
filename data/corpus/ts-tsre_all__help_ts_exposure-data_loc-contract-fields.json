@@ -1,0 +1,67 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-contract-fields.html",
+ "title": "Location contract fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location contract fields\n\nValidation rules for fields related to the contract associated with a\n location.\n\nSelect an exposure view, a contract in the contract list, and then the location.\n\nNote:\n \nTouchstone\n does not support\n single-day contracts.\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Contract ID | Contract ID of the parent contract | Read-only | |\n| Location ID | User-defined location identifier. While Touchstone does not require location\n IDs to be unique, unique location IDs are useful when viewing locations\n on exposure maps.\n This value is often different from the location name. | Required if you are creating a new record or editing an existing\n record Cannot begin with a space or contain commas or semicolons Must contain at least one character and can contain up to 100\n characters | |\n| Location Name | Name of this location\n This value is often different from the location\n ID . | Optional Can contain up to 100 characters | |\n| Location Group Name | Name given to a group of locations that comprise a campus\n A name for a group of locations that typically consists of several\n buildings/risks that are separate locations but that you may want to view\n as a single site for loss estimates. Note: Exposure coding for campus structures is designed to work only for\n locations that are in the same country/region, and that are not spread\n across multiple regions. | Required if you are importing a location group Required if the value of the Primary\n Location field is \"1\" (primary) Can contain up to 60 characters | |\n| Primary Location | Indicates whether this location is the primary location representing all\n location terms within a campus, or a non-primary location: 0 (non-primary) 1 (primary) This field is applicable only if you specify a value for the location\n group name. If there is no location group name, you do not have to enter\n anything in the Primary Location field. | Defaults to a value in the Touchstone user interface A location group can contain only one primary location, whose value\n is '1\" For non-primary locations that are in the same location group, Primary Location must be \"0\" If a non-primary location in a location group does not have a value\n of \"0\", the location will not be imported with the location group,\n but will be imported as an individual location. | 0 |\n| ISOBIN | Unique ISOÂ® Building Identification Number (BIN) assigned to the physical\n structure of a building | Optional Can contain up to 14 characters | |\n| Inception Date | Date of the first day on which coverage is effective\n When importing data, use one of the following formats and select this\n format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n a location, and these dates are different from (that is, a subset of)\n the inception and expiration dates for the corresponding contract, Touchstone considers only\n the location-level inception and expiration dates for this location\n when performing a Detailed Loss Analysis. | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface Date format is specific to locale of end user Must be a subset of the contract inception date Must be less than the expiration date Note: For inception and expiration dates, and other in-force dates, you must\n specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n dates based on U.S. regional settings. If you are not using U.S.\n regional settings, use a date value other than 01/01/1970, such as\n 01/01/1990. | Contract inception date |\n| Expiration Date | Date of the last day on which coverage is effective\n When importing data, use one of the following formats and select this\n format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n a location, and these dates are different from (that is, a subset of)\n the inception and expiration dates for the corresponding contract, Touchstone considers only\n the location-level inception and expiration dates for this location\n when performing a detailed loss analysis. | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface Date format is specific to locale of end user Must be a subset of the contract expiration date Must be greater than the inception date Note: For inception and expiration dates, and other in-force dates, you must\n specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n dates based on U.S. regional settings. If you are not using U.S.\n regional settings, use a date value other than 01/01/1970, such as\n 01/01/1990. | Contract expiration\n date |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Contract ID",
+     "Contract ID of the parent contract",
+     "Read-only",
+     ""
+    ],
+    [
+     "Location ID",
+     "User-defined location identifier. While Touchstone does not require location\n                           IDs to be unique, unique location IDs are useful when viewing locations\n                           on exposure maps.\n                        This value is often different from the location name.",
+     "Required if you are creating a new record or editing an existing\n                                 record Cannot begin with a space or contain commas or semicolons Must contain at least one character and can contain up to 100\n                                 characters",
+     ""
+    ],
+    [
+     "Location Name",
+     "Name of this location\n                        This value is often different from the location\n                              ID .",
+     "Optional Can contain up to 100 characters",
+     ""
+    ],
+    [
+     "Location Group Name",
+     "Name given to a group of locations that comprise a campus\n                        A name for a group of locations that typically consists of several\n                           buildings/risks that are separate locations but that you may want to view\n                           as a single site for loss estimates. Note: Exposure coding for campus structures is designed to work only for\n                              locations that are in the same country/region, and that are not spread\n                              across multiple regions.",
+     "Required if you are importing a location group Required if the value of the Primary\n                                    Location field is \"1\" (primary) Can contain up to 60 characters",
+     ""
+    ],
+    [
+     "Primary Location",
+     "Indicates whether this location is the primary location representing all\n                           location terms within a campus, or a non-primary location: 0 (non-primary) 1 (primary) This field is applicable only if you specify a value for the location\n                           group name. If there is no location group name, you do not have to enter\n                           anything in the Primary Location field.",
+     "Defaults to a value in the Touchstone user interface A location group can contain only one primary location, whose value\n                                 is '1\" For non-primary locations that are in the same location group, Primary Location must be \"0\" If a non-primary location in a location group does not have a value\n                                 of \"0\", the location will not be imported with the location group,\n                                 but will be imported as an individual location.",
+     "0"
+    ],
+    [
+     "ISOBIN",
+     "Unique ISOÂ® Building Identification Number (BIN) assigned to the physical\n                           structure of a building",
+     "Optional Can contain up to 14 characters",
+     ""
+    ],
+    [
+     "Inception Date",
+     "Date of the first day on which coverage is effective\n                        When importing data, use one of the following formats and select this\n                           format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n                              a location, and these dates are different from (that is, a subset of)\n                              the inception and expiration dates for the corresponding contract, Touchstone considers only\n                              the location-level inception and expiration dates for this location\n                              when performing a Detailed Loss Analysis.",
+     "Required if you are creating a new record or editing an existing\n                                 record Defaults to a value in the Touchstone user interface Date format is specific to locale of end user Must be a subset of the contract inception date Must be less than the expiration date Note: For inception and expiration dates, and other in-force dates, you must\n                              specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n                              dates based on U.S. regional settings. If you are not using U.S.\n                              regional settings, use a date value other than 01/01/1970, such as\n                              01/01/1990.",
+     "Contract inception date"
+    ],
+    [
+     "Expiration Date",
+     "Date of the last day on which coverage is effective\n                        When importing data, use one of the following formats and select this\n                           format on the Options tab of ImportExpress : MM/DD/YYYY DD/MM/YYYY YYYYMMDD YYYY-MM-DD Note: If you specify valid location-level inception and expiration dates for\n                              a location, and these dates are different from (that is, a subset of)\n                              the inception and expiration dates for the corresponding contract, Touchstone considers only\n                              the location-level inception and expiration dates for this location\n                              when performing a detailed loss analysis.",
+     "Required if you are creating a new record or editing an existing\n                                 record Defaults to a value in the Touchstone user interface Date format is specific to locale of end user Must be a subset of the contract expiration date Must be greater than the inception date Note: For inception and expiration dates, and other in-force dates, you must\n                              specify a date value between 01/01/1970 and 12/31/2038, inclusive, for\n                              dates based on U.S. regional settings. If you are not using U.S.\n                              regional settings, use a date value other than 01/01/1970, such as\n                              01/01/1990.",
+     "Contract expiration\n                              date"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_iran_cresta_2-8.html",
+ "title": "Iran CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Iran \nCRESTA\n Codes (v2.8)\n\nCRESTA\n codes for Iran supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Iran (114).\n\n| Area Tag | Zone |\n| --- | --- |\n| 114-000 | IRAN |\n| 114-001 | Z01: East Azabayejan |\n| 114-002 | Z02: West Azarbayejan |\n| 114-003 | Z03: Ardebil |\n| 114-004 | Z04:Esfahan |\n| 114-005 | Z05: Ilam |\n| 114-006 | Z06: Bushehr |\n| 114-007 | Z07: Tehran |\n| 114-008 | Z08: Chaharmahal & Bakhtiyari |\n| 114-010 | Z10: Khuzestan |\n| 114-011 | Z11: Zanjan |\n| 114-012 | Z12: Semnan |\n| 114-013 | Z13: Sistan & Baluchestan |\n| 114-014 | Z14: Fars |\n| 114-015 | Z15: Kerman |\n| 114-016 | Z16: Kordestan |\n| 114-017 | Z17: Kermanshah |\n| 114-018 | Z18: Kohgiluyeh & Boyerahmad |\n| 114-019 | Z19: Gilan |\n| 114-020 | Z20: Lorestan |\n| 114-021 | Z21: Mazandaran |\n| 114-022 | Z22: Markazi |\n| 114-023 | Z23: Hormozgan |\n| 114-024 | Z24: Hamedan |\n| 114-025 | Z25: Yazd |\n| 114-026 | Z26: Qom |\n| 114-027 | Z27: Golestan |\n| 114-028 | Z28: Qazvin |\n| 114-029 | Z29: South Khorasan |\n| 114-030 | Z30: Khorasan-e-Razavi |\n| 114-031 | Z31: North Khorasan |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "114-000",
+     "IRAN"
+    ],
+    [
+     "114-001",
+     "Z01: East Azabayejan"
+    ],
+    [
+     "114-002",
+     "Z02: West Azarbayejan"
+    ],
+    [
+     "114-003",
+     "Z03: Ardebil"
+    ],
+    [
+     "114-004",
+     "Z04:Esfahan"
+    ],
+    [
+     "114-005",
+     "Z05: Ilam"
+    ],
+    [
+     "114-006",
+     "Z06: Bushehr"
+    ],
+    [
+     "114-007",
+     "Z07: Tehran"
+    ],
+    [
+     "114-008",
+     "Z08: Chaharmahal & Bakhtiyari"
+    ],
+    [
+     "114-010",
+     "Z10: Khuzestan"
+    ],
+    [
+     "114-011",
+     "Z11: Zanjan"
+    ],
+    [
+     "114-012",
+     "Z12: Semnan"
+    ],
+    [
+     "114-013",
+     "Z13: Sistan & Baluchestan"
+    ],
+    [
+     "114-014",
+     "Z14: Fars"
+    ],
+    [
+     "114-015",
+     "Z15: Kerman"
+    ],
+    [
+     "114-016",
+     "Z16: Kordestan"
+    ],
+    [
+     "114-017",
+     "Z17: Kermanshah"
+    ],
+    [
+     "114-018",
+     "Z18: Kohgiluyeh & Boyerahmad"
+    ],
+    [
+     "114-019",
+     "Z19: Gilan"
+    ],
+    [
+     "114-020",
+     "Z20: Lorestan"
+    ],
+    [
+     "114-021",
+     "Z21: Mazandaran"
+    ],
+    [
+     "114-022",
+     "Z22: Markazi"
+    ],
+    [
+     "114-023",
+     "Z23: Hormozgan"
+    ],
+    [
+     "114-024",
+     "Z24: Hamedan"
+    ],
+    [
+     "114-025",
+     "Z25: Yazd"
+    ],
+    [
+     "114-026",
+     "Z26: Qom"
+    ],
+    [
+     "114-027",
+     "Z27: Golestan"
+    ],
+    [
+     "114-028",
+     "Z28: Qazvin"
+    ],
+    [
+     "114-029",
+     "Z29: South Khorasan"
+    ],
+    [
+     "114-030",
+     "Z30: Khorasan-e-Razavi"
+    ],
+    [
+     "114-031",
+     "Z31: North Khorasan"
+    ]
+   ]
+  }
+ ]
+}

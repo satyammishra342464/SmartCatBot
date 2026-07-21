@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_saudi_arabia_cresta_2-7.html",
+ "title": "Saudi Arabia CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Saudi Arabia \nCRESTA\n Codes (v2.7)\n\nCRESTA\n codes for Saudi Arabia supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Saudi Arabia (187).\n\n| Area Tag | Zone |\n| --- | --- |\n| 187-000 | SAUDI ARABIA |\n| 187-001 | Z01: Al-Riyadh |\n| 187-002 | Z02: Makkah Al-Mokarramah |\n| 187-003 | Z03: Al-Madinah Al-Monawarah |\n| 187-004 | Z04: Eastern Region |\n| 187-005 | Z05: Al-Qaseem |\n| 187-006 | Z06: Hail |\n| 187-007 | Z07: Tabouk |\n| 187-008 | Z08: Northern Borders |\n| 187-009 | Z09: Jazan |\n| 187-010 | Z10: Najran |\n| 187-011 | Z11: Al-Baha |\n| 187-012 | Z12: Al-Jouf |\n| 187-014 | Z14: Aseer |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "187-000",
+     "SAUDI ARABIA"
+    ],
+    [
+     "187-001",
+     "Z01: Al-Riyadh"
+    ],
+    [
+     "187-002",
+     "Z02: Makkah Al-Mokarramah"
+    ],
+    [
+     "187-003",
+     "Z03: Al-Madinah Al-Monawarah"
+    ],
+    [
+     "187-004",
+     "Z04: Eastern Region"
+    ],
+    [
+     "187-005",
+     "Z05: Al-Qaseem"
+    ],
+    [
+     "187-006",
+     "Z06: Hail"
+    ],
+    [
+     "187-007",
+     "Z07: Tabouk"
+    ],
+    [
+     "187-008",
+     "Z08: Northern Borders"
+    ],
+    [
+     "187-009",
+     "Z09: Jazan"
+    ],
+    [
+     "187-010",
+     "Z10: Najran"
+    ],
+    [
+     "187-011",
+     "Z11: Al-Baha"
+    ],
+    [
+     "187-012",
+     "Z12: Al-Jouf"
+    ],
+    [
+     "187-014",
+     "Z14: Aseer"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_portugal_lob_2-7.html",
+ "title": "Portugal Lines Of Business (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Portugal Lines Of Business (v2.7)\n \n\nLOB codes for Portugal supported by \nUNICEDE\n/2.\nThese codes are valid for Portugal.\nStandard Lines of Business\n\n| Code | Lined of Business |\n| --- | --- |\n| BLD | Residential Building |\n| CNT | Residential Contents |\n| CAI | Commercial & Industrial |\n\nMarket Share Lines of Business\n\n| Code | Lines of Business |\n| --- | --- |\n| BLD | Residential Building |\n| CNT | Residential Contents |\n| CAI | Commercial & Industrial |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lined of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "CNT",
+     "Residential Contents"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "CNT",
+     "Residential Contents"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ]
+   ]
+  }
+ ]
+}

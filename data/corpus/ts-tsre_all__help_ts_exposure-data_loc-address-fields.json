@@ -1,0 +1,91 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-address-fields.html",
+ "title": "Location address fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location address fields\n\nValidation rules for fields related to the address of a location.\n\nSelect an exposure view, a contract in the contract list, and then the\n \nContract Details\n pane.\n\nYou can select the area, sub area, and \nCRESTA\n\n zone from lists populated with values based on the selected ISO 2-character country code\n and, in the case of the Sub Area field, based on the selected \nCRESTA\n zone. When countries have both area and\n \nCRESTA\n zone information, the Sub Area field\n displays values only when there is a dependency between the \nCRESTA\n or Area fields and the Sub Area fields. (This\n change does not apply to 3-character offshore country codes.) In addition, the address\n columns have been rearranged in the user interface: Street, City, Country, Area,\n \nCRESTA\n, Sub Area, Postal, Geocode Match\n Level, Latitude, and Longitude.\n\nNote:\n If you select a country, such as âTogoâ, for which there is no\n information in the Geography database, and you then select the Area, \nCRESTA\n Zone, or Sub Area field, the list displays a\n blank field in which you cannot manually enter data. The only way that you can enter\n data in those columns is to make sure that they are included in the import file.\n\nWhen you change the Country (ISO Code) in the \nLocations\n grid,\n \nTouchstone\n automatically clears the Area\n (State), Sub Area (County) and Postal fields. When you change the Area (State) field,\n \nTouchstone\n automatically clears the Sub\n Area (County) and Postal fields. When you change the Sub Area (County) field, \nTouchstone\n automatically clears the Postal\n field.\n\nIf you change higher resolution address data, such as the latitude or longitude,\n \nTouchstone\n does not automatically backfill\n the lower resolution address data, such as the Area (State) value.\n\nYou can select an item from a list by clicking the item, or you can scroll through the\n list until the item you want to select is highlighted and then press\n \nEnter\n.\n\nNote:\n\nFor detailed information about supplying address data for locations, including the\n minimum and maximum geographic resolutions that \nTouchstone\n supports for each modeled country, see\n \nUsing Geocoding in \nTouchstone\n on the \nClient Portal\n.\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Street | Street on which this location is located\n For offshore platforms, this field corresponds to the complete area\n definition, which is a combination of the platform's protraction, block,\n and structure name. | Optional Can contain up to 255 characters | |\n| City | City in which this location is located\n For offshore platforms, this field corresponds to the location's AIR ID, which is a unique AIR -assigned\n identification number for the platform. | Optional Can contain up to 255 characters | |\n| Country (ISO Code) | ISO country code of the country in which this location is located. See . | Required if you are creating a new record or editing an existing\n record Can contain a valid country code or up to 255 characters for a\n country name Defaults to a value in the Touchstone user interface | United States |\n| Area (State) | Area (state) in which this location is located\n For lists of the area codes for each supported country, see CRESTA and Area Codes . | Optional Can contain up to 15 characters for an area code or up to 255\n characters for an area name | |\n| Sub Area (County) | Sub area in which this location is located | Optional Can contain up to 15 characters for a sub area code or up to 255\n characters for a sub area name | |\n| Sub Area 2 | Sub area in which this location is located (for use with France,\n Guadeloupe, Japan, Martinique, Mexico, New Zealand) | Optional Can contain up to 15 characters for a sub area 2 code or up to 255\n characters for a sub area 2 name | |\n| CRESTA Zone | CRESTA zone in which this\n location is located\n When entering CRESTA codes,\n aggregate locations to use one location record (with the appropriate number of risks ) for each unique combination of CRESTA , construction , occupancy , etc. Whenever possible, avoid having one location\n for each risk in a CRESTA zone.\n The Catastrophe Risk Evaluating and Standardizing Target Accumulations\n organization is an independent body for the technical management of\n natural hazard coverage. See www. CRESTA .org for more\n information about this organization.\n For lists of the CRESTA codes\n for each supported country, see CRESTA and Area Codes . | Optional Can contain up to 15 characters for a CRESTA zone code or up to 255\n characters for a CRESTA zone name | |\n| Postal | Postal code of the postal area in which this location is located\n For offshore platforms, this field corresponds to the block. | Optional Can contain up to 15 characters for a postal code or up to 255\n characters for a postal area name | |\n| Geocode Match Level | Indicates the accuracy of the latitude and longitude assigned to this\n location\n See Using Geocoding in Touchstone on the Client Portal . | Read-only | |\n| Latitude | Latitude (degrees north) of this location\n If this location is south of the equator, enter the latitude as a\n negative number. | Optional Defaults to a value in the Touchstone user interface Can be a numeric value between -90.00 and 90.00, inclusive Should include at least two decimal places | |\n| Longitude | Longitude (degrees east) of this location\n If this location is west of the Greenwich meridian, enter the longitude\n as a negative number. | Optional Defaults to a value in the Touchstone user interface Can be a numeric value between -180.00 and 180.00, inclusive Should include at least two decimal places | |\n| User Geocode Match Level | Indicates the user-specified accuracy of the latitude and longitude\n assigned to this location. Touchstone does not use\n user-specified geocode match levels for geocoding.\n See Using Geocoding in Touchstone on the Client Portal . | Optional | |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Street",
+     "Street on which this location is located\n                        For offshore platforms, this field corresponds to the complete area\n                           definition, which is a combination of the platform's protraction, block,\n                           and structure name.",
+     "Optional Can contain up to 255 characters",
+     ""
+    ],
+    [
+     "City",
+     "City in which this location is located\n                        For offshore platforms, this field corresponds to the location's AIR ID, which is a unique AIR -assigned\n                           identification number for the platform.",
+     "Optional Can contain up to 255 characters",
+     ""
+    ],
+    [
+     "Country (ISO Code)",
+     "ISO country code of the country in which this location is located. See .",
+     "Required if you are creating a new record or editing an existing\n                                 record Can contain a valid country code or up to 255 characters for a\n                                 country name Defaults to a value in the Touchstone user interface",
+     "United States"
+    ],
+    [
+     "Area (State)",
+     "Area (state) in which this location is located\n                        For lists of the area codes for each supported country, see CRESTA and Area Codes .",
+     "Optional Can contain up to 15 characters for an area code or up to 255\n                                 characters for an area name",
+     ""
+    ],
+    [
+     "Sub Area (County)",
+     "Sub area in which this location is located",
+     "Optional Can contain up to 15 characters for a sub area code or up to 255\n                                 characters for a sub area name",
+     ""
+    ],
+    [
+     "Sub Area 2",
+     "Sub area in which this location is located (for use with France,\n                           Guadeloupe, Japan, Martinique, Mexico, New Zealand)",
+     "Optional Can contain up to 15 characters for a sub area 2 code or up to 255\n                                 characters for a sub area 2 name",
+     ""
+    ],
+    [
+     "CRESTA Zone",
+     "CRESTA zone in which this\n                           location is located\n                        When entering CRESTA codes,\n                           aggregate locations to use one location record (with the appropriate number of risks ) for each unique combination of CRESTA , construction , occupancy , etc. Whenever possible, avoid having one location\n                           for each risk in a CRESTA zone.\n                        The Catastrophe Risk Evaluating and Standardizing Target Accumulations\n                           organization is an independent body for the technical management of\n                           natural hazard coverage. See www. CRESTA .org for more\n                           information about this organization.\n                        For lists of the CRESTA codes\n                           for each supported country, see CRESTA and Area Codes .",
+     "Optional Can contain up to 15 characters for a CRESTA zone code or up to 255\n                                 characters for a CRESTA zone name",
+     ""
+    ],
+    [
+     "Postal",
+     "Postal code of the postal area in which this location is located\n                        For offshore platforms, this field corresponds to the block.",
+     "Optional Can contain up to 15 characters for a postal code or up to 255\n                                 characters for a postal area name",
+     ""
+    ],
+    [
+     "Geocode Match Level",
+     "Indicates the accuracy of the latitude and longitude assigned to this\n                           location\n                        See Using Geocoding in Touchstone on the Client Portal .",
+     "Read-only",
+     ""
+    ],
+    [
+     "Latitude",
+     "Latitude (degrees north) of this location\n                        If this location is south of the equator, enter the latitude as a\n                           negative number.",
+     "Optional Defaults to a value in the Touchstone user interface Can be a numeric value between -90.00 and 90.00, inclusive Should include at least two decimal places",
+     ""
+    ],
+    [
+     "Longitude",
+     "Longitude (degrees east) of this location\n                        If this location is west of the Greenwich meridian, enter the longitude\n                           as a negative number.",
+     "Optional Defaults to a value in the Touchstone user interface Can be a numeric value between -180.00 and 180.00, inclusive Should include at least two decimal places",
+     ""
+    ],
+    [
+     "User Geocode Match Level",
+     "Indicates the user-specified accuracy of the latitude and longitude\n                           assigned to this location. Touchstone does not use\n                           user-specified geocode match levels for geocoding.\n                        See Using Geocoding in Touchstone on the Client Portal .",
+     "Optional",
+     ""
+    ]
+   ]
+  }
+ ]
+}

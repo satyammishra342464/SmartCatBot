@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_record-separator.html",
+ "title": "Record Separator",
+ "section": "unicede",
+ "version": null,
+ "text": "Record Separator\n\nRecord details supported by \nUNICEDE\n/2.\n\nRecordSeparator\n: This identifies the character that separates two adjacent records\n (or lines) in the BODY. Currently only the following is supported: \n\n0: Carriage Return + LineFeed",
+ "tables": []
+}

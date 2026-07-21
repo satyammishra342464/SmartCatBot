@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_jamaica-parish-codes.html",
+ "title": "Jamaica parish codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Jamaica parish codes\n\nTouchstone\n supports the following parish\n codes for Jamaica.\n\n| Parish Code | Parish Name |\n| --- | --- |\n| 1 | Clarendon |\n| 2 | Hanover |\n| 3 | Kingston |\n| 4 | Manchester |\n| 5 | Portland |\n| 6 | St. Andrew |\n| 7 | St. Ann |\n| 8 | St. Catherine |\n| 9 | St. Elizabeth |\n| 10 | St. James |\n| 11 | St. Mary |\n| 12 | St. Thomas |\n| 13 | Trelawny |\n| 14 | Westmoreland |",
+ "tables": [
+  {
+   "headers": [
+    "Parish Code",
+    "Parish Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Clarendon"
+    ],
+    [
+     "2",
+     "Hanover"
+    ],
+    [
+     "3",
+     "Kingston"
+    ],
+    [
+     "4",
+     "Manchester"
+    ],
+    [
+     "5",
+     "Portland"
+    ],
+    [
+     "6",
+     "St. Andrew"
+    ],
+    [
+     "7",
+     "St. Ann"
+    ],
+    [
+     "8",
+     "St. Catherine"
+    ],
+    [
+     "9",
+     "St. Elizabeth"
+    ],
+    [
+     "10",
+     "St. James"
+    ],
+    [
+     "11",
+     "St. Mary"
+    ],
+    [
+     "12",
+     "St. Thomas"
+    ],
+    [
+     "13",
+     "Trelawny"
+    ],
+    [
+     "14",
+     "Westmoreland"
+    ]
+   ]
+  }
+ ]
+}

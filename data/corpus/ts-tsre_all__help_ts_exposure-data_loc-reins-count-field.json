@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-reins-count-field.html",
+ "title": "Location reinsurance count field",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location reinsurance count field\n\nTouchstone\n field specifying the number of\n reinsurance treaties for a location.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the location.\n\nYou can view, edit, and add \nlocation\n reinsurance\n by selecting the \nReinsurance\n tab at the\n bottom of the \nLocations\n tab, or by selecting the \nLocation ID\n\n and then selecting the \nReinsurance\n tab in the \nLocation\n Details\n pane.",
+ "tables": []
+}

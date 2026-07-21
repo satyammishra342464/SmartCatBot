@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_marine-craft-con.html",
+ "title": "Marine craft construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Marine craft construction codes\n\nThe marine craft construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 265 | Pleasure Boats and Yachts | Typically, privately-owned boats that can be used for recreation, fishing,\n or cruising. This description is meant to exclude commercial vessels, such\n as cargo ships or tugboats. Use this construction code if the boat's\n power/sail classification is unknown. |\n| 266 | Pleasure Boats and Yachts, Power Boats | A pleasure boat that is powered only by a motor (no sails) |\n| 267 | Pleasure Boats and Yachts, Sail Boats | A pleasure boat that is capable of being powered by wind through the use of\n sails. Use this construction code to model boats that have both sails and a\n motor . |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "265",
+     "Pleasure Boats and Yachts",
+     "Typically, privately-owned boats that can be used for recreation, fishing,\n                        or cruising. This description is meant to exclude commercial vessels, such\n                        as cargo ships or tugboats. Use this construction code if the boat's\n                        power/sail classification is unknown."
+    ],
+    [
+     "266",
+     "Pleasure Boats and Yachts, Power Boats",
+     "A pleasure boat that is powered only by a motor (no sails)"
+    ],
+    [
+     "267",
+     "Pleasure Boats and Yachts, Sail Boats",
+     "A pleasure boat that is capable of being powered by wind through the use of\n                        sails. Use this construction code to model boats that have both sails and a\n                        motor ."
+    ]
+   ]
+  }
+ ]
+}

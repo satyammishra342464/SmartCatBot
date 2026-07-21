@@ -1,0 +1,145 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_dominican-rep-cresta-codes.html",
+ "title": "Dominican Republic CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Dominican Republic \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for the Dominican Republic.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 01 | Distrito Nacional |\n| 02 | Azua |\n| 03 | Baoruco |\n| 04 | Barahona |\n| 05 | DajabÃ³n |\n| 06 | Duarte |\n| 07 | ElÃ­as PiÃ±a |\n| 08 | El Seibo |\n| 09 | Espaillat |\n| 10 | Independencia |\n| 11 | La Altagracia |\n| 12 | La Romana |\n| 13 | La Vega |\n| 14 | MarÃ­a Trinidad SÃ¡nchez |\n| 15 | Monte Cristi |\n| 16 | Pedernales |\n| 17 | Peravia |\n| 18 | Puerto Plata |\n| 19 | Hermanas Mirabal |\n| 20 | SamanÃ¡ |\n| 21 | San CristÃ³bal |\n| 22 | San Juan |\n| 23 | San Pedro De MacorÃ­s |\n| 24 | SÃ¡nchez RamÃ­rez |\n| 25 | Santiago |\n| 26 | Santiago RodrÃ­guez |\n| 27 | Valverde |\n| 28 | MonseÃ±or Nouel |\n| 29 | Monte Plata |\n| 30 | Hato Mayor |\n| 31 | San JosÃ© De Ocoa |\n| 32 | Santo Domingo |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Distrito Nacional"
+    ],
+    [
+     "02",
+     "Azua"
+    ],
+    [
+     "03",
+     "Baoruco"
+    ],
+    [
+     "04",
+     "Barahona"
+    ],
+    [
+     "05",
+     "DajabÃ³n"
+    ],
+    [
+     "06",
+     "Duarte"
+    ],
+    [
+     "07",
+     "ElÃ­as PiÃ±a"
+    ],
+    [
+     "08",
+     "El Seibo"
+    ],
+    [
+     "09",
+     "Espaillat"
+    ],
+    [
+     "10",
+     "Independencia"
+    ],
+    [
+     "11",
+     "La Altagracia"
+    ],
+    [
+     "12",
+     "La Romana"
+    ],
+    [
+     "13",
+     "La Vega"
+    ],
+    [
+     "14",
+     "MarÃ­a Trinidad SÃ¡nchez"
+    ],
+    [
+     "15",
+     "Monte Cristi"
+    ],
+    [
+     "16",
+     "Pedernales"
+    ],
+    [
+     "17",
+     "Peravia"
+    ],
+    [
+     "18",
+     "Puerto Plata"
+    ],
+    [
+     "19",
+     "Hermanas Mirabal"
+    ],
+    [
+     "20",
+     "SamanÃ¡"
+    ],
+    [
+     "21",
+     "San CristÃ³bal"
+    ],
+    [
+     "22",
+     "San Juan"
+    ],
+    [
+     "23",
+     "San Pedro De MacorÃ­s"
+    ],
+    [
+     "24",
+     "SÃ¡nchez RamÃ­rez"
+    ],
+    [
+     "25",
+     "Santiago"
+    ],
+    [
+     "26",
+     "Santiago RodrÃ­guez"
+    ],
+    [
+     "27",
+     "Valverde"
+    ],
+    [
+     "28",
+     "MonseÃ±or Nouel"
+    ],
+    [
+     "29",
+     "Monte Plata"
+    ],
+    [
+     "30",
+     "Hato Mayor"
+    ],
+    [
+     "31",
+     "San JosÃ© De Ocoa"
+    ],
+    [
+     "32",
+     "Santo Domingo"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_curacao-cresta-codes.html",
+ "title": "Curacao CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Curacao \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for CuraÃ§ao.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 2 | CuraÃ§ao |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "2",
+     "CuraÃ§ao"
+    ]
+   ]
+  }
+ ]
+}

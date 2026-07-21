@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-fields-locs.html",
+ "title": "Location limit fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location limit fields\n\nLocation limit fields.\nSee \nLocation occurrence limit types\n for information about location\n occurrence limit types.\n\n| Field / Limit type | C | EE | EF Insurance | S | N |\n| --- | --- | --- | --- | --- | --- |\n| Limit Building | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field is not required. |\n| Limit Other | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field is not required. | Field is not required. | Field is not required. |\n| Limit Contents | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a percentage, expressed as a value less than or equal\n to 1. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field is not required. | Field is not required. |\n| Limit Time | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field is not required. | Field is not required. | Field is not required. | Field is not required. |\n| Participation 1 | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. |\n| Participation 2 | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. | Field represents a percentage, expressed as a value between 0.00 and\n 999.00, inclusive. For example, enter 1.00 to specify 100% as the\n participation percentage. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Limit type",
+    "C",
+    "EE",
+    "EF Insurance",
+    "S",
+    "N"
+   ],
+   "rows": [
+    [
+     "Limit Building",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field is not required."
+    ],
+    [
+     "Limit Other",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field is not required.",
+     "Field is not required.",
+     "Field is not required."
+    ],
+    [
+     "Limit Contents",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a percentage, expressed as a value less than or equal\n                        to 1.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field is not required.",
+     "Field is not required."
+    ],
+    [
+     "Limit Time",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field is not required.",
+     "Field is not required.",
+     "Field is not required.",
+     "Field is not required."
+    ],
+    [
+     "Participation 1",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage."
+    ],
+    [
+     "Participation 2",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage.",
+     "Field represents a percentage, expressed as a value between 0.00 and\n                        999.00, inclusive. For example, enter 1.00 to specify 100% as the\n                        participation percentage."
+    ]
+   ]
+  }
+ ]
+}

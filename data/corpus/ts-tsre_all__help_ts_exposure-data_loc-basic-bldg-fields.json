@@ -1,0 +1,115 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-basic-bldg-fields.html",
+ "title": "Location basic building fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location basic building fields\n\nValidation rules related to the basic building characteristics.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n details\n pane, and then the location.\n\n| Field | Description | Validation Rules | Default Value |\n| --- | --- | --- | --- |\n| Construction Code\n Type | One of the following types of construction codes to\n indicate the construction code type that you are using for the building and appurtenant (other) structures at this location: Touchstone codes ( Touchstone ) ATC codes (ATC) ISO earthquake codes (ISE) ISO commercial fire codes (ISF) ISO dwelling fire codes RMS Euro codes RMS JPBLDG codes RMS IND (industrial) codes (RMI) RMS codes (RMS) RMS USER codes ISO WC codes (ISW) We always recommends translating non- Touchstone codes to Touchstone codes wherever possible\n before importing your data. Note: If you select a\n non- Touchstone construction\n code type and specify non- Touchstone construction codes in the Construction Building and Construction Other Structures fields, Touchstone displays the non- Touchstone construction codes in\n these fields. Touchstone also\n maps these codes to Touchstone construction codes. Touchstone stores both the non- Touchstone (user-supplied) construction codes that you have specified and the\n corresponding Touchstone construction codes in the exposure database into which you have imported\n or added your locations. | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface | Touchstone codes |\n| Construction Building | Construction code for the building at this location. The\n construction code type that you have specified determines which codes are\n valid for this field. | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface, if\n the construction code type is AIR codes ( AIR ) For offshore platforms, that is, for locations with an offshore country code such as \"GOM\" (Gulf of Mexico), the only\n valid construction class codes are the offshore\n asset construction class codes . | 100 - Unknown (800 - Unknown for offshore exposures,\n i.e., exposures that use an offshore country code) |\n| Construction Other\n Structures | Construction code for any appurtenant structures covered at\n this location. The construction code type that you have specified\n determines which codes are valid for this field. | Optional Defaults to a value in the Touchstone user interface if\n the construction code type is AIR codes ( AIR ) | 100 - Unknown (800 - Unknown for offshore exposures,\n i.e., exposures that use an offshore country code) |\n| Occupancy Code Type | One of the following types of occupancy codes to indicate\n the occupancy code that you are using at this location: Touchstone codes ( Touchstone ) ATC codes (ATC) ISO BOP codes (ISB) ISO COMFAL codes (ISC) ISO codes (ISO) RMS EURO-FR codes RMS EURO codes RMS JPOCC codes RMS IND (industrial) codes (RMI) RMS codes (RMS) RMS WC codes (RWC) SIC codes (SIC) Note: If you select a non- Touchstone occupancy code type and\n specify a non- Touchstone occupancy code in the Occupancy Code field, Touchstone displays the non- Touchstone occupancy codes in these\n fields. Touchstone also maps\n these codes to Touchstone occupancy codes. Touchstone stores both the non- Touchstone (user-supplied) occupancy codes that you have specified and the\n corresponding Touchstone occupancy codes in the exposure database into which you have imported or\n added your locations. | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface | Touchstone codes |\n| Occupancy Code | Occupancy code for the building at this location The\n occupancy code type that you have specified determines which codes are\n valid for this field. | Required if you are creating a new record or editing an existing\n record Defaults to a value in the Touchstone user interface if\n the occupancy code type is AIR codes ( AIR ) For offshore platforms, that is, for locations with an offshore\n country code (ISO Country\n Codes , such as \"GOM\" (Gulf of Mexico), the only valid\n occupancy class codes are the offshore\n asset occupancy class codes . | 311 - General commercial (900 - Unknown for offshore\n exposures, i.e., exposures that use an offshore country code) |\n| IsTenant | One of the following values to indicate whether this\n location is covered by a tenant policy: Yes No | Defaults to a value in the Touchstone user interface | No |\n| Year Built | Year in which the building at this location was built or\n underwent a major upgrade. The age of a building provides a good\n indication of the building codes that are in effect for the\n building. When the year built of the structure is not known, Touchstone calculates an\n unknown year built damage function by applying an exposure-weighted\n distribution to the corresponding damage functions for each year\n built. Touchstone uses\n this field for earthquake and hurricane analysis. | Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and the current year, inclusive.\n For example, if the current year is 2017, you can enter a value\n between 0 and 2017, inclusive. | [NULL] |\n| Stories | Number of floors or stories of the risks that this location\n record covers. For pleasure boats , this field represents the boat length in feet.\n Enter a value (in feet) within one of the following categories to specify\n the length of the pleasure boat: Small (up to 26 feet) Medium (26-50 feet) Large (over 50 feet) If the pleasure boat length is unknown, enter 0 . Touchstone does not support this\n field for offshore platform policies. Therefore, enter 0 . | Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 999, inclusive. For\n half-stories, we recommend that you round up to the next integer\n before importing. This is because the application only supports\n modeling integers for the Stories field. | [NULL] |\n| Gross Area | This field affects losses for: Verisk Hurricane Model for the United States Verisk Earthquake Model for the United States Forestry locations for extra tropical cyclone in Sweden and\n Norway In version 10.0, for the Verisk Severe Thunderstorm Model for the United States For the United States hurricane and earthquake models, this is the\n Gross Area of the building at this location. Touchstone does not support this\n field for offshore platform policies. Therefore, enter 0 . Click this link for information about: Differences between Gross Area and Floor Area . | Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 15000000, inclusive | [NULL] |\n| Gross Area Units | One of the following units of measurement for the gross area: Acre (AC) Hectare (HA) Square feet (SQFT) Square meters (SQM) The Gross Area (square footage) for the Verisk Hurricane Model for the United States does not include Finished Attic or\n Finished Basement. | Defaults to a value in the Touchstone user interface | Square feet |\n| ISO Construction Code | ISO construction codes for the building at this\n location. See \"ISO Fire Codes\" and \"ISO Earthquake Codes\" in the Help\n provided for non- Touchstone construction class codes in your Touchstone Client. | Optional | |\n| ISO Occupancy Code | ISO occupancy code for the building at this location. See\n \"ISO Commercial, Fire, and Allied Lines (COMFAL) Codes\" in the Help\n provided for non- Touchstone occupancy class codes in your Touchstone client. | Optional | |\n| Building Value per Gross Area | Building value per gross area for this location. The\n building value per gross area calculation for each location is the replacement value building divided by the gross\n area. | Read only Not applicable for workers' compensation locations | |\n| Territory | User-defined territory code for this location for reporting\n purposes. | Optional Can contain up to 30 characters Can contain hyphens and underscores | |\n| Building Height | Height of the building at this location. This field is not\n used for loss calculations; it is used only for informational\n purposes. The building height units that you specify determine the unit\n in which you should express the value for this field. | Optional Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 2,147,483, 647, inclusive | |\n| Building Height Units | One of the following units of measurement for the building height: Feet (FT) Meters (M) | Optional | |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation Rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Construction Code\n                        Type",
+     "One of the following types of construction codes to\n                        indicate the construction code type that you are using for the building and appurtenant (other) structures at this location: Touchstone codes ( Touchstone ) ATC codes (ATC) ISO earthquake codes (ISE) ISO commercial fire codes (ISF) ISO dwelling fire codes RMS Euro codes RMS JPBLDG codes RMS IND (industrial) codes (RMI) RMS codes (RMS) RMS USER codes ISO WC codes (ISW) We always recommends translating non- Touchstone codes to Touchstone codes wherever possible\n                           before importing your data. Note: If you select a\n                              non- Touchstone construction\n                           code type and specify non- Touchstone construction codes in the Construction Building and Construction Other Structures fields, Touchstone displays the non- Touchstone construction codes in\n                           these fields. Touchstone also\n                           maps these codes to Touchstone construction codes. Touchstone stores both the non- Touchstone (user-supplied) construction codes that you have specified and the\n                           corresponding Touchstone construction codes in the exposure database into which you have imported\n                           or added your locations.",
+     "Required if you are creating a new record or editing an existing\n                              record Defaults to a value in the Touchstone user interface",
+     "Touchstone codes"
+    ],
+    [
+     "Construction Building",
+     "Construction code for the building at this location. The\n                           construction code type that you have specified determines which codes are\n                           valid for this field.",
+     "Required if you are creating a new record or editing an existing\n                                 record Defaults to a value in the Touchstone user interface, if\n                                 the construction code type is AIR codes ( AIR ) For offshore platforms, that is, for locations with an offshore country code such as \"GOM\" (Gulf of Mexico), the only\n                                 valid construction class codes are the offshore\n                                    asset construction class codes .",
+     "100 - Unknown (800 - Unknown for offshore exposures,\n                           i.e., exposures that use an offshore country code)"
+    ],
+    [
+     "Construction Other\n                        Structures",
+     "Construction code for any appurtenant structures covered at\n                        this location. The construction code type that you have specified\n                           determines which codes are valid for this field.",
+     "Optional Defaults to a value in the Touchstone user interface if\n                                 the construction code type is AIR codes ( AIR )",
+     "100 - Unknown (800 - Unknown for offshore exposures,\n                           i.e., exposures that use an offshore country code)"
+    ],
+    [
+     "Occupancy Code Type",
+     "One of the following types of occupancy codes to indicate\n                        the occupancy code that you are using at this location: Touchstone codes ( Touchstone ) ATC codes (ATC) ISO BOP codes (ISB) ISO COMFAL codes (ISC) ISO codes (ISO) RMS EURO-FR codes RMS EURO codes RMS JPOCC codes RMS IND (industrial) codes (RMI) RMS codes (RMS) RMS WC codes (RWC) SIC codes (SIC) Note: If you select a non- Touchstone occupancy code type and\n                           specify a non- Touchstone occupancy code in the Occupancy Code field, Touchstone displays the non- Touchstone occupancy codes in these\n                           fields. Touchstone also maps\n                           these codes to Touchstone occupancy codes. Touchstone stores both the non- Touchstone (user-supplied) occupancy codes that you have specified and the\n                           corresponding Touchstone occupancy codes in the exposure database into which you have imported or\n                           added your locations.",
+     "Required if you are creating a new record or editing an existing\n                                 record Defaults to a value in the Touchstone user interface",
+     "Touchstone codes"
+    ],
+    [
+     "Occupancy Code",
+     "Occupancy code for the building at this location The\n                           occupancy code type that you have specified determines which codes are\n                           valid for this field.",
+     "Required if you are creating a new record or editing an existing\n                                 record Defaults to a value in the Touchstone user interface if\n                                 the occupancy code type is AIR codes ( AIR ) For offshore platforms, that is, for locations with an offshore\n                                 country code (ISO Country\n                                    Codes , such as \"GOM\" (Gulf of Mexico), the only valid\n                                 occupancy class codes are the offshore\n                                    asset occupancy class codes .",
+     "311 - General commercial (900 - Unknown for offshore\n                           exposures, i.e., exposures that use an offshore country code)"
+    ],
+    [
+     "IsTenant",
+     "One of the following values to indicate whether this\n                        location is covered by a tenant policy: Yes No",
+     "Defaults to a value in the Touchstone user interface",
+     "No"
+    ],
+    [
+     "Year Built",
+     "Year in which the building at this location was built or\n                        underwent a major upgrade. The age of a building provides a good\n                           indication of the building codes that are in effect for the\n                           building. When the year built of the structure is not known, Touchstone calculates an\n                           unknown year built damage function by applying an exposure-weighted\n                           distribution to the corresponding damage functions for each year\n                           built. Touchstone uses\n                           this field for earthquake and hurricane analysis.",
+     "Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and the current year, inclusive.\n                                 For example, if the current year is 2017, you can enter a value\n                                 between 0 and 2017, inclusive.",
+     "[NULL]"
+    ],
+    [
+     "Stories",
+     "Number of floors or stories of the risks that this location\n                        record covers. For pleasure boats , this field represents the boat length in feet.\n                           Enter a value (in feet) within one of the following categories to specify\n                           the length of the pleasure boat: Small (up to 26 feet) Medium (26-50 feet) Large (over 50 feet) If the pleasure boat length is unknown, enter 0 . Touchstone does not support this\n                           field for offshore platform policies. Therefore, enter 0 .",
+     "Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 999, inclusive. For\n                              half-stories, we recommend that you round up to the next integer\n                              before importing. This is because the application only supports\n                              modeling integers for the Stories field.",
+     "[NULL]"
+    ],
+    [
+     "Gross Area",
+     "This field affects losses for: Verisk Hurricane Model for the United States Verisk Earthquake Model for the United States Forestry locations for extra tropical cyclone in Sweden and\n                              Norway In version 10.0, for the Verisk Severe Thunderstorm Model for the United States For the United States hurricane and earthquake models, this is the\n                           Gross Area of the building at this location. Touchstone does not support this\n                           field for offshore platform policies. Therefore, enter 0 . Click this link for information about: Differences between Gross Area and Floor Area .",
+     "Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 15000000, inclusive",
+     "[NULL]"
+    ],
+    [
+     "Gross Area Units",
+     "One of the following units of measurement for the gross area: Acre (AC) Hectare (HA) Square feet (SQFT) Square meters (SQM) The Gross Area (square footage) for the Verisk Hurricane Model for the United States does not include Finished Attic or\n                           Finished Basement.",
+     "Defaults to a value in the Touchstone user interface",
+     "Square feet"
+    ],
+    [
+     "ISO Construction Code",
+     "ISO construction codes for the building at this\n                           location. See \"ISO Fire Codes\" and \"ISO Earthquake Codes\" in the Help\n                           provided for non- Touchstone construction class codes in your Touchstone Client.",
+     "Optional",
+     ""
+    ],
+    [
+     "ISO Occupancy Code",
+     "ISO occupancy code for the building at this location. See\n                           \"ISO Commercial, Fire, and Allied Lines (COMFAL) Codes\" in the Help\n                           provided for non- Touchstone occupancy class codes in your Touchstone client.",
+     "Optional",
+     ""
+    ],
+    [
+     "Building Value per Gross Area",
+     "Building value per gross area for this location. The\n                           building value per gross area calculation for each location is the replacement value building divided by the gross\n                        area.",
+     "Read only Not applicable for workers' compensation locations",
+     ""
+    ],
+    [
+     "Territory",
+     "User-defined territory code for this location for reporting\n                        purposes.",
+     "Optional Can contain up to 30 characters Can contain hyphens and underscores",
+     ""
+    ],
+    [
+     "Building Height",
+     "Height of the building at this location. This field is not\n                        used for loss calculations; it is used only for informational\n                           purposes. The building height units that you specify determine the unit\n                           in which you should express the value for this field.",
+     "Optional Defaults to a value in the Touchstone user interface Must be a numeric value between 0 and 2,147,483, 647, inclusive",
+     ""
+    ],
+    [
+     "Building Height Units",
+     "One of the following units of measurement for the building height: Feet (FT) Meters (M)",
+     "Optional",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_saint-kitts-nevis-cresta-codes.html",
+ "title": "Saint Kitts and Nevis CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Saint Kitts and Nevis \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Saint Kitts and Nevis.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 01 | Christ Church Nichola Town |\n| 02 | Saint Anne Sandy Point |\n| 03 | Saint George Basseterre |\n| 04 | Saint George Gingerland |\n| 05 | Saint James Windward |\n| 06 | Saint John Capisterre |\n| 07 | Saint John Figree |\n| 08 | Saint Mary Cayon |\n| 09 | Saint Paul Capisterre |\n| 10 | Saint Paul Charlestown |\n| 11 | Saint Peter Basseterre |\n| 12 | Saint Thomas Lowland |\n| 13 | Saint Thomas Middle Island |\n| 14 | Trinity Palmetto Point |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Christ Church Nichola Town"
+    ],
+    [
+     "02",
+     "Saint Anne Sandy Point"
+    ],
+    [
+     "03",
+     "Saint George Basseterre"
+    ],
+    [
+     "04",
+     "Saint George Gingerland"
+    ],
+    [
+     "05",
+     "Saint James Windward"
+    ],
+    [
+     "06",
+     "Saint John Capisterre"
+    ],
+    [
+     "07",
+     "Saint John Figree"
+    ],
+    [
+     "08",
+     "Saint Mary Cayon"
+    ],
+    [
+     "09",
+     "Saint Paul Capisterre"
+    ],
+    [
+     "10",
+     "Saint Paul Charlestown"
+    ],
+    [
+     "11",
+     "Saint Peter Basseterre"
+    ],
+    [
+     "12",
+     "Saint Thomas Lowland"
+    ],
+    [
+     "13",
+     "Saint Thomas Middle Island"
+    ],
+    [
+     "14",
+     "Trinity Palmetto Point"
+    ]
+   ]
+  }
+ ]
+}

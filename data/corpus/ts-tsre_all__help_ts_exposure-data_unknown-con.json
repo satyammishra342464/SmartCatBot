@@ -1,0 +1,23 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_unknown-con.html",
+ "title": "Unknown construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Unknown construction codes\n\nThe unknown construction codes supported by \nTouchstone\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 100 | Unknown | The construction class is not known. If the construction and occupancy codes for a location are both \"Unknown\", Touchstone assigns the occupancy code\n \"General Commercial.\"\n The damage functions for unknown construction are the weighted average of\n the known construction damage functions. Touchstone uses an exposure-weighted\n average at the state level to capture the variability in building stocks\n at this geography. The unknown damage function varies by occupancy class\n code.\n For an exposure of known occupancy but unknown construction and height , Touchstone uses a damage\n function that is a weighted average of the damage functions for the same\n occupancy class corresponding to all combinations of construction and\n height classes. |\n\nNote:\n\nIn some models, the construction and occupancy class code combination 100-300 is\n invalid, and \nTouchstone\n remaps this\n combination to 100-311. Analysis logs will note when the combination 100-300 has been\n remapped to 100-311.",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "100",
+     "Unknown",
+     "The construction class is not known. If the construction and occupancy codes for a location are both \"Unknown\", Touchstone assigns the occupancy code\n                           \"General Commercial.\"\n                        The damage functions for unknown construction are the weighted average of\n                           the known construction damage functions. Touchstone uses an exposure-weighted\n                           average at the state level to capture the variability in building stocks\n                           at this geography. The unknown damage function varies by occupancy class\n                           code.\n                        For an exposure of known occupancy but unknown construction and height , Touchstone uses a damage\n                           function that is a weighted average of the damage functions for the same\n                           occupancy class corresponding to all combinations of construction and\n                           height classes."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_barbados-cresta-codes.html",
+ "title": "Barbados CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Barbados \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Barbados.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 01 | St. Peter |\n| 02 | St. James |\n| 03 | St. Thomas |\n| 04 | St. Andrew |\n| 05 | St. Joseph |\n| 06 | St. Michael |\n| 07 | St. George |\n| 08 | Christ Church |\n| 09 | St. Philip |\n| 10 | St. John |\n| 11 | St. Lucy |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "St. Peter"
+    ],
+    [
+     "02",
+     "St. James"
+    ],
+    [
+     "03",
+     "St. Thomas"
+    ],
+    [
+     "04",
+     "St. Andrew"
+    ],
+    [
+     "05",
+     "St. Joseph"
+    ],
+    [
+     "06",
+     "St. Michael"
+    ],
+    [
+     "07",
+     "St. George"
+    ],
+    [
+     "08",
+     "Christ Church"
+    ],
+    [
+     "09",
+     "St. Philip"
+    ],
+    [
+     "10",
+     "St. John"
+    ],
+    [
+     "11",
+     "St. Lucy"
+    ]
+   ]
+  }
+ ]
+}

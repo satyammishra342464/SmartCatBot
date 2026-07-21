@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_saudi-arabia-cresta-codes.html",
+ "title": "Saudi Arabia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Saudi Arabia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Saudi Arabia.\nThe following table applies to versions 11.0 and later.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| SAU_01 | Al-Riyadh |\n| SAU_02 | Makkah Al-Mokarramah |\n| SAU_03 | Al-Madinah Al-Monawarah |\n| SAU_04 | Eastern Region |\n| SAU_05 | Al-Qaseem |\n| SAU_06 | Hail |\n| SAU_07 | Tabouk |\n| SAU_08 | Northern Borders |\n| SAU_09 | Jazan |\n| SAU_10 | Najran |\n| SAU_11 | Al-Baha |\n| SAU_12 | Al-Jouf |\n| SAU_14 | Aseer |\n\nThe following table applies to versions 10.0 and earlier.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Ar Riyadh |\n| 2 | Al Kharj |\n| 3 | Jiddah |\n| 4 | Makkah |\n| 5 | At Ta'if |\n| 6 | Damman |\n| 7 | Khobar |\n| 8 | Al Jubayl |\n| 9 | Dhahran |\n| 10 | Al Hufuf |\n| 11 | Yanbu' al Bahr |\n| 12 | Abha |\n| 13 | Najiran |\n| 14 | Jizan |\n| 15 | Buraydah |\n| 16 | Hail |\n| 17 | Tabuk |\n| 18 | All other zones |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "SAU_01",
+     "Al-Riyadh"
+    ],
+    [
+     "SAU_02",
+     "Makkah Al-Mokarramah"
+    ],
+    [
+     "SAU_03",
+     "Al-Madinah Al-Monawarah"
+    ],
+    [
+     "SAU_04",
+     "Eastern Region"
+    ],
+    [
+     "SAU_05",
+     "Al-Qaseem"
+    ],
+    [
+     "SAU_06",
+     "Hail"
+    ],
+    [
+     "SAU_07",
+     "Tabouk"
+    ],
+    [
+     "SAU_08",
+     "Northern Borders"
+    ],
+    [
+     "SAU_09",
+     "Jazan"
+    ],
+    [
+     "SAU_10",
+     "Najran"
+    ],
+    [
+     "SAU_11",
+     "Al-Baha"
+    ],
+    [
+     "SAU_12",
+     "Al-Jouf"
+    ],
+    [
+     "SAU_14",
+     "Aseer"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Ar Riyadh"
+    ],
+    [
+     "2",
+     "Al Kharj"
+    ],
+    [
+     "3",
+     "Jiddah"
+    ],
+    [
+     "4",
+     "Makkah"
+    ],
+    [
+     "5",
+     "At Ta'if"
+    ],
+    [
+     "6",
+     "Damman"
+    ],
+    [
+     "7",
+     "Khobar"
+    ],
+    [
+     "8",
+     "Al Jubayl"
+    ],
+    [
+     "9",
+     "Dhahran"
+    ],
+    [
+     "10",
+     "Al Hufuf"
+    ],
+    [
+     "11",
+     "Yanbu' al Bahr"
+    ],
+    [
+     "12",
+     "Abha"
+    ],
+    [
+     "13",
+     "Najiran"
+    ],
+    [
+     "14",
+     "Jizan"
+    ],
+    [
+     "15",
+     "Buraydah"
+    ],
+    [
+     "16",
+     "Hail"
+    ],
+    [
+     "17",
+     "Tabuk"
+    ],
+    [
+     "18",
+     "All other zones"
+    ]
+   ]
+  }
+ ]
+}

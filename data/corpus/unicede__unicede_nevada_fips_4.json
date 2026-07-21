@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_nevada_fips_4.html",
+ "title": "Nevada (NV) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Nevada (NV) Counties\n\nFIPS codes for Nevada.\n\nFIPS State Code: 32\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Elko County, enter \n01-32007.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Churchill |\n| 003 | Clark |\n| 005 | Douglas |\n| 007 | Elko |\n| 009 | Esmeralda |\n| 011 | Eureka |\n| 013 | Humboldt |\n| 015 | Lander |\n| 017 | Lincoln |\n| 019 | Lyon |\n| 021 | Mineral |\n| 023 | Nye |\n| 027 | Pershing |\n| 029 | Storey |\n| 031 | Washoe |\n| 033 | White Pine |\n| 510 | Carson City |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Churchill"
+    ],
+    [
+     "003",
+     "Clark"
+    ],
+    [
+     "005",
+     "Douglas"
+    ],
+    [
+     "007",
+     "Elko"
+    ],
+    [
+     "009",
+     "Esmeralda"
+    ],
+    [
+     "011",
+     "Eureka"
+    ],
+    [
+     "013",
+     "Humboldt"
+    ],
+    [
+     "015",
+     "Lander"
+    ],
+    [
+     "017",
+     "Lincoln"
+    ],
+    [
+     "019",
+     "Lyon"
+    ],
+    [
+     "021",
+     "Mineral"
+    ],
+    [
+     "023",
+     "Nye"
+    ],
+    [
+     "027",
+     "Pershing"
+    ],
+    [
+     "029",
+     "Storey"
+    ],
+    [
+     "031",
+     "Washoe"
+    ],
+    [
+     "033",
+     "White Pine"
+    ],
+    [
+     "510",
+     "Carson City"
+    ]
+   ]
+  }
+ ]
+}

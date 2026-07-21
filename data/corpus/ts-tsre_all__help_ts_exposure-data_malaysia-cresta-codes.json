@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_malaysia-cresta-codes.html",
+ "title": "Malaysia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Malaysia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Malaysia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| MYS_01 | Johor |\n| MYS_02 | Kedah |\n| MYS_03 | Kelantan |\n| MYS_04 | Melaka |\n| MYS_05 | Negeri Sembilan |\n| MYS_06 | Pahang |\n| MYS_07 | Pulau Pinang |\n| MYS_08 | Perak |\n| MYS_09 | Perlis |\n| MYS_10 | Selangor |\n| MYS_11 | Terengganu |\n| MYS_12 | Sabah |\n| MYS_13 | Sarawak |\n| MYS_14 | Wilayah Persekutuan Kuala Lumpur |\n| MYS_15 | Wilayah Persekutuan Labuan |\n| MYS_16 | Wilayah Persekutuan Putrajaya |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "MYS_01",
+     "Johor"
+    ],
+    [
+     "MYS_02",
+     "Kedah"
+    ],
+    [
+     "MYS_03",
+     "Kelantan"
+    ],
+    [
+     "MYS_04",
+     "Melaka"
+    ],
+    [
+     "MYS_05",
+     "Negeri Sembilan"
+    ],
+    [
+     "MYS_06",
+     "Pahang"
+    ],
+    [
+     "MYS_07",
+     "Pulau Pinang"
+    ],
+    [
+     "MYS_08",
+     "Perak"
+    ],
+    [
+     "MYS_09",
+     "Perlis"
+    ],
+    [
+     "MYS_10",
+     "Selangor"
+    ],
+    [
+     "MYS_11",
+     "Terengganu"
+    ],
+    [
+     "MYS_12",
+     "Sabah"
+    ],
+    [
+     "MYS_13",
+     "Sarawak"
+    ],
+    [
+     "MYS_14",
+     "Wilayah Persekutuan Kuala Lumpur"
+    ],
+    [
+     "MYS_15",
+     "Wilayah Persekutuan Labuan"
+    ],
+    [
+     "MYS_16",
+     "Wilayah Persekutuan Putrajaya"
+    ]
+   ]
+  }
+ ]
+}

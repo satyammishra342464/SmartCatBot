@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_qatar-cresta-codes.html",
+ "title": "Qatar CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Qatar \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Qatar.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| QAT_DA | Al Dayyan |\n| QAT_KH | Al Khor and Al Thakhira |\n| QAT_MS | Al Shamal |\n| QAT_RA | Al Rayyan |\n| QAT_SH | Al Sheehaniya |\n| QAT_US | Umm Slal |\n| QAT_WA | Al Wakra |\n| QAT_ZA | Doha |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "QAT_DA",
+     "Al Dayyan"
+    ],
+    [
+     "QAT_KH",
+     "Al Khor and Al Thakhira"
+    ],
+    [
+     "QAT_MS",
+     "Al Shamal"
+    ],
+    [
+     "QAT_RA",
+     "Al Rayyan"
+    ],
+    [
+     "QAT_SH",
+     "Al Sheehaniya"
+    ],
+    [
+     "QAT_US",
+     "Umm Slal"
+    ],
+    [
+     "QAT_WA",
+     "Al Wakra"
+    ],
+    [
+     "QAT_ZA",
+     "Doha"
+    ]
+   ]
+  }
+ ]
+}

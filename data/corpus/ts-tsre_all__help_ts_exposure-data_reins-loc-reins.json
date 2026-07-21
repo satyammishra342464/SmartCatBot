@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_reins-loc-reins.html",
+ "title": "Reinsurance (location reinsurance)",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Reinsurance (location reinsurance)\n\nValidation rules for fields related to location reinsurance.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, the location, and then the \nReinsurance\n\n tab.\n\nNote:\n If the \nlimit\n type\n for a location is \nN - No limit\n, you cannot specify\n location reinsurance for the location. You can add location reinsurance from the\n \nReinsurance\n tab located at the bottom of the\n \nLocations\n tab. To add one or more reinsurance sets, open a\n contract, select the \nReinsurance\n tab, and then click \nAdd\n Reinsurance Set\n. \nTouchstone\n adds the\n reinsurance set columns at the far right of the \nReinsurance\n tab. As\n you scroll, you will see the identifier for each set of reinsurance: Reinsurance 1,\n Reinsurance 2, etc.\n\n| Field | Description | Validation rules | Default value |\n| --- | --- | --- | --- |\n| Reinsurer Name | The name of the reinsurer. | Optional Can contain up to 60 characters | |\n| Reinsurance Type | Available reinsurance types: Facultative (FAC) Surplus Share (SS) | This field is required if you are creating a new record or editing an\n existing record. The field defaults to a value in the Touchstone user interface. The surplus share type is not valid if the applicable contract has\n layers. The surplus share treaty IDs must match the treaty\n IDs for any surplus share reinsurance programs for\n occurrence or aggregate limits to be applied correctly. The Certificate ID field is used to specify treaty IDs for\n surplus share reinsurance. | Facultative |\n| Certificate ID | The certificate ID for facultative reinsurance. Specify the\n treaty ID for surplus share reinsurance. | This field is required if you are creating a new record or editing an\n existing record. Do not enter a value that begins with a space or contains commas or\n semicolons. This field can contain up to 100 characters. | |\n| Perils | The perils that this layer reinsurance certificate or\n treaty covers. See topics in the peril codes section for more information. Note: To specify multiple\n perils in a single entry within an import file, separate the\n corresponding peril codes with a Plus (+) symbol, such as,\n PWH+PES). | At least one peril is required if you are creating a new record or\n editing an existing record. Must be a subset of the contract peril set. | All perils (PAL) |\n| Ceded Amount | The ceded percentage value for the reinsurance treaties or\n certificates. (During import, the value is in the \"Ceded Percentage\"\n column.) | This field is required if you are creating a new record or editing an\n existing record. The amount must be greater than \"0\" if the reinsurance type is\n facultative. The numeric value must be between \"0\" and \"1\", inclusive, where \"1\" =\n 100%. | 100.00 |\n| Gross Limit | The gross limit, that is, the maximum amount of loss that\n this reinsurance treaty or certificate will cover. | This field is required if you are creating a new record or editing an\n existing record. If the reinsurance type is surplus share, and you enter multiple\n surplus share reinsurance terms, you should treat these terms\n sequentially, based on the order of rows, where attachment 1 + gross\n limit 1 <= attachment 2 + gross limit 2 ... <= attachment n +\n gross limit n. Enter a numeric value between 0 and 999999999999999, inclusive. | |\n| Attachment Point | The attachment point, that is, the amount of original risk\n above which the limit is attached for this reinsurance treaty or\n certificate. An attachment point is the loss amount at which excess\n reinsurance becomes operative. This term is synonymous with \"retention\"\n under an excess reinsurance contract. | This field defaults to a value in the Touchstone user interface. This field is required if you are creating a new record or editing an\n existing record. If the reinsurance type is surplus share and you enter multiple\n surplus share reinsurance terms, treat these terms sequentially, based\n on the order of rows, where attachment 1 + gross limit 1 <=\n attachment 2 + gross limit 2 ... <= attachment n + gross limit n\n . Enter a numeric value between 0 and 999999999999999, inclusive. | 0 |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation rules",
+    "Default value"
+   ],
+   "rows": [
+    [
+     "Reinsurer Name",
+     "The name of the reinsurer.",
+     "Optional Can contain up to 60 characters",
+     ""
+    ],
+    [
+     "Reinsurance Type",
+     "Available reinsurance types: Facultative (FAC) Surplus Share (SS)",
+     "This field is required if you are creating a new record or editing an\n                              existing record. The field defaults to a value in the Touchstone user interface. The surplus share type is not valid if the applicable contract has\n                              layers. The surplus share treaty IDs must match the treaty\n                                 IDs for any surplus share reinsurance programs for\n                              occurrence or aggregate limits to be applied correctly. The Certificate ID field is used to specify treaty IDs for\n                              surplus share reinsurance.",
+     "Facultative"
+    ],
+    [
+     "Certificate ID",
+     "The certificate ID for facultative reinsurance. Specify the\n                        treaty ID for surplus share reinsurance.",
+     "This field is required if you are creating a new record or editing an\n                              existing record. Do not enter a value that begins with a space or contains commas or\n                              semicolons. This field can contain up to 100 characters.",
+     ""
+    ],
+    [
+     "Perils",
+     "The perils that this layer reinsurance certificate or\n                        treaty covers. See topics in the peril codes section for more information. Note: To specify multiple\n                           perils in a single entry within an import file, separate the\n                           corresponding peril codes with a Plus (+) symbol, such as,\n                           PWH+PES).",
+     "At least one peril is required if you are creating a new record or\n                              editing an existing record. Must be a subset of the contract peril set.",
+     "All perils (PAL)"
+    ],
+    [
+     "Ceded Amount",
+     "The ceded percentage value for the reinsurance treaties or\n                        certificates. (During import, the value is in the \"Ceded Percentage\"\n                        column.)",
+     "This field is required if you are creating a new record or editing an\n                              existing record. The amount must be greater than \"0\" if the reinsurance type is\n                              facultative. The numeric value must be between \"0\" and \"1\", inclusive, where \"1\" =\n                              100%.",
+     "100.00"
+    ],
+    [
+     "Gross Limit",
+     "The gross limit, that is, the maximum amount of loss that\n                        this reinsurance treaty or certificate will cover.",
+     "This field is required if you are creating a new record or editing an\n                              existing record. If the reinsurance type is surplus share, and you enter multiple\n                              surplus share reinsurance terms, you should treat these terms\n                              sequentially, based on the order of rows, where attachment 1 + gross\n                              limit 1 <= attachment 2 + gross limit 2 ... <= attachment n +\n                              gross limit n. Enter a numeric value between 0 and 999999999999999, inclusive.",
+     ""
+    ],
+    [
+     "Attachment Point",
+     "The attachment point, that is, the amount of original risk\n                        above which the limit is attached for this reinsurance treaty or\n                           certificate. An attachment point is the loss amount at which excess\n                           reinsurance becomes operative. This term is synonymous with \"retention\"\n                           under an excess reinsurance contract.",
+     "This field defaults to a value in the Touchstone user interface. This field is required if you are creating a new record or editing an\n                              existing record. If the reinsurance type is surplus share and you enter multiple\n                              surplus share reinsurance terms, treat these terms sequentially, based\n                              on the order of rows, where attachment 1 + gross limit 1 <=\n                              attachment 2 + gross limit 2 ... <= attachment n + gross limit n\n                              . Enter a  numeric value between 0 and 999999999999999, inclusive.",
+     "0"
+    ]
+   ]
+  }
+ ]
+}

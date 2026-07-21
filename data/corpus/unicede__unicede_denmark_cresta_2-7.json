@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_denmark_cresta_2-7.html",
+ "title": "Denmark CRESTA Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Denmark \nCRESTA\n Codes (v2.7)\n \n\nCRESTA\n codes for Denmark supported by \nUNICEDE\n/2.\nThe codes listed below include the country code for Denmark (03).\n\n| Area Tag | Zone |\n| --- | --- |\n| 03-000 | DENMARK |\n| 03-001 | Jylland North |\n| 03-002 | Jylland West |\n| 03-003 | Jylland East |\n| 03-004 | Jylland Southwest |\n| 03-005 | Jylland Southeast |\n| 03-006 | Fyn |\n| 03-007 | Sjaelland West |\n| 03-008 | Sjaelland Southeast, Lolland, Falster, MÃ¸n |\n| 03-009 | Fredericksborg Amt |\n| 03-010 | Kobenhavn |\n| 03-011 | Bornholm |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "03-000",
+     "DENMARK"
+    ],
+    [
+     "03-001",
+     "Jylland North"
+    ],
+    [
+     "03-002",
+     "Jylland West"
+    ],
+    [
+     "03-003",
+     "Jylland East"
+    ],
+    [
+     "03-004",
+     "Jylland Southwest"
+    ],
+    [
+     "03-005",
+     "Jylland Southeast"
+    ],
+    [
+     "03-006",
+     "Fyn"
+    ],
+    [
+     "03-007",
+     "Sjaelland West"
+    ],
+    [
+     "03-008",
+     "Sjaelland Southeast, Lolland, Falster, MÃ¸n"
+    ],
+    [
+     "03-009",
+     "Fredericksborg Amt"
+    ],
+    [
+     "03-010",
+     "Kobenhavn"
+    ],
+    [
+     "03-011",
+     "Bornholm"
+    ]
+   ]
+  }
+ ]
+}

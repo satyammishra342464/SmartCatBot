@@ -1,0 +1,89 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_south_korea_cresta_2-10.html",
+ "title": "South Korea CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "South Korea \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for South Korea supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for South Korea (50).\n\n| Area Tag | Zone |\n| --- | --- |\n| 50-KOR | South Korea |\n| 50-KOR_11 | Seoul |\n| 50-KOR_26 | Busan |\n| 50-KOR_27 | Daegu |\n| 50-KOR_28 | Incheon |\n| 50-KOR_29 | Gwangju |\n| 50-KOR_30 | Daejeon |\n| 50-KOR_31 | Ulsan |\n| 50-KOR_41 | Gyeonggi-do |\n| 50-KOR_42 | Gangwon-do |\n| 50-KOR_43 | Chungcheongbuk-do |\n| 50-KOR_44 | Chungcheongnam-do |\n| 50-KOR_45 | Jeollabuk-do |\n| 50-KOR_46 | Jeollanam-do |\n| 50-KOR_47 | Gyeongsangbuk-do |\n| 50-KOR_48 | Gyeongsangnam-do |\n| 50-KOR_49 | Jeju-do |\n| 50-KOR_50 | Sejong-si |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "50-KOR",
+     "South Korea"
+    ],
+    [
+     "50-KOR_11",
+     "Seoul"
+    ],
+    [
+     "50-KOR_26",
+     "Busan"
+    ],
+    [
+     "50-KOR_27",
+     "Daegu"
+    ],
+    [
+     "50-KOR_28",
+     "Incheon"
+    ],
+    [
+     "50-KOR_29",
+     "Gwangju"
+    ],
+    [
+     "50-KOR_30",
+     "Daejeon"
+    ],
+    [
+     "50-KOR_31",
+     "Ulsan"
+    ],
+    [
+     "50-KOR_41",
+     "Gyeonggi-do"
+    ],
+    [
+     "50-KOR_42",
+     "Gangwon-do"
+    ],
+    [
+     "50-KOR_43",
+     "Chungcheongbuk-do"
+    ],
+    [
+     "50-KOR_44",
+     "Chungcheongnam-do"
+    ],
+    [
+     "50-KOR_45",
+     "Jeollabuk-do"
+    ],
+    [
+     "50-KOR_46",
+     "Jeollanam-do"
+    ],
+    [
+     "50-KOR_47",
+     "Gyeongsangbuk-do"
+    ],
+    [
+     "50-KOR_48",
+     "Gyeongsangnam-do"
+    ],
+    [
+     "50-KOR_49",
+     "Jeju-do"
+    ],
+    [
+     "50-KOR_50",
+     "Sejong-si"
+    ]
+   ]
+  }
+ ]
+}

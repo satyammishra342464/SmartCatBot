@@ -1,0 +1,91 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_marine-cargo-occ.html",
+ "title": "Marine cargo occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Marine cargo occupancy codes\n\nTouchstone\n 9.0 and later support occupancy\n codes for marine cargo occupancies.\n\nThe marine cargo occupancy codes are paired with marine cargo construction codes\n 2701-2720. Since the Standard Industrial Classification (SIC) codes are not mapped to\n 1000-series codes, \"n/a\" indicates that the column is not applicable.\n\nNote:\n The updated \nVerisk Typhoon Model for South Korea\n and \nVerisk Bushfire Model for Australia\n\n released with \nTouchstone 2025\n in June now support codes\n 1001-1012. The \nVerisk Inland Flood Model for Malaysia and Indonesia\n released with \nTouchstone 2025\n in October also support these codes.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\nFor information about models supporting the marine codes in \nTouchstone\n, refer to \nMarine Modeling in Touchstone\n, which is\n available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 1001 | Designated Facilities / Vaults | n/a | Facilities that are designed and built to store special types of cargo,\n such as explosives. This often includes higher design criteria or special\n protection measures for contents located in the facility. Vaults and\n protected storage for fine arts and specie. |\n| 1002 | Silo | n/a | A tower structure used to store bulk material. |\n| 1003 | Liquid Tanks | n/a | Tanks to store liquid material, usually in the port area. |\n| 1004 | Gas Tanks | n/a | Tanks containing gas material, usually in the port area. |\n| 1005 | Inside Warehouse at Port | n/a | Non-containerized cargoes stored in a warehouse in the port\n area. |\n| 1006 | Containerized Inside Warehouse | n/a | Containerized cargoes stored in a warehouse in the port area. |\n| 1007 | Containerized Stacked Outside | n/a | Containerized cargoes stored in open areas. |\n| 1008 | Open Lot or Stockpiled Outside | n/a | Non-containerized cargoes stored in open areas. |\n| 1009 | At Destination in Warehouse | n/a | Non-containerized cargoes stored in an inland warehouse. |\n| 1010 | At Destination Retail | n/a | Non-containerized cargoes stored as contents in retail spaces. |\n| 1011 | Museums, Institutions, Public Buildings | n/a | Fine arts displayed in museums and art institutions. |\n| 1012 | Retail & Private Buildings | n/a | Fine arts and specie stored in private buildings or in retail\n spaces. |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "1001",
+     "Designated Facilities / Vaults",
+     "n/a",
+     "Facilities that are designed and built to store special types of cargo,\n                        such as explosives. This often includes higher design criteria or special\n                        protection measures for contents located in the facility. Vaults and\n                        protected storage for fine arts and specie."
+    ],
+    [
+     "1002",
+     "Silo",
+     "n/a",
+     "A tower structure used to store bulk material."
+    ],
+    [
+     "1003",
+     "Liquid Tanks",
+     "n/a",
+     "Tanks to store liquid material, usually in the port area."
+    ],
+    [
+     "1004",
+     "Gas Tanks",
+     "n/a",
+     "Tanks containing gas material, usually in the port area."
+    ],
+    [
+     "1005",
+     "Inside Warehouse at Port",
+     "n/a",
+     "Non-containerized cargoes stored in a warehouse in the port\n                        area."
+    ],
+    [
+     "1006",
+     "Containerized Inside Warehouse",
+     "n/a",
+     "Containerized cargoes stored in a warehouse in the port area."
+    ],
+    [
+     "1007",
+     "Containerized Stacked Outside",
+     "n/a",
+     "Containerized cargoes stored in open areas."
+    ],
+    [
+     "1008",
+     "Open Lot or Stockpiled Outside",
+     "n/a",
+     "Non-containerized cargoes stored in open areas."
+    ],
+    [
+     "1009",
+     "At Destination in Warehouse",
+     "n/a",
+     "Non-containerized cargoes stored in an inland warehouse."
+    ],
+    [
+     "1010",
+     "At Destination Retail",
+     "n/a",
+     "Non-containerized cargoes stored as contents in retail spaces."
+    ],
+    [
+     "1011",
+     "Museums, Institutions, Public Buildings",
+     "n/a",
+     "Fine arts displayed in museums and art institutions."
+    ],
+    [
+     "1012",
+     "Retail & Private Buildings",
+     "n/a",
+     "Fine arts and specie stored in private buildings or in retail\n                        spaces."
+    ]
+   ]
+  }
+ ]
+}

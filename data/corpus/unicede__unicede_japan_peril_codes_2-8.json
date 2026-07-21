@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_japan_peril_codes_2-8.html",
+ "title": "Japan Peril Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Japan Peril Codes (v2.8)\n \n\nPeril codes for Japan supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for Perils Covered for risks in Japan:\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWF | Wind and Fire |\n| PWS | Windstorm only |\n| PAN | Pandemic |\n\nNote:\n\nUse \nW\n as the coverage for the pandemic peril",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWF",
+     "Wind and Fire"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PAN",
+     "Pandemic"
+    ]
+   ]
+  }
+ ]
+}

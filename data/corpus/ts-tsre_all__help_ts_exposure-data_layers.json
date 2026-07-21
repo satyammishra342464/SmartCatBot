@@ -1,0 +1,624 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_layers.html",
+ "title": "Layers",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layers\n\nValidation rules for fields related to layers.\n\nProject Data\n > \nExposure Views\n > \n{Select an Exposure View}\n > \nContract List\n > \n{Select a Contract}\n > \nContract Details Pane\n > \n Layers\n\nLinks to Layer fields information\n\nClick a link to go directly to the field for information.\n\n| Type field | Limit 3 (Limit C) (for sublimits only) field | Deductible 3 field |\n| Layer ID field | Limit 4 (Limit D) (for sublimits only) field | Deductible 4 field |\n| Sublimit ID field | Participation Limit % (0-1) field | Aggregate Limit Type field |\n| Currency field | Attachment Point field | Aggregate Limit field |\n| Premium field | Attachment 2 (Attachment B) (for sublimits only) field | Aggregate Attachment Point field |\n| Perils field | Attachment 3 (Attachment C) (for sublimits only) field | Aggregate Deductible Type field |\n| Applies To Locations field | Attachment 4 (Attachment D) (for sublimits only) field | Aggregate Deductible field |\n| Limit Type field | Deductible Type field | Reinsurance Count field |\n| Total Limit (Limit 1 and Limit 2) field | Deductible 1 field | |\n| Participation Limit (Limit 2) field | Deductible 2 field | |\n\nType field\n\n| Item | Information |\n| --- | --- |\n| Description | The Type field identifies each layer and sublimit.\n Users can create items by selecting \"Layer\" or \"Sublimit\" in the Add row. |\n| Validation rules | Not applicable |\n| Default value | Not applicable |\n\nLayer ID field\n\n| Item | Information |\n| --- | --- |\n| Description | The Layer ID field identifies a unique user-defined\n layer. |\n| Validation rules | The Layer ID field is required if you are creating a new\n record or editing an existing record. You must number layers sequentially, starting with \"1\" for the first\n layer of the contract. You cannot create a layer if associated locations (i.e., any\n locations in the associated exposure view) have a reinsurance type of\n surplus share. The layer ID cannot begin with a space or contain commas or\n semicolons. The layer ID can contain up to 100 characters. |\n| Default value | Not applicable. |\n\nSublimit ID field\n\n| Item | Information |\n| --- | --- |\n| Description | The Sublimit ID field contains the ID for the\n sublimit. |\n| Validation rules | This field is read-only. |\n| Default value | Not applicable. |\n\nCurrency field\n\n| Item | Information |\n| --- | --- |\n| Description | The Currency field identifies the currency code for\n the contract to which this layer belongs. |\n| Validation rules | This field is read-only. |\n| Default value | Not applicable. |\n\nPremium field\n\n| Item | Information |\n| --- | --- |\n| Description | The Premium field is used to specify the sum of the\n written premiums for the risks in this layer. |\n| Validation rules | The validation rules for this field are: This field is optional. If you use this field, you must enter a numeric value between 1 and\n 999999999999999, inclusive. |\n| Default value | Not applicable. |\n\nPerils field\n\n| Item | Information |\n| --- | --- |\n| Description | The Perils field lists the perils that are covered\n by this layer. Note: To specify multiple perils in a single entry\n within an import file, separate the corresponding peril codes with a plus\n (+) symbol, for example, PWH+PES). |\n| Validation rules | The validation rules for the field are: You must specify at least one peril if you are creating a new record\n or editing an existing record. The selected perils must be a subset of the contract list peril\n set. |\n| Default value | The default is for all perils to be selected (PAL). |\n\nApplies To Locations field\n\n| Item | Information |\n| --- | --- |\n| Description | The Applies To Locations field is used to specify\n the sublimit area to which the sublimit will be applied. Values include\n \"Create New\", \"All\", and any existing sublimit areas. |\n| Validation rules | Not applicable. You select a value in the list. |\n| Default value | Not applicable. Select a value in the list. |\n\nLimit Type field\n\n| Item | Information |\n| --- | --- |\n| Description | The Limit Type field is used to specify one of the\n following limit types: B - Blanket Limit C - Limit by Coverage CB - Combined, excluding time CT - Combined, including time limit CSL100 - Combined Single Limit 100% participation CSLAI - Combined Single Limit Assured Interest E - Excess Limit N - No limit For detailed information about the effects that each layer limit\n type has on the related layer fields, see Limit Fields for\n Layers . For a list of the valid limit type combinations\n for layers, sublimits, and locations, see Limit Type\n Combinations . |\n| Validation rules | This field identifies the limit type for the selected\n layer. |\n| Default value | The default value is B - Blanket Limit. |\n\nTotal Limit (Limit 1 and Limit 2) field\n\n| Item | Information |\n| --- | --- |\n| Description | Occurrence limit for layers For Excess Limit\n policies, enter the appropriate limit. If statutory cover applies above\n one excess layer, include another layer record. For detailed information\n about the effects that each layer limit type has on the total limit and\n on related limit fields, see Limit Fields for\n Layers . For Workers' Compensation policies, enter terms\n in the layer record, not in the location record. For statutory coverage\n with no deductible or retention, no layer is required (loss is\n unlimited). If a deductible applies, include a layer record, and make\n sure that the total limit is a large value. Occurrence limit\n amount for sublimits (Limit 1) Enter amount for coverage A\n limit for: blanket (B), excess (E), by-coverage (C, C100, and CAI), and\n combined coverage (CB) sublimits. For all other sublimit types, this\n field is not applicable. Enter amount for amount for sublimits\n (Limit 2) Enter amount for coverage B limit for: by-coverage\n (C, C100, and CAI) sublimits. For all other sublimit types, this field is\n not applicable. |\n| Validation rules | These are the validation rules for layers for Limit 1 and\n Limit 2 fields. The rules apply to all layer limit types except for N- No Limit; the\n Limit 1 and Limit 2 fields must be blank (0) if the limit type is N -\n No limit. For limit types B, CSL100, and CSLAI, enter a numeric value between 0\n and 999,999,999,999,999.99 inclusive. For limit type E, enter a numeric value between 1 and\n 999999999999999, inclusive. These are the validation rules for sublimits (Limit 1): You must enter a value if the limit type is one of the following: B â Blanket Limit C â Limit by Coverage CB â Combined, Including Time Separately CAI â Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: E â Excess Limit N â No limit Enter a numeric value between 0 and 999,999,999,999,999\n inclusive. Validation rules for sublimits (Limit 2): You must enter a value if the limit type is one of the following: C â Limit by Coverage C100 â Limit by Coverage 100% Participation CAI â Limit by Coverage with Assured Interest Enter a blank (0) if the limit type is one of the following: B â Blanket Limit E â Excess Limit CB â Combined, Including Time Separately N â No limit Enter a numeric value between 0 and 999,999,999,999,999\n inclusive. |\n| Default value | Not applicable. |\n\nParticipation Limit (Limit 2) field\n\n| Item | Information |\n| --- | --- |\n| Description | Participation limit for layers The Participation\n Limit (Limit 2) field displays the occurrence\n participation limit for layers. For E - Excess Limit policies, this\n field represents the gross limit for the insurer's participation in this\n layer before ceded reinsurance, if any. For example, if the insurer signs\n 4% of 100 million excess of 5 million, then the gross limit is 4\n million. For detailed information about the effects that each of\n the layer limit types has on the participation limit and other related\n layer fields, see Limit Fields for\n Layers . Participation limit for\n sublimits The Participation Limit (Limit\n 2) field displays the occurrence participation limit for\n sublimits. For E - Excess Limit policies, this field represents the\n gross limit for the insurer's participation in this layer before ceded\n reinsurance, if any. For example, if the insurer signs 4% of 100 million\n excess of 5 million, then the gross limit is 4 million. For\n detailed information about the effects that each of the layer limit types\n has on the participation limit and other related layer fields, see Limit Fields for\n Layers . |\n| Validation rules | These are the validation rules for layers for this field. You must enter a value if the limit type is E - Excess Limit. The field defaults to a value in the Touchstone user interface if the\n limit type is E - Excess Limit. Leave the field blank (1) if the limit type is one of the following: B - Blanket Amount N - No limit Leave the field blank (1) if the limit type is one of the following: B - Blanket Amount N - No limit The value can only be greater than the total limit if the limit type\n is N - No limit. Enter a numeric value between 0 and 999999999999999, inclusive. These are the validation rules for sublimits for this field: You must enter a value if the limit type is E - Excess Limit. The field defaults to a value in the Touchstone user interface if the\n limit type is E - Excess Limit. Leave the field blank (1) if the limit type is one of the following: B - Blanket Amount N - No limit The value can only be greater than the total limit if the limit type\n is N - No limit. Enter a numeric value between 0 and 999999999999999, inclusive. |\n| Default value | Not applicable. |\n\nLimit 3 (Limit C) (for sublimits only) field\n\n| Item | Information |\n| --- | --- |\n| Description | The Limit 3 (Limit C) field specifies Coverage C\n limit for by-coverage (C, C100, and CAI) sublimits. The field does not apply\n to any other sublimit types. |\n| Validation rules | The validation rules for the this field are: You must specify a value if the limit type is one of the following: C - Limit by Coverage C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the\n following: B - Blanket Limit E - Excess Limit CB - Combined, Including Time Separately N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be intepreted as percentages\n (eg., 0.12 as 12%). |\n| Default value | Not applicable. |\n\nLimit 4 (Limit D) (for sublimits only) field\n\n| Item | Information |\n| --- | --- |\n| Description | The Limit 4 (Limit D) field specifies Coverage D\n limit for by-coverage (C, C100, and CAI) and combined coverage (CB)\n sublimits. The field does not apply to any other sublimit types. |\n| Validation rules | The validation rules for sublimits for Limit 4 (Limit\n D) are: You must enter a value if the limit type is one of the following: C - Limit by Coverage CB - Combined, Including Time Separately C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave this field blank (0) if the limit type is one of the\n following: B - Blanket Limit E - Excess Limit N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be intepreted as percentages\n (eg., 0.12 as 12%). |\n| Default value | Not applicable. |\n\nParticipation Limit % (0-1) field\n\n| Item | Information |\n| --- | --- |\n| Description | The Participation Limit % (0-1) field displays the\n occurrence participation limit as a percentage of the total\n limit. Touchstone updates\n the value in this field when you modify the value in the Participation\n Limit (Limit 2) column, and vice-versa. This field is not\n supported for sublimits. |\n| Validation rules | These are the validation rules for the Participation %\n (0-1) field: You must enter a value if the limit type is E - Excess Limit. The field defaults to a value in the Touchstone user interface if the\n limit type is E - Excess Limit. For limit type E - Excess Limit, the percentage value is expressed as\n a value greater than or equal to 0. For limit types CSL 100 and CSLAI,\n the percentage value is expressed as a value greater than or equal to\n 1. This field is not available if the limit type is: B - Blanket Amount N - No limit The value can only be greater than the total limit if the limit type\n is N - No limit. |\n| Default value | See \"Validation rules\" for information about field\n defaults. |\n\nAttachment Point field\n\n| Item | Information |\n| --- | --- |\n| Description | Attachment point for layers This field specifies\n the amount of original risk above which the limit will be attached. You\n can enter deductibles separately or include deductibles as part of the\n attachment point with a $0 deductible used. For detailed\n information about the effects that each of the layer limit types has on\n the attachment point and other related layer fields, see Limit Fields for\n Layers . Attachment point for sublimits This field\n specifies the Coverage A attachment point for by-coverage (C, C100, and\n CAI) sublimits. For all other sublimit types, this field is not\n applicable. |\n| Validation rules | These are the validation rules for this field: This field defaults to a value in the Touchstone user interface if the\n limit type is one of the following: CSL100 â Combined Single Limit 100% participation CSLAI â Combined Single Limit Assured Interest Leave the field blank (0) if the limit type is N â No limit. Enter a numeric value between 0 and 999999999999999, inclusive. |\n| Default value | The default value is 0. |\n\nAttachment 2 (Attachment B) (for sublimits only) field\n\n| Item | Information |\n| --- | --- |\n| Description | The Attachment 2 (Attachment B) field specifies the\n Coverage B attachment point for by-coverage (C, C100, and CAI) sublimits.The\n field does not apply to any other sublimit types. |\n| Validation rules | The validation rules for sublimits for this field are: You must enter a value if the limit type is one of the following: C - Limit by Coverage C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: Excess Limit B - Blanket Limit CB - Combined, Including Time Separately N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. |\n| Default value | Not applicable. |\n\nAttachment 3 (Attachment C) (for sublimits only) field\n\n| Item | Information |\n| --- | --- |\n| Description | The Attachment 3 (Attachment C) field specifies the\n Coverage C attachment point for by-coverage (C, C100, and CAI) sublimits.\n The field does not apply to any other sublimit types. |\n| Validation rules | The validation rules for sublimits for this field are: You must enter a value if the limit type is one of the following: C - Limit by Coverage C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: B - Blanket Limit E - Excess Limit CB - Combined, Including Time Separately N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. |\n| Default value | Not applicable. |\n\nAttachment 4 (Attachment D) (for sublimits only) field\n\n| Item | Information |\n| --- | --- |\n| Description | The Attachment 4 (Attachment D) field specifies the Coverage D\n attachment point for by-coverage (C, C100, and CAI) sublimits and for\n combined coverage (CB) sublimits.The field does not apply to any other\n sublimit types. |\n| Validation rules | The validation rules for sublimits for this field are: You must enter a value if the limit type is one of the following: C - Limit by Coverage CB - Combined, Including Time Separately C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: B - Blanket Limit E - Excess Limit N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. |\n| Default value | Not applicable. |\n\nDeductible Type field\n\n| Item | Information |\n| --- | --- |\n| Description | The Deductible Type field supports the following\n deductible types: AP - Attachment Point B - Blanket Deductible C - Deductible by Coverage FR - Franchise Deductible MA - Maximum Deductible Amount MI - Minimum Deductible Amount MM - Minimum and Maximum N - No Deductible PL - Percent of Loss For AP - Attachment Point, FR - Franchise Deductible, B - Blanket\n Deductible, and PL - Percent of Loss deductible types, Touchstone applies the location level\n deductibles, if any, first. For MM - Minimum and Maximum, MI -\n Minimum Deductible Amount, and MA - Maximum Deductible Amount deductible\n types, Touchstone compares the\n location deductible (for the risks affected by a given event) to the\n layer deductible using the full ground-up distribution to determine the\n deductible amount. For detailed information about the effects that\n each of the layer deductible types has on the related layer fields, see Deductible Fields for Layers . For a listing of the valid\n deductible combinations for layers, sublimits, and locations, see Deductible\n Type Combinations . |\n| Validation rules | The validation rules for this field are: The field defaults to a value in the Touchstone user interface. The field must be N - No Deductible if the limit type is one of the\n following types: CSL100 - Combined Single Limit 100% participation CSLAI - Combined Single Limit Assured Interest The minimum policy deductible should be at least as large as the\n smallest location deductible . |\n| Default value | N - No Deductible |\n\nDeductible 1 field\n\n| Item | Information |\n| --- | --- |\n| Description | The Deductible 1 field contains the value specified\n for deductible 1. Depending on the deductible type, this field contains\n the actual value of: Attachment point Minimum deductible (for Deductible Types MM - Minimum and Maximum or\n MI - Minimum Deductible Amount). This applies only to Property\n exposures. Blanket deductible (for Deductible Type B - Blanket Deductible or FR\n - Franchise Deductible). For the PL - Percent of Loss deductible type, this field specifies a\n percentage For detailed information about the effects that each of\n the layer deductible types has on the deductible 1 and other related\n layer fields, see Deductible\n Fields for Layers . |\n| Validation rules | The validation rules for the this field are: Enter a numeric value between 0 and 999999999999999, inclusive, if\n the deductible is one of the following types: AP - Attachment Point B - Blanket Deductible C - Deductible by Coverage FR - Franchise Deductible MI - Minimum Deductible Amount MM - Minimum and Maximum Must be blank (0) if the deductible type is MA - Maximum Deductible\n or N - No Deductible. MA - Maximum Deductible Enter a value of 0 or less than 1 if the deductible type is PL -\n Percent of Loss. Enter a value that is less than deductible 2 if the deductible type\n is PL - Percent of Loss. Any value less than or equal to 1 will be changed to 0. |\n| Default value | N - No Deductible. |\n\nDeductible 2 field\n\n| Item | Information |\n| --- | --- |\n| Description | The Deductible 2 field contains the value for\n deductible 2. The field represents the actual value of the maximum\n deductible amount for deductible type MM - Minimum and Maximum. This\n field applies only to Property exposures. For detailed information\n about the effects that each of the layer deductible types has on the\n deductible 2 and other related layer fields, see Deductible\n Fields for Layers . |\n| Validation rules | The validation rules for this field are: You must enter a value if the deductible type is one of the following: MM - Minimum and Maximum MA - Maximum Deductible Amount Leave the field blank (0) if the deductible type is one of the following: AP - Attachment Point B - Blanket FR - Franchise Deductible MI - Minimum Deductible PL - Percent of Loss N - No Deductible Enter a value greater than deductible 1 if the deductible type is MM\n - Minimum and Maximum. Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be changed to 0. |\n| Default value | Not applicable. |\n\nDeductible 3 field\n\n| Item | Information |\n| --- | --- |\n| Description | The Deductible 3 field contains the value for\n deductible 3. For detailed information about the effects that each of the\n layer deductible types has on the deductible 3 and other related layer\n fields, see Deductible\n Fields for Layers . |\n| Validation rules | The validation rules for this field are: Any value less than or equal to 1 will be interpreted as percentages\n (eg., 0.12 as 12%). |\n| Default value | Not applicable. |\n\nDeductible 4 field\n\n| Item | Information |\n| --- | --- |\n| Description | The Deductible 4 field contains the value for\n deductible 4. |\n| Validation rules | The validation rule for this field is: Any value less than or equal to 1 will be interpreted as percentages\n (eg., 0.12 as 12%). |\n| Default value | Not applicable. |\n\nAggregate Limit Type field\n\n| Item | Information |\n| --- | --- |\n| Description | The Aggregate Limit Type field specifies the type of\n annual aggregate limit: AGGL - Annual Aggregate Limit or N - No\n Limit. |\n| Validation rules | The validation rule for this field is: The maximum length is 10. |\n| Default value | The default value is N - No Limit. |\n\nAggregate Limit field\n\n| Item | Information |\n| --- | --- |\n| Description | The Aggregate Limit field specifies the maximum\n amount payable under the contract layer that provides overall maximum loss\n limitation. |\n| Validation rules | The validation rules for this field are: Enter a numeric value between 0 and 999999999999999, inclusive. Enter an attachment point. |\n| Default value | Not applicable. |\n\nAggregate Attachment Point field\n\n| Item | Information |\n| --- | --- |\n| Description | The Aggregate Attachment Point field specifies the\n aggregate amount of all the attachment points under the contract\n layer. |\n| Validation rules | The validation rules for this field are: Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be interpreted as percentages\n (eg., 0.12 as 12%). |\n| Default value | Not applicable. |\n\nAggregate Deductible Type field \n\n| Item | Information |\n| --- | --- |\n| Description | The Aggregate Deductible Type field allows you to\n specify AGGD - Annual Aggregate Deductible or N - No Deductible. |\n| Validation rules | Not applicable. Select AGGD or N. |\n| Default value | The default value is N - No Deductible. |\n\nAggregate Deductible field\n\n| Item | Information |\n| --- | --- |\n| Description | The Aggregate Deductible field allows you to specify\n the maximum deductible amount payable under the aggregate deductible limit. |\n| Validation rules | The validation rules for this field are: Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be interpreted as percentages\n (eg., 0.12 as 12%). |\n| Default value | Not applicable. |\n\nReinsurance Count field\n\n| Item | Information |\n| --- | --- |\n| Description | The Reinsurance Count field displays the number of reinsurance\n treaties for the selected layer. |\n| Validation rules | The field is read-only. Clicking the hyperlinked value\n opens the Reinsurance tab in the Layer Details record where you can view and manage the reinsurance terms for\n the layer . Note: Clicking Layer ID also opens\n the Layer Details record. |\n| Default value | |",
+ "tables": [
+  {
+   "headers": [],
+   "rows": [
+    [
+     "Type field",
+     "Limit 3 (Limit C) (for sublimits only) field",
+     "Deductible 3 field"
+    ],
+    [
+     "Layer ID field",
+     "Limit 4 (Limit D) (for sublimits only) field",
+     "Deductible 4 field"
+    ],
+    [
+     "Sublimit ID field",
+     "Participation Limit % (0-1) field",
+     "Aggregate Limit Type field"
+    ],
+    [
+     "Currency field",
+     "Attachment Point field",
+     "Aggregate Limit field"
+    ],
+    [
+     "Premium field",
+     "Attachment 2 (Attachment B) (for sublimits only) field",
+     "Aggregate Attachment Point field"
+    ],
+    [
+     "Perils field",
+     "Attachment 3 (Attachment C) (for sublimits only) field",
+     "Aggregate Deductible Type field"
+    ],
+    [
+     "Applies To Locations field",
+     "Attachment 4 (Attachment D) (for sublimits only) field",
+     "Aggregate Deductible field"
+    ],
+    [
+     "Limit Type field",
+     "Deductible Type field",
+     "Reinsurance Count field"
+    ],
+    [
+     "Total Limit (Limit 1 and Limit 2) field",
+     "Deductible 1 field",
+     ""
+    ],
+    [
+     "Participation Limit (Limit 2) field",
+     "Deductible 2 field",
+     ""
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Type field identifies each layer and sublimit.\n                        Users can create items by selecting \"Layer\" or \"Sublimit\" in the Add row."
+    ],
+    [
+     "Validation rules",
+     "Not applicable"
+    ],
+    [
+     "Default value",
+     "Not applicable"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Layer ID field identifies a unique user-defined\n                        layer."
+    ],
+    [
+     "Validation rules",
+     "The Layer ID field is required if you are creating a new\n                              record or editing an existing record. You must number layers sequentially, starting with \"1\" for the first\n                              layer of the contract. You cannot create a layer if associated locations (i.e., any\n                              locations in the associated exposure view) have a reinsurance type of\n                              surplus share. The layer ID cannot begin with a space or contain commas or\n                              semicolons. The layer ID can contain up to 100 characters."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Sublimit ID field contains the ID for the\n                        sublimit."
+    ],
+    [
+     "Validation rules",
+     "This field is read-only."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Currency field identifies the currency code for\n                        the contract to which this layer belongs."
+    ],
+    [
+     "Validation rules",
+     "This field is read-only."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Premium field is used to specify the sum of the\n                        written premiums for the risks in this layer."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: This field is optional. If you use this field, you must enter a numeric value between 1 and\n                              999999999999999, inclusive."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Perils field lists the perils that are covered\n                        by this layer. Note: To specify multiple perils in a single entry\n                           within an import file, separate the corresponding peril codes with a plus\n                           (+) symbol, for example, PWH+PES)."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for the field are: You must specify at least one peril if you are creating a new record\n                              or editing an existing record. The selected perils must be a subset of the contract list peril\n                              set."
+    ],
+    [
+     "Default value",
+     "The default is for all perils to be selected (PAL)."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Applies To Locations field is used to specify\n                        the sublimit area to which the sublimit will be applied. Values include\n                        \"Create New\", \"All\", and any existing sublimit areas."
+    ],
+    [
+     "Validation rules",
+     "Not applicable. You select a value in the list."
+    ],
+    [
+     "Default value",
+     "Not applicable. Select a value in the list."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Limit Type field is used to specify one of the\n                        following limit types: B - Blanket Limit C - Limit by Coverage CB - Combined, excluding time CT - Combined, including time limit CSL100 - Combined Single Limit 100% participation CSLAI - Combined Single Limit Assured Interest E - Excess Limit N - No limit For detailed information about the effects that each layer limit\n                           type has on the related layer fields, see Limit Fields for\n                              Layers . For a list of the valid limit type combinations\n                           for layers, sublimits, and locations, see Limit Type\n                              Combinations ."
+    ],
+    [
+     "Validation rules",
+     "This field identifies the limit type for the selected\n                           layer."
+    ],
+    [
+     "Default value",
+     "The default value is B - Blanket Limit."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "Occurrence limit for layers For Excess Limit\n                           policies, enter the appropriate limit. If statutory cover applies above\n                           one excess layer, include another layer record. For detailed information\n                           about the effects that each layer limit type has on the total limit and\n                           on related limit fields, see Limit Fields for\n                              Layers . For Workers' Compensation policies, enter terms\n                           in the layer record, not in the location record. For statutory coverage\n                           with no deductible or retention, no layer is required (loss is\n                           unlimited). If a deductible applies, include a layer record, and make\n                           sure that the total limit is a large value. Occurrence limit\n                              amount for sublimits (Limit 1) Enter amount for coverage A\n                           limit for: blanket (B), excess (E), by-coverage (C, C100, and CAI), and\n                           combined coverage (CB) sublimits. For all other sublimit types, this\n                           field is not applicable. Enter amount for amount for sublimits\n                              (Limit 2) Enter amount for coverage B limit for: by-coverage\n                           (C, C100, and CAI) sublimits. For all other sublimit types, this field is\n                           not applicable."
+    ],
+    [
+     "Validation rules",
+     "These are the validation rules for layers for Limit 1 and\n                        Limit 2 fields. The rules apply to all layer limit types except for N- No Limit; the\n                              Limit 1 and Limit 2 fields must be blank (0) if the limit type is N -\n                              No limit. For limit types B, CSL100, and CSLAI, enter a numeric value between 0\n                              and 999,999,999,999,999.99 inclusive. For limit type E, enter a numeric value between 1 and\n                              999999999999999, inclusive. These are the validation rules for sublimits (Limit 1): You must enter a value if the limit type is one of the following: B â Blanket Limit C â Limit by Coverage CB â Combined, Including Time Separately CAI â Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: E â Excess Limit N â No limit Enter a numeric value between 0 and 999,999,999,999,999\n                              inclusive. Validation rules for sublimits (Limit 2): You must enter a value if the limit type is one of the following: C â Limit by Coverage C100 â Limit by Coverage 100% Participation CAI â Limit by Coverage with Assured Interest Enter a blank (0) if the limit type is one of the following: B â Blanket Limit E â Excess Limit CB â Combined, Including Time Separately N â No limit Enter a numeric value between 0 and 999,999,999,999,999\n                              inclusive."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "Participation limit for layers The Participation\n                              Limit (Limit 2) field displays the occurrence\n                           participation limit for layers. For E - Excess Limit policies, this\n                           field represents the gross limit for the insurer's participation in this\n                           layer before ceded reinsurance, if any. For example, if the insurer signs\n                           4% of 100 million excess of 5 million, then the gross limit is 4\n                           million. For detailed information about the effects that each of\n                           the layer limit types has on the participation limit and other related\n                           layer fields, see Limit Fields for\n                              Layers . Participation limit for\n                           sublimits The Participation Limit (Limit\n                              2) field displays the occurrence participation limit for\n                           sublimits. For E - Excess Limit policies, this field represents the\n                           gross limit for the insurer's participation in this layer before ceded\n                           reinsurance, if any. For example, if the insurer signs 4% of 100 million\n                           excess of 5 million, then the gross limit is 4 million. For\n                           detailed information about the effects that each of the layer limit types\n                           has on the participation limit and other related layer fields, see Limit Fields for\n                              Layers ."
+    ],
+    [
+     "Validation rules",
+     "These are the validation rules for layers for this field. You must enter a value if the limit type is E - Excess Limit. The field defaults to a value in the Touchstone user interface if the\n                              limit type is E - Excess Limit. Leave the field blank (1) if the limit type is one of the following: B - Blanket Amount N - No limit Leave the field blank (1) if the limit type is one of the following: B - Blanket Amount N - No limit The value can only be greater than the total limit if the limit type\n                              is N - No limit. Enter a numeric value between 0 and 999999999999999, inclusive. These are the validation rules for sublimits for this field: You must enter a value if the limit type is E - Excess Limit. The field defaults to a value in the Touchstone user interface if the\n                              limit type is E - Excess Limit. Leave the field blank (1) if the limit type is one of the following: B - Blanket Amount N - No limit The value can only be greater than the total limit if the limit type\n                              is N - No limit. Enter a numeric value between 0 and 999999999999999, inclusive."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Limit 3 (Limit C) field specifies Coverage C\n                        limit for by-coverage (C, C100, and CAI) sublimits. The field does not apply\n                        to any other sublimit types."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for the this field are: You must specify a value if the limit type is one of the following: C - Limit by Coverage C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the\n                              following: B - Blanket Limit E - Excess Limit CB - Combined, Including Time Separately N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be intepreted as percentages\n                              (eg., 0.12 as 12%)."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Limit 4 (Limit D) field specifies Coverage D\n                        limit for by-coverage (C, C100, and CAI) and combined coverage (CB)\n                        sublimits. The field does not apply to any other sublimit types."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for sublimits for Limit 4 (Limit\n                              D) are: You must enter a value if the limit type is one of the following: C - Limit by Coverage CB - Combined, Including Time Separately C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave this field blank (0) if the limit type is one of the\n                              following: B - Blanket Limit E - Excess Limit N - No limit Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be intepreted as percentages\n                              (eg., 0.12 as 12%)."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Participation Limit % (0-1) field displays the\n                        occurrence participation limit as a percentage of the total\n                              limit. Touchstone updates\n                           the value in this field when you modify the value in the Participation\n                              Limit (Limit 2) column, and vice-versa. This field is not\n                        supported for sublimits."
+    ],
+    [
+     "Validation rules",
+     "These are the validation rules for the Participation %\n                           (0-1) field: You must enter a value if the limit type is E - Excess Limit. The field defaults to a value in the Touchstone user interface if the\n                              limit type is E - Excess Limit. For limit type E - Excess Limit, the percentage value is expressed as\n                              a value greater than or equal to 0. For limit types CSL 100 and CSLAI,\n                              the percentage value is expressed as a value greater than or equal to\n                              1. This field is not available if the limit type is: B - Blanket Amount N - No limit The value can only be greater than the total limit if the limit type\n                              is N - No limit."
+    ],
+    [
+     "Default value",
+     "See \"Validation rules\" for information about field\n                        defaults."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "Attachment point for layers This field specifies\n                           the amount of original risk above which the limit will be attached. You\n                           can enter deductibles separately or include deductibles as part of the\n                           attachment point with a $0 deductible used. For detailed\n                           information about the effects that each of the layer limit types has on\n                           the attachment point and other related layer fields, see Limit Fields for\n                              Layers . Attachment point for sublimits This field\n                           specifies the Coverage A attachment point for by-coverage (C, C100, and\n                           CAI) sublimits. For all other sublimit types, this field is not\n                           applicable."
+    ],
+    [
+     "Validation rules",
+     "These are the validation rules for this field: This field defaults to a value in the Touchstone user interface if the\n                              limit type is one of the following: CSL100 â Combined Single Limit 100% participation CSLAI â Combined Single Limit Assured Interest Leave the field blank (0) if the limit type is N â No limit. Enter a numeric value between 0 and 999999999999999, inclusive."
+    ],
+    [
+     "Default value",
+     "The default value is 0."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Attachment 2 (Attachment B) field specifies the\n                        Coverage B attachment point for by-coverage (C, C100, and CAI) sublimits.The\n                        field does not apply to any other sublimit types."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for sublimits for this field are: You must enter a value if the limit type is one of the following: C - Limit by Coverage C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: Excess Limit B - Blanket Limit CB - Combined, Including Time Separately N - No limit Enter a numeric value between 0 and 999999999999999, inclusive."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Attachment 3 (Attachment C) field specifies the\n                        Coverage C attachment point for by-coverage (C, C100, and CAI) sublimits.\n                        The field does not apply to any other sublimit types."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for sublimits for this field are: You must enter a value if the limit type is one of the following: C - Limit by Coverage C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: B - Blanket Limit E - Excess Limit CB - Combined, Including Time Separately N - No limit Enter a numeric value between 0 and 999999999999999, inclusive."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Attachment 4 (Attachment D) field specifies the Coverage D\n                        attachment point for by-coverage (C, C100, and CAI) sublimits and for\n                        combined coverage (CB) sublimits.The field does not apply to any other\n                        sublimit types."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for sublimits for this field are: You must enter a value if the limit type is one of the following: C - Limit by Coverage CB - Combined, Including Time Separately C100 - Limit by Coverage 100% Participation CAI - Limit by Coverage with Assured Interest Leave the field blank (0) if the limit type is one of the following: B - Blanket Limit E - Excess Limit N - No limit Enter a numeric value between 0 and 999999999999999, inclusive."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Deductible Type field supports the following\n                        deductible types: AP - Attachment Point B - Blanket Deductible C - Deductible by Coverage FR - Franchise Deductible MA - Maximum Deductible Amount MI - Minimum Deductible Amount MM - Minimum and Maximum N - No Deductible PL - Percent of Loss For AP - Attachment Point, FR - Franchise Deductible, B - Blanket\n                           Deductible, and PL - Percent of Loss deductible types, Touchstone applies the location level\n                           deductibles, if any, first. For MM - Minimum and Maximum, MI -\n                           Minimum Deductible Amount, and MA - Maximum Deductible Amount deductible\n                           types, Touchstone compares the\n                           location deductible (for the risks affected by a given event) to the\n                           layer deductible using the full ground-up distribution to determine the\n                           deductible amount. For detailed information about the effects that\n                           each of the layer deductible types has on the related layer fields, see Deductible Fields for Layers . For a listing of the valid\n                           deductible combinations for layers, sublimits, and locations, see Deductible\n                              Type Combinations ."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: The field defaults to a value in the Touchstone user interface. The field must be N - No Deductible if the limit type is one of the\n                              following types: CSL100 - Combined Single Limit 100% participation CSLAI - Combined Single Limit Assured Interest The minimum policy deductible should be at least as large as the\n                              smallest location deductible ."
+    ],
+    [
+     "Default value",
+     "N - No Deductible"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Deductible 1 field contains the value specified\n                        for deductible 1. Depending on the deductible type, this field contains\n                           the actual value of: Attachment point Minimum deductible (for Deductible Types MM - Minimum and Maximum or\n                              MI - Minimum Deductible Amount). This applies only to Property\n                              exposures. Blanket deductible (for Deductible Type B - Blanket Deductible or FR\n                              - Franchise Deductible). For the PL - Percent of Loss deductible type, this field specifies a\n                           percentage For detailed information about the effects that each of\n                           the layer deductible types has on the deductible 1 and other related\n                           layer fields, see Deductible\n                              Fields for Layers ."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for the this field are: Enter a numeric value between 0 and 999999999999999, inclusive, if\n                              the deductible is one of the following types: AP - Attachment Point B - Blanket Deductible C - Deductible by Coverage FR - Franchise Deductible MI - Minimum Deductible Amount MM - Minimum and Maximum Must be blank (0) if the deductible type is MA - Maximum Deductible\n                              or N - No Deductible. MA - Maximum Deductible Enter a value of 0 or less than 1 if the deductible type is PL -\n                              Percent of Loss. Enter a value that is less than deductible 2 if the deductible type\n                              is PL - Percent of Loss. Any value less than or equal to 1 will be changed to 0."
+    ],
+    [
+     "Default value",
+     "N - No Deductible."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Deductible 2 field contains the value for\n                        deductible 2. The field represents the actual value of the maximum\n                           deductible amount for deductible type MM - Minimum and Maximum. This\n                           field applies only to Property exposures. For detailed information\n                           about the effects that each of the layer deductible types has on the\n                           deductible 2 and other related layer fields, see Deductible\n                              Fields for Layers ."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: You must enter a value if the deductible type is one of the following: MM - Minimum and Maximum MA - Maximum Deductible Amount Leave the field blank (0) if the deductible type is one of the following: AP - Attachment Point B - Blanket FR - Franchise Deductible MI - Minimum Deductible PL - Percent of Loss N - No Deductible Enter a value greater than deductible 1 if the deductible type is MM\n                              - Minimum and Maximum. Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be changed to 0."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Deductible 3 field contains the value for\n                        deductible 3. For detailed information about the effects that each of the\n                           layer deductible types has on the deductible 3 and other related layer\n                           fields, see Deductible\n                              Fields for Layers ."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: Any value less than or equal to 1 will be interpreted as percentages\n                              (eg., 0.12 as 12%)."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Deductible 4 field contains the value for\n                        deductible 4."
+    ],
+    [
+     "Validation rules",
+     "The validation rule for this field is: Any value less than or equal to 1 will be interpreted as percentages\n                              (eg., 0.12 as 12%)."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Aggregate Limit Type field specifies the type of\n                        annual aggregate limit: AGGL - Annual Aggregate Limit or N - No\n                        Limit."
+    ],
+    [
+     "Validation rules",
+     "The validation rule for this field is: The maximum length is 10."
+    ],
+    [
+     "Default value",
+     "The default value is N - No Limit."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Aggregate Limit field specifies the maximum\n                        amount payable under the contract layer that provides overall maximum loss\n                        limitation."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: Enter a numeric value between 0 and 999999999999999, inclusive. Enter an attachment point."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Aggregate Attachment Point field specifies the\n                        aggregate amount of all the attachment points under the contract\n                        layer."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be interpreted as percentages\n                              (eg., 0.12 as 12%)."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Aggregate Deductible Type field allows you to\n                        specify AGGD - Annual Aggregate Deductible or N - No Deductible."
+    ],
+    [
+     "Validation rules",
+     "Not applicable. Select AGGD or N."
+    ],
+    [
+     "Default value",
+     "The default value is N - No Deductible."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Aggregate Deductible field allows you to specify\n                        the maximum deductible amount payable under the aggregate deductible limit."
+    ],
+    [
+     "Validation rules",
+     "The validation rules for this field are: Enter a numeric value between 0 and 999999999999999, inclusive. Any value less than or equal to 1 will be interpreted as percentages\n                              (eg., 0.12 as 12%)."
+    ],
+    [
+     "Default value",
+     "Not applicable."
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Item",
+    "Information"
+   ],
+   "rows": [
+    [
+     "Description",
+     "The Reinsurance Count field displays the number of reinsurance\n                           treaties for the selected layer."
+    ],
+    [
+     "Validation rules",
+     "The field is read-only. Clicking the hyperlinked value\n                        opens the Reinsurance tab in the Layer Details record where you can view and manage the reinsurance terms for\n                           the layer . Note: Clicking Layer ID also opens\n                        the Layer Details record."
+    ],
+    [
+     "Default value",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_bolivia-cresta-codes.html",
+ "title": "Bolivia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Bolivia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Bolivia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Ciudad de La Paz (inclusive El Alto) |\n| 2 | Resto de la provincia de La Paz |\n| 3 | Ciudad Santa Cruz |\n| 4 | Resto de la provincia de Santa Cruz |\n| 5 | Oruro |\n| 6 | Potosi |\n| 7 | Tarija |\n| 8 | Chuquisaca |\n| 9 | Cochabamba |\n| 10 | Beni |\n| 11 | Pando |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Ciudad de La Paz (inclusive El Alto)"
+    ],
+    [
+     "2",
+     "Resto de la provincia de La Paz"
+    ],
+    [
+     "3",
+     "Ciudad Santa Cruz"
+    ],
+    [
+     "4",
+     "Resto de la provincia de Santa Cruz"
+    ],
+    [
+     "5",
+     "Oruro"
+    ],
+    [
+     "6",
+     "Potosi"
+    ],
+    [
+     "7",
+     "Tarija"
+    ],
+    [
+     "8",
+     "Chuquisaca"
+    ],
+    [
+     "9",
+     "Cochabamba"
+    ],
+    [
+     "10",
+     "Beni"
+    ],
+    [
+     "11",
+     "Pando"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_westbengal_dist_codes.html",
+ "title": "West Bengal district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "West Bengal district codes\n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-19000 | West Bengal |\n| 113-19001 | Darjiling |\n| 113-19002 | Jalpaiguri |\n| 113-19003 | Koch Bihar |\n| 113-19004 | Uttar Dinajpur |\n| 113-19005 | Dakshin Dinajpur |\n| 113-19006 | Maldah |\n| 113-19007 | Murshidabad |\n| 113-19008 | Birbhum |\n| 113-19009 | Barddhaman |\n| 113-19010 | Nadia |\n| 113-19011 | North Twenty Four Parganas |\n| 113-19012 | Hugli |\n| 113-19013 | Bankura |\n| 113-19014 | Puruliya |\n| 113-19015 | Haora |\n| 113-19016 | Kolkata |\n| 113-19017 | South Twenty Four Parganas |\n| 113-19018 | Paschim Medinipur |\n| 113-19019 | Purba Medinipur |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-19000",
+     "West Bengal"
+    ],
+    [
+     "113-19001",
+     "Darjiling"
+    ],
+    [
+     "113-19002",
+     "Jalpaiguri"
+    ],
+    [
+     "113-19003",
+     "Koch Bihar"
+    ],
+    [
+     "113-19004",
+     "Uttar Dinajpur"
+    ],
+    [
+     "113-19005",
+     "Dakshin Dinajpur"
+    ],
+    [
+     "113-19006",
+     "Maldah"
+    ],
+    [
+     "113-19007",
+     "Murshidabad"
+    ],
+    [
+     "113-19008",
+     "Birbhum"
+    ],
+    [
+     "113-19009",
+     "Barddhaman"
+    ],
+    [
+     "113-19010",
+     "Nadia"
+    ],
+    [
+     "113-19011",
+     "North Twenty Four Parganas"
+    ],
+    [
+     "113-19012",
+     "Hugli"
+    ],
+    [
+     "113-19013",
+     "Bankura"
+    ],
+    [
+     "113-19014",
+     "Puruliya"
+    ],
+    [
+     "113-19015",
+     "Haora"
+    ],
+    [
+     "113-19016",
+     "Kolkata"
+    ],
+    [
+     "113-19017",
+     "South Twenty Four Parganas"
+    ],
+    [
+     "113-19018",
+     "Paschim Medinipur"
+    ],
+    [
+     "113-19019",
+     "Purba Medinipur"
+    ]
+   ]
+  }
+ ]
+}

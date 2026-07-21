@@ -1,0 +1,273 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_louisiana_fips_3.html",
+ "title": "Louisiana (LA) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Louisiana (LA) Counties\n \n\nFIPS codes for Louisiana.\nFIPS State Code: 22\n \n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Acadia County, enter \n01-22001.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Acadia |\n| 003 | Allen |\n| 005 | Ascension |\n| 007 | Assumption |\n| 009 | Avoyelles |\n| 011 | Beauregard |\n| 013 | Bienville |\n| 015 | Bossier |\n| 017 | Caddo |\n| 019 | Calcasieu |\n| 021 | Caldwell |\n| 023 | Cameron |\n| 025 | Catahoula |\n| 027 | Claiborne |\n| 029 | Concordia |\n| 031 | De Soto |\n| 033 | East Baton Rouge |\n| 035 | East Carroll |\n| 037 | East Feliciana |\n| 039 | Evangeline |\n| 041 | Franklin |\n| 043 | Grant |\n| 045 | Iberia |\n| 047 | Iberville |\n| 049 | Jackson |\n| 051 | Jefferson |\n| 053 | Jefferson Davis |\n| 055 | Lafayette |\n| 057 | Lafourche |\n| 059 | LaSalle |\n| 061 | Lincoln |\n| 063 | Livingston |\n| 065 | Madison |\n| 067 | Morehouse |\n| 069 | Natchitoches |\n| 071 | Orleans |\n| 073 | Ouachita |\n| 075 | Plaquemines |\n| 077 | Pointe Coupee |\n| 079 | Rapides |\n| 081 | Red River |\n| 083 | Richland |\n| 085 | Sabine |\n| 087 | St. Bernard |\n| 089 | St. Charles |\n| 091 | St. Helena |\n| 093 | St. James |\n| 095 | St. John the Baptist |\n| 097 | St. Landry |\n| 099 | St. Martin |\n| 101 | St. Mary |\n| 103 | St. Tammany |\n| 105 | Tangipahoa |\n| 107 | Tensas |\n| 109 | Terrebonne |\n| 111 | Union |\n| 113 | Vermilion |\n| 115 | Vernon |\n| 117 | Washington |\n| 119 | Webster |\n| 121 | West Baton Rouge |\n| 123 | West Carroll |\n| 125 | West Feliciana |\n| 127 | Winn |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Acadia"
+    ],
+    [
+     "003",
+     "Allen"
+    ],
+    [
+     "005",
+     "Ascension"
+    ],
+    [
+     "007",
+     "Assumption"
+    ],
+    [
+     "009",
+     "Avoyelles"
+    ],
+    [
+     "011",
+     "Beauregard"
+    ],
+    [
+     "013",
+     "Bienville"
+    ],
+    [
+     "015",
+     "Bossier"
+    ],
+    [
+     "017",
+     "Caddo"
+    ],
+    [
+     "019",
+     "Calcasieu"
+    ],
+    [
+     "021",
+     "Caldwell"
+    ],
+    [
+     "023",
+     "Cameron"
+    ],
+    [
+     "025",
+     "Catahoula"
+    ],
+    [
+     "027",
+     "Claiborne"
+    ],
+    [
+     "029",
+     "Concordia"
+    ],
+    [
+     "031",
+     "De Soto"
+    ],
+    [
+     "033",
+     "East Baton Rouge"
+    ],
+    [
+     "035",
+     "East Carroll"
+    ],
+    [
+     "037",
+     "East Feliciana"
+    ],
+    [
+     "039",
+     "Evangeline"
+    ],
+    [
+     "041",
+     "Franklin"
+    ],
+    [
+     "043",
+     "Grant"
+    ],
+    [
+     "045",
+     "Iberia"
+    ],
+    [
+     "047",
+     "Iberville"
+    ],
+    [
+     "049",
+     "Jackson"
+    ],
+    [
+     "051",
+     "Jefferson"
+    ],
+    [
+     "053",
+     "Jefferson Davis"
+    ],
+    [
+     "055",
+     "Lafayette"
+    ],
+    [
+     "057",
+     "Lafourche"
+    ],
+    [
+     "059",
+     "LaSalle"
+    ],
+    [
+     "061",
+     "Lincoln"
+    ],
+    [
+     "063",
+     "Livingston"
+    ],
+    [
+     "065",
+     "Madison"
+    ],
+    [
+     "067",
+     "Morehouse"
+    ],
+    [
+     "069",
+     "Natchitoches"
+    ],
+    [
+     "071",
+     "Orleans"
+    ],
+    [
+     "073",
+     "Ouachita"
+    ],
+    [
+     "075",
+     "Plaquemines"
+    ],
+    [
+     "077",
+     "Pointe Coupee"
+    ],
+    [
+     "079",
+     "Rapides"
+    ],
+    [
+     "081",
+     "Red River"
+    ],
+    [
+     "083",
+     "Richland"
+    ],
+    [
+     "085",
+     "Sabine"
+    ],
+    [
+     "087",
+     "St. Bernard"
+    ],
+    [
+     "089",
+     "St. Charles"
+    ],
+    [
+     "091",
+     "St. Helena"
+    ],
+    [
+     "093",
+     "St. James"
+    ],
+    [
+     "095",
+     "St. John the Baptist"
+    ],
+    [
+     "097",
+     "St. Landry"
+    ],
+    [
+     "099",
+     "St. Martin"
+    ],
+    [
+     "101",
+     "St. Mary"
+    ],
+    [
+     "103",
+     "St. Tammany"
+    ],
+    [
+     "105",
+     "Tangipahoa"
+    ],
+    [
+     "107",
+     "Tensas"
+    ],
+    [
+     "109",
+     "Terrebonne"
+    ],
+    [
+     "111",
+     "Union"
+    ],
+    [
+     "113",
+     "Vermilion"
+    ],
+    [
+     "115",
+     "Vernon"
+    ],
+    [
+     "117",
+     "Washington"
+    ],
+    [
+     "119",
+     "Webster"
+    ],
+    [
+     "121",
+     "West Baton Rouge"
+    ],
+    [
+     "123",
+     "West Carroll"
+    ],
+    [
+     "125",
+     "West Feliciana"
+    ],
+    [
+     "127",
+     "Winn"
+    ]
+   ]
+  }
+ ]
+}

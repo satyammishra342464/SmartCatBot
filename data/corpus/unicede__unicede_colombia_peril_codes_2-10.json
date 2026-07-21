@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_colombia_peril_codes_2-10.html",
+ "title": "Colombia Peril Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Colombia Peril Codes (v2.10)\n \n\nPeril codes for Colombia supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWS | Windstorm only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ]
+   ]
+  }
+ ]
+}

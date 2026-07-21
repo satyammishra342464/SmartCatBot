@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_philippines-region-state-codes.html",
+ "title": "Philippines region/state codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Philippines region/state codes\n\nTouchstone\n supports the following\n region/state codes for the Philippines.\n\n| Region/State Code | Region/State Name |\n| --- | --- |\n| 01 | Ilocos Region |\n| 02 | Cagayan Valley |\n| 03 | Central Luzon |\n| 04 | Calabarzon |\n| 05 | Bicol Region |\n| 06 | Western Visayas |\n| 07 | Central Visayas |\n| 08 | Eastern Visayas |\n| 09 | Zamboanga Peninsula |\n| 10 | Northern Mindanao |\n| 11 | Davao Region |\n| 12 | Soccsksargen |\n| 13 | National Capital Region (NCR) |\n| 14 | Cordillera Administrative Region (CAR) |\n| 15 | Autonomous Region In Muslim Mindanao (ARMM) |\n| 16 | Caraga |\n| 17 | Mimaropa |",
+ "tables": [
+  {
+   "headers": [
+    "Region/State Code",
+    "Region/State Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Ilocos Region"
+    ],
+    [
+     "02",
+     "Cagayan Valley"
+    ],
+    [
+     "03",
+     "Central Luzon"
+    ],
+    [
+     "04",
+     "Calabarzon"
+    ],
+    [
+     "05",
+     "Bicol Region"
+    ],
+    [
+     "06",
+     "Western Visayas"
+    ],
+    [
+     "07",
+     "Central Visayas"
+    ],
+    [
+     "08",
+     "Eastern Visayas"
+    ],
+    [
+     "09",
+     "Zamboanga Peninsula"
+    ],
+    [
+     "10",
+     "Northern Mindanao"
+    ],
+    [
+     "11",
+     "Davao Region"
+    ],
+    [
+     "12",
+     "Soccsksargen"
+    ],
+    [
+     "13",
+     "National Capital Region (NCR)"
+    ],
+    [
+     "14",
+     "Cordillera Administrative Region (CAR)"
+    ],
+    [
+     "15",
+     "Autonomous Region In Muslim Mindanao (ARMM)"
+    ],
+    [
+     "16",
+     "Caraga"
+    ],
+    [
+     "17",
+     "Mimaropa"
+    ]
+   ]
+  }
+ ]
+}

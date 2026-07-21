@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_chile-state-codes.html",
+ "title": "Chile State Codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Chile State Codes\n\nTouchstone\n supports the following state\n codes for Chile.\n\n| State Code | State Name |\n| --- | --- |\n| 01 | TarapacÃ¡ |\n| 02 | Antofagasta |\n| 03 | Atacama |\n| 04 | Coquimbo |\n| 05 | ValparaÃ­so |\n| 06 | O'Higgins |\n| 07 | Maule |\n| 08 | BiobÃ­o |\n| 09 | AraucanÃ­a |\n| 10 | Los Lagos |\n| 11 | AisÃ©n |\n| 12 | Magallanes y la AntÃ¡rtica |\n| 13 | Metropolitana |",
+ "tables": [
+  {
+   "headers": [
+    "State Code",
+    "State Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "TarapacÃ¡"
+    ],
+    [
+     "02",
+     "Antofagasta"
+    ],
+    [
+     "03",
+     "Atacama"
+    ],
+    [
+     "04",
+     "Coquimbo"
+    ],
+    [
+     "05",
+     "ValparaÃ­so"
+    ],
+    [
+     "06",
+     "O'Higgins"
+    ],
+    [
+     "07",
+     "Maule"
+    ],
+    [
+     "08",
+     "BiobÃ­o"
+    ],
+    [
+     "09",
+     "AraucanÃ­a"
+    ],
+    [
+     "10",
+     "Los Lagos"
+    ],
+    [
+     "11",
+     "AisÃ©n"
+    ],
+    [
+     "12",
+     "Magallanes y la AntÃ¡rtica"
+    ],
+    [
+     "13",
+     "Metropolitana"
+    ]
+   ]
+  }
+ ]
+}

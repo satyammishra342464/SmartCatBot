@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_venezuela_subarea_2-9.html",
+ "title": "Venezuela CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Venezuela \nCRESTA\n Codes (v2.9)\n \n\nCRESTA\n codes for Venezuela supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Venezuela (29).\n\n| Area Tag | Zone |\n| --- | --- |\n| 29-000 | Venezuela |\n| 29-001 | Z01: Caracas (deep silt) |\n| 29-002 | Z02: Caracas (less deep silt) |\n| 29-003 | Z03: Caracas (rocky underground) |\n| 29-004 | Z04: Dpto. Vargas |\n| 29-005 | Z05: Dptos. Guaicaipuro |\n| 29-006 | Z06: Maracay |\n| 29-007 | Z07: Valencia |\n| 29-008 | Z08: Resto de Region Centro-N. |\n| 29-009 | Z09: Barquisimeto |\n| 29-010 | Z10: Resto de Region Centro-O. |\n| 29-011 | Z11: San Cristobal |\n| 29-012 | Z12: Resto de Region de los A. |\n| 29-013 | Z13: Maracaibo |\n| 29-014 | Z14: Resto de Region Zuliana |\n| 29-015 | Z15: Resto de Region de los L. |\n| 29-016 | Z16: Region Insular |\n| 29-017 | Z17: Region Nor-Oriental |\n| 29-018 | Z18: Ciudad Bolivar y Ciudad... |\n| 29-019 | Z19: Resto de Region Guayana... |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "29-000",
+     "Venezuela"
+    ],
+    [
+     "29-001",
+     "Z01: Caracas (deep silt)"
+    ],
+    [
+     "29-002",
+     "Z02: Caracas (less deep silt)"
+    ],
+    [
+     "29-003",
+     "Z03: Caracas (rocky underground)"
+    ],
+    [
+     "29-004",
+     "Z04: Dpto. Vargas"
+    ],
+    [
+     "29-005",
+     "Z05: Dptos. Guaicaipuro"
+    ],
+    [
+     "29-006",
+     "Z06: Maracay"
+    ],
+    [
+     "29-007",
+     "Z07: Valencia"
+    ],
+    [
+     "29-008",
+     "Z08: Resto de Region Centro-N."
+    ],
+    [
+     "29-009",
+     "Z09: Barquisimeto"
+    ],
+    [
+     "29-010",
+     "Z10: Resto de Region Centro-O."
+    ],
+    [
+     "29-011",
+     "Z11: San Cristobal"
+    ],
+    [
+     "29-012",
+     "Z12: Resto de Region de los A."
+    ],
+    [
+     "29-013",
+     "Z13: Maracaibo"
+    ],
+    [
+     "29-014",
+     "Z14: Resto de Region Zuliana"
+    ],
+    [
+     "29-015",
+     "Z15: Resto de Region de los L."
+    ],
+    [
+     "29-016",
+     "Z16: Region Insular"
+    ],
+    [
+     "29-017",
+     "Z17: Region Nor-Oriental"
+    ],
+    [
+     "29-018",
+     "Z18: Ciudad Bolivar y Ciudad..."
+    ],
+    [
+     "29-019",
+     "Z19: Resto de Region Guayana..."
+    ]
+   ]
+  }
+ ]
+}

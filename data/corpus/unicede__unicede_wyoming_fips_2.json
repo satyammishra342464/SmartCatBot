@@ -1,0 +1,109 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_wyoming_fips_2.html",
+ "title": "Wyoming (WY) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Wyoming (WY) Counties\n\nFIPS codes for Wyoming.\n\nFIPS State Code: 56\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Campbell County, enter \n01-56005.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Albany |\n| 003 | Big Horn |\n| 005 | Campbell |\n| 007 | Carbon |\n| 009 | Converse |\n| 011 | Crook |\n| 013 | Fremont |\n| 015 | Goshen |\n| 017 | Hot Springs |\n| 019 | Johnson |\n| 021 | Laramie |\n| 023 | Lincoln |\n| 025 | Natrona |\n| 027 | Niobrara |\n| 029 | Park |\n| 031 | Platte |\n| 033 | Sheridan |\n| 035 | Sublette |\n| 037 | Sweetwater |\n| 039 | Teton |\n| 041 | Uinta |\n| 043 | Washakie |\n| 045 | Weston |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Albany"
+    ],
+    [
+     "003",
+     "Big Horn"
+    ],
+    [
+     "005",
+     "Campbell"
+    ],
+    [
+     "007",
+     "Carbon"
+    ],
+    [
+     "009",
+     "Converse"
+    ],
+    [
+     "011",
+     "Crook"
+    ],
+    [
+     "013",
+     "Fremont"
+    ],
+    [
+     "015",
+     "Goshen"
+    ],
+    [
+     "017",
+     "Hot Springs"
+    ],
+    [
+     "019",
+     "Johnson"
+    ],
+    [
+     "021",
+     "Laramie"
+    ],
+    [
+     "023",
+     "Lincoln"
+    ],
+    [
+     "025",
+     "Natrona"
+    ],
+    [
+     "027",
+     "Niobrara"
+    ],
+    [
+     "029",
+     "Park"
+    ],
+    [
+     "031",
+     "Platte"
+    ],
+    [
+     "033",
+     "Sheridan"
+    ],
+    [
+     "035",
+     "Sublette"
+    ],
+    [
+     "037",
+     "Sweetwater"
+    ],
+    [
+     "039",
+     "Teton"
+    ],
+    [
+     "041",
+     "Uinta"
+    ],
+    [
+     "043",
+     "Washakie"
+    ],
+    [
+     "045",
+     "Weston"
+    ]
+   ]
+  }
+ ]
+}

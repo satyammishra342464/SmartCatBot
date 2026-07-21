@@ -1,0 +1,112 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-fields-layers.html",
+ "title": "Layer limit fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer limit fields\n\nLayer limit fields.\nSee \nLayer occurrence limit types\n for information about layer\n limit types.\n\n| Layer / Limit | B | E | C | CSL100 | CSLAI | N |\n| --- | --- | --- | --- | --- | --- | --- |\n| Limit 1 | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to Limit\n 2. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to Limit\n 2. | A monetary value expressed as a value greater than or equal to Limit\n 2. | Not required. |\n| Limit 2 | Not required. | A monetary value expressed as a value less than or equal to Limit\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value less than or equal to Limit\n 1. | A monetary value expressed as a value less than or equal to Limit\n 1. | Not required. |\n| Limit 3 | Not required. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | Not required. | Not required. |\n| Limit 4 | Not required. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | Not required. | Not required. |\n| Participation Limit % (0-1) | Not required | A percentage value expressed as a value greater than or equal to 0, or\n less than or equal to 1. | | A percentage value expressed as a value greater than or equal to 0, or\n less than or equal to 1. | A percentage value expressed as a value greater than or equal to 0, or\n less than or equal to 1. | Not required. |\n| Participation Limit (Limit 2) | Not required | A monetary value expressed as a value greater than or equal to\n 1. | | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. |\n| Attachment Point 1 | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. |\n| Attachment Point 2 | Not required. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | Not required. | Not required. |\n| Attachment Point 3 | Not required. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | Not required. | Not required. |\n| Attachment Point 4 | Not required. | Not required. | A monetary value expressed as a value greater than or equal to\n 1. | Not required. | Not required. | Not required. |",
+ "tables": [
+  {
+   "headers": [
+    "Layer / Limit",
+    "B",
+    "E",
+    "C",
+    "CSL100",
+    "CSLAI",
+    "N"
+   ],
+   "rows": [
+    [
+     "Limit 1",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to Limit\n                        2.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to Limit\n                        2.",
+     "A monetary value expressed as a value greater than or equal to Limit\n                        2.",
+     "Not required."
+    ],
+    [
+     "Limit 2",
+     "Not required.",
+     "A monetary value expressed as a value less than or equal to Limit\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value less than or equal to Limit\n                        1.",
+     "A monetary value expressed as a value less than or equal to Limit\n                        1.",
+     "Not required."
+    ],
+    [
+     "Limit 3",
+     "Not required.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "Not required.",
+     "Not required."
+    ],
+    [
+     "Limit 4",
+     "Not required.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "Not required.",
+     "Not required."
+    ],
+    [
+     "Participation Limit % (0-1)",
+     "Not required",
+     "A percentage value expressed as a value greater than or equal to 0, or\n                        less than or equal to 1.",
+     "",
+     "A percentage value expressed as a value greater than or equal to 0, or\n                        less than or equal to 1.",
+     "A percentage value expressed as a value greater than or equal to 0, or\n                        less than or equal to 1.",
+     "Not required."
+    ],
+    [
+     "Participation Limit (Limit 2)",
+     "Not required",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required."
+    ],
+    [
+     "Attachment Point 1",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required."
+    ],
+    [
+     "Attachment Point 2",
+     "Not required.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "Not required.",
+     "Not required."
+    ],
+    [
+     "Attachment Point 3",
+     "Not required.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "Not required.",
+     "Not required."
+    ],
+    [
+     "Attachment Point 4",
+     "Not required.",
+     "Not required.",
+     "A monetary value expressed as a value greater than or equal to\n                        1.",
+     "Not required.",
+     "Not required.",
+     "Not required."
+    ]
+   ]
+  }
+ ]
+}

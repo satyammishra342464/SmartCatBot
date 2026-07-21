@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 38",
+ "section": "local-docs",
+ "version": null,
+ "text": "5. Choose the location-\nidentifying field\nIn the Field dropdown, select the \ncriterion on which you want to \nfilter locations. Examples:\n• Country\n• State Code\n• County\n• Location Number\n• Occupancy Type\n• UserText1 (useful for tagging \nlocations with custom labels in \nthe LOC file, e.g., “textile mills”)",
+ "tables": []
+}

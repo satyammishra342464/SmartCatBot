@@ -1,0 +1,55 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_trans-occ.html",
+ "title": "Transportation occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Transportation occupancy codes\n\nTouchstone\n supports the following\n transportation occupancy class codes.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\nNote:\n The associated 2-digit Standard Industrial\n Classification (SIC) code or codes are listed for each occupancy code.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 351 | Highway | 41, 42 | Establishments primarily engaged in furnishing highway passenger\n transportation, and establishments furnishing highway passenger terminal or\n maintenance facilities. |\n| 352 | Railroad | 40 | Includes establishments furnishing transportation by line-haul railroad,\n as well as switching and terminal establishments. |\n| 353 | Air | 45 | Establishments furnishing services incidental to transportation, such as\n forwarding and packing services, as well as the arrangement of passenger and\n freight transportation. |\n| 354 | Sea and Inland Waterways | 44 | Businesses engaged in freight and passenger transportation on the open\n seas or inland waters and establishments furnishing such incidental services\n as lighterage, towing, and canal operation. Also includes excursion and\n sightseeing boats and water taxis. |\n| 355 | Aircraft Hangars | n/a | Aircraft parking facilities. Valid for exposures in the U.S., Australia,\n Canada, South America, the Caribbean, Japan, South Korea, China, and Taiwan,\n and for exposures covered for wind in Europe. In other regions, use\n transportation occupancy code 353 (Air) for aircraft hangars. Also valid for Verisk Earthquake Model for New Zealand . |\n| 356 | Aircraft\n at\n Ramps/Gate | n/a | Aircraft at ramps or boarding gates. Valid for exposures in Japan. To be\n used with 246 (Trains,\n Trucks, Airplanes) for the Earthquake-Fire Following model. |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "351",
+     "Highway",
+     "41, 42",
+     "Establishments primarily engaged in furnishing highway passenger\n                        transportation, and establishments furnishing highway passenger terminal or\n                        maintenance facilities."
+    ],
+    [
+     "352",
+     "Railroad",
+     "40",
+     "Includes establishments furnishing transportation by line-haul railroad,\n                        as well as switching and terminal establishments."
+    ],
+    [
+     "353",
+     "Air",
+     "45",
+     "Establishments furnishing services incidental to transportation, such as\n                        forwarding and packing services, as well as the arrangement of passenger and\n                        freight transportation."
+    ],
+    [
+     "354",
+     "Sea and Inland Waterways",
+     "44",
+     "Businesses engaged in freight and passenger transportation on the open\n                        seas or inland waters and establishments furnishing such incidental services\n                        as lighterage, towing, and canal operation. Also includes excursion and\n                        sightseeing boats and water taxis."
+    ],
+    [
+     "355",
+     "Aircraft Hangars",
+     "n/a",
+     "Aircraft parking facilities. Valid for exposures in the U.S., Australia,\n                        Canada, South America, the Caribbean, Japan, South Korea, China, and Taiwan,\n                        and for exposures covered for wind in Europe. In other regions, use\n                        transportation occupancy code 353 (Air) for aircraft hangars. Also valid for Verisk Earthquake Model for New Zealand ."
+    ],
+    [
+     "356",
+     "Aircraft\n                        at\n                        Ramps/Gate",
+     "n/a",
+     "Aircraft at ramps or boarding gates. Valid for exposures in Japan. To be\n                        used with 246 (Trains,\n                           Trucks, Airplanes) for the Earthquake-Fire Following model."
+    ]
+   ]
+  }
+ ]
+}

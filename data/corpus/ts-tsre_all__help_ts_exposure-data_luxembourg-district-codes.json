@@ -1,0 +1,65 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_luxembourg-district-codes.html",
+ "title": "Luxembourg district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Luxembourg district codes\n\nTouchstone\n supports the following district\n codes for Luxembourg.\n\n| District Code | District Name |\n| --- | --- |\n| 01 | Capellen |\n| 02 | Esch-sur-Alzette |\n| 03 | Luxembourg |\n| 04 | Mersch |\n| 05 | Clervaux |\n| 06 | Diekirch |\n| 07 | Redange |\n| 08 | Wiltz |\n| 09 | Vianden |\n| 10 | Echternach |\n| 11 | Grevenmacher |\n| 12 | Remich |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Capellen"
+    ],
+    [
+     "02",
+     "Esch-sur-Alzette"
+    ],
+    [
+     "03",
+     "Luxembourg"
+    ],
+    [
+     "04",
+     "Mersch"
+    ],
+    [
+     "05",
+     "Clervaux"
+    ],
+    [
+     "06",
+     "Diekirch"
+    ],
+    [
+     "07",
+     "Redange"
+    ],
+    [
+     "08",
+     "Wiltz"
+    ],
+    [
+     "09",
+     "Vianden"
+    ],
+    [
+     "10",
+     "Echternach"
+    ],
+    [
+     "11",
+     "Grevenmacher"
+    ],
+    [
+     "12",
+     "Remich"
+    ]
+   ]
+  }
+ ]
+}

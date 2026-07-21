@@ -1,0 +1,129 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_brazil-cresta_2-8.html",
+ "title": "Brazil CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Brazil \nCRESTA\n Codes (v2.8)\n\nCRESTA\n codes for Brazil supported by \nUNICEDE\n/2.\n\nThe codes below include the country code for Brazil (31).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 31-000 | BRAZIL |\n| 31-001 | Acre |\n| 31-002 | Alagoas |\n| 31-003 | Amapa |\n| 31-004 | Amazonas |\n| 31-005 | Bahia |\n| 31-006 | Ceara |\n| 31-007 | Distrito Federal |\n| 31-008 | Espirito Santo |\n| 31-009 | Goias |\n| 31-010 | Maranhao |\n| 31-011 | Mato Grosso |\n| 31-012 | Mato Grosso do Sul |\n| 31-013 | Mina Gerais |\n| 31-014 | Para |\n| 31-015 | Paraiba |\n| 31-016 | Parana |\n| 31-017 | Remambuco |\n| 31-018 | Piaui |\n| 31-019 | Rio de Janeiro |\n| 31-020 | Rio Grande do Norte |\n| 31-021 | Rio Grande do Sul |\n| 31-022 | Rondonia |\n| 31-023 | Roraima |\n| 31-024 | Santa Catarina |\n| 31-025 | Sao Paulo |\n| 31-026 | Sergipe |\n| 31-027 | Tocantins |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "31-000",
+     "BRAZIL"
+    ],
+    [
+     "31-001",
+     "Acre"
+    ],
+    [
+     "31-002",
+     "Alagoas"
+    ],
+    [
+     "31-003",
+     "Amapa"
+    ],
+    [
+     "31-004",
+     "Amazonas"
+    ],
+    [
+     "31-005",
+     "Bahia"
+    ],
+    [
+     "31-006",
+     "Ceara"
+    ],
+    [
+     "31-007",
+     "Distrito Federal"
+    ],
+    [
+     "31-008",
+     "Espirito Santo"
+    ],
+    [
+     "31-009",
+     "Goias"
+    ],
+    [
+     "31-010",
+     "Maranhao"
+    ],
+    [
+     "31-011",
+     "Mato Grosso"
+    ],
+    [
+     "31-012",
+     "Mato Grosso do Sul"
+    ],
+    [
+     "31-013",
+     "Mina Gerais"
+    ],
+    [
+     "31-014",
+     "Para"
+    ],
+    [
+     "31-015",
+     "Paraiba"
+    ],
+    [
+     "31-016",
+     "Parana"
+    ],
+    [
+     "31-017",
+     "Remambuco"
+    ],
+    [
+     "31-018",
+     "Piaui"
+    ],
+    [
+     "31-019",
+     "Rio de Janeiro"
+    ],
+    [
+     "31-020",
+     "Rio Grande do Norte"
+    ],
+    [
+     "31-021",
+     "Rio Grande do Sul"
+    ],
+    [
+     "31-022",
+     "Rondonia"
+    ],
+    [
+     "31-023",
+     "Roraima"
+    ],
+    [
+     "31-024",
+     "Santa Catarina"
+    ],
+    [
+     "31-025",
+     "Sao Paulo"
+    ],
+    [
+     "31-026",
+     "Sergipe"
+    ],
+    [
+     "31-027",
+     "Tocantins"
+    ]
+   ]
+  }
+ ]
+}

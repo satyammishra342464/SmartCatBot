@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_anda_nico_isl_dist_codes.html",
+ "title": "Andaman and Nicobar Islands district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Andaman and Nicobar Islands district codes\n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-35000 | Andaman and Nicobar Islands |\n| 113-35001 | Nicobars District |\n| 113-35002 | North & Middle Andaman District |\n| 113-35003 | South Andaman District |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-35000",
+     "Andaman and Nicobar Islands"
+    ],
+    [
+     "113-35001",
+     "Nicobars District"
+    ],
+    [
+     "113-35002",
+     "North & Middle Andaman District"
+    ],
+    [
+     "113-35003",
+     "South Andaman District"
+    ]
+   ]
+  }
+ ]
+}

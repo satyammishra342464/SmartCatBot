@@ -1,0 +1,109 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_guatemala-cresta-codes.html",
+ "title": "Guatemala CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Guatemala \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Guatemala.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 100 | Guatemala City |\n| 200 | Resto del Departamento de Guatemala |\n| 301 | San Marcos |\n| 302 | Quezaltenango |\n| 303 | Retalhuleu |\n| 304 | SololÃ¡ |\n| 305 | Suchitepequez |\n| 306 | Escuintla |\n| 307 | Santa Rosa |\n| 308 | Jutiapa |\n| 309 | Chimaltenango |\n| 310 | Sacatepequez |\n| 401 | TotonicapÃ¡n |\n| 402 | El QuichÃ© |\n| 403 | Baja Verapaz |\n| 404 | Alta Verapaz |\n| 405 | El Progreso |\n| 406 | Jalapa |\n| 407 | Zacapa |\n| 408 | Izabal |\n| 409 | El PetÃ©n |\n| 410 | Chiquimula |\n| 411 | Huehuetenango |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "100",
+     "Guatemala City"
+    ],
+    [
+     "200",
+     "Resto del Departamento de Guatemala"
+    ],
+    [
+     "301",
+     "San Marcos"
+    ],
+    [
+     "302",
+     "Quezaltenango"
+    ],
+    [
+     "303",
+     "Retalhuleu"
+    ],
+    [
+     "304",
+     "SololÃ¡"
+    ],
+    [
+     "305",
+     "Suchitepequez"
+    ],
+    [
+     "306",
+     "Escuintla"
+    ],
+    [
+     "307",
+     "Santa Rosa"
+    ],
+    [
+     "308",
+     "Jutiapa"
+    ],
+    [
+     "309",
+     "Chimaltenango"
+    ],
+    [
+     "310",
+     "Sacatepequez"
+    ],
+    [
+     "401",
+     "TotonicapÃ¡n"
+    ],
+    [
+     "402",
+     "El QuichÃ©"
+    ],
+    [
+     "403",
+     "Baja Verapaz"
+    ],
+    [
+     "404",
+     "Alta Verapaz"
+    ],
+    [
+     "405",
+     "El Progreso"
+    ],
+    [
+     "406",
+     "Jalapa"
+    ],
+    [
+     "407",
+     "Zacapa"
+    ],
+    [
+     "408",
+     "Izabal"
+    ],
+    [
+     "409",
+     "El PetÃ©n"
+    ],
+    [
+     "410",
+     "Chiquimula"
+    ],
+    [
+     "411",
+     "Huehuetenango"
+    ]
+   ]
+  }
+ ]
+}

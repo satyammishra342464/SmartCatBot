@@ -1,0 +1,43 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-verisk-bins.html",
+ "title": "Verisk BINS",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Verisk\n BINS\n\nIn \nTouchstone\n 11.0, we added validation\n rules for \nVerisk\n BINS ID location\n fields.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the locations.\n\n| Field | Description | Validation rules | Default value |\n| --- | --- | --- | --- |\n| VERISK BINS ID Unit | Verisk BINS ID for a\n unit | Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"U\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values | n/a |\n| VERISK BINS ID Building | Verisk BINS ID for a\n building | Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"B\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values | n/a |\n| VERISK BINS ID Site | Verisk BINS ID for a\n site | Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"S\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values | n/a |\n| VERISK BINS ID Campus | Verisk BINS ID for a\n campus | Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"C\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values | n/a |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Description",
+    "Validation rules",
+    "Default value"
+   ],
+   "rows": [
+    [
+     "VERISK BINS ID Unit",
+     "Verisk BINS ID for a\n                        unit",
+     "Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"U\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values",
+     "n/a"
+    ],
+    [
+     "VERISK BINS ID Building",
+     "Verisk BINS ID for a\n                        building",
+     "Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"B\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values",
+     "n/a"
+    ],
+    [
+     "VERISK BINS ID Site",
+     "Verisk BINS ID for a\n                        site",
+     "Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"S\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values",
+     "n/a"
+    ],
+    [
+     "VERISK BINS ID Campus",
+     "Verisk BINS ID for a\n                        campus",
+     "Characters 1-4 = \"VRSK\" Characters 5 and 6 = \"US\" Character 7 must be \"C\" Characters 8 and 14 are underscores (_). Characters 9-13 are \"AANNN\" Characters 15-23 are random alphanumeric values",
+     "n/a"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_india-perils.html",
+ "title": "India Perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "India Perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for India.\n\n| Import peril code | Peril |\n| --- | --- |\n| PAL | All licensed perils |\n| PPH | Precipitation flood |\n| PWH | Tropical cyclone only |\n| PES | Earthquake shake only (includes liquefaction) |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils"
+    ],
+    [
+     "PPH",
+     "Precipitation flood"
+    ],
+    [
+     "PWH",
+     "Tropical cyclone only"
+    ],
+    [
+     "PES",
+     "Earthquake shake only (includes liquefaction)"
+    ]
+   ]
+  }
+ ]
+}

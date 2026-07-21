@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_rhode-island_fips_3.html",
+ "title": "Rhode Island (RI) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Rhode Island (RI) Counties\n\nFIPS codes for Rhode Island.\n\nFIPS State Code: 44\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Bristol County, enter \n01-44001.\n \n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Bristol |\n| 003 | Kent |\n| 005 | Newport |\n| 007 | Providence |\n| 009 | Washington |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Bristol"
+    ],
+    [
+     "003",
+     "Kent"
+    ],
+    [
+     "005",
+     "Newport"
+    ],
+    [
+     "007",
+     "Providence"
+    ],
+    [
+     "009",
+     "Washington"
+    ]
+   ]
+  }
+ ]
+}

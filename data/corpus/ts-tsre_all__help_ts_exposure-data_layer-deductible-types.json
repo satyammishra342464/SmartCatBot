@@ -1,0 +1,73 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_layer-deductible-types.html",
+ "title": "Layer occurrence deductible types",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Layer occurrence deductible types\n\nNGM\n financial engine policy\n terms: layer occurrence deductible types.\nFor more information about the types of financial terms, refer to \nTerm types\n.\n\n| Code | Description | Term type |\n| --- | --- | --- |\n| AP | Attachment point | Total |\n| FR | Franchise deductible | Total |\n| B | Blanket deductible | Total |\n| MA | Maximum deductible amount | Total |\n| MI | Minimum deductible amount | Total |\n| MM | Minimum and maximum | Total |\n| PL | Percent of loss | Total |\n| CB | Combined excluding time | ABC-D |\n| CT | Combined including time | ABC-D |\n| C | Deductible by coverage | ABCD |\n| N | No deductible | N/A |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Description",
+    "Term type"
+   ],
+   "rows": [
+    [
+     "AP",
+     "Attachment point",
+     "Total"
+    ],
+    [
+     "FR",
+     "Franchise deductible",
+     "Total"
+    ],
+    [
+     "B",
+     "Blanket deductible",
+     "Total"
+    ],
+    [
+     "MA",
+     "Maximum deductible amount",
+     "Total"
+    ],
+    [
+     "MI",
+     "Minimum deductible amount",
+     "Total"
+    ],
+    [
+     "MM",
+     "Minimum and maximum",
+     "Total"
+    ],
+    [
+     "PL",
+     "Percent of loss",
+     "Total"
+    ],
+    [
+     "CB",
+     "Combined excluding time",
+     "ABC-D"
+    ],
+    [
+     "CT",
+     "Combined including time",
+     "ABC-D"
+    ],
+    [
+     "C",
+     "Deductible by coverage",
+     "ABCD"
+    ],
+    [
+     "N",
+     "No deductible",
+     "N/A"
+    ]
+   ]
+  }
+ ]
+}

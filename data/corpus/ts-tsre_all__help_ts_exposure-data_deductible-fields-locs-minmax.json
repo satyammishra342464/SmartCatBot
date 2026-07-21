@@ -1,0 +1,31 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_deductible-fields-locs-minmax.html",
+ "title": "Location min/max deductible fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location min/max deductible fields\n\nLocation min/max deductible fields.\nSee \nLocation min/max deductible types\n for information\n about location min/max deductible types.\n\n| Field / Aggregate deductible type | MA | MI | MM |\n| --- | --- | --- | --- |\n| MinMax Deductible 1 | Not required. | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Field represents a monetary value, expressed as a value less than\n Deductible 2. |\n| MinMax Deductible 2 | Field represents a monetary value, expressed as a value greater than or\n equal to 1. | Not required. | Field represents a monetary value, expressed as a value greater than\n Deductible 1 . |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate deductible type",
+    "MA",
+    "MI",
+    "MM"
+   ],
+   "rows": [
+    [
+     "MinMax Deductible 1",
+     "Not required.",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Field represents a monetary value, expressed as a value less than\n                        Deductible 2."
+    ],
+    [
+     "MinMax Deductible 2",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1.",
+     "Not required.",
+     "Field represents a monetary value, expressed as a value greater than\n                        Deductible 1 ."
+    ]
+   ]
+  }
+ ]
+}

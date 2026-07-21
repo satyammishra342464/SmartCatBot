@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 29",
+ "section": "local-docs",
+ "version": null,
+ "text": "Location Coverage Specific Ded\n• Deductibles may apply per unit of insurance, meaning the deductible is \nspecific to coverage type (CV1, CV2, CV3). This is most typically seen in % \ndeductibles.\n• Coverage specific deductibles are entered in the _CV1DED, _CV2DED \ncolumns in the loc file for a given peril (EQCV1DED, EQCV2DED etc).\n• Monetary values or % deductibles can be entered here (% in decimal format).\n• Filter for your selected criteria (e.g. California) and apply relevant deductible \nfor that peril.\n• Coverage deductibles can be viewed in RiskLink in the loc table, within the \ncoverage table for each location.",
+ "tables": []
+}

@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_maryland_fips_4.html",
+ "title": "Maryland (MD) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Maryland (MD) Counties\n \n\nFIPS codes for Maryland.\n\nFIPS State Code: 24\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Baltimore County, enter \n01-24005.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Allegany |\n| 003 | Anne Arundel |\n| 005 | Baltimore |\n| 009 | Calvert |\n| 011 | Caroline |\n| 013 | Carroll |\n| 015 | Cecil |\n| 017 | Charles |\n| 019 | Dorchester |\n| 021 | Frederick |\n| 023 | Garrett |\n| 025 | Harford |\n| 027 | Howard |\n| 029 | Kent |\n| 031 | Montgomery |\n| 033 | Prince Georges |\n| 035 | Queen Annes |\n| 037 | St. Marys |\n| 039 | Somerset |\n| 041 | Talbot |\n| 043 | Washington |\n| 045 | Wicomico |\n| 047 | Worcester |\n| 510 | Baltimore City |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Allegany"
+    ],
+    [
+     "003",
+     "Anne Arundel"
+    ],
+    [
+     "005",
+     "Baltimore"
+    ],
+    [
+     "009",
+     "Calvert"
+    ],
+    [
+     "011",
+     "Caroline"
+    ],
+    [
+     "013",
+     "Carroll"
+    ],
+    [
+     "015",
+     "Cecil"
+    ],
+    [
+     "017",
+     "Charles"
+    ],
+    [
+     "019",
+     "Dorchester"
+    ],
+    [
+     "021",
+     "Frederick"
+    ],
+    [
+     "023",
+     "Garrett"
+    ],
+    [
+     "025",
+     "Harford"
+    ],
+    [
+     "027",
+     "Howard"
+    ],
+    [
+     "029",
+     "Kent"
+    ],
+    [
+     "031",
+     "Montgomery"
+    ],
+    [
+     "033",
+     "Prince Georges"
+    ],
+    [
+     "035",
+     "Queen Annes"
+    ],
+    [
+     "037",
+     "St. Marys"
+    ],
+    [
+     "039",
+     "Somerset"
+    ],
+    [
+     "041",
+     "Talbot"
+    ],
+    [
+     "043",
+     "Washington"
+    ],
+    [
+     "045",
+     "Wicomico"
+    ],
+    [
+     "047",
+     "Worcester"
+    ],
+    [
+     "510",
+     "Baltimore City"
+    ]
+   ]
+  }
+ ]
+}

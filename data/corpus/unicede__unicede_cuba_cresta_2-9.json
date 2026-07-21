@@ -1,0 +1,85 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_cuba_cresta_2-9.html",
+ "title": "Cuba Province Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Cuba Province Codes (v2.9)\n\nProvince codes for Cuba supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Cuba (75).\n\n| Area Tag | Province |\n| --- | --- |\n| 75-000 | Cuba |\n| 75-021 | Pinar del Rio |\n| 75-022 | Artemisa |\n| 75-023 | La Habana |\n| 75-024 | Mayabeque |\n| 75-025 | Matanzas |\n| 75-026 | Villa Clara |\n| 75-027 | Cienfuegos |\n| 75-028 | Sancti SpÃ­ritus |\n| 75-029 | Ciego de Ãvila |\n| 75-030 | CamagÃºey |\n| 75-031 | Las Tunas |\n| 75-032 | HolguÃ­n |\n| 75-033 | Granma |\n| 75-034 | Santiago de Cuba |\n| 75-035 | GuantÃ¡namo |\n| 75-040 | Isla de la Juventud |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Province"
+   ],
+   "rows": [
+    [
+     "75-000",
+     "Cuba"
+    ],
+    [
+     "75-021",
+     "Pinar del Rio"
+    ],
+    [
+     "75-022",
+     "Artemisa"
+    ],
+    [
+     "75-023",
+     "La Habana"
+    ],
+    [
+     "75-024",
+     "Mayabeque"
+    ],
+    [
+     "75-025",
+     "Matanzas"
+    ],
+    [
+     "75-026",
+     "Villa Clara"
+    ],
+    [
+     "75-027",
+     "Cienfuegos"
+    ],
+    [
+     "75-028",
+     "Sancti SpÃ­ritus"
+    ],
+    [
+     "75-029",
+     "Ciego de Ãvila"
+    ],
+    [
+     "75-030",
+     "CamagÃºey"
+    ],
+    [
+     "75-031",
+     "Las Tunas"
+    ],
+    [
+     "75-032",
+     "HolguÃ­n"
+    ],
+    [
+     "75-033",
+     "Granma"
+    ],
+    [
+     "75-034",
+     "Santiago de Cuba"
+    ],
+    [
+     "75-035",
+     "GuantÃ¡namo"
+    ],
+    [
+     "75-040",
+     "Isla de la Juventud"
+    ]
+   ]
+  }
+ ]
+}

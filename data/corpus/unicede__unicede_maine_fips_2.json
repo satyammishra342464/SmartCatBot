@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_maine_fips_2.html",
+ "title": "Maine (ME) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Maine (ME) Counties\n \n\nFIPS codes for Maine.\n\nFIPS State Code: 23\n \n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Knox County, enter \n01-23013.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Androscoggin |\n| 003 | Aroostook |\n| 005 | Cumberland |\n| 007 | Franklin |\n| 009 | Hancock |\n| 011 | Kennebec |\n| 013 | Knox |\n| 015 | Lincoln |\n| 017 | Oxford |\n| 019 | Penobscot |\n| 021 | Piscataquis |\n| 023 | Sagadahoc |\n| 025 | Somerset |\n| 027 | Waldo |\n| 029 | Washington |\n| 031 | York |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Androscoggin"
+    ],
+    [
+     "003",
+     "Aroostook"
+    ],
+    [
+     "005",
+     "Cumberland"
+    ],
+    [
+     "007",
+     "Franklin"
+    ],
+    [
+     "009",
+     "Hancock"
+    ],
+    [
+     "011",
+     "Kennebec"
+    ],
+    [
+     "013",
+     "Knox"
+    ],
+    [
+     "015",
+     "Lincoln"
+    ],
+    [
+     "017",
+     "Oxford"
+    ],
+    [
+     "019",
+     "Penobscot"
+    ],
+    [
+     "021",
+     "Piscataquis"
+    ],
+    [
+     "023",
+     "Sagadahoc"
+    ],
+    [
+     "025",
+     "Somerset"
+    ],
+    [
+     "027",
+     "Waldo"
+    ],
+    [
+     "029",
+     "Washington"
+    ],
+    [
+     "031",
+     "York"
+    ]
+   ]
+  }
+ ]
+}

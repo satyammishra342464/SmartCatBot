@@ -1,0 +1,109 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_china_lob_2-8.html",
+ "title": "China Lines of Business (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "China Lines of Business (v2.8)\n\nLOB codes for China supported by \nUNICEDE\n/2.\n\nStandard Share Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| CAI | Commercial & Industrial |\n| ENG | CAREAR |\n\nMarket Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| RES | Residential |\n| COM | Commercial |\n| ENG | CAREAR |\n\nMulti-Peril Crop Insurance (MPCI) Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| CORN | Corn |\n| COTT | Cotton |\n| RAPS | Rapeseed |\n| RICE | Rice |\n| SOYB | Soybean |\n| WHEA | Wheat |\n| BARLY | Barley |\n| PEANT | Peanut |\n| POTATO | Potato |\n| SUGAR | Sugar |\n| RUBBER | Rubber |\n| COMBND | Crop Combined |\n| FOR | Forestry |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "CAI",
+     "Commercial & Industrial"
+    ],
+    [
+     "ENG",
+     "CAREAR"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "RES",
+     "Residential"
+    ],
+    [
+     "COM",
+     "Commercial"
+    ],
+    [
+     "ENG",
+     "CAREAR"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "CORN",
+     "Corn"
+    ],
+    [
+     "COTT",
+     "Cotton"
+    ],
+    [
+     "RAPS",
+     "Rapeseed"
+    ],
+    [
+     "RICE",
+     "Rice"
+    ],
+    [
+     "SOYB",
+     "Soybean"
+    ],
+    [
+     "WHEA",
+     "Wheat"
+    ],
+    [
+     "BARLY",
+     "Barley"
+    ],
+    [
+     "PEANT",
+     "Peanut"
+    ],
+    [
+     "POTATO",
+     "Potato"
+    ],
+    [
+     "SUGAR",
+     "Sugar"
+    ],
+    [
+     "RUBBER",
+     "Rubber"
+    ],
+    [
+     "COMBND",
+     "Crop Combined"
+    ],
+    [
+     "FOR",
+     "Forestry"
+    ]
+   ]
+  }
+ ]
+}

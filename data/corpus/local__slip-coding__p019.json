@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 19",
+ "section": "local-docs",
+ "version": null,
+ "text": "Policy Limits\nPolicy limit (Blanket Limit) shows the maximum amount \ncovered for each peril. It is usually written at the start of the \nslip under “Sum Insured”.\nMost perils share the same limit, but sometimes specific \nperils, regions, or locations have lower limits (sublimits) \nmentioned later in the slip.\nIf a limit is written as “annual aggregate” , it cannot be \nmodelled in RMS RiskLink however model in Risk modeler.\nEnter the policy limit in the PARTOF column in the ACC file.\nPARTOF\n25000000\n25000000\n25000000\n25000000\n25000000\n25000000",
+ "tables": []
+}

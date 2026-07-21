@@ -1,0 +1,79 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_file-body2.html",
+ "title": "File body records",
+ "section": "unicede",
+ "version": null,
+ "text": "File body records\n\nRecords supported by \nUNICEDE\n/2.\n\nThe fields in each record of a \nUNICEDE\n/2 file are\n listed below.\n\n| Field | Name | Description | Notes |\n| --- | --- | --- | --- |\n| 1 | Area Tag | Identifies the area (i.e., country) and the subarea (e.g., county, ZIP\n Code, or CRESTA zone) in which the\n risks represented in this record are located. | The Area Tag value used must be consistent with the Area Tag Type . |\n| 2 | Peril Codes | Identifies the peril covered for the risks in this record. | Note: The data in the fields that follow should represent this peril. Data\n for different perils should be reported separately in different\n records. |\n| 3 | LOBCode | Identifies the line of business under which the risks covered in this\n record are reported. | The valid Line Of Business codes vary by country. |\n| 4 | Coverage | Identifies the coverages included for the risks in this record. For\n example, if you are able to separate the sums-insured values for buildings,\n contents, and time element for a specific set of risks (i.e., risks for which\n the values in fields 1, 2, and 3 are identical) then you should enter the\n values as three separate records and in the three records you would\n provide the coverage code as B , C , and T , respectively. On\n the other hand, if you cannot separate the sums-insured for the three\n coverages, then you would enter all the values for that set of risks in a\n single record and set the coverage code as BCT . | A Buildings only. In the US this includes coverages A and B C Contents only. In the US this includes coverage C T Time element\n only. In the US this includes coverage D BC Buildings and contents combined i.e., the two coverages cannot be separated). In the US\n this includes coverages A, B and C BCT Buildings, contents, and time element combined (i.e., the three coverages cannot be\n separated) . In the US this includes coverages A, B, C and D. A Automobiles only W Workers' Compensation or pandemic exposure PD Physical damage (Gulf of Mexico Offshore Platform only) CROP MPCI Agricultural and Crop Hail |\n| 5 | NumRisks | This is the number of risks represented in this record. | This value must be entered in whole units (i.e., not in thousands or\n millions). For records with W (Workers' Compensation) as the coverage code, this field represents the\n number of employees. |\n| 6 | SumsIns | This is the total sums-insured value of the coverage (reported in\n field 4) for the risks represented in this record. | This value must be entered based on the DATA_UNITS and DATA_CURRENCY defined in the header. For records with W (Workers' Compensation) as the coverage code, this field represents the\n payroll. |\n| 7 | AvgDed | This is the average deductible for all the policies (for this peril) for\n the risks covered in this record. | This value must be entered based on the DATA_UNITS and DATA_CURRENCY defined in the header. If the\n policies for the risks in this record do not have any deductibles then enter\n the digit 0 (i.e., zero). |\n| 8 | Prem | This is the total amount of written premium income from the policies (for\n this peril) for the risks covered in this record. | This value must be entered based on the DATA_UNITS and DATA_CURRENCY defined in the header. If the\n policies for the risks in this record do not cover any time element losses,\n enter the digit 0 (i.e., zero). If this record represents 5 risks, and two of the policies have a $75\n premium and the other three policies have $200 premium, then the total amount\n of written premium is $750 (i.e., 2x$75 + 3x$200) |\n| 9 | PremRate | This is the average premium rate per mil (â°), i.e., premium charged (for\n this peril) per 1000 units of sums-insured for the risks represented in this\n record. | This value must contain at least three decimal places. |\n| 10 | SubareaName | This is the name of the area (i.e., country) or subarea. It should only be used if the DATA_LEVEL is 10 or 11. | This field improves the chances of detecting and fixing errors in the AreaTag field. |\n\nt - For countries other than the United States and Canada, Subarea Name is the eleventh\n field in the body of the file; field 10 is an unused place-holder. \nNote:\n\nIn the \nHEADER,\n\nevery line\n begins with an asterisk in the first character position.\n In the \nBODY\n, however, every line begins with the first value, i.e.,\n \nthere are no asterisks\n in the BODY. If a line in the body has an\n asterisk in the first character position, \nthat line will be\n ignored",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Name",
+    "Description",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "1",
+     "Area Tag",
+     "Identifies the area (i.e., country) and the subarea (e.g., county, ZIP\n                     Code, or CRESTA zone) in which the\n                     risks represented in this record are located.",
+     "The Area Tag value used must be consistent with the Area Tag Type ."
+    ],
+    [
+     "2",
+     "Peril Codes",
+     "Identifies the peril covered for the risks in this record.",
+     "Note: The data in the fields that follow should represent this peril. Data\n                     for different perils should be reported separately in different\n                     records."
+    ],
+    [
+     "3",
+     "LOBCode",
+     "Identifies the line of business under which the risks covered in this\n                     record are reported.",
+     "The valid Line Of Business codes vary by country."
+    ],
+    [
+     "4",
+     "Coverage",
+     "Identifies the coverages included for the risks in this record. For\n                     example, if you are able to separate the sums-insured values for buildings,\n                     contents, and time element for a specific set of risks (i.e., risks for which\n                     the values in fields 1, 2, and 3 are identical) then you should enter the\n                     values as three separate records and in the three records you would\n                     provide the coverage code as B , C , and T , respectively. On\n                     the other hand, if you cannot separate the sums-insured for the three\n                     coverages, then you would enter all the values for that set of risks in a\n                     single record and set the coverage code as BCT .",
+     "A Buildings only. In the US this includes coverages A and B C Contents only. In the US this includes coverage C T Time element\n                        only. In the US this includes coverage D BC Buildings and contents combined i.e., the two coverages cannot be separated). In the US\n                        this includes coverages A, B and C BCT Buildings, contents, and time element combined (i.e., the three coverages cannot be\n                        separated) . In the US this includes coverages A, B, C and D. A Automobiles only W Workers' Compensation or pandemic exposure PD Physical damage (Gulf of Mexico Offshore Platform only) CROP MPCI Agricultural and Crop Hail"
+    ],
+    [
+     "5",
+     "NumRisks",
+     "This is the number of risks represented in this record.",
+     "This value must be entered in whole units (i.e., not in thousands or\n                        millions). For records with W (Workers' Compensation) as the coverage code, this field represents the\n                        number of employees."
+    ],
+    [
+     "6",
+     "SumsIns",
+     "This is the total sums-insured value of the coverage (reported in\n                     field 4) for the risks represented in this record.",
+     "This value must be entered based on the DATA_UNITS and DATA_CURRENCY defined in the header. For records with W (Workers' Compensation) as the coverage code, this field represents the\n                        payroll."
+    ],
+    [
+     "7",
+     "AvgDed",
+     "This is the average deductible for all the policies (for this peril) for\n                     the risks covered in this record.",
+     "This value must be entered based on the DATA_UNITS and DATA_CURRENCY defined in the header. If the\n                     policies for the risks in this record do not have any deductibles then enter\n                     the digit 0 (i.e., zero)."
+    ],
+    [
+     "8",
+     "Prem",
+     "This is the total amount of written premium income from the policies (for\n                     this peril) for the risks covered in this record.",
+     "This value must be entered based on the DATA_UNITS and DATA_CURRENCY defined in the header. If the\n                     policies for the risks in this record do not cover any time element losses,\n                     enter the digit 0 (i.e., zero). If this record represents 5 risks, and two of the policies have a $75\n                     premium and the other three policies have $200 premium, then the total amount\n                     of written premium is $750 (i.e., 2x$75 + 3x$200)"
+    ],
+    [
+     "9",
+     "PremRate",
+     "This is the average premium rate per mil (â°), i.e., premium charged (for\n                     this peril) per 1000 units of sums-insured for the risks represented in this\n                     record.",
+     "This value must contain at least three decimal places."
+    ],
+    [
+     "10",
+     "SubareaName",
+     "This is the name of the area (i.e., country) or subarea. It should only be used if the DATA_LEVEL is 10 or 11.",
+     "This field improves the chances of detecting and fixing errors in the AreaTag field."
+    ]
+   ]
+  }
+ ]
+}

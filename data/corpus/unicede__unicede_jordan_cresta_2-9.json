@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_jordan_cresta_2-9.html",
+ "title": "Jordan CRESTA Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Jordan \nCRESTA\n Codes (v2.9)\n\nCRESTA\n codes for Jordan supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Jordan (118).\n\n| Area Tag | Zone |\n| --- | --- |\n| 118-JOR | Jordan |\n| 118-JOR-AJ | Ajlun |\n| 118-JOR-AM | Amman |\n| 118-JOR-AQ | Aqaba |\n| 118-JOR-AT | Tafiela |\n| 118-JOR-AZ | Zarqa |\n| 118-JOR-BA | Balqa |\n| 118-JOR-IR | Irbid |\n| 118-JOR-JA | Jarash |\n| 118-JOR-KA | Karak |\n| 118-JOR-MA | Mafraq |\n| 118-JOR-MD | Madaba |\n| 118-JOR-MN | Maan |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "118-JOR",
+     "Jordan"
+    ],
+    [
+     "118-JOR-AJ",
+     "Ajlun"
+    ],
+    [
+     "118-JOR-AM",
+     "Amman"
+    ],
+    [
+     "118-JOR-AQ",
+     "Aqaba"
+    ],
+    [
+     "118-JOR-AT",
+     "Tafiela"
+    ],
+    [
+     "118-JOR-AZ",
+     "Zarqa"
+    ],
+    [
+     "118-JOR-BA",
+     "Balqa"
+    ],
+    [
+     "118-JOR-IR",
+     "Irbid"
+    ],
+    [
+     "118-JOR-JA",
+     "Jarash"
+    ],
+    [
+     "118-JOR-KA",
+     "Karak"
+    ],
+    [
+     "118-JOR-MA",
+     "Mafraq"
+    ],
+    [
+     "118-JOR-MD",
+     "Madaba"
+    ],
+    [
+     "118-JOR-MN",
+     "Maan"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_gom-occ-class-codes.html",
+ "title": "Gulf of Mexico occupancy class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Gulf of Mexico occupancy class codes\n\nTouchstone\n supports the occupancy codes\n listed in this topic for the Gulf of Mexico.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Occupancy code | Occupancy class |\n| --- | --- | --- |\n| Offshore | 900 | Unknown |\n| 901 | Oil Production Only |\n| 902 | Gas Production Only |\n| 903 | No Production |\n| 904 | Oil and Gas Production |\n| 905 | Drilling |\n| 906 | Workover |\n| 907 | Ready Stacked |\n| 908 | Waiting on Location |\n| 909 | Pipelines |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Occupancy code",
+    "Occupancy class"
+   ],
+   "rows": [
+    [
+     "Offshore",
+     "900",
+     "Unknown"
+    ],
+    [
+     "901",
+     "Oil Production Only"
+    ],
+    [
+     "902",
+     "Gas Production Only"
+    ],
+    [
+     "903",
+     "No Production"
+    ],
+    [
+     "904",
+     "Oil and Gas Production"
+    ],
+    [
+     "905",
+     "Drilling"
+    ],
+    [
+     "906",
+     "Workover"
+    ],
+    [
+     "907",
+     "Ready Stacked"
+    ],
+    [
+     "908",
+     "Waiting on Location"
+    ],
+    [
+     "909",
+     "Pipelines"
+    ]
+   ]
+  }
+ ]
+}

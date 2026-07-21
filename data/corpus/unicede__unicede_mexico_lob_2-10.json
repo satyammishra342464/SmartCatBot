@@ -1,0 +1,113 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_mexico_lob_2-10.html",
+ "title": "Mexico Lines Of Business (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Mexico Lines Of Business (v2.10)\n \n\nLOB codes for Mexico supported by \nUNICEDE\n/2.\n\n| Code | Lines of Business | All except EQ | EQ only |\n| --- | --- | --- | --- |\n| BLD | Residential Buildings | Y | Y |\n| CNT | Residential Contents | Y | Y |\n| COM | Commercial | - | Y |\n| COMB | Commercial and Industrial Buildings | Y | - |\n| COMC | Commercial and Industrial Contents | Y | - |\n| CAI | Commercial and Industrial | - | Y |\n| IND | Industrial | - | Y |\n| AUTO | Auto | Y | Y |\n\nMarket Share Lines of Business\n\n| Code | Lines of Business | All except EQ | EQ only |\n| --- | --- | --- | --- |\n| BLD | Residential Buildings | Y | Y |\n| CNT | Residential Contents | Y | Y |\n| COM | Commercial | Y | Y |\n| CAI | Commercial and Industrial | - | Y |\n| IND | Industrial | - | Y |\n| AUTO | Auto | Y | Y |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Lines of Business",
+    "All except EQ",
+    "EQ only"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Buildings",
+     "Y",
+     "Y"
+    ],
+    [
+     "CNT",
+     "Residential Contents",
+     "Y",
+     "Y"
+    ],
+    [
+     "COM",
+     "Commercial",
+     "-",
+     "Y"
+    ],
+    [
+     "COMB",
+     "Commercial and Industrial Buildings",
+     "Y",
+     "-"
+    ],
+    [
+     "COMC",
+     "Commercial and Industrial Contents",
+     "Y",
+     "-"
+    ],
+    [
+     "CAI",
+     "Commercial and Industrial",
+     "-",
+     "Y"
+    ],
+    [
+     "IND",
+     "Industrial",
+     "-",
+     "Y"
+    ],
+    [
+     "AUTO",
+     "Auto",
+     "Y",
+     "Y"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Lines of Business",
+    "All except EQ",
+    "EQ only"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Buildings",
+     "Y",
+     "Y"
+    ],
+    [
+     "CNT",
+     "Residential Contents",
+     "Y",
+     "Y"
+    ],
+    [
+     "COM",
+     "Commercial",
+     "Y",
+     "Y"
+    ],
+    [
+     "CAI",
+     "Commercial and Industrial",
+     "-",
+     "Y"
+    ],
+    [
+     "IND",
+     "Industrial",
+     "-",
+     "Y"
+    ],
+    [
+     "AUTO",
+     "Auto",
+     "Y",
+     "Y"
+    ]
+   ]
+  }
+ ]
+}

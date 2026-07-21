@@ -1,0 +1,121 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_ecuador_province_3.html",
+ "title": "Ecuador Province Codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Ecuador Province Codes\n\nProvince codes for Ecuador supported by \nUNICEDE\n/2 supported by \nUNICEDE\n/2 supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Ecuador (34).\n\n| Area Tag | CRESTA Zone |\n| --- | --- |\n| 34-000 | Ecuador |\n| 34-001 | Azuay |\n| 34-002 | Bolivar |\n| 34-003 | Canar |\n| 34-004 | Carchi |\n| 34-005 | Cotopaxi |\n| 34-006 | Chimborazo |\n| 34-007 | El Oro |\n| 34-008 | Esmeraldas |\n| 34-009 | Guayas |\n| 34-010 | Imbabura |\n| 34-011 | Loja |\n| 34-012 | Los Rios |\n| 34-013 | Manabi |\n| 34-014 | Morona Santiago |\n| 34-015 | Napo |\n| 34-016 | Pastaza |\n| 34-017 | Pichincha |\n| 34-018 | Tungurahua |\n| 34-019 | Zamora Chinchipe |\n| 34-020 | Galapagos |\n| 34-021 | Sucumbios |\n| 34-022 | Orellana |\n| 34-023 | Santo Domingo de los Tsachilas |\n| 34-024 | Santa Elena |\n| 34-090 | Zonas No Delimitadas |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "CRESTA Zone"
+   ],
+   "rows": [
+    [
+     "34-000",
+     "Ecuador"
+    ],
+    [
+     "34-001",
+     "Azuay"
+    ],
+    [
+     "34-002",
+     "Bolivar"
+    ],
+    [
+     "34-003",
+     "Canar"
+    ],
+    [
+     "34-004",
+     "Carchi"
+    ],
+    [
+     "34-005",
+     "Cotopaxi"
+    ],
+    [
+     "34-006",
+     "Chimborazo"
+    ],
+    [
+     "34-007",
+     "El Oro"
+    ],
+    [
+     "34-008",
+     "Esmeraldas"
+    ],
+    [
+     "34-009",
+     "Guayas"
+    ],
+    [
+     "34-010",
+     "Imbabura"
+    ],
+    [
+     "34-011",
+     "Loja"
+    ],
+    [
+     "34-012",
+     "Los Rios"
+    ],
+    [
+     "34-013",
+     "Manabi"
+    ],
+    [
+     "34-014",
+     "Morona Santiago"
+    ],
+    [
+     "34-015",
+     "Napo"
+    ],
+    [
+     "34-016",
+     "Pastaza"
+    ],
+    [
+     "34-017",
+     "Pichincha"
+    ],
+    [
+     "34-018",
+     "Tungurahua"
+    ],
+    [
+     "34-019",
+     "Zamora Chinchipe"
+    ],
+    [
+     "34-020",
+     "Galapagos"
+    ],
+    [
+     "34-021",
+     "Sucumbios"
+    ],
+    [
+     "34-022",
+     "Orellana"
+    ],
+    [
+     "34-023",
+     "Santo Domingo de los Tsachilas"
+    ],
+    [
+     "34-024",
+     "Santa Elena"
+    ],
+    [
+     "34-090",
+     "Zonas No Delimitadas"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_new_zealand_peril_codes_2-7.html",
+ "title": "New Zealand Peril Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "New Zealand Peril Codes (v2.7)\n \n\nPeril codes for New Zealand supported by \nUNICEDE\n/2.\nUNICEDE\n/2 supports the following codes for Perils Covered for risks in New Zealand:\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWS | Windstorm only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ]
+   ]
+  }
+ ]
+}

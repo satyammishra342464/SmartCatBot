@@ -1,0 +1,25 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_restaurant-occ.html",
+ "title": "Restaurant occupancy code",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Restaurant occupancy code\n\nTouchstone\n supports the following restaurant\n occupancy class code.\n\nNote:\n For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\nNote:\n The associated Standard Industrial Classification\n (SIC) code is listed for the occupancy code.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 331 | Restaurants | 58 | This occupancy code includes restaurants, fast food centers, cafÃ©s, and\n bars. Valid for all exposures in the U.S., South America, Australia, Canada,\n the Caribbean, Japan, South Korea, China, and Taiwan, and for exposures\n covered for wind in Europe. In other regions, use commercial occupancy code 312 for\n restaurants. Also valid for Verisk Earthquake Model for New Zealand . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "331",
+     "Restaurants",
+     "58",
+     "This occupancy code includes restaurants, fast food centers, cafÃ©s, and\n                        bars. Valid for all exposures in the U.S., South America, Australia, Canada,\n                        the Caribbean, Japan, South Korea, China, and Taiwan, and for exposures\n                        covered for wind in Europe. In other regions, use commercial occupancy code 312 for\n                        restaurants. Also valid for Verisk Earthquake Model for New Zealand ."
+    ]
+   ]
+  }
+ ]
+}

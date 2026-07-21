@@ -1,0 +1,181 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts_val-ref_intro/ts_val-ref_intro_revision-hist.html",
+ "title": "Revision history",
+ "section": "ts_val-ref_intro",
+ "version": null,
+ "text": "Revision history\n\nSummary of the change history for the \nTouchstone\n Exposure Data Validation\n Reference\n\n since its initial release.\n\n| Validation reference version | Touchstone version | Date | Revision description |\n| --- | --- | --- | --- |\n| 8.0 | 2025 | Summer 2025 | Updated peril options, construction and occupancy codes, and secondary risk\n characteristics topics to reflect support for the new Verisk Inland Flood Model for Malaysia and Indonesia . |\n| 7.0 | 2025 | June 2025 | Updated peril options and codes for Verisk Earthquake Model for Mexico , Verisk Typhoon Model for South Korea , Verisk Inland Flood Model for the UK and the Republic of Ireland , Verisk Severe Thunderstorm Model for the United States , and Verisk Bushfire Model for Australia . Added support for secondary risk characteristics (model-dependent), additional\n construction codes (including marine), and additional occupancy codes (including\n large industrial facilities and marine storage) to the updated models. Updated defensible space content for wildfires outside the United States. |\n| 6.0 | 2024 | June 2024 | Added Backwater Valve Protection field to \"Location building details\" (only\n for Verisk Inland Flood Model for Canada . Added new smoke peril (SM) for the Verisk Wildfire Model for the United States and support for additional SRCs for the fire peril, such as skylights. |\n| 5.1 | 2023\n (11.5) | February 2024 | Added \"IT IF\" to \"Location building details\" (Floor of Interest, First Floor\n Height), \"Location connection detail fields\" (Foundation Type), and \"Location\n surrounding detail fields\" (Custom Elevation and Custom Flood SOP). For the \"-1\"\n option, added several models. In \"Europe perils\", added \"PFL\" to Italy and\n \"Inland Flood\" to Perils for Italy. Touchstone now correctly imports\n exposure data with the Authorized (A) contract status. You can select and view\n it in the user interface. The imported data produces loss appropriately, both in\n isolation and in combination with other non-âAâ contracts in a set. Updated \"Financial terms\" section with NGM terms. |\n| 5.0 | 2023 (11.0) | June\n 2023 | Updated \"-1\" option in Floor of Interest. Added Verisk BINS IDs to Locations section. Added\n topics for Bahrain, Kuwait, Oman, Qatar, and United Arab Emirates (UAE) codes,\n which will be supported in the Verisk Earthquake Model for the Middle East in Touchstone in 2024. Updated codes for\n Jordan, Lebanon, and Saudi Arabia. Updated \"Layers\" topic with Next Generation Models (NGM) financial terms, such as the Aggregate\n Limit field and the Aggregate Attachment Point field. |\n| 4.1 | 2022 (9.0) and 2022 (10.0) | November 2022 | Updated codes 486 and 487 in \"Japan occupancy class codes\". Fixed descriptions\n in \"Industrial facility occupancy codes\". Changed \"Warehouse\" to \"Inland Transit\n Cargo\" for code 366 in two topics. Added support for \"US IF\" to Wet Floodproofing\n and FIRM Compliance fields. Changed \"Gumma\" to \"Gunma\" in Japan prefecture codes.\n Added note in various places that Touchstone does not support single-day contracts. |\n| 4.0 | 2022 (10.0) | June 2022 | Updated -1 option in Floor of Interest. For the Verisk Severe Thunderstorm Model for the United States , expanded support for combinations of\n construction/occupancy codes for consistency with the Verisk Hurricane Model for the United States . Updated occupancy code 374\n (greenhouses), construction codes 239 and 240 (wind turbines), and the 2000-series\n construction codes to support Verisk Severe Thunderstorm Model for the United States . The model\n also supports additional secondary risk characteristics: Gross Area and Certified\n Structures (IBHS) for wind; Roof Geometry, Roof Deck, Wall Attached Structure, and\n Gross Area for hail. |\n| 3.1 | 2020 (8.x) and 2021 (9.1) and later | October 2021 | In \"Location Building Detail Fields\", updated \"Wet FloodProofing\" and \"FIRM\n Compliance\" fields to reflect support for US HU peril. |\n| 3.0 | 2021 (9.x) and later | June 2021 | To support new marine cargo construction and occupancy codes: Added \"Location\n Marine Fields\", \"Construction Class Codes â 2000-series\", and \"Marine Cargo\n Occupancy Codes\"; updated \"Marine Cargo Construction Codes\", \"United States and\n Canada Construction Class Codes\", \"Japan Construction Class Codes\", and \"Caribbean\n Construction Class Codes\". In \"United States Perils\", added support in Verisk Severe Thunderstorm Model for the United States for new peril codes: hail, tornado, and\n straight line wind. Verisk has retired non-catastrophe loss\n analyses in Touchstone 9.0. Added note\n to various topics indicating that non-cat fields in the user interface do not\n affect losses. |\n| 2.2 | 8.x and later | June 2021 | Updated \"Building Condition\" field information in \"Location Building Detail\n Fields\". Updated Japan construction code 247 in \"Equipment Construction Codes\".\n Added \"PWB\" to \"Australia Perils\". |\n| 2.0 | 8.0 | July 2020 | Added 306 occupancy code (apartment/condos) to Certified Structures (IBHS)\n secondary modifiers. Added construction code 141, valid only for countries within the Caribbean\n region. Updated administrative and postal data for the Caribbean countries: Updated information in Location Building\n Details Fields for FIRM Compliance, Service Equipment Protection, and Wet\n Floodproofing. Updated Custom Flood Zone in Location\n Surrounding Detail Fields . Updated Peril\n Options , Peril Support by\n Country/Region , and CRESTA and Area Codes to fix errors and\n add new content related to Caribbean updates. Corrected information about importing offshore deductible terms: Deductible\n Physical Damage, Deductible Removal of Debris, Deductible Operator's Extra\n Expense, and Deductible Business Interruption. |\n| 1.9.10 | 7.x and later | December 2019 | Updated Custom Elevation field in Location\n Surrounding Detail Fields to reflect support for Verisk Extratropical Cyclone Model for Europe and Verisk Inland Flood Model for Central Europe l Europe. Updated Custom Flood SOP Type field to note use of \"H\" (Height in meters) and\n \"RP\" (Return Period) codes. Updated Floor of Interest field in Location Building Detail\n Fields to reflect incorporation of the Verisk Coastal Flood Model for Great Britain into the Verisk Extratropical Cyclone Model for Europe , where the integrated model includes the storm\n surge events for the United Kingdom. Updated various location fields to reflect support for Verisk Earthquake Model for New Zealand in Location\n Surrounding Detail Fields , Location Building Detail\n Fields , Location Wall Detail Fields , and Location Roof Detail\n Fields . Updated Peril Options to include Liquefaction (PLQ) support. Updated New Zealand\n Perils to reflect support for additional perils. Updated Miscellaneous\n Occupancies to reflect support for Forestry in all of Europe. |\n| 1.9.95 | 6.x and later | December 2019 | Updated Custom Flood Standard of Protection fields in Location\n Surrounding Detail Fields to reflect height of the system in meters.\n Updated First Floor Height field in field in Location Building Detail\n Fields to reflect height in meters. |\n| 1.9.9 | 7.x and later | June 2019 | Updated construction/occupancy codes for new and updated models. |\n| 1.9.8 | 5.x and later | June 2019 | Updated Foundation Type field. |\n| 1.9.7 | 7.x and later | June 2019 | Added information about Custom Flood SOP Type to Location\n Surrounding Detail Fields for Verisk Inland Flood Model for Central Europe . |\n| 1.9.6 | 6.x and later | December 2019 | Updated codes 156-159 in Steel Construction to reflect support in U.S. and Canada (varies by\n peril.) |\n| 1.9.5 | 6.x and later | April 2019 | Added note to Mobile Home\n Construction indicating that Detailed Loss Analysis results will not\n match between Touchstone 6.0 and Touchstone 7.0 for the Verisk Hurricane Model for the United States . Updated information about slot count and slot drill values. |\n| 1.9.4 | 6.x and later | February 2019 | Updated various topics to indicate that construction code 250 is not valid for\n any peril in the United States. |\n| 1.9.3 | 6.x and later | February 2019 | Updated Location Surrounding Detail Fields with information about Defensible Space and Firewise Community\n Participation secondary risk characteristics (SRC). |\n| 1.9.2 | 6.x and later | January 2019 | Updated China\n Construction Class Codes and China Occupancy Class\n Codes with codes for the updated Verisk Typhoon Model for Mainland China .\n Updated support information related to the updated model in Miscellaneous Occupancies , Bridge Construction , Pipeline Construction , Steel Construction , Storage Tank\n Construction , and Tunnel\n Construction . |\n| 1.9.1 | 4.x and later | November 2018 | Updated Floor of Interest field in Location Building Detail\n Fields with -1 Basement support for Verisk Hurricane Model for the United States . Updated Location Group Name field in Location Contract\n Fields with note regarding use of exposure coding for campus (group)\n structures. |\n| 1.9.0 | 4.x and later | August 2018 | Updated many topics with new codes (associated with new models or changes to\n current models) and corrected some errors. Removed mapping information; users can\n find that information in the model documentation. Added robust descriptions to Industrial Facility\n Occupancies topic. Updated SIC2-digit codes information as needed. |\n| 1.8.0 | 4.x and later | June 2018 | Updated Location\n Builder Risk Fields to reflect No Builder's Risk (0) as the default for Project Phase Code . |\n| 1.7.0 | 4.x and later | May 2018 | Updated Southeast Asia Occupancy Class Codes to reflect support for 400-series\n codes. |\n| 1.6.0 | 5.x and later | August 2018 | Updated Location\n Basic Building Fields and Difference between\n Gross Area and Floor Area fields to reflect the effect of Gross\n Area on the Verisk Hurricane Model for the United States and the Verisk Earthquake Model for the United States . |\n| 1.5.0 | 5.1 | January 2018 | Updated Pipeline\n Construction , Storage Tank Construction , and United States and\n Canada Construction Class Codes with recommendations about the recommended\n codes to use with the Verisk Earthquake Model for the United States . |",
+ "tables": [
+  {
+   "headers": [
+    "Validation reference version",
+    "Touchstone version",
+    "Date",
+    "Revision description"
+   ],
+   "rows": [
+    [
+     "8.0",
+     "2025",
+     "Summer 2025",
+     "Updated peril options, construction and occupancy codes, and secondary risk\n                    characteristics topics to reflect support for the new Verisk Inland Flood Model for Malaysia and Indonesia ."
+    ],
+    [
+     "7.0",
+     "2025",
+     "June 2025",
+     "Updated peril options and codes for Verisk Earthquake Model for Mexico , Verisk Typhoon Model for South Korea , Verisk Inland Flood Model for the UK and the Republic of Ireland , Verisk Severe Thunderstorm Model for the United States , and Verisk Bushfire Model for Australia . Added support for secondary risk characteristics (model-dependent), additional\n                    construction codes (including marine), and additional occupancy codes (including\n                    large industrial facilities and marine storage) to the updated models. Updated defensible space content for wildfires outside the United States."
+    ],
+    [
+     "6.0",
+     "2024",
+     "June 2024",
+     "Added Backwater Valve Protection field to \"Location building details\" (only\n                    for Verisk Inland Flood Model for Canada . Added new smoke peril (SM) for the Verisk Wildfire Model for the United States and support for additional SRCs for the fire peril, such as skylights."
+    ],
+    [
+     "5.1",
+     "2023\n                (11.5)",
+     "February 2024",
+     "Added \"IT IF\" to \"Location building details\" (Floor of Interest, First Floor\n                    Height), \"Location connection detail fields\" (Foundation Type), and \"Location\n                    surrounding detail fields\" (Custom Elevation and Custom Flood SOP). For the \"-1\"\n                    option, added several models. In \"Europe perils\", added \"PFL\" to Italy and\n                    \"Inland Flood\" to Perils for Italy. Touchstone now correctly imports\n                    exposure data with the Authorized (A) contract status. You can select and view\n                    it in the user interface. The imported data produces loss appropriately, both in\n                    isolation and in combination with other non-âAâ contracts in a set. Updated \"Financial terms\" section with NGM terms."
+    ],
+    [
+     "5.0",
+     "2023 (11.0)",
+     "June\n                2023",
+     "Updated \"-1\" option in Floor of Interest. Added Verisk BINS IDs to Locations section. Added\n                  topics for Bahrain, Kuwait, Oman, Qatar, and United Arab Emirates (UAE) codes,\n                  which will be supported in the Verisk Earthquake Model for the Middle East in Touchstone in 2024. Updated codes for\n                  Jordan, Lebanon, and Saudi Arabia. Updated \"Layers\" topic with Next Generation Models (NGM) financial terms, such as the Aggregate\n                Limit field and the Aggregate Attachment Point field."
+    ],
+    [
+     "4.1",
+     "2022 (9.0) and 2022 (10.0)",
+     "November 2022",
+     "Updated codes 486 and 487 in \"Japan occupancy class codes\". Fixed descriptions\n                in \"Industrial facility occupancy codes\". Changed \"Warehouse\" to \"Inland Transit\n                Cargo\" for code 366 in two topics. Added support for \"US IF\" to Wet Floodproofing\n                and FIRM Compliance fields. Changed \"Gumma\" to \"Gunma\" in Japan prefecture codes.\n                Added note in various places that Touchstone does not support single-day contracts."
+    ],
+    [
+     "4.0",
+     "2022 (10.0)",
+     "June 2022",
+     "Updated -1 option in Floor of Interest. For the Verisk Severe Thunderstorm Model for the United States , expanded support for combinations of\n                  construction/occupancy codes for consistency with the Verisk Hurricane Model for the United States . Updated occupancy code 374\n                  (greenhouses), construction codes 239 and 240 (wind turbines), and the 2000-series\n                  construction codes to support Verisk Severe Thunderstorm Model for the United States . The model\n                  also supports additional secondary risk characteristics: Gross Area and Certified\n                  Structures (IBHS) for wind; Roof Geometry, Roof Deck, Wall Attached Structure, and\n                  Gross Area for hail."
+    ],
+    [
+     "3.1",
+     "2020 (8.x) and 2021 (9.1) and later",
+     "October 2021",
+     "In \"Location Building Detail Fields\", updated \"Wet FloodProofing\" and \"FIRM\n                Compliance\" fields to reflect support for US HU peril."
+    ],
+    [
+     "3.0",
+     "2021 (9.x) and later",
+     "June 2021",
+     "To support new marine cargo construction and occupancy codes: Added \"Location\n                  Marine Fields\", \"Construction Class Codes â 2000-series\", and \"Marine Cargo\n                  Occupancy Codes\"; updated \"Marine Cargo Construction Codes\", \"United States and\n                  Canada Construction Class Codes\", \"Japan Construction Class Codes\", and \"Caribbean\n                  Construction Class Codes\". In \"United States Perils\", added support in Verisk Severe Thunderstorm Model for the United States for new peril codes: hail, tornado, and\n                  straight line wind. Verisk has retired non-catastrophe loss\n                  analyses in Touchstone 9.0. Added note\n                  to various topics indicating that non-cat fields in the user interface do not\n                  affect losses."
+    ],
+    [
+     "2.2",
+     "8.x and later",
+     "June 2021",
+     "Updated \"Building Condition\" field information in \"Location Building Detail\n                Fields\". Updated Japan construction code 247 in \"Equipment Construction Codes\".\n                Added \"PWB\" to \"Australia Perils\"."
+    ],
+    [
+     "2.0",
+     "8.0",
+     "July 2020",
+     "Added 306 occupancy code (apartment/condos) to Certified Structures (IBHS)\n                  secondary modifiers. Added construction code 141, valid only for countries within the Caribbean\n                  region. Updated administrative and postal data for the Caribbean countries: Updated information in Location Building\n                    Details Fields for FIRM Compliance, Service Equipment Protection, and Wet\n                  Floodproofing. Updated Custom Flood Zone in Location\n                    Surrounding Detail Fields . Updated Peril\n                  Options , Peril Support by\n                    Country/Region , and CRESTA and Area Codes to fix errors and\n                  add new content related to Caribbean updates. Corrected information about importing offshore deductible terms: Deductible\n                  Physical Damage, Deductible Removal of Debris, Deductible Operator's Extra\n                  Expense, and Deductible Business Interruption."
+    ],
+    [
+     "1.9.10",
+     "7.x and later",
+     "December 2019",
+     "Updated Custom Elevation field in Location\n                    Surrounding Detail Fields to reflect support for Verisk Extratropical Cyclone Model for Europe and Verisk Inland Flood Model for Central Europe l Europe. Updated Custom Flood SOP Type field to note use of \"H\" (Height in meters) and\n                  \"RP\" (Return Period) codes. Updated Floor of Interest field in Location Building Detail\n                    Fields to reflect incorporation of the Verisk Coastal Flood Model for Great Britain into the Verisk Extratropical Cyclone Model for Europe , where the integrated model includes the storm\n                  surge events for the United Kingdom. Updated various location fields to reflect support for Verisk Earthquake Model for New Zealand in Location\n                    Surrounding Detail Fields , Location Building Detail\n                    Fields , Location Wall Detail Fields , and Location Roof Detail\n                    Fields . Updated Peril Options to include Liquefaction (PLQ) support. Updated New Zealand\n                    Perils to reflect support for additional perils. Updated Miscellaneous\n                    Occupancies to reflect support for Forestry in all of Europe."
+    ],
+    [
+     "1.9.95",
+     "6.x and later",
+     "December 2019",
+     "Updated Custom Flood Standard of Protection fields in Location\n                    Surrounding Detail Fields to reflect height of the system in meters.\n                  Updated First Floor Height field in field in Location Building Detail\n                    Fields to reflect height in meters."
+    ],
+    [
+     "1.9.9",
+     "7.x and later",
+     "June 2019",
+     "Updated construction/occupancy codes for new and updated models."
+    ],
+    [
+     "1.9.8",
+     "5.x and later",
+     "June 2019",
+     "Updated Foundation Type field."
+    ],
+    [
+     "1.9.7",
+     "7.x and later",
+     "June 2019",
+     "Added information about Custom Flood SOP Type to Location\n                  Surrounding Detail Fields for Verisk Inland Flood Model for Central Europe ."
+    ],
+    [
+     "1.9.6",
+     "6.x and later",
+     "December 2019",
+     "Updated codes 156-159 in Steel Construction to reflect support in U.S. and Canada (varies by\n                peril.)"
+    ],
+    [
+     "1.9.5",
+     "6.x and later",
+     "April 2019",
+     "Added note to Mobile Home\n                    Construction indicating that Detailed Loss Analysis results will not\n                  match between Touchstone 6.0 and Touchstone 7.0 for the Verisk Hurricane Model for the United States . Updated information about slot count and slot drill values."
+    ],
+    [
+     "1.9.4",
+     "6.x and later",
+     "February 2019",
+     "Updated various topics to indicate that construction code 250 is not valid for\n                any peril in the United States."
+    ],
+    [
+     "1.9.3",
+     "6.x and later",
+     "February 2019",
+     "Updated Location Surrounding Detail Fields with information about Defensible Space and Firewise Community\n                  Participation secondary risk characteristics (SRC)."
+    ],
+    [
+     "1.9.2",
+     "6.x and later",
+     "January 2019",
+     "Updated China\n                  Construction Class Codes and China Occupancy Class\n                  Codes with codes for the updated Verisk Typhoon Model for Mainland China .\n                Updated support information related to the updated model in Miscellaneous Occupancies , Bridge Construction , Pipeline Construction , Steel Construction , Storage Tank\n                Construction , and Tunnel\n                  Construction ."
+    ],
+    [
+     "1.9.1",
+     "4.x and later",
+     "November 2018",
+     "Updated Floor of Interest field in Location Building Detail\n                  Fields with -1 Basement support for Verisk Hurricane Model for the United States . Updated Location Group Name field in Location Contract\n                  Fields with note regarding use of exposure coding for campus (group)\n                structures."
+    ],
+    [
+     "1.9.0",
+     "4.x and later",
+     "August 2018",
+     "Updated many topics with new codes (associated with new models or changes to\n                current models) and corrected some errors. Removed mapping information; users can\n                find that information in the model documentation. Added robust descriptions to Industrial Facility\n                  Occupancies topic. Updated SIC2-digit codes information as needed."
+    ],
+    [
+     "1.8.0",
+     "4.x and later",
+     "June 2018",
+     "Updated Location\n                  Builder Risk Fields to reflect No Builder's Risk (0) as the default for Project Phase Code ."
+    ],
+    [
+     "1.7.0",
+     "4.x and later",
+     "May 2018",
+     "Updated Southeast Asia Occupancy Class Codes to reflect support for 400-series\n                codes."
+    ],
+    [
+     "1.6.0",
+     "5.x and later",
+     "August 2018",
+     "Updated Location\n                  Basic Building Fields and Difference between\n                  Gross Area and Floor Area fields to reflect the effect of Gross\n                  Area on the Verisk Hurricane Model for the United States and the Verisk Earthquake Model for the United States ."
+    ],
+    [
+     "1.5.0",
+     "5.1",
+     "January 2018",
+     "Updated Pipeline\n                  Construction , Storage Tank Construction , and United States and\n                  Canada Construction Class Codes with recommendations about the recommended\n                codes to use with the Verisk Earthquake Model for the United States ."
+    ]
+   ]
+  }
+ ]
+}

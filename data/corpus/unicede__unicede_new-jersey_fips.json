@@ -1,0 +1,101 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_new-jersey_fips.html",
+ "title": "New Jersey (NJ) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "New Jersey (NJ) Counties\n\nFIPS codes for New Jersey.\n\nFIPS State Code: 34\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Bergen County, enter \n01-34003.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Atlantic |\n| 003 | Bergen |\n| 005 | Burlington |\n| 007 | Camden |\n| 009 | Cape May |\n| 011 | Cumberland |\n| 013 | Essex |\n| 015 | Gloucester |\n| 017 | Hudson |\n| 019 | Hunterdon |\n| 021 | Mercer |\n| 023 | Middlesex |\n| 025 | Monmouth |\n| 027 | Morris |\n| 029 | Ocean |\n| 031 | Passaic |\n| 033 | Salem |\n| 035 | Somerset |\n| 037 | Sussex |\n| 039 | Union |\n| 041 | Warren |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Atlantic"
+    ],
+    [
+     "003",
+     "Bergen"
+    ],
+    [
+     "005",
+     "Burlington"
+    ],
+    [
+     "007",
+     "Camden"
+    ],
+    [
+     "009",
+     "Cape May"
+    ],
+    [
+     "011",
+     "Cumberland"
+    ],
+    [
+     "013",
+     "Essex"
+    ],
+    [
+     "015",
+     "Gloucester"
+    ],
+    [
+     "017",
+     "Hudson"
+    ],
+    [
+     "019",
+     "Hunterdon"
+    ],
+    [
+     "021",
+     "Mercer"
+    ],
+    [
+     "023",
+     "Middlesex"
+    ],
+    [
+     "025",
+     "Monmouth"
+    ],
+    [
+     "027",
+     "Morris"
+    ],
+    [
+     "029",
+     "Ocean"
+    ],
+    [
+     "031",
+     "Passaic"
+    ],
+    [
+     "033",
+     "Salem"
+    ],
+    [
+     "035",
+     "Somerset"
+    ],
+    [
+     "037",
+     "Sussex"
+    ],
+    [
+     "039",
+     "Union"
+    ],
+    [
+     "041",
+     "Warren"
+    ]
+   ]
+  }
+ ]
+}

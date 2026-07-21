@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_saipan_country_2-7.html",
+ "title": "Saipan Country Code (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Saipan Country Code (v2.7)\n \n\nCountry code for Saipan supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Saipan (161).\n\n| Area Tag | Country Code |\n| --- | --- |\n| 161-000 | Saipan |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Country Code"
+   ],
+   "rows": [
+    [
+     "161-000",
+     "Saipan"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_morocco-cresta-codes.html",
+ "title": "Morocco CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Morocco \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Morocco.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Tanger |\n| 2 | Tetouan |\n| 3 | Larache |\n| 4 | Chaouene |\n| 5 | Kenitra |\n| 6 | Sidi Kacem |\n| 7 | Taounate |\n| 8 | Al Hoceima |\n| 9 | Nador |\n| 10 | Oujda |\n| 11 | Taza |\n| 12 | Fes |\n| 13 | Meknes |\n| 14 | Khemisset |\n| 15 | Rabat |\n| 16 | Ifrane |\n| 17 | Casablanca |\n| 18 | Ben Slimane |\n| 19 | Settat |\n| 20 | El Jadida |\n| 21 | Safi |\n| 22 | Kelaat Sraghna |\n| 23 | Khouribga |\n| 24 | Beni Mellal |\n| 25 | Azilal |\n| 26 | Khenifra |\n| 27 | Boulmane |\n| 28 | Figuig |\n| 29 | Errachidia |\n| 30 | Ouarzazate |\n| 31 | Marrakech |\n| 32 | Essaouira |\n| 33 | Agadir |\n| 34 | Taroudant |\n| 35 | Tiznit |\n| 36 | Tata |\n| 37 | Guelmim |\n| 38 | Assa-Zag |\n| 39 | Tan Tan |\n| 40 | Smara |\n| 41 | Laayoune |\n| 42 | Boujdour |\n| 43 | Ed Dakhla |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Tanger"
+    ],
+    [
+     "2",
+     "Tetouan"
+    ],
+    [
+     "3",
+     "Larache"
+    ],
+    [
+     "4",
+     "Chaouene"
+    ],
+    [
+     "5",
+     "Kenitra"
+    ],
+    [
+     "6",
+     "Sidi Kacem"
+    ],
+    [
+     "7",
+     "Taounate"
+    ],
+    [
+     "8",
+     "Al Hoceima"
+    ],
+    [
+     "9",
+     "Nador"
+    ],
+    [
+     "10",
+     "Oujda"
+    ],
+    [
+     "11",
+     "Taza"
+    ],
+    [
+     "12",
+     "Fes"
+    ],
+    [
+     "13",
+     "Meknes"
+    ],
+    [
+     "14",
+     "Khemisset"
+    ],
+    [
+     "15",
+     "Rabat"
+    ],
+    [
+     "16",
+     "Ifrane"
+    ],
+    [
+     "17",
+     "Casablanca"
+    ],
+    [
+     "18",
+     "Ben Slimane"
+    ],
+    [
+     "19",
+     "Settat"
+    ],
+    [
+     "20",
+     "El Jadida"
+    ],
+    [
+     "21",
+     "Safi"
+    ],
+    [
+     "22",
+     "Kelaat Sraghna"
+    ],
+    [
+     "23",
+     "Khouribga"
+    ],
+    [
+     "24",
+     "Beni Mellal"
+    ],
+    [
+     "25",
+     "Azilal"
+    ],
+    [
+     "26",
+     "Khenifra"
+    ],
+    [
+     "27",
+     "Boulmane"
+    ],
+    [
+     "28",
+     "Figuig"
+    ],
+    [
+     "29",
+     "Errachidia"
+    ],
+    [
+     "30",
+     "Ouarzazate"
+    ],
+    [
+     "31",
+     "Marrakech"
+    ],
+    [
+     "32",
+     "Essaouira"
+    ],
+    [
+     "33",
+     "Agadir"
+    ],
+    [
+     "34",
+     "Taroudant"
+    ],
+    [
+     "35",
+     "Tiznit"
+    ],
+    [
+     "36",
+     "Tata"
+    ],
+    [
+     "37",
+     "Guelmim"
+    ],
+    [
+     "38",
+     "Assa-Zag"
+    ],
+    [
+     "39",
+     "Tan Tan"
+    ],
+    [
+     "40",
+     "Smara"
+    ],
+    [
+     "41",
+     "Laayoune"
+    ],
+    [
+     "42",
+     "Boujdour"
+    ],
+    [
+     "43",
+     "Ed Dakhla"
+    ]
+   ]
+  }
+ ]
+}

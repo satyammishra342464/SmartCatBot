@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_turks-caicos-islands-district-codes.html",
+ "title": "Turks and Caicos Islands district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Turks and Caicos Islands district codes\n\nTouchstone\n supports the following district\n codes for Turks and Caicos Islands.\n\n| District Code | District Name |\n| --- | --- |\n| 05 | Grand Turk |\n| 03 | Middle Caicos |\n| 02 | North Caicos |\n| 01 | Providenciales and West Caicos |\n| 06 | Salt Cay |\n| 04 | South Caicos and East Caicos |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "05",
+     "Grand Turk"
+    ],
+    [
+     "03",
+     "Middle Caicos"
+    ],
+    [
+     "02",
+     "North Caicos"
+    ],
+    [
+     "01",
+     "Providenciales and West Caicos"
+    ],
+    [
+     "06",
+     "Salt Cay"
+    ],
+    [
+     "04",
+     "South Caicos and East Caicos"
+    ]
+   ]
+  }
+ ]
+}

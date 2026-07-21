@@ -1,0 +1,321 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_thailand-cresta-codes.html",
+ "title": "Thailand CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Thailand \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Thailand.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| THA_10 | Krung Thep Maha Nakhon [Bangkok] |\n| THA_11 | Samut Prakan |\n| THA_12 | Nonthaburi |\n| THA_13 | Pathum Thani |\n| THA_14 | PhraNakhon Si Ayutthaya |\n| THA_15 | Ang Thong |\n| THA_16 | Lop Buri |\n| THA_17 | Sing Buri |\n| THA_18 | Chai Nat |\n| THA_19 | Saraburi |\n| THA_20 | Chon Buri |\n| THA_21 | Rayong |\n| THA_22 | Chanthaburi |\n| THA_23 | Trat |\n| THA_24 | Chachoengsao |\n| THA_25 | Prachin Buri |\n| THA_26 | Nakhon Nayok |\n| THA_27 | Sa Kaeo |\n| THA_30 | Nakhon Ratchasima |\n| THA_31 | Buri Ram |\n| THA_32 | Surin |\n| THA_33 | SiSa Ket |\n| THA_34 | Ubon Ratchathani |\n| THA_35 | Yasothon |\n| THA_36 | Chaiyaphum |\n| THA_37 | Amnat Charoen |\n| THA_39 | Nong Bua Lam Phu |\n| THA_40 | Khon Kaen |\n| THA_41 | Udon Thani |\n| THA_42 | Loei |\n| THA_43 | Nong Khai |\n| THA_44 | Maha Sarakham |\n| THA_45 | Roi Et |\n| THA_46 | Kalasin |\n| THA_47 | Sakon Nakhon |\n| THA_48 | Nakhon Phanom |\n| THA_49 | Mukdahan |\n| THA_50 | Chiang Mai |\n| THA_51 | Lamphun |\n| THA_52 | Lampang |\n| THA_53 | Uttaradit |\n| THA_54 | Phrae |\n| THA_55 | Nan |\n| THA_56 | Phayao |\n| THA_57 | Chiang Rai |\n| THA_58 | Mae Hong Son |\n| THA_60 | Nakhon Sawan |\n| THA_61 | Uthai Thani |\n| THA_62 | Kamphaeng Phet |\n| THA_63 | Tak |\n| THA_64 | Sukhothai |\n| THA_65 | Phitsanulok |\n| THA_66 | Phichit |\n| THA_67 | Phetchabun |\n| THA_70 | Ratchaburi |\n| THA_71 | Kanchanaburi |\n| THA_72 | Suphan Buri |\n| THA_73 | Nakhon Pathom |\n| THA_74 | Samut Sakhon |\n| THA_75 | Samut Songkhram |\n| THA_76 | Phetchaburi |\n| THA_77 | Prachuap Khiri Khan |\n| THA_80 | Nakhon Si Thammarat |\n| THA_81 | Krabi |\n| THA_82 | Phangnga |\n| THA_83 | Phuket |\n| THA_84 | Surat Thani |\n| THA_85 | Ranong |\n| THA_86 | Chumphon |\n| THA_90 | Songkhla |\n| THA_91 | Satun |\n| THA_92 | Trang |\n| THA_93 | Phatthalung |\n| THA_94 | Pattani |\n| THA_95 | Yala |\n| THA_96 | Narathiwat |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "THA_10",
+     "Krung Thep Maha Nakhon [Bangkok]"
+    ],
+    [
+     "THA_11",
+     "Samut Prakan"
+    ],
+    [
+     "THA_12",
+     "Nonthaburi"
+    ],
+    [
+     "THA_13",
+     "Pathum Thani"
+    ],
+    [
+     "THA_14",
+     "PhraNakhon Si Ayutthaya"
+    ],
+    [
+     "THA_15",
+     "Ang Thong"
+    ],
+    [
+     "THA_16",
+     "Lop Buri"
+    ],
+    [
+     "THA_17",
+     "Sing Buri"
+    ],
+    [
+     "THA_18",
+     "Chai Nat"
+    ],
+    [
+     "THA_19",
+     "Saraburi"
+    ],
+    [
+     "THA_20",
+     "Chon Buri"
+    ],
+    [
+     "THA_21",
+     "Rayong"
+    ],
+    [
+     "THA_22",
+     "Chanthaburi"
+    ],
+    [
+     "THA_23",
+     "Trat"
+    ],
+    [
+     "THA_24",
+     "Chachoengsao"
+    ],
+    [
+     "THA_25",
+     "Prachin Buri"
+    ],
+    [
+     "THA_26",
+     "Nakhon Nayok"
+    ],
+    [
+     "THA_27",
+     "Sa Kaeo"
+    ],
+    [
+     "THA_30",
+     "Nakhon Ratchasima"
+    ],
+    [
+     "THA_31",
+     "Buri Ram"
+    ],
+    [
+     "THA_32",
+     "Surin"
+    ],
+    [
+     "THA_33",
+     "SiSa Ket"
+    ],
+    [
+     "THA_34",
+     "Ubon Ratchathani"
+    ],
+    [
+     "THA_35",
+     "Yasothon"
+    ],
+    [
+     "THA_36",
+     "Chaiyaphum"
+    ],
+    [
+     "THA_37",
+     "Amnat Charoen"
+    ],
+    [
+     "THA_39",
+     "Nong Bua Lam Phu"
+    ],
+    [
+     "THA_40",
+     "Khon Kaen"
+    ],
+    [
+     "THA_41",
+     "Udon Thani"
+    ],
+    [
+     "THA_42",
+     "Loei"
+    ],
+    [
+     "THA_43",
+     "Nong Khai"
+    ],
+    [
+     "THA_44",
+     "Maha Sarakham"
+    ],
+    [
+     "THA_45",
+     "Roi Et"
+    ],
+    [
+     "THA_46",
+     "Kalasin"
+    ],
+    [
+     "THA_47",
+     "Sakon Nakhon"
+    ],
+    [
+     "THA_48",
+     "Nakhon Phanom"
+    ],
+    [
+     "THA_49",
+     "Mukdahan"
+    ],
+    [
+     "THA_50",
+     "Chiang Mai"
+    ],
+    [
+     "THA_51",
+     "Lamphun"
+    ],
+    [
+     "THA_52",
+     "Lampang"
+    ],
+    [
+     "THA_53",
+     "Uttaradit"
+    ],
+    [
+     "THA_54",
+     "Phrae"
+    ],
+    [
+     "THA_55",
+     "Nan"
+    ],
+    [
+     "THA_56",
+     "Phayao"
+    ],
+    [
+     "THA_57",
+     "Chiang Rai"
+    ],
+    [
+     "THA_58",
+     "Mae Hong Son"
+    ],
+    [
+     "THA_60",
+     "Nakhon Sawan"
+    ],
+    [
+     "THA_61",
+     "Uthai Thani"
+    ],
+    [
+     "THA_62",
+     "Kamphaeng Phet"
+    ],
+    [
+     "THA_63",
+     "Tak"
+    ],
+    [
+     "THA_64",
+     "Sukhothai"
+    ],
+    [
+     "THA_65",
+     "Phitsanulok"
+    ],
+    [
+     "THA_66",
+     "Phichit"
+    ],
+    [
+     "THA_67",
+     "Phetchabun"
+    ],
+    [
+     "THA_70",
+     "Ratchaburi"
+    ],
+    [
+     "THA_71",
+     "Kanchanaburi"
+    ],
+    [
+     "THA_72",
+     "Suphan Buri"
+    ],
+    [
+     "THA_73",
+     "Nakhon Pathom"
+    ],
+    [
+     "THA_74",
+     "Samut Sakhon"
+    ],
+    [
+     "THA_75",
+     "Samut Songkhram"
+    ],
+    [
+     "THA_76",
+     "Phetchaburi"
+    ],
+    [
+     "THA_77",
+     "Prachuap Khiri Khan"
+    ],
+    [
+     "THA_80",
+     "Nakhon Si Thammarat"
+    ],
+    [
+     "THA_81",
+     "Krabi"
+    ],
+    [
+     "THA_82",
+     "Phangnga"
+    ],
+    [
+     "THA_83",
+     "Phuket"
+    ],
+    [
+     "THA_84",
+     "Surat Thani"
+    ],
+    [
+     "THA_85",
+     "Ranong"
+    ],
+    [
+     "THA_86",
+     "Chumphon"
+    ],
+    [
+     "THA_90",
+     "Songkhla"
+    ],
+    [
+     "THA_91",
+     "Satun"
+    ],
+    [
+     "THA_92",
+     "Trang"
+    ],
+    [
+     "THA_93",
+     "Phatthalung"
+    ],
+    [
+     "THA_94",
+     "Pattani"
+    ],
+    [
+     "THA_95",
+     "Yala"
+    ],
+    [
+     "THA_96",
+     "Narathiwat"
+    ]
+   ]
+  }
+ ]
+}

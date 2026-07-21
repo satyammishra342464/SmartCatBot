@@ -1,0 +1,34 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-builder-risk-fields.html",
+ "title": "Location Builder's Risk fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location Builder's Risk fields\n\nValidation rules for fields related to builder's risk for a location.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the locations.\n\nOur individual risk methodology follows a structured, logical approach that groups\n building characteristics according to their function to reflect the contribution of each\n characteristic to overall building performance. For information about the secondary risk\n characteristics (SRCs) that are supported in a specific model, refer to the \"Model in\n \nTouchstone\nâ chapter in the model\n description, which is available on the \nClient Portal\n. Documentation for some \nVerisk\n models\n includes a separate document that serves as a guide to the SRCs used in the model.\nFor information about modeling \nVerisk\n Builder's\n Risk, see the \nUsing Builder's Risk in \nTouchstone\n guide,which is available on the\n \nClient Portal\n.\n\n| Field | Supported country / peril | Description | Validation rules | Default Value |\n| --- | --- | --- | --- | --- |\n| Project Completion | HI TC US EQ US HU US IF | Completeness percentage of the building project at this location Touchstone defines this value\n as the percentage of the project completed with the start of the\n corresponding policy. The project completion percentage is by the cost of\n the project.\n This field applies only to the Average Project Loss (5) Project Phase\n Code. If you specify the No Builder's Risk (0) value or another phase\n loss value, Touchstone ignores\n the value that you specify for the project completion percentage. | Optional Defaults to a value in the Touchstone user interface Can be a numeric value between 0 and .99, inclusive | 0 |\n| Project Phase Code | HI TC US EQ US HU US IF | One of the following values to describe the vulnerability applicable to\n the phase of construction for the building project at this location: No Builder's Risk (0) Default Phase 1 (1) Foundation and substructure Phase 2 (2) Superstructure Phase 3 (3) Walls and roofing Phase 4 (4) Interiors, mechanical (conveying, plumbing, HVAC, fire\n protection), electrical, furnishings, miscellany Average Project Loss (5) Average project loss over the duration of\n the project Worst Loss (6) Project phase when the loss potential is highest A value of No Builder's Risk (0) for this field indicates that the\n building is completed, regular risk is assumed, and Touchstone applies no builder's\n risk.\n If the level of builder's risk is unknown, enter 0 for this field. | Optional Defaults to a value in the Touchstone user interface | No Builder's Risk (0) |",
+ "tables": [
+  {
+   "headers": [
+    "Field",
+    "Supported country / peril",
+    "Description",
+    "Validation rules",
+    "Default Value"
+   ],
+   "rows": [
+    [
+     "Project Completion",
+     "HI TC US EQ US HU US IF",
+     "Completeness percentage of the building project at this location Touchstone defines this value\n                           as the percentage of the project completed with the start of the\n                           corresponding policy. The project completion percentage is by the cost of\n                           the project.\n                        This field applies only to the Average Project Loss (5) Project Phase\n                           Code. If you specify the No Builder's Risk (0) value or another phase\n                           loss value, Touchstone ignores\n                           the value that you specify for the project completion percentage.",
+     "Optional Defaults to a value in the Touchstone user interface Can be a numeric value between 0 and .99, inclusive",
+     "0"
+    ],
+    [
+     "Project Phase Code",
+     "HI TC US EQ US HU US IF",
+     "One of the following values to describe the vulnerability applicable to\n                           the phase of construction for the building project at this location: No Builder's Risk (0) Default Phase 1 (1) Foundation and substructure Phase 2 (2) Superstructure Phase 3 (3) Walls and roofing Phase 4 (4) Interiors, mechanical (conveying, plumbing, HVAC, fire\n                                 protection), electrical, furnishings, miscellany Average Project Loss (5) Average project loss over the duration of\n                                 the project Worst Loss (6) Project phase when the loss potential is highest A value of No Builder's Risk (0) for this field indicates that the\n                           building is completed, regular risk is assumed, and Touchstone applies no builder's\n                           risk.\n                        If the level of builder's risk is unknown, enter 0 for this field.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "No Builder's Risk (0)"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_peril-codes.html",
+ "title": "Peril codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Peril codes\n\nPerils affect risks and losses associated with \nTouchstone\n\n exposures.\n\nTouchstone\n supports sets of perils and sub-perils\n for each supported country and/or region. Peril availability depends on exposure type,\n geographic area, and licensing.",
+ "tables": []
+}

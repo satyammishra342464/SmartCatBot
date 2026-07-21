@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-fields-locs-agg.html",
+ "title": "Location aggregate limit fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location aggregate limit fields\n\nLocation aggregate limit fields.\nSee \nLocation aggregate limit types\n for informatin about\n location aggregate limit types.\n\n| Field / Aggregate limit type | AGGL |\n| --- | --- |\n| Aggregate limit | Field represents a monetary value, expressed as a value greater than or\n equal to 1. |",
+ "tables": [
+  {
+   "headers": [
+    "Field / Aggregate limit type",
+    "AGGL"
+   ],
+   "rows": [
+    [
+     "Aggregate limit",
+     "Field represents a monetary value, expressed as a value greater than or\n                        equal to 1."
+    ]
+   ]
+  }
+ ]
+}

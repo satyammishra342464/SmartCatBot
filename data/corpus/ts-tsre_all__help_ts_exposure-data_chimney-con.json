@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_chimney-con.html",
+ "title": "Chimney construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Chimney construction codes\n\nThe chimney construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for \nVerisk Bushfire Model for Australia\n and \nVerisk Typhoon Model for South Korea\n. For\n information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction Code | Category | Description |\n| --- | --- | --- |\n| 231 | Masonry Chimneys | Masonry chimneys over 30 feet high |\n| 232 | Concrete Chimneys | Reinforced concrete chimneys over 30 feet high |\n| 233 | Steel Chimneys | Steel chimneys over 30 feet high |",
+ "tables": [
+  {
+   "headers": [
+    "Construction Code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "231",
+     "Masonry Chimneys",
+     "Masonry chimneys over 30 feet high"
+    ],
+    [
+     "232",
+     "Concrete Chimneys",
+     "Reinforced concrete chimneys over 30 feet high"
+    ],
+    [
+     "233",
+     "Steel Chimneys",
+     "Steel chimneys over 30 feet high"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_venezuela-cresta-codes.html",
+ "title": "Venezuela CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Venezuela \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Venezuela.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 01 | Caracas (Sedimentos profundos) |\n| 1 | Z01:Caracas(deep silt) |\n| 02 | Caracas (Sedimentos de poca profundidad) |\n| 2 | Z02:Caracas(not so deep silt) |\n| 03 | Caracas (Subsuelo rocoso) |\n| 3 | Z03:Caracas(rocky underground) |\n| 04 | Dpto. Vargas |\n| 4 | Z04:Dpto.Vargas |\n| 05 | Dptos. Guaicaipuro, Plaza, Zamora, Paz Castillo, Lander, Urdaneta |\n| 5 | Z05:Dptos. Guaicaipuro/Plaza... |\n| 06 | Maracay |\n| 6 | Z06:Maracay |\n| 07 | Valencia |\n| 7 | Z07:Valencia |\n| 08 | Resto de Region Centro-Norte Costera |\n| 8 | Z08:Resto de Region Centro-N. ... |\n| 09 | Barquisimeto |\n| 9 | Z09:Barquisimeto |\n| 10 | Resto de Region Centro-Occidental |\n| 10 | Z10:Resto de Region Centro-O. |\n| 11 | San Christobal |\n| 11 | Z11:San Cristobal |\n| 12 | Resto de Region de los Andes |\n| 12 | Z12:Resto de Region de los A. |\n| 13 | Maracaibo |\n| 13 | Z13:Maracaibo |\n| 14 | Resto de Region Zuliana |\n| 14 | Z14:Resto de Region Zuliana |\n| 15 | Resto de Region de los Llanos Centrales |\n| 15 | Z15:Resto de Region de los L. |\n| 16 | Region Insular |\n| 16 | Z16:Region Insular |\n| 17 | Region Nor-Oriental |\n| 17 | Z17:Region Nor-Oriental |\n| 18 | Ciudad Bolivar y Ciudad Guyana |\n| 18 | Z18:Ciudad Bolivar y Ciudad... |\n| 19 | Resto de Region Guayana y Region Sur |\n| 19 | Z19:Resto de Region Guayana... |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Caracas (Sedimentos profundos)"
+    ],
+    [
+     "1",
+     "Z01:Caracas(deep silt)"
+    ],
+    [
+     "02",
+     "Caracas (Sedimentos de poca profundidad)"
+    ],
+    [
+     "2",
+     "Z02:Caracas(not so deep silt)"
+    ],
+    [
+     "03",
+     "Caracas (Subsuelo rocoso)"
+    ],
+    [
+     "3",
+     "Z03:Caracas(rocky underground)"
+    ],
+    [
+     "04",
+     "Dpto. Vargas"
+    ],
+    [
+     "4",
+     "Z04:Dpto.Vargas"
+    ],
+    [
+     "05",
+     "Dptos. Guaicaipuro, Plaza, Zamora, Paz Castillo, Lander, Urdaneta"
+    ],
+    [
+     "5",
+     "Z05:Dptos. Guaicaipuro/Plaza..."
+    ],
+    [
+     "06",
+     "Maracay"
+    ],
+    [
+     "6",
+     "Z06:Maracay"
+    ],
+    [
+     "07",
+     "Valencia"
+    ],
+    [
+     "7",
+     "Z07:Valencia"
+    ],
+    [
+     "08",
+     "Resto de Region Centro-Norte Costera"
+    ],
+    [
+     "8",
+     "Z08:Resto de Region Centro-N. ..."
+    ],
+    [
+     "09",
+     "Barquisimeto"
+    ],
+    [
+     "9",
+     "Z09:Barquisimeto"
+    ],
+    [
+     "10",
+     "Resto de Region Centro-Occidental"
+    ],
+    [
+     "10",
+     "Z10:Resto de Region Centro-O."
+    ],
+    [
+     "11",
+     "San Christobal"
+    ],
+    [
+     "11",
+     "Z11:San Cristobal"
+    ],
+    [
+     "12",
+     "Resto de Region de los Andes"
+    ],
+    [
+     "12",
+     "Z12:Resto de Region de los A."
+    ],
+    [
+     "13",
+     "Maracaibo"
+    ],
+    [
+     "13",
+     "Z13:Maracaibo"
+    ],
+    [
+     "14",
+     "Resto de Region Zuliana"
+    ],
+    [
+     "14",
+     "Z14:Resto de Region Zuliana"
+    ],
+    [
+     "15",
+     "Resto de Region de los Llanos Centrales"
+    ],
+    [
+     "15",
+     "Z15:Resto de Region de los L."
+    ],
+    [
+     "16",
+     "Region Insular"
+    ],
+    [
+     "16",
+     "Z16:Region Insular"
+    ],
+    [
+     "17",
+     "Region Nor-Oriental"
+    ],
+    [
+     "17",
+     "Z17:Region Nor-Oriental"
+    ],
+    [
+     "18",
+     "Ciudad Bolivar y Ciudad Guyana"
+    ],
+    [
+     "18",
+     "Z18:Ciudad Bolivar y Ciudad..."
+    ],
+    [
+     "19",
+     "Resto de Region Guayana y Region Sur"
+    ],
+    [
+     "19",
+     "Z19:Resto de Region Guayana..."
+    ]
+   ]
+  }
+ ]
+}

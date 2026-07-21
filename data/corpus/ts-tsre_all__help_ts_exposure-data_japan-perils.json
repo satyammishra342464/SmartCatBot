@@ -1,0 +1,68 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_japan-perils.html",
+ "title": "Japan perils",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Japan perils\n\nThe following table lists the perils and peril codes that \nTouchstone\n supports for Japan.\n\n| Import peril code | Peril | Notes |\n| --- | --- | --- |\n| PAL | All licensed perils | |\n| PFF | Fire following earthquake | |\n| PES | Earthquake shake only | |\n| PFL | Inland flood | |\n| PPH | Precipitation flood | |\n| PSH | Storm surge | |\n| PTS | Tsunami | |\n| PWA | All wind perils | |\n| PWF | All wind plus fire | |\n| PWH | Typhoon only | |",
+ "tables": [
+  {
+   "headers": [
+    "Import peril code",
+    "Peril",
+    "Notes"
+   ],
+   "rows": [
+    [
+     "PAL",
+     "All licensed perils",
+     ""
+    ],
+    [
+     "PFF",
+     "Fire following earthquake",
+     ""
+    ],
+    [
+     "PES",
+     "Earthquake shake only",
+     ""
+    ],
+    [
+     "PFL",
+     "Inland flood",
+     ""
+    ],
+    [
+     "PPH",
+     "Precipitation flood",
+     ""
+    ],
+    [
+     "PSH",
+     "Storm surge",
+     ""
+    ],
+    [
+     "PTS",
+     "Tsunami",
+     ""
+    ],
+    [
+     "PWA",
+     "All wind perils",
+     ""
+    ],
+    [
+     "PWF",
+     "All wind plus fire",
+     ""
+    ],
+    [
+     "PWH",
+     "Typhoon only",
+     ""
+    ]
+   ]
+  }
+ ]
+}

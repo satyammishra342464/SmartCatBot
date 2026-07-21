@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_district-columbia_fips_4.html",
+ "title": "District of Columbia (DC)",
+ "section": "unicede",
+ "version": null,
+ "text": "District of Columbia (DC)\n\nFIPS codes for District of Columbia.\n\nFIPS State Code: 11\n\nEnter \n01-11001.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | District of Columbia |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "District of Columbia"
+    ]
+   ]
+  }
+ ]
+}

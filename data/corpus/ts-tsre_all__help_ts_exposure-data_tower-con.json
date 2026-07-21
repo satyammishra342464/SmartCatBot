@@ -1,0 +1,43 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_tower-con.html",
+ "title": "Tower construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Tower construction codes\n\nThe tower construction codes supported by \nTouchstone\n.\n\nNote:\n While Coverage C (content) is not supported for most of the 200-series\n construction class codes, it is supported for Inland Transit (construction code 259) and\n for some other construction codes, such as tanks and pipelines. For the full list of\n supported combinations, refer to the \nConst. & Occ. Combin.\n tab\n in each model supplement.\n\nIn \nTouchstone 2025\n, we added support for codes 234-238 to\n the \nVerisk Bushfire Model for Australia\n and the \nVerisk Typhoon Model for South Korea\n. For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 234 | Electrical Transmission - Conventional | Steel towers under 100 feet high designed to hold up electrical\n transmission lines |\n| 235 | Electrical Transmission - Major | Steel towers over 100 feet high designed to hold up electrical\n transmission lines |\n| 236 | Broadcast Towers | Steel towers designed to carry radio, TV, or cell phone transmission\n equipment |\n| 237 | Observation Towers | Elevated towers designed for people to look out of, such as airport\n control or fire observation towers |\n| 238 | Offshore Towers | Offshore towers are towers with a platform that are anchored to the\n ground under the ocean |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "234",
+     "Electrical Transmission - Conventional",
+     "Steel towers under 100 feet high designed to hold up electrical\n                        transmission lines"
+    ],
+    [
+     "235",
+     "Electrical Transmission - Major",
+     "Steel towers over 100 feet high designed to hold up electrical\n                        transmission lines"
+    ],
+    [
+     "236",
+     "Broadcast Towers",
+     "Steel towers designed to carry radio, TV, or cell phone transmission\n                        equipment"
+    ],
+    [
+     "237",
+     "Observation Towers",
+     "Elevated towers designed for people to look out of, such as airport\n                        control or fire observation towers"
+    ],
+    [
+     "238",
+     "Offshore Towers",
+     "Offshore towers are towers with a platform that are anchored to the\n                        ground under the ocean"
+    ]
+   ]
+  }
+ ]
+}

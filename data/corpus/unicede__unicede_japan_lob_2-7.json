@@ -1,0 +1,89 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_japan_lob_2-7.html",
+ "title": "Japan Lines Of Business (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Japan Lines Of Business (v2.7) \n\nLOB codes for Japan supported by \nUNICEDE\n/2.\n\nThese lines of business are valid for Japan.\n\nNote:\n\nCATRADER\n uses Standard LOB assignments for Sums Insured, Risks, and Premiums. Refer to the Standard Lines of Business table below.\n\nTouchstone Re\n uses Market Share LOB assignments for Market Shares and also for Sums Insured, Risks, and Premiums. Refer to the Market Shares Lines of Business table below.\n\nStandard Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| DWB | Dwelling Building |\n| DWC | Dwelling Contents |\n| APTB | Apartment Building |\n| APTC | Apartment Contents |\n| COM | General Commercial |\n| SHP | Comprehensive Shops |\n| WH | Warehouse |\n| IND | Industrial |\n| AG | Agriculture/ Large Mutual |\n| GOVH | Government Housing |\n| AUT | Automotive |\n\nMarket Share Lines of Business\n\n| Code | Line of Business |\n| --- | --- |\n| BLD | Residential Building |\n| CNT | Residential Content |\n| COMB | Commercial |\n| AG | Agriculture / Large Mutual |\n| AUT | Automotive |",
+ "tables": [
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "DWB",
+     "Dwelling Building"
+    ],
+    [
+     "DWC",
+     "Dwelling Contents"
+    ],
+    [
+     "APTB",
+     "Apartment Building"
+    ],
+    [
+     "APTC",
+     "Apartment Contents"
+    ],
+    [
+     "COM",
+     "General Commercial"
+    ],
+    [
+     "SHP",
+     "Comprehensive Shops"
+    ],
+    [
+     "WH",
+     "Warehouse"
+    ],
+    [
+     "IND",
+     "Industrial"
+    ],
+    [
+     "AG",
+     "Agriculture/ Large Mutual"
+    ],
+    [
+     "GOVH",
+     "Government Housing"
+    ],
+    [
+     "AUT",
+     "Automotive"
+    ]
+   ]
+  },
+  {
+   "headers": [
+    "Code",
+    "Line of Business"
+   ],
+   "rows": [
+    [
+     "BLD",
+     "Residential Building"
+    ],
+    [
+     "CNT",
+     "Residential Content"
+    ],
+    [
+     "COMB",
+     "Commercial"
+    ],
+    [
+     "AG",
+     "Agriculture / Large Mutual"
+    ],
+    [
+     "AUT",
+     "Automotive"
+    ]
+   ]
+  }
+ ]
+}

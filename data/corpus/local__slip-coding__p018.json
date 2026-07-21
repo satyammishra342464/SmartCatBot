@@ -1,0 +1,8 @@
+{
+ "url": "file:///C:/Users/satyam342464/Desktop/DocChatbot/data/local_docs/Slip%20Coding.pdf",
+ "title": "Slip Coding.pdf — page 18",
+ "section": "local-docs",
+ "version": null,
+ "text": "Line Size\nEach insurer has their own share \n(line size), but for CAT modelling we \nalways assume 100% line.\nNormally the line is entered in the \nPARTOF column, but for modelling \nit should be shifted to BLANLIMAT.\nEnter ‘1’ in the BLANLIMAT column \nfor every row (means 100% line).\nBLANLIMAMT\n1\n1\n1\n1\n1\n1",
+ "tables": []
+}

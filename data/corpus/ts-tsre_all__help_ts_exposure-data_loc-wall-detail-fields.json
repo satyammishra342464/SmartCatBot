@@ -1,0 +1,83 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_loc-wall-detail-fields.html",
+ "title": "Location wall detail fields",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location wall detail fields\n\nTouchstone\n validation rules for fields\n related to the wall details for a location.\n\nSelect an exposure view, a contract in the contract list, the \nContract\n Details\n pane, and then the locations.\n\nOur individual risk methodology follows a structured, logical approach that groups\n building characteristics according to their function to reflect the contribution of each\n characteristic to overall building performance. For information about the secondary risk\n characteristics that are supported in a specific model, refer to the \"Model in \nTouchstone\nâ chapter in the model description, which\n is available on the \nClient Portal\n. Documentation\n for some \nVerisk\n models includes a separate\n document that serves as a guide to the secondary risk characteristics (SRC) used in the\n model.\n\n| Secondary risk characteristic | Supported country / peril | Description | Validation rules | Default value |\n| --- | --- | --- | --- | --- |\n| Wall Type | CA EQ HI EQ HI TC JP EQ NZ EQ US EQ US HU US ST - Straight-Line Winds, Tornadoes | One of the following values to describe the materials used for the\n external walls of the building at this location: Unknown/default (0) Brick/unreinforced masonry (1) Reinforced masonry (2) Plywood (3) Wood planks (4) Particle board/OSB (oriented strand board) (5) Metal panels (6) Pre-cast concrete elements (7) Cast-in-place concrete (8) Gypsum board (9) Different types of wall materials offer varying degrees of\n resistance to wind-induced lateral loads. Breaches in the wall can result\n in internal pressure buildup. With respect to seismic performance,\n some wall forms can contribute to increasing the lateral-load capacity of\n a building, while others tend to act independently when\n shaken. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Wall Siding | AU WF (added in Touchstone 2025) CA EQ HI EQ HI TC JP EQ NZ EQ US EQ US HU US ST - Straight-Line Winds, Tornadoes, Hail US WF | One of the following values to describe the materials used for the\n weather protection of the external walls of the building at this location: Unknown/default (0) Veneer brick/masonry (1) Wood shingles (2) Clapboards (3) Aluminum/vinyl siding (4) Stone panels (5) Exterior insulation finishing system (6) Stucco (7) Fiber cement board (8) (added in June 2024 for US WF) Wall sidings offer protection from wind and rain. Different types of\n wall siding materials have varying degrees of wind load resistance. A\n breach in wall sidings can expose the wall to wind and rain, resulting in\n water intrusion and internal pressure buildup. Different types of\n cladding materials offer varying degrees of resistance to\n earthquake-induced lateral loads. Veneer and stone panels in particular\n are more susceptible to falling off in an earthquake. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Glass Type | HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail US WF | One of the following values to describe the type of glass used in the\n building at this location: Unknown/default (0) Annealed (1) Tempered (2) Heat strengthened (3) Laminated (4) Insulating glass units (5) Different glass types have varying degrees of resistance to wind\n loads and debris impact. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Glass Percentage | HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail | One of the following values to describe the percentage of the wall area\n that is covered by glass for the building at this location: Unknown/default (0) Less than 5% (1) Between 5% and 20% (2) Between 20% and 60% (3) Greater than 60% (4) The greater the percent of glass in a wall, the greater the\n vulnerability to damage, in general. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Window Protection | HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail | One of the following values to describe the type of wind protection\n system used for the windows of the building at this location: Unknown/default (0) No protection (1) Non-engineered shutters (2) Engineered shutters (3) Protecting the windows can reduce the potential damage to a\n building. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Exterior Doors | HI TC US HU US ST - Straight-Line Winds, Tornadoes | One of the following values to describe the type of doors used on the\n exterior of the building at this location: Unknown/default (0) Single width doors (1) Double width doors (2) Reinforced single width doors (3) Reinforced double width doors (4) Sliding doors (5) Reinforced sliding doors (6) Exterior doors are weak in resisting wind loads. The frame that\n holds the doors is also weak in resisting wind loads. They deflect\n considerably under high wind loads and, thus, fail. | Optional Defaults to a value in the Touchstone user interface | Unknown/default (0) |\n| Building Exterior Opening | CA EQ HI EQ JP EQ NZ EQ US EQ | One of the following values to describe the percentage of exterior walls\n that are open (that is, that have windows or doors) for the building at this location: Unknown (0) Less than 50% of wall open / default (1) More than 50% of wall open (2) A shear wall with many openings for windows and doors has less\n resistance to earthquake loads. Buildings with walls that are more than\n 50% open are evaluated as having less seismic resistance than they would\n otherwise. | Optional | |\n| Brick Veneer | CA EQ HI EQ JP EQ US EQ | One of the following values to describe the percentage of exterior walls\n that are brick veneer for the building at this location: Unknown/default (0) (represents 50-90%) More than 90% (1) 25-50% (2) 0-25% (3) The masonry of brick veneer is typically unreinforced and is likely\n to crack and come loose when subjected to ground shaking. Therefore,\n buildings with this type of exterior siding are more likely to experience\n direct damage from repair of the masonry, and possible indirect damage\n due to repair of adjacent components that may be damaged caused by\n falling debris from the veneer. | Optional You should use this field in conjunction with the 103 - masonry veneer\n construction code . | |\n| Fire Rating for Wall Siding (added in June 2024) | AU WF (added support in ) US WF | Unknown/No Rating (0) Fire Rated Class A (1) Fire Rated Class B (2) Fire Rated Class C (3) | | Unknown/No Rating (0) |",
+ "tables": [
+  {
+   "headers": [
+    "Secondary risk characteristic",
+    "Supported country / peril",
+    "Description",
+    "Validation rules",
+    "Default value"
+   ],
+   "rows": [
+    [
+     "Wall Type",
+     "CA EQ HI EQ HI TC JP EQ NZ EQ US EQ US HU US ST - Straight-Line Winds, Tornadoes",
+     "One of the following values to describe the materials used for the\n                        external walls of the building at this location: Unknown/default (0) Brick/unreinforced masonry (1) Reinforced masonry (2) Plywood (3) Wood planks (4) Particle board/OSB (oriented strand board) (5) Metal panels (6) Pre-cast concrete elements (7) Cast-in-place concrete (8) Gypsum board (9) Different types of wall materials offer varying degrees of\n                           resistance to wind-induced lateral loads. Breaches in the wall can result\n                           in internal pressure buildup. With respect to seismic performance,\n                           some wall forms can contribute to increasing the lateral-load capacity of\n                           a building, while others tend to act independently when\n                        shaken.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Wall Siding",
+     "AU WF (added in Touchstone 2025) CA EQ HI EQ HI TC JP EQ NZ EQ US EQ US HU US ST - Straight-Line Winds, Tornadoes, Hail US WF",
+     "One of the following values to describe the materials used for the\n                        weather protection of the external walls of the building at this location: Unknown/default (0) Veneer brick/masonry (1) Wood shingles (2) Clapboards (3) Aluminum/vinyl siding (4) Stone panels (5) Exterior insulation finishing system (6) Stucco (7) Fiber cement board (8) (added in June 2024 for US WF) Wall sidings offer protection from wind and rain. Different types of\n                           wall siding materials have varying degrees of wind load resistance. A\n                           breach in wall sidings can expose the wall to wind and rain, resulting in\n                           water intrusion and internal pressure buildup. Different types of\n                           cladding materials offer varying degrees of resistance to\n                           earthquake-induced lateral loads. Veneer and stone panels in particular\n                           are more susceptible to falling off in an earthquake.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Glass Type",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail US WF",
+     "One of the following values to describe the type of glass used in the\n                        building at this location: Unknown/default (0) Annealed (1) Tempered (2) Heat strengthened (3) Laminated (4) Insulating glass units (5) Different glass types have varying degrees of resistance to wind\n                           loads and debris impact.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Glass Percentage",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail",
+     "One of the following values to describe the percentage of the wall area\n                        that is covered by glass for the building at this location: Unknown/default (0) Less than 5% (1) Between 5% and 20% (2) Between 20% and 60% (3) Greater than 60% (4) The greater the percent of glass in a wall, the greater the\n                           vulnerability to damage, in general.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Window Protection",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes, Hail",
+     "One of the following values to describe the type of wind protection\n                        system used for the windows of the building at this location: Unknown/default (0) No protection (1) Non-engineered shutters (2) Engineered shutters (3) Protecting the windows can reduce the potential damage to a\n                        building.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Exterior Doors",
+     "HI TC US HU US ST - Straight-Line Winds, Tornadoes",
+     "One of the following values to describe the type of doors used on the\n                        exterior of the building at this location: Unknown/default (0) Single width doors (1) Double width doors (2) Reinforced single width doors (3) Reinforced double width doors (4) Sliding doors (5) Reinforced sliding doors (6) Exterior doors are weak in resisting wind loads. The frame that\n                           holds the doors is also weak in resisting wind loads. They deflect\n                           considerably under high wind loads and, thus, fail.",
+     "Optional Defaults to a value in the Touchstone user interface",
+     "Unknown/default (0)"
+    ],
+    [
+     "Building Exterior Opening",
+     "CA EQ HI EQ JP EQ NZ EQ US EQ",
+     "One of the following values to describe the percentage of exterior walls\n                        that are open (that is, that have windows or doors) for the building at this location: Unknown (0) Less than 50% of wall open / default (1) More than 50% of wall open (2) A shear wall with many openings for windows and doors has less\n                           resistance to earthquake loads. Buildings with walls that are more than\n                           50% open are evaluated as having less seismic resistance than they would\n                           otherwise.",
+     "Optional",
+     ""
+    ],
+    [
+     "Brick Veneer",
+     "CA EQ HI EQ JP EQ US EQ",
+     "One of the following values to describe the percentage of exterior walls\n                        that are brick veneer for the building at this location: Unknown/default (0) (represents 50-90%) More than 90% (1) 25-50% (2) 0-25% (3) The masonry of brick veneer is typically unreinforced and is likely\n                           to crack and come loose when subjected to ground shaking. Therefore,\n                           buildings with this type of exterior siding are more likely to experience\n                           direct damage from repair of the masonry, and possible indirect damage\n                           due to repair of adjacent components that may be damaged caused by\n                           falling debris from the veneer.",
+     "Optional You should use this field in conjunction with the 103 - masonry veneer\n                              construction code .",
+     ""
+    ],
+    [
+     "Fire Rating for Wall Siding (added in June 2024)",
+     "AU WF (added support in ) US WF",
+     "Unknown/No Rating (0) Fire Rated Class A (1) Fire Rated Class B (2) Fire Rated Class C (3)",
+     "",
+     "Unknown/No Rating (0)"
+    ]
+   ]
+  }
+ ]
+}

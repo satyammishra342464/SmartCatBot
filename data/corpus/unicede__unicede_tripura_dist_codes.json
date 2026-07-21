@@ -1,0 +1,37 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_tripura_dist_codes.html",
+ "title": "Tripura district codes",
+ "section": "unicede",
+ "version": null,
+ "text": "Tripura district codes \n\nIndia district codes.\nThe codes listed below include the country code for India (113).\n\n| Area Tag | Name |\n| --- | --- |\n| 113-16000 | Tripura |\n| 113-16001 | West Tripura |\n| 113-16002 | South Tripura |\n| 113-16003 | Dhalai |\n| 113-16004 | North Tripura |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Name"
+   ],
+   "rows": [
+    [
+     "113-16000",
+     "Tripura"
+    ],
+    [
+     "113-16001",
+     "West Tripura"
+    ],
+    [
+     "113-16002",
+     "South Tripura"
+    ],
+    [
+     "113-16003",
+     "Dhalai"
+    ],
+    [
+     "113-16004",
+     "North Tripura"
+    ]
+   ]
+  }
+ ]
+}

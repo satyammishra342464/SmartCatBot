@@ -1,0 +1,49 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_lebanon_cresta_2-10.html",
+ "title": "Lebanon CRESTA Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Lebanon \nCRESTA\n Codes (v2.10)\n\nCRESTA\n codes for Lebanon supported by\n \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Lebanon (125).\n\n| Area Tag | Zone |\n| --- | --- |\n| 125-LBN | Lebanon |\n| 125-LBN-AS | North Lebanon |\n| 125-LBN-BA | Beruit |\n| 125-LBN-BH | Baalbek |\n| 125-LBN-BI | Bekaa |\n| 125-LBN-JA | South Lebanon |\n| 125-LBN-JL | Jabal Lubnan |\n| 125-LBN-NA | Al Nabatiyeh |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "125-LBN",
+     "Lebanon"
+    ],
+    [
+     "125-LBN-AS",
+     "North Lebanon"
+    ],
+    [
+     "125-LBN-BA",
+     "Beruit"
+    ],
+    [
+     "125-LBN-BH",
+     "Baalbek"
+    ],
+    [
+     "125-LBN-BI",
+     "Bekaa"
+    ],
+    [
+     "125-LBN-JA",
+     "South Lebanon"
+    ],
+    [
+     "125-LBN-JL",
+     "Jabal Lubnan"
+    ],
+    [
+     "125-LBN-NA",
+     "Al Nabatiyeh"
+    ]
+   ]
+  }
+ ]
+}

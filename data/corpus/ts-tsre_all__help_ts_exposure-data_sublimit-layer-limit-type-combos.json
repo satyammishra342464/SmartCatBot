@@ -1,0 +1,93 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_sublimit-layer-limit-type-combos.html",
+ "title": "Sublimit/layer limit type combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Sublimit/layer limit type combinations\n\nSublimit/ layer limit combinations.\nTouchstone\n does not support layers with C (Limit\n by Coverage) or CB (Combined, Including Time Separately) limit types. Therefore, if your\n import file contains a layer with either limit type (C or CB), \nTouchstone\n transfers the data from this layer to the\n sublimit to preserve the C or CB limit type.\n\n| Sublimit type / Layer limit | B | E | CSL100 | CSLAI | C | CB | N |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| B | Valid | Valid | | | | | Valid |\n| E | Valid | Valid | | | | | Valid |\n| CB | Valid | Valid | | | | Valid | Valid |\n| C | Valid | Valid | | | Valid | Valid | Valid |\n| C100 | | | Valid | Valid | | | |\n| CAI | | | Valid | Valid | | | |\n| N | Valid | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Sublimit type / Layer limit",
+    "B",
+    "E",
+    "CSL100",
+    "CSLAI",
+    "C",
+    "CB",
+    "N"
+   ],
+   "rows": [
+    [
+     "B",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "E",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "",
+     "",
+     "Valid"
+    ],
+    [
+     "CB",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "C",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "C100",
+     "",
+     "",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     ""
+    ],
+    [
+     "CAI",
+     "",
+     "",
+     "Valid",
+     "Valid",
+     "",
+     "",
+     ""
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

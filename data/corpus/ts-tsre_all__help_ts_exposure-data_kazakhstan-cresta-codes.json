@@ -1,0 +1,77 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_kazakhstan-cresta-codes.html",
+ "title": "Kazakhstan CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Kazakhstan \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Kazakhstan.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 1 | Zapadno-Kazachstanskaya Obl. |\n| 2 | Aktyubinskaya Obl. |\n| 3 | Kostanayskay Obl. |\n| 4 | Severo-Kazachstanskaya Obl. |\n| 5 | Akmolinskaya Obl. |\n| 6 | Pavlodarskaya Obl. |\n| 7 | Atyrauskaya Obl. |\n| 8 | Karagandinskaya Obl. |\n| 9 | Vostochno-Kazachstanskaya Obl. |\n| 10 | Mangistauskaya Obl. |\n| 11 | Kyzylordinskaya Obl. |\n| 12 | Yujno-Kazachstanskaya Obl. |\n| 13 | Jambylslkaya Obl. |\n| 14 | Almatinskaya Obl. |\n| 15 | Gorod Almaty |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "1",
+     "Zapadno-Kazachstanskaya Obl."
+    ],
+    [
+     "2",
+     "Aktyubinskaya Obl."
+    ],
+    [
+     "3",
+     "Kostanayskay Obl."
+    ],
+    [
+     "4",
+     "Severo-Kazachstanskaya Obl."
+    ],
+    [
+     "5",
+     "Akmolinskaya Obl."
+    ],
+    [
+     "6",
+     "Pavlodarskaya Obl."
+    ],
+    [
+     "7",
+     "Atyrauskaya Obl."
+    ],
+    [
+     "8",
+     "Karagandinskaya Obl."
+    ],
+    [
+     "9",
+     "Vostochno-Kazachstanskaya Obl."
+    ],
+    [
+     "10",
+     "Mangistauskaya Obl."
+    ],
+    [
+     "11",
+     "Kyzylordinskaya Obl."
+    ],
+    [
+     "12",
+     "Yujno-Kazachstanskaya Obl."
+    ],
+    [
+     "13",
+     "Jambylslkaya Obl."
+    ],
+    [
+     "14",
+     "Almatinskaya Obl."
+    ],
+    [
+     "15",
+     "Gorod Almaty"
+    ]
+   ]
+  }
+ ]
+}

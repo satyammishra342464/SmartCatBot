@@ -1,0 +1,81 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_israel-district-codes.html",
+ "title": "Israel district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Israel district codes\n\nTouchstone\n supports the following district\n codes for Israel.\n\n| District Code | District Name |\n| --- | --- |\n| 11 | Jerusalem |\n| 21 | Zefat |\n| 22 | Kinneret |\n| 23 | Yizre'el |\n| 24 | Akko |\n| 29 | Golan |\n| 31 | Haifa |\n| 32 | Hadera |\n| 41 | Sharon |\n| 42 | Petah Tiqwa |\n| 43 | Ramla |\n| 44 | Rehovot |\n| 51 | Tel Aviv |\n| 61 | Ashqelon |\n| 62 | Be'er Sheva |\n| 70 | West Bank |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "11",
+     "Jerusalem"
+    ],
+    [
+     "21",
+     "Zefat"
+    ],
+    [
+     "22",
+     "Kinneret"
+    ],
+    [
+     "23",
+     "Yizre'el"
+    ],
+    [
+     "24",
+     "Akko"
+    ],
+    [
+     "29",
+     "Golan"
+    ],
+    [
+     "31",
+     "Haifa"
+    ],
+    [
+     "32",
+     "Hadera"
+    ],
+    [
+     "41",
+     "Sharon"
+    ],
+    [
+     "42",
+     "Petah Tiqwa"
+    ],
+    [
+     "43",
+     "Ramla"
+    ],
+    [
+     "44",
+     "Rehovot"
+    ],
+    [
+     "51",
+     "Tel Aviv"
+    ],
+    [
+     "61",
+     "Ashqelon"
+    ],
+    [
+     "62",
+     "Be'er Sheva"
+    ],
+    [
+     "70",
+     "West Bank"
+    ]
+   ]
+  }
+ ]
+}

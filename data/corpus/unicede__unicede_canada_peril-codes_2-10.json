@@ -1,0 +1,41 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_canada_peril-codes_2-10.html",
+ "title": "Canada Peril Codes (v2.10)",
+ "section": "unicede",
+ "version": "2.10",
+ "text": "Canada Peril Codes (v2.10)\n \n\nPeril codes for Canada supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for Perils Covered for risks in Canada:\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFO | Fire only |\n| PWF | Wind and Fire |\n| PWS | Windstorm only |\n| PAN | Pandemic |\n| PCH | Crop Hail |\n\nNote:\n \nUse \nW\n as the coverage for the pandemic peril",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWF",
+     "Wind and Fire"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ],
+    [
+     "PAN",
+     "Pandemic"
+    ],
+    [
+     "PCH",
+     "Crop Hail"
+    ]
+   ]
+  }
+ ]
+}

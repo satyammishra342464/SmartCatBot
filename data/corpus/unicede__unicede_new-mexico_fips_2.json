@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_new-mexico_fips_2.html",
+ "title": "New Mexico (NM) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "New Mexico (NM) Counties\n\nFIPS codes for New Mexico.\nFIPS State Code: 35\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Curry County, enter \n01-35009.\n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Bernalillo |\n| 003 | Catron |\n| 005 | Chaves |\n| 006 | Cibola |\n| 007 | Colfax |\n| 009 | Curry |\n| 011 | De Baca |\n| 013 | Dona Ana |\n| 015 | Eddy |\n| 017 | Grant |\n| 019 | Guadalupe |\n| 021 | Harding |\n| 023 | Hidalgo |\n| 025 | Lea |\n| 027 | Lincoln |\n| 028 | Los Alamos |\n| 029 | Luna |\n| 031 | McKinley |\n| 033 | Mora |\n| 035 | Otero |\n| 037 | Quay |\n| 039 | Rio Arriba |\n| 041 | Roosevelt |\n| 043 | Sandoval |\n| 045 | San Juan |\n| 047 | San Miguel |\n| 049 | Santa Fe |\n| 051 | Sierra |\n| 053 | Socorro |\n| 055 | Taos |\n| 057 | Torrance |\n| 059 | Union |\n| 061 | Valencia |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Bernalillo"
+    ],
+    [
+     "003",
+     "Catron"
+    ],
+    [
+     "005",
+     "Chaves"
+    ],
+    [
+     "006",
+     "Cibola"
+    ],
+    [
+     "007",
+     "Colfax"
+    ],
+    [
+     "009",
+     "Curry"
+    ],
+    [
+     "011",
+     "De Baca"
+    ],
+    [
+     "013",
+     "Dona Ana"
+    ],
+    [
+     "015",
+     "Eddy"
+    ],
+    [
+     "017",
+     "Grant"
+    ],
+    [
+     "019",
+     "Guadalupe"
+    ],
+    [
+     "021",
+     "Harding"
+    ],
+    [
+     "023",
+     "Hidalgo"
+    ],
+    [
+     "025",
+     "Lea"
+    ],
+    [
+     "027",
+     "Lincoln"
+    ],
+    [
+     "028",
+     "Los Alamos"
+    ],
+    [
+     "029",
+     "Luna"
+    ],
+    [
+     "031",
+     "McKinley"
+    ],
+    [
+     "033",
+     "Mora"
+    ],
+    [
+     "035",
+     "Otero"
+    ],
+    [
+     "037",
+     "Quay"
+    ],
+    [
+     "039",
+     "Rio Arriba"
+    ],
+    [
+     "041",
+     "Roosevelt"
+    ],
+    [
+     "043",
+     "Sandoval"
+    ],
+    [
+     "045",
+     "San Juan"
+    ],
+    [
+     "047",
+     "San Miguel"
+    ],
+    [
+     "049",
+     "Santa Fe"
+    ],
+    [
+     "051",
+     "Sierra"
+    ],
+    [
+     "053",
+     "Socorro"
+    ],
+    [
+     "055",
+     "Taos"
+    ],
+    [
+     "057",
+     "Torrance"
+    ],
+    [
+     "059",
+     "Union"
+    ],
+    [
+     "061",
+     "Valencia"
+    ]
+   ]
+  }
+ ]
+}

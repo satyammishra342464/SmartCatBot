@@ -1,0 +1,43 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_public-occ.html",
+ "title": "Public occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Public occupancy codes\n\nTouchstone\n supports the following public\n occupancy class codes.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 341 | Religion and Non-Profit | 86 | Includes organizations operating on a membership basis for the\n promotion of the interests of their members. Included are organizations such\n as trade associations, professional membership organizations, labor unions\n and similar labor organizations, and political and religious organizations. |\n| 342 | Church | n/a | Establishments of religious organizations operated for worship,\n religious training or study, government or administration of an organized\n religion, or promotion of religious activities. |\n| 343 | Government - General Services | 91 | Includes offices of executives, legislative bodies, and general\n government offices, not elsewhere classified. |\n| 344 | Government - Emergency Services | 92 | Includes government establishments engaged in justice, public order,\n and safety. |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "341",
+     "Religion and Non-Profit",
+     "86",
+     "Includes organizations operating on a membership basis for the\n                        promotion of the interests of their members. Included are organizations such\n                        as trade associations, professional membership organizations, labor unions\n                        and similar labor organizations, and political and religious organizations."
+    ],
+    [
+     "342",
+     "Church",
+     "n/a",
+     "Establishments of religious organizations operated for worship,\n                        religious training or study, government or administration of an organized\n                        religion, or promotion of religious activities."
+    ],
+    [
+     "343",
+     "Government - General Services",
+     "91",
+     "Includes offices of executives, legislative bodies, and general\n                        government offices, not elsewhere classified."
+    ],
+    [
+     "344",
+     "Government - Emergency Services",
+     "92",
+     "Includes government establishments engaged in justice, public order,\n                        and safety."
+    ]
+   ]
+  }
+ ]
+}

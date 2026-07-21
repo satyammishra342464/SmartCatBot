@@ -1,0 +1,97 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_norway-district-codes.html",
+ "title": "Norway district codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Norway district codes\n\nTouchstone\n supports the following district\n codes for Norway.\n\n| District Code | District Name |\n| --- | --- |\n| 01 | Ãstfold |\n| 02 | Akershus |\n| 03 | Oslo |\n| 04 | Hedmark |\n| 05 | Oppland |\n| 06 | Buskerud |\n| 07 | Vestfold |\n| 08 | Telemark |\n| 09 | Aust-Agder |\n| 10 | Vest-Agder |\n| 11 | Rogaland |\n| 12 | Hordaland |\n| 14 | Sogn og Fjordane |\n| 15 | MÃ¸re og Romsdal |\n| 16 | SÃ¸r-TrÃ¸ndelag |\n| 17 | Nord-TrÃ¸ndelag |\n| 18 | Nordland |\n| 19 | Troms |\n| 20 | Finnmark |\n| SJ | Svalbard and Jan Mayen Islands |",
+ "tables": [
+  {
+   "headers": [
+    "District Code",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Ãstfold"
+    ],
+    [
+     "02",
+     "Akershus"
+    ],
+    [
+     "03",
+     "Oslo"
+    ],
+    [
+     "04",
+     "Hedmark"
+    ],
+    [
+     "05",
+     "Oppland"
+    ],
+    [
+     "06",
+     "Buskerud"
+    ],
+    [
+     "07",
+     "Vestfold"
+    ],
+    [
+     "08",
+     "Telemark"
+    ],
+    [
+     "09",
+     "Aust-Agder"
+    ],
+    [
+     "10",
+     "Vest-Agder"
+    ],
+    [
+     "11",
+     "Rogaland"
+    ],
+    [
+     "12",
+     "Hordaland"
+    ],
+    [
+     "14",
+     "Sogn og Fjordane"
+    ],
+    [
+     "15",
+     "MÃ¸re og Romsdal"
+    ],
+    [
+     "16",
+     "SÃ¸r-TrÃ¸ndelag"
+    ],
+    [
+     "17",
+     "Nord-TrÃ¸ndelag"
+    ],
+    [
+     "18",
+     "Nordland"
+    ],
+    [
+     "19",
+     "Troms"
+    ],
+    [
+     "20",
+     "Finnmark"
+    ],
+    [
+     "SJ",
+     "Svalbard and Jan Mayen Islands"
+    ]
+   ]
+  }
+ ]
+}

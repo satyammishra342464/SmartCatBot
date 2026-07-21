@@ -1,0 +1,200 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_mexico-occ-class-codes.html",
+ "title": "Mexico occupancy class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Mexico occupancy class codes\n\nTouchstone\n supports the occupancy codes\n listed in this topic for Mexico.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Occupancy code | Occupancy class |\n| --- | --- | --- |\n| Unknown | 300 | Unknown |\n| Residential | 301 | General Residential |\n| 302 | Permanent Dwelling: Single Family |\n| 303 | Permanent Dwelling: Multi Family |\n| 304 | Temporary Lodging |\n| 305 | Group Institutional Housing |\n| 306 | Apartments/Condominiums |\n| Commercial | 311 | General Commercial |\n| 312 | Retail Trade |\n| 313 | Wholesale Trade |\n| 314 | Personal and Repair Services |\n| 315 | Professional, Technical, and Business Services |\n| 316 | Health Care Services |\n| 317 | Entertainment and Recreation |\n| 318 | Parking |\n| Industrial | 321 | General Industrial |\n| 322 | Heavy Fabrication and Assembly |\n| 323 | Light Fabrication and Assembly |\n| 324 | Food and Drug Processing |\n| 325 | Chemical Processing |\n| 326 | Metal and Minerals Processing |\n| 327 | High Technology |\n| 328 | Construction |\n| 329 | Petroleum |\n| 330 | Mining |\n| Restaurants | 331 | Restaurants |\n| Public | 341 | Religion and Non-Profit |\n| 342 | Churches |\n| 343 | Government - General Services |\n| 344 | Government - Emergency Services |\n| Education | 345 | Universities, Colleges, and Technical Schools |\n| Transportation | 351 | Highway |\n| 352 | Railroad |\n| 353 | Air |\n| 354 | Sea and Inland Waterways |\n| Utilities | 361 | Electrical Utilities |\n| 362 | Water Utilities |\n| 363 | Sanitary Sewer |\n| 364 | Natural Gas |\n| 365 | Telephone and Telegraph |\n| Miscellaneous | 371 | Communication |\n| 372 | Flood Control |\n| 373 | Agriculture |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Occupancy code",
+    "Occupancy class"
+   ],
+   "rows": [
+    [
+     "Unknown",
+     "300",
+     "Unknown"
+    ],
+    [
+     "Residential",
+     "301",
+     "General Residential"
+    ],
+    [
+     "302",
+     "Permanent Dwelling: Single Family"
+    ],
+    [
+     "303",
+     "Permanent Dwelling: Multi Family"
+    ],
+    [
+     "304",
+     "Temporary Lodging"
+    ],
+    [
+     "305",
+     "Group Institutional Housing"
+    ],
+    [
+     "306",
+     "Apartments/Condominiums"
+    ],
+    [
+     "Commercial",
+     "311",
+     "General Commercial"
+    ],
+    [
+     "312",
+     "Retail Trade"
+    ],
+    [
+     "313",
+     "Wholesale Trade"
+    ],
+    [
+     "314",
+     "Personal and Repair Services"
+    ],
+    [
+     "315",
+     "Professional, Technical, and Business Services"
+    ],
+    [
+     "316",
+     "Health Care Services"
+    ],
+    [
+     "317",
+     "Entertainment and Recreation"
+    ],
+    [
+     "318",
+     "Parking"
+    ],
+    [
+     "Industrial",
+     "321",
+     "General Industrial"
+    ],
+    [
+     "322",
+     "Heavy Fabrication and Assembly"
+    ],
+    [
+     "323",
+     "Light Fabrication and Assembly"
+    ],
+    [
+     "324",
+     "Food and Drug Processing"
+    ],
+    [
+     "325",
+     "Chemical Processing"
+    ],
+    [
+     "326",
+     "Metal and Minerals Processing"
+    ],
+    [
+     "327",
+     "High Technology"
+    ],
+    [
+     "328",
+     "Construction"
+    ],
+    [
+     "329",
+     "Petroleum"
+    ],
+    [
+     "330",
+     "Mining"
+    ],
+    [
+     "Restaurants",
+     "331",
+     "Restaurants"
+    ],
+    [
+     "Public",
+     "341",
+     "Religion and Non-Profit"
+    ],
+    [
+     "342",
+     "Churches"
+    ],
+    [
+     "343",
+     "Government - General Services"
+    ],
+    [
+     "344",
+     "Government - Emergency Services"
+    ],
+    [
+     "Education",
+     "345",
+     "Universities, Colleges, and Technical Schools"
+    ],
+    [
+     "Transportation",
+     "351",
+     "Highway"
+    ],
+    [
+     "352",
+     "Railroad"
+    ],
+    [
+     "353",
+     "Air"
+    ],
+    [
+     "354",
+     "Sea and Inland Waterways"
+    ],
+    [
+     "Utilities",
+     "361",
+     "Electrical Utilities"
+    ],
+    [
+     "362",
+     "Water Utilities"
+    ],
+    [
+     "363",
+     "Sanitary Sewer"
+    ],
+    [
+     "364",
+     "Natural Gas"
+    ],
+    [
+     "365",
+     "Telephone and Telegraph"
+    ],
+    [
+     "Miscellaneous",
+     "371",
+     "Communication"
+    ],
+    [
+     "372",
+     "Flood Control"
+    ],
+    [
+     "373",
+     "Agriculture"
+    ]
+   ]
+  }
+ ]
+}

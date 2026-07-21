@@ -1,0 +1,39 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_whats-new.html",
+ "title": "What's new in UNICEDE/2",
+ "section": "unicede",
+ "version": null,
+ "text": "What's new in \nUNICEDE\n/2\n\nSummary of updates and enhancements to \nUNICEDE\n/2 content by version.\n\nFor detailed information about this release refer to the release notes available on the\n \nTouchstone Re\n 2025 (13.0) Release\n Documentation\n page on the \nClient Portal\n\n (login required).\n\n| Version | Description |\n| --- | --- |\n| UNICEDE 2.10 | UNICEDE/2 version 2.10 was introduced in June 2025. It is\n compatible with Touchstone Re 13.0 and above. Added flood peril for Indonesia and Malaysia. Removed Malaysia from EMM Custom Lines of Business and EMM Peril\n Codes and LOBs and perils are now combined with Indonesia. Added new LOBs for Mexico earthquake (EQ). New area tags for updated South Korea CRESTA scheme\n support. |\n| UNICEDE 2.9 | The following updates were introduced in 2024: Addition of seven countries: Algeria, Bosnia and Herzegovina, Egypt,\n Iceland, Montenegro, Morocco, and Tunisia. This include new\n currency codes for all countries with the exception of\n Montenegro (Euro). |\n| The following updates were introduced in 2023: Addition of countries Jordan and Lebanon along with their area\n tags, currencies, perils and LOB information. Updates to area tag, peril, and LOB assignments for a number of\n existing Middle Eastern countries. Additions and updates to China LOBs for agriculture (MPCI). Added Italy to European flood peril list. |\n| UNICEDE /2 version 2.9 was\n introduced in July 2020. It is compatible with Touchstone Re 8.0 and\n above. Additional LOBs for China MPCI. Caribbean updates including additional countries, updated CRESTA zones, and updated lines of business. |\n| UNICEDE 2.8 | UNICEDE /2 version 2.8 was\n introduced in 2018. It is compatible with CATRADER 20.0 and 21.0 and all\n verstions of Touchstone Re .\n Online help for UNICEDE /2\n versions 2.3 and 2.5 have been retired. Updates reflect addition of Liechtenstein and India, and\n European geography and LOB updates. |\n| UNICEDE 2.7 | UNICEDE /2 version 2.7 was\n introduced in July 2011. Changes from the prior version include\n updated lines of business and changes to supported geographic\n resolutions for several European and Caribbean countries. |",
+ "tables": [
+  {
+   "headers": [
+    "Version",
+    "Description"
+   ],
+   "rows": [
+    [
+     "UNICEDE 2.10",
+     "UNICEDE/2 version 2.10 was introduced in June 2025. It is\n                                    compatible with Touchstone Re 13.0 and above. Added flood peril for Indonesia and Malaysia. Removed Malaysia from EMM Custom Lines of Business and EMM Peril\n                                    Codes and LOBs and perils are now combined with Indonesia. Added new LOBs for Mexico earthquake (EQ). New area tags for updated South Korea CRESTA scheme\n                                    support."
+    ],
+    [
+     "UNICEDE 2.9",
+     "The following updates were introduced in 2024: Addition of seven countries: Algeria, Bosnia and Herzegovina, Egypt,\n                                    Iceland, Montenegro, Morocco, and Tunisia. This include new\n                                    currency codes for all countries with the exception of\n                                    Montenegro (Euro)."
+    ],
+    [
+     "The following updates were introduced in 2023: Addition of countries Jordan and Lebanon along with their area\n                                    tags, currencies, perils and LOB information. Updates to area tag, peril, and LOB assignments for a number of\n                                    existing Middle Eastern countries. Additions and updates to China LOBs for agriculture (MPCI). Added Italy to European flood peril list."
+    ],
+    [
+     "UNICEDE /2 version 2.9 was\n                                introduced in July 2020. It is compatible with Touchstone Re 8.0 and\n                                above. Additional LOBs for China MPCI. Caribbean updates including additional countries, updated CRESTA zones, and updated lines of business."
+    ],
+    [
+     "UNICEDE 2.8",
+     "UNICEDE /2 version 2.8 was\n                                introduced in 2018. It is compatible with CATRADER 20.0 and 21.0 and all\n                                verstions of Touchstone Re .\n                                Online help for UNICEDE /2\n                                versions 2.3 and 2.5 have been retired. Updates reflect addition of Liechtenstein and India, and\n                                        European geography and LOB updates."
+    ],
+    [
+     "UNICEDE 2.7",
+     "UNICEDE /2 version 2.7 was\n                                introduced in July 2011. Changes from the prior version include\n                                updated lines of business and changes to supported geographic\n                                resolutions for several European and Caribbean countries."
+    ]
+   ]
+  }
+ ]
+}

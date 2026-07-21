@@ -1,0 +1,93 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_offshore-asset-con.html",
+ "title": "Offshore asset construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Offshore asset construction codes\n\nThe offshore asset codes supported by \nTouchstone\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 240 | Offshore Wind Turbines | Offshore wind turbines are installed individually and in groups called\n \"wind farms\". Wind turbine systems comprise a tower, hub and blades (the\n rotor), and nacelle (houses the generator). They are typically attached to a\n reinforced concrete foundation. Based on the wind characteristics of the\n site, these structures are generally designed to conform to the\n International Electrotechnical Commission (IEC) 61400-1 wind turbine design\n class. |\n| 800 | Unknown | Use this code when the platform construction class is not known. |\n| 801 | Caisson | Caisson platforms use large diameter caissons to support a single well\n completion with a minimal deck. The deck is capable of supporting limited\n production, control equipment, and navigational aids. Caisson platform\n completions are limited to water depths of 100 feet or less. |\n| 802 | Compliant Tower | Narrow, flexible towers and piled foundations that can support a\n conventional deck for drilling and production operations. Unlike fixed\n platforms, compliant towers withstand large lateral forces by sustaining\n significant lateral deflections and are usually used in water depths between\n 1,000 and 2,000 feet. |\n| 803 | Fixed Jacket Platform | Jackets (a tall vertical section made of tubular steel members supported\n by piles driven into the seabed) with a deck placed on top, providing space\n for crew quarters, a drilling rig, and production facilities. Fixed jacket\n platforms are economically feasible for installation in water depths up to\n 1,500 feet. |\n| 804 | Jackup | Platforms that can be jacked up above the sea using legs that can be\n lowered like jacks. These platforms, used in relatively low depths, are\n designed to move from place to place and then anchor themselves by deploying\n the jack-like legs. |\n| 805 | Mini Tension Leg Platform (MTLP) | Floating platforms of relatively low cost developed for production of\n smaller deepwater reserves that would be uneconomic to produce using more\n conventional deepwater production systems. They can also be used as a\n utility, satellite, or early production platform for larger deepwater\n discoveries. |\n| 806 | Drill Rig | Drill rig. |\n| 807 | Semi-Submersible Floating Production System | These platforms have legs of sufficient buoyancy to cause the structure\n to float, but weight sufficient to keep the structure upright. These rigs\n can be moved from place to place and ballasted up or down by altering the\n amount of flooding in buoyancy tanks. They are generally anchored by cable\n anchors during drilling operations, though they can also be kept in place by\n the use of dynamic positioning. Semi-submersibles can be used in depths from\n 200 to 6,000 feet. |\n| 808 | Drill Ship | Maritime vessels that have been fitted with drilling apparatuses. They\n are most often used for exploratory drilling of new oil or gas wells in deep\n water, but can also be used for scientific drilling. They are often built on\n modified tanker hulls and outfitted with dynamic positioning systems to\n maintain their position over a well. Drill ships are able to drill in water\n depths of over 6,500 feet. |\n| 809 | SPAR Floating Production System | Large diameter single vertical cylinder supporting a deck. They have\n typical fixed platform topsides (surface decks with drilling and production\n equipment), three types of risers (production, drilling, and export), and\n hulls moored with taut caternary systems of 6 to 20 lines anchored into the\n seafloor. SPARs are generally used in water depths up to 3,000 feet. |\n| 810 | Submersible Production System | Floating vessels, usually used as mobile offshore drilling units\n (MODUs), that are supported primarily on large pontoon-like structures\n submerged below the sea surface. The operating decks are elevated 100 or\n more feet above the pontoons on large steel columns. Once on the desired\n location, this type of structure is slowly flooded until it rests on the sea\n floor. After the well is completed, the water is pumped out of the buoyancy\n tanks, and the vessel is refloated and towed to the next location.\n Submersibles operate in relatively shallow water because they must rest on\n the seafloor. |\n| 811 | Underwater Production Units, Completion Units, and Templates | Subsea Systems range from single subsea wells producing to a nearby\n platform, FPS, or TLP to multiple wells producing through a manifold and\n pipeline system to a distant production facility. These systems are\n presently used in water depths greater than 5,000 feet. |\n| 812 | Tension Leg Platform | A floating structure held in place by vertical, tensioned tendons\n connected to the sea floor by pile-secured templates. Tensioned tendons\n provide for the use of a TLP in a broad water depth range with limited\n vertical motion. Larger TLPs have been successfully deployed in water depths\n approaching 4,000 feet. |\n| 813 | Well Protector | Well head protection structures. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "240",
+     "Offshore Wind Turbines",
+     "Offshore wind turbines are installed individually and in groups called\n                        \"wind farms\". Wind turbine systems comprise a tower, hub and blades (the\n                        rotor), and nacelle (houses the generator). They are typically attached to a\n                        reinforced concrete foundation. Based on the wind characteristics of the\n                        site, these structures are generally designed to conform to the\n                        International Electrotechnical Commission (IEC) 61400-1 wind turbine design\n                        class."
+    ],
+    [
+     "800",
+     "Unknown",
+     "Use this code when the platform construction class is not known."
+    ],
+    [
+     "801",
+     "Caisson",
+     "Caisson platforms use large diameter caissons to support a single well\n                        completion with a minimal deck. The deck is capable of supporting limited\n                        production, control equipment, and navigational aids. Caisson platform\n                        completions are limited to water depths of 100 feet or less."
+    ],
+    [
+     "802",
+     "Compliant Tower",
+     "Narrow, flexible towers and piled foundations that can support a\n                        conventional deck for drilling and production operations. Unlike fixed\n                        platforms, compliant towers withstand large lateral forces by sustaining\n                        significant lateral deflections and are usually used in water depths between\n                        1,000 and 2,000 feet."
+    ],
+    [
+     "803",
+     "Fixed Jacket Platform",
+     "Jackets (a tall vertical section made of tubular steel members supported\n                        by piles driven into the seabed) with a deck placed on top, providing space\n                        for crew quarters, a drilling rig, and production facilities. Fixed jacket\n                        platforms are economically feasible for installation in water depths up to\n                        1,500 feet."
+    ],
+    [
+     "804",
+     "Jackup",
+     "Platforms that can be jacked up above the sea using legs that can be\n                        lowered like jacks. These platforms, used in relatively low depths, are\n                        designed to move from place to place and then anchor themselves by deploying\n                        the jack-like legs."
+    ],
+    [
+     "805",
+     "Mini Tension Leg Platform (MTLP)",
+     "Floating platforms of relatively low cost developed for production of\n                        smaller deepwater reserves that would be uneconomic to produce using more\n                        conventional deepwater production systems. They can also be used as a\n                        utility, satellite, or early production platform for larger deepwater\n                        discoveries."
+    ],
+    [
+     "806",
+     "Drill Rig",
+     "Drill rig."
+    ],
+    [
+     "807",
+     "Semi-Submersible Floating Production System",
+     "These platforms have legs of sufficient buoyancy to cause the structure\n                        to float, but weight sufficient to keep the structure upright. These rigs\n                        can be moved from place to place and ballasted up or down by altering the\n                        amount of flooding in buoyancy tanks. They are generally anchored by cable\n                        anchors during drilling operations, though they can also be kept in place by\n                        the use of dynamic positioning. Semi-submersibles can be used in depths from\n                        200 to 6,000 feet."
+    ],
+    [
+     "808",
+     "Drill Ship",
+     "Maritime vessels that have been fitted with drilling apparatuses. They\n                        are most often used for exploratory drilling of new oil or gas wells in deep\n                        water, but can also be used for scientific drilling. They are often built on\n                        modified tanker hulls and outfitted with dynamic positioning systems to\n                        maintain their position over a well. Drill ships are able to drill in water\n                        depths of over 6,500 feet."
+    ],
+    [
+     "809",
+     "SPAR Floating Production System",
+     "Large diameter single vertical cylinder supporting a deck. They have\n                        typical fixed platform topsides (surface decks with drilling and production\n                        equipment), three types of risers (production, drilling, and export), and\n                        hulls moored with taut caternary systems of 6 to 20 lines anchored into the\n                        seafloor. SPARs are generally used in water depths up to 3,000 feet."
+    ],
+    [
+     "810",
+     "Submersible Production System",
+     "Floating vessels, usually used as mobile offshore drilling units\n                        (MODUs), that are supported primarily on large pontoon-like structures\n                        submerged below the sea surface. The operating decks are elevated 100 or\n                        more feet above the pontoons on large steel columns. Once on the desired\n                        location, this type of structure is slowly flooded until it rests on the sea\n                        floor. After the well is completed, the water is pumped out of the buoyancy\n                        tanks, and the vessel is refloated and towed to the next location.\n                        Submersibles operate in relatively shallow water because they must rest on\n                        the seafloor."
+    ],
+    [
+     "811",
+     "Underwater Production Units, Completion Units, and Templates",
+     "Subsea Systems range from single subsea wells producing to a nearby\n                        platform, FPS, or TLP to multiple wells producing through a manifold and\n                        pipeline system to a distant production facility. These systems are\n                        presently used in water depths greater than 5,000 feet."
+    ],
+    [
+     "812",
+     "Tension Leg Platform",
+     "A floating structure held in place by vertical, tensioned tendons\n                        connected to the sea floor by pile-secured templates. Tensioned tendons\n                        provide for the use of a TLP in a broad water depth range with limited\n                        vertical motion. Larger TLPs have been successfully deployed in water depths\n                        approaching 4,000 feet."
+    ],
+    [
+     "813",
+     "Well Protector",
+     "Well head protection structures."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_bahamas_2-9.html",
+ "title": "Bahamas district codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Bahamas district codes (v2.9)\n \n\nDistrict codes for Bahamas supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for the Bahamas (12).\n\n| Area Tag | District Name |\n| --- | --- |\n| 12-000 | Bahamas |\n| 12-001 | Acklins |\n| 12-002 | Berry Islands |\n| 12-003 | Bimini |\n| 12-004 | Black Point |\n| 12-005 | Cat Island |\n| 12-006 | Central Abaco |\n| 12-007 | Central Andros |\n| 12-008 | Central Eleuthera |\n| 12-009 | City of Freeport |\n| 12-010 | Crooked Island |\n| 12-011 | East Grand Bahama |\n| 12-012 | Exuma |\n| 12-013 | Grand Cay |\n| 12-014 | Harbour Island |\n| 12-015 | Hope Town |\n| 12-016 | Inagua |\n| 12-017 | Long Island |\n| 12-018 | Mangrove Cay |\n| 12-019 | Mayaguana |\n| 12-020 | Moore's Island |\n| 12-021 | North Abaco |\n| 12-022 | North Andros |\n| 12-023 | North Eleuthera |\n| 12-024 | Ragged Island |\n| 12-025 | Rum Cay |\n| 12-026 | San Salvador |\n| 12-027 | South Abaco |\n| 12-028 | South Andros |\n| 12-029 | South Eleuthera |\n| 12-030 | Spanish Wells |\n| 12-031 | West Grand Bahama |\n| 12-NP | New Providence |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "District Name"
+   ],
+   "rows": [
+    [
+     "12-000",
+     "Bahamas"
+    ],
+    [
+     "12-001",
+     "Acklins"
+    ],
+    [
+     "12-002",
+     "Berry Islands"
+    ],
+    [
+     "12-003",
+     "Bimini"
+    ],
+    [
+     "12-004",
+     "Black Point"
+    ],
+    [
+     "12-005",
+     "Cat Island"
+    ],
+    [
+     "12-006",
+     "Central Abaco"
+    ],
+    [
+     "12-007",
+     "Central Andros"
+    ],
+    [
+     "12-008",
+     "Central Eleuthera"
+    ],
+    [
+     "12-009",
+     "City of Freeport"
+    ],
+    [
+     "12-010",
+     "Crooked Island"
+    ],
+    [
+     "12-011",
+     "East Grand Bahama"
+    ],
+    [
+     "12-012",
+     "Exuma"
+    ],
+    [
+     "12-013",
+     "Grand Cay"
+    ],
+    [
+     "12-014",
+     "Harbour Island"
+    ],
+    [
+     "12-015",
+     "Hope Town"
+    ],
+    [
+     "12-016",
+     "Inagua"
+    ],
+    [
+     "12-017",
+     "Long Island"
+    ],
+    [
+     "12-018",
+     "Mangrove Cay"
+    ],
+    [
+     "12-019",
+     "Mayaguana"
+    ],
+    [
+     "12-020",
+     "Moore's Island"
+    ],
+    [
+     "12-021",
+     "North Abaco"
+    ],
+    [
+     "12-022",
+     "North Andros"
+    ],
+    [
+     "12-023",
+     "North Eleuthera"
+    ],
+    [
+     "12-024",
+     "Ragged Island"
+    ],
+    [
+     "12-025",
+     "Rum Cay"
+    ],
+    [
+     "12-026",
+     "San Salvador"
+    ],
+    [
+     "12-027",
+     "South Abaco"
+    ],
+    [
+     "12-028",
+     "South Andros"
+    ],
+    [
+     "12-029",
+     "South Eleuthera"
+    ],
+    [
+     "12-030",
+     "Spanish Wells"
+    ],
+    [
+     "12-031",
+     "West Grand Bahama"
+    ],
+    [
+     "12-NP",
+     "New Providence"
+    ]
+   ]
+  }
+ ]
+}

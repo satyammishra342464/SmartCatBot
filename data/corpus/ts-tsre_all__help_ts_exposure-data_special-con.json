@@ -1,0 +1,48 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_special-con.html",
+ "title": "Special construction codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Special construction codes\n\nThe special construction codes supported by \nTouchstone\n.\n\nFor information about supported codes and limitations for specific models, refer to the\n model documentation that is available on the \nClient Portal\n.\n\n| Construction code | Category | Description |\n| --- | --- | --- |\n| 181 | Long Span | Building constructed with steel frame and metal siding and roof of wood or\n other combustible material. Typically gymnasiums or auditoriums. |\n| 182 | Semi-Wind Resistive | A building for which a licensed engineer does not design the structure, but\n an attempt is made to build in accordance with an accepted wind building\n code; code compliance is not assured. Some engineering input may have\n occurred. Most of the details in a wind resistive structure are found in a\n semi-wind resistive structure, but not all components are wind\n resistive. |\n| 183 | Wind Resistive | A structure that was designed by a licensed engineer to comply with the\n wind code. Characterized by the presence of properly sized wind-resistant\n connectors, adequate bracing, and a continuous load path from the roof to\n the foundation (that s, the roof is tied to the walls, the floors are\n attached to each other, and the walls are tied to the foundation). |\n| 185 | Unknown Glass | Use this construction code for the Verisk Hurricane Model for the United States Plate Glass Module when the type of glass is unknown. This construction\n type is valid only for the Plate Glass Module of the Verisk Hurricane Model for the United States . Use only in conjunction with occupancy\n code 306 or 311. |\n| 186 | Safety Glass | Safety glass includes fully tempered and laminated glass. Fully tempered\n glass is created by heating common annealed glass uniformly to make a\n high-strengthened glass. Laminated glass is made by sandwiching a plastic\n sheet between two glass panels, which prevents shattering and helps\n maintains the integrity of the building envelop even after its breakage.\n This construction type is valid only for the Plate Glass Module of the Verisk Hurricane Model for the United States . Use only in conjunction with\n residential occupancy code 306 or commercial occupancy code 311. |\n| 187 | Impact Resistance Glass | Impact-resistant glass similar to laminated glass (as described above),\n which has been tested to resist breakage from flying debris during\n hurricanes. Impact-resistant glass is typically thicker than safety glass\n and is packaged as a unit that includes a special frame. This construction\n type is valid only for the Plate Glass Module of the Verisk Hurricane Model for the United States . Use only in conjunction with\n residential occupancy code 306 or commercial 311. |",
+ "tables": [
+  {
+   "headers": [
+    "Construction code",
+    "Category",
+    "Description"
+   ],
+   "rows": [
+    [
+     "181",
+     "Long Span",
+     "Building constructed with steel frame and metal siding and roof of wood or\n                        other combustible material. Typically gymnasiums or auditoriums."
+    ],
+    [
+     "182",
+     "Semi-Wind Resistive",
+     "A building for which a licensed engineer does not design the structure, but\n                        an attempt is made to build in accordance with an accepted wind building\n                        code; code compliance is not assured. Some engineering input may have\n                        occurred. Most of the details in a wind resistive structure are found in a\n                        semi-wind resistive structure, but not all components are wind\n                        resistive."
+    ],
+    [
+     "183",
+     "Wind Resistive",
+     "A structure that was designed by a licensed engineer to comply with the\n                        wind code. Characterized by the presence of properly sized wind-resistant\n                        connectors, adequate bracing, and a continuous load path from the roof to\n                        the foundation (that s, the roof is tied to the walls, the floors are\n                        attached to each other, and the walls are tied to the foundation)."
+    ],
+    [
+     "185",
+     "Unknown Glass",
+     "Use this construction code for the Verisk Hurricane Model for the United States Plate Glass Module when the type of glass is unknown. This construction\n                        type is valid only for the Plate Glass Module of the Verisk Hurricane Model for the United States . Use only in conjunction with occupancy\n                        code 306 or 311."
+    ],
+    [
+     "186",
+     "Safety Glass",
+     "Safety glass includes fully tempered and laminated glass. Fully tempered\n                        glass is created by heating common annealed glass uniformly to make a\n                        high-strengthened glass. Laminated glass is made by sandwiching a plastic\n                        sheet between two glass panels, which prevents shattering and helps\n                        maintains the integrity of the building envelop even after its breakage.\n                        This construction type is valid only for the Plate Glass Module of the Verisk Hurricane Model for the United States . Use only in conjunction with\n                        residential occupancy code 306 or commercial occupancy code 311."
+    ],
+    [
+     "187",
+     "Impact Resistance Glass",
+     "Impact-resistant glass similar to laminated glass (as described above),\n                        which has been tested to resist breakage from flying debris during\n                        hurricanes. Impact-resistant glass is typically thicker than safety glass\n                        and is packaged as a unit that includes a special frame. This construction\n                        type is valid only for the Plate Glass Module of the Verisk Hurricane Model for the United States . Use only in conjunction with\n                        residential occupancy code 306 or commercial 311."
+    ]
+   ]
+  }
+ ]
+}

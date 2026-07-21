@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_taiwan-county-sector-codes.html",
+ "title": "Taiwan county/sector codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Taiwan county/sector codes\n\nTouchstone\n supports the following\n county/sector codes for Taiwan.\n\n| County/Sector Code | County/Sector Name |\n| --- | --- |\n| 01 | Taipei County |\n| 02 | Yilan County |\n| 03 | Taoyuan County |\n| 04 | Hsinchu County |\n| 05 | Miaoli County |\n| 06 | Taichung County |\n| 07 | Changhua County |\n| 08 | Nantou County |\n| 09 | Yunlin County |\n| 10 | Chiayi County |\n| 11 | Tainan County |\n| 12 | Kaohsiung County |\n| 13 | Pingtung County |\n| 14 | Taitung County |\n| 15 | Hualien County |\n| 16 | Penghu County |\n| 17 | Keelung City |\n| 18 | Hsinchu City |\n| 19 | Taichung City |\n| 20 | Chiayi City |\n| 21 | Tainan City |\n| 63 | Taipei City |\n| 64 | Kaohsiung City |\n| 71 | Lienchiang County |\n| 72 | Kinmen County |",
+ "tables": [
+  {
+   "headers": [
+    "County/Sector Code",
+    "County/Sector Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Taipei County"
+    ],
+    [
+     "02",
+     "Yilan County"
+    ],
+    [
+     "03",
+     "Taoyuan County"
+    ],
+    [
+     "04",
+     "Hsinchu County"
+    ],
+    [
+     "05",
+     "Miaoli County"
+    ],
+    [
+     "06",
+     "Taichung County"
+    ],
+    [
+     "07",
+     "Changhua County"
+    ],
+    [
+     "08",
+     "Nantou County"
+    ],
+    [
+     "09",
+     "Yunlin County"
+    ],
+    [
+     "10",
+     "Chiayi County"
+    ],
+    [
+     "11",
+     "Tainan County"
+    ],
+    [
+     "12",
+     "Kaohsiung County"
+    ],
+    [
+     "13",
+     "Pingtung County"
+    ],
+    [
+     "14",
+     "Taitung County"
+    ],
+    [
+     "15",
+     "Hualien County"
+    ],
+    [
+     "16",
+     "Penghu County"
+    ],
+    [
+     "17",
+     "Keelung City"
+    ],
+    [
+     "18",
+     "Hsinchu City"
+    ],
+    [
+     "19",
+     "Taichung City"
+    ],
+    [
+     "20",
+     "Chiayi City"
+    ],
+    [
+     "21",
+     "Tainan City"
+    ],
+    [
+     "63",
+     "Taipei City"
+    ],
+    [
+     "64",
+     "Kaohsiung City"
+    ],
+    [
+     "71",
+     "Lienchiang County"
+    ],
+    [
+     "72",
+     "Kinmen County"
+    ]
+   ]
+  }
+ ]
+}

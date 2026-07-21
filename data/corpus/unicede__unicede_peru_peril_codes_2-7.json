@@ -1,0 +1,33 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_peru_peril_codes_2-7.html",
+ "title": "Peru Peril Codes (v2.7)",
+ "section": "unicede",
+ "version": "2.7",
+ "text": "Peru Peril Codes (v2.7)\n\nPeril codes for Peru supported by \nUNICEDE\n/2.\n\nUNICEDE\n/2 supports the following codes for Perils Covered for risks in Peru.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PEQ | Earthquake only |\n| PFL | Flood only |\n| PFO | Fire only |\n| PWS | Windstorm only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PEQ",
+     "Earthquake only"
+    ],
+    [
+     "PFL",
+     "Flood only"
+    ],
+    [
+     "PFO",
+     "Fire only"
+    ],
+    [
+     "PWS",
+     "Windstorm only"
+    ]
+   ]
+  }
+ ]
+}

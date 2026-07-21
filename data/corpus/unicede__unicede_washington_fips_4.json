@@ -1,0 +1,173 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_washington_fips_4.html",
+ "title": "Washington (WA) Counties",
+ "section": "unicede",
+ "version": null,
+ "text": "Washington (WA) Counties\n\nFIPS codes for Washington.\n\nFIPS State Code: 53\n\nEnter the U.S. country code (01) followed by the state and county code.\n\nFor example, for Adams County, enter \n01-53001.\n \n\n| FIPS County Code | County Name |\n| --- | --- |\n| 001 | Adams |\n| 003 | Asotin |\n| 005 | Benton |\n| 007 | Chelan |\n| 009 | Clallam |\n| 011 | Clark |\n| 013 | Columbia |\n| 015 | Cowlitz |\n| 017 | Douglas |\n| 019 | Ferry |\n| 021 | Franklin |\n| 023 | Garfield |\n| 025 | Grant |\n| 027 | Grays Harbor |\n| 029 | Island |\n| 031 | Jefferson |\n| 033 | King |\n| 035 | Kitsap |\n| 037 | Kittitas |\n| 039 | Klickitat |\n| 041 | Lewis |\n| 043 | Lincoln |\n| 045 | Mason |\n| 047 | Okanogan |\n| 049 | Pacific |\n| 051 | Pend Oreille |\n| 053 | Pierce |\n| 055 | San Juan |\n| 057 | Skagit |\n| 059 | Skamania |\n| 061 | Snohomish |\n| 063 | Spokane |\n| 065 | Stevens |\n| 067 | Thurston |\n| 069 | Wahkiakum |\n| 071 | Walla Walla |\n| 073 | Whatcom |\n| 075 | Whitman |\n| 077 | Yakima |",
+ "tables": [
+  {
+   "headers": [
+    "FIPS County Code",
+    "County Name"
+   ],
+   "rows": [
+    [
+     "001",
+     "Adams"
+    ],
+    [
+     "003",
+     "Asotin"
+    ],
+    [
+     "005",
+     "Benton"
+    ],
+    [
+     "007",
+     "Chelan"
+    ],
+    [
+     "009",
+     "Clallam"
+    ],
+    [
+     "011",
+     "Clark"
+    ],
+    [
+     "013",
+     "Columbia"
+    ],
+    [
+     "015",
+     "Cowlitz"
+    ],
+    [
+     "017",
+     "Douglas"
+    ],
+    [
+     "019",
+     "Ferry"
+    ],
+    [
+     "021",
+     "Franklin"
+    ],
+    [
+     "023",
+     "Garfield"
+    ],
+    [
+     "025",
+     "Grant"
+    ],
+    [
+     "027",
+     "Grays Harbor"
+    ],
+    [
+     "029",
+     "Island"
+    ],
+    [
+     "031",
+     "Jefferson"
+    ],
+    [
+     "033",
+     "King"
+    ],
+    [
+     "035",
+     "Kitsap"
+    ],
+    [
+     "037",
+     "Kittitas"
+    ],
+    [
+     "039",
+     "Klickitat"
+    ],
+    [
+     "041",
+     "Lewis"
+    ],
+    [
+     "043",
+     "Lincoln"
+    ],
+    [
+     "045",
+     "Mason"
+    ],
+    [
+     "047",
+     "Okanogan"
+    ],
+    [
+     "049",
+     "Pacific"
+    ],
+    [
+     "051",
+     "Pend Oreille"
+    ],
+    [
+     "053",
+     "Pierce"
+    ],
+    [
+     "055",
+     "San Juan"
+    ],
+    [
+     "057",
+     "Skagit"
+    ],
+    [
+     "059",
+     "Skamania"
+    ],
+    [
+     "061",
+     "Snohomish"
+    ],
+    [
+     "063",
+     "Spokane"
+    ],
+    [
+     "065",
+     "Stevens"
+    ],
+    [
+     "067",
+     "Thurston"
+    ],
+    [
+     "069",
+     "Wahkiakum"
+    ],
+    [
+     "071",
+     "Walla Walla"
+    ],
+    [
+     "073",
+     "Whatcom"
+    ],
+    [
+     "075",
+     "Whitman"
+    ],
+    [
+     "077",
+     "Yakima"
+    ]
+   ]
+  }
+ ]
+}

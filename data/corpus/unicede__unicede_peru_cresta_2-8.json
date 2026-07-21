@@ -1,0 +1,69 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_peru_cresta_2-8.html",
+ "title": "Peru CRESTA Codes (v2.8)",
+ "section": "unicede",
+ "version": "2.8",
+ "text": "Peru \nCRESTA\n Codes (v2.8)\n\nCRESTA\n codes for Peru supported by \nUNICEDE\n/2.\n\nThe codes listed below include the country code for Peru (33).\n\n| Area Tag | Zone |\n| --- | --- |\n| 33-000 | PERU |\n| 33-001 | Zone 01 |\n| 33-002 | Zone 02 |\n| 33-003 | Zone 03 |\n| 33-004 | Zone 04 |\n| 33-005 | Zone 05 |\n| 33-006 | Zone 06 |\n| 33-007 | Zone 07 |\n| 33-008 | Zone 08 |\n| 33-009 | Zone 09 |\n| 33-010 | Zone 10 |\n| 33-011 | Zone 11 |\n| 33-012 | Zone 12 |",
+ "tables": [
+  {
+   "headers": [
+    "Area Tag",
+    "Zone"
+   ],
+   "rows": [
+    [
+     "33-000",
+     "PERU"
+    ],
+    [
+     "33-001",
+     "Zone 01"
+    ],
+    [
+     "33-002",
+     "Zone 02"
+    ],
+    [
+     "33-003",
+     "Zone 03"
+    ],
+    [
+     "33-004",
+     "Zone 04"
+    ],
+    [
+     "33-005",
+     "Zone 05"
+    ],
+    [
+     "33-006",
+     "Zone 06"
+    ],
+    [
+     "33-007",
+     "Zone 07"
+    ],
+    [
+     "33-008",
+     "Zone 08"
+    ],
+    [
+     "33-009",
+     "Zone 09"
+    ],
+    [
+     "33-010",
+     "Zone 10"
+    ],
+    [
+     "33-011",
+     "Zone 11"
+    ],
+    [
+     "33-012",
+     "Zone 12"
+    ]
+   ]
+  }
+ ]
+}

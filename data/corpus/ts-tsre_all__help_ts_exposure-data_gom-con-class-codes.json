@@ -1,0 +1,75 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_gom-con-class-codes.html",
+ "title": "Gulf of Mexico construction class codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Gulf of Mexico construction class codes\n\nTouchstone\n supports the construction codes\n listed in this topic for the Gulf of Mexico.\n\nNote:\n For information about supported codes and limitations for specific\n models, refer to the model documentation that is available on the \nClient Portal\n.\n\n| Category | Construction code | Construction class |\n| --- | --- | --- |\n| Offshore | 800 | Unknown |\n| 801 | Caisson |\n| 802 | Compliant Tower |\n| 803 | Fixed Jacket Platform |\n| 804 | Jack-up |\n| 805 | Mini Tension Leg Platform |\n| 806 | Drill Rig |\n| 807 | Semi-Submersible Floating Production System |\n| 808 | Drill Ship |\n| 809 | SPAR Floating Production System |\n| 810 | Submersible Production System |\n| 811 | Underwater Production Units, Completion Units, and Templates |\n| 812 | Tension Leg Platform |\n| 813 | Well Protector |",
+ "tables": [
+  {
+   "headers": [
+    "Category",
+    "Construction code",
+    "Construction class"
+   ],
+   "rows": [
+    [
+     "Offshore",
+     "800",
+     "Unknown"
+    ],
+    [
+     "801",
+     "Caisson"
+    ],
+    [
+     "802",
+     "Compliant Tower"
+    ],
+    [
+     "803",
+     "Fixed Jacket Platform"
+    ],
+    [
+     "804",
+     "Jack-up"
+    ],
+    [
+     "805",
+     "Mini Tension Leg Platform"
+    ],
+    [
+     "806",
+     "Drill Rig"
+    ],
+    [
+     "807",
+     "Semi-Submersible Floating Production System"
+    ],
+    [
+     "808",
+     "Drill Ship"
+    ],
+    [
+     "809",
+     "SPAR Floating Production System"
+    ],
+    [
+     "810",
+     "Submersible Production System"
+    ],
+    [
+     "811",
+     "Underwater Production Units, Completion Units, and Templates"
+    ],
+    [
+     "812",
+     "Tension Leg Platform"
+    ],
+    [
+     "813",
+     "Well Protector"
+    ]
+   ]
+  }
+ ]
+}

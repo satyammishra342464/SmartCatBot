@@ -1,0 +1,21 @@
+{
+ "url": "https://unicede.air-worldwide.com/unicede/unicede_gulf_mexico_peril_codes_2-9.html",
+ "title": "Gulf of Mexico Peril Codes (v2.9)",
+ "section": "unicede",
+ "version": "2.9",
+ "text": "Gulf of Mexico Peril Codes (v2.9)\n\nPeril codes for Gulf of Mexico supported by \nUNICEDE\n/2.\n\n| Use... | If risks are covered for... |\n| --- | --- |\n| PWS | Windstorm only |",
+ "tables": [
+  {
+   "headers": [
+    "Use...",
+    "If risks are covered for..."
+   ],
+   "rows": [
+    [
+     "PWS",
+     "Windstorm only"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_edu-occ.html",
+ "title": "Education occupancy codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Education occupancy codes\n\nTouchstone\n supports the following education\n occupancy class codes.\n\nNote:\n For information about supported codes and\n limitations for specific models, refer to the model documentation that is available on\n the \nClient Portal\n.\n\nNote:\n The associated 2-digit Standard Industrial\n Classification (SIC) code or codes are listed for each occupancy code.\n\n| Occupancy code | Category | SIC2-digit | Description |\n| --- | --- | --- | --- |\n| 345 | Universities, Colleges, and Technical Schools | 82 | Establishments providing academic or technical instruction. Also\n included are establishments providing educational services such as\n libraries, student exchange programs, and curriculum development. For all\n exposures in the U.S., Australia, Canada, South America, the Caribbean,\n Japan, South Korea, China, and Taiwan, and for exposures covered for wind in\n Europe, use education code 34 for primary and secondary schools. In other\n regions, those occupancies are included in 345. Also valid for Verisk Earthquake Model for New Zealand . |\n| 346 | Primary and Secondary Schools | 82 | Includes institutions engaged in instruction at primary and secondary\n level. Valid for all exposures in the U.S., Australia, Canada, South\n America, the Caribbean, Japan, South Korea, China, and Taiwan, and for\n exposures covered for wind in Europe. In other regions, use education\n occupancy code 345 for these occupancies. Also valid for Verisk Earthquake Model for New Zealand . |",
+ "tables": [
+  {
+   "headers": [
+    "Occupancy code",
+    "Category",
+    "SIC2-digit",
+    "Description"
+   ],
+   "rows": [
+    [
+     "345",
+     "Universities, Colleges, and Technical Schools",
+     "82",
+     "Establishments providing academic or technical instruction. Also\n                        included are establishments providing educational services such as\n                        libraries, student exchange programs, and curriculum development. For all\n                        exposures in the U.S., Australia, Canada, South America, the Caribbean,\n                        Japan, South Korea, China, and Taiwan, and for exposures covered for wind in\n                        Europe, use education code 34 for primary and secondary schools. In other\n                        regions, those occupancies are included in 345. Also valid for Verisk Earthquake Model for New Zealand ."
+    ],
+    [
+     "346",
+     "Primary and Secondary Schools",
+     "82",
+     "Includes institutions engaged in instruction at primary and secondary\n                        level. Valid for all exposures in the U.S., Australia, Canada, South\n                        America, the Caribbean, Japan, South Korea, China, and Taiwan, and for\n                        exposures covered for wind in Europe. In other regions, use education\n                        occupancy code 345 for these occupancies. Also valid for Verisk Earthquake Model for New Zealand ."
+    ]
+   ]
+  }
+ ]
+}

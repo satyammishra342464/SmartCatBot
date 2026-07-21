@@ -1,0 +1,55 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_limit-deductible-combos-locs-minmax-agg.html",
+ "title": "Location aggregate deductible/location min/max deductible combinations",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Location aggregate deductible/location min/max deductible combinations\n\nLocation aggregate deductible/location min/max deductible combinations.\n\n| Aggregate deductible / Location deductible | AA | FR | ML | MP | PL | S | CB | CT | CPL | C | N |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| AGGD | | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |\n| N | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid | Valid |",
+ "tables": [
+  {
+   "headers": [
+    "Aggregate deductible / Location deductible",
+    "AA",
+    "FR",
+    "ML",
+    "MP",
+    "PL",
+    "S",
+    "CB",
+    "CT",
+    "CPL",
+    "C",
+    "N"
+   ],
+   "rows": [
+    [
+     "AGGD",
+     "",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ],
+    [
+     "N",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid",
+     "Valid"
+    ]
+   ]
+  }
+ ]
+}

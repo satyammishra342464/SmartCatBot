@@ -1,0 +1,117 @@
+{
+ "url": "https://unicede.air-worldwide.com/ts-tsre_all/help_ts_exposure-data_serbia-cresta-codes.html",
+ "title": "Serbia CRESTA codes",
+ "section": "ts-tsre_all",
+ "version": null,
+ "text": "Serbia \nCRESTA\n codes\n\nTouchstone\n supports the following \nCRESTA\n codes for Serbia.\n\n| CRESTA Code | CRESTA Name |\n| --- | --- |\n| 01 | Severno-Backi |\n| 02 | Srednje-Banatski |\n| 03 | Severno-Banatski |\n| 04 | Juzno-Banatski |\n| 05 | Zapadno-Backi |\n| 06 | Juzno-Backi |\n| 07 | Sremski |\n| 08 | Macvanski |\n| 09 | Kolubarski |\n| 10 | Podunavski |\n| 11 | Branicevski |\n| 12 | Sumadijski |\n| 13 | Pomoravski |\n| 14 | Borski |\n| 15 | Zajecarski |\n| 16 | Zlatiborski |\n| 17 | Moravicki |\n| 18 | Raski |\n| 19 | Rasinski |\n| 20 | Nisavski |\n| 21 | Toplicki |\n| 22 | Pirotski |\n| 23 | Jablanicki |\n| 24 | Pcinjski |\n| 999 | Grad Beograd |",
+ "tables": [
+  {
+   "headers": [
+    "CRESTA Code",
+    "CRESTA Name"
+   ],
+   "rows": [
+    [
+     "01",
+     "Severno-Backi"
+    ],
+    [
+     "02",
+     "Srednje-Banatski"
+    ],
+    [
+     "03",
+     "Severno-Banatski"
+    ],
+    [
+     "04",
+     "Juzno-Banatski"
+    ],
+    [
+     "05",
+     "Zapadno-Backi"
+    ],
+    [
+     "06",
+     "Juzno-Backi"
+    ],
+    [
+     "07",
+     "Sremski"
+    ],
+    [
+     "08",
+     "Macvanski"
+    ],
+    [
+     "09",
+     "Kolubarski"
+    ],
+    [
+     "10",
+     "Podunavski"
+    ],
+    [
+     "11",
+     "Branicevski"
+    ],
+    [
+     "12",
+     "Sumadijski"
+    ],
+    [
+     "13",
+     "Pomoravski"
+    ],
+    [
+     "14",
+     "Borski"
+    ],
+    [
+     "15",
+     "Zajecarski"
+    ],
+    [
+     "16",
+     "Zlatiborski"
+    ],
+    [
+     "17",
+     "Moravicki"
+    ],
+    [
+     "18",
+     "Raski"
+    ],
+    [
+     "19",
+     "Rasinski"
+    ],
+    [
+     "20",
+     "Nisavski"
+    ],
+    [
+     "21",
+     "Toplicki"
+    ],
+    [
+     "22",
+     "Pirotski"
+    ],
+    [
+     "23",
+     "Jablanicki"
+    ],
+    [
+     "24",
+     "Pcinjski"
+    ],
+    [
+     "999",
+     "Grad Beograd"
+    ]
+   ]
+  }
+ ]
+}
