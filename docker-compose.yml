@@ -1,0 +1,42 @@
+# Local infra for SmartCAT's scalability layer.
+#   docker compose up -d      # start Postgres + Redis in the background
+#   docker compose ps         # check health
+#   docker compose down       # stop (data survives in named volumes)
+#
+# Connection URLs (put these in .env):
+#   DATABASE_URL=postgresql+psycopg://smartcat:smartcat@localhost:5432/smartcat
+#   REDIS_URL=redis://localhost:6379/0
+services:
+  postgres:
+    image: postgres:16
+    container_name: smartcat-postgres
+    environment:
+      POSTGRES_USER: smartcat
+      POSTGRES_PASSWORD: smartcat
+      POSTGRES_DB: smartcat
+    ports:
+      - "5432:5432"
+    volumes:
+      - smartcat_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smartcat -d smartcat"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7
+    container_name: smartcat-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - smartcat_redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  smartcat_pgdata:
+  smartcat_redisdata:

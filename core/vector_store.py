@@ -1,6 +1,7 @@
 """Persistent local vector index: Gemini embeddings + numpy cosine search, with lexical fallback."""
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -101,6 +102,10 @@ class VectorStore:
 
 
 def _embed_texts(client, model: str, texts: list[str], task: str) -> list[list[float]]:
+    return _embed_uncached(client, model, texts, task)
+
+
+def _embed_uncached(client, model: str, texts: list[str], task: str) -> list[list[float]]:
     from google.genai import types
 
     vectors: list[list[float]] = []

@@ -15,31 +15,37 @@ from urllib.parse import urlparse
 import streamlit as st
 from dotenv import load_dotenv
 
-from core.agent import run_agent
-from core.calculator import calculate
-from core.chunker import chunk_blocks
-from core.code_db import CodeDB
-from core.geo_db import GeoDB
-from core.knowledge_index import KnowledgeIndex
-from core.loader import SUPPORTED_EXTENSIONS, load_document
-from core.qa_log import QALog
-from core.vector_store import VectorStore
-from core.web_search import make_web_search
+from core.loader import SUPPORTED_EXTENSIONS
+
+import service.chat_service as svc
+from service.config import get_settings
 
 load_dotenv()
 
 APP_DIR = Path(__file__).resolve().parent
-INDEX_DIR = APP_DIR / "data" / "index"
-UPLOAD_DIR = APP_DIR / "data" / "tmp_uploads"
-CHATS_FILE = APP_DIR / "data" / "chats.json"
-PREFS_FILE = APP_DIR / "data" / "ui_prefs.json"
-USER_NAME = os.getenv("SMARTCAT_USER_NAME", os.getenv("USERNAME", "User"))
-USER_EMAIL = os.getenv("SMARTCAT_USER_EMAIL", "")
-EMBED_MODEL = os.getenv("GEMINI_EMBED_MODEL", "gemini-embedding-2")
-CHAT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
 
 st.set_page_config(page_title="SmartCAT — CAT Modelling Assistant", page_icon="🌀",
                    layout="wide", initial_sidebar_state="expanded")
+
+
+@st.cache_resource
+def _bootstrap() -> dict:
+    """Create tables and warm shared resources, once per process."""
+    status = {"db": False, "resources": False, "error": None}
+    try:
+        status.update(svc.init_service())
+    except Exception as exc:
+        status["error"] = f"Database not reachable: {exc}"
+        return status
+    try:
+        svc.get_resources()
+        status["resources"] = True
+    except Exception as exc:
+        status["error"] = str(exc)
+    return status
+
+
+BOOT = _bootstrap()
 
 # ------------------------------------------------------------------ EXL palette + theming
 
@@ -463,72 +469,123 @@ def logo(size: int, uid: str) -> str:
     return LOGO.format(size=size, uid=uid)
 
 
-def _load_prefs() -> dict:
-    try:
-        return json.loads(PREFS_FILE.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
+def _safe_prefs() -> dict:
+    uid = st.session_state.get("auth_user", {}).get("id", "")
+    if not uid:
         return {}
-
-
-def _save_prefs() -> None:
-    PREFS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    PREFS_FILE.write_text(
-        json.dumps({"dark_mode": st.session_state.dark_pref}), encoding="utf-8"
-    )
+    try:
+        return svc.get_prefs(uid)
+    except Exception:
+        return {}
 
 
 def _on_dark_toggle() -> None:
     st.session_state.dark_pref = st.session_state.dark_widget
-    _save_prefs()
+    uid = st.session_state.get("auth_user", {}).get("id", "")
+    if uid:
+        try:
+            svc.set_prefs(uid, {"dark_mode": st.session_state.dark_pref})
+        except Exception:
+            pass
 
 
-# Theme preference lives in its own session key (and on disk) — never tied to the
-# toggle widget itself, because Streamlit drops widget state when a rerun fires
-# before the widget renders (e.g. clicking "New chat" above the toggle).
 if "dark_pref" not in st.session_state:
-    st.session_state.dark_pref = bool(_load_prefs().get("dark_mode", False))
+    st.session_state.dark_pref = bool(_safe_prefs().get("dark_mode", False))
 
 DARK_MODE = st.session_state.dark_pref
 st.markdown(build_css(DARK_MODE), unsafe_allow_html=True)
 
+# ------------------------------------------------------------------ auth gate
+
+
+def _show_auth_page() -> None:
+    """Login / Sign-up page. Sets st.session_state.auth_user on success."""
+    _, col, _ = st.columns([1, 1.4, 1])
+    with col:
+        st.markdown(
+            f'<div style="text-align:center;padding:20px 0 28px">'
+            f'{logo(72, "auth")}'
+            f'<div class="sc-title" style="font-size:1.9rem;margin-top:14px">SmartCAT</div>'
+            f'<div class="sc-sub">CAT Modelling Assistant — Please sign in</div></div>',
+            unsafe_allow_html=True,
+        )
+        if BOOT.get("error"):
+            st.error(BOOT["error"])
+
+        tab_login, tab_signup = st.tabs(["🔐  Login", "✨  Sign Up"])
+
+        with tab_login:
+            with st.form("login_form", border=False):
+                email = st.text_input("Email", placeholder="you@example.com")
+                password = st.text_input("Password", type="password")
+                login_btn = st.form_submit_button(
+                    "Login", use_container_width=True, type="primary")
+            if login_btn:
+                if not email or not password:
+                    st.error("Please fill in all fields.")
+                else:
+                    res = svc.auth_login(email, password)
+                    if res:
+                        st.session_state.auth_user = res
+                        st.rerun()
+                    else:
+                        st.error("Invalid email or password.")
+
+        with tab_signup:
+            with st.form("signup_form", border=False):
+                su_name = st.text_input("Full Name", placeholder="Your Name")
+                su_email = st.text_input("Email", placeholder="you@example.com",
+                                         key="su_email")
+                su_pw = st.text_input("Password", type="password", key="su_pw",
+                                      help="Minimum 6 characters")
+                su_pw2 = st.text_input("Confirm Password", type="password", key="su_pw2")
+                signup_btn = st.form_submit_button(
+                    "Create Account", use_container_width=True, type="primary")
+            if signup_btn:
+                if not su_name.strip() or not su_email or not su_pw:
+                    st.error("Please fill in all fields.")
+                elif su_pw != su_pw2:
+                    st.error("Passwords don't match.")
+                elif len(su_pw) < 6:
+                    st.error("Password must be at least 6 characters.")
+                else:
+                    res = svc.auth_register(su_name, su_email, su_pw)
+                    if res:
+                        st.session_state.auth_user = res
+                        st.rerun()
+                    else:
+                        st.error("This email is already registered — please log in.")
+
+
+if st.session_state.get("auth_user") is None:
+    _show_auth_page()
+    st.stop()
+
+# Logged in — derive identity from session
+_au = st.session_state.auth_user
+USER_ID = _au["id"]
+USER_NAME = _au.get("name") or _au["id"]
+USER_EMAIL = _au["email"]
+
 # ------------------------------------------------------------------ resources
 
 
-@st.cache_resource
-def load_resources():
-    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-    if not api_key:
-        return None, None, None, None, None
-    from google import genai
-
-    client = genai.Client(api_key=api_key)
-    index = KnowledgeIndex(INDEX_DIR)
-    if index.exists:
-        index.load()
-    db = CodeDB(INDEX_DIR / "codes.db")
-    geo = GeoDB(INDEX_DIR / "codes.db")
-    log = QALog(INDEX_DIR / "qa_log.db")
-    return client, index, db, geo, log
-
-
-client, index, db, geo, qa_log = load_resources()
-
-def load_chats() -> list[dict]:
+def _get_resources():
+    """Shared Gemini client + knowledge index from the service layer (a process
+    singleton). Returns (None, None) if the backend/API key isn't available."""
     try:
-        return json.loads(CHATS_FILE.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError):
-        return []
+        res = svc.get_resources()
+        return res.client, res.index
+    except Exception:
+        return None, None
 
 
-def save_chats() -> None:
-    CHATS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    CHATS_FILE.write_text(
-        json.dumps(st.session_state.chats, ensure_ascii=False), encoding="utf-8"
-    )
+client, index = _get_resources()
 
 
 def sync_current_chat() -> None:
-    """Persist the active conversation into the chat list (creates it on first message)."""
+    """Persist the active conversation (creates it on first message). Now writes
+    just this chat to Postgres via the service, scoped to the current user."""
     messages = st.session_state.messages
     if not messages:
         return
@@ -540,41 +597,38 @@ def sync_current_chat() -> None:
         st.session_state.chats.insert(0, chat)
         st.session_state.current_chat_id = chat["id"]
     else:
-        for chat in st.session_state.chats:
-            if chat["id"] == st.session_state.current_chat_id:
-                chat["messages"] = messages
-                chat["ts"] = time.time()
+        chat = None
+        for c in st.session_state.chats:
+            if c["id"] == st.session_state.current_chat_id:
+                c["messages"] = messages
+                c["ts"] = time.time()
+                chat = c
                 break
-    save_chats()
+        if chat is None:
+            return
+    try:
+        svc.save_chat(USER_ID, chat, name=USER_NAME, email=USER_EMAIL or None)
+    except Exception as exc:
+        st.warning(f"Could not save chat: {exc}")
 
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
-if "session_store" not in st.session_state:
-    st.session_state.session_store = VectorStore(None)  # in-memory, per session
+if "session_id" not in st.session_state:
+    st.session_state.session_id = uuid.uuid4().hex[:12]  # per-browser-session uploads
 if "chats" not in st.session_state:
-    st.session_state.chats = load_chats()
+    try:
+        st.session_state.chats = svc.list_chats(USER_ID)
+    except Exception:
+        st.session_state.chats = []
 if "current_chat_id" not in st.session_state:
     st.session_state.current_chat_id = None
 
 
 def index_uploaded_files(files) -> tuple[list[str], list[str]]:
-    """Index uploaded files into the session store. Returns (indexed names, errors)."""
-    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
-    indexed, errors = [], []
-    for uploaded in files:
-        try:
-            target = UPLOAD_DIR / uploaded.name
-            target.write_bytes(uploaded.getbuffer())
-            blocks = load_document(target)
-            chunks = chunk_blocks(blocks, uploaded.name)
-            count = st.session_state.session_store.add_document(
-                uploaded.name, chunks, client, EMBED_MODEL
-            )
-            indexed.append(f"{uploaded.name} ({count} chunks)")
-        except Exception as exc:
-            errors.append(f"{uploaded.name}: {exc}")
-    return indexed, errors
+    """Persist + embed uploaded files for this session via the service layer."""
+    payload = [(f.name, bytes(f.getbuffer())) for f in files]
+    return svc.upload(USER_ID, st.session_state.session_id, payload)
 
 
 # ------------------------------------------------------------------ sidebar
@@ -586,9 +640,11 @@ with st.sidebar:
         f'<div class="sc-sub">CAT Modelling Assistant</div></div></div>',
         unsafe_allow_html=True,
     )
+    if BOOT.get("error"):
+        st.error(BOOT["error"])
     if client is None:
         st.error("GEMINI_API_KEY missing in .env")
-    elif not index.exists:
+    elif index is None or not index.exists:
         st.error("Knowledge index not built yet — run: python scripts/build_stores.py")
 
     if st.button("➕  New chat", use_container_width=True, type="primary"):
@@ -618,10 +674,16 @@ with st.sidebar:
                 if is_current:
                     st.session_state.messages = []
                     st.session_state.current_chat_id = None
-                save_chats()
+                try:
+                    svc.delete_chat(USER_ID, chat["id"])
+                except Exception:
+                    pass
                 st.rerun()
 
-    session_docs = st.session_state.session_store.documents
+    try:
+        session_docs = svc.session_documents(USER_ID, st.session_state.session_id)
+    except Exception:
+        session_docs = {}
     if session_docs:
         st.divider()
         st.caption("📄 Attached this session: " + ", ".join(session_docs))
@@ -639,31 +701,11 @@ with st.sidebar:
         f'<span class="sc-account-dot" title="Signed in"></span></div>',
         unsafe_allow_html=True,
     )
-
-# ------------------------------------------------------------------ agent tools
-
-
-def build_tools() -> dict:
-    tools = {
-        "search_knowledge": lambda q: [
-            {"title": h["title"], "url": h["url"], "version": h.get("version"),
-             "excerpt": h["text"][:1500]}
-            for h in index.search(q, client, EMBED_MODEL, top_k=10)
-        ],
-        "lookup_codes": lambda q: db.search(q, top_k=12),
-        "web_search": make_web_search(client, CHAT_MODEL),
-        "calculate": calculate,
-    }
-    if geo.available:
-        tools["lookup_location"] = lambda q: geo.search(q, top_k=10)
-    if st.session_state.session_store.documents:
-        tools["search_uploaded_docs"] = lambda q: [
-            {"title": f"{h['doc']}" + (f" — page {h['page']}" if h.get("page") else ""),
-             "url": "", "excerpt": h["text"][:1500]}
-            for h in st.session_state.session_store.search(q, client, EMBED_MODEL, top_k=6)
-        ]
-    return tools
-
+    if st.button("🚪  Logout", use_container_width=True):
+        del st.session_state.auth_user
+        for key in ["messages", "chats", "current_chat_id", "session_id", "dark_pref"]:
+            st.session_state.pop(key, None)
+        st.rerun()
 
 # ------------------------------------------------------------------ rendering helpers
 
@@ -727,14 +769,14 @@ def render_feedback(i: int, message: dict) -> None:
         return
     col_up, col_down, _ = st.columns([1, 1, 10])
     if col_up.button("👍", key=f"up-{st.session_state.current_chat_id}-{i}"):
-        qa_log.set_feedback(log_id, 1)
+        svc.feedback(USER_ID, log_id, 1)
         message["feedback"] = 1
-        save_chats()
+        sync_current_chat()
         st.rerun()
     if col_down.button("👎", key=f"down-{st.session_state.current_chat_id}-{i}"):
-        qa_log.set_feedback(log_id, -1)
+        svc.feedback(USER_ID, log_id, -1)
         message["feedback"] = -1
-        save_chats()
+        sync_current_chat()
         st.rerun()
 
 
@@ -811,7 +853,7 @@ if attached_files:
         st.rerun()
 
 if question:
-    if client is None or not index.exists:
+    if client is None or index is None or not index.exists:
         st.stop()
     st.session_state.messages.append({"role": "user", "content": question})
     with st.chat_message("user"):
@@ -819,13 +861,12 @@ if question:
 
     with st.chat_message("assistant"):
         with st.spinner("SmartCAT is thinking — searching the knowledge base..."):
-            result = run_agent(
+            result = svc.chat(
+                USER_ID,
+                st.session_state.session_id,
                 question,
                 history=[{"role": m["role"], "content": m["content"]}
                          for m in st.session_state.messages[:-1]],
-                client=client,
-                model=CHAT_MODEL,
-                tools=build_tools(),
             )
 
         def _stream_words(text: str):
@@ -833,22 +874,16 @@ if question:
                 yield word + " "
                 time.sleep(0.006)
 
-        st.write_stream(_stream_words(result.answer))
+        st.write_stream(_stream_words(result["answer"]))
 
-        unique_sources = []
-        seen_urls = set()
-        for src in result.sources:
-            key = src.get("url") or src.get("title")
-            if key and key not in seen_urls:
-                seen_urls.add(key)
-                unique_sources.append(src)
-        trace = {"tool_calls": result.tool_calls, "sources": unique_sources}
-        if result.tool_calls or unique_sources:
+        # Sources are already deduped and the Q&A logged inside the service layer.
+        trace = {"tool_calls": result["tool_calls"], "sources": result["sources"]}
+        if result["tool_calls"] or result["sources"]:
             render_trace(trace)
 
-    log_id = qa_log.log(question, result.answer, result.tool_calls, unique_sources)
     st.session_state.messages.append({
-        "role": "assistant", "content": result.answer, "trace": trace, "log_id": log_id,
+        "role": "assistant", "content": result["answer"], "trace": trace,
+        "log_id": result["log_id"],
     })
     sync_current_chat()
     st.rerun()

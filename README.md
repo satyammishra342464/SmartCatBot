@@ -48,6 +48,41 @@ python -m venv .venv
 
 Quick checks: `scripts\ask.py "question"` (CLI), `scripts\run_evals.py` (golden set accuracy).
 
+## Scalable backend (FastAPI + Postgres + Redis)
+
+The agent logic lives in a shared **service layer** (`service/`) consumed by both the
+Streamlit UI and a **FastAPI** backend (`api/`). Per-user chats, prefs, QA log, and
+uploaded-doc chunks live in **Postgres**; embeddings and repeated answers are cached in
+**Redis**. The knowledge base (codes.db + numpy index) stays shared and read-only.
+
+```
+core/ (stores, agent) -> service/ (orchestration + cache) -> api/ (FastAPI) + app.py (Streamlit)
+                                     |                              |
+                        Redis (embed/response cache)   Postgres (users, chats, qa_log, prefs, uploads)
+```
+
+Run it:
+
+```powershell
+docker compose up -d                                 # 1) start Postgres + Redis
+# copy .env.example keys DATABASE_URL / REDIS_URL into your .env
+.venv\Scripts\python scripts\init_db.py              # 2) create tables
+.venv\Scripts\python scripts\migrate_chats_to_db.py  # 3) import old chats.json + qa_log.db (optional)
+.venv\Scripts\uvicorn api.main:app --port 8000       # 4a) REST backend -> http://localhost:8000/docs
+.venv\Scripts\streamlit run app.py                   # 4b) UI (now persists to Postgres)
+```
+
+Both front-ends work independently. API identity is the `X-User-Id` header (defaults to
+`SMARTCAT_USER_EMAIL`); Streamlit uses `SMARTCAT_USER_EMAIL`. Example call:
+
+```bash
+curl -X POST localhost:8000/chat -H "Content-Type: application/json" \
+  -H "X-User-Id: you@example.com" \
+  -d '{"question":"What are the sub-perils of Earthquake?","session_id":"s1"}'
+```
+
+Tests (no infra needed — run against SQLite): `.venv\Scripts\python -m pytest tests/`
+
 ## Adding knowledge
 
 - **Any document**: drop PDF/DOCX/TXT/MD/CSV/XLSX into `data/local_docs/` → `ingest_docs.py` → `build_stores.py`
@@ -66,9 +101,16 @@ Quick checks: `scripts\ask.py "question"` (CLI), `scripts\run_evals.py` (golden 
 - Every UI question is logged to `data/index/qa_log.db` with tool trace + 👍/👎 feedback —
   questions with `kb_hit = 0` show where the knowledge base needs new sources
 
-## Enterprise path (after POC)
+## Enterprise path
 
-- SQLite → PostgreSQL, numpy index → pgvector (store interfaces isolated in `core/`)
-- FastAPI wrapper over `core/` (`POST /chat`) so SmartCAT or any client can consume it
+Done (see "Scalable backend" above):
+- ✅ FastAPI wrapper over `core/` (`/chat`, `/upload`, `/feedback`, `/chats`, `/prefs`) — SmartCAT or any client can consume it
+- ✅ Per-user data (chats, prefs, QA log, uploads) in PostgreSQL
+- ✅ Redis caching for embeddings + repeated answers
+
+Remaining:
+- numpy index → pgvector (the knowledge base is still numpy + SQLite reference data)
+- Real authentication (currently the `X-User-Id` header / env user — no login yet)
 - Gemini API → Vertex AI for enterprise data terms
+- Real token streaming from the agent (UI streaming is currently simulated)
 - Manual-download sources when available: CEDE schema (Verisk), CRESTA.org Excel (drop into `data/local_docs/`)
