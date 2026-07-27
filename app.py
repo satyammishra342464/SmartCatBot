@@ -335,8 +335,11 @@ html, body {{ background: {P["BG"]} !important; }}
     border: 1px solid {P["BORDER"]};
     box-shadow: {P["CARD_SHADOW"]};
     transition: border-color .25s ease, box-shadow .25s ease;
+    pointer-events: none;
 }}
-.sc-account:hover {{
+/* Hover glow triggered by the transparent popover button above */
+[data-testid="stSidebar"]:has([data-testid="stPopover"] button:hover) .sc-account,
+[data-testid="stSidebar"]:has([data-testid="stPopover"] button[aria-expanded="true"]) .sc-account {{
     border-color: {EXL_ORANGE};
     box-shadow: 0 8px 20px rgba(232, 78, 14, .18);
 }}
@@ -352,10 +355,82 @@ html, body {{ background: {P["BG"]} !important; }}
     color: {P["MID"]}; font-size: .70rem;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 128px;
 }}
-.sc-account-dot {{
-    width: 9px; height: 9px; border-radius: 50%; margin-left: auto; flex-shrink: 0;
-    background: #22C55E; box-shadow: 0 0 8px rgba(34, 197, 94, .8);
-    animation: scPulse 3s ease-in-out infinite;
+/* ---------- sc-account extras ---------- */
+.sc-acct-dots {{
+    margin-left: auto; flex-shrink: 0;
+    font-size: 1.05rem; color: {P["MID"]};
+    letter-spacing: 3px; line-height: 1; padding-bottom: 2px;
+}}
+/* Transparent popover button sits ON TOP of the account bar (z-index 1000 > 999).
+   It is invisible but fully clickable — no JS delegation needed. */
+[data-testid="stSidebar"] [data-testid="stPopover"] > div > button,
+[data-testid="stSidebar"] [data-testid="stPopover"] > button {{
+    opacity: 0 !important;
+    position: fixed !important;
+    bottom: 14px !important; left: 14px !important;
+    width: 218px !important; height: 52px !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    z-index: 1000 !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}}
+
+/* ---------- popover body — professional card with theme support ---------- */
+[data-testid="stPopoverBody"] {{
+    background: {P["CARD"]} !important;
+    border: 1px solid {P["BORDER"]} !important;
+    box-shadow: 0 -6px 28px rgba(0,0,0,.25), 0 4px 12px rgba(0,0,0,.15) !important;
+    border-radius: 14px !important;
+    padding: 8px !important;
+    min-width: 232px !important;
+}}
+[data-testid="stPopoverBody"] p {{
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stPopoverBody"] [data-testid="stCaptionContainer"] p {{
+    color: {P["SUB"]} !important;
+    font-size: .75rem !important;
+}}
+[data-testid="stPopoverBody"] hr {{
+    border-color: {P["BORDER"]} !important; margin: 6px 0 !important;
+}}
+[data-testid="stPopoverBody"] a {{
+    color: {P["SUB"]} !important;
+    text-decoration: none !important;
+    font-size: .74rem !important;
+    pointer-events: none;
+}}
+[data-testid="stPopoverBody"] .stButton button {{
+    background: transparent !important;
+    border: none !important;
+    color: {P["TEXT"]} !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+    font-weight: 400 !important;
+    font-size: .88rem !important;
+    border-radius: 8px !important;
+    padding: 7px 12px !important;
+    min-height: unset !important;
+    box-shadow: none !important;
+    animation: none !important;
+    transform: none !important;
+    transition: background .15s ease !important;
+    width: 100% !important;
+}}
+[data-testid="stPopoverBody"] .stButton button:hover {{
+    background: {P["BTN_HOVER_BG"]} !important;
+    transform: none !important; box-shadow: none !important;
+    border-color: transparent !important;
+}}
+[data-testid="stPopoverBody"] [data-testid="stBaseButton-primary"] {{
+    background: {EXL_ORANGE} !important;
+    color: #FFFFFF !important;
+    border-color: {EXL_ORANGE} !important;
+}}
+[data-testid="stPopoverBody"] [data-testid="stBaseButton-primary"]:hover {{
+    background: {EXL_ORANGE_DARK} !important;
 }}
 .stButton button[kind="primary"],
 [data-testid="stBaseButton-primary"] {{
@@ -432,6 +507,158 @@ hr {{ border-color: {P["BORDER"]}; }}
 [data-testid="stHeader"] {{ color-scheme: dark; }}
 [data-testid="stHeader"] button {{ color: {P["SUB"]} !important; }}
 [data-testid="stStatusWidget"] {{ color: {P["SUB"]}; }}
+
+/* ---------- @st.dialog modal — dark mode ---------- */
+[data-testid="stDialog"] {{
+    background: rgba(0,0,0,.60) !important;
+}}
+[data-testid="stDialog"] > div {{
+    background: {P["CARD"]} !important;
+    border: 1px solid {P["BORDER"]} !important;
+    border-radius: 16px !important;
+    box-shadow: 0 12px 48px rgba(0,0,0,.70) !important;
+}}
+[data-testid="stDialog"] h1, [data-testid="stDialog"] h2,
+[data-testid="stDialog"] h3, [data-testid="stDialog"] h4,
+[data-testid="stDialog"] h5, [data-testid="stDialog"] h6 {{
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stDialog"] p {{
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stDialog"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stDialog"] [data-testid="stMarkdownContainer"] li {{
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stDialog"] [data-testid="stWidgetLabel"] p,
+[data-testid="stDialog"] label {{ color: {P["TEXT"]} !important; }}
+[data-testid="stDialog"] [data-testid="stCaptionContainer"] p {{
+    color: {P["SUB"]} !important;
+}}
+[data-testid="stDialog"] hr {{ border-color: {P["BORDER"]} !important; }}
+/* Text / password inputs */
+[data-testid="stDialog"] input[type="text"],
+[data-testid="stDialog"] input[type="email"],
+[data-testid="stDialog"] input[type="password"],
+[data-testid="stDialog"] textarea {{
+    background: {P["INPUT_BG"]} !important;
+    color: {P["TEXT"]} !important;
+    border-color: {P["BORDER"]} !important;
+    color-scheme: dark;
+}}
+/* Input wrapper — Streamlit uses stTextInputRootElement (not BaseWeb) */
+[data-testid="stDialog"] [data-testid="stTextInputRootElement"] {{
+    background: {P["INPUT_BG"]} !important;
+    border-color: {P["BORDER"]} !important;
+    border-radius: 8px !important;
+}}
+[data-testid="stDialog"] [data-testid="stTextInputRootElement"]:has(input:disabled) {{
+    background: rgba(255,255,255,.05) !important;
+    border-color: {P["BORDER"]} !important;
+}}
+[data-testid="stDialog"] input:disabled,
+[data-testid="stDialog"] textarea:disabled {{
+    background: transparent !important;
+    color: {P["MID"]} !important;
+    -webkit-text-fill-color: {P["MID"]} !important;
+    opacity: 1 !important;
+}}
+/* Selectbox trigger */
+[data-testid="stDialog"] [data-testid="stSelectbox"] > div > div,
+[data-testid="stDialog"] [data-baseweb="select"] > div {{
+    background: {P["INPUT_BG"]} !important;
+    color: {P["TEXT"]} !important;
+    border-color: {P["BORDER"]} !important;
+}}
+[data-testid="stDialog"] [data-baseweb="select"] span {{
+    color: {P["TEXT"]} !important;
+}}
+/* Selectbox virtual dropdown — renders in a portal OUTSIDE stDialog, must be global */
+[data-testid="stSelectboxVirtualDropdown"] {{
+    background: {P["CARD"]} !important;
+    border: 1px solid {P["BORDER"]} !important;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 28px rgba(0,0,0,.50) !important;
+}}
+[data-testid="stSelectboxVirtualDropdown"] [role="option"],
+[data-testid="stSelectboxVirtualDropdown"] [role="listbox"] > div {{
+    background: {P["CARD"]} !important;
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stSelectboxVirtualDropdown"] [role="option"]:hover,
+[data-testid="stSelectboxVirtualDropdown"] [aria-selected="true"] {{
+    background: {P["BTN_HOVER_BG"]} !important;
+    color: {P["TEXT"]} !important;
+}}
+/* Also keep BaseWeb selectors for forward compatibility */
+[data-baseweb="popover"] ul[role="listbox"],
+[data-baseweb="menu"] {{
+    background: {P["CARD"]} !important;
+    border: 1px solid {P["BORDER"]} !important;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 28px rgba(0,0,0,.50) !important;
+}}
+[data-baseweb="menu"] li,
+[data-baseweb="menu"] [role="option"] {{
+    background: {P["CARD"]} !important;
+    color: {P["TEXT"]} !important;
+}}
+[data-baseweb="menu"] li:hover,
+[data-baseweb="menu"] [aria-selected="true"] {{
+    background: {P["BTN_HOVER_BG"]} !important;
+    color: {P["TEXT"]} !important;
+}}
+/* Radio buttons */
+[data-testid="stDialog"] [data-testid="stRadio"] label {{ color: {P["TEXT"]} !important; }}
+[data-testid="stDialog"] [data-testid="stRadio"] p {{ color: {P["TEXT"]} !important; }}
+/* Buttons */
+[data-testid="stDialog"] .stButton button {{
+    background: {P["BTN_BG"]} !important;
+    color: {P["BTN_TEXT"]} !important;
+    border-color: rgba(232, 78, 14, .45) !important;
+}}
+[data-testid="stDialog"] .stButton button:hover {{
+    background: {P["BTN_HOVER_BG"]} !important;
+    border-color: {EXL_ORANGE} !important;
+}}
+[data-testid="stDialog"] [data-testid="stBaseButton-primary"] {{
+    background: {EXL_ORANGE} !important;
+    color: #FFFFFF !important;
+    border-color: {EXL_ORANGE} !important;
+}}
+[data-testid="stDialog"] [data-testid="stBaseButton-primary"]:hover {{
+    background: {EXL_ORANGE_DARK} !important;
+}}
+/* Info / success / warning alert boxes */
+[data-testid="stDialog"] [data-testid="stInfo"],
+[data-testid="stDialog"] [data-testid="stAlert"] {{
+    background: rgba(80,140,255,.12) !important;
+    border-color: rgba(80,140,255,.35) !important;
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stDialog"] [data-testid="stInfo"] p,
+[data-testid="stDialog"] [data-testid="stAlert"] p {{
+    color: {P["TEXT"]} !important;
+}}
+[data-testid="stDialog"] [data-testid="stSuccess"] {{
+    background: rgba(34,197,94,.12) !important;
+    border-color: rgba(34,197,94,.35) !important;
+}}
+[data-testid="stDialog"] [data-testid="stError"] {{
+    background: rgba(229,72,77,.12) !important;
+    border-color: rgba(229,72,77,.35) !important;
+}}
+/* Bordered containers (Upgrade plan cards) */
+[data-testid="stDialog"] [data-testid="stVerticalBlockBorderWrapper"] > div {{
+    background: rgba(255,255,255,.04) !important;
+    border-color: {P["BORDER"]} !important;
+}}
+/* Close (X) button */
+[data-testid="stDialog"] button[aria-label="Close"],
+[data-testid="stDialog"] button[kind="header"] {{
+    color: {P["TEXT"]} !important;
+    background: transparent !important;
+}}
 """
     return css + "</style>"
 
@@ -623,12 +850,172 @@ if "chats" not in st.session_state:
         st.session_state.chats = []
 if "current_chat_id" not in st.session_state:
     st.session_state.current_chat_id = None
+if "pending_delete_chat_id" not in st.session_state:
+    st.session_state.pending_delete_chat_id = None
 
 
 def index_uploaded_files(files) -> tuple[list[str], list[str]]:
     """Persist + embed uploaded files for this session via the service layer."""
     payload = [(f.name, bytes(f.getbuffer())) for f in files]
     return svc.upload(USER_ID, st.session_state.session_id, payload)
+
+
+# ------------------------------------------------------------------ dialogs
+
+@st.dialog("Account Settings")
+def _dialog_account():
+    au = st.session_state.auth_user
+    st.markdown("#### Profile")
+    new_name = st.text_input("Full Name", value=au.get("name", ""), key="dlg_acc_name")
+    st.text_input("Email", value=au.get("email", ""), disabled=True, key="dlg_acc_email",
+                  help="Email cannot be changed")
+    st.divider()
+    st.markdown("#### Change Password")
+    old_pw = st.text_input("Current Password", type="password", key="dlg_acc_oldpw")
+    new_pw = st.text_input("New Password", type="password", key="dlg_acc_newpw")
+    new_pw2 = st.text_input("Confirm New Password", type="password", key="dlg_acc_newpw2")
+    col1, col2 = st.columns(2)
+    if col1.button("Save Changes", type="primary", use_container_width=True):
+        errors: list[str] = []
+        changed = False
+        if new_name.strip() and new_name.strip() != au.get("name", ""):
+            try:
+                svc.update_user_name(au["id"], new_name.strip())
+                st.session_state.auth_user["name"] = new_name.strip()
+                changed = True
+            except Exception as exc:
+                errors.append(f"Could not update name: {exc}")
+        if old_pw or new_pw:
+            if not old_pw:
+                errors.append("Enter your current password.")
+            elif not new_pw:
+                errors.append("Enter a new password.")
+            elif new_pw != new_pw2:
+                errors.append("New passwords don't match.")
+            elif len(new_pw) < 6:
+                errors.append("Password must be at least 6 characters.")
+            else:
+                try:
+                    if svc.change_password(au["id"], old_pw, new_pw):
+                        changed = True
+                    else:
+                        errors.append("Current password is incorrect.")
+                except Exception as exc:
+                    errors.append(f"Password update failed: {exc}")
+        for e in errors:
+            st.error(e)
+        if changed and not errors:
+            st.success("Changes saved! Click Close to continue.")
+    if col2.button("Close", use_container_width=True):
+        st.rerun()
+
+
+@st.dialog("Language")
+def _dialog_language():
+    LANGS = ["English", "Hindi", "Spanish", "French", "German",
+             "Arabic", "Japanese", "Chinese (Simplified)"]
+    try:
+        prefs = svc.get_prefs(USER_ID)
+    except Exception:
+        prefs = {}
+    cur = prefs.get("language", "English")
+    idx = LANGS.index(cur) if cur in LANGS else 0
+    selected = st.selectbox("Interface Language", LANGS, index=idx)
+    st.info("ℹ️ Multi-language support is coming soon. Your selection will be saved.")
+    col1, col2 = st.columns(2)
+    if col1.button("Save", type="primary", use_container_width=True):
+        try:
+            svc.set_prefs(USER_ID, {**prefs, "language": selected})
+            st.success(f"Language set to {selected}. Click Close to continue.")
+        except Exception as exc:
+            st.error(str(exc))
+    if col2.button("Close", use_container_width=True):
+        st.rerun()
+
+
+@st.dialog("Appearance")
+def _dialog_appearance():
+    cur_label = "Dark" if st.session_state.dark_pref else "Light"
+    theme = st.radio("Theme", ["Light", "Dark"],
+                     index=0 if cur_label == "Light" else 1, horizontal=True)
+    st.caption("Click Apply to switch the theme immediately.")
+    col1, col2 = st.columns(2)
+    if col1.button("Apply", type="primary", use_container_width=True):
+        st.session_state.dark_pref = (theme == "Dark")
+        try:
+            prefs = svc.get_prefs(USER_ID)
+            svc.set_prefs(USER_ID, {**prefs, "dark_mode": st.session_state.dark_pref})
+        except Exception:
+            pass
+        st.rerun()
+    if col2.button("Close", use_container_width=True):
+        st.rerun()
+
+
+@st.dialog("Upgrade Plan")
+def _dialog_upgrade():
+    if st.session_state.get("_upgrade_show_card"):
+        st.markdown("#### Add Payment Method")
+        st.text_input("Card Number", placeholder="1234 5678 9012 3456", key="dlg_cardno")
+        c1, c2 = st.columns(2)
+        c1.text_input("Expiry (MM/YY)", placeholder="12/27", key="dlg_exp")
+        c2.text_input("CVV", placeholder="123", type="password", key="dlg_cvv")
+        st.text_input("Name on Card", placeholder="Your Name", key="dlg_cardname")
+        st.warning("🚧 Pro Plan is currently **under development**. "
+                   "Your card will **not** be charged.")
+        bc1, bc2 = st.columns(2)
+        bc1.button("Subscribe Now", type="primary", use_container_width=True, disabled=True)
+        if bc2.button("← Back", use_container_width=True):
+            st.session_state._upgrade_show_card = False
+            st.rerun()
+        return
+
+    col_b, col_p = st.columns(2)
+    with col_b:
+        with st.container(border=True):
+            st.markdown("#### 🆓 Basic")
+            st.markdown("**Free**")
+            st.markdown("""
+- ✓ 50 questions / day
+- ✓ Knowledge base search
+- ✓ Web search
+- ✓ Document upload (5 MB)
+- ✓ Chat history (30 days)
+""")
+            st.button("Current Plan ✓", disabled=True, use_container_width=True,
+                      key="dlg_basic_btn")
+    with col_p:
+        with st.container(border=True):
+            st.markdown("#### ⭐ Pro")
+            st.markdown("**$10 / month**")
+            st.markdown("""
+- ✓ Unlimited questions
+- ✓ Get more limit
+- ✓ Priority response
+- ✓ Document upload (50 MB)
+- ✓ Unlimited chat history
+- ✓ API access
+""")
+            if st.button("Upgrade to Pro →", type="primary",
+                         use_container_width=True, key="dlg_pro_btn"):
+                st.session_state._upgrade_show_card = True
+                st.rerun()
+    st.caption("🚧 Pro Plan is currently under development — stay tuned!")
+    if st.button("Close", use_container_width=True, key="dlg_upgrade_close"):
+        st.rerun()
+
+
+# ----------------------------------------------------------------- dialog triggers
+_dlg = st.session_state.pop("open_dialog", None)
+if _dlg == "account":
+    _dialog_account()
+elif _dlg == "language":
+    _dialog_language()
+elif _dlg == "appearance":
+    _dialog_appearance()
+elif _dlg == "upgrade":
+    st.session_state._upgrade_show_card = False
+    _dialog_upgrade()
 
 
 # ------------------------------------------------------------------ sidebar
@@ -657,28 +1044,42 @@ with st.sidebar:
         st.caption("Chat history")
         for chat in st.session_state.chats:
             is_current = chat["id"] == st.session_state.current_chat_id
-            col_open, col_del = st.columns([6, 1])
-            if col_open.button(
-                ("🟠 " if is_current else "") + chat["title"],
-                key=f"chat-{chat['id']}",
-                use_container_width=True,
-                disabled=is_current,
-            ):
-                sync_current_chat()
-                st.session_state.messages = chat["messages"]
-                st.session_state.current_chat_id = chat["id"]
-                st.rerun()
-            if col_del.button("🗑", key=f"del-{chat['id']}", help="Delete this chat"):
-                st.session_state.chats = [c for c in st.session_state.chats
-                                          if c["id"] != chat["id"]]
-                if is_current:
-                    st.session_state.messages = []
-                    st.session_state.current_chat_id = None
-                try:
-                    svc.delete_chat(USER_ID, chat["id"])
-                except Exception:
-                    pass
-                st.rerun()
+            pending = st.session_state.pending_delete_chat_id == chat["id"]
+            if pending:
+                col_lbl, col_confirm, col_cancel = st.columns([3, 3, 1])
+                col_lbl.caption((chat["title"][:22] + "…") if len(chat["title"]) > 22
+                                else chat["title"])
+                if col_confirm.button("Delete it?", key=f"confirm-del-{chat['id']}",
+                                      type="primary", use_container_width=True):
+                    st.session_state.chats = [c for c in st.session_state.chats
+                                              if c["id"] != chat["id"]]
+                    st.session_state.pending_delete_chat_id = None
+                    if is_current:
+                        st.session_state.messages = []
+                        st.session_state.current_chat_id = None
+                    try:
+                        svc.delete_chat(USER_ID, chat["id"])
+                    except Exception:
+                        pass
+                    st.rerun()
+                if col_cancel.button("✕", key=f"cancel-del-{chat['id']}"):
+                    st.session_state.pending_delete_chat_id = None
+                    st.rerun()
+            else:
+                col_open, col_del = st.columns([6, 1])
+                if col_open.button(
+                    ("🟠 " if is_current else "") + chat["title"],
+                    key=f"chat-{chat['id']}",
+                    use_container_width=True,
+                    disabled=is_current,
+                ):
+                    sync_current_chat()
+                    st.session_state.messages = chat["messages"]
+                    st.session_state.current_chat_id = chat["id"]
+                    st.rerun()
+                if col_del.button("🗑", key=f"del-{chat['id']}"):
+                    st.session_state.pending_delete_chat_id = chat["id"]
+                    st.rerun()
 
     try:
         session_docs = svc.session_documents(USER_ID, st.session_state.session_id)
@@ -688,24 +1089,54 @@ with st.sidebar:
         st.divider()
         st.caption("📄 Attached this session: " + ", ".join(session_docs))
 
-    st.divider()
-    st.toggle("🌙 Dark mode", value=st.session_state.dark_pref,
-              key="dark_widget", on_change=_on_dark_toggle)
-
+    # ── fixed bottom-left account bar + popover menu ──────────────────────────
     initials = "".join(word[0] for word in USER_NAME.split()[:2]).upper() or "U"
+    _em = USER_EMAIL if len(USER_EMAIL) <= 24 else USER_EMAIL[:10] + "…" + USER_EMAIL[-10:]
+    # Pretty HTML account bar (ChatGPT-style, fixed bottom-left)
+    # Script uses document.body event-delegation so it survives Streamlit rerenders.
+    # Guard with window._scAcctDel so duplicate listeners are never added.
     st.markdown(
-        f'<div class="sc-account"><div class="sc-avatar">{html_lib.escape(initials)}</div>'
+        f'<div class="sc-account">'
+        f'<div class="sc-avatar">{html_lib.escape(initials)}</div>'
         f'<div class="sc-account-info">'
         f'<span class="sc-account-name">{html_lib.escape(USER_NAME)}</span>'
-        f'<span class="sc-account-mail">{html_lib.escape(USER_EMAIL)}</span></div>'
-        f'<span class="sc-account-dot" title="Signed in"></span></div>',
+        f'<span class="sc-account-mail">{html_lib.escape(_em)}</span>'
+        f'</div>'
+        f'<span class="sc-acct-dots">···</span>'
+        f'</div>',
         unsafe_allow_html=True,
     )
-    if st.button("🚪  Logout", use_container_width=True):
-        del st.session_state.auth_user
-        for key in ["messages", "chats", "current_chat_id", "session_id", "dark_pref"]:
-            st.session_state.pop(key, None)
-        st.rerun()
+    # The actual Streamlit popover — hidden by CSS, triggered by the bar's onclick
+    with st.popover("⠀", use_container_width=False):
+        st.markdown(f"**{html_lib.escape(USER_NAME)}**")
+        _sub_color = theme_palette(DARK_MODE)["SUB"]
+        st.markdown(
+            f'<span style="font-size:.74rem;color:{_sub_color};display:block;margin:-6px 0 2px;word-break:break-all">'
+            f'{html_lib.escape(USER_EMAIL)}</span>',
+            unsafe_allow_html=True,
+        )
+        st.divider()
+        if st.button("⚙️  Account Settings", use_container_width=True,
+                     key="menu_account"):
+            st.session_state.open_dialog = "account"
+            st.rerun()
+        if st.button("🌐  Language", use_container_width=True, key="menu_lang"):
+            st.session_state.open_dialog = "language"
+            st.rerun()
+        if st.button("🎨  Appearance", use_container_width=True, key="menu_appear"):
+            st.session_state.open_dialog = "appearance"
+            st.rerun()
+        if st.button("⭐  Upgrade Plan", use_container_width=True, key="menu_upgrade"):
+            st.session_state.open_dialog = "upgrade"
+            st.rerun()
+        st.divider()
+        if st.button("🚪  Logout", use_container_width=True, key="menu_logout",
+                     type="primary"):
+            del st.session_state.auth_user
+            for _k in ["messages", "chats", "current_chat_id", "session_id",
+                        "dark_pref", "pending_delete_chat_id"]:
+                st.session_state.pop(_k, None)
+            st.rerun()
 
 # ------------------------------------------------------------------ rendering helpers
 

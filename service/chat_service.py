@@ -70,6 +70,20 @@ def auth_login(email: str, password: str) -> dict | None:
     return None
 
 
+def update_user_name(user_id: str, new_name: str) -> None:
+    _auth_repo.update_name(user_id, new_name)
+
+
+def change_password(user_id: str, old_password: str, new_password: str) -> bool:
+    user = _auth_repo.get_by_email(user_id)
+    if not user or not user["password_hash"]:
+        return False
+    if not _verify_pw(old_password, user["password_hash"]):
+        return False
+    _auth_repo.update_password(user_id, _hash_pw(new_password))
+    return True
+
+
 # ----------------------------------------------------------------- tools
 
 def build_tools(res: Resources, session_store: VectorStore | None) -> dict:

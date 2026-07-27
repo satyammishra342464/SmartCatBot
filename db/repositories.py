@@ -72,6 +72,18 @@ class AuthRepo:
             return {"id": u.id, "name": u.name or "", "email": u.email or "",
                     "password_hash": u.password_hash or ""}
 
+    def update_name(self, user_id: str, new_name: str) -> None:
+        with session_scope() as s:
+            u = s.get(User, user_id)
+            if u is not None:
+                u.name = new_name
+
+    def update_password(self, user_id: str, new_hash: str) -> None:
+        with session_scope() as s:
+            u = s.get(User, user_id)
+            if u is not None:
+                u.password_hash = new_hash
+
 
 class ChatRepo:
     def list_for_user(self, user_id: str) -> list[dict]:
