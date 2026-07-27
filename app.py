@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import streamlit as st
+import streamlit.components.v1 as components
 from dotenv import load_dotenv
 
 from core.loader import SUPPORTED_EXTENSIONS
@@ -696,6 +697,26 @@ def logo(size: int, uid: str) -> str:
     return LOGO.format(size=size, uid=uid)
 
 
+# ------------------------------------------------------------------ session persistence
+# Token → user dict; @st.cache_resource survives reruns (not server restarts).
+# The URL ?s=<token> survives browser refresh; localStorage covers new tabs.
+
+@st.cache_resource
+def _token_store() -> dict:
+    return {}
+
+def _make_token(user: dict) -> str:
+    tok = uuid.uuid4().hex
+    _token_store()[tok] = user
+    return tok
+
+def _load_token(tok: str) -> dict | None:
+    return _token_store().get(tok)
+
+def _drop_token(tok: str) -> None:
+    _token_store().pop(tok, None)
+
+
 def _safe_prefs() -> dict:
     uid = st.session_state.get("auth_user", {}).get("id", "")
     if not uid:
@@ -727,6 +748,23 @@ st.markdown(build_css(DARK_MODE), unsafe_allow_html=True)
 
 def _show_auth_page() -> None:
     """Login / Sign-up page. Sets st.session_state.auth_user on success."""
+    if st.session_state.pop("_clear_ls", False):
+        # User just logged out — wipe the localStorage token
+        components.html("<script>localStorage.removeItem('sc_s');</script>", height=0)
+    else:
+        # Try to restore from localStorage (covers new browser tabs)
+        components.html("""<script>
+(function(){
+  var t = localStorage.getItem('sc_s');
+  if (t) {
+    var u = new URL(window.parent.location.href);
+    if (!u.searchParams.get('s')) {
+      u.searchParams.set('s', t);
+      window.parent.location.replace(u.toString());
+    }
+  }
+})();
+</script>""", height=0)
     _, col, _ = st.columns([1, 1.4, 1])
     with col:
         st.markdown(
@@ -753,7 +791,10 @@ def _show_auth_page() -> None:
                 else:
                     res = svc.auth_login(email, password)
                     if res:
+                        _tok = _make_token(res)
                         st.session_state.auth_user = res
+                        st.session_state._save_ls = _tok
+                        st.query_params["s"] = _tok
                         st.rerun()
                     else:
                         st.error("Invalid email or password.")
@@ -778,15 +819,34 @@ def _show_auth_page() -> None:
                 else:
                     res = svc.auth_register(su_name, su_email, su_pw)
                     if res:
+                        _tok = _make_token(res)
                         st.session_state.auth_user = res
+                        st.session_state._save_ls = _tok
+                        st.query_params["s"] = _tok
                         st.rerun()
                     else:
                         st.error("This email is already registered — please log in.")
 
 
+# Restore session from URL token (survives browser refresh)
+if st.session_state.get("auth_user") is None:
+    _qt = st.query_params.get("s")
+    if _qt:
+        _restored = _load_token(_qt)
+        if _restored:
+            st.session_state.auth_user = _restored
+
 if st.session_state.get("auth_user") is None:
     _show_auth_page()
     st.stop()
+
+# Save token to localStorage after first login (so new tabs can restore it)
+_ls_tok = st.session_state.pop("_save_ls", None)
+if _ls_tok:
+    components.html(
+        f"<script>localStorage.setItem('sc_s',{json.dumps(_ls_tok)});</script>",
+        height=0,
+    )
 
 # Logged in — derive identity from session
 _au = st.session_state.auth_user
@@ -1132,10 +1192,18 @@ with st.sidebar:
         st.divider()
         if st.button("🚪  Logout", use_container_width=True, key="menu_logout",
                      type="primary"):
+            _old_tok = st.query_params.get("s")
+            if _old_tok:
+                _drop_token(_old_tok)
+            try:
+                st.query_params.clear()
+            except Exception:
+                pass
             del st.session_state.auth_user
             for _k in ["messages", "chats", "current_chat_id", "session_id",
                         "dark_pref", "pending_delete_chat_id"]:
                 st.session_state.pop(_k, None)
+            st.session_state["_clear_ls"] = True
             st.rerun()
 
 # ------------------------------------------------------------------ rendering helpers
