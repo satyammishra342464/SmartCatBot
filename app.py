@@ -660,6 +660,27 @@ hr {{ border-color: {P["BORDER"]}; }}
     color: {P["TEXT"]} !important;
     background: transparent !important;
 }}
+/* "Forgotten password?" — plain text link, no button chrome */
+[data-testid="stTabsContainer"] button[kind="secondary"],
+[data-testid="stTabsContainer"] [data-testid="stBaseButton-secondary"] > button {{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: {P["SUB"]} !important;
+    font-weight: 600 !important;
+    font-size: .88rem !important;
+    padding: 4px 8px !important;
+    min-height: 0 !important;
+    width: auto !important;
+    cursor: pointer !important;
+}}
+[data-testid="stTabsContainer"] button[kind="secondary"]:hover,
+[data-testid="stTabsContainer"] [data-testid="stBaseButton-secondary"] > button:hover {{
+    background: transparent !important;
+    color: {EXL_ORANGE} !important;
+    border: none !important;
+    box-shadow: none !important;
+}}
 """
     return css + "</style>"
 
@@ -743,6 +764,38 @@ if "dark_pref" not in st.session_state:
 DARK_MODE = st.session_state.dark_pref
 st.markdown(build_css(DARK_MODE), unsafe_allow_html=True)
 
+# ------------------------------------------------------------------ forgot-password dialog
+
+
+@st.dialog("Reset Password")
+def _dialog_forgot_password():
+    st.markdown(
+        '<p style="font-size:.85rem;opacity:.7;margin-bottom:4px">'
+        'Enter your registered email and create a new password.</p>',
+        unsafe_allow_html=True,
+    )
+    with st.form("forgot_form", border=False):
+        fp_email = st.text_input("Enter your Registered Email",
+                                 placeholder="you@example.com")
+        fp_pw    = st.text_input("Create New Password", type="password",
+                                 help="Minimum 6 characters")
+        fp_pw2   = st.text_input("Confirm New Password", type="password")
+        fp_btn   = st.form_submit_button("Reset Password",
+                                         use_container_width=True, type="primary")
+    if fp_btn:
+        if not fp_email or not fp_pw:
+            st.error("Please fill in all fields.")
+        elif fp_pw != fp_pw2:
+            st.error("Passwords don't match.")
+        elif len(fp_pw) < 6:
+            st.error("Password must be at least 6 characters.")
+        else:
+            if svc.reset_password(fp_email, fp_pw):
+                st.success("Password reset! You can now log in with your new password.")
+            else:
+                st.error("No account found with that email address.")
+
+
 # ------------------------------------------------------------------ auth gate
 
 
@@ -798,6 +851,11 @@ def _show_auth_page() -> None:
                         st.rerun()
                     else:
                         st.error("Invalid email or password.")
+            # Centred plain-text link (button chrome stripped via CSS above)
+            _fc1, _fc2, _fc3 = st.columns([2, 1.5, 2])
+            with _fc2:
+                if st.button("Forgotten password?", key="btn_forgot"):
+                    _dialog_forgot_password()
 
         with tab_signup:
             with st.form("signup_form", border=False):
@@ -826,6 +884,7 @@ def _show_auth_page() -> None:
                         st.rerun()
                     else:
                         st.error("This email is already registered — please log in.")
+
 
 
 # Restore session from URL token (survives browser refresh)

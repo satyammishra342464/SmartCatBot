@@ -74,6 +74,15 @@ def update_user_name(user_id: str, new_name: str) -> None:
     _auth_repo.update_name(user_id, new_name)
 
 
+def reset_password(email: str, new_password: str) -> bool:
+    """Reset password by email only (no old password required — forgot-password flow)."""
+    user = _auth_repo.get_by_email(email.strip().lower())
+    if not user:
+        return False
+    _auth_repo.update_password(user["id"], _hash_pw(new_password))
+    return True
+
+
 def change_password(user_id: str, old_password: str, new_password: str) -> bool:
     user = _auth_repo.get_by_email(user_id)
     if not user or not user["password_hash"]:
