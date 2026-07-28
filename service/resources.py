@@ -47,6 +47,10 @@ def _build() -> Resources:
         raise RuntimeError("GEMINI_API_KEY (or GOOGLE_API_KEY) missing in environment/.env")
 
     client = genai.Client(api_key=settings.api_key)
+
+    from core.loader import register_ocr_client
+    register_ocr_client(client, model=settings.gemini_model)
+
     index = KnowledgeIndex(INDEX_DIR)
     if index.exists:
         index.load()
