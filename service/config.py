@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     gemini_model: str = "gemini-3.5-flash"
     gemini_embed_model: str = "gemini-embedding-2"
 
+    # External API key — set this so widget / colleague tools can authenticate.
+    # Leave empty to run open (dev mode, no key required).
+    smartcat_api_key: str = ""
+
     # Identity (single-user Streamlit + default API user)
     smartcat_user_name: str = "User"
     smartcat_user_email: str = ""

@@ -4,8 +4,11 @@ handlers so Starlette offloads them to its threadpool."""
 from __future__ import annotations
 
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import Depends, FastAPI, File, Form, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import Response
 
 import service.chat_service as svc
 from api.deps import get_user_id
@@ -29,6 +32,22 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="SmartCAT API", version="1.0", lifespan=lifespan)
+
+# Allow any origin so the widget works when embedded in colleagues' tools.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
+)
+
+_WIDGET_JS = (Path(__file__).parent / "widget.js").read_text(encoding="utf-8")
+
+
+@app.get("/widget.js")
+def serve_widget() -> Response:
+    """Serve the embeddable chat widget — no auth required."""
+    return Response(content=_WIDGET_JS, media_type="application/javascript")
 
 
 @app.get("/health", response_model=HealthResponse)
