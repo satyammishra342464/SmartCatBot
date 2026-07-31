@@ -6,6 +6,28 @@ import hashlib
 import hmac
 import os
 
+# ----------------------------------------------------------------- response cache
+# Simple in-memory cache — keyed by normalised question text.
+# Only used when history is empty and no uploaded docs are in play,
+# so the answer is guaranteed to be context-independent.
+_response_cache: dict[str, dict] = {}
+_CACHE_MAX = 200  # keep memory bounded
+
+
+def _cache_key(question: str) -> str:
+    return hashlib.sha256(question.strip().lower().encode()).hexdigest()
+
+
+def _cache_get(question: str) -> dict | None:
+    return _response_cache.get(_cache_key(question))
+
+
+def _cache_set(question: str, result: dict) -> None:
+    if len(_response_cache) >= _CACHE_MAX:
+        # evict oldest entry
+        _response_cache.pop(next(iter(_response_cache)))
+    _response_cache[_cache_key(question)] = result
+
 from core.agent import run_agent
 from core.calculator import calculate
 from core.chunker import chunk_blocks
@@ -102,14 +124,14 @@ def build_tools(res: Resources, session_store: VectorStore | None) -> dict:
         "search_knowledge": lambda q: [
             {"title": h["title"], "url": h["url"], "version": h.get("version"),
              "excerpt": h["text"][:1500]}
-            for h in index.search(q, client, res.embed_model, top_k=10)
+            for h in index.search(q, client, res.embed_model, top_k=5)
         ],
-        "lookup_codes": lambda q: db.search(q, top_k=12),
+        "lookup_codes": lambda q: db.search(q, top_k=6),
         "web_search": make_web_search(client, res.chat_model),
         "calculate": calculate,
     }
     if getattr(geo, "available", False):
-        tools["lookup_location"] = lambda q: geo.search(q, top_k=10)
+        tools["lookup_location"] = lambda q: geo.search(q, top_k=5)
     if session_store is not None and session_store.documents:
         tools["search_uploaded_docs"] = lambda q: [
             {"doc": h["doc"], "page": h.get("page"), "excerpt": h["text"][:1500]}
@@ -143,14 +165,27 @@ def chat(user_id: str, session_id: str, question: str,
     res = get_resources()
     history = history or []
     session_store = _load_session_store(user_id, session_id)
-    tools = build_tools(res, session_store)
+    has_uploads = bool(session_store.chunks)
 
+    # Cache hit: only when no conversation history and no uploaded docs in play
+    if not history and not has_uploads:
+        cached = _cache_get(question)
+        if cached:
+            return {**cached, "cached": True}
+
+    tools = build_tools(res, session_store)
     result = run_agent(question, history=history, client=res.client,
                        model=res.chat_model, tools=tools)
     sources = _dedup_sources(result.sources)
     log_id = _qa_repo.log(user_id, question, result.answer, result.tool_calls, sources)
-    return {"answer": result.answer, "sources": sources,
-            "tool_calls": result.tool_calls, "log_id": log_id}
+    out = {"answer": result.answer, "sources": sources,
+           "tool_calls": result.tool_calls, "log_id": log_id, "cached": False}
+
+    # Store in cache only for history-free, upload-free queries
+    if not history and not has_uploads:
+        _cache_set(question, out)
+
+    return out
 
 
 # ----------------------------------------------------------------- uploads

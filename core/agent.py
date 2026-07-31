@@ -30,10 +30,10 @@ Answer policy — follow strictly:
 2. CODE VERIFICATION: never state a numeric code (occupancy, construction, CRESTA, peril, country, FIPS) unless it appeared verbatim in a tool result in this conversation. If you know a code from memory, verify it via lookup_codes BEFORE stating it. If verification fails, say the code was not found — NEVER invent or guess codes.
 3. If neither the knowledge base nor the web has the answer: answer from general CAT modelling knowledge, but begin that part with "⚠️ Not found in the knowledge base — answering from general CAT modelling knowledge:" (translate the label to the user's language if they are not writing in English).
 4. ALWAYS reply in English by default. Switch to Hindi or Hinglish ONLY if the user's own message is written in that language. Be concise and specific; quote codes and values exactly.
-5. Tool budget: at most 6 tool calls per question; never repeat a query you already tried. If 2-3 knowledge-base searches miss, escalate to web_search once, then answer.
+5. Tool budget: at most 3 tool calls per question; never repeat a query you already tried. Call lookup_codes AND search_knowledge in the SAME turn if both are needed. After 2 searches, write your final answer immediately.
 """
 
-MAX_TURNS = 8
+MAX_TURNS = 3
 
 # name -> (description, parameter name, parameter description)
 TOOL_SPECS: dict[str, tuple[str, str, str]] = {

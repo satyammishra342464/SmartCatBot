@@ -101,8 +101,35 @@ class VectorStore:
         self.chunks = data.get("chunks", [])
 
 
+# Simple in-memory embedding cache — avoids re-embedding the same query text
+# across multiple tool calls within the same process lifetime.
+_embed_cache: dict[str, list[float]] = {}
+_EMBED_CACHE_MAX = 1000
+
+
 def _embed_texts(client, model: str, texts: list[str], task: str) -> list[list[float]]:
-    return _embed_uncached(client, model, texts, task)
+    results: list[list[float] | None] = [None] * len(texts)
+    miss_indices: list[int] = []
+    miss_texts: list[str] = []
+
+    for i, text in enumerate(texts):
+        key = hashlib.sha256(f"{model}:{task}:{text}".encode()).hexdigest()
+        if key in _embed_cache:
+            results[i] = _embed_cache[key]
+        else:
+            miss_indices.append(i)
+            miss_texts.append(text)
+
+    if miss_texts:
+        vectors = _embed_uncached(client, model, miss_texts, task)
+        for i, vec in zip(miss_indices, vectors):
+            key = hashlib.sha256(f"{model}:{task}:{texts[i]}".encode()).hexdigest()
+            if len(_embed_cache) >= _EMBED_CACHE_MAX:
+                _embed_cache.pop(next(iter(_embed_cache)))
+            _embed_cache[key] = vec
+            results[i] = vec
+
+    return results  # type: ignore[return-value]
 
 
 def _embed_uncached(client, model: str, texts: list[str], task: str) -> list[list[float]]:
