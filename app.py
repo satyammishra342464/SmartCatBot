@@ -916,98 +916,219 @@ def _show_admin_dashboard():
         st.session_state.adm_dark = True
     dark = st.session_state.adm_dark
 
-    BG       = "#0f172a" if dark else "#f8fafc"
-    CARD_BG  = "#1e293b" if dark else "#ffffff"
+    BG       = "#0b1120" if dark else "#f1f5f9"
+    CARD_BG  = "#161f34" if dark else "#ffffff"
+    CARD_BG2 = "#1c2846" if dark else "#f8fafc"
     TEXT     = "#f1f5f9" if dark else "#0f172a"
     SUBTEXT  = "#94a3b8" if dark else "#64748b"
-    BORDER   = "#334155" if dark else "#e2e8f0"
-    ACCENT   = "#6366f1"
+    BORDER   = "#2b3a5e" if dark else "#e2e8f0"
+    ACCENT   = "#7c6cf6"
     ACCENT2  = "#22d3ee"
+    GOOD     = "#34d399"
+    BAD      = "#fb7185"
     PLOTLY_T = "plotly_dark" if dark else "plotly_white"
-    PALETTE  = ["#6366f1","#22d3ee","#f59e0b","#10b981","#f43f5e","#a78bfa","#fb923c","#34d399"]
+    PALETTE  = ["#7c6cf6","#22d3ee","#f59e0b","#34d399","#fb7185","#c084fc","#fb923c","#38bdf8"]
+    PLOTLY_CFG = {"displayModeBar": "hover", "displaylogo": False,
+                  "modeBarButtonsToRemove": ["lasso2d", "select2d", "autoScale2d"]}
 
     st.markdown(f"""
     <style>
+    @keyframes fadeInUp {{
+        from {{ opacity: 0; transform: translateY(14px); }}
+        to   {{ opacity: 1; transform: translateY(0); }}
+    }}
+    @keyframes gradientShift {{
+        0%, 100% {{ background-position: 0% 50%; }}
+        50%      {{ background-position: 100% 50%; }}
+    }}
+    @keyframes pulseDot {{
+        0%, 100% {{ opacity: 1; transform: scale(1); }}
+        50%      {{ opacity: .4; transform: scale(.8); }}
+    }}
     [data-testid="stAppViewContainer"], [data-testid="stMain"], .main {{
-        background: {BG} !important;
+        background:
+            radial-gradient(ellipse 900px 500px at 12% -8%, {"rgba(124,108,246,.20)" if dark else "rgba(124,108,246,.10)"}, transparent 60%),
+            radial-gradient(ellipse 700px 450px at 88% 0%, {"rgba(34,211,238,.14)" if dark else "rgba(34,211,238,.08)"}, transparent 60%),
+            {BG} !important;
     }}
-    [data-testid="stHeader"] {{
-        background: {BG} !important;
-    }}
-    [data-testid="stSidebar"] {{
-        display: none;
-    }}
+    [data-testid="stHeader"] {{ background: transparent !important; }}
+    [data-testid="stSidebar"] {{ display: none; }}
     [data-testid="stVerticalBlock"] {{ color: {TEXT}; }}
     p, span, label, div {{ color: inherit; }}
+
+    .adm-hero {{
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 4px 2px 8px 2px;
+    }}
     .adm-title {{
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: 800;
-        color: {TEXT};
         margin: 0;
+        letter-spacing: -.02em;
+        background: linear-gradient(100deg, {ACCENT}, {ACCENT2}, {ACCENT});
+        background-size: 200% auto;
+        -webkit-background-clip: text; background-clip: text; color: transparent;
+        animation: gradientShift 6s ease-in-out infinite;
+        display: inline-block;
     }}
     .adm-sub {{
         color: {SUBTEXT};
-        font-size: 0.9rem;
-        margin-top: 4px;
+        font-size: 0.85rem;
+        margin-top: 2px;
     }}
+    .live-dot {{
+        display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+        background: {GOOD}; margin-right: 6px;
+        box-shadow: 0 0 0 3px {"rgba(52,211,153,.18)" if dark else "rgba(52,211,153,.25)"};
+        animation: pulseDot 1.8s ease-in-out infinite;
+    }}
+
     .kpi-card {{
-        background: {CARD_BG};
+        background: linear-gradient(160deg, {CARD_BG} 0%, {CARD_BG2} 100%);
         border: 1px solid {BORDER};
-        border-radius: 14px;
-        padding: 18px 20px;
-        text-align: center;
-        transition: transform .2s;
-        height: 108px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        border-radius: 16px;
+        padding: 16px 18px;
+        display: flex; align-items: center; gap: 12px;
+        height: 96px;
         overflow: hidden;
+        position: relative;
+        box-shadow: 0 4px 18px {"rgba(0,0,0,.25)" if dark else "rgba(15,23,42,.06)"};
+        transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+        animation: fadeInUp .5s ease backwards;
     }}
-    .kpi-card:hover {{ transform: translateY(-3px); }}
+    .kpi-card:hover {{
+        transform: translateY(-4px);
+        border-color: {ACCENT};
+        box-shadow: 0 12px 28px {"rgba(124,108,246,.28)" if dark else "rgba(124,108,246,.18)"};
+    }}
+    .kpi-icon {{
+        flex: 0 0 auto;
+        width: 42px; height: 42px; border-radius: 12px;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1.25rem;
+        background: linear-gradient(135deg, {ACCENT}, {ACCENT2});
+        box-shadow: 0 4px 12px {"rgba(124,108,246,.4)" if dark else "rgba(124,108,246,.3)"};
+    }}
+    .kpi-body {{ min-width: 0; flex: 1; }}
     .kpi-val {{
-        font-size: 1.7rem;
+        font-size: 1.45rem;
         font-weight: 800;
-        color: {ACCENT2 if dark else ACCENT};
-        line-height: 1.2;
+        color: {TEXT};
+        line-height: 1.15;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }}
     .kpi-label {{
-        font-size: 0.72rem;
+        font-size: 0.68rem;
         color: {SUBTEXT};
-        margin-top: 6px;
         text-transform: uppercase;
         letter-spacing: .06em;
     }}
-    .chart-card {{
-        background: {CARD_BG};
-        border: 1px solid {BORDER};
-        border-radius: 14px;
-        padding: 20px;
-        margin-bottom: 20px;
+    .kpi-trend {{
+        display: inline-block;
+        font-size: 0.68rem;
+        font-weight: 700;
+        padding: 1px 7px;
+        border-radius: 999px;
+        margin-top: 3px;
+    }}
+    .kpi-trend.up   {{ color: {GOOD}; background: {"rgba(52,211,153,.15)" if dark else "rgba(52,211,153,.12)"}; }}
+    .kpi-trend.down {{ color: {BAD};  background: {"rgba(251,113,133,.15)" if dark else "rgba(251,113,133,.12)"}; }}
+    .kpi-trend.flat {{ color: {SUBTEXT}; background: {"rgba(148,163,184,.15)" if dark else "rgba(148,163,184,.12)"}; }}
+
+    /* Chart cards: Streamlit's st.container(border=True) renders a bordered
+       stVerticalBlock — restyle it directly (no wrapper div available). */
+    .chart-card,
+    div[data-testid="stVerticalBlock"]:has(> div[data-testid="stElementContainer"] > div[data-testid="stMarkdown"] .chart-title) {{
+        background: linear-gradient(160deg, {CARD_BG} 0%, {CARD_BG2} 100%) !important;
+        border: 1px solid {BORDER} !important;
+        border-radius: 16px !important;
+        padding: 20px 22px 16px 22px !important;
+        margin-bottom: 22px;
+        box-shadow: 0 4px 18px {"rgba(0,0,0,.22)" if dark else "rgba(15,23,42,.05)"} !important;
+        transform: translateY(0);
+    }}
+    div[data-testid="stVerticalBlock"]:has(> div[data-testid="stElementContainer"] > div[data-testid="stMarkdown"] .chart-title):hover {{
+        border-color: {"rgba(124,108,246,.5)" if dark else "rgba(124,108,246,.35)"} !important;
+        box-shadow: 0 10px 30px {"rgba(124,108,246,.16)" if dark else "rgba(124,108,246,.10)"} !important;
+        transform: translateY(-2px);
+    }}
+    /* Some browsers don't re-apply :has()-matched border/shadow after a dynamic
+       rerun — force it via Streamlit's own bordered-container class as a fallback. */
+    .st-emotion-cache-1ms5z7b {{
+        border-color: {BORDER} !important;
+        box-shadow: 0 4px 18px {"rgba(0,0,0,.22)" if dark else "rgba(15,23,42,.05)"} !important;
+    }}
+    .st-emotion-cache-1ms5z7b:hover {{
+        border-color: {"rgba(124,108,246,.5)" if dark else "rgba(124,108,246,.35)"} !important;
+        box-shadow: 0 10px 30px {"rgba(124,108,246,.16)" if dark else "rgba(124,108,246,.10)"} !important;
+    }}
+    /* Glow / shine on the actual chart shapes (bars, donut slices, bubbles, lines) —
+       targets Plotly's own SVG trace layers, not the axes/grid, so only the data marks glow. */
+    .js-plotly-plot .barlayer,
+    .js-plotly-plot .scatterlayer,
+    .js-plotly-plot .pielayer,
+    .js-plotly-plot .polarsublayer.frontplot {{
+        filter:
+            drop-shadow(0 0 {"5px" if dark else "3px"} {"rgba(124,108,246,.55)" if dark else "rgba(124,108,246,.35)"})
+            drop-shadow(0 0 {"14px" if dark else "9px"} {"rgba(34,211,238,.30)" if dark else "rgba(34,211,238,.18)"});
+        transition: filter .3s ease;
+    }}
+    .js-plotly-plot:hover .barlayer,
+    .js-plotly-plot:hover .scatterlayer,
+    .js-plotly-plot:hover .pielayer,
+    .js-plotly-plot:hover .polarsublayer.frontplot {{
+        filter:
+            drop-shadow(0 0 {"8px" if dark else "5px"} {"rgba(124,108,246,.75)" if dark else "rgba(124,108,246,.5)"})
+            drop-shadow(0 0 {"20px" if dark else "14px"} {"rgba(34,211,238,.45)" if dark else "rgba(34,211,238,.28)"});
     }}
     .chart-title {{
-        font-size: 1rem;
+        font-size: 1.02rem;
         font-weight: 700;
         color: {TEXT};
-        margin-bottom: 4px;
+        margin-bottom: 2px;
+        display: flex; align-items: center; gap: 8px;
     }}
-    .chart-sub {{
+    .chart-sub, .section-sub {{
         font-size: 0.78rem;
         color: {SUBTEXT};
-        margin-bottom: 16px;
+        margin-bottom: 10px;
     }}
+    .section-title {{
+        font-size: 1.02rem;
+        font-weight: 700;
+        color: {TEXT};
+        margin-bottom: 2px;
+        display: flex; align-items: center; gap: 8px;
+    }}
+    /* Custom donut legend */
+    .donut-legend {{
+        display: flex; flex-wrap: wrap; gap: 8px 14px;
+        justify-content: center; margin-top: 4px; padding-bottom: 14px;
+    }}
+    .donut-legend .item {{
+        display: flex; align-items: center; gap: 6px;
+        font-size: 0.76rem; color: {SUBTEXT};
+    }}
+    .donut-legend .sw {{
+        width: 10px; height: 10px; border-radius: 3px; flex: 0 0 auto;
+    }}
+    .donut-legend b {{ color: {TEXT}; }}
+
     /* Buttons */
     .stButton > button {{
         background: {CARD_BG} !important;
         color: {TEXT} !important;
         border: 1px solid {BORDER} !important;
         border-radius: 10px !important;
+        transition: all .2s ease !important;
     }}
     .stButton > button:hover {{
         border-color: {ACCENT} !important;
         color: {ACCENT2 if dark else ACCENT} !important;
+        box-shadow: 0 4px 14px {"rgba(124,108,246,.25)" if dark else "rgba(124,108,246,.18)"} !important;
+        transform: translateY(-1px);
     }}
     /* Selectbox / date input widgets (react-aria ComboBox + baseweb, depending on Streamlit version) */
     [data-testid="stSelectbox"] .react-aria-ComboBox > div,
@@ -1016,6 +1137,7 @@ def _show_admin_dashboard():
     [data-testid="stDateInput"] div[data-baseweb="input"] > div {{
         background: {CARD_BG} !important;
         border-color: {BORDER} !important;
+        border-radius: 10px !important;
     }}
     [data-testid="stSelectbox"] input,
     [data-testid="stDateInput"] input {{
@@ -1036,12 +1158,16 @@ def _show_admin_dashboard():
     }}
     /* Custom HTML table (question log) */
     .adm-table-wrap {{
-        background: {CARD_BG};
+        background: linear-gradient(160deg, {CARD_BG} 0%, {CARD_BG2} 100%);
         border: 1px solid {BORDER};
-        border-radius: 14px;
+        border-radius: 16px;
         overflow: auto;
         max-height: 380px;
+        box-shadow: 0 4px 18px {"rgba(0,0,0,.22)" if dark else "rgba(15,23,42,.05)"};
     }}
+    .adm-table-wrap::-webkit-scrollbar {{ width: 8px; height: 8px; }}
+    .adm-table-wrap::-webkit-scrollbar-thumb {{ background: {BORDER}; border-radius: 8px; }}
+    .adm-table-wrap::-webkit-scrollbar-track {{ background: transparent; }}
     table.adm-table {{
         width: 100%;
         border-collapse: collapse;
@@ -1065,8 +1191,9 @@ def _show_admin_dashboard():
         white-space: nowrap;
     }}
     table.adm-table td.wrap {{ white-space: normal; }}
+    table.adm-table tr {{ transition: background .15s ease; }}
     table.adm-table tr:hover td {{
-        background: {"rgba(99,102,241,.08)" if dark else "rgba(99,102,241,.05)"};
+        background: {"rgba(124,108,246,.10)" if dark else "rgba(124,108,246,.06)"};
     }}
     </style>
     """, unsafe_allow_html=True)
@@ -1075,10 +1202,10 @@ def _show_admin_dashboard():
     h1, h2, h3, h4 = st.columns([5, 1, 1, 1])
     with h1:
         st.markdown(
-            f'<div style="padding:8px 0">'
-            f'<span style="font-size:1.6rem;font-weight:800;color:{TEXT}">🛡️ SmartCAT Admin</span>'
-            f'<span style="font-size:.85rem;color:{SUBTEXT};margin-left:12px">Question Analytics Dashboard</span>'
-            f'</div>',
+            f'<div class="adm-hero"><div>'
+            f'<span class="adm-title">🛡️ SmartCAT Admin</span>'
+            f'<div class="adm-sub"><span class="live-dot"></span>Live Question Analytics Dashboard</div>'
+            f'</div></div>',
             unsafe_allow_html=True,
         )
     with h2:
@@ -1166,6 +1293,14 @@ def _show_admin_dashboard():
         df["topic"] = df["cluster_id"].map(labels)
         return df
 
+    def _blend(hex1, hex2, t):
+        """Linear-interpolate between two #rrggbb colors (t in [0,1])."""
+        t = max(0.0, min(1.0, t))
+        c1 = tuple(int(hex1[i:i+2], 16) for i in (1, 3, 5))
+        c2 = tuple(int(hex2[i:i+2], 16) for i in (1, 3, 5))
+        blended = tuple(round(c1[k] + (c2[k] - c1[k]) * t) for k in range(3))
+        return f"rgb({blended[0]},{blended[1]},{blended[2]})"
+
     def _styled(fig, height=380):
         fig.update_layout(
             template=PLOTLY_T,
@@ -1177,6 +1312,11 @@ def _show_admin_dashboard():
             legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11)),
             xaxis=dict(gridcolor=BORDER, linecolor=BORDER),
             yaxis=dict(gridcolor=BORDER, linecolor=BORDER),
+            hoverlabel=dict(
+                bgcolor=CARD_BG, bordercolor=ACCENT,
+                font=dict(color=TEXT, size=12, family="Inter, system-ui, sans-serif"),
+            ),
+            transition=dict(duration=400, easing="cubic-in-out"),
         )
         return fig
 
@@ -1213,126 +1353,215 @@ def _show_admin_dashboard():
     st.divider()
     top_user  = dff["user_id"].value_counts().idxmax() if not dff.empty else "—"
     top_topic = dff["topic"].value_counts().idxmax()   if not dff.empty else "—"
+    top_user_n  = int(dff["user_id"].value_counts().max()) if not dff.empty else 0
+    top_topic_n = int(dff["topic"].value_counts().max())   if not dff.empty else 0
 
-    def _kpi_html(label, val):
+    def _trend(series_by_day, agg="count"):
+        """Compare 2nd half vs 1st half of the selected date range. Returns (pct, direction)."""
+        if series_by_day is None or len(series_by_day) < 2:
+            return None
+        mid = len(series_by_day) // 2 or 1
+        first, second = series_by_day.iloc[:mid].mean(), series_by_day.iloc[mid:].mean()
+        if first == 0:
+            return (100.0, "up") if second > 0 else (0.0, "flat")
+        pct = (second - first) / first * 100
+        direction = "up" if pct > 3 else ("down" if pct < -3 else "flat")
+        return (pct, direction)
+
+    daily_counts = dff.groupby("date").size().sort_index() if not dff.empty else None
+    daily_users  = dff.groupby("date")["user_id"].nunique().sort_index() if not dff.empty else None
+    trend_q = _trend(daily_counts)
+    trend_u = _trend(daily_users)
+
+    def _trend_chip(trend):
+        if trend is None:
+            return ""
+        pct, direction = trend
+        arrow = {"up": "↑", "down": "↓", "flat": "→"}[direction]
+        return f'<span class="kpi-trend {direction}">{arrow} {abs(pct):.0f}% vs earlier</span>'
+
+    def _kpi_html(icon, label, val, trend_html="", sub=""):
+        extra = f'<div style="font-size:.68rem;color:{SUBTEXT};margin-top:2px">{sub}</div>' if sub else ""
         return (
-            f'<div class="kpi-card"><div class="kpi-val" title="{val}">{val}</div>'
-            f'<div class="kpi-label">{label}</div></div>'
+            f'<div class="kpi-card"><div class="kpi-icon">{icon}</div>'
+            f'<div class="kpi-body"><div class="kpi-val" title="{val}">{val}</div>'
+            f'<div class="kpi-label">{label}</div>{trend_html}{extra}</div></div>'
         )
 
     k1, k2, k3, k4, k5 = st.columns(5)
-    with k1: st.markdown(_kpi_html("📨 Total Questions",  len(dff)),                unsafe_allow_html=True)
-    with k2: st.markdown(_kpi_html("👥 Unique Users",     dff["user_id"].nunique()), unsafe_allow_html=True)
-    with k3: st.markdown(_kpi_html("🏷️ Topics Found",     dff["topic"].nunique()),   unsafe_allow_html=True)
-    with k4: st.markdown(_kpi_html("🏆 Most Active User", top_user),                 unsafe_allow_html=True)
-    with k5: st.markdown(_kpi_html("🔥 Top Topic",        top_topic),                unsafe_allow_html=True)
+    with k1: st.markdown(_kpi_html("📨", "Total Questions",  len(dff), _trend_chip(trend_q)), unsafe_allow_html=True)
+    with k2: st.markdown(_kpi_html("👥", "Unique Users",     dff["user_id"].nunique(), _trend_chip(trend_u)), unsafe_allow_html=True)
+    with k3: st.markdown(_kpi_html("🏷️", "Topics Found",     dff["topic"].nunique()), unsafe_allow_html=True)
+    with k4: st.markdown(_kpi_html("🏆", "Most Active User", top_user, sub=f"{top_user_n} questions asked"), unsafe_allow_html=True)
+    with k5: st.markdown(_kpi_html("🔥", "Top Topic",        top_topic, sub=f"{top_topic_n} questions"), unsafe_allow_html=True)
 
     st.divider()
 
     # ── Row 1: Donut + Horizontal bar ────────────────────────────────
     c1, c2 = st.columns(2)
 
-    with c1:
-        st.markdown(f'<div class="chart-title">🍩 Topic Distribution</div><div class="chart-sub">Share of questions per topic</div>', unsafe_allow_html=True)
+    with c1, st.container(border=True):
+        st.markdown('<div class="chart-title">🍩 Topic Distribution</div><div class="chart-sub">Share of questions per topic</div>', unsafe_allow_html=True)
         tc = dff.groupby("topic").size().reset_index(name="count").sort_values("count", ascending=False)
+        colors = (PALETTE * (len(tc) // len(PALETTE) + 1))[:len(tc)]
+        pulls = [0.06] + [0.0] * (len(tc) - 1) if len(tc) else []
         fig1 = go.Figure(go.Pie(
             labels=tc["topic"], values=tc["count"],
-            hole=0.6, marker=dict(colors=PALETTE, line=dict(color=CARD_BG, width=2)),
-            textinfo="none",
+            hole=0.62, marker=dict(colors=colors, line=dict(color=CARD_BG, width=3)),
+            pull=pulls, textinfo="none", sort=False,
             hovertemplate="<b>%{label}</b><br>Questions: %{value}<br>Share: %{percent}<extra></extra>",
         ))
         fig1.update_layout(
-            showlegend=True,
-            legend=dict(
-                orientation="h", x=0.5, xanchor="center", y=-0.15,
-                bgcolor="rgba(0,0,0,0)", font=dict(size=10, color=TEXT),
-            ),
-            annotations=[dict(text=f"<b>{len(dff)}</b><br>total", x=0.5, y=0.5, font_size=16, font_color=TEXT, showarrow=False)],
+            showlegend=False,
+            annotations=[
+                dict(text=f"<b style='font-size:26px'>{len(dff)}</b>", x=0.5, y=0.56, font_color=TEXT, showarrow=False),
+                dict(text="total questions", x=0.5, y=0.42, font_size=11, font_color=SUBTEXT, showarrow=False),
+            ],
         )
-        st.plotly_chart(_styled(fig1, height=420), use_container_width=True)
+        st.plotly_chart(_styled(fig1, height=340), use_container_width=True, config=PLOTLY_CFG)
 
-    with c2:
-        st.markdown(f'<div class="chart-title">👤 Top Users by Activity</div><div class="chart-sub">Who asks the most questions</div>', unsafe_allow_html=True)
-        uc = dff.groupby("user_id").size().reset_index(name="count").sort_values("count").tail(10)
-        fig2 = go.Figure(go.Bar(
-            x=uc["count"], y=uc["user_id"],
-            orientation="h",
+        total_n = tc["count"].sum() or 1
+        legend_items = "".join(
+            f'<div class="item"><span class="sw" style="background:{colors[i]}"></span>'
+            f'<b>{row.topic}</b>&nbsp;{row.count} · {row.count/total_n*100:.0f}%</div>'
+            for i, row in enumerate(tc.itertuples())
+        )
+        st.markdown(f'<div class="donut-legend">{legend_items}</div>', unsafe_allow_html=True)
+
+    with c2, st.container(border=True):
+        st.markdown('<div class="chart-title">👤 Top Users by Activity</div><div class="chart-sub">Who asks the most questions</div>', unsafe_allow_html=True)
+        uc = dff.groupby("user_id").size().reset_index(name="count").sort_values("count").tail(10).reset_index(drop=True)
+        medals = {len(uc) - 1: "🥇 ", len(uc) - 2: "🥈 ", len(uc) - 3: "🥉 "}
+        y_labels = [medals.get(i, "") + u for i, u in enumerate(uc["user_id"])]
+        max_uc = uc["count"].max() or 1
+
+        fig2 = go.Figure()
+        # lollipop "stems": thin gradient-tinted lines from 0 to each user's count
+        for i, row in enumerate(uc.itertuples()):
+            t = row.count / max_uc
+            stem_color = _blend(ACCENT, ACCENT2, t)
+            fig2.add_trace(go.Scatter(
+                x=[0, row.count], y=[y_labels[i], y_labels[i]],
+                mode="lines", line=dict(color=stem_color, width=7),
+                hoverinfo="skip", showlegend=False,
+            ))
+        # glowing circular "heads" on top, sized by rank + count labels
+        fig2.add_trace(go.Scatter(
+            x=uc["count"], y=y_labels, mode="markers+text",
             marker=dict(
-                color=uc["count"],
-                colorscale=[[0, "#312e81"], [0.5, ACCENT], [1, ACCENT2]],
-                showscale=False,
+                size=[26 + 10 * (row.count / max_uc) for row in uc.itertuples()],
+                color=uc["count"], colorscale=[[0, ACCENT], [1, ACCENT2]],
+                showscale=False, line=dict(color=CARD_BG, width=2),
             ),
-            text=uc["count"], textposition="outside",
+            text=uc["count"], textposition="middle center",
+            textfont=dict(color="#ffffff", size=11, weight="bold"),
             hovertemplate="<b>%{y}</b><br>Questions: %{x}<extra></extra>",
+            showlegend=False,
         ))
         fig2.update_layout(
             xaxis_title="Questions", yaxis_title="",
             margin=dict(l=10, r=30, t=24, b=16),
+            xaxis=dict(range=[0, max_uc * 1.25], zeroline=False),
         )
-        st.plotly_chart(_styled(fig2, height=420), use_container_width=True)
+        st.plotly_chart(_styled(fig2, height=420), use_container_width=True, config=PLOTLY_CFG)
 
-    # ── Row 2: Heatmap ───────────────────────────────────────────────
-    st.markdown(f'<div class="chart-title">🔥 User × Topic Heatmap</div><div class="chart-sub">Darker = more questions on that topic by that user</div>', unsafe_allow_html=True)
-    heat = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
-    if not heat.empty:
-        pivot = heat.pivot(index="user_id", columns="topic", values="count").fillna(0)
-        fig3 = go.Figure(go.Heatmap(
-            z=pivot.values,
-            x=pivot.columns.tolist(),
-            y=pivot.index.tolist(),
-            colorscale=[[0,"rgba(99,102,241,0.05)"],[0.5,ACCENT],[1,ACCENT2]],
-            text=pivot.values.astype(int),
-            texttemplate="%{text}",
-            hovertemplate="<b>%{y}</b> asked about <b>%{x}</b><br>%{z} questions<extra></extra>",
-        ))
-        fig3.update_layout(xaxis_tickangle=-25, margin=dict(l=10, r=10, t=24, b=80))
-        st.plotly_chart(_styled(fig3, height=max(320, len(pivot) * 60)), use_container_width=True)
+    # ── Row 2: Bubble matrix (User × Topic) ───────────────────────────
+    with st.container(border=True):
+        st.markdown('<div class="chart-title">💠 User × Topic Engagement Map</div><div class="chart-sub">Bigger &amp; brighter bubble = more questions on that topic by that user</div>', unsafe_allow_html=True)
+        heat = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
+        if not heat.empty:
+            max_c = heat["count"].max()
+            fig3 = go.Figure(go.Scatter(
+                x=heat["topic"], y=heat["user_id"], mode="markers+text",
+                marker=dict(
+                    size=heat["count"], sizemode="area",
+                    sizeref=2.0 * max_c / (46.0 ** 2), sizemin=18,
+                    color=heat["count"], colorscale=[[0, ACCENT], [1, ACCENT2]],
+                    showscale=False, line=dict(color=CARD_BG, width=2), opacity=0.95,
+                ),
+                text=heat["count"], textfont=dict(color="#ffffff", size=11, weight="bold"),
+                textposition="middle center",
+                hovertemplate="<b>%{y}</b> asked about <b>%{x}</b><br>%{marker.size} questions<extra></extra>",
+            ))
+            fig3.update_layout(
+                xaxis=dict(tickangle=-20, showgrid=True, gridcolor=BORDER, zeroline=False, griddash="dot"),
+                yaxis=dict(showgrid=True, gridcolor=BORDER, zeroline=False, griddash="dot"),
+                margin=dict(l=10, r=10, t=24, b=90),
+            )
+            st.plotly_chart(_styled(fig3, height=max(340, heat["user_id"].nunique() * 70)), use_container_width=True, config=PLOTLY_CFG)
 
     # ── Row 3: Stacked bar + Timeline ────────────────────────────────
     c3, c4 = st.columns(2)
 
-    with c3:
-        st.markdown(f'<div class="chart-title">📊 Per-User Topic Breakdown</div><div class="chart-sub">Stacked topics per user</div>', unsafe_allow_html=True)
+    with c3, st.container(border=True):
+        st.markdown('<div class="chart-title">📊 Per-User Topic Breakdown</div><div class="chart-sub">Stacked topics per user</div>', unsafe_allow_html=True)
         ut = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
         if not ut.empty:
             fig4 = px.bar(ut, x="user_id", y="count", color="topic", barmode="stack",
                           color_discrete_sequence=PALETTE,
                           labels={"user_id": "User", "count": "Questions", "topic": "Topic"})
             fig4.update_traces(
-                hovertemplate="<b>%{x}</b><br>Questions: %{y}<extra></extra>"
+                hovertemplate="<b>%{x}</b><br>Questions: %{y}<extra></extra>",
+                marker_line=dict(color=CARD_BG, width=1),
             )
-            fig4.update_layout(xaxis_tickangle=-20, legend=dict(font=dict(size=10)), margin=dict(l=10, r=10, t=24, b=80))
-            st.plotly_chart(_styled(fig4), use_container_width=True)
+            fig4.update_layout(xaxis_tickangle=-20, legend=dict(font=dict(size=10)), margin=dict(l=10, r=10, t=24, b=80), bargap=0.3)
+            st.plotly_chart(_styled(fig4), use_container_width=True, config=PLOTLY_CFG)
 
-    with c4:
-        st.markdown(f'<div class="chart-title">📅 Questions Over Time</div><div class="chart-sub">Daily question volume by topic</div>', unsafe_allow_html=True)
+    with c4, st.container(border=True):
+        st.markdown('<div class="chart-title">📅 Questions Over Time</div><div class="chart-sub">Daily question volume by topic</div>', unsafe_allow_html=True)
         tl = dff.groupby(["date", "topic"]).size().reset_index(name="count")
         if not tl.empty:
             fig5 = px.area(tl, x="date", y="count", color="topic",
                            color_discrete_sequence=PALETTE,
                            labels={"date": "Date", "count": "Questions", "topic": "Topic"})
-            fig5.update_traces(line=dict(width=2))
-            fig5.update_layout(legend=dict(font=dict(size=10)))
-            st.plotly_chart(_styled(fig5), use_container_width=True)
+            fig5.update_traces(line=dict(width=2.5, shape="spline", smoothing=0.5), hovertemplate="<b>%{x}</b><br>%{y} questions<extra></extra>")
+            daily_total = tl.groupby("date")["count"].sum()
+            if len(daily_total):
+                peak_date, peak_val = daily_total.idxmax(), daily_total.max()
+                fig5.add_annotation(
+                    x=peak_date, y=peak_val, text=f"🔥 Peak: {peak_val}", showarrow=True,
+                    arrowhead=2, arrowcolor=ACCENT2, font=dict(color=TEXT, size=11),
+                    bgcolor=CARD_BG, bordercolor=ACCENT2, borderwidth=1, borderpad=4, ay=-32,
+                )
+            fig5.update_layout(legend=dict(font=dict(size=10)), margin=dict(l=10, r=10, t=24, b=16))
+            fig5.update_xaxes(rangeslider_visible=len(daily_total) > 3, rangeslider_thickness=0.06)
+            st.plotly_chart(_styled(fig5), use_container_width=True, config=PLOTLY_CFG)
 
-    # ── Row 4: Hour-of-day activity ──────────────────────────────────
-    st.markdown(f'<div class="chart-title">🕐 Activity by Hour of Day</div><div class="chart-sub">When are users most active?</div>', unsafe_allow_html=True)
-    if "hour" in dff.columns:
-        hr = dff.groupby("hour").size().reset_index(name="count")
-        fig6 = go.Figure(go.Bar(
-            x=hr["hour"], y=hr["count"],
-            marker=dict(
-                color=hr["count"],
-                colorscale=[[0,"#312e81"],[0.5,ACCENT],[1,ACCENT2]],
-            ),
-            hovertemplate="Hour %{x}:00 — %{y} questions<extra></extra>",
-        ))
-        fig6.update_layout(xaxis=dict(tickmode="linear", tick0=0, dtick=1, title="Hour (24h)"), yaxis_title="Questions")
-        st.plotly_chart(_styled(fig6, height=280), use_container_width=True)
+    # ── Row 4: Hour-of-day activity clock ─────────────────────────────
+    with st.container(border=True):
+        st.markdown('<div class="chart-title">🕐 Activity Clock — Hour of Day</div><div class="chart-sub">Radial view of when users are most active (24h)</div>', unsafe_allow_html=True)
+        if "hour" in dff.columns:
+            hr = dff.groupby("hour").size().reset_index(name="count")
+            full_hours = pd.DataFrame({"hour": range(24)}).merge(hr, on="hour", how="left").fillna(0)
+            fig6 = go.Figure(go.Barpolar(
+                r=full_hours["count"], theta=full_hours["hour"] * 15,
+                width=[13] * 24,
+                marker=dict(
+                    color=full_hours["count"], colorscale=[[0, CARD_BG2], [0.5, ACCENT], [1, ACCENT2]],
+                    line=dict(color=CARD_BG, width=1),
+                ),
+                customdata=full_hours["hour"],
+                hovertemplate="🕐 %{customdata}:00 — %{r} questions<extra></extra>",
+            ))
+            fig6.update_layout(
+                polar=dict(
+                    bgcolor="rgba(0,0,0,0)",
+                    radialaxis=dict(showticklabels=False, gridcolor=BORDER, ticksuffix=""),
+                    angularaxis=dict(
+                        rotation=90, direction="clockwise",
+                        tickmode="array", tickvals=[0, 45, 90, 135, 180, 225, 270, 315],
+                        ticktext=["12am", "3am", "6am", "9am", "12pm", "3pm", "6pm", "9pm"],
+                        gridcolor=BORDER,
+                    ),
+                ),
+                showlegend=False,
+                margin=dict(l=30, r=30, t=30, b=30),
+            )
+            st.plotly_chart(_styled(fig6, height=380), use_container_width=True, config=PLOTLY_CFG)
 
     # ── Raw log ──────────────────────────────────────────────────────
     st.divider()
-    st.markdown(f'<div class="chart-title">📋 Full Question Log</div><div class="chart-sub">Most recent questions first</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-title">📋 Full Question Log</div><div class="section-sub">Most recent questions first</div>', unsafe_allow_html=True)
     display_df = dff[["ts", "user_id", "topic", "question"]].sort_values("ts", ascending=False).reset_index(drop=True)
 
     import html as _html
