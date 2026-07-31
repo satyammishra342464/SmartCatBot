@@ -681,6 +681,38 @@ hr {{ border-color: {P["BORDER"]}; }}
     border: none !important;
     box-shadow: none !important;
 }}
+/* ---------- global text / password / email inputs (main page, auth, etc.) ---------- */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="search"] {{
+    background: {P["INPUT_BG"]} !important;
+    color: {P["TEXT"]} !important;
+    border-color: {P["BORDER"]} !important;
+    color-scheme: {"dark" if dark else "light"};
+}}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {{
+    color: {P["MID"]} !important;
+    opacity: 1 !important;
+}}
+[data-testid="stTextInputRootElement"] {{
+    background: {P["INPUT_BG"]} !important;
+    border-color: {P["BORDER"]} !important;
+    border-radius: 8px !important;
+}}
+[data-testid="stTextInputRootElement"]:focus-within {{
+    border-color: {EXL_ORANGE} !important;
+    box-shadow: 0 0 0 2px rgba(232,78,14,.20) !important;
+}}
+/* Password visibility toggle icon */
+[data-testid="stTextInputRootElement"] button,
+[data-testid="stTextInputRootElement"] button:hover {{
+    background: transparent !important;
+    color: {P["MID"]} !important;
+}}
 """
     return css + "</style>"
 
@@ -738,6 +770,20 @@ def _drop_token(tok: str) -> None:
     _token_store().pop(tok, None)
 
 
+# Restore session from the URL token *before* dark_pref/DARK_MODE below are
+# computed, so a returning user's (or admin's) saved theme preference applies
+# immediately on refresh instead of being read while auth_user is still None.
+if st.session_state.get("auth_user") is None and not st.session_state.get("admin_logged_in"):
+    _qt = st.query_params.get("s")
+    if _qt:
+        _restored = _load_token(_qt)
+        if _restored:
+            if _restored.get("role") == "admin":
+                st.session_state.admin_logged_in = True
+            else:
+                st.session_state.auth_user = _restored
+
+
 def _safe_prefs() -> dict:
     uid = st.session_state.get("auth_user", {}).get("id", "")
     if not uid:
@@ -759,7 +805,9 @@ def _on_dark_toggle() -> None:
 
 
 if "dark_pref" not in st.session_state:
-    st.session_state.dark_pref = bool(_safe_prefs().get("dark_mode", False))
+    # Default to dark everywhere (auth page, brand-new accounts) unless the
+    # user has an explicit saved preference.
+    st.session_state.dark_pref = bool(_safe_prefs().get("dark_mode", True))
 
 DARK_MODE = st.session_state.dark_pref
 st.markdown(build_css(DARK_MODE), unsafe_allow_html=True)
@@ -866,7 +914,10 @@ def _show_auth_page() -> None:
                 _ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "satyam.mishra2@exlservice.com")
                 _ADMIN_PW    = os.getenv("ADMIN_PASSWORD", "smartcat@admin123")
                 if adm_email == _ADMIN_EMAIL and adm_pw == _ADMIN_PW:
+                    _tok = _make_token({"role": "admin"})
                     st.session_state.admin_logged_in = True
+                    st.session_state._save_ls = _tok
+                    st.query_params["s"] = _tok
                     st.rerun()
                 else:
                     st.error("Invalid admin credentials.")
@@ -911,9 +962,23 @@ def _show_admin_dashboard():
 
     cfg = get_settings()
 
-    # ── Theme ────────────────────────────────────────────────────────
+    # Persist the admin's session token to localStorage right after login
+    # (the shared save-block further down is unreachable here — this branch
+    # exits via st.stop() before reaching it).
+    _ls_tok = st.session_state.pop("_save_ls", None)
+    if _ls_tok:
+        components.html(
+            f"<script>localStorage.setItem('sc_s',{json.dumps(_ls_tok)});</script>",
+            height=0,
+        )
+
+    # ── Theme (persisted in DB so it survives a full browser refresh) ─
+    _ADMIN_PREFS_ID = "__admin__"
     if "adm_dark" not in st.session_state:
-        st.session_state.adm_dark = True
+        try:
+            st.session_state.adm_dark = bool(svc.get_prefs(_ADMIN_PREFS_ID).get("dark_mode", True))
+        except Exception:
+            st.session_state.adm_dark = True
     dark = st.session_state.adm_dark
 
     BG       = "#0b1120" if dark else "#f1f5f9"
@@ -1213,6 +1278,10 @@ def _show_admin_dashboard():
         theme_label = "☀️ Light" if dark else "🌙 Dark"
         if st.button(theme_label, use_container_width=True):
             st.session_state.adm_dark = not dark
+            try:
+                svc.set_prefs(_ADMIN_PREFS_ID, {"dark_mode": st.session_state.adm_dark})
+            except Exception:
+                pass
             st.rerun()
     with h3:
         st.write("")
@@ -1222,7 +1291,16 @@ def _show_admin_dashboard():
     with h4:
         st.write("")
         if st.button("🚪 Logout", use_container_width=True):
+            _old_tok = st.query_params.get("s")
+            if _old_tok:
+                _drop_token(_old_tok)
+            try:
+                st.query_params.clear()
+            except Exception:
+                pass
             st.session_state.admin_logged_in = False
+            st.session_state.pop("adm_dark", None)
+            st.session_state["_clear_ls"] = True
             st.rerun()
 
     st.divider()
@@ -1577,14 +1655,6 @@ def _show_admin_dashboard():
         unsafe_allow_html=True,
     )
 
-
-# Restore session from URL token (survives browser refresh)
-if st.session_state.get("auth_user") is None:
-    _qt = st.query_params.get("s")
-    if _qt:
-        _restored = _load_token(_qt)
-        if _restored:
-            st.session_state.auth_user = _restored
 
 if st.session_state.get("admin_logged_in"):
     _show_admin_dashboard()
