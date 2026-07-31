@@ -972,11 +972,12 @@ def _show_admin_dashboard():
             height=0,
         )
 
-    # ── Theme (persisted in DB so it survives a full browser refresh) ─
+    # ── Theme: dark by default; persists across refresh via DB ─────────
     _ADMIN_PREFS_ID = "__admin__"
     if "adm_dark" not in st.session_state:
         try:
-            st.session_state.adm_dark = bool(svc.get_prefs(_ADMIN_PREFS_ID).get("dark_mode", True))
+            _adm_prefs = svc.get_prefs(_ADMIN_PREFS_ID)
+            st.session_state.adm_dark = bool(_adm_prefs.get("dark_mode", True))
         except Exception:
             st.session_state.adm_dark = True
     dark = st.session_state.adm_dark
@@ -1020,6 +1021,8 @@ def _show_admin_dashboard():
     [data-testid="stSidebar"] {{ display: none; }}
     [data-testid="stVerticalBlock"] {{ color: {TEXT}; }}
     p, span, label, div {{ color: inherit; }}
+    .stButton > button, .stButton > button * {{ color: {"#e2e8f0" if dark else "#111111"} !important; }}
+    .stButton > button:hover, .stButton > button:hover * {{ color: {"#ffffff" if dark else "#4c3fcc"} !important; }}
 
     .adm-hero {{
         display: flex; align-items: center; justify-content: space-between;
@@ -1183,17 +1186,31 @@ def _show_admin_dashboard():
 
     /* Buttons */
     .stButton > button {{
-        background: {CARD_BG} !important;
-        color: {TEXT} !important;
-        border: 1px solid {BORDER} !important;
+        background: {"linear-gradient(135deg, #1c2846 0%, #161f34 100%)" if dark else "#ffffff"} !important;
+        color: {"#e2e8f0" if dark else "#111111"} !important;
+        border: {"1px solid " + BORDER if dark else "2px solid rgba(100,110,200,.45)"} !important;
         border-radius: 10px !important;
+        font-weight: 700 !important;
+        letter-spacing: .01em !important;
+        box-shadow: {"0 2px 8px rgba(0,0,0,.22)" if dark else "0 3px 12px rgba(80,100,200,.18)"} !important;
         transition: all .2s ease !important;
+    }}
+    .stButton > button p,
+    .stButton > button span,
+    .stButton > button div {{
+        color: {"#e2e8f0" if dark else "#111111"} !important;
     }}
     .stButton > button:hover {{
         border-color: {ACCENT} !important;
-        color: {ACCENT2 if dark else ACCENT} !important;
-        box-shadow: 0 4px 14px {"rgba(124,108,246,.25)" if dark else "rgba(124,108,246,.18)"} !important;
-        transform: translateY(-1px);
+        color: {"#ffffff" if dark else "#4c3fcc"} !important;
+        box-shadow: 0 6px 20px {"rgba(124,108,246,.35)" if dark else "rgba(124,108,246,.28)"} !important;
+        transform: translateY(-2px) !important;
+        background: {"linear-gradient(135deg, #232f52 0%, #1a2540 100%)" if dark else "rgba(124,108,246,.08)"} !important;
+    }}
+    .stButton > button:hover p,
+    .stButton > button:hover span,
+    .stButton > button:hover div {{
+        color: {"#ffffff" if dark else "#4c3fcc"} !important;
     }}
     /* Selectbox / date input widgets (react-aria ComboBox + baseweb, depending on Streamlit version) */
     [data-testid="stSelectbox"] .react-aria-ComboBox > div,
