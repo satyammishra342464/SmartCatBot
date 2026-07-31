@@ -905,33 +905,202 @@ def _show_admin_dashboard():
     import numpy as np
     import pandas as pd
     import plotly.express as px
+    import plotly.graph_objects as go
     from sklearn.cluster import KMeans
     from sqlalchemy import create_engine, text as sql_text
 
-    st.set_page_config(page_title="SmartCAT Admin", page_icon="🛡️", layout="wide") if False else None
-
     cfg = get_settings()
 
-    # Header
-    st.markdown(
-        '<h1 style="margin-bottom:0">🛡️ SmartCAT Admin Dashboard</h1>'
-        '<p style="opacity:.6;margin-top:4px">Question topic analytics — who is asking what</p>',
-        unsafe_allow_html=True,
-    )
+    # ── Theme ────────────────────────────────────────────────────────
+    if "adm_dark" not in st.session_state:
+        st.session_state.adm_dark = True
+    dark = st.session_state.adm_dark
 
-    col_ref, col_out = st.columns([6, 1])
-    with col_out:
-        if st.button("🚪 Logout", type="secondary"):
-            st.session_state.admin_logged_in = False
+    BG       = "#0f172a" if dark else "#f8fafc"
+    CARD_BG  = "#1e293b" if dark else "#ffffff"
+    TEXT     = "#f1f5f9" if dark else "#0f172a"
+    SUBTEXT  = "#94a3b8" if dark else "#64748b"
+    BORDER   = "#334155" if dark else "#e2e8f0"
+    ACCENT   = "#6366f1"
+    ACCENT2  = "#22d3ee"
+    PLOTLY_T = "plotly_dark" if dark else "plotly_white"
+    PALETTE  = ["#6366f1","#22d3ee","#f59e0b","#10b981","#f43f5e","#a78bfa","#fb923c","#34d399"]
+
+    st.markdown(f"""
+    <style>
+    [data-testid="stAppViewContainer"], [data-testid="stMain"], .main {{
+        background: {BG} !important;
+    }}
+    [data-testid="stHeader"] {{
+        background: {BG} !important;
+    }}
+    [data-testid="stSidebar"] {{
+        display: none;
+    }}
+    [data-testid="stVerticalBlock"] {{ color: {TEXT}; }}
+    p, span, label, div {{ color: inherit; }}
+    .adm-title {{
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: {TEXT};
+        margin: 0;
+    }}
+    .adm-sub {{
+        color: {SUBTEXT};
+        font-size: 0.9rem;
+        margin-top: 4px;
+    }}
+    .kpi-card {{
+        background: {CARD_BG};
+        border: 1px solid {BORDER};
+        border-radius: 14px;
+        padding: 18px 20px;
+        text-align: center;
+        transition: transform .2s;
+        height: 108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }}
+    .kpi-card:hover {{ transform: translateY(-3px); }}
+    .kpi-val {{
+        font-size: 1.7rem;
+        font-weight: 800;
+        color: {ACCENT2 if dark else ACCENT};
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }}
+    .kpi-label {{
+        font-size: 0.72rem;
+        color: {SUBTEXT};
+        margin-top: 6px;
+        text-transform: uppercase;
+        letter-spacing: .06em;
+    }}
+    .chart-card {{
+        background: {CARD_BG};
+        border: 1px solid {BORDER};
+        border-radius: 14px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }}
+    .chart-title {{
+        font-size: 1rem;
+        font-weight: 700;
+        color: {TEXT};
+        margin-bottom: 4px;
+    }}
+    .chart-sub {{
+        font-size: 0.78rem;
+        color: {SUBTEXT};
+        margin-bottom: 16px;
+    }}
+    /* Buttons */
+    .stButton > button {{
+        background: {CARD_BG} !important;
+        color: {TEXT} !important;
+        border: 1px solid {BORDER} !important;
+        border-radius: 10px !important;
+    }}
+    .stButton > button:hover {{
+        border-color: {ACCENT} !important;
+        color: {ACCENT2 if dark else ACCENT} !important;
+    }}
+    /* Selectbox / date input widgets (react-aria ComboBox + baseweb, depending on Streamlit version) */
+    [data-testid="stSelectbox"] .react-aria-ComboBox > div,
+    [data-testid="stSelectbox"] div[data-baseweb="select"] > div,
+    [data-testid="stDateInput"] > div > div,
+    [data-testid="stDateInput"] div[data-baseweb="input"] > div {{
+        background: {CARD_BG} !important;
+        border-color: {BORDER} !important;
+    }}
+    [data-testid="stSelectbox"] input,
+    [data-testid="stDateInput"] input {{
+        background: transparent !important;
+        color: {TEXT} !important;
+    }}
+    [data-testid="stSelectbox"] svg, [data-testid="stDateInput"] svg {{
+        fill: {SUBTEXT} !important;
+        color: {SUBTEXT} !important;
+    }}
+    [data-baseweb="popover"] li, [data-baseweb="menu"] li,
+    [role="listbox"], [role="option"] {{
+        background: {CARD_BG} !important;
+        color: {TEXT} !important;
+    }}
+    [data-testid="stWidgetLabel"] p {{
+        color: {SUBTEXT} !important;
+    }}
+    /* Custom HTML table (question log) */
+    .adm-table-wrap {{
+        background: {CARD_BG};
+        border: 1px solid {BORDER};
+        border-radius: 14px;
+        overflow: auto;
+        max-height: 380px;
+    }}
+    table.adm-table {{
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.82rem;
+    }}
+    table.adm-table th {{
+        position: sticky; top: 0;
+        background: {CARD_BG};
+        color: {SUBTEXT};
+        text-align: left;
+        padding: 10px 14px;
+        border-bottom: 2px solid {BORDER};
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        letter-spacing: .05em;
+    }}
+    table.adm-table td {{
+        padding: 9px 14px;
+        border-bottom: 1px solid {BORDER};
+        color: {TEXT};
+        white-space: nowrap;
+    }}
+    table.adm-table td.wrap {{ white-space: normal; }}
+    table.adm-table tr:hover td {{
+        background: {"rgba(99,102,241,.08)" if dark else "rgba(99,102,241,.05)"};
+    }}
+    </style>
+    """, unsafe_allow_html=True)
+
+    # ── Header bar ───────────────────────────────────────────────────
+    h1, h2, h3, h4 = st.columns([5, 1, 1, 1])
+    with h1:
+        st.markdown(
+            f'<div style="padding:8px 0">'
+            f'<span style="font-size:1.6rem;font-weight:800;color:{TEXT}">🛡️ SmartCAT Admin</span>'
+            f'<span style="font-size:.85rem;color:{SUBTEXT};margin-left:12px">Question Analytics Dashboard</span>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+    with h2:
+        st.write("")
+        theme_label = "☀️ Light" if dark else "🌙 Dark"
+        if st.button(theme_label, use_container_width=True):
+            st.session_state.adm_dark = not dark
             st.rerun()
-    with col_ref:
-        if st.button("🔄 Refresh Data"):
+    with h3:
+        st.write("")
+        if st.button("🔄 Refresh", use_container_width=True):
             st.cache_data.clear()
+            st.rerun()
+    with h4:
+        st.write("")
+        if st.button("🚪 Logout", use_container_width=True):
+            st.session_state.admin_logged_in = False
             st.rerun()
 
     st.divider()
 
-    # ── Load data from Neon ──────────────────────────────────────────
+    # ── Data functions ───────────────────────────────────────────────
     @st.cache_data(ttl=300)
     def _load_qa():
         engine = create_engine(cfg.database_url)
@@ -940,13 +1109,14 @@ def _show_admin_dashboard():
                 sql_text("SELECT id, user_id, ts, question FROM qa_log ORDER BY ts DESC"),
                 conn,
             )
-        df["ts"]   = pd.to_datetime(df["ts"])
+        df["ts"]   = pd.to_datetime(df["ts"], unit="s")
         df["date"] = df["ts"].dt.date
+        df["hour"] = df["ts"].dt.hour
         return df
 
     @st.cache_data(ttl=3600, show_spinner=False)
     def _embed_qs(qs: tuple) -> np.ndarray:
-        import core  # truststore
+        import core
         from google import genai
         from google.genai import types
         client = genai.Client(api_key=cfg.api_key)
@@ -982,7 +1152,7 @@ def _show_admin_dashboard():
             return df
         k = min(6, len(df))
         qs = tuple(df["question"].tolist())
-        with st.spinner("Analysing question topics…"):
+        with st.spinner("🔍 Clustering questions into topics…"):
             vecs = _embed_qs(qs)
         norms = np.linalg.norm(vecs, axis=1, keepdims=True)
         vecs_n = vecs / np.where(norms == 0, 1, norms)
@@ -996,24 +1166,42 @@ def _show_admin_dashboard():
         df["topic"] = df["cluster_id"].map(labels)
         return df
 
+    def _styled(fig, height=380):
+        fig.update_layout(
+            template=PLOTLY_T,
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            font=dict(family="Inter, system-ui, sans-serif", color=TEXT),
+            height=height,
+            margin=dict(l=16, r=16, t=24, b=16),
+            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11)),
+            xaxis=dict(gridcolor=BORDER, linecolor=BORDER),
+            yaxis=dict(gridcolor=BORDER, linecolor=BORDER),
+        )
+        return fig
+
+    # ── Load ─────────────────────────────────────────────────────────
     df_raw = _load_qa()
     if df_raw.empty:
         st.warning("No questions in qa_log yet.")
         return
-
     df = _cluster(df_raw)
 
-    # ── Filters ─────────────────────────────────────────────────────
-    f1, f2, f3 = st.columns(3)
-    with f1:
-        users  = ["All Users"]  + sorted(df["user_id"].dropna().unique().tolist())
-        sel_u  = st.selectbox("👤 User", users)
-    with f2:
-        topics = ["All Topics"] + sorted(df["topic"].unique().tolist())
-        sel_t  = st.selectbox("🏷️ Topic", topics)
-    with f3:
-        dates = sorted(df["date"].unique())
-        dr = st.date_input("📅 Date Range", value=(dates[0], dates[-1]) if len(dates) >= 2 else (dates[0], dates[0]))
+    # ── Filters ──────────────────────────────────────────────────────
+    with st.container():
+        f1, f2, f3 = st.columns(3)
+        with f1:
+            users = ["All Users"] + sorted(df["user_id"].dropna().unique().tolist())
+            sel_u = st.selectbox("👤 Filter by User", users)
+        with f2:
+            topics = ["All Topics"] + sorted(df["topic"].unique().tolist())
+            sel_t  = st.selectbox("🏷️ Filter by Topic", topics)
+        with f3:
+            dates = sorted(df["date"].unique())
+            dr = st.date_input(
+                "📅 Date Range",
+                value=(dates[0], dates[-1]) if len(dates) >= 2 else (dates[0], dates[0]),
+            )
 
     dff = df.copy()
     if sel_u != "All Users":  dff = dff[dff["user_id"] == sel_u]
@@ -1021,72 +1209,143 @@ def _show_admin_dashboard():
     if dr and len(dr) == 2:
         dff = dff[(dff["date"] >= dr[0]) & (dff["date"] <= dr[1])]
 
-    # ── KPI cards ───────────────────────────────────────────────────
+    # ── KPI Cards ────────────────────────────────────────────────────
     st.divider()
-    k1, k2, k3, k4 = st.columns(4)
-    k1.metric("📨 Total Questions",  len(dff))
-    k2.metric("👥 Unique Users",     dff["user_id"].nunique())
-    k3.metric("🏷️ Topics Found",     dff["topic"].nunique())
-    k4.metric("🏆 Most Active User", dff["user_id"].value_counts().idxmax() if not dff.empty else "—")
+    top_user  = dff["user_id"].value_counts().idxmax() if not dff.empty else "—"
+    top_topic = dff["topic"].value_counts().idxmax()   if not dff.empty else "—"
+
+    def _kpi_html(label, val):
+        return (
+            f'<div class="kpi-card"><div class="kpi-val" title="{val}">{val}</div>'
+            f'<div class="kpi-label">{label}</div></div>'
+        )
+
+    k1, k2, k3, k4, k5 = st.columns(5)
+    with k1: st.markdown(_kpi_html("📨 Total Questions",  len(dff)),                unsafe_allow_html=True)
+    with k2: st.markdown(_kpi_html("👥 Unique Users",     dff["user_id"].nunique()), unsafe_allow_html=True)
+    with k3: st.markdown(_kpi_html("🏷️ Topics Found",     dff["topic"].nunique()),   unsafe_allow_html=True)
+    with k4: st.markdown(_kpi_html("🏆 Most Active User", top_user),                 unsafe_allow_html=True)
+    with k5: st.markdown(_kpi_html("🔥 Top Topic",        top_topic),                unsafe_allow_html=True)
 
     st.divider()
 
-    # ── Charts row 1 ────────────────────────────────────────────────
+    # ── Row 1: Donut + Horizontal bar ────────────────────────────────
     c1, c2 = st.columns(2)
+
     with c1:
-        st.subheader("📊 Questions by Topic")
+        st.markdown(f'<div class="chart-title">🍩 Topic Distribution</div><div class="chart-sub">Share of questions per topic</div>', unsafe_allow_html=True)
         tc = dff.groupby("topic").size().reset_index(name="count").sort_values("count", ascending=False)
-        fig1 = px.bar(tc, x="topic", y="count", color="topic",
-                      color_discrete_sequence=px.colors.qualitative.Set2,
-                      labels={"topic": "Topic", "count": "Questions"})
-        fig1.update_layout(showlegend=False, xaxis_tickangle=-30, margin=dict(t=10))
-        st.plotly_chart(fig1, use_container_width=True)
+        fig1 = go.Figure(go.Pie(
+            labels=tc["topic"], values=tc["count"],
+            hole=0.6, marker=dict(colors=PALETTE, line=dict(color=CARD_BG, width=2)),
+            textinfo="none",
+            hovertemplate="<b>%{label}</b><br>Questions: %{value}<br>Share: %{percent}<extra></extra>",
+        ))
+        fig1.update_layout(
+            showlegend=True,
+            legend=dict(
+                orientation="h", x=0.5, xanchor="center", y=-0.15,
+                bgcolor="rgba(0,0,0,0)", font=dict(size=10, color=TEXT),
+            ),
+            annotations=[dict(text=f"<b>{len(dff)}</b><br>total", x=0.5, y=0.5, font_size=16, font_color=TEXT, showarrow=False)],
+        )
+        st.plotly_chart(_styled(fig1, height=420), use_container_width=True)
 
     with c2:
-        st.subheader("👤 Questions per User")
-        uc = dff.groupby("user_id").size().reset_index(name="count").sort_values("count", ascending=False).head(10)
-        fig2 = px.bar(uc, x="user_id", y="count", color="user_id",
-                      color_discrete_sequence=px.colors.qualitative.Pastel,
-                      labels={"user_id": "User", "count": "Questions"})
-        fig2.update_layout(showlegend=False, xaxis_tickangle=-30, margin=dict(t=10))
-        st.plotly_chart(fig2, use_container_width=True)
+        st.markdown(f'<div class="chart-title">👤 Top Users by Activity</div><div class="chart-sub">Who asks the most questions</div>', unsafe_allow_html=True)
+        uc = dff.groupby("user_id").size().reset_index(name="count").sort_values("count").tail(10)
+        fig2 = go.Figure(go.Bar(
+            x=uc["count"], y=uc["user_id"],
+            orientation="h",
+            marker=dict(
+                color=uc["count"],
+                colorscale=[[0, "#312e81"], [0.5, ACCENT], [1, ACCENT2]],
+                showscale=False,
+            ),
+            text=uc["count"], textposition="outside",
+            hovertemplate="<b>%{y}</b><br>Questions: %{x}<extra></extra>",
+        ))
+        fig2.update_layout(
+            xaxis_title="Questions", yaxis_title="",
+            margin=dict(l=10, r=30, t=24, b=16),
+        )
+        st.plotly_chart(_styled(fig2, height=420), use_container_width=True)
 
-    # ── Heatmap ──────────────────────────────────────────────────────
-    st.subheader("🔥 User × Topic Heatmap")
+    # ── Row 2: Heatmap ───────────────────────────────────────────────
+    st.markdown(f'<div class="chart-title">🔥 User × Topic Heatmap</div><div class="chart-sub">Darker = more questions on that topic by that user</div>', unsafe_allow_html=True)
     heat = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
     if not heat.empty:
         pivot = heat.pivot(index="user_id", columns="topic", values="count").fillna(0)
-        fig3  = px.imshow(pivot, aspect="auto", color_continuous_scale="Blues",
-                          labels=dict(x="Topic", y="User", color="Questions"), text_auto=True)
-        fig3.update_layout(height=max(300, len(pivot) * 45), margin=dict(t=10))
-        st.plotly_chart(fig3, use_container_width=True)
+        fig3 = go.Figure(go.Heatmap(
+            z=pivot.values,
+            x=pivot.columns.tolist(),
+            y=pivot.index.tolist(),
+            colorscale=[[0,"rgba(99,102,241,0.05)"],[0.5,ACCENT],[1,ACCENT2]],
+            text=pivot.values.astype(int),
+            texttemplate="%{text}",
+            hovertemplate="<b>%{y}</b> asked about <b>%{x}</b><br>%{z} questions<extra></extra>",
+        ))
+        fig3.update_layout(xaxis_tickangle=-25, margin=dict(l=10, r=10, t=24, b=80))
+        st.plotly_chart(_styled(fig3, height=max(320, len(pivot) * 60)), use_container_width=True)
 
-    # ── Stacked bar — per user topic breakdown ───────────────────────
-    st.subheader("🔍 Per-User Topic Breakdown")
-    ut = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
-    if not ut.empty:
-        fig4 = px.bar(ut, x="user_id", y="count", color="topic", barmode="stack",
-                      color_discrete_sequence=px.colors.qualitative.Vivid,
-                      labels={"user_id": "User", "count": "Questions", "topic": "Topic"})
-        fig4.update_layout(xaxis_tickangle=-30, margin=dict(t=10))
-        st.plotly_chart(fig4, use_container_width=True)
+    # ── Row 3: Stacked bar + Timeline ────────────────────────────────
+    c3, c4 = st.columns(2)
 
-    # ── Timeline ─────────────────────────────────────────────────────
-    st.subheader("📅 Questions Over Time")
-    tl = dff.groupby(["date", "topic"]).size().reset_index(name="count")
-    if not tl.empty:
-        fig5 = px.line(tl, x="date", y="count", color="topic", markers=True,
-                       color_discrete_sequence=px.colors.qualitative.Set1,
-                       labels={"date": "Date", "count": "Questions", "topic": "Topic"})
-        fig5.update_layout(margin=dict(t=10))
-        st.plotly_chart(fig5, use_container_width=True)
+    with c3:
+        st.markdown(f'<div class="chart-title">📊 Per-User Topic Breakdown</div><div class="chart-sub">Stacked topics per user</div>', unsafe_allow_html=True)
+        ut = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
+        if not ut.empty:
+            fig4 = px.bar(ut, x="user_id", y="count", color="topic", barmode="stack",
+                          color_discrete_sequence=PALETTE,
+                          labels={"user_id": "User", "count": "Questions", "topic": "Topic"})
+            fig4.update_traces(
+                hovertemplate="<b>%{x}</b><br>Questions: %{y}<extra></extra>"
+            )
+            fig4.update_layout(xaxis_tickangle=-20, legend=dict(font=dict(size=10)), margin=dict(l=10, r=10, t=24, b=80))
+            st.plotly_chart(_styled(fig4), use_container_width=True)
+
+    with c4:
+        st.markdown(f'<div class="chart-title">📅 Questions Over Time</div><div class="chart-sub">Daily question volume by topic</div>', unsafe_allow_html=True)
+        tl = dff.groupby(["date", "topic"]).size().reset_index(name="count")
+        if not tl.empty:
+            fig5 = px.area(tl, x="date", y="count", color="topic",
+                           color_discrete_sequence=PALETTE,
+                           labels={"date": "Date", "count": "Questions", "topic": "Topic"})
+            fig5.update_traces(line=dict(width=2))
+            fig5.update_layout(legend=dict(font=dict(size=10)))
+            st.plotly_chart(_styled(fig5), use_container_width=True)
+
+    # ── Row 4: Hour-of-day activity ──────────────────────────────────
+    st.markdown(f'<div class="chart-title">🕐 Activity by Hour of Day</div><div class="chart-sub">When are users most active?</div>', unsafe_allow_html=True)
+    if "hour" in dff.columns:
+        hr = dff.groupby("hour").size().reset_index(name="count")
+        fig6 = go.Figure(go.Bar(
+            x=hr["hour"], y=hr["count"],
+            marker=dict(
+                color=hr["count"],
+                colorscale=[[0,"#312e81"],[0.5,ACCENT],[1,ACCENT2]],
+            ),
+            hovertemplate="Hour %{x}:00 — %{y} questions<extra></extra>",
+        ))
+        fig6.update_layout(xaxis=dict(tickmode="linear", tick0=0, dtick=1, title="Hour (24h)"), yaxis_title="Questions")
+        st.plotly_chart(_styled(fig6, height=280), use_container_width=True)
 
     # ── Raw log ──────────────────────────────────────────────────────
     st.divider()
-    st.subheader("📋 Full Question Log")
-    st.dataframe(
-        dff[["ts", "user_id", "topic", "question"]].sort_values("ts", ascending=False).reset_index(drop=True),
-        use_container_width=True, height=320,
+    st.markdown(f'<div class="chart-title">📋 Full Question Log</div><div class="chart-sub">Most recent questions first</div>', unsafe_allow_html=True)
+    display_df = dff[["ts", "user_id", "topic", "question"]].sort_values("ts", ascending=False).reset_index(drop=True)
+
+    import html as _html
+    rows = "".join(
+        f"<tr><td>{r.ts:%Y-%m-%d %H:%M}</td><td>{_html.escape(str(r.user_id))}</td>"
+        f"<td>{_html.escape(str(r.topic))}</td><td class='wrap'>{_html.escape(str(r.question))}</td></tr>"
+        for r in display_df.itertuples()
+    )
+    st.markdown(
+        f'<div class="adm-table-wrap"><table class="adm-table">'
+        f'<thead><tr><th>Timestamp</th><th>User</th><th>Topic</th><th>Question</th></tr></thead>'
+        f'<tbody>{rows}</tbody></table></div>',
+        unsafe_allow_html=True,
     )
 
 
