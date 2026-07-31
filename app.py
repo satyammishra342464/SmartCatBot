@@ -830,7 +830,7 @@ def _show_auth_page() -> None:
         if BOOT.get("error"):
             st.error(BOOT["error"])
 
-        tab_login, tab_signup = st.tabs(["🔐  Login", "✨  Sign Up"])
+        tab_login, tab_signup, tab_admin = st.tabs(["🔐  Login", "✨  Sign Up", "🛡️  Admin"])
 
         with tab_login:
             with st.form("login_form", border=False):
@@ -856,6 +856,20 @@ def _show_auth_page() -> None:
             with _fc2:
                 if st.button("Forgotten password?", key="btn_forgot"):
                     _dialog_forgot_password()
+
+        with tab_admin:
+            with st.form("admin_form", border=False):
+                adm_email = st.text_input("Admin Email", placeholder="admin@example.com", key="adm_email")
+                adm_pw    = st.text_input("Admin Password", type="password", key="adm_pw")
+                adm_btn   = st.form_submit_button("Login as Admin", use_container_width=True, type="primary")
+            if adm_btn:
+                _ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "satyam.mishra2@exlservice.com")
+                _ADMIN_PW    = os.getenv("ADMIN_PASSWORD", "smartcat@admin123")
+                if adm_email == _ADMIN_EMAIL and adm_pw == _ADMIN_PW:
+                    st.session_state.admin_logged_in = True
+                    st.rerun()
+                else:
+                    st.error("Invalid admin credentials.")
 
         with tab_signup:
             with st.form("signup_form", border=False):
@@ -886,6 +900,195 @@ def _show_auth_page() -> None:
                         st.error("This email is already registered — please log in.")
 
 
+# ------------------------------------------------------------------ admin dashboard
+def _show_admin_dashboard():
+    import numpy as np
+    import pandas as pd
+    import plotly.express as px
+    from sklearn.cluster import KMeans
+    from sqlalchemy import create_engine, text as sql_text
+
+    st.set_page_config(page_title="SmartCAT Admin", page_icon="🛡️", layout="wide") if False else None
+
+    cfg = get_settings()
+
+    # Header
+    st.markdown(
+        '<h1 style="margin-bottom:0">🛡️ SmartCAT Admin Dashboard</h1>'
+        '<p style="opacity:.6;margin-top:4px">Question topic analytics — who is asking what</p>',
+        unsafe_allow_html=True,
+    )
+
+    col_ref, col_out = st.columns([6, 1])
+    with col_out:
+        if st.button("🚪 Logout", type="secondary"):
+            st.session_state.admin_logged_in = False
+            st.rerun()
+    with col_ref:
+        if st.button("🔄 Refresh Data"):
+            st.cache_data.clear()
+            st.rerun()
+
+    st.divider()
+
+    # ── Load data from Neon ──────────────────────────────────────────
+    @st.cache_data(ttl=300)
+    def _load_qa():
+        engine = create_engine(cfg.database_url)
+        with engine.connect() as conn:
+            df = pd.read_sql(
+                sql_text("SELECT id, user_id, ts, question FROM qa_log ORDER BY ts DESC"),
+                conn,
+            )
+        df["ts"]   = pd.to_datetime(df["ts"])
+        df["date"] = df["ts"].dt.date
+        return df
+
+    @st.cache_data(ttl=3600, show_spinner=False)
+    def _embed_qs(qs: tuple) -> np.ndarray:
+        import core  # truststore
+        from google import genai
+        from google.genai import types
+        client = genai.Client(api_key=cfg.api_key)
+        vecs, batch = [], 50
+        for i in range(0, len(qs), batch):
+            chunk = list(qs[i:i+batch])
+            resp = client.models.embed_content(
+                model=cfg.gemini_embed_model,
+                contents=[types.Content(parts=[types.Part.from_text(text=q)]) for q in chunk],
+                config=types.EmbedContentConfig(task_type="CLUSTERING"),
+            )
+            vecs.extend(list(e.values) for e in resp.embeddings)
+        return np.array(vecs)
+
+    @st.cache_data(ttl=3600, show_spinner=False)
+    def _label_cluster(sample: tuple) -> str:
+        import core
+        from google import genai
+        client = genai.Client(api_key=cfg.api_key)
+        qs = "\n".join(f"- {q}" for q in sample[:8])
+        resp = client.models.generate_content(
+            model=cfg.gemini_model,
+            contents=(
+                f"These are questions from an insurance CAT modelling chatbot:\n{qs}\n\n"
+                "Give a short topic label (2-4 words). Reply with ONLY the label."
+            ),
+        )
+        return resp.text.strip()
+
+    @st.cache_data(ttl=3600)
+    def _cluster(df: pd.DataFrame) -> pd.DataFrame:
+        if df.empty:
+            return df
+        k = min(6, len(df))
+        qs = tuple(df["question"].tolist())
+        with st.spinner("Analysing question topics…"):
+            vecs = _embed_qs(qs)
+        norms = np.linalg.norm(vecs, axis=1, keepdims=True)
+        vecs_n = vecs / np.where(norms == 0, 1, norms)
+        km = KMeans(n_clusters=k, random_state=42, n_init=10)
+        df = df.copy()
+        df["cluster_id"] = km.fit_predict(vecs_n)
+        labels = {}
+        for cid in range(k):
+            sample = tuple(df[df["cluster_id"] == cid]["question"].tolist()[:8])
+            labels[cid] = _label_cluster(sample)
+        df["topic"] = df["cluster_id"].map(labels)
+        return df
+
+    df_raw = _load_qa()
+    if df_raw.empty:
+        st.warning("No questions in qa_log yet.")
+        return
+
+    df = _cluster(df_raw)
+
+    # ── Filters ─────────────────────────────────────────────────────
+    f1, f2, f3 = st.columns(3)
+    with f1:
+        users  = ["All Users"]  + sorted(df["user_id"].dropna().unique().tolist())
+        sel_u  = st.selectbox("👤 User", users)
+    with f2:
+        topics = ["All Topics"] + sorted(df["topic"].unique().tolist())
+        sel_t  = st.selectbox("🏷️ Topic", topics)
+    with f3:
+        dates = sorted(df["date"].unique())
+        dr = st.date_input("📅 Date Range", value=(dates[0], dates[-1]) if len(dates) >= 2 else (dates[0], dates[0]))
+
+    dff = df.copy()
+    if sel_u != "All Users":  dff = dff[dff["user_id"] == sel_u]
+    if sel_t != "All Topics": dff = dff[dff["topic"]   == sel_t]
+    if dr and len(dr) == 2:
+        dff = dff[(dff["date"] >= dr[0]) & (dff["date"] <= dr[1])]
+
+    # ── KPI cards ───────────────────────────────────────────────────
+    st.divider()
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("📨 Total Questions",  len(dff))
+    k2.metric("👥 Unique Users",     dff["user_id"].nunique())
+    k3.metric("🏷️ Topics Found",     dff["topic"].nunique())
+    k4.metric("🏆 Most Active User", dff["user_id"].value_counts().idxmax() if not dff.empty else "—")
+
+    st.divider()
+
+    # ── Charts row 1 ────────────────────────────────────────────────
+    c1, c2 = st.columns(2)
+    with c1:
+        st.subheader("📊 Questions by Topic")
+        tc = dff.groupby("topic").size().reset_index(name="count").sort_values("count", ascending=False)
+        fig1 = px.bar(tc, x="topic", y="count", color="topic",
+                      color_discrete_sequence=px.colors.qualitative.Set2,
+                      labels={"topic": "Topic", "count": "Questions"})
+        fig1.update_layout(showlegend=False, xaxis_tickangle=-30, margin=dict(t=10))
+        st.plotly_chart(fig1, use_container_width=True)
+
+    with c2:
+        st.subheader("👤 Questions per User")
+        uc = dff.groupby("user_id").size().reset_index(name="count").sort_values("count", ascending=False).head(10)
+        fig2 = px.bar(uc, x="user_id", y="count", color="user_id",
+                      color_discrete_sequence=px.colors.qualitative.Pastel,
+                      labels={"user_id": "User", "count": "Questions"})
+        fig2.update_layout(showlegend=False, xaxis_tickangle=-30, margin=dict(t=10))
+        st.plotly_chart(fig2, use_container_width=True)
+
+    # ── Heatmap ──────────────────────────────────────────────────────
+    st.subheader("🔥 User × Topic Heatmap")
+    heat = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
+    if not heat.empty:
+        pivot = heat.pivot(index="user_id", columns="topic", values="count").fillna(0)
+        fig3  = px.imshow(pivot, aspect="auto", color_continuous_scale="Blues",
+                          labels=dict(x="Topic", y="User", color="Questions"), text_auto=True)
+        fig3.update_layout(height=max(300, len(pivot) * 45), margin=dict(t=10))
+        st.plotly_chart(fig3, use_container_width=True)
+
+    # ── Stacked bar — per user topic breakdown ───────────────────────
+    st.subheader("🔍 Per-User Topic Breakdown")
+    ut = dff.groupby(["user_id", "topic"]).size().reset_index(name="count")
+    if not ut.empty:
+        fig4 = px.bar(ut, x="user_id", y="count", color="topic", barmode="stack",
+                      color_discrete_sequence=px.colors.qualitative.Vivid,
+                      labels={"user_id": "User", "count": "Questions", "topic": "Topic"})
+        fig4.update_layout(xaxis_tickangle=-30, margin=dict(t=10))
+        st.plotly_chart(fig4, use_container_width=True)
+
+    # ── Timeline ─────────────────────────────────────────────────────
+    st.subheader("📅 Questions Over Time")
+    tl = dff.groupby(["date", "topic"]).size().reset_index(name="count")
+    if not tl.empty:
+        fig5 = px.line(tl, x="date", y="count", color="topic", markers=True,
+                       color_discrete_sequence=px.colors.qualitative.Set1,
+                       labels={"date": "Date", "count": "Questions", "topic": "Topic"})
+        fig5.update_layout(margin=dict(t=10))
+        st.plotly_chart(fig5, use_container_width=True)
+
+    # ── Raw log ──────────────────────────────────────────────────────
+    st.divider()
+    st.subheader("📋 Full Question Log")
+    st.dataframe(
+        dff[["ts", "user_id", "topic", "question"]].sort_values("ts", ascending=False).reset_index(drop=True),
+        use_container_width=True, height=320,
+    )
+
 
 # Restore session from URL token (survives browser refresh)
 if st.session_state.get("auth_user") is None:
@@ -894,6 +1097,10 @@ if st.session_state.get("auth_user") is None:
         _restored = _load_token(_qt)
         if _restored:
             st.session_state.auth_user = _restored
+
+if st.session_state.get("admin_logged_in"):
+    _show_admin_dashboard()
+    st.stop()
 
 if st.session_state.get("auth_user") is None:
     _show_auth_page()
